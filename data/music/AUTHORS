@@ -1,0 +1,39 @@
+This file list the authors and contributors for each file in this
+directory. For each file, the authors are sorted from the initial
+author to the most recent contribution. Files with the same authors
+are grouped.
+
+LIST OF AUTHORS
+
+Florian Massuyeau <mudvable@caramail.com>
+Julien Jorge <julien.jorge@gamned.org>
+
+FILES
+
+castle.mid
+castle.ogg
+castle.rg
+forest-1.mid
+forest-1.ogg
+quick-end.mid
+quick-end.ogg
+quick-end.tg
+  Florian Massuyeau
+
+bonus.mid
+bonus.ogg
+bonus.tg
+boss.mid
+boss.ogg
+boss.tg
+game-over.mid
+game-over.ogg
+game-over.tg
+invincibility.mid
+invincibility.ogg
+invincibility.tg
+title-screen.mid
+title-screen.ogg
+title-screen.tg
+  Julien Jorge
+

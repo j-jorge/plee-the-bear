@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<item xmlns="http://www.gamned.org/bear/schema/0.5" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gamned.org/bear/schema/0.5 http://www.gamned.org/bear/schema/0.5/item-description.xsd" class="ptb::projectile_enemy_zone" category="enemy" box_color="#C2375A" url="http://www.gamned.org/wiki/index.php/projectile_enemy_zone">
+  <inherit>
+    <class>bear::base_item</class>
+    <class>bear::basic_renderable_item</class>
+  </inherit>
+  <description>The class describing a object when a player speak when a player go in the zone.</description>
+  <fields>
+    <field type="string" name="projectile_enemy_zone.projectile_model" required="true">
+      <description>The model of the projectile.</description>
+    </field>
+    <field type="animation" name="projectile_enemy_zone.animation" required="true">
+      <description>the animation of the projectile creation.</description>
+    </field>
+    <field type="u_integer" name="projectile_enemy_zone.projectile_number">
+      <description>The number of projectile. If 0, the number is infinity.</description>
+      <default_value>0</default_value>
+    </field>
+  </fields>
+</item>

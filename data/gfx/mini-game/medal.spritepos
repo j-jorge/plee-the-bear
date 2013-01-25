@@ -1,0 +1,7 @@
+# The format of the lines is
+# picture: x y width height
+
+none: 0 0 128 128
+gold: 128 0 128 128
+silver: 0 128 128 128
+bronze: 128 128 128 128

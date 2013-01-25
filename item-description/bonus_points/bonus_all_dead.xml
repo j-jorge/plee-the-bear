@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<item xmlns="http://www.gamned.org/bear/schema/0.5" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gamned.org/bear/schema/0.5 http://www.gamned.org/bear/schema/0.5/item-description.xsd" class="ptb::bonus_all_dead" category="bonus_points" fixable="false" url="http://www.gamned.org/wiki/index.php/bonus_all_dead">
+  <inherit>
+    <class>ptb::bonus_points</class>
+  </inherit>
+  <fields>
+    <field type="item_reference" name="bonus_all_dead.class_instances"
+	   list="true">
+      <description>Some instances of the classes for which the items are
+	counted.</description>
+    </field>
+  </fields>
+</item>

@@ -1,0 +1,8 @@
+# The format of the lines is
+# picture: x y width height
+
+spike: 12 12 20 20
+corner: 0 0 12 12
+horizontal border: 12 0 20 12
+vertical border: 0 12 12 20
+

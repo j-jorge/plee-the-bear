@@ -1,0 +1,52 @@
+%_______________________________________________________________________________
+\section{Rendu sonore, sons et environnement}
+
+\index{son|see{audio}}
+\index{musique|see{audio}}
+
+\subsection{L'espace de noms audio \index{audio!espace de noms} }
+
+Tout ce qui se rapporte au rendu sonore est dans l'espace de noms
+\texttt{audio}. L'environnement doit être initialisé en écrivant :
+\begin{verbatim}
+    audio::sound::initialize();
+\end{verbatim}
+puis fermé en écrivant :
+\begin{verbatim}
+    audio::sound::release();
+\end{verbatim}
+
+\subsubsection{Les sons \index{audio!son} }
+Les sons sont représentés par la classe \verb|audio::sound|. Elle possède quatre
+méthodes de lecture, permettant de contrôler l'effect appliqué et l'origine du
+son. Un son peut être joué plusieurs fois simultanément. Cependant, il n'y a
+presque aucun contrôle lors d'un arrêt explicite du son. Un appel à
+\texttt{stop()} arrête la plus ancienne lecture. Les sons doivent être associés
+à un gestionnaire de sons lors de leur construction. Les fichiers utilisés sont
+de type wave.
+
+\subsubsection{Les musiques \index{audio!musique} }
+Les musiques sont représentées par la class \verb|audio::music|. Il ne peut y
+avoir qu'une seule musique jouée à un instant donné. Les fichiers utilisés
+peuvent être de n'importe quel type audio, on préférera cependant le format
+\emph{Ogg Vorbis}.
+
+\subsubsection{Les effets \index{audio!effet} }
+La classe \verb|audio::sound_effect| offre un certain contrôle sur la façon dont
+sont joués les sons. Pour l'instant, les seuls paramètres contrôlables sont
+le volume et le nombre de lectures.
+
+\subsection{Gestion des ressources sonores \index{ressource!gestionnaire de
+            sons} \index{ressource!musique} }
+De la même manière que pour les images, on distingue deux types de sons et de
+musiques : ceux locaux à un niveau et ceux
+présents dans tout le jeu. Pour simplifier l'utilisation de ces ressources, on
+utilise le singleton \verb|ptb::sound_manager|.
+Celui-ci propose deux méthodes d'ajouts pour chaque ressource, selon qu'elle
+soit globale ou pas, mais une seule méthode d'accès, masquant ainsi la
+globalité de la ressource.
+
+De plus, le gestionnaire de sons a une méthode permettant de positionner les
+<<~oreilles~>> du joueur dans le niveau, afin d'avoir un effet d'estompement
+\index{audio!effet!estompement} des sons en fonction de la distance du joueur à
+la source.

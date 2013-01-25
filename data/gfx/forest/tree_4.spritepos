@@ -1,0 +1,12 @@
+# The format of the lines is
+# picture: x y width height
+
+background of the hollow trunk (left): 375 0 64 240
+background of the hollow trunk (right): 442 0 70 240
+branch: 180 0 189 130
+grass: 180 184 50 48
+mushroom: 180 130 50 54
+shrub: 230 130 100 119
+trunk: 0 0 180 256
+leaf: 180 234 9 10
+

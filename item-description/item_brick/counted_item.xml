@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<item xmlns="http://www.gamned.org/bear/schema/0.5" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gamned.org/bear/schema/0.5 http://www.gamned.org/bear/schema/0.5/item-description.xsd" class="ptb::counted_item" category="-abstract-" url="http://www.gamned.org/wiki/index.php/counted_item">
+  <fields>
+    <field type="boolean" name="counted_item.bonus_item">
+      <description>Indicates if the item must be added in carnage counter.</description>
+      <default_value>true</default_value>
+    </field>
+    <field type="boolean" name="counted_item.counted_when_dying">
+      <description>Indicates if the item must be counted when it dies.</description>
+      <default_value>false</default_value>
+    </field>
+  </fields>
+</item>

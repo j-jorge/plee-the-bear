@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation loops='0' first_index='0' last_index='3' loop_back='false' auto_size='true' width='192' height='190' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'>
+  <frame duration='0.1'>
+    <sprite image='gfx/effect/ground-blast.png' x='0' y='0' clip_width='192' clip_height='190' spritepos='middle 1' auto_size='true' width='192' height='190' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.1'>
+    <sprite image='gfx/effect/ground-blast.png' x='256' y='0' clip_width='192' clip_height='190' spritepos='middle 2' auto_size='true' width='192' height='190' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.1'>
+    <sprite image='gfx/effect/ground-blast.png' x='0' y='190' clip_width='192' clip_height='190' spritepos='middle 3' auto_size='true' width='192' height='190' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.1'>
+    <sprite image='gfx/effect/ground-blast.png' x='256' y='190' clip_width='192' clip_height='190' spritepos='middle 4' auto_size='true' width='192' height='190' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+</animation>

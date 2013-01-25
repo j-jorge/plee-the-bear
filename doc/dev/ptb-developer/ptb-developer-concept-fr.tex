@@ -1,0 +1,73 @@
+%_______________________________________________________________________________
+\section{Classes conceptuelles \index{concept!espace de noms} }
+
+\subsection{L'espace de noms concept \index{concept!espace de
+            noms} }
+Toutes les classes génériques sont dans l'espace de noms \texttt{concept}.
+
+\subsubsection{Les classes contenant une collection d'objets
+               \index{concept!item container \emph{(classe)}} }
+Il y a dans ce jeu des classes contenant une collection d'objets et
+appliquant de temps en temps la même méthode à tous ces
+objets. En général ce genre de classe a pour seul but d'effectuer une
+tâche comme :
+  \begin{center}
+  \begin{algorithmic}
+    \FORALL{item in my\_collection}
+    \STATE{item->do\_something()}
+    \ENDFOR
+  \end{algorithmic}
+  \end{center}
+Le problème est qu'il se peut que la méthode \texttt{do\_something}
+supprime un des objets contenus et poser des problèmes dans le parcours
+de la liste.
+
+Pour éviter ce genre de problèmes, la classe
+\verb|concept::item_container| propose une solution. Cette classe
+garantie à toute héritière qu'elle n'aura pas d'ajout ou de
+suppression d'item pendant son traitement, sous les conditions
+suivantes :
+
+\begin{itemize}
+\item la classe contenante doit appeler sa méthode \texttt{lock} au
+      début du traitement et la méthode \texttt{unlock} à la fin ;
+\item les items s'annoncent à la classe contenante via la méthode
+      \texttt{register\_item} et annoncent leur départ via la méthode
+      \texttt{release\_item} ;
+\end{itemize}
+
+Les items ajoutés ou retirés pendant le traitement de la classe
+contenante ne sont alors effectivement ajoutés ou retirés que lors de
+l'appel à la méthode \texttt{unlock}.
+\paragraph{Attention :} aucun des items contenus ne devrait être supprimé de la
+mémoire (appel à \texttt{delete}) pendant la boucle.
+
+\subsubsection{Les classes positionnant des objets dans une table à deux
+               dimensions \index{concept!static map \emph{(classe)}} }
+\label{section-concept-static_map}
+
+Il faut quelquefois positioner un petit nombre d'objets (petit par rapport à la
+taille de l'espace) dans un grand espace en deux dimensions. Par exemple, il
+faut placer les décorations, les murs dans une table de la taille du niveau.
+Bien sûr, la plupart des positions dans la table ne contiennent pas d'objets
+et occupent de la place inutilement. Pour réduire la quantité de mémoire
+utilisée, on peut faire appel à la classe \verb|concept::static_map|. Voici ce
+que dit la documentation :
+
+\begin{quote}
+La table est divisée en petites boîtes dans lesquelles les items sont listés.
+Disons que l'on aie une table de $1~000 \times 1~000$ cellules. Il n'y a pas des
+objets dans chaque cellule, mais chacune d'elles prend de la place en mémoire.
+En utilisant une \verb|static_map| de taille $100 \times 100$ (avec les boîtes
+de taille $10 \times 10$), on peut réduire la mémoire utilisée par un carré de
+$100$ cellules vides à celle utilisée par une seule cellule. S'il y a des items
+dans une boîte, on les liste dans une cellule ; la mémoire utilisée est la même
+mais l'accès est un petit peu plus long.
+\end{quote}
+
+En plus du type des items, cette classe a besoin d'un paramètre de traits sur
+ce type d'item. La seule méthode nécessaire est \verb|get_bounding_box()|, qui
+renvoie une boîte englobante d'un objet.
+
+\paragraph{Attention :} les items placés dans la table ne peuvent ni bouger ni 
+être supprimés.

@@ -1,0 +1,546 @@
+\documentclass{article}
+
+%------------------------------------------------------------------------------
+%Packages
+\usepackage[francais]{babel}  
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+
+%------------------------------------------------------------------------------
+
+\title{Plee the Bear}
+\author{Julien Jorge, Sébastien Angibaud}
+\date{\today}
+
+\begin{document}
+
+%------------------------------------------------------------------------------
+
+\maketitle
+%\newpage
+\tableofcontents
+\newpage
+%------------------------------------------------------------------------------
+
+%------------------------------------------------------------------------------
+\section{Avant propos}
+Ces gens ont eu la merveilleuse idée de participer à l'élaboration de
+ce document, et par conséquent aux bases même du jeu, en y apportant
+leurs bonnes idées et leurs intéressants commentaires :
+
+% garder l'ordre alphabétique des noms de famille dans cette liste
+\begin{itemize}
+\item Pierre Fradin ;
+\item Julien Lassalle ;
+\item Anthony Leroy ;
+\item Florian Massuyeau ;
+\item David Michineau.
+\end{itemize}
+
+%------------------------------------------------------------------------------
+\section{Présentation du projet}
+Plee the Bear est un jeu de plates-formes, libre, dans le style de ceux
+réalisés dans les années 90. L'objectif est de réaliser un jeu libre
+fun et original, dans la mesure du possible, vu que tout a déjà été
+fait en matière de jeux de plates-formes. Pour donner un ordre d'idée
+de ce que nous considérons comme fun, nos modèles sont les excellents
+Mario, Sonic, Earthworm Jim, Ristar, et encore d'autres.
+
+Le synopsis de l'histoire tient dans ces quelques lignes :
+\begin{quote}
+\emph{Seize heures et des poussières, Plee se réveille, fatigué. Il a encore
+rêvé de cette époque formidable pendant laquelle il arpentait le monde
+en compagnie de sa belle. Il plonge sa patte dans le pot de
+miel. Vide. Tout les pots de la maison sont vides
+d'ailleurs. <<~Encore un coup du gamin~>>, se dit-il. <<~Je m'en vais
+te lui foutre un torgnole dont il se rappellera~>>.}
+
+\emph{En suivant les traces de miel laissées sur le sol, Plee rejoint
+l'orée de la forêt. Début du jeu.}
+\end{quote}
+
+Dans la suite de ce document seront présentés les éléments faisant le
+gameplay, puis suivra la liste des environnements visités durant le
+jeu.
+
+%------------------------------------------------------------------------------
+\section{Gameplay}
+
+%- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+\subsection{Le héros}
+
+Le héros du jeu, ou plutôt l'anti-héros, est un ours brun nommé Plee,
+mesurant deux mètres quarante de haut et pesant une centaine de
+kilos. Il est grognon et fainéant. Les caractéristiques ci-dessous
+servent à sa progression dans le jeu.
+\begin{itemize}
+\item Plee a de bonnes griffes ;
+\item il donne de bonnes baffes en marchant, ou à l'arrêt. Il fait un
+      salto en courant ;
+\item à l'arrêt, il fait des sauts plus ou moins haut suivant la puissance
+      accumulée pour sauter. Un halo de lumière apparaît pour doser la
+      puissance ;
+\item il saute de mur en mur en s'agrippant avec ses griffes ;
+\item il sait jeter des objets (pierres) ;
+\item il peut creuser certains murs ;
+\item il court vite et à quatre pattes ;
+\item il se transforme en super ours blanc en dézippant sa
+      fourrure. Il est invincible quand il est en ours blanc.
+\end{itemize}
+
+Plee est sensible à la chaleur, au froid, et ne sait pas respirer sous
+l'eau. Dans un environnement d'eau, un indicateur permet de savoir à
+quel point Plee a besoin d'air. De même, dans un environnement chaud,
+son assèchement est indiqué et dans un environnement froid, un
+indicateur permet de savoir si Plee est sur le point de geler.
+
+%- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+\subsection{Dialogues, ambiance BD}
+Les dialogues apparaissent sous la forme de bulles, comme dans une
+bande dessinée, que ce soit les dialogues avec les personnages du jeu
+ou les dialogues entre joueurs.
+
+Des onomatopées sont affichées de temps en temps, quand Plee saute,
+frappe, se cogne. Quand il tombe trop vite, une série de «~A~» de taille
+décroissante, suivis d'un point d'exclamation, vont du haut de l'écran
+vers Plee.
+
+%- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+\subsection{Niveaux}
+Le scénario emmène Plee dans de nombreux environnements. Chaque
+environnement donne lieu à un niveau, séparé ensuite en deux actes.
+
+Avant chaque niveau, un court texte explique succinctement la situation
+au joueur, et son avancée dans le scénario.
+
+Entre les deux actes d'un même niveau, durant le chargement du second,
+nous faisons un clin d'\oe il à divers célèbres jeux au travers d'une
+animation ou une image fixe de Plee déguisé en un personnage du dit
+jeu.
+
+En plus des niveau principaux, il y a des niveaux bonus accessibles
+depuis divers endroits cachés dans le jeu.
+
+%- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+\subsection{Équipement}
+
+\subsubsection{Les pierres}
+\label{sec:pierres}
+Plee peut lancer des pierres. Elles éclatent lorsqu'elles atteignent
+leur but et elles sont plus puissantes que les baffes. Une pierre se
+brisant dans l'eau crée une petite bulle d'air que Plee peut aspirer.
+
+\subsubsection{Les pouvoirs}
+Trois types de pouvoirs peuvent être récupérés dans les
+niveaux. Chaque pouvoir augmente les capacités de Plee et des pierres
+sur leur domaine. Le pouvoir d'air permet de ne pas avoir à respirer
+dans l'eau, le pouvoir du feu permet de ne pas se brûler et le pouvoir
+d'eau permet d'éteindre certains éléments enflammés.
+
+\subsubsection{Les bonus}
+Des boîtes de bonus sont réparties dans les niveaux. On distingue les
+boîtes de
+\begin{itemize}
+\item pierres en petite quantité : donnent une petite quantité de
+      pierres à Plee ;
+\item pierres en grande quantité : donnent une plus grande quantité de
+      pierres à Plee ;
+\item pouvoir (eau, air, feu) : donnent ledit pouvoir à Plee ;
+\item petit Plee : donnent une vie supplémentaire à Plee ;
+\item invincibilité : rendent Plee invincible pendant un court laps de
+      temps.
+\end{itemize}
+
+%- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+\subsection{Ennemis}
+À chaque environnement sont associés cinq ennemis. Trois d'entre eux
+apparaissent dès le premier acte, les deux restant viennent s'ajouter
+dans le second acte.
+
+Certains ennemis sont immunisés contre certains pouvoirs et plus
+sensibles à d'autres. Par exemple, un ennemi familier avec le feu sera
+insensible aux pierres aux pouvoir de feu mais sera anéanti par une
+pierre au pouvoir d'eau.
+
+Lorsqu'un ennemi est tué, son âme s'élève. Plee peut (doit) prendre
+cette âme pour récupérer de l'énergie.
+
+%- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+\subsection{Comptage des points}
+Chaque ennemi rapporte des points, qui sont d'autant plus importants
+si les ennemis sont tués en série (il s'est passé moins de une seconde
+depuis le dernier ennemi). Disons 100, 200, 500, 1~000, 10~000. à
+partir de 10~000, un petit texte apparaît, disons <<~boucherie~>>,
+<<~tuerie~>>, <<~double tuerie~>>, <<~carnage~>>.
+
+À la fin de chaque niveau, un décompte de l'énergie restante du joueur
+est effectué et converti en points. Si la traversé
+d'un niveau doit se faire en un temps imparti, le joueur gagne
+d'autant plus de points qu'il est allé vite. Le joueur gagne une vie
+tous les 50~000 points. Le nombre d'ennemis est calculé et 100 points
+sont attribués pour chaque. Un bonus de 50~000 est donné si tous les
+ennemis du niveau ont été tués.
+
+%- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+\subsection{Des astuces bien méritées}
+Certains bonus ne trouvent leur intérêt que lorsque le jeu est
+terminé. Ces bonus permettent d'obtenir quelques cheat codes. Chaque
+bonus donnerait un code. Par exemple :
+\begin{itemize}
+\item sélection de niveau ;
+\item invincibilité (ie. ne meurt jamais, sauf à tomber dans un
+      trou) ;
+\item énergie infinie.
+\end{itemize}
+La séquence de fin du jeu varie selon que le joueur ait terminé le jeu
+en trichant ou pas.
+
+%- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+\subsection{Sauvegardes et essais supplémentaires}
+
+\subsubsection{Essais supplémentaires}
+Chaque joueur a trois essais supplémentaires («~vies~») et un continue
+de disponibles au début du jeu. Lorsqu'un joueur perd une vie, il est
+repositionné au dernier point de sauvegarde rencontré dans l'acte, ou
+au début de l'acte si aucun point de sauvegarde n'a été
+rencontré. Ses pouvoirs sont supprimés et le compteur de vies est
+décrémenté. Lorsqu'il n'a plus de vies, nous lui proposons d'utiliser
+un continue. Le joueur sans vies reprend alors au début de l'acte en
+cours. Le compteur d'essais est réinitialisé à trois et celui de
+continues est décrémenté. S'il n'a plus de continues, c'est la fin du
+jeu pour lui. Dans une partie à deux joueurs, l'autre joueur peut
+continuer, quand il n'aura plus de continues le vrai grand écran
+«~Game Over~» apparaîtra.
+
+\subsubsection{Sauvegardes}
+Nous stockons, à chaque fois qu'un acte est terminé :
+\begin{itemize}
+\item le nombre de joueurs (1 ou 2) ;
+\item le niveau et sous niveau correspondant ;
+\item le nombre de vies de chaque joueur ;
+\item le nombre de continues de chaque joueur ;
+\item le nombre de points de chaque joueur ;
+\item les pouvoirs possédés ;
+\item le nombre de bonus-cheat-codes trouvés.
+\end{itemize}
+
+L'écran permettant de choisir la sauvegarde à utiliser possède, pour
+chaque sauvegarde, une petite image du niveau correspondant et toutes
+les valeurs sauvées, sauf peut-être le nombre de bonus-cheat-codes
+trouvés (car il s'agit d'une fonctionnalité cachée).
+
+Le joueur peut choisir, pour une sauvegarde, le niveau auquel il veut
+commencer (précédent ou égal à celui où s'est arrêtée sa
+progression). Dans ce cas, la sauvegarde automatique ne sauve pas la
+progression si l'acte terminé est avant celui qui est déjà dans la
+sauvegarde. Par contre les vies et tous les autres paramètres sont
+sauvés.
+
+%- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+\subsection{Spécificités du jeu à deux joueurs}
+\subsubsection{La caméra et le mode multi-joueurs}
+La caméra se centre entre les deux joueurs. Si un joueur sort de
+l'écran, la caméra se centre automatiquement sur l'un des deux,
+aléatoirement ou alternativement. Il est possible de forcer la caméra
+sur l'un des deux joueurs, ce qui laisse l'autre à l'abandon. Plus
+précisément, chaque joueur a la possibilité de placer la caméra sur
+lui.
+
+%------------------------------------------------------------------------------
+\section{Les niveaux}
+
+En remplacement aux déguisements proposés dans
+les prochaines pages, les personnages suivants peuvent être utilisés :
+\begin{itemize}
+\item un Lemming ;
+\item Jim, de Earthworm Jim ;
+\item Bomberman ;
+\item un canard de Duck Hunt ;
+\item Kong, de Donkey Konk Country ;
+\item un personnage de Street Of Rage ;
+\item Duke, de Duke Nukem ;
+\item une tortue ninja.
+\end{itemize}
+
+%- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+\subsection{La forêt}
+\subsubsection{Environnement}
+<<~C'est loin d'être le paradis sur Terre. Il fait froid, sombre et
+humide. Derrière chaque arbre se cache une sale bestiole prête à vous
+bondir dessus. D'abord ces saletés de guêpes qui vous bombardent à vue
+; un jet de dards cadencé tel une mitraillette. Ensuite viendront les
+pics verts qui piquent sur vous si vous vous approchez de trop
+près. Pour peu que vous soyez un peu dans un mauvais jour, vous
+tomberez certainement nez à nez avec une laie et ses marcassins. Ces
+petits excités feront tout pour vous faire tomber.~>>
+
+\subsubsection{Le boss}
+Un castor géant, avec des dents qui vont jusqu'au sol. Ses dents lui
+servent de bouclier, il fait trembler le sol en le tapant avec sa
+queue. Il saute d'un côté à l'autre de la pièce et donne un coup de
+queue latéral quand on s'approche de trop près.
+
+\subsubsection{Transition entre les parties}
+Déguisement de Belmont, le type de Castlevania.
+
+\subsubsection{Transition avec le niveau suivant}
+Après avoir vaincu le boss, Plee voit son fils entrer dans un château.
+
+%- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+\subsection{Le ch\^ateau}
+\subsubsection{Environnement}
+<<~Ce château a tout l'air d'être abandonné. C'est humide et plein de
+poussière ; tout juste bon à être démoli. Autrefois occupé par un
+couple de magiciens amateurs, on n'y a pas vu quiconque depuis
+quelques siècles. Comme tout château abandonné, il y a une légende
+derrière. Pour celui-ci on raconte que, par une nuit d'orage, les
+propriétaires se seraient disputés. Quelques semaines plus tard ils se
+séparèrent et aucun ne voulu récupérer le château. Depuis, il est à
+l'abandon. On dit que le diable aurait profité de l'occasion pour s'y
+installer. Il surveillerait les lieux à l'aide d'une armée de
+squelettes, d'âmes déchues et d'autres trucs à trouver. Enfin bon, avec moi
+les squelettes ne feront pas de vieux os...~>>
+
+\subsubsection{Ennemis}
+Pour les monstres, nous pourrons avoir, par exemple, des squelettes,
+des spectres (fantômes), des morts-vivants genre goules, des
+gargouilles.
+
+Les fantômes ne sont pas des ennemis tuables. Il y aura deux types de
+fantômes ; ceux qui s'agglutinent autour de Plee pour gêner la
+visibilité et ceux qui prennent possession de Plee. Pour ces derniers,
+il y aura encore deux catégories. Certains changeront juste la
+configuration des touches, d'autres feront faire n'importe quoi à
+Plee.
+
+\subsubsection{Secrets}
+Il y aura dans une partie du château un fantôme isolé. Si le joueur se
+laisse posséder, il aura la possibilité de passer à travers un mur
+pour accéder à une pièce secrète.
+
+\subsubsection{Le boss}
+Un tigre enflammé. C'est une épreuve d'endurance. Le tigre brûle à
+petit feu et fini par mourir. Il est triste de brûler, donc il pleure.
+Le challenge consiste à éviter les petites boules de feu qui émanent
+de lui. Ses larmes s'évaporent et créent un nuage, qui émet des
+éclairs (dangereux pour Plee). Le tigre meurt, la pluie tombe et
+l'éteint. L'idéal serait de voir le niveau de l'eau monter petit à
+petit. Plee pourrait monter sur des décors pour échapper à la montée
+des eaux (genre des objets flottants).
+
+\subsubsection{Transition entre les parties}
+Déguisement de Mario.
+
+\subsubsection{Transition avec le niveau suivant}
+
+%- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+\subsection{Le centre de la Terre}
+\subsubsection{Environnement}
+<<~Je m'rappelle que, quand j'étais gamin, papa m'amenait à la
+mine. Il m'amenait le matin et revenait me chercher le soir. Pendant
+que je trimais à briser des pierres, ce petit malin s'en allait faire
+le tour des bars. Heureusement j'y ai rencontré d'autres gamins dans
+la même situation ; on s'est serré les coudes tous les trois. Il y
+avait Bobby, qui s'est retrouvé coincé sous un éboulement, le pauvre
+était au mauvais endroit au mauvais moment, et il y avait Jimmy. Ce
+petit garnement passait son temps à provoquer des éboulements à grand
+coups de dynamite. Un jour qu'il alluma la mèche, Bobby, en contrebas,
+lui cria quelque chose. Il n'eut pas le temps de réagir que la bombe
+avait déjà explosé. Quels idiots ces deux là. Le pire c'est que
+personne d'autre ne savait o\`u étaient placées les autre charges. Du
+coup ça devenait dangereux de rester là, enfin je veux dire que ça
+devenait \textbf{encore} plus dangereux... J'ai pas attendu qu'ils se
+décident, je me suis barré. Ils ont fermé la mine une semaine plus
+tard.~>>
+
+Le niveau se fait globalement dans le sens de la descente. Il pourrait
+y avoir des endroits totalement dans la pénombre. Le niveau pourrait
+être une succession de grottes et de tunnels. Ça commencerait dans un
+environnement plutôt humide, aux teintes noires/bleues, avec des
+flaques, et terminerait dans un environnement chaud, aux teintes
+noires/rouges, avec des flaques de lave. Si la technique nous le
+permet, un parcourt en chariot serait le bienvenu.
+
+\subsubsection{Ennemis}
+En ce qui concerne les ennemis, on va trouver des chauves souris, des
+petits diablotins (pour garder le lien avec le diable par rapport au
+niveau précédent), des multivers et des taupes.
+
+\subsubsection{Le boss}
+La pièce possède des plate-formes en hauteur sur lesquelles le diable
+et Plee peuvent monter.  Le diable nous met des coups de queue si on
+est trop prêt et nous crache des boules de feu <<~à tête chercheuse~>>
+lorsqu'on est loin.  En retombant des plate-formes, le diable provoque
+un petit éboulement. Plee peut ramasser certaines des pierres
+tombées. Le but est d'en envoyer dix-huit sur le diable (avec une
+métamorphose du diable toutes les 6 pierres). Si Plee a le pouvoir de
+feu, les pierres augmentent l'énergie du diable (il faut donc se
+débarrasser du pouvoir). Le diable peut faire jaillir de la lave du
+sol, avec un petit bout de sol. Plee peut monter sur ce bout de sol
+pour monter sur les plate-formes en hauteur.
+
+\subsubsection{Transition entre les parties}
+Déguisement de Lara Croft.
+
+\subsubsection{Transition avec le niveau suivant}
+
+%- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+\subsection{La montagne}
+\subsubsection{Environnement}
+<<~J'ai froid. Voilà encore un coin dans lequel j'aimerais ne pas
+m'attarder. D'abord parce que j'ai froid, ensuite parce que c'est une
+des régions les plus hostiles que je connaisse. On parle d'un monstre
+qui hanterait les cimes enneigées et qui transformerait en simple
+casse-croûte quiconque s'en approcherait. Si vous voulez mon avis
+c'est encore une de ces histoires inventée par des parents fatigués
+pour obliger leurs gamins à manger toute sorte de nourriture
+décevante. Ceci dit, ce dont je suis s\^ur, c'est que l'on y croise sans
+problème des dahuts, des saint-bernards titubants ou encore des lamas
+qui vous crachent au visage (ils tirent loin ces idiots). Ça plus
+les crevasses et les stalactites qui vous tombent sur le coin du
+museau, je vous le dit, c'est loin d'être une partie de plaisir.~>>
+
+L'idée est d'avoir une progression globalement verticale. Le niveau
+commencerait dans une ambiance un peu rocheuse, puis se terminerait
+dans un environnement enneigé. On passe par des grottes aux parois
+lisses qui reflètent joueur. On pourrait même commencer le niveau dans
+une mine, pour faire la transition avec le niveau précédent ; quoi que
+du coup le niveau précédent commencerait et se terminerait dans une
+mine.
+
+\subsubsection{Le boss}
+Dans une grotte bien éclairée qui reflète vos moindres gestes et
+où les stalactites tombent toutes les dix secondes, un yéti a 
+une fâcheuse tendance à vous agresser.
+
+\subsubsection{Transition entre les parties}
+Déguisement de Link, le héros des jeux Zelda.
+
+\subsubsection{Transition avec le niveau suivant}
+
+%- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+\subsection{Le port}
+\subsubsection{Environnement}
+<<~Fichu port. Il faut passer de quais en bateaux tout en évitant les
+boulets de canons. Du haut des mâts, les hordes de mouettes vous
+attaquent. En fond de cales,  (un autre problème). De vieilles grues
+de chargement permettent de prendre de l'altitude, mais gare à celles
+qui cèdent et vous écrasent. Dans les bateaux les plus délabrés, il va
+falloir se mettre à l'eau. Cependant si les bateaux vous font peur,
+vous pouvez toujours tenter de vous frayer un passage via les
+égouts.~>>
+
+La première moitié du niveau se passe sur les quais, la seconde en
+pleine mer, sur des bateaux en file indienne (la progression devient
+très horizontale).
+
+\subsubsection{Le boss}
+Sur le pont d'un bateau, il s'agit de se battre contre un squelette
+fantôme pirate, son épée et ses canons. Une fois le boss tué, le
+bateau coule.
+
+\subsubsection{Transition entre les parties}
+Déguisement de Ken, de Street Fighter.
+
+\subsubsection{Transition avec le niveau suivant}
+
+%- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+\subsection{L'océan}
+\subsubsection{Environnement}
+<<~Dur, dur de respirer. Il faut jeter des pierres pour récupérer un
+peu d'air (cf. \ref{sec:pierres}). Coté danger, il y a des sèches qui
+jettent de l'encre, des gymnotes qui électrocutent tout ce qu'elles
+touchent, sans parler des courants marins vous emportant vers des
+requins affamés.~>>
+
+\subsubsection{Le boss}
+Une pieuvre immense avec ses huit tentacules. Il faut couper toutes
+les tentacules pour la vaincre.
+
+\subsubsection{Transition entre les parties}
+Déguisement d'Ecco, le dauphin.
+
+\subsubsection{Transition avec le niveau suivant}
+
+%- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+\subsection{L'Égypte}
+\subsubsection{Environnement}
+<<~J'ai chaud. Si vous voulez trouver quelques points d'eau, il faudra
+visiter quelques tombeaux. Si vous visitez un tombeau, vous n'êtes pas
+sûr d'en ressortir. Ce sont de dangereux labyrinthes. Des sables
+mouvants, Des chameaux, des momies idiotes qui vous fouettent avec
+leurs bandes.~>>
+
+\subsubsection{Le boss}
+Un sphinx avec un bon souffle et de bonnes griffes.
+
+\subsubsection{Transition entre les parties}
+Déguisement de Sonic.
+
+\subsubsection{Transition avec le niveau suivant}
+
+%- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+\subsection{Le ciel}
+\subsubsection{Environnement}
+Cette partie du jeu se déroule en montgolfière. Genre de niveau
+«~aérien~» comme il en existe dans pas mal de jeux. Plee donne ses
+coups à partir de la montgolfière. Les ennemis pourraient être des
+oiseaux au regard méchant, des nuages d'orage. On peut imaginer qu'il
+faille récupérer des bonbonnes de gaz pour que la montgolfière
+continue de voler.
+
+\subsubsection{Le boss}
+Dieu qui lance des éclairs, des anges déchus (il arrache les ailes des
+anges qui passent dans le coin). Les anges déchus se transforment en
+diablotins. Les diablotins attaquent Dieu, le joueur doit envoyer des
+pierres sur Dieu pour qu'il ne puisse pas parer les attaques des
+diablotins.
+
+\subsubsection{Transition entre les parties}
+Déguisement de Joe Musashi, le héros des jeux Shinobi.
+
+\subsubsection{Transition avec le niveau suivant}
+Pas de transition, c'est la fin du jeu ;
+
+%------------------------------------------------------------------------------
+\section{Niveaux bonus}
+\subsection{Petit niveau}
+Avec plein de miel. Ouverture cachée dans le niveau.
+
+%- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+\subsection{La lune, le niveau caché}
+\subsubsection{Environnement}
+La lune est un niveau caché dont l'entrée sera reste à placer
+dans l'un des autres niveaux. Parmi les possibilités envisagée pour
+accéder à ce niveau, nous avons :
+\begin{itemize}
+\item terminer un niveau avec nombre de boules d'énergie n'ayant
+qu'un seul chiffre (ex.~333, 44) et supérieur à 10. On peut
+éventuellement ajouter la nécessité d'avoir le même état sur l'horloge
+(ex.~1~min. 11~sec., 5~min. 55~sec.) ;
+\item terminer l'avant dernier niveau en ayant découvert tous les
+passages secrets des niveaux précédents.
+\end{itemize}
+
+Dans ce niveau, la gravité est moindre et le décor assez épuré.
+
+\subsubsection{Ennemis}
+Pour les ennemis on peut envisager les difficultés suivantes:
+\begin{itemize}
+\item pluies de météorites ;
+\item soit des recharges d'air à trouver (bonus) qui permettent à Plee
+      de remplir une réserve d'air qui s'épuise au court du niveau ;
+\item soit un temps limité pour réaliser le niveau sous peine
+      d'asphyxie et donc de mort.
+\end{itemize}
+
+\subsubsection{Le boss}
+Aucun pour l'instant.
+
+\subsubsection{Transition entre les parties}
+Déguisement du héros de Doom (rendu fa\c con premier Doom).
+
+\subsubsection{Transition avec le niveau suivant}
+
+\end{document}

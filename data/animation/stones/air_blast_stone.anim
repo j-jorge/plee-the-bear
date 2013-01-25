@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation loops='1' first_index='0' last_index='9' loop_back='false' auto_size='true' width='100' height='100' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'>
+  <frame duration='0.035'>
+    <sprite image='gfx/effect/air-blast.png' x='0' y='0' clip_width='100' clip_height='100' spritepos='' auto_size='true' width='100' height='100' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.035'>
+    <sprite image='gfx/effect/air-blast.png' x='100' y='0' clip_width='100' clip_height='100' spritepos='' auto_size='true' width='100' height='100' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.035'>
+    <sprite image='gfx/effect/air-blast.png' x='200' y='0' clip_width='100' clip_height='100' spritepos='' auto_size='true' width='100' height='100' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.035'>
+    <sprite image='gfx/effect/air-blast.png' x='300' y='0' clip_width='100' clip_height='100' spritepos='' auto_size='true' width='100' height='100' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.035'>
+    <sprite image='gfx/effect/air-blast.png' x='400' y='0' clip_width='100' clip_height='100' spritepos='' auto_size='true' width='100' height='100' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.035'>
+    <sprite image='gfx/effect/air-blast.png' x='0' y='100' clip_width='100' clip_height='100' spritepos='' auto_size='true' width='100' height='100' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.035'>
+    <sprite image='gfx/effect/air-blast.png' x='100' y='100' clip_width='100' clip_height='100' spritepos='' auto_size='true' width='100' height='100' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.035'>
+    <sprite image='gfx/effect/air-blast.png' x='200' y='100' clip_width='100' clip_height='100' spritepos='' auto_size='true' width='100' height='100' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.035'>
+    <sprite image='gfx/effect/air-blast.png' x='300' y='100' clip_width='100' clip_height='100' spritepos='' auto_size='true' width='100' height='100' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.035'>
+    <sprite image='gfx/effect/air-blast.png' x='400' y='100' clip_width='100' clip_height='100' spritepos='' auto_size='true' width='100' height='100' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+</animation>

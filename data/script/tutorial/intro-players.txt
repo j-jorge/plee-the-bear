@@ -1,0 +1,62 @@
+0.0 player_1.control_player();
+0.0 player_1.refuse_action(wait);
+
+0.0 player_2.control_player();
+0.0 player_2.refuse_action(wait);
+
+0.0 player_3.control_player();
+0.0 player_3.refuse_action(wait);
+
+0.0 player_4.control_player();
+0.0 player_4.refuse_action(wait);
+
+0.0 player_intro.control_player();
+0.0 player_intro.refuse_action(wait);
+
+0.0 player_cling.control_player();
+0.0 player_cling.refuse_action(wait);
+
+0.0 player_stones.control_player();
+0.0 player_stones.refuse_action(wait);
+
+0.0 player_extra_stones.control_player();
+0.0 player_extra_stones.refuse_action(wait);
+
+0.0 player_wasp.control_player();
+0.0 player_wasp.refuse_action(wait);
+
+0.0 player_air.control_player();
+0.0 player_air.refuse_action(wait);
+
+0.0 player_fire.control_player();
+0.0 player_fire.refuse_action(wait);
+
+0.0 player_combined.control_player();
+0.0 player_combined.refuse_action(wait);
+
+0.15 player_2.do_action(move_right,2);
+0.25 player_1.do_action(move_right,1.2);
+1.2 player_2.do_action(jump,1);
+2.0 player_1.do_action(move_right,1.8);
+2.6 player_2.do_action(move_right,1);
+3.8 player_2.do_action(roar,0.165);
+24.0 player_1.do_action(roar,0.165);
+
+25.0 player_1.authorize_action(wait);
+25.0 player_1.release_player();
+
+25.0 player_2.authorize_action(wait);
+25.0 player_2.release_player();
+
+25.0 player_3.release_player();
+25.0 player_4.release_player();
+25.0 player_intro.release_player();
+25.0 player_cling.release_player();
+25.0 player_stones.release_player();
+25.0 player_extra_stones.release_player();
+25.0 player_wasp.release_player();
+25.0 player_air.release_player();
+25.0 player_fire.release_player();
+25.0 player_combined.release_player();
+
+25.2 script.end();

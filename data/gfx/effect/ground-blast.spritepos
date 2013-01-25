@@ -1,0 +1,22 @@
+# The format of the lines is
+# picture: x y width height
+
+middle 1: 0 0 192 190
+middle 2: 256 0 192 190
+middle 3: 0 190 192 190
+middle 4: 256 190 192 190
+
+side 1: 192 0 64 190
+side 2: 448 0 64 190
+side 3: 192 190 64 190
+side 4: 448 190 64 190
+
+bubbles 1:   0 380 36 36
+bubbles 2:  36 380 36 36
+bubbles 3:  72 380 36 36
+bubbles 4: 108 380 36 36
+
+clod 1:   0 416 36 36
+clod 2:  36 416 36 36
+clod 3:  72 416 36 36
+clod 4: 108 416 36 36

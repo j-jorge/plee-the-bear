@@ -1,0 +1,7 @@
+# The format of the lines is
+# picture: x y width height
+
+platform 1: 0 0 256 104
+platform 2: 0 105 256 104
+platform 3: 0 210 256 104
+platform 4: 0 315 256 104

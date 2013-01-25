@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<item xmlns="http://www.gamned.org/bear/schema/0.5" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gamned.org/bear/schema/0.5 http://www.gamned.org/bear/schema/0.5/item-description.xsd" class="ptb::save_player_position" category="control" box_color="#1CF796" url="http://www.gamned.org/wiki/index.php/save_player_position">
+  <inherit>
+    <class>bear::base_item</class>
+  </inherit>
+  <description>Tell the player to save its position. The position given to the player, as a reference position, is the center of mass of the save_player_position item. The position of the player is saved only on the first collision. Never after.</description>
+  <fields>
+    <field type="u_integer" name="save_player_position.player_index">
+      <description>The index of the player whose position is saved.</description>
+      <default_value>1</default_value>
+    </field>
+  </fields>
+  <new_default_value name="base_item.can_move_items">false</new_default_value>
+  <new_default_value name="base_item.phantom">true</new_default_value>
+</item>

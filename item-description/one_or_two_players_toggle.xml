@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<item xmlns="http://www.gamned.org/bear/schema/0.5" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gamned.org/bear/schema/0.5 http://www.gamned.org/bear/schema/0.5/item-description.xsd" class="ptb::one_or_two_players_toggle" category="toggle" box_color="#009296" url="http://www.gamned.org/wiki/index.php/one_or_two_players_toggle">
+  <inherit>
+    <class>bear::base_item</class>
+    <class>bear::item_with_toggle</class>
+  </inherit>
+  <description>A toggle that applies its status to a given toggle if we are playing a single player game, and to an other toggle otherwise.</description>
+  <fields>
+    <field type="item_reference" name="one_or_two_players_toggle.single_player_game">
+      <description>
+        The item toggled in a single player game.
+      </description>
+      <set>
+        <element value="bear::with_toggle"/>
+      </set>
+      <default_value>none</default_value>
+    </field>
+    <field type="item_reference" name="one_or_two_players_toggle.two_players_game">
+      <description>
+        The item toggled in a two players game.
+      </description>
+      <set>
+        <element value="bear::with_toggle"/>
+      </set>
+      <default_value>none</default_value>
+    </field>
+  </fields>
+</item>

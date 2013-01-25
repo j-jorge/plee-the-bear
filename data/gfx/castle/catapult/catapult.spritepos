@@ -1,0 +1,13 @@
+# The format of the lines is
+# picture: x y width height
+
+back wheel: 357 90 107 107
+front wheel: 357 204 107 107
+vehicle front: 167 206 188 53
+vehicle back: 1 205 163 53
+vehicle: 7 261 331 52
+stop: 467 1 39 239
+angle selector: 1 92 313 107
+arm: 2 3 459 81
+canvas: 0 0 506 314
+

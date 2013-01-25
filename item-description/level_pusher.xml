@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<item xmlns="http://www.gamned.org/bear/schema/0.5" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gamned.org/bear/schema/0.5 http://www.gamned.org/bear/schema/0.5/item-description.xsd" class="ptb::level_pusher" category="level loading" box_color="#43F47D" url="http://www.gamned.org/wiki/index.php/level_pusher">
+  <inherit>
+    <class>bear::base_item</class>
+  </inherit>
+  <description>An item that starts a level when all players are colliding with it. The current level is saved by the engine and must be restored when the new one is finished.</description>
+  <fields>
+    <field type="string" name="level_pusher.level" required="true">
+      <description>The name of the level to push.</description>
+    </field>
+  </fields>
+</item>

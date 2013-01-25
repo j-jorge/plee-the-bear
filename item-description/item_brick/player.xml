@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<item xmlns="http://www.gamned.org/bear/schema/0.5" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gamned.org/bear/schema/0.5 http://www.gamned.org/bear/schema/0.5/item-description.xsd" class="ptb::player" category="-abstract-" fixable="false" url="http://www.gamned.org/wiki/index.php/player">
+  <inherit>
+    <class>bear::base_item</class>
+    <class>bear::model</class>
+    <class>ptb::monster_item</class>
+    <class>bear::messageable_item</class>
+    <class>bear::item_that_speaks</class>
+    <class>ptb::item_with_single_player_action_reader</class>
+  </inherit>
+  <fields>
+    <field type="u_integer" name="player.index">
+      <description>The index of the player.</description>
+      <default_value>1</default_value>
+    </field>
+  </fields>
+  <new_default_value name="monster_item.energy">100</new_default_value>
+  <new_default_value name="monster_item.offensive_strength">10</new_default_value>
+  <new_default_value name="monster_item.offensive_coefficient.normal">1</new_default_value>
+  <remove_field>item_with_single_player_action_reader.player_index</remove_field>
+  <remove_field>messageable_item.name</remove_field>
+</item>

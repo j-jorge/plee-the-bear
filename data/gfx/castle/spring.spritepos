@@ -1,0 +1,18 @@
+# The format of the lines is
+# picture: x y width height
+
+weak 1:   0 0 60 45
+weak 2:  61 0 60 45
+weak 3: 122 0 60 45
+
+medium 1:   0 46 60 45
+medium 2:  61 46 60 45
+medium 3: 122 46 60 45
+
+strong 1:   0 92 60 45
+strong 2:  61 92 60 45
+strong 3: 122 92 60 45
+
+spikes: 15 138 99 64
+spikes left: 0 138 15 64
+spikes right: 114 138 14 64

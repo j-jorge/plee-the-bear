@@ -1,0 +1,8 @@
+0 player_1.control_player();
+0 player_2.control_player();
+0 player_2.do_action(move_left,0.05);
+4.5 player_1.do_action(roar,0.165);
+4.5 player_2.do_action(roar,0.165);
+4.9 player_1.release_player();
+4.9 player_2.release_player();
+4.9 script.end();

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation loops='1' first_index='0' last_index='1' loop_back='false' auto_size='true' width='113' height='103' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'>
+  <frame duration='0.015'>
+    <sprite image='gfx/forest/gorilla/scan.png' x='113' y='0' clip_width='113' clip_height='103' spritepos='scan up' auto_size='true' width='113' height='103' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.045'>
+    <sprite image='gfx/forest/gorilla/scan.png' x='0' y='0' clip_width='113' clip_height='103' spritepos='scan right' auto_size='true' width='113' height='103' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+</animation>

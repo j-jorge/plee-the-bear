@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<item xmlns="http://www.gamned.org/bear/schema/0.5" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gamned.org/bear/schema/0.5 http://www.gamned.org/bear/schema/0.5/item-description.xsd" class="ptb::thief_ghost" category="enemy/castle" box_color="#FAFF1F" url="http://www.gamned.org/wiki/index.php/thief_ghost">
+  <inherit>
+    <class>ptb::ghost</class>
+  </inherit>
+ <description>A ghost that steals corrupting bonus.</description>
+</item>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<item xmlns="http://www.gamned.org/bear/schema/0.5" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gamned.org/bear/schema/0.5 http://www.gamned.org/bear/schema/0.5/item-description.xsd" class="ptb::level_score_record" category="toggle" fixable="true" box_color="#DC9BD6" url="http://www.gamned.org/wiki/index.php/level_score_record">
+  <inherit>
+    <class>bear::base_item</class>
+    <class>bear::item_with_toggle</class>
+    <class>bear::with_linear_expression_assignment</class>
+  </inherit>
+  <description>A toggle to manage the score table of a level. A
+    linear expression must be assigned to this item to compute the
+    score (see bear::applied_linear_expression).</description>
+  <fields>
+    <field type="string" name="level_score_record.next_level">
+      <description>The path to the next level to load.</description>
+      <default_value>none</default_value>
+    </field>
+    <field type="string" name="level_score_record.score_format">
+      <description>How to format the score shown at the end of the
+        level.</description>
+      <default_value>%v</default_value>
+    </field>
+    <field type="string" name="level_score_record.windows_layer">
+      <description>The window layer in which the frame asking for the player
+	name is shown.</description>
+      <default_value>none</default_value>
+    </field>
+    <field type="boolean" name="level_score_record.maximize">
+      <description>Tell if the goal is to maximize the score.</description>
+      <default_value>true</default_value>
+    </field>
+    <field type="real" name="level_score_record.medal.gold">
+      <description>The minimal value of the score to win the gold
+	medal.</description>
+      <default_value>0</default_value>
+    </field>
+    <field type="real" name="level_score_record.medal.silver">
+      <description>The minimal value of the score to win the silver
+	medal.</description>
+      <default_value>0</default_value>
+    </field>
+    <field type="real" name="level_score_record.medal.bronze">
+      <description>The minimal value of the score to win the bronze
+	medal.</description>
+      <default_value>0</default_value>
+    </field>
+  </fields>
+</item>

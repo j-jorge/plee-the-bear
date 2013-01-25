@@ -1,0 +1,7 @@
+# The format of the lines is
+# picture: x y width height
+
+idle 1:   0 0 113 103
+idle 2: 113 0 113 103
+idle 3: 226 0 113 103
+idle 4: 339 0 113 103

@@ -1,0 +1,257 @@
+#!/bin/bash
+
+DEV_PATH="$(echo $0 | sed 's:/release/make-release::')"
+BUILD_TARGET=gutsy
+
+FAKE_ROOT=/tmp/plee-the-bear
+CONTROL_FILES_FOLDER="DEBIAN"
+PREFIX=/usr
+
+BEAR_INSTALL_EXECUTABLE_DIR=games
+BEAR_INSTALL_LIBRARY_DIR=lib
+PTB_INSTALL_DATA_DIR=share/games/plee-the-bear
+PTB_INSTALL_CUSTOM_LIBRARY_DIR="$PTB_INSTALL_LIBRARY_DIR"/plee-the-bear
+
+#-------------------------------------------------------------------------------
+function initialize_fake_root()
+{
+  echo "---- Creating '$FAKE_ROOT'..."
+
+  if [ -e "$FAKE_ROOT" ]
+  then
+    rm -fr "$FAKE_ROOT"
+  fi
+
+  mkdirhier "$FAKE_ROOT"
+} # initialize_fake_root()
+
+#-------------------------------------------------------------------------------
+function clean_fake_root()
+{
+  echo "---- Cleaning '$FAKE_ROOT'..."
+
+  rm -fr "$FAKE_ROOT"/*
+} # cleaning_fake_root()
+
+#-------------------------------------------------------------------------------
+function remove_fake_root()
+{
+  echo "---- Removing'$FAKE_ROOT'..."
+
+  rm -fr "$FAKE_ROOT"
+} # remove_fake_root()
+
+#-------------------------------------------------------------------------------
+function clean_folder()
+{
+  echo "---- Cleaning '$FOLDER_NAME'..."
+
+  rm -fr $(find "$FOLDER_NAME" -name ".svn")
+  rm -fr $(find "$FOLDER_NAME" -name "*.log")
+  rm -fr $(find "$FOLDER_NAME" -name "*.o")
+  rm -fr $(find "$FOLDER_NAME" -name "*.a")
+  rm -fr $(find "$FOLDER_NAME" -name "*.so")
+  rm -fr $(find "$FOLDER_NAME" -name "*.os")
+  rm -fr "$FOLDER_NAME/DEBIAN"
+  rm -fr "$FOLDER_NAME/bin"
+
+  for f in CMakeFiles CMakeCache.txt CMakeTmp "*.cmake" install_manifest.txt \
+      Makefile progress.make
+    do
+    rm -fr $(find "$FOLDER_NAME" -name "$f")
+  done
+
+  rm $(find "$FOLDER" -name "*~")
+} # clean_folder
+
+#-------------------------------------------------------------------------------
+function remove_folder()
+{
+  echo "---- Removing '$FOLDER_NAME'..."
+
+  rm -fr "$FOLDER_NAME"
+} # remove_folder()
+
+#-------------------------------------------------------------------------------
+#
+# $1 input control file
+function fill_DEBIAN_folder()
+{
+  echo "---- filling debian folder"
+
+  if [ -e "$FAKE_ROOT/DEBIAN" ]
+  then
+    rm -fr "$FAKE_ROOT/DEBIAN"
+  fi
+
+  local SIZE=$(du -s "$FAKE_ROOT" | cut -f1)
+  local DATE="$(export LANG=en_GB.UTF-8; date --rfc-822)"
+
+  mkdir "$FAKE_ROOT/DEBIAN"
+
+  local DEP_LINE=$(grep -n '^Depends:' "$DEV_PATH/$CONTROL_FILES_FOLDER/$1" \
+      | cut -d: -f1)
+
+  ( head -n $(( $DEP_LINE - 1 )) "$DEV_PATH/$CONTROL_FILES_FOLDER/$1";
+    cat "$DEV_PATH/$CONTROL_FILES_FOLDER/dep-ptb.$BUILD_TARGET";
+    tail -n +$(( $DEP_LINE + 1 )) "$DEV_PATH/$CONTROL_FILES_FOLDER/$1";
+  ) | sed "s/PTB_VERSION/$VERSION/g;s/PTB_SIZE/$SIZE/g" \
+      > "$FAKE_ROOT/DEBIAN/control"
+
+  cp "$DEV_PATH/$CONTROL_FILES_FOLDER/copyright" "$FAKE_ROOT/DEBIAN/"
+
+  sed "s/PTB_VERSION/$VERSION/g;s/DATE/$DATE/g;s/BUILD_TARGET/$BUILD_TARGET/g" \
+      "$DEV_PATH/$CONTROL_FILES_FOLDER/changelog" > "$FAKE_ROOT/DEBIAN/changelog"
+
+} # fill_DEBIAN_folder()
+
+#-------------------------------------------------------------------------------
+# Build the program
+#
+# $1 installation prefix
+# $2 build type
+function build()
+{
+  echo "---- Building; prefix=$1, build=$2..."
+
+  CWD="$(pwd)"
+  cd "$FOLDER_NAME"
+  cmake . \
+      -DCMAKE_INSTALL_PREFIX="$FAKE_ROOT/$1" \
+      -DCMAKE_BUILD_TYPE="$2" \
+      -DBEAR_INSTALL_EXECUTABLE_DIR="$BEAR_INSTALL_EXECUTABLE_DIR" \
+      -DBEAR_INSTALL_LIBRARY_DIR="$BEAR_INSTALL_LIBRARY_DIR" \
+      -DPTB_INSTALL_DATA_DIR="$PTB_INSTALL_DATA_DIR" \
+      -DPTB_INSTALL_CUSTOM_LIBRARY_DIR="$PTB_INSTALL_CUSTOM_LIBRARY_DIR"
+  make
+
+  cd "$CWD"
+} # build
+
+#-------------------------------------------------------------------------------
+# Install the program
+#
+# $1 installation prefix
+function install_prog()
+{
+  echo "---- Installing; prefix=$1"
+
+  CWD="$(pwd)"
+  cd "$FOLDER_NAME"
+  make install
+
+  sed -i '1,$s,'"$FAKE_ROOT,," \
+      "$FAKE_ROOT/$1/$PTB_INSTALL_DATA_DIR/game_description"
+  sed -i '1,$s,'"$FAKE_ROOT,," \
+      "$FAKE_ROOT/$1/$BEAR_INSTALL_EXECUTABLE_DIR/plee-the-bear"
+
+  cd "$CWD"
+} # install_prog
+
+#-------------------------------------------------------------------------------
+# Build a package for the main program
+#
+# $1 prefix that was used to install the program
+# $2 control file
+# $3 package suffix
+function build_ptb_package()
+{
+  echo "---- Building package; prefix='$1', suffix='$3', control='$2'..."
+
+  fill_DEBIAN_folder "$2"
+
+  fakeroot dpkg-deb --build "$FAKE_ROOT" "plee-the-bear-$VERSION$3.deb"
+} # build_ptb_package
+
+#-------------------------------------------------------------------------------
+function build_release_ptb()
+{
+  clean_folder
+  clean_fake_root
+  build "$PREFIX" release
+
+  local PACKAGE_OK="n"
+
+  while [ "$PACKAGE_OK" != "y" ] && [ "$PACKAGE_OK" != "Y" ]
+  do
+    PACKAGE_OK="y"
+    install_prog "$PREFIX"
+    build_ptb_package "$PREFIX" control-ptb
+
+    echo -n "The package is ok ? [Y/n]: "
+    read T
+
+    if [ "$T" != "" ]
+    then
+      PACKAGE_OK="$T";
+    fi
+  done
+} # build_release_ptb()
+
+#-------------------------------------------------------------------------------
+function build_release_all()
+{
+  build_release_ptb
+} # build_release_all()
+
+#-------------------------------------------------------------------------------
+# check arguments
+if [ "$#" -eq 0 ]
+then
+  echo "$0 version [ptb | all]" \
+      1>&2
+  exit 1;
+fi
+
+VERSION="$1"
+FOLDER_NAME="plee-the-bear-$VERSION"
+shift
+
+if [ -e "$FOLDER_NAME" ]
+then
+  rm -fr "$FOLDER_NAME"
+fi
+
+TMP=
+echo -n "Path to the source code [$DEV_PATH]: "
+read TMP
+
+if [ "$TMP" != "" ]
+then
+  DEV_PATH="$TMP"
+  TMP=""
+fi
+
+echo -n "Target [$BUILD_TARGET]: "
+read TMP
+
+if [ "$TMP" != "" ]
+then
+  if [ ! -f "$DEV_PATH/$CONTROL_FILES_FOLDER/dep-ptb.$TMP" ]
+  then
+    echo "Can't find file '$DEV_PATH/$CONTROL_FILES_FOLDER/dep-ptb.$TMP'"
+    exit 1
+  else
+    BUILD_TARGET="$TMP"
+    TMP=""
+  fi
+fi
+
+# build the archives
+bash "$DEV_PATH"/release/make-source "$DEV_PATH" $VERSION
+
+#-------------------------------------------------------------------------------
+# Build debian packages
+if [ "$#" -gt 0 ]
+then
+  initialize_fake_root
+
+  for BUILD in $@
+  do
+    build_release_$BUILD
+  done
+
+  remove_fake_root
+fi
+
+remove_folder

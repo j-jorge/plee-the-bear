@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation loops='0' first_index='0' last_index='2' loop_back='false' auto_size='true' width='183' height='128' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'>
+  <frame duration='0.3'>
+    <sprite image='gfx/castle/fire.png' x='0' y='128' clip_width='183' clip_height='128' spritepos='fire1' auto_size='true' width='183' height='128' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.3'>
+    <sprite image='gfx/castle/fire.png' x='0' y='0' clip_width='183' clip_height='128' spritepos='fire2' auto_size='true' width='183' height='128' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.3'>
+    <sprite image='gfx/castle/fire.png' x='183' y='0' clip_width='183' clip_height='128' spritepos='fire3' auto_size='true' width='183' height='128' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+</animation>

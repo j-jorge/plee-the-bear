@@ -1,0 +1,37 @@
+0 {
+  camera.smooth_activate(0.5);
+  player_1.control_player();
+  player_2.control_player();
+  ray.control_player();
+  player_1.stop();
+  player_2.stop();
+}
+
++0.10 {
+  player_1.do_action(crouch, 24);
+  player_1.talk("/Ray! I finally found you.");
+}
+
++2.3 ray.do_action(look_upward, 10);
++0.1 ray.talk("/Help me, daddy!");
++0.5 ray.talk("/I fell into this hole and I can't get out. Help me!");
++7.10 player_1.talk("/I'm not sure I want to./You ate all my honey!/You deserve a good spanking instead.");
+
++8.3 ray.do_action(look_upward, 7);
++0.1 ray.talk("/I felt bad that I ate all the honey, Daddy, so I went looking for more...");
+
++7 player_1.talk("/I'll see what I can do.");
+
++1.85 {
+  player_1.do_action(move_right, 0.15);
+  player_2.do_action(move_right, 0.15);
+
+  player_1.release_player();
+  player_2.release_player();
+  ray.release_player();
+
+  /* The shared camera will come back to the players. */
+  shared_camera.focus_on( camera );
+  shared_camera.activate();
+  script.end();
+}

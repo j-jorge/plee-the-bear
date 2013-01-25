@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation loops='1' first_index='0' last_index='10' loop_back='false' auto_size='true' width='26' height='32' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'>
+  <frame duration='0.05'>
+    <sprite image='gfx/forest/rabbit/rabbit-2.png' x='0' y='0' clip_width='26' clip_height='32' spritepos='eating 1' auto_size='true' width='26' height='32' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.05'>
+    <sprite image='gfx/forest/rabbit/rabbit-2.png' x='26' y='0' clip_width='26' clip_height='32' spritepos='eating 2' auto_size='true' width='26' height='32' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.05'>
+    <sprite image='gfx/forest/rabbit/rabbit-2.png' x='56' y='0' clip_width='26' clip_height='32' spritepos='eating 3' auto_size='true' width='26' height='32' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.05'>
+    <sprite image='gfx/forest/rabbit/rabbit-2.png' x='82' y='0' clip_width='26' clip_height='32' spritepos='eating 4' auto_size='true' width='26' height='32' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.1'>
+    <sprite image='gfx/forest/rabbit/rabbit-2.png' x='108' y='0' clip_width='26' clip_height='32' spritepos='eating 5' auto_size='true' width='26' height='32' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.1'>
+    <sprite image='gfx/forest/rabbit/rabbit-2.png' x='134' y='0' clip_width='26' clip_height='32' spritepos='eating 6' auto_size='true' width='26' height='32' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.1'>
+    <sprite image='gfx/forest/rabbit/rabbit-2.png' x='160' y='0' clip_width='26' clip_height='32' spritepos='eating 7' auto_size='true' width='26' height='32' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.1'>
+    <sprite image='gfx/forest/rabbit/rabbit-2.png' x='186' y='0' clip_width='26' clip_height='32' spritepos='eating 8' auto_size='true' width='26' height='32' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.1'>
+    <sprite image='gfx/forest/rabbit/rabbit-2.png' x='212' y='0' clip_width='26' clip_height='32' spritepos='eating 9' auto_size='true' width='26' height='32' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.3'>
+    <sprite image='gfx/forest/rabbit/rabbit-2.png' x='0' y='32' clip_width='26' clip_height='32' spritepos='eating 10' auto_size='true' width='26' height='32' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.3'>
+    <sprite image='gfx/forest/rabbit/rabbit-2.png' x='26' y='32' clip_width='26' clip_height='32' spritepos='eating 11' auto_size='true' width='26' height='32' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+</animation>

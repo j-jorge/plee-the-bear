@@ -1,0 +1,22 @@
+0 {
+	camera.smooth_activate(0.5);
+	player_1.control_player();
+	player_2.control_player();
+}
+
++1.0 {
+	trigger.activate();
+}
+
++0.2 {
+	trigger.deactivate();
+}
+
++2.5 {
+	player_1.release_player();
+	player_2.release_player();
+	/* The shared camera will come back to the players. */
+	shared_camera.focus_on( camera );
+	shared_camera.activate();
+	script.end();
+}

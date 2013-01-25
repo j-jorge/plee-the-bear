@@ -1,0 +1,11 @@
+# The format of the lines is
+# picture: x y width height
+
+sting 1:   0 0 32 32
+sting 2:  32 0 32 32
+sting 3:  64 0 32 32
+sting 4:  96 0 32 32
+sting 5: 128 0 32 32
+sting 6: 160 0 32 32
+sting 7: 192 0 32 32
+sting 8: 224 0 32 32

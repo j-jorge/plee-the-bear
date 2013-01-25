@@ -1,0 +1,16 @@
+0.0 {
+  camera.smooth_activate(1);
+  player_1.control_player();
+  player_2.control_player();
+}
+
+2.0 kicker.activate();
+
+5.9 {
+  shared_camera.focus_on( camera );
+  shared_camera.activate();
+  player_1.release_player();
+  player_2.release_player();
+
+  script.end();
+}

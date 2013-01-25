@@ -1,0 +1,35 @@
+# The format of the lines is
+# picture: x y width height
+
+pecking 1:   0 0 43 85
+pecking 2:  43 0 43 85
+pecking 3:  86 0 43 85
+pecking 4: 129 0 43 85
+
+attacking 1:   0  85 107 37
+attacking 2: 107  85 107 37
+attacking 3:   0 122 107 37
+attacking 4: 107 122 107 37
+attacking 5:   0 159 107 37
+attacking 6: 107 159 107 37
+
+wig: 0 196 26 17
+
+white feather: 26 196 24 7
+red feather: 50 196 24 7
+main feather: 74 196 24 7
+
+hole: 98 196 2 4
+
+watching left: 172 0 40 81
+watching right: 212 0 37 80
+
+flying 1: 214 80 96 80
+flying 2: 214 160 96 80
+flying 3: 310 0 96 80
+flying 4: 406 0 96 80
+
+dying 1: 310 80 96 80
+dying 2: 406 80 96 80
+dying 3: 310 160 96 80
+dying 4: 406 160 96 80

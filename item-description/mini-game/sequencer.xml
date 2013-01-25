@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<item xmlns="http://www.gamned.org/bear/schema/0.5" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gamned.org/bear/schema/0.5 http://www.gamned.org/bear/schema/0.5/item-description.xsd" class="ptb::sequencer" category="mini-game" box_color="#BE41D1" url="http://www.gamned.org/wiki/index.php/sequencer">
+  <inherit>
+    <class>bear::base_item</class>
+    <class>ptb::item_with_single_player_action_reader</class>
+    <class>bear::item_with_toggle</class>
+    <class>bear::with_linear_expression_creation</class>
+  </inherit>
+  <description>A sequencer plays a song and displays the notes. The player has to execute some actions to stay in rhythm.</description>
+  <fields>
+    <field type="sprite" name="sequencer.notes.sprites" list="true">
+      <description>The sprites used to display the
+      notes.</description>
+      <default_value>none</default_value>
+    </field>
+    <field type="real" name="sequencer.view_distance">
+      <description>How far do we display the notes, in seconds.</description>
+      <default_value>3</default_value>
+    </field>
+    <field type="animation" name="sequencer.notes.animations" list="true">
+      <description>The animations used to display the
+      notes.</description>
+      <default_value>none</default_value>
+    </field>
+    <field type="string" name="sequencer.notes.track" required="true">
+      <description>The file containing the notes of the track to
+      play.</description>
+    </field>
+    <field type="sample" name="sequencer.song" required="true">
+      <description>The song to play.</description>
+    </field>
+    <field type="u_integer" name="sequencer.score.fail">
+      <description>
+        The score taken from the player when he's wrong.
+      </description>
+      <default_value>20</default_value>
+    </field>
+    <field type="u_integer" name="sequencer.score.miss">
+      <description>
+        The score taken from the player when he miss a note.
+      </description>
+      <default_value>10</default_value>
+    </field>
+    <field type="u_integer" name="sequencer.score.success">
+      <description>
+        The score given to the player when he's right.
+      </description>
+      <default_value>100</default_value>
+    </field>
+    <field type="u_integer" name="sequencer.score.trigger_threshold">
+      <description>
+        The score over which toggle.on_success is toggled.
+      </description>
+      <default_value>0</default_value>
+    </field>
+    <field type="item_reference" name="sequencer.toggle.on_success">
+      <description>
+        The item toggled if the player's score is greater or equal to
+        score.trigger_threshold.
+      </description>
+      <set>
+        <element value="bear::with_toggle"/>
+      </set>
+      <default_value>none</default_value>
+    </field>
+    <field type="item_reference" name="sequencer.toggle.on_failure">
+      <description>
+        The item toggled if the player's score is less than
+        score.trigger_threshold.
+      </description>
+      <set>
+        <element value="bear::with_toggle"/>
+      </set>
+      <default_value>none</default_value>
+    </field>
+  </fields>
+  <new_default_value name="base_item.phantom">true</new_default_value>
+  <new_default_value name="base_item.can_move_items">false</new_default_value>
+</item>

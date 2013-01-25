@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation loops='1' first_index='0' last_index='15' loop_back='false' auto_size='true' width='32' height='32' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'>
+  <frame duration='0.05'>
+    <sprite image='gfx/corrupting-bonus-disapearing.png' x='128' y='0' clip_width='32' clip_height='32' spritepos='flash 1' auto_size='true' width='32' height='32' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.05'>
+    <sprite image='gfx/corrupting-bonus-disapearing.png' x='160' y='0' clip_width='32' clip_height='32' spritepos='flash 2' auto_size='true' width='32' height='32' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.05'>
+    <sprite image='gfx/corrupting-bonus-disapearing.png' x='192' y='0' clip_width='32' clip_height='32' spritepos='flash 3' auto_size='true' width='32' height='32' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.05'>
+    <sprite image='gfx/corrupting-bonus-disapearing.png' x='224' y='0' clip_width='32' clip_height='32' spritepos='flash 4' auto_size='true' width='32' height='32' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.05'>
+    <sprite image='gfx/corrupting-bonus-disapearing.png' x='128' y='32' clip_width='32' clip_height='32' spritepos='flash 5' auto_size='true' width='32' height='32' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.05'>
+    <sprite image='gfx/corrupting-bonus-disapearing.png' x='160' y='32' clip_width='32' clip_height='32' spritepos='flash 6' auto_size='true' width='32' height='32' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.05'>
+    <sprite image='gfx/corrupting-bonus-disapearing.png' x='192' y='32' clip_width='32' clip_height='32' spritepos='flash 7' auto_size='true' width='32' height='32' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.05'>
+    <sprite image='gfx/corrupting-bonus-disapearing.png' x='224' y='32' clip_width='32' clip_height='32' spritepos='flash 8' auto_size='true' width='32' height='32' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.05'>
+    <sprite image='gfx/corrupting-bonus-disapearing.png' x='128' y='64' clip_width='32' clip_height='32' spritepos='flash 9' auto_size='true' width='32' height='32' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.05'>
+    <sprite image='gfx/corrupting-bonus-disapearing.png' x='160' y='64' clip_width='32' clip_height='32' spritepos='flash 10' auto_size='true' width='32' height='32' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.05'>
+    <sprite image='gfx/corrupting-bonus-disapearing.png' x='192' y='64' clip_width='32' clip_height='32' spritepos='flash 11' auto_size='true' width='32' height='32' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.05'>
+    <sprite image='gfx/corrupting-bonus-disapearing.png' x='224' y='64' clip_width='32' clip_height='32' spritepos='flash 12' auto_size='true' width='32' height='32' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.05'>
+    <sprite image='gfx/corrupting-bonus-disapearing.png' x='128' y='96' clip_width='32' clip_height='32' spritepos='flash 13' auto_size='true' width='32' height='32' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.05'>
+    <sprite image='gfx/corrupting-bonus-disapearing.png' x='160' y='96' clip_width='32' clip_height='32' spritepos='flash 14' auto_size='true' width='32' height='32' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.05'>
+    <sprite image='gfx/corrupting-bonus-disapearing.png' x='192' y='96' clip_width='32' clip_height='32' spritepos='flash 15' auto_size='true' width='32' height='32' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.05'>
+    <sprite image='gfx/corrupting-bonus-disapearing.png' x='224' y='96' clip_width='32' clip_height='32' spritepos='flash 16' auto_size='true' width='32' height='32' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+</animation>

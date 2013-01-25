@@ -1,0 +1,54 @@
+%_______________________________________________________________________________
+\section{Interface utilisateur}
+
+%-------------------------------------------------------------------------------
+\subsection{L'espace de nom gui \index{gui!espace de noms} }
+Tout ce qui se rapporte à l'interface utilisateur est dans l'espace de noms
+\texttt{gui}.
+
+\subsection{Composant visuel de base
+            \index{gui!composant visuel} }
+
+Tous les composants visuels héritent de la classe \verb|gui::visual_component|.
+La plupart des composants sont contenus dans un composant parent. C'est ce
+composant qui se chargera de détruire ses composants fils lors de sa
+destruction. Un composant a une taille et une position relative au coin en
+haut à gauche du composant parent. Les composants fils sont entièrement inclus
+(au sens géométrique) dans le composant parent (pas de débordement).
+
+Chaque composant se charge d'afficher ses fils (c'est automatique). Les fils
+peuvent redéfinir la méthode \texttt{display()} pour s'afficher. Il n'y a
+aucune garantie sur l'ordre d'affichage des composants fils.
+
+\subsection{Les fenêtres \index{gui!fenetre@fenêtre} }
+
+La fenêtre est le premier composant graphique. Elle est représentée par la
+classe \verb|gui::window|. Il s'agit d'un cadre avec un fond et un bord,
+destiné à contenir des contrôles. Il faut indiquer au constructeur quels sont
+les sprites à utiliser pour le fond, les bords et les coins. Les sprites de
+fond et de bords sont répétés pour remplir l'espace.
+
+Actuellement l'affichage n'affiche que les morceaux entiers de l'arrière plan
+(pas de coupure sur les bords).
+
+\subsection{Zone de texte en lecture seule
+            \index{gui!zone de texte} }
+
+Il s'agit d'un composant simple, chargé d'afficher du texte à l'écran. Il est
+représenté par la classe \verb|gui::static_text|. La taille peut être ajustée
+automatiquement au texte, autrement il sera coupé au niveau des espaces.
+
+Il faut indiquer au contructeur quelle est la police à utiliser pour afficher
+le texte. Cette police sera détruite en même temps que le composant.
+
+\subsection{Zone de texte en lecture seule et défilable
+            \index{gui!zone de texte defilable@zone de texte défilable} }
+
+Cette classe (\verb|gui::multi_page|) permet d'afficher un texte qui ne 
+tiendrait pas à l'écran en permettant de faire défiler le texte.
+
+\subsection{Zone de saisie \index{gui!zone de saisie} }
+
+La classe \verb|gui::text_input| permet de récupérer une ligne de texte entrée
+par l'utilisateur.
+

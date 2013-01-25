@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="utf-8"?>
+<level name='' width='1280' height='720' music='music/castle.ogg'>
+  <layer class_name='decoration_layer' name='' width='1280' height='720' fit_level='1'>
+
+<items>
+    <item class_name='bear::decorative_item' fixed='true' id='text_intro_4'>
+<fields>
+<field name='base_item.position.bottom'>
+<real value='102'/>
+</field>
+<field name='base_item.position.left'>
+<real value='384'/>
+</field>
+<field name='base_item.size.height'>
+<real value='200'/>
+</field>
+<field name='base_item.size.width'>
+<real value='512'/>
+</field>
+<field name='item_with_text.font'>
+<font path='font/fixed_yellow-10x20.fnt' size='20'/>
+</field>
+<field name='item_with_text.text'>
+<string value='Following honey drops left on the ground, Plee reaches the edge of the forest'/>
+</field>
+<field name='item_with_text.text_inside'>
+<bool value='1'/>
+</field>
+</fields>
+    </item><!-- bear::decorative_item -->
+
+    <item class_name='bear::decorative_item' fixed='true' id='text_intro_2'>
+<fields>
+<field name='base_item.position.bottom'>
+<real value='102'/>
+</field>
+<field name='base_item.position.left'>
+<real value='384'/>
+</field>
+<field name='base_item.size.height'>
+<real value='200'/>
+</field>
+<field name='base_item.size.width'>
+<real value='512'/>
+</field>
+<field name='item_with_text.font'>
+<font path='font/fixed_yellow-10x20.fnt' size='20'/>
+</field>
+<field name='item_with_text.text'>
+<string value='Only to find it empty!\n\nUpon discovering that all the pots in his house are empty, Plee thinks of his mischievous son and swears:'/>
+</field>
+<field name='item_with_text.text_inside'>
+<bool value='1'/>
+</field>
+</fields>
+    </item><!-- bear::decorative_item -->
+
+    <item class_name='bear::decorative_item' fixed='true' id='text_intro_1'>
+<fields>
+<field name='base_item.position.bottom'>
+<real value='102'/>
+</field>
+<field name='base_item.position.left'>
+<real value='384'/>
+</field>
+<field name='base_item.size.height'>
+<real value='200'/>
+</field>
+<field name='base_item.size.width'>
+<real value='512'/>
+</field>
+<field name='item_with_text.font'>
+<font path='font/fixed_yellow-10x20.fnt' size='20'/>
+</field>
+<field name='item_with_text.text'>
+<string value='Plee the Bear wakes up late one afternoon after dreaming of his earlier years, when he traveled across the world with his belle at his side.\n\nCraving an afternoon snack, he sticks his arm in a nearby honey pot...'/>
+</field>
+<field name='item_with_text.text_inside'>
+<bool value='1'/>
+</field>
+</fields>
+    </item><!-- bear::decorative_item -->
+
+    <item class_name='bear::decorative_item' fixed='true' id='text_intro_3'>
+<fields>
+<field name='base_item.position.bottom'>
+<real value='102'/>
+</field>
+<field name='base_item.position.left'>
+<real value='384'/>
+</field>
+<field name='base_item.size.height'>
+<real value='200'/>
+</field>
+<field name='base_item.size.width'>
+<real value='512'/>
+</field>
+<field name='item_with_text.font'>
+<font path='font/fixed_yellow-10x20.fnt' size='20'/>
+</field>
+<field name='item_with_text.text'>
+<string value='&quot;I&apos;m gonna find that boy and give him the wallop he deserves.&quot;'/>
+</field>
+<field name='item_with_text.text_inside'>
+<bool value='1'/>
+</field>
+</fields>
+    </item><!-- bear::decorative_item -->
+
+    <item class_name='bear::decorative_item' fixed='true' id='intro_4'>
+<fields>
+<field name='base_item.position.bottom'>
+<real value='352'/>
+</field>
+<field name='base_item.position.left'>
+<real value='384'/>
+</field>
+<field name='item_with_decoration.sprite'>
+<sprite image='gfx/intro/intro-4.png' x='0' y='0' clip_width='512' clip_height='256' spritepos='' auto_size='true' width='512' height='256' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+</field>
+</fields>
+    </item><!-- bear::decorative_item -->
+
+    <item class_name='bear::decorative_item' fixed='true' id='intro_1'>
+<fields>
+<field name='base_item.position.bottom'>
+<real value='352'/>
+</field>
+<field name='base_item.position.left'>
+<real value='423.5'/>
+</field>
+<field name='item_with_decoration.sprite'>
+<sprite image='gfx/intro/intro-1.png' x='0' y='0' clip_width='433' clip_height='256' spritepos='' auto_size='true' width='433' height='256' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+</field>
+</fields>
+    </item><!-- bear::decorative_item -->
+
+    <item class_name='bear::decorative_item' fixed='true' id='intro_2'>
+<fields>
+<field name='base_item.position.bottom'>
+<real value='352'/>
+</field>
+<field name='base_item.position.left'>
+<real value='426'/>
+</field>
+<field name='item_with_decoration.sprite'>
+<sprite image='gfx/intro/intro-2.png' x='0' y='0' clip_width='428' clip_height='256' spritepos='' auto_size='true' width='428' height='256' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+</field>
+</fields>
+    </item><!-- bear::decorative_item -->
+
+    <item class_name='bear::decorative_item' fixed='true' id='intro_3'>
+<fields>
+<field name='base_item.position.bottom'>
+<real value='352'/>
+</field>
+<field name='base_item.position.left'>
+<real value='446'/>
+</field>
+<field name='item_with_decoration.sprite'>
+<sprite image='gfx/intro/intro-3.png' x='0' y='0' clip_width='388' clip_height='256' spritepos='' auto_size='true' width='388' height='256' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+</field>
+</fields>
+    </item><!-- bear::decorative_item -->
+
+    <item class_name='bear::crossfade_sequence' fixed='true'>
+<fields>
+<field name='base_item.position.bottom'>
+<real value='256'/>
+</field>
+<field name='base_item.position.left'>
+<real value='640'/>
+</field>
+<field name='crossfade_sequence.duration_sequence'>
+<real value='10'/>
+<real value='7'/>
+<real value='10'/>
+<real value='7'/>
+</field>
+<field name='crossfade_sequence.item_sequence'>
+<item_reference value='text_intro_1'/>
+<item_reference value='text_intro_2'/>
+<item_reference value='text_intro_3'/>
+<item_reference value='text_intro_4'/>
+</field>
+</fields>
+    </item><!-- bear::crossfade_sequence -->
+
+    <item class_name='bear::crossfade_sequence' fixed='true'>
+<fields>
+<field name='base_item.position.bottom'>
+<real value='290'/>
+</field>
+<field name='base_item.position.left'>
+<real value='640'/>
+</field>
+<field name='crossfade_sequence.duration_sequence'>
+<real value='10'/>
+<real value='7'/>
+<real value='10'/>
+<real value='7'/>
+</field>
+<field name='crossfade_sequence.item_sequence'>
+<item_reference value='intro_1'/>
+<item_reference value='intro_2'/>
+<item_reference value='intro_3'/>
+<item_reference value='intro_4'/>
+</field>
+</fields>
+    </item><!-- bear::crossfade_sequence -->
+
+</items>
+
+<priority>
+</priority>
+
+  </layer><!-- decoration_layer -->
+
+  <layer class_name='action_layer' name='' width='1280' height='720' fit_level='1'>
+
+<items>
+    <item class_name='bear::time_scale_on_input_toggle' fixed='true'>
+<fields>
+<field name='item_with_toggle.initial_state'>
+<bool value='1'/>
+</field>
+<field name='item_with_toggle.linked_toggles'>
+<item_reference value='fast_forward'/>
+</field>
+<field name='base_item.position.bottom'>
+<real value='40'/>
+</field>
+<field name='base_item.position.left'>
+<real value='39'/>
+</field>
+<field name='time_scale_on_input_toggle.time_scale'>
+<item_reference value='time-scale'/>
+</field>
+</fields>
+    </item><!-- bear::time_scale_on_input_toggle -->
+
+    <item class_name='bear::time_scale' fixed='true' id='time-scale'>
+<fields>
+<field name='base_item.position.bottom'>
+<real value='92'/>
+</field>
+<field name='base_item.position.left'>
+<real value='41'/>
+</field>
+<field name='time_scale.scale'>
+<real value='10'/>
+</field>
+</fields>
+    </item><!-- bear::time_scale -->
+
+    <item class_name='bear::string_game_variable_setter_suicide' fixed='false'>
+<fields>
+<field name='base_item.position.bottom'>
+<real value='173'/>
+</field>
+<field name='base_item.position.left'>
+<real value='46'/>
+</field>
+<field name='string_game_variable_setter.name'>
+<string value='scenario/next_level'/>
+</field>
+<field name='string_game_variable_setter.value'>
+<string value='level/forest-1.cl'/>
+</field>
+</fields>
+    </item><!-- bear::string_game_variable_setter_suicide -->
+
+    <item class_name='bear::string_game_variable_setter_suicide' fixed='false'>
+<fields>
+<field name='base_item.position.bottom'>
+<real value='124'/>
+</field>
+<field name='base_item.position.left'>
+<real value='108'/>
+</field>
+<field name='string_game_variable_setter.name'>
+<string value='persistent/level/forest-1.cl/player_2/last_exit'/>
+</field>
+<field name='string_game_variable_setter.value'>
+<string value='default'/>
+</field>
+</fields>
+    </item><!-- bear::string_game_variable_setter_suicide -->
+
+    <item class_name='bear::string_game_variable_setter_suicide' fixed='false'>
+<fields>
+<field name='base_item.position.bottom'>
+<real value='173'/>
+</field>
+<field name='base_item.position.left'>
+<real value='109'/>
+</field>
+<field name='string_game_variable_setter.name'>
+<string value='persistent/level/forest-1.cl/player_1/last_exit'/>
+</field>
+<field name='string_game_variable_setter.value'>
+<string value='default'/>
+</field>
+</fields>
+    </item><!-- bear::string_game_variable_setter_suicide -->
+
+    <item class_name='bear::decorative_toggle' fixed='true' id='fast_forward'>
+<fields>
+<field name='base_item.position.bottom'>
+<real value='456'/>
+</field>
+<field name='base_item.position.left'>
+<real value='608'/>
+</field>
+<field name='decorated_item_with_toggle.visual_on'>
+<animation loops='0' first_index='0' last_index='0' loop_back='false' auto_size='true' width='64' height='48' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'>
+  <frame duration='1'>
+    <sprite image='gfx/ui/status/status.png' x='63' y='0' clip_width='64' clip_height='48' spritepos='fast forward' auto_size='true' width='64' height='48' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+</animation>
+</field>
+</fields>
+    </item><!-- bear::decorative_toggle -->
+
+    <item class_name='bear::delayed_level_loading' fixed='true'>
+<fields>
+<field name='base_item.position.bottom'>
+<real value='33'/>
+</field>
+<field name='base_item.position.left'>
+<real value='640'/>
+</field>
+<field name='delayed_level_loading.delay'>
+<real value='35'/>
+</field>
+<field name='delayed_level_loading.level'>
+<string value='level/loading.cl'/>
+</field>
+</fields>
+    </item><!-- bear::delayed_level_loading -->
+
+</items>
+
+<priority>
+</priority>
+
+  </layer><!-- action_layer -->
+
+</level>

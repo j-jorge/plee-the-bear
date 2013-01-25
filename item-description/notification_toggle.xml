@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<item xmlns="http://www.gamned.org/bear/schema/0.5" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gamned.org/bear/schema/0.5 http://www.gamned.org/bear/schema/0.5/item-description.xsd" class="ptb::notification_toggle" category="toggle" box_color="#009296" url="http://www.gamned.org/wiki/index.php/notification_toggle">
+  <inherit>
+    <class>bear::base_item</class>
+    <class>bear::item_with_toggle</class>
+  </inherit>
+  <description>A toggle that sends a notification when it is activated.</description>
+  <fields>
+    <field type="string" name="notification_toggle.picture_filename">
+      <description>The picture filename to display.</description>
+      <default_value>none</default_value>
+    </field>
+    <field type="string" name="notification_toggle.picture_name">
+      <description>The picture name to display.</description>
+      <default_value>none</default_value>
+    </field>
+    <field type="string" name="notification_toggle.text">
+      <description>The notification's text.</description>
+      <default_value>none</default_value>
+    </field>
+  </fields>
+</item>

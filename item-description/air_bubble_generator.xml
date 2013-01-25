@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<item xmlns="http://www.gamned.org/bear/schema/0.5" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gamned.org/bear/schema/0.5 http://www.gamned.org/bear/schema/0.5/item-description.xsd" class="ptb::air_bubble_generator" category="water" box_color="#2E5931" url="http://www.gamned.org/wiki/index.php/air_bubble_generator">
+  <inherit>
+    <class>bear::base_item</class>
+    <class>bear::basic_renderable_item</class>
+    <class>bear::item_with_decoration</class>
+  </inherit>
+  <description>The class describing a generator of air bubble.</description>
+  <fields>
+    <field type="real" name="air_bubble_generator.oxygen_sequence" list="true" required="true">
+      <description>The amount of oxygen in bubbles of one sequence.</description>
+    </field>
+    <field type="real" name="air_bubble_generator.duration_sequence" list="true" required="true">
+      <description>The durations between the bubbles of one sequence.</description>
+    </field>
+    <field type="real" name="air_bubble_generator.duration_decorative_sequence" list="true">
+      <description>The durations between decorative bubbles. This is independant
+        from the real bubbles. An empty list means no decorations.</description>
+      <default_value>empty list</default_value>
+    </field>
+  </fields>
+</item>

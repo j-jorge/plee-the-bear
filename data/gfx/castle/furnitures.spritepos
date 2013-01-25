@@ -1,0 +1,10 @@
+# The format of the lines is
+# picture: x y width height
+
+table end: 0 179 40 76
+table middle: 40 179 75 76
+wardrobe: 0 0 130 178
+cupboard: 131 173 113 82
+throne: 131 0 97 171
+! palette: 0 0 244 255
+

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation loops='0' first_index='0' last_index='2' loop_back='false' auto_size='true' width='61' height='125' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'>
+  <frame duration='0.25'>
+    <sprite image='gfx/plee/plee-4.png' x='368' y='0' clip_width='61' clip_height='125' spritepos='floating 1' auto_size='true' width='61' height='125' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.3'>
+    <sprite image='gfx/plee/plee-4.png' x='429' y='0' clip_width='61' clip_height='125' spritepos='floating 2' auto_size='true' width='61' height='125' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.3'>
+    <sprite image='gfx/plee/plee-4.png' x='0' y='125' clip_width='61' clip_height='125' spritepos='floating 3' auto_size='true' width='61' height='125' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+</animation>

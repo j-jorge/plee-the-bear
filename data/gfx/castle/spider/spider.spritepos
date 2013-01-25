@@ -1,0 +1,24 @@
+# The format of the lines is
+# picture: x y width height
+
+venom 9: 223 19 33 17
+venom 8: 197 83 33 17
+venom 7: 164 83 33 17
+venom 6: 132 83 33 17
+venom 5: 101 83 33 17
+venom 4: 73 83 33 17
+venom 3: 49 83 33 17
+venom 2: 25 83 33 17
+venom 1: 0 83 33 17
+web: 0 106 256 17
+body 4: 85 41 86 41
+body 3: 170 42 86 41
+body 2: 0 41 86 41
+body 1: 0 0 86 41
+mouth 4: 179 21 48 20
+mouth 3: 180 0 48 20
+mouth 2: 134 15 48 20
+mouth 1: 86 15 48 20
+leg end: 124 0 55 14
+leg begin: 86 0 37 15
+

@@ -1,0 +1,21 @@
+# The format of the lines is
+# picture: x y width height
+
+background: 0 0 48 48
+owl and hazelnut: 48 0 48 48
+owl: 96 0 48 48
+hazelnut: 144 0 48 48
+carnage: 192 0 48 48
+honeypot 1: 240 0 48 48
+honeypot 2: 288 0 48 48
+honeypot 3: 336 0 48 48
+honeypot 4: 384 0 48 48
+honeypot 5: 432 0 48 48
+
+bonus boxes: 0 48 48 48
+energy box: 48 48 48 48
+time: 96 48 48 48
+cooperation: 144 48 48 48
+ray: 192 48 48 48
+exits: 240 48 48 48
+hideouts: 288 48 48 48

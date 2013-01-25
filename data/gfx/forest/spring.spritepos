@@ -1,0 +1,14 @@
+# The format of the lines is
+# picture: x y width height
+
+yellow 1:   0 0 60 45
+yellow 2:  61 0 60 45
+yellow 3: 122 0 60 45
+
+orange 1: 183  0 60 45
+orange 2:   0 46 60 45
+orange 3:  61 46 60 45
+
+red 1: 122 46 60 45
+red 2: 183 46 60 45
+red 3:   0 92 60 45

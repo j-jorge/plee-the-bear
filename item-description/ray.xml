@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<item xmlns="http://www.gamned.org/bear/schema/0.5" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gamned.org/bear/schema/0.5 http://www.gamned.org/bear/schema/0.5/item-description.xsd" class="ptb::ray" category="scenario/characters" box_color="#895E91" url="http://www.gamned.org/wiki/index.php/ray">
+  <inherit>
+    <class>ptb::player</class>
+  </inherit>
+ <fields>
+ <field type="boolean" name="ray.is_crying">
+      <description>
+        Tell if Ray is crying.
+      </description>
+      <default_value>false</default_value>
+    </field>
+ </fields>
+</item>

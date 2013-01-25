@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<item xmlns="http://www.gamned.org/bear/schema/0.5" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gamned.org/bear/schema/0.5 http://www.gamned.org/bear/schema/0.5/item-description.xsd" class="ptb::layer_border" category="block" box_color="#302CE0" fixable="false" url="http://www.gamned.org/wiki/index.php/layer_border">
+  <inherit>
+    <class>bear::base_item</class>
+  </inherit>
+  <description>An item that creates a border around the layer and dies.</description>
+  <fields>
+    <field type="real" name="layer_border.block_width">
+      <description>The width of the blocks.</description>
+      <default_value>100</default_value>
+    </field>
+  </fields>
+</item>

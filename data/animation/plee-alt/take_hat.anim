@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation loops='0' first_index='0' last_index='6' loop_back='false' auto_size='true' width='68' height='120' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'>
+  <frame duration='0.09'>
+    <sprite image='gfx/plee/plee-alt-4.png' x='92' y='125' clip_width='68' clip_height='120' spritepos='changing hat 1' auto_size='true' width='68' height='120' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.09'>
+    <sprite image='gfx/plee/plee-alt-4.png' x='160' y='125' clip_width='68' clip_height='120' spritepos='changing hat 2' auto_size='true' width='68' height='120' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.09'>
+    <sprite image='gfx/plee/plee-alt-4.png' x='228' y='125' clip_width='68' clip_height='120' spritepos='changing hat 3' auto_size='true' width='68' height='120' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.09'>
+    <sprite image='gfx/plee/plee-alt-4.png' x='296' y='125' clip_width='68' clip_height='120' spritepos='changing hat 4' auto_size='true' width='68' height='120' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.09'>
+    <sprite image='gfx/plee/plee-alt-4.png' x='364' y='125' clip_width='68' clip_height='120' spritepos='changing hat 5' auto_size='true' width='68' height='120' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.09'>
+    <sprite image='gfx/plee/plee-alt-4.png' x='432' y='125' clip_width='68' clip_height='120' spritepos='changing hat 6' auto_size='true' width='68' height='120' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.09'>
+    <sprite image='gfx/plee/plee-alt-4.png' x='0' y='250' clip_width='68' clip_height='120' spritepos='changing hat 7' auto_size='true' width='68' height='120' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+</animation>

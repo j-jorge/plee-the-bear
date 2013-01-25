@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<item xmlns="http://www.gamned.org/bear/schema/0.5" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gamned.org/bear/schema/0.5 http://www.gamned.org/bear/schema/0.5/item-description.xsd" class="ptb::script_actor_player" category="script" box_color="#BA7EFF" fixable="false" url="http://www.gamned.org/wiki/index.php/script_actor_player">
+  <inherit>
+    <class>bear::base_item</class>
+    <class>bear::item_with_text_interface</class>
+  </inherit>
+  <description>An item that controls a player during a script.</description>
+  <fields>
+    <field type="u_integer" name="script_actor_player.player_index">
+      <description>The index of the player to which we send the inputs.</description>
+      <default_value>1 or the index of the player field.</default_value>
+    </field>
+    <field type="item_reference" name="script_actor_player.player">
+      <description>The player to which we send the inputs.</description>
+      <default_value>Set by the value of player_index</default_value>
+      <set>
+	<element value="ptb::player"/>
+      </set>
+    </field>
+  </fields>
+  <new_default_value name="base_item.phantom">true</new_default_value>
+  <new_default_value name="base_item.can_move_items">false</new_default_value>
+  <new_default_value name="base_item.artificial">true</new_default_value>
+</item>

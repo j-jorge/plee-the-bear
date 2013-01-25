@@ -1,0 +1,25 @@
+# The format of the lines is
+# picture: x y width height
+
+floating and swimming 1:   0 0 92 125
+floating and swimming 2:  92 0 92 125
+floating and swimming 3: 184 0 92 125
+floating and swimming 4: 276 0 92 125
+
+floating 1: 368 0 61 125
+floating 2: 429 0 61 125
+floating 3: 0 125 61 125
+
+changing hat 7 floating arm: 493 8 19 30
+
+changing hat 1:  92 125 68 120
+changing hat 2: 160 125 68 120
+changing hat 3: 228 125 68 120
+changing hat 4: 296 125 68 120
+changing hat 5: 364 125 68 120
+changing hat 6: 432 125 68 120
+changing hat 7:   0 250 68 120
+
+drowning 1: 68 245 78 129
+drowning 2: 146 245 78 129
+drowning 3: 224 245 78 129

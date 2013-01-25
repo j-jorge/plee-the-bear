@@ -1,0 +1,12 @@
+# The format of the lines is
+# picture: x y width height
+
+air 1: 0 0 32 256
+air 2: 32 0 32 256
+air 3: 64 0 32 256
+air 4: 96 0 32 256
+
+water 1: 128 0 32 256
+water 2: 160 0 32 256
+water 3: 192 0 32 256
+water 4: 224 0 32 256

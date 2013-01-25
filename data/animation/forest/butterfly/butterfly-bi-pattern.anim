@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation loops='0' first_index='0' last_index='2' loop_back='true' auto_size='true' width='14' height='12' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'>
+  <frame duration='0.093'>
+    <sprite image='gfx/forest/butterfly/butterfly.png' x='42' y='0' clip_width='14' clip_height='12' spritepos='bicolor pattern 1 ' auto_size='true' width='14' height='12' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.093'>
+    <sprite image='gfx/forest/butterfly/butterfly.png' x='56' y='0' clip_width='14' clip_height='12' spritepos='bicolor pattern 2' auto_size='true' width='14' height='12' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.093'>
+    <sprite image='gfx/forest/butterfly/butterfly.png' x='70' y='0' clip_width='14' clip_height='12' spritepos='bicolor pattern 3' auto_size='true' width='14' height='12' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+</animation>

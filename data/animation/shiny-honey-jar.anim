@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation loops='0' first_index='0' last_index='7' loop_back='false' auto_size='true' width='64' height='64' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'>
+  <frame duration='0.2'>
+    <sprite image='gfx/shiny-honey-jar/shiny-honey-jar.png' x='0' y='0' clip_width='64' clip_height='64' spritepos='jar 1' auto_size='true' width='64' height='64' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.2'>
+    <sprite image='gfx/shiny-honey-jar/shiny-honey-jar.png' x='64' y='0' clip_width='64' clip_height='64' spritepos='jar 2' auto_size='true' width='64' height='64' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.2'>
+    <sprite image='gfx/shiny-honey-jar/shiny-honey-jar.png' x='128' y='0' clip_width='64' clip_height='64' spritepos='jar 3' auto_size='true' width='64' height='64' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.2'>
+    <sprite image='gfx/shiny-honey-jar/shiny-honey-jar.png' x='192' y='0' clip_width='64' clip_height='64' spritepos='jar 4' auto_size='true' width='64' height='64' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.2'>
+    <sprite image='gfx/shiny-honey-jar/shiny-honey-jar.png' x='0' y='64' clip_width='64' clip_height='64' spritepos='jar 5' auto_size='true' width='64' height='64' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.2'>
+    <sprite image='gfx/shiny-honey-jar/shiny-honey-jar.png' x='64' y='64' clip_width='64' clip_height='64' spritepos='jar 6' auto_size='true' width='64' height='64' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.2'>
+    <sprite image='gfx/shiny-honey-jar/shiny-honey-jar.png' x='128' y='64' clip_width='64' clip_height='64' spritepos='jar 7' auto_size='true' width='64' height='64' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.2'>
+    <sprite image='gfx/shiny-honey-jar/shiny-honey-jar.png' x='192' y='64' clip_width='64' clip_height='64' spritepos='jar 8' auto_size='true' width='64' height='64' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+</animation>

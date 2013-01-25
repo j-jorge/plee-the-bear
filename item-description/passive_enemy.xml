@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<item xmlns="http://www.gamned.org/bear/schema/0.5" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gamned.org/bear/schema/0.5 http://www.gamned.org/bear/schema/0.5/item-description.xsd" class="ptb::passive_enemy" category="enemy" box_color="#98F74E" url="http://www.gamned.org/wiki/index.php/passive_enemy" fixable="true">
+  <inherit>
+    <class>ptb::monster_item</class>
+    <class>bear::block</class>
+  </inherit>
+  <description>The class describing a passive enemy.</description>
+  <fields>
+    <field type="string" name="passive_enemy.type_bottom_side">
+      <description>The type of the bottom side.</description>
+      <set>
+        <element value="inactive"/>
+        <element value="attack"/>
+      </set>
+      <default_value>inactive</default_value>
+    </field>
+    <field type="string" name="passive_enemy.type_right_side">
+      <description>The type of the right side.</description>
+      <set>
+        <element value="inactive"/>
+        <element value="attack"/>
+      </set>
+      <default_value>inactive</default_value>
+    </field>
+    <field type="string" name="passive_enemy.type_left_side">
+      <description>The type of the left side.</description>
+      <set>
+        <element value="inactive"/>
+        <element value="attack"/>
+      </set>
+      <default_value>inactive</default_value>
+    </field>
+    <field type="string" name="passive_enemy.type_top_side">
+      <description>The type of the top side.</description>
+      <set>
+        <element value="inactive"/>
+        <element value="attack"/>
+      </set>
+      <default_value>inactive</default_value>
+    </field>
+  </fields>
+  <new_default_value name="base_item.can_move_items">true</new_default_value>
+</item>

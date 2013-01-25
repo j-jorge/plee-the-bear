@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation loops='1' first_index='0' last_index='4' loop_back='false' auto_size='true' width='102' height='116' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'>
+  <frame duration='0.18'>
+    <sprite image='gfx/forest/gorilla/walking.png' x='0' y='0' clip_width='102' clip_height='116' spritepos='walking 1' auto_size='true' width='102' height='116' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.18'>
+    <sprite image='gfx/forest/gorilla/walking.png' x='102' y='0' clip_width='102' clip_height='116' spritepos='walking 2' auto_size='true' width='102' height='116' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.18'>
+    <sprite image='gfx/forest/gorilla/walking.png' x='204' y='0' clip_width='102' clip_height='116' spritepos='walking 3' auto_size='true' width='102' height='116' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.18'>
+    <sprite image='gfx/forest/gorilla/walking.png' x='306' y='0' clip_width='102' clip_height='116' spritepos='walking 4' auto_size='true' width='102' height='116' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.18'>
+    <sprite image='gfx/forest/gorilla/walking.png' x='408' y='0' clip_width='102' clip_height='116' spritepos='walking 5' auto_size='true' width='102' height='116' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+</animation>

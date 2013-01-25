@@ -1,0 +1,11 @@
+# The format of the lines is
+# picture: x y width height
+
+cap 0:   0  0 34 16
+cap 1:  34  0 34 16
+cap 2:  68  0 34 16
+cap 3:   0 16 34 16
+cap 4:  34 16 34 16
+cap 5:  68 16 34 16
+
+bath cap 1: 0 32 34 16

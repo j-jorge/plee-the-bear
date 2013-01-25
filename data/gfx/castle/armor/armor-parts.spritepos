@@ -1,0 +1,25 @@
+# The format of the lines is
+# picture: x y width height
+
+axe: 0 59 46 56
+profile - head: 47 93 31 35
+profile - gauntlet: 88 62 16 29
+profile - elbow: 1 117 13 10
+profile - arm: 76 60 11 30
+profile - shoulder: 110 97 17 23
+profile - body: 43 0 38 59
+profile - knee: 95 21 20 13
+profile - thigh: 97 38 17 22
+profile - feet: 79 104 31 23
+profile - leg: 30 115 16 12
+frontal - feet: 97 0 21 20
+frontal - knee: 82 0 15 11
+frontal - leg: 115 21 13 20
+frontal - gauntlet: 115 43 12 27
+frontal - elbow: 15 117 13 10
+frontal - shoulder: 111 75 14 19
+frontal - arm: 82 12 12 25
+frontal - body: 0 0 42 55
+frontal - thigh: 82 38 15 22
+frontal - head: 47 60 28 32
+

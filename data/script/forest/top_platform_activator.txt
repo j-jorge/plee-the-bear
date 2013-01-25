@@ -1,0 +1,12 @@
+0 player_1.control_player();
+0 player_2.control_player();
+0 camera.smooth_activate(0.4);
+0.4 camera_mvt.activate();
+7 platform.activate();
+
+/* The shared camera will come back to the players. */
+11 player_1.release_player();
+11 player_2.release_player();
+11 shared_camera.focus_on( camera );
+11 shared_camera.activate();
+11 script.end();

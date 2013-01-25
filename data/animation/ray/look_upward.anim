@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation loops='1' first_index='0' last_index='0' loop_back='false' auto_size='true' width='27' height='91' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'>
+  <frame duration='1'>
+    <sprite image='gfx/ray/ray-1.png' x='468' y='0' clip_width='27' clip_height='91' spritepos='look upward' auto_size='true' width='27' height='91' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+</animation>

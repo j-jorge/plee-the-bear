@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation loops='0' first_index='0' last_index='1' loop_back='true' auto_size='true' width='128' height='170' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'>
+  <frame duration='0.09'>
+    <sprite image='gfx/god/human-talking.png' x='0' y='170' clip_width='128' clip_height='170' spritepos='frame 5' auto_size='true' width='128' height='170' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.09'>
+    <sprite image='gfx/god/human-talking.png' x='128' y='170' clip_width='128' clip_height='170' spritepos='frame 6' auto_size='true' width='128' height='170' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+</animation>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<item xmlns="http://www.gamned.org/bear/schema/0.5" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gamned.org/bear/schema/0.5 http://www.gamned.org/bear/schema/0.5/item-description.xsd" class="ptb::wasp" category="enemy/forest" box_color="#FAFF1F" url="http://www.gamned.org/wiki/index.php/wasp">
+  <inherit>
+    <class>ptb::base_enemy</class>
+    <class>bear::model</class>
+    <class>bear::base_item</class>
+  </inherit>
+  <description>The class describing a wasp.</description>
+  <fields>
+    <field type="real" name="wasp.translation.x">
+      <description>Translation on x axis from initial position.</description>
+    </field>
+    <field type="real" name="wasp.translation.y">
+      <description>Translation on y axis from initial position.</description>
+    </field>
+    <field type="real" name="wasp.fly_duration" required="true">
+      <description>The duration of a transit.</description>
+    </field>
+  </fields>
+</item>

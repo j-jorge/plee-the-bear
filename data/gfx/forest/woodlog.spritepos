@@ -1,0 +1,9 @@
+# The format of the lines is
+# picture: x y width height
+
+branch and mushroom: 0 0 127 103
+branch and no mushroom: 0 103 127 103
+no branch and mushroom: 127 0 121 65
+no branch and no mushroom: 127 65 121 56
+with spikes and a large end: 127 121 121 62
+with spikes: 127 183 121 62

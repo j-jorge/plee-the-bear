@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<item xmlns="http://www.gamned.org/bear/schema/0.5" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gamned.org/bear/schema/0.5 http://www.gamned.org/bear/schema/0.5/item-description.xsd" class="ptb::bonus_box" category="entity" fixable="false" box_color="#662987" url="http://www.gamned.org/wiki/index.php/bonus_box">
+  <inherit>
+    <class>ptb::base_bonus</class>
+    <class>ptb::counted_item</class>
+  </inherit>
+  <new_default_value name="base_item.size.width">50</new_default_value>
+  <new_default_value name="base_item.size.height">80</new_default_value>
+  <new_default_value name="basic_renderable_item.gap.x">-5</new_default_value>
+</item>

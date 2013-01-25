@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<item xmlns="http://www.gamned.org/bear/schema/0.5" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gamned.org/bear/schema/0.5 http://www.gamned.org/bear/schema/0.5/item-description.xsd" class="ptb::monster_item" category="-abstract-" url="http://www.gamned.org/wiki/index.php/monster_item">
+  <fields>
+    <field type="u_integer" name="monster_item.offensive_strength">
+      <description>The offensive strength.</description>
+      <default_value>0</default_value>
+    </field>
+    <field type="real" name="monster_item.energy">
+      <description>The energy of the monster.</description>
+      <default_value>0</default_value>
+    </field>
+    <field type="u_integer" name="monster_item.offensive_coefficient.normal">
+      <description>The coefficient of the normal attack.</description>
+      <default_value>1</default_value>
+    </field>
+    <field type="u_integer" name="monster_item.offensive_coefficient.air">
+      <description>The coefficient of the air attack.</description>
+      <default_value>0</default_value>
+    </field>
+    <field type="u_integer" name="monster_item.offensive_coefficient.fire">
+      <description>The coefficient of the fire attack.</description>
+      <default_value>0</default_value>
+    </field>
+    <field type="u_integer" name="monster_item.offensive_coefficient.water">
+      <description>The coefficient of the water attack.</description>
+      <default_value>0</default_value>
+    </field>
+    <field type="u_integer" name="monster_item.offensive_coefficient.indefensible">
+      <description>The coefficient of the indefensible attack.</description>
+      <default_value>0</default_value>
+    </field>
+    <field type="boolean" name="monster_item.defensive_power.normal">
+      <description>Indicates if the monster is immunized for a normal attack.</description>
+      <default_value>false</default_value>
+    </field>
+    <field type="boolean" name="monster_item.defensive_power.air">
+      <description>Indicates if the monster is immunized for an air attack.</description>
+      <default_value>false</default_value>
+    </field>
+    <field type="boolean" name="monster_item.defensive_power.fire">
+      <description>Indicates if the monster is immunized for a fire attack.</description>
+      <default_value>false</default_value>
+    </field>
+    <field type="boolean" name="monster_item.defensive_power.water">
+      <description>Indicates if the monster is immunized for a water attack.</description>
+      <default_value>false</default_value>
+    </field>
+    <field type="string" name="monster_item.monster_type">
+      <description>The type of the monster.</description>
+      <set>
+        <element value="enemy"/>
+        <element value="nature"/>
+        <element value="stone"/>
+      </set>
+      <default_value>nature</default_value>
+    </field>
+  </fields>
+  <new_default_value name="base_item.can_move_items">false</new_default_value>
+</item>

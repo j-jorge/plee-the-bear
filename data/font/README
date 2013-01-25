@@ -1,0 +1,14 @@
+How to write a font file.
+
+The first two values are the width and the height of the
+characters. The next value is the number of images in which we take
+the characters, followed by the image resources.
+
+The remaining of the file consists in a description of the
+characters. Each line has four fields. The first one is the character,
+then come the X and Y position of the character in the image. The last
+field is the zero-based index of the image resource where the
+character is, in the list defined before.
+
+There must be no empty lines between the image resources and the lines
+describing the characters.

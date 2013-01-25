@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<model>
+<action name="idle_1" duration="3" auto_next="">
+<marks>
+<mark label="body" apply_angle_to_animation="0" pause_animation_when_hidden="0">
+<animation_file path='animation/forest/frog/frog_idle_1.canim' auto_size='true' width='24' height='16' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+</mark>
+</marks>
+<snapshots>
+<snapshot date="0" function="start_idle" width="24" height="16" x_alignment="align_left" y_alignment="align_bottom" x_alignment_value="0" y_alignment_value="0">
+<mark_placements>
+<mark_placement label="body" function="" x="12" y="8" width="0" height="0" z="0" angle="0" visible="1" x_easing="none:in" y_easing="none:in" width_easing="none:in" height_easing="none:in" angle_easing="none:in"/>
+</mark_placements>
+</snapshot><snapshot date="1" width="24" height="16" x_alignment="align_left" y_alignment="align_bottom" x_alignment_value="0" y_alignment_value="0">
+<sound global="0">
+<file path="sound/forest/frog/croak-jump.ogg"/>
+</sound>
+<mark_placements>
+<mark_placement label="body" function="" x="12" y="8" width="0" height="0" z="0" angle="0" visible="1" x_easing="none:in" y_easing="none:in" width_easing="none:in" height_easing="none:in" angle_easing="none:in"/>
+</mark_placements>
+</snapshot><snapshot date="1.75" width="24" height="16" x_alignment="align_left" y_alignment="align_bottom" x_alignment_value="0" y_alignment_value="0">
+<sound global="0">
+<file path="sound/forest/frog/croak-idle.ogg"/>
+</sound>
+<mark_placements>
+<mark_placement label="body" function="" x="12" y="8" width="0" height="0" z="0" angle="0" visible="1" x_easing="none:in" y_easing="none:in" width_easing="none:in" height_easing="none:in" angle_easing="none:in"/>
+</mark_placements>
+</snapshot><snapshot date="2.645" function="try_to_jump" width="24" height="16" x_alignment="align_left" y_alignment="align_bottom" x_alignment_value="0" y_alignment_value="0">
+<mark_placements>
+<mark_placement label="body" function="" x="12" y="8" width="0" height="0" z="0" angle="0" visible="1" x_easing="none:in" y_easing="none:in" width_easing="none:in" height_easing="none:in" angle_easing="none:in"/>
+</mark_placements>
+</snapshot></snapshots>
+</action>
+<action name="jump" duration="0.09" auto_next="">
+<marks>
+<mark label="body" apply_angle_to_animation="0" pause_animation_when_hidden="0">
+<animation_file path='animation/forest/frog/frog_jump.canim' auto_size='true' width='25' height='29' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+</mark>
+</marks>
+<snapshots>
+<snapshot date="0" function="start_jump" width="24" height="16" x_alignment="align_left" y_alignment="align_bottom" x_alignment_value="0" y_alignment_value="0">
+<mark_placements>
+<mark_placement label="body" function="" x="12" y="14" width="0" height="0" z="0" angle="0" visible="1" x_easing="none:in" y_easing="none:in" width_easing="none:in" height_easing="none:in" angle_easing="none:in"/>
+</mark_placements>
+</snapshot><snapshot date="0.01" width="24" height="16" x_alignment="align_left" y_alignment="align_bottom" x_alignment_value="0" y_alignment_value="0">
+<sound global="0">
+<file path="sound/forest/frog/croak-jump.ogg"/>
+</sound>
+<mark_placements>
+<mark_placement label="body" function="" x="12" y="9" width="0" height="0" z="0" angle="0" visible="1" x_easing="none:in" y_easing="none:in" width_easing="none:in" height_easing="none:in" angle_easing="none:in"/>
+</mark_placements>
+</snapshot><snapshot date="0.02" width="24" height="16" x_alignment="align_left" y_alignment="align_bottom" x_alignment_value="0" y_alignment_value="0">
+<mark_placements>
+<mark_placement label="body" function="" x="12" y="2" width="0" height="0" z="0" angle="0" visible="1" x_easing="none:in" y_easing="none:in" width_easing="none:in" height_easing="none:in" angle_easing="none:in"/>
+</mark_placements>
+</snapshot></snapshots>
+</action>
+<action name="fall" duration="1" auto_next="">
+<marks>
+<mark label="body" apply_angle_to_animation="0" pause_animation_when_hidden="0">
+<animation_file path='animation/forest/frog/frog_fall.canim' auto_size='true' width='25' height='21' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+</mark>
+</marks>
+<snapshots>
+<snapshot date="0" function="start_fall" width="24" height="16" x_alignment="align_center" y_alignment="align_bottom" x_alignment_value="0" y_alignment_value="0">
+<mark_placements>
+<mark_placement label="body" function="" x="12" y="8" width="0" height="0" z="0" angle="0" visible="1" x_easing="none:in" y_easing="none:in" width_easing="none:in" height_easing="none:in" angle_easing="none:in"/>
+</mark_placements>
+</snapshot></snapshots>
+</action>
+<action name="explose" duration="0.84" auto_next="">
+<marks>
+<mark label="body" apply_angle_to_animation="0" pause_animation_when_hidden="0">
+<animation_file path='animation/forest/frog/frog_explose.canim' auto_size='true' width='64' height='16' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+</mark>
+</marks>
+<snapshots>
+<snapshot date="0" function="start_explose" width="24" height="16" x_alignment="align_left" y_alignment="align_bottom" x_alignment_value="0" y_alignment_value="0">
+<mark_placements>
+<mark_placement label="body" function="" x="12" y="8" width="0" height="0" z="0" angle="0" visible="1" x_easing="none:in" y_easing="none:in" width_easing="none:in" height_easing="none:in" angle_easing="none:in"/>
+</mark_placements>
+</snapshot></snapshots>
+</action>
+<action name="idle_2" duration="1.2" auto_next="">
+<marks>
+<mark label="body" apply_angle_to_animation="0" pause_animation_when_hidden="0">
+<animation_file path='animation/forest/frog/frog_idle_2.canim' auto_size='true' width='24' height='16' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+</mark>
+</marks>
+<snapshots>
+<snapshot date="0" function="start_idle" width="24" height="16" x_alignment="align_left" y_alignment="align_bottom" x_alignment_value="0" y_alignment_value="0">
+<mark_placements>
+<mark_placement label="body" function="" x="12" y="8" width="0" height="0" z="0" angle="0" visible="1" x_easing="none:in" y_easing="none:in" width_easing="none:in" height_easing="none:in" angle_easing="none:in"/>
+</mark_placements>
+</snapshot><snapshot date="0.5" width="24" height="16" x_alignment="align_left" y_alignment="align_bottom" x_alignment_value="0" y_alignment_value="0">
+<sound global="0">
+<file path="sound/forest/frog/croak-idle.ogg"/>
+</sound>
+<mark_placements>
+<mark_placement label="body" function="" x="12" y="8" width="0" height="0" z="0" angle="0" visible="1" x_easing="none:in" y_easing="none:in" width_easing="none:in" height_easing="none:in" angle_easing="none:in"/>
+</mark_placements>
+</snapshot><snapshot date="1" function="try_to_jump" width="24" height="16" x_alignment="align_left" y_alignment="align_bottom" x_alignment_value="0" y_alignment_value="0">
+<mark_placements>
+<mark_placement label="body" function="" x="12" y="8" width="0" height="0" z="0" angle="0" visible="1" x_easing="none:in" y_easing="none:in" width_easing="none:in" height_easing="none:in" angle_easing="none:in"/>
+</mark_placements>
+</snapshot></snapshots>
+</action>
+</model>
+

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<model>
+<action name="fall" duration="0.66" auto_next="fall">
+<marks>
+<mark label="body" apply_angle_to_animation="0" pause_animation_when_hidden="0">
+<animation_file path='animation/plee/fall.canim' auto_size='true' width='29' height='51' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+</mark>
+<mark label="hat" apply_angle_to_animation="1" pause_animation_when_hidden="0">
+<animation_file path='animation/plee/cap.canim' auto_size='true' width='15' height='7' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+</mark>
+</marks>
+<snapshots>
+<snapshot date="0" function="start_fall" width="18" height="44" x_alignment="align_left" y_alignment="align_bottom" x_alignment_value="0" y_alignment_value="0">
+<mark_placements>
+<mark_placement label="hat" function="" x="7" y="44" width="0" height="0" z="1" angle="0.3" visible="1" x_easing="none:in" y_easing="none:in" width_easing="none:in" height_easing="none:in" angle_easing="none:in"/>
+<mark_placement label="body" function="" x="11" y="20" width="0" height="0" z="0" angle="0" visible="1" x_easing="none:in" y_easing="none:in" width_easing="none:in" height_easing="none:in" angle_easing="none:in"/>
+</mark_placements>
+</snapshot><snapshot date="0.3" width="18" height="44" x_alignment="align_left" y_alignment="align_bottom" x_alignment_value="0" y_alignment_value="0">
+<mark_placements>
+<mark_placement label="hat" function="" x="9" y="44" width="0" height="0" z="1" angle="0.3" visible="1" x_easing="none:in" y_easing="none:in" width_easing="none:in" height_easing="none:in" angle_easing="none:in"/>
+<mark_placement label="body" function="" x="11" y="20" width="0" height="0" z="0" angle="0" visible="1" x_easing="none:in" y_easing="none:in" width_easing="none:in" height_easing="none:in" angle_easing="none:in"/>
+</mark_placements>
+</snapshot><snapshot date="0.42" width="18" height="44" x_alignment="align_left" y_alignment="align_bottom" x_alignment_value="0" y_alignment_value="0">
+<mark_placements>
+<mark_placement label="hat" function="" x="11.5" y="43.5" width="0" height="0" z="1" angle="0.3" visible="1" x_easing="none:in" y_easing="none:in" width_easing="none:in" height_easing="none:in" angle_easing="none:in"/>
+<mark_placement label="body" function="" x="11" y="20" width="0" height="0" z="0" angle="0" visible="1" x_easing="none:in" y_easing="none:in" width_easing="none:in" height_easing="none:in" angle_easing="none:in"/>
+</mark_placements>
+</snapshot><snapshot date="0.54" width="18" height="44" x_alignment="align_left" y_alignment="align_bottom" x_alignment_value="0" y_alignment_value="0">
+<mark_placements>
+<mark_placement label="hat" function="" x="9" y="44" width="0" height="0" z="1" angle="0.3" visible="1" x_easing="none:in" y_easing="none:in" width_easing="none:in" height_easing="none:in" angle_easing="none:in"/>
+<mark_placement label="body" function="" x="11" y="20" width="0" height="0" z="0" angle="0" visible="1" x_easing="none:in" y_easing="none:in" width_easing="none:in" height_easing="none:in" angle_easing="none:in"/>
+</mark_placements>
+</snapshot></snapshots>
+</action>
+<action name="idle" duration="1" auto_next="idle">
+<marks>
+<mark label="body" apply_angle_to_animation="0" pause_animation_when_hidden="0">
+<animation_file path='animation/plee/idle.canim' auto_size='true' width='27' height='50' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+</mark>
+<mark label="hat" apply_angle_to_animation="1" pause_animation_when_hidden="0">
+<animation_file path='animation/plee/cap.canim' auto_size='true' width='15' height='7' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+</mark>
+</marks>
+<snapshots>
+<snapshot date="0" function="start_idle" width="15" height="50" x_alignment="align_left" y_alignment="align_bottom" x_alignment_value="0" y_alignment_value="0">
+<mark_placements>
+<mark_placement label="hat" function="" x="8" y="48" width="0" height="0" z="1" angle="0.2" visible="1" x_easing="none:in" y_easing="none:in" width_easing="none:in" height_easing="none:in" angle_easing="none:in"/>
+<mark_placement label="body" function="" x="8" y="25" width="0" height="0" z="0" angle="0" visible="1" x_easing="none:in" y_easing="none:in" width_easing="none:in" height_easing="none:in" angle_easing="none:in"/>
+</mark_placements>
+</snapshot></snapshots>
+</action>
+<action name="jump" duration="0.255" auto_next="">
+<marks>
+<mark label="body" apply_angle_to_animation="0" pause_animation_when_hidden="0">
+<animation_file path='animation/plee/jump.canim' auto_size='true' width='29' height='58' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+</mark>
+<mark label="hat" apply_angle_to_animation="1" pause_animation_when_hidden="0">
+<animation_file path='animation/plee/cap.canim' auto_size='true' width='15' height='7' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+</mark>
+</marks>
+<snapshots>
+<snapshot date="0" function="start_jump" width="21" height="51" x_alignment="align_left" y_alignment="align_bottom" x_alignment_value="0" y_alignment_value="0">
+<mark_placements>
+<mark_placement label="hat" function="" x="14" y="41" width="0" height="0" z="1" angle="0.2" visible="1" x_easing="none:in" y_easing="none:in" width_easing="none:in" height_easing="none:in" angle_easing="none:in"/>
+<mark_placement label="body" function="" x="11" y="22" width="0" height="0" z="0" angle="0" visible="1" x_easing="none:in" y_easing="none:in" width_easing="none:in" height_easing="none:in" angle_easing="none:in"/>
+</mark_placements>
+</snapshot><snapshot date="0.06" width="21" height="51" x_alignment="align_left" y_alignment="align_bottom" x_alignment_value="0" y_alignment_value="0">
+<mark_placements>
+<mark_placement label="hat" function="" x="12" y="52" width="0" height="0" z="1" angle="0.2" visible="1" x_easing="none:in" y_easing="none:in" width_easing="none:in" height_easing="none:in" angle_easing="none:in"/>
+<mark_placement label="body" function="" x="11" y="27" width="0" height="0" z="0" angle="0" visible="1" x_easing="none:in" y_easing="none:in" width_easing="none:in" height_easing="none:in" angle_easing="none:in"/>
+</mark_placements>
+</snapshot><snapshot date="0.12" width="21" height="51" x_alignment="align_left" y_alignment="align_bottom" x_alignment_value="0" y_alignment_value="0">
+<mark_placements>
+<mark_placement label="hat" function="" x="13" y="51" width="0" height="0" z="1" angle="0.5" visible="1" x_easing="none:in" y_easing="none:in" width_easing="none:in" height_easing="none:in" angle_easing="none:in"/>
+<mark_placement label="body" function="" x="11" y="25" width="0" height="0" z="0" angle="0" visible="1" x_easing="none:in" y_easing="none:in" width_easing="none:in" height_easing="none:in" angle_easing="none:in"/>
+</mark_placements>
+</snapshot></snapshots>
+</action>
+<action name="run" duration="0.42" auto_next="run">
+<marks>
+<mark label="body" apply_angle_to_animation="0" pause_animation_when_hidden="0">
+<animation_file path='animation/plee/run.canim' auto_size='true' width='32' height='48' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+</mark>
+<mark label="hat" apply_angle_to_animation="1" pause_animation_when_hidden="0">
+<animation_file path='animation/plee/cap.canim' auto_size='true' width='15' height='7' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+</mark>
+</marks>
+<snapshots>
+<snapshot date="0" function="start_run" width="16" height="47" x_alignment="align_left" y_alignment="align_bottom" x_alignment_value="0" y_alignment_value="0">
+<mark_placements>
+<mark_placement label="hat" function="" x="10" y="47" width="0" height="0" z="1" angle="0.2" visible="1" x_easing="none:in" y_easing="none:in" width_easing="none:in" height_easing="none:in" angle_easing="none:in"/>
+<mark_placement label="body" function="" x="8" y="24" width="0" height="0" z="0" angle="0" visible="1" x_easing="none:in" y_easing="none:in" width_easing="none:in" height_easing="none:in" angle_easing="none:in"/>
+</mark_placements>
+</snapshot><snapshot date="0.12" width="16" height="47" x_alignment="align_left" y_alignment="align_bottom" x_alignment_value="0" y_alignment_value="0">
+<mark_placements>
+<mark_placement label="hat" function="" x="11" y="46" width="0" height="0" z="1" angle="0.2" visible="1" x_easing="none:in" y_easing="none:in" width_easing="none:in" height_easing="none:in" angle_easing="none:in"/>
+<mark_placement label="body" function="" x="8" y="23" width="0" height="0" z="0" angle="0" visible="1" x_easing="none:in" y_easing="none:in" width_easing="none:in" height_easing="none:in" angle_easing="none:in"/>
+</mark_placements>
+</snapshot><snapshot date="0.21" width="16" height="47" x_alignment="align_left" y_alignment="align_bottom" x_alignment_value="0" y_alignment_value="0">
+<mark_placements>
+<mark_placement label="hat" function="" x="13" y="46" width="0" height="0" z="1" angle="0.2" visible="1" x_easing="none:in" y_easing="none:in" width_easing="none:in" height_easing="none:in" angle_easing="none:in"/>
+<mark_placement label="body" function="" x="8" y="24" width="0" height="0" z="0" angle="0" visible="1" x_easing="none:in" y_easing="none:in" width_easing="none:in" height_easing="none:in" angle_easing="none:in"/>
+</mark_placements>
+</snapshot><snapshot date="0.33" width="16" height="47" x_alignment="align_left" y_alignment="align_bottom" x_alignment_value="0" y_alignment_value="0">
+<mark_placements>
+<mark_placement label="hat" function="" x="11" y="46" width="0" height="0" z="1" angle="0.2" visible="1" x_easing="none:in" y_easing="none:in" width_easing="none:in" height_easing="none:in" angle_easing="none:in"/>
+<mark_placement label="body" function="" x="8" y="23" width="0" height="0" z="0" angle="0" visible="1" x_easing="none:in" y_easing="none:in" width_easing="none:in" height_easing="none:in" angle_easing="none:in"/>
+</mark_placements>
+</snapshot></snapshots>
+</action>
+<action name="walk" duration="0.96" auto_next="walk">
+<marks>
+<mark label="body" apply_angle_to_animation="0" pause_animation_when_hidden="0">
+<animation_file path='animation/plee/walk.canim' auto_size='true' width='27' height='50' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+</mark>
+<mark label="hat" apply_angle_to_animation="1" pause_animation_when_hidden="0">
+<animation_file path='animation/plee/cap.canim' auto_size='true' width='15' height='7' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+</mark>
+</marks>
+<snapshots>
+<snapshot date="0" function="start_walk" width="15" height="50" x_alignment="align_left" y_alignment="align_bottom" x_alignment_value="0" y_alignment_value="0">
+<mark_placements>
+<mark_placement label="hat" function="" x="8" y="48" width="0" height="0" z="1" angle="0.2" visible="1" x_easing="none:in" y_easing="none:in" width_easing="none:in" height_easing="none:in" angle_easing="none:in"/>
+<mark_placement label="body" function="" x="8" y="25" width="0" height="0" z="0" angle="0" visible="1" x_easing="none:in" y_easing="none:in" width_easing="none:in" height_easing="none:in" angle_easing="none:in"/>
+</mark_placements>
+</snapshot></snapshots>
+</action>
+</model>
+

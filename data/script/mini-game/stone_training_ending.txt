@@ -1,0 +1,9 @@
+0 player_1.control_player();
+0 player_1.authorize_action(jump);
+0 player_1.authorize_action(move_right);
+0 player_1.authorize_action(move_left);
+0.1 player_1.do_action(move_right,0.6);
+0.3 player_1.do_action(jump,0.1);
+1 player_1.do_action(move_right,0.6);
+4 player_1.release_player();
+4 script.end();

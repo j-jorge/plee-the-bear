@@ -1,0 +1,7 @@
+# The format of the lines is
+# picture: x y width height
+
+target: 0  0 32 98
+broken bottom: 32 14 32 84
+broken top: 64 0 32 74
+

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<item xmlns="http://www.gamned.org/bear/schema/0.5" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gamned.org/bear/schema/0.5 http://www.gamned.org/bear/schema/0.5/item-description.xsd" class="ptb::hideout_revealing" category="entity" box_color="#B15A78" url="http://www.gamned.org/wiki/index.php/hideout_revealing">
+  <inherit>
+    <class>bear::base_item</class>
+  </inherit>
+  <description>The class describing an object which reaveal a zone when a player enter.</description>
+  <fields>
+    <field type="item_reference" name="hideout_revealing.hiding_items" list="true">
+      <description>The list of items to reveal.</description>
+    </field>
+    <field type="real" name="hideout_revealing.hideout_opacity">
+      <description>The opacity when the zone is not revealed.</description>
+      <default_value>1</default_value>
+    </field>
+    <field type="real" name="hideout_revealing.revealing_opacity">
+      <description>The opacity when the zone is revealed.</description>
+      <default_value>0</default_value>
+    </field>
+    <field type="real" name="hideout_revealing.revelation_duration">
+      <description>The duration of revelation.</description>
+      <default_value>0.25</default_value>
+    </field>
+    <field type="boolean" name="hideout_revealing.definitive_disclosure">
+      <description>Indicates if the disclosure is definitive.</description>
+      <default_value>false</default_value>
+    </field>
+  </fields>
+</item>

@@ -1,0 +1,5 @@
+0 {
+  shared_camera.focus_on(camera);
+  shared_camera.activate();
+  script.end();
+}

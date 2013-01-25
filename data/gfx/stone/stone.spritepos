@@ -1,0 +1,55 @@
+# The format of the lines is
+# picture: x y width height
+
+default stone: 0 0 16 16
+
+fire stone 1: 24 0 24 24
+fire stone 2: 48 0 24 24
+fire stone 2: 72 0 24 24
+fire stone 3: 96 0 24 24
+fire stone 4: 120 0 24 24
+
+air fire water stone 1: 0 24 32 32
+air fire water stone 2: 32 24 32 32
+air fire water stone 3: 64 24 32 32
+air fire water stone 4: 96 24 32 32
+air fire water stone 5: 128 24 32 32
+air fire water stone 6: 160 24 32 32
+air fire water stone 7: 192 24 32 32
+air fire water stone 8: 224 24 32 32
+
+water stone 1: 0 48 20 20
+water stone 2: 20 48 20 20
+water stone 3: 40 48 20 20
+water stone 4: 60 48 20 20
+water stone 5: 80 48 20 20
+
+air water stone 1: 100 48 20 20
+
+air fire stone 1: 0 68 28 25
+air fire stone 2: 28 68 28 25
+air fire stone 3: 56 68 28 25
+air fire stone 4: 84 68 28 25
+air fire stone 5: 112 68 28 25
+air fire stone 6: 140 68 28 25
+air fire stone 7: 168 68 28 25
+air fire stone 8: 196 68 28 25
+air fire stone 9: 224 68 28 25
+
+air fire stone part 1: 96 0 12 12
+air fire stone part 2: 108 0 15 14
+air fire stone part 3: 123 0 10 11
+air fire stone part 4: 133 0 15 12
+air fire stone part 5: 148 0 16 10
+
+water fire stone 1:   0 93 22 21
+water fire stone 2:  22 93 22 21
+water fire stone 3:  44 93 22 21
+water fire stone 4:  66 93 22 21
+water fire stone 5:  88 93 22 21
+water fire stone 6: 110 93 22 21
+water fire stone 7: 132 93 22 21
+water fire stone 8: 154 93 22 21
+water fire stone 9: 176 93 22 21
+water fire stone 10: 198 93 22 21
+water fire stone 11: 220 93 22 21

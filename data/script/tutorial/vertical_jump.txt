@@ -1,0 +1,27 @@
+0.0 player_1.control_player();
+0.0 player_1.refuse_action(wait);
+0.0 player_2.control_player();
+0.0 player_2.refuse_action(wait);
+0.0 player_4.control_player();
+0.0 player_4.refuse_action(wait);
+0.0 player_4.add_player_in_script(script, plee_4);
+
+0.1 camera.focus_on( shared_camera );
+0.1 camera.activate();
+0.3 player_4.do_action(move_left, 0.6);
+1.0 player_4.talk("/Look upward and hold the jump button to jump higher.");
+4.0 player_4.do_action(look_upward, 2);
+4.5 player_4.do_action(jump, 1.1);
+5.0 player_4.talk("/Release the jump button at any moment to jump. Pressing an other button will cancel the jump.");
+5.1 player_4.do_action(move_right, 1.6);
+6.8 player_4.do_action(move_left, 0.1);
+
+14.5 shared_camera.focus_on( camera );
+14.5 shared_camera.activate();
+14.8 plee_4.set_center_of_mass( 7348, 986 );
+14.9 player_4.release_player();
+14.9 player_1.authorize_action(wait);
+14.9 player_1.release_player();
+14.9 player_2.authorize_action(wait);
+14.9 player_2.release_player();
+14.9 script.end();

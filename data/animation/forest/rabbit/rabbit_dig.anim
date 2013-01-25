@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation loops='4' first_index='4' last_index='5' loop_back='false' auto_size='true' width='29' height='28' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'>
+  <frame duration='0.1'>
+    <sprite image='gfx/forest/rabbit/rabbit-1.png' x='164' y='0' clip_width='29' clip_height='28' spritepos='dig 1' auto_size='true' width='29' height='28' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.1'>
+    <sprite image='gfx/forest/rabbit/rabbit-1.png' x='193' y='0' clip_width='29' clip_height='28' spritepos='dig 2' auto_size='true' width='29' height='28' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.4'>
+    <sprite image='gfx/forest/rabbit/rabbit-1.png' x='222' y='0' clip_width='29' clip_height='28' spritepos='dig 3' auto_size='true' width='29' height='28' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.4'>
+    <sprite image='gfx/forest/rabbit/rabbit-1.png' x='0' y='32' clip_width='29' clip_height='28' spritepos='dig 4' auto_size='true' width='29' height='28' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.12'>
+    <sprite image='gfx/forest/rabbit/rabbit-1.png' x='29' y='32' clip_width='29' clip_height='28' spritepos='dig 5' auto_size='true' width='29' height='28' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.12'>
+    <sprite image='gfx/forest/rabbit/rabbit-1.png' x='58' y='32' clip_width='29' clip_height='28' spritepos='dig 6' auto_size='true' width='29' height='28' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+</animation>

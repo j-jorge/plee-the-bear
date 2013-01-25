@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation loops='1' first_index='0' last_index='9' loop_back='false' auto_size='true' width='50' height='120' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'>
+  <frame duration='0.05'>
+    <sprite image='gfx/checkpoint.png' x='0' y='0' clip_width='50' clip_height='120' spritepos='left off' auto_size='true' width='50' height='120' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.05'>
+    <sprite image='gfx/checkpoint.png' x='100' y='0' clip_width='50' clip_height='120' spritepos='left 1' auto_size='true' width='50' height='120' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.05'>
+    <sprite image='gfx/checkpoint.png' x='200' y='0' clip_width='50' clip_height='120' spritepos='left 2' auto_size='true' width='50' height='120' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.05'>
+    <sprite image='gfx/checkpoint.png' x='300' y='0' clip_width='50' clip_height='120' spritepos='left 3' auto_size='true' width='50' height='120' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.05'>
+    <sprite image='gfx/checkpoint.png' x='400' y='0' clip_width='50' clip_height='120' spritepos='left 4' auto_size='true' width='50' height='120' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.05'>
+    <sprite image='gfx/checkpoint.png' x='0' y='120' clip_width='50' clip_height='120' spritepos='left 5' auto_size='true' width='50' height='120' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.05'>
+    <sprite image='gfx/checkpoint.png' x='100' y='120' clip_width='50' clip_height='120' spritepos='left 6' auto_size='true' width='50' height='120' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.05'>
+    <sprite image='gfx/checkpoint.png' x='200' y='120' clip_width='50' clip_height='120' spritepos='left 7' auto_size='true' width='50' height='120' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.05'>
+    <sprite image='gfx/checkpoint.png' x='300' y='120' clip_width='50' clip_height='120' spritepos='left 8' auto_size='true' width='50' height='120' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.05'>
+    <sprite image='gfx/checkpoint.png' x='400' y='120' clip_width='50' clip_height='120' spritepos='left 9' auto_size='true' width='50' height='120' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+</animation>

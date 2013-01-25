@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<item xmlns="http://www.gamned.org/bear/schema/0.5" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gamned.org/bear/schema/0.5 http://www.gamned.org/bear/schema/0.5/item-description.xsd" class="ptb::player_settings" category="settings" fixable="false" box_color="#D7D1A6" url="http://www.gamned.org/wiki/index.php/player_settings">
+  <inherit>
+    <class>bear::base_item</class>
+  </inherit>
+  <description>An item to set each parameter of a player.</description>
+  <fields>
+    <field type="u_integer" name="player_settings.player_index" required="true">
+      <description>The index of the player.</description>
+    </field>
+    <field type="u_integer" name="player_settings.stones">
+      <description>The number of stones of the player.</description>
+      <default_value>unmodified</default_value>
+      <after field="player_settings.player_index"/>
+      <after field="player_settings.global_settings"/>
+    </field>
+    <field type="real" name="player_settings.max_energy">
+      <description>The size of energy's gauge.</description>
+      <default_value>unmodified</default_value>
+      <after field="player_settings.player_index"/>
+      <after field="player_settings.global_settings"/>
+    </field>
+    <field type="u_integer" name="player_settings.lives">
+      <description>The number of lives.</description>
+      <default_value>unmodified</default_value>
+      <after field="player_settings.player_index"/>
+      <after field="player_settings.global_settings"/>
+    </field>
+    <field type="u_integer" name="player_settings.score">
+      <description>The score of the player.</description>
+      <default_value>unmodified</default_value>
+      <after field="player_settings.player_index"/>
+      <after field="player_settings.global_settings"/>
+    </field>
+    <field type="boolean" name="player_settings.power.air">
+      <description>Indicates if the player has the power of air.</description>
+      <default_value>unmodified</default_value>
+      <after field="player_settings.player_index"/>
+      <after field="player_settings.global_settings"/>
+    </field>
+    <field type="boolean" name="player_settings.power.fire">
+      <description>Indicates if the player has the power of fire.</description>
+      <default_value>unmodified</default_value>
+      <after field="player_settings.player_index"/>
+      <after field="player_settings.global_settings"/>
+    </field>
+    <field type="boolean" name="player_settings.power.water">
+      <description>Indicates if the player has the power of water.</description>
+      <default_value>unmodified</default_value>
+      <after field="player_settings.player_index"/>
+      <after field="player_settings.global_settings"/>
+    </field>
+    <field type="boolean" name="player_settings.global_settings">
+      <description>Indicates if player's parameters must be save with persistent variables.</description>
+      <default_value>false</default_value>
+    </field>
+  </fields>
+</item>

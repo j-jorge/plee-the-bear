@@ -1,0 +1,20 @@
+# The format of the lines is
+# picture: x y width height
+
+rain 1:   0   0 64 64
+rain 2:  64   0 64 64
+rain 3: 128   0 64 64
+rain 4: 192   0 64 64
+rain 5:   0  64 64 64
+rain 6:  64  64 64 64
+rain 7: 128  64 64 64
+rain 8: 192  64 64 64
+rain 9:    0 128 64 64
+rain 10:  64 128 64 64
+rain 11: 128 128 64 64
+rain 12: 192 128 64 64
+rain 13:   0 192 64 64
+rain 14:  64 192 64 64
+rain 15: 128 192 64 64
+rain 16: 192 192 64 64
+

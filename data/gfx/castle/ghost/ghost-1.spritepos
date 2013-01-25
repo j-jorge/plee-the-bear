@@ -1,0 +1,12 @@
+# The format of the lines is
+# picture: x y width height
+
+reverse-appear 1: 0 0 36 43
+reverse-appear 2: 36 0 36 43
+reverse-appear 3: 72 0 36 43
+reverse-appear 4: 108 0 36 43
+reverse-appear 5: 144 0 36 43
+
+reverse-move 1: 180 0 35 46
+reverse-move 2: 215 0 35 46
+reverse-move 3: 0 43 35 46

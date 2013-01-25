@@ -1,0 +1,199 @@
+== Item description ==
+
+The item is described between the <item></item> tags which contain,
+in the header, the item class and its category.
+
+The item class is the name of the class in the source code, the
+category is just for convenience in the level editor. Example
+categories are: structural, entity and tool. The first one is for
+walls and anything describing the structure of the world; the second
+is for living items (bonus, enemies, etc.) and the third one is for
+special items like starting a level, deactivating the pause mode and
+so.
+
+For example, if we want to describe the wasp enemy, we should start
+with something like this:
+
+ <item class="wasp" category="entity/enemy" box_color="#FF00FF">
+   ...
+ </item>
+
+The box_color attribute is optional and is just the color of the box
+representing the item in the editor.
+
+When an item inherits from messageable_item, it needs a name. This
+information is given by setting the following tag in the body of the
+description:
+
+ <need_a_name/>
+
+An other information about the item is if it is at a fixed position
+(like a wall) or if it can move in the level. If its position is
+constant, the following tag must be set in the body of the
+description:
+
+ <fixed/>
+
+Remember that the fixed attribute is inherited. If an item is fixed,
+all its sub-items are fixed too.
+
+For example, the description of an fixed and named item should looks like
+
+ <item class="foo" category="entity/item" box_color="#FF24FF">
+  <fixed/>
+  <need_a_name/>
+ </item>
+
+and the generated code will be
+
+ create [fixed] foo["user_given_name"]
+ {
+  ...
+ };
+
+One more information is the type of the layer in which an item can
+appear. This information is given by the <layer> flag, like:
+
+ <layer type="action_layer"/>
+
+where "type" is one of the layer types defined in the level compiler
+documentation. Remark that the "fixed" attribute is, actually, only
+valid in the action layer.
+
+Once we have informed the reader about those global item's flags, we
+should enumerate all the fields that can be configured by the
+user. This is the aim of the <fields> section. This section contains a
+list of <field> sections and looks like
+
+ <fields>
+  <field type="some_type" name="some_name">
+   ...
+  </field>
+  <field  type="some_type" name="some_name">
+   ...
+  </field>
+ <fields>
+
+The "type" attribute defines the type of the field. Valid values are
+those defined in the level compiler documentation. The "name"
+attribute define the name of the field. If the field must be filled by
+the user, the <required/> tag must be added in the body.
+
+Some fields have a pre-defined set of valid values. These values can
+be defined with at most one of the <range> and <set> sections.
+
+The <range> section gives the... range of the values [from, to] valid
+for the field. For example:
+
+    <range>
+      <from value="0"/>
+      <to value="1000"/>
+    </range>
+
+While the <set> enumerates the valid values for the fields. For example:
+
+    <set>
+      <item value="top-left"/>
+      <item value="top"/>
+      <item value="top-right"/>
+    </set>
+
+Some fields must be defined in a certain order. To express that a
+field must be defined before an other, we use the <before> tag in the
+body of the <field> section:
+
+    <before field=""/>
+
+Note that the parser must then check if the value of "field" is a
+field and that it complicates the ability to use the same name for
+fields with different types.
+
+Some items need the presence of some graphic or sound resources. This
+need can be declared in the <require> section, in the body of the
+<item> section, using the <sound> or <gfx> tags to explain the need
+of, respectively, a sound or an image.
+
+ <require>
+  <sound name="needed_sound" path="its_path"/>
+  <gfx name="needed_picture" path="its_path"/>
+ </require>
+
+== Inheritance ==
+
+Some items have fields in common (like the position). It will
+be convenient for the user to be able to use an inheritance system, so
+he can define the common fields only once. The inheritance could be
+done in the header of the section, like
+
+ <item inherit="parent_item" ...>
+
+or with a specific tag
+
+ <inherit class="parent_item"/>
+
+The second method allow multiple inheritance, which is perhaps a
+concept a little hard to implement and perhaps not so useful. So the
+first method is probably better.
+
+The child class inherits the full body of its parent. The "fixed"
+attribute, if present in the parent, can't be redefined. We'll
+probably need a way to deactivate the <need_a_name/> flag, for items
+that generate their name at run time. It can be the
+<no_need_for_a_name/> tag. All fields of the parent class can be
+overloaded; all required resources and layer types are
+conserved.
+
+Some items will then be described only to be inherited (like
+base_item). They won't addable in the level and, so, shouldn't appear
+in the editor menus. Those classes will have the category "-abstract-"
+(with the dashes).
+
+== Full example ==
+
+We will now describe a light bulb that the player can activate using a
+switch. The activation is from a distant item; we'll give a name to
+the bulb so it can receive messages. Its position is constant. It
+needs a sound to play when it is turned on, and a halo sprite. The
+bulb needs a sprite, a color and an intensity (for the light). The
+color must be defined before the intensity.
+
+First of all, we need the definition of the parent classes.
+
+ <item class="base_item" category="-abstract-">
+  <fields>
+   <field type="u_integer" name="pos_x"/>
+   <field type="u_integer" name="pos_y"/>
+  </fields>
+ </item>
+
+Then we describe the "light_bulb" class.
+
+ <item class="light_bulb" category="decoration/light"
+       box_color="#00FFFF" inherit="base_item">
+  <need_a_name/>
+  <fixed/>
+  <fields>
+   <field type="sprite" name="sprite">
+    </required>
+   </field>
+   <field type="real" name="intensity>
+    <range>
+     <from value="0"/>
+     <to value="1"/>
+    </range>
+   </field>
+   <field type="string" name="color">
+    <set>
+     <item value="red"/>
+     <item value="green"/>
+     <item value="yellow"/>
+     <item value="blue"/>
+    </set>
+    <before field="intensity"/>
+   </field>
+  </fields>
+  <require>
+   <sound name="click" path="sound/click.ogg"/>
+   <gfx name="halo" path="gfx/halo.tga"/>
+  <require>
+ </item>

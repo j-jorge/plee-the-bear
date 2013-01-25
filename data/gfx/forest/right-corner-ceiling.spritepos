@@ -1,0 +1,7 @@
+# The format of the lines is
+# picture: x y width height
+
+plant: 0 128 86 103
+ceiling: 0 0 256 128
+wall: 128 128 128 128
+

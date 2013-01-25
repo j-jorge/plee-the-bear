@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation loops='0' first_index='0' last_index='5' loop_back='true' auto_size='true' width='107' height='37' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'>
+  <frame duration='0.03'>
+    <sprite image='gfx/forest/woodpecker/woodpecker-1.png' x='0' y='85' clip_width='107' clip_height='37' spritepos='attacking 1' auto_size='true' width='107' height='37' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.03'>
+    <sprite image='gfx/forest/woodpecker/woodpecker-1.png' x='107' y='85' clip_width='107' clip_height='37' spritepos='attacking 2' auto_size='true' width='107' height='37' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.03'>
+    <sprite image='gfx/forest/woodpecker/woodpecker-1.png' x='0' y='122' clip_width='107' clip_height='37' spritepos='attacking 3' auto_size='true' width='107' height='37' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.03'>
+    <sprite image='gfx/forest/woodpecker/woodpecker-1.png' x='107' y='122' clip_width='107' clip_height='37' spritepos='attacking 4' auto_size='true' width='107' height='37' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.03'>
+    <sprite image='gfx/forest/woodpecker/woodpecker-1.png' x='0' y='159' clip_width='107' clip_height='37' spritepos='attacking 5' auto_size='true' width='107' height='37' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.03'>
+    <sprite image='gfx/forest/woodpecker/woodpecker-1.png' x='107' y='159' clip_width='107' clip_height='37' spritepos='attacking 6' auto_size='true' width='107' height='37' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+</animation>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<item xmlns="http://www.gamned.org/bear/schema/0.5" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gamned.org/bear/schema/0.5 http://www.gamned.org/bear/schema/0.5/item-description.xsd" class="ptb::item_with_single_player_action_reader" category="-abstract-" url="http://www.gamned.org/wiki/index.php/item_with_single_player_action_reader">
+  <inherit>
+    <class>ptb::item_with_player_action_reader</class>
+  </inherit>
+  <fields>
+    <field type="u_integer" name="item_with_single_player_action_reader.player_index">
+      <description>The index of the player for which we listen the
+                   inputs.</description>
+      <default_value>1</default_value>
+    </field>
+  </fields>
+</item>

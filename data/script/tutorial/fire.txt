@@ -1,0 +1,36 @@
+0.0 player_1.control_player();
+0.0 player_1.refuse_action(wait);
+0.0 player_2.control_player();
+0.0 player_2.refuse_action(wait);
+0.0 player_fire.control_player();
+0.0 player_fire.refuse_action(wait);
+0.0 player_fire.add_player_in_script(script, plee_fire);
+
+0.0 plee_fire.remove_position_constraint_y();
+0.1 player_fire.do_action(move_left, 0.02);
+0.1 player_fire.give_stone(1);
+0.1 player_fire.set_power(fire, 1);
+
+1.0 player_fire.talk("/With the power of fire, stones can hit multiple enemies./Look.");
+
+8.0 camera.focus_on( shared_camera );
+8.0 camera.activate();
+
+8.0 player_fire.do_action(move_right, 2.0);
+8.2 player_fire.do_action(throw_stone, 1);
+
+10 player_fire.do_action(move_left, 0.2);
+10.2 player_fire.talk("/This power will also make you resistant to heat.");
+
+16 shared_camera.focus_on( camera );
+16 shared_camera.activate();
+
+16.1 plee_fire.set_center_of_mass( 30364, 1783 );
+16.2 plee_fire.add_position_constraint_y();
+
+16.3 player_fire.release_player();
+16.3 player_1.authorize_action(wait);
+16.3 player_1.release_player();
+16.3 player_2.authorize_action(wait);
+16.3 player_2.release_player();
+16.3 script.end();

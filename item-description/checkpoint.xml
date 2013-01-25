@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<item xmlns="http://www.gamned.org/bear/schema/0.5" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gamned.org/bear/schema/0.5 http://www.gamned.org/bear/schema/0.5/item-description.xsd" class="ptb::checkpoint" category="control" box_color="#AE9B0E" url="http://www.gamned.org/wiki/index.php/checkpoint">
+  <inherit>
+    <class>ptb::save_player_position</class>
+    <class>bear::basic_renderable_item</class>
+  </inherit>
+  <new_default_value name="base_item.size.width">35</new_default_value>
+  <new_default_value name="base_item.size.height">120</new_default_value>
+</item>

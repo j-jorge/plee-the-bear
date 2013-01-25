@@ -1,0 +1,12 @@
+# The format of the lines is
+# picture: x y width height
+
+clamp: 0 0 24 19
+bar (yellow): 0 19 20 1
+bar (blue): 0 20 20 1
+tube: 0 21 20 1
+bar (white): 0 22 20 1
+bubble: 48 0 16 16
+sun: 48 16 16 16
+snowflake: 32 0 16 16
+heart: 32 16 16 16

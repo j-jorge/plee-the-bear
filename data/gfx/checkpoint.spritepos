@@ -1,0 +1,24 @@
+# The format of the lines is
+# picture: x y width height
+
+left off:  0  0 50 120
+left 1: 100 0 50 120
+left 2: 200 0 50 120
+left 3: 300 0 50 120
+left 4: 400 0 50 120
+left 5:   0 120 50 120
+left 6: 100 120 50 120
+left 7: 200 120 50 120
+left 8: 300 120 50 120
+left 9: 400 120 50 120
+
+right off: 50  0 50 120
+right 1: 150 0 50 120
+right 2: 250 0 50 120
+right 3: 350 0 50 120
+right 4: 450 0 50 120
+right 5:  50 120 50 120
+right 6: 150 120 50 120
+right 7: 250 120 50 120
+right 8: 350 120 50 120
+right 9: 450 120 50 120

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<item xmlns="http://www.gamned.org/bear/schema/0.5" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gamned.org/bear/schema/0.5 http://www.gamned.org/bear/schema/0.5/item-description.xsd" class="ptb::kicker" category="rebound" box_color="#F7C38C" url="http://www.gamned.org/wiki/index.php/kicker">
+  <inherit>
+    <class>bear::base_item</class>
+    <class>bear::basic_renderable_item</class>
+    <class>bear::item_with_decoration</class>
+  </inherit>
+  <description>A kicker. When the kicker is not active, the last frame of the animation is displayed.</description>
+  <fields>
+    <field type="real" name="kicker.applied_force">
+      <description>Y value of the force applied to a colliding item on the extremity.</description>
+      <default_value>0</default_value>
+    </field>
+    <field type="boolean" name="kicker.left_fixed">
+      <description>Indicates if the item is fixed on the left.</description>
+      <default_value>false</default_value>
+    </field>
+    <field type="item_reference" name="kicker.decorative_item">
+      <description>The decorative item generated when the kicker is activated.</description>
+      <default_value>none</default_value>
+    </field>
+    <field type="u_integer" name="kicker.decorative_instances">
+      <description>How many times the decorative item will be re-generated.</description>
+      <default_value>1</default_value>
+    </field>
+  </fields>
+</item>

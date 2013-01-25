@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation loops='0' first_index='3' last_index='5' loop_back='false' auto_size='true' width='62' height='63' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'>
+  <frame duration='0.06'>
+    <sprite image='gfx/god/hand-2.png' x='310' y='414' clip_width='62' clip_height='63' spritepos='ball 1' auto_size='true' width='62' height='63' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.06'>
+    <sprite image='gfx/god/hand-2.png' x='248' y='414' clip_width='62' clip_height='63' spritepos='ball 2' auto_size='true' width='62' height='63' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.06'>
+    <sprite image='gfx/god/hand-2.png' x='186' y='414' clip_width='62' clip_height='63' spritepos='ball 3' auto_size='true' width='62' height='63' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.06'>
+    <sprite image='gfx/god/hand-2.png' x='124' y='414' clip_width='62' clip_height='63' spritepos='ball 4' auto_size='true' width='62' height='63' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.06'>
+    <sprite image='gfx/god/hand-2.png' x='62' y='414' clip_width='62' clip_height='63' spritepos='ball 5' auto_size='true' width='62' height='63' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.06'>
+    <sprite image='gfx/god/hand-2.png' x='0' y='414' clip_width='62' clip_height='63' spritepos='ball 6' auto_size='true' width='62' height='63' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+</animation>

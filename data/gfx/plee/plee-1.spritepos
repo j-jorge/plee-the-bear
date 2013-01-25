@@ -1,0 +1,43 @@
+# The format of the lines is
+# picture: x y width height
+
+walking 1:   0 0 64 112
+walking 2:  64 0 64 112
+walking 3: 128 0 64 112
+walking 4: 192 0 64 112
+# first frame repeated
+walking 5:   0 0 64 112
+walking 6: 256 0 64 112
+walking 7: 320 0 64 112
+walking 8: 384 0 64 112
+
+waiting: 448 0 64 112
+
+slapping 1:   5 112 84 112
+slapping 2:  89 112 84 112
+slapping 3: 173 112 84 112
+slapping 4: 257 112 84 112
+slapping 5: 341 112 84 112
+slapping 6: 425 112 84 112
+
+slapping and walking 1:   1 112 89 112
+slapping and walking 2:   0 224 89 112
+slapping and walking 3:  89 224 89 112
+slapping and walking 4: 178 224 89 112
+slapping and walking 5: 267 224 89 112
+slapping and walking 6: 356 224 89 112
+
+look upward: 445 224 46 117
+
+look downward: 0 341 75 103
+
+start power jumping: 75 351 61 111
+
+power jumping 1: 75 341 61 134
+power jumping 2: 136 341 61 134
+power jumping 3: 197 341 61 134
+power jumping 4: 258 341 61 134
+
+sleeping 1: 319 341 63 108
+sleeping 2: 382 341 63 108
+sleeping 3: 445 341 63 108

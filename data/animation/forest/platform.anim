@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation loops='0' first_index='0' last_index='3' loop_back='false' auto_size='true' width='152' height='64' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'>
+  <frame duration='0.015'>
+    <sprite image='gfx/forest/platform.png' x='0' y='0' clip_width='152' clip_height='64' spritepos='' auto_size='true' width='152' height='64' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.015'>
+    <sprite image='gfx/forest/platform.png' x='0' y='64' clip_width='152' clip_height='64' spritepos='' auto_size='true' width='152' height='64' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.015'>
+    <sprite image='gfx/forest/platform.png' x='0' y='128' clip_width='152' clip_height='64' spritepos='' auto_size='true' width='152' height='64' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.015'>
+    <sprite image='gfx/forest/platform.png' x='0' y='192' clip_width='152' clip_height='64' spritepos='' auto_size='true' width='152' height='64' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+</animation>

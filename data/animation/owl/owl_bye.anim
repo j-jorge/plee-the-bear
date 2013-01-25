@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation loops='0' first_index='3' last_index='4' loop_back='false' auto_size='true' width='72' height='85' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'>
+  <frame duration='0.1'>
+    <sprite image='gfx/owl/owl.png' x='0' y='85' clip_width='72' clip_height='85' spritepos='owl tears 1' auto_size='true' width='72' height='85' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.1'>
+    <sprite image='gfx/owl/owl.png' x='72' y='85' clip_width='72' clip_height='85' spritepos='owl tears 2' auto_size='true' width='72' height='85' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.1'>
+    <sprite image='gfx/owl/owl.png' x='144' y='85' clip_width='72' clip_height='85' spritepos='owl tears 3' auto_size='true' width='72' height='85' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.1'>
+    <sprite image='gfx/owl/owl.png' x='0' y='170' clip_width='72' clip_height='85' spritepos='owl tears 4' auto_size='true' width='72' height='85' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.2'>
+    <sprite image='gfx/owl/owl.png' x='72' y='170' clip_width='72' clip_height='85' spritepos='owl tears 5' auto_size='true' width='72' height='85' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+</animation>

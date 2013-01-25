@@ -1,0 +1,12 @@
+# The format of the lines is
+# picture: x y width height
+
+fleur-de-lis: 163 0 93 124
+frontal: 102 0 59 131
+profile: 64 0 38 131
+arrow: 0 35 63 14
+column middle: 129 132 73 67
+column top: 0 132 128 58
+column bottom: 0 190 128 66
+drawbridge: 0 0 64 32
+

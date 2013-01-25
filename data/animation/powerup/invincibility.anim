@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation loops='0' first_index='0' last_index='3' loop_back='false' auto_size='true' width='60' height='80' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'>
+  <frame duration='0.12'>
+    <sprite image='gfx/bonus-box-1.png' x='0' y='160' clip_width='60' clip_height='80' spritepos='invincibility 1' auto_size='true' width='60' height='80' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.12'>
+    <sprite image='gfx/bonus-box-1.png' x='60' y='160' clip_width='60' clip_height='80' spritepos='invincibility 2' auto_size='true' width='60' height='80' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.12'>
+    <sprite image='gfx/bonus-box-1.png' x='120' y='160' clip_width='60' clip_height='80' spritepos='invincibility 3' auto_size='true' width='60' height='80' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.12'>
+    <sprite image='gfx/bonus-box-1.png' x='180' y='160' clip_width='60' clip_height='80' spritepos='invincibility 4' auto_size='true' width='60' height='80' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+</animation>

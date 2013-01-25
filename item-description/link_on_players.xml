@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<item xmlns="http://www.gamned.org/bear/schema/0.5" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gamned.org/bear/schema/0.5 http://www.gamned.org/bear/schema/0.5/item-description.xsd" class="ptb::link_on_players" category="control/link" fixable="false" box_color="#0B2527" url="http://www.gamned.org/wiki/index.php/link_on_players">
+  <inherit>
+    <class>bear::base_item</class>
+    <class>ptb::item_waiting_for_players</class>
+  </inherit>
+  <description>This item adds a link between the players.</description>
+  <fields>
+    <field type="real" name="link_on_players.strength">
+      <description>The strength of the link</description>
+      <default_value>10000</default_value>
+    </field>
+    <field type="real" name="link_on_players.length.minimal">
+      <description>The minimal length of the link</description>
+      <default_value>0</default_value>
+    </field>
+    <field type="real" name="link_on_players.length.maximal">
+      <description>The maximal length of the link</description>
+      <default_value>infinity</default_value>
+    </field>
+    <field type="item_reference" name="link_on_players.link_visual">
+      <description>The item used to display the link.</description>
+      <set>
+        <element value="bear::base_link_visual"/>
+      </set>
+      <default_value>none</default_value>
+    </field>
+  </fields>
+</item>

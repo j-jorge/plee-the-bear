@@ -1,0 +1,24 @@
+0 {
+  camera.smooth_activate(0.5);
+  player_1.control_player();
+  player_2.control_player();
+}
+
++0.5 {
+  camera_movement.activate();
+}
+
++4 {
+  drawbridge_movement.activate();
+}
+
++3 {
+  shared_camera.focus_on(camera);
+  shared_camera.activate();
+}
+
++1 {
+  player_1.release_player();
+  player_2.release_player();
+  script.end();
+}

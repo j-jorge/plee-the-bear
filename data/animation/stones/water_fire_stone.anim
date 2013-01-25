@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation loops='0' first_index='0' last_index='9' loop_back='false' auto_size='true' width='22' height='21' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'>
+  <frame duration='0.16'>
+    <sprite image='gfx/stone/stone.png' x='0' y='93' clip_width='22' clip_height='21' spritepos='water fire stone 1' auto_size='true' width='22' height='21' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.16'>
+    <sprite image='gfx/stone/stone.png' x='22' y='93' clip_width='22' clip_height='21' spritepos='water fire stone 2' auto_size='true' width='22' height='21' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.16'>
+    <sprite image='gfx/stone/stone.png' x='44' y='93' clip_width='22' clip_height='21' spritepos='water fire stone 3' auto_size='true' width='22' height='21' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.16'>
+    <sprite image='gfx/stone/stone.png' x='66' y='93' clip_width='22' clip_height='21' spritepos='water fire stone 4' auto_size='true' width='22' height='21' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.16'>
+    <sprite image='gfx/stone/stone.png' x='88' y='93' clip_width='22' clip_height='21' spritepos='water fire stone 5' auto_size='true' width='22' height='21' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.16'>
+    <sprite image='gfx/stone/stone.png' x='110' y='93' clip_width='22' clip_height='21' spritepos='water fire stone 6' auto_size='true' width='22' height='21' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.16'>
+    <sprite image='gfx/stone/stone.png' x='132' y='93' clip_width='22' clip_height='21' spritepos='water fire stone 7' auto_size='true' width='22' height='21' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.16'>
+    <sprite image='gfx/stone/stone.png' x='154' y='93' clip_width='22' clip_height='21' spritepos='water fire stone 8' auto_size='true' width='22' height='21' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.16'>
+    <sprite image='gfx/stone/stone.png' x='176' y='93' clip_width='22' clip_height='21' spritepos='water fire stone 9' auto_size='true' width='22' height='21' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.16'>
+    <sprite image='gfx/stone/stone.png' x='198' y='93' clip_width='22' clip_height='21' spritepos='water fire stone 10' auto_size='true' width='22' height='21' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+</animation>

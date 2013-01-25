@@ -1,0 +1,35 @@
+0.0 player_1.control_player();
+0.0 player_1.refuse_action(wait);
+0.0 player_2.control_player();
+0.0 player_2.refuse_action(wait);
+0.0 player_stones.control_player();
+0.0 player_stones.add_player_in_script(script, plee_stones);
+
+0.1 camera.focus_on( shared_camera );
+0.1 camera.activate();
+0.3 player_stones.do_action(move_left, 0.7);
+1.0 plee_stones.set_z_position(-1000);
+1.0 player_stones.do_action(move_right, 0.4);
+1.2 player_stones.talk("/Break the bonus with a slap to collect the stones.");
+
+7.0 player_stones.do_action(move_right, 1.5);
+7.6 player_stones.do_action(slap, 0.2);
+9.0 player_stones.do_action(move_left, 0.1);
+9.0 player_stones.talk("/You can then throw the stones./Maintain the control to throw further./Press up or down to aim your stone.");
+
+20 player_stones.do_action(throw_stone, 0.5);
+22 player_stones.do_action(move_left, 1.5);
+23.6 player_stones.do_action(move_right, 0.1);
+23.6 plee_stones.set_z_position(-2000);
+23.6 player_stones.talk("/You can now practice your stone throwing in the \"Target Practice\" mini-game.");
+29.0 player_stones.do_action(move_right, 0.7);
+
+30 shared_camera.focus_on( camera );
+30 shared_camera.activate();
+30.3 plee_stones.set_center_of_mass( 13485.3, 2267 );
+30.4 player_stones.release_player();
+30.4 player_1.authorize_action(wait);
+30.4 player_1.release_player();
+30.4 player_2.authorize_action(wait);
+30.4 player_2.release_player();
+30.4 script.end();

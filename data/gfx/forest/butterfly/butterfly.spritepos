@@ -1,0 +1,34 @@
+# The format of the lines is
+# picture: x y width height
+
+pattern 1: 0 0 14 12
+pattern 2: 14 0 14 12
+pattern 3: 28 0 14 12
+
+bicolor pattern 1 : 42 0 14 12
+bicolor pattern 2: 56 0 14 12
+bicolor pattern 3: 70 0 14 12
+
+bicolor 2 pattern 1: 84 0 14 12
+bicolor 2 pattern 2: 98 0 14 12
+bicolor 2 pattern 3: 112 0 14 12
+
+tricolor pattern 1: 126 0 14 12
+tricolor pattern 2: 140 0 14 12
+tricolor pattern 3: 154 0 14 12
+
+monochrome 1: 168 0 14 12
+monochrome 2: 182 0 14 12
+monochrome 3: 196 0 14 12
+
+bicolor 1: 210 0 14 12
+bicolor 2: 224 0 14 12
+bicolor 3: 238 0 14 12
+
+bicolor 2 1: 0 12 14 12
+bicolor 2 2: 14 12 14 12
+bicolor 2 3: 28 12 14 12
+
+tricolor 1: 42 12 14 12
+tricolor 2: 56 12 14 12
+tricolor 3: 70 12 14 12

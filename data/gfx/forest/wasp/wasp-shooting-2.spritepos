@@ -1,0 +1,10 @@
+# The format of the lines is
+# picture: x y width height
+
+shooting 1:   0   0 89 98
+shooting 2:  89   0 89 98
+shooting 3: 178   0 89 98
+shooting 4: 267   0 89 98
+shooting 5: 356   0 89 98
+shooting 6:   0  98 89 98
+shooting 7:  89  98 89 98

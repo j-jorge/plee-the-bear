@@ -1,0 +1,36 @@
+# The format of the lines is
+# picture: x y width height
+
+frame 1:  0  0 32 32
+frame 2: 32  0 32 32
+frame 3: 64  0 32 32
+frame 4: 96  0 32 32
+frame 5:  0 32 32 32
+frame 6: 32 32 32 32
+frame 7: 64 32 32 32
+frame 8: 96 32 32 32
+frame 9:  0 64 32 32
+frame 10: 32 64 32 32
+frame 11: 64 64 32 32
+frame 12: 96 64 32 32
+frame 13:  0 96 32 32
+frame 14: 32 96 32 32
+frame 15: 64 96 32 32
+frame 16: 96 96 32 32
+
+flash 1: 128  0 32 32
+flash 2: 160  0 32 32
+flash 3: 192  0 32 32
+flash 4: 224  0 32 32
+flash 5: 128 32 32 32
+flash 6: 160 32 32 32
+flash 7: 192 32 32 32
+flash 8: 224 32 32 32
+flash 9: 128 64 32 32
+flash 10: 160 64 32 32
+flash 11: 192 64 32 32
+flash 12: 224 64 32 32
+flash 13: 128 96 32 32
+flash 14: 160 96 32 32
+flash 15: 192 96 32 32
+flash 16: 224 96 32 32

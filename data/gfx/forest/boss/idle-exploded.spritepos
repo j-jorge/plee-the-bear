@@ -1,0 +1,23 @@
+# The format of the lines is
+# picture: x y width height
+
+Calque Copié: 448 425 64 29
+crush 1: 448 280 64 29
+crush 2: 448 309 64 29
+crush 3: 448 338 64 29
+crush 4: 448 367 64 29
+crush 5: 448 396 64 29
+crush 6: 448 425 64 29
+carrot 1: 0 483 64 29
+carrot 2: 64 483 64 29
+carrot 3: 128 483 64 29
+carrot 4: 192 483 64 29
+carrot 5: 256 483 64 29
+corruption: 482 0 30 27
+right arm: 388 149 124 116
+right leg: 0 257 209 176
+right ear: 209 372 192 108
+head: 298 0 174 149
+tooth: 298 149 54 79
+left ear: 209 257 182 115
+body: 0 0 298 257

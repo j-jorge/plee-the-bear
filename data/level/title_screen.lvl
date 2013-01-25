@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<level name='' width='1280' height='720' music=''>
+  <layer class_name='decoration_layer' name='' width='1280' height='720' fit_level='1'>
+
+<items>
+    <item class_name='bear::decorative_item' fixed='true'>
+<fields>
+<field name='item_with_decoration.sprite'>
+<sprite image='gfx/title_screen/background_09.png' x='0' y='0' clip_width='256' clip_height='512' spritepos='' auto_size='true' width='256' height='512' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+</field>
+</fields>
+    </item><!-- bear::decorative_item -->
+
+    <item class_name='bear::decorative_item' fixed='true'>
+<fields>
+<field name='base_item.position.bottom'>
+<real value='512'/>
+</field>
+<field name='item_with_decoration.sprite'>
+<sprite image='gfx/title_screen/background_06.png' x='0' y='0' clip_width='256' clip_height='128' spritepos='' auto_size='true' width='256' height='128' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+</field>
+</fields>
+    </item><!-- bear::decorative_item -->
+
+    <item class_name='bear::decorative_item' fixed='true'>
+<fields>
+<field name='base_item.position.bottom'>
+<real value='640'/>
+</field>
+<field name='item_with_decoration.sprite'>
+<sprite image='gfx/title_screen/background_03.png' x='0' y='0' clip_width='256' clip_height='64' spritepos='' auto_size='true' width='256' height='64' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+</field>
+</fields>
+    </item><!-- bear::decorative_item -->
+
+    <item class_name='bear::decorative_item' fixed='true'>
+<fields>
+<field name='base_item.position.bottom'>
+<real value='704'/>
+</field>
+<field name='item_with_decoration.sprite'>
+<sprite image='gfx/title_screen/background_00.png' x='0' y='0' clip_width='256' clip_height='16' spritepos='' auto_size='true' width='256' height='16' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+</field>
+</fields>
+    </item><!-- bear::decorative_item -->
+
+    <item class_name='bear::decorative_item' fixed='true'>
+<fields>
+<field name='base_item.position.left'>
+<real value='256'/>
+</field>
+<field name='item_with_decoration.sprite'>
+<sprite image='gfx/title_screen/background_10.png' x='0' y='0' clip_width='512' clip_height='512' spritepos='' auto_size='true' width='512' height='512' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+</field>
+</fields>
+    </item><!-- bear::decorative_item -->
+
+    <item class_name='bear::decorative_item' fixed='true'>
+<fields>
+<field name='base_item.position.bottom'>
+<real value='512'/>
+</field>
+<field name='base_item.position.left'>
+<real value='256'/>
+</field>
+<field name='item_with_decoration.sprite'>
+<sprite image='gfx/title_screen/background_07.png' x='0' y='0' clip_width='512' clip_height='128' spritepos='' auto_size='true' width='512' height='128' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+</field>
+</fields>
+    </item><!-- bear::decorative_item -->
+
+    <item class_name='bear::decorative_item' fixed='true'>
+<fields>
+<field name='base_item.position.bottom'>
+<real value='640'/>
+</field>
+<field name='base_item.position.left'>
+<real value='256'/>
+</field>
+<field name='item_with_decoration.sprite'>
+<sprite image='gfx/title_screen/background_04.png' x='0' y='0' clip_width='512' clip_height='64' spritepos='' auto_size='true' width='512' height='64' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+</field>
+</fields>
+    </item><!-- bear::decorative_item -->
+
+    <item class_name='bear::decorative_item' fixed='true'>
+<fields>
+<field name='base_item.position.bottom'>
+<real value='704'/>
+</field>
+<field name='base_item.position.left'>
+<real value='256'/>
+</field>
+<field name='item_with_decoration.sprite'>
+<sprite image='gfx/title_screen/background_01.png' x='0' y='0' clip_width='512' clip_height='16' spritepos='' auto_size='true' width='512' height='16' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+</field>
+</fields>
+    </item><!-- bear::decorative_item -->
+
+    <item class_name='bear::decorative_item' fixed='true'>
+<fields>
+<field name='base_item.position.left'>
+<real value='768'/>
+</field>
+<field name='item_with_decoration.sprite'>
+<sprite image='gfx/title_screen/background_11.png' x='0' y='0' clip_width='512' clip_height='512' spritepos='' auto_size='true' width='512' height='512' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+</field>
+</fields>
+    </item><!-- bear::decorative_item -->
+
+    <item class_name='bear::decorative_item' fixed='true'>
+<fields>
+<field name='base_item.position.bottom'>
+<real value='512'/>
+</field>
+<field name='base_item.position.left'>
+<real value='768'/>
+</field>
+<field name='item_with_decoration.sprite'>
+<sprite image='gfx/title_screen/background_08.png' x='0' y='0' clip_width='512' clip_height='128' spritepos='' auto_size='true' width='512' height='128' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+</field>
+</fields>
+    </item><!-- bear::decorative_item -->
+
+    <item class_name='bear::decorative_item' fixed='true'>
+<fields>
+<field name='base_item.position.bottom'>
+<real value='640'/>
+</field>
+<field name='base_item.position.left'>
+<real value='768'/>
+</field>
+<field name='item_with_decoration.sprite'>
+<sprite image='gfx/title_screen/background_05.png' x='0' y='0' clip_width='512' clip_height='64' spritepos='' auto_size='true' width='512' height='64' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+</field>
+</fields>
+    </item><!-- bear::decorative_item -->
+
+    <item class_name='bear::decorative_item' fixed='true'>
+<fields>
+<field name='base_item.position.bottom'>
+<real value='704'/>
+</field>
+<field name='base_item.position.left'>
+<real value='768'/>
+</field>
+<field name='item_with_decoration.sprite'>
+<sprite image='gfx/title_screen/background_02.png' x='0' y='0' clip_width='512' clip_height='16' spritepos='' auto_size='true' width='512' height='16' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+</field>
+</fields>
+    </item><!-- bear::decorative_item -->
+
+</items>
+
+<priority>
+</priority>
+
+  </layer><!-- decoration_layer -->
+
+  <layer class_name='action_layer' name='' width='1280' height='720' fit_level='1'>
+
+<items>
+    <item class_name='ptb::demo_level_loader' fixed='true'>
+<fields>
+<field name='base_item.position.bottom'>
+<real value='438'/>
+</field>
+<field name='base_item.position.left'>
+<real value='59'/>
+</field>
+<field name='demo_level_loader.levels'>
+<string value='level/forest-1.cl'/>
+</field>
+<field name='demo_level_loader.players_count'>
+<u_integer value='1'/>
+</field>
+</fields>
+    </item><!-- ptb::demo_level_loader -->
+
+    <item class_name='ptb::add_main_menu_layer' fixed='false'>
+<fields>
+<field name='base_item.position.bottom'>
+<real value='360'/>
+</field>
+<field name='base_item.position.left'>
+<real value='640'/>
+</field>
+</fields>
+    </item><!-- ptb::add_main_menu_layer -->
+
+</items>
+
+<priority>
+</priority>
+
+  </layer><!-- action_layer -->
+
+</level>

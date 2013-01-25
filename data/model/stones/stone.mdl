@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<model>
+<action name="attack" duration="0.015" auto_next="attack">
+<marks>
+<mark label="stone" apply_angle_to_animation="0" pause_animation_when_hidden="0">
+<animation_file path='animation/stones/stone.canim' auto_size='true' width='16' height='16' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+</mark>
+</marks>
+<snapshots>
+<snapshot date="0" width="16" height="16" x_alignment="align_left" y_alignment="align_bottom" x_alignment_value="0" y_alignment_value="0">
+<mark_placements>
+<mark_placement label="stone" function="" x="8" y="8" width="0" height="0" z="0" angle="0" visible="1" x_easing="none:in" y_easing="none:in" width_easing="none:in" height_easing="none:in" angle_easing="none:in"/>
+</mark_placements>
+</snapshot></snapshots>
+</action>
+</model>
+

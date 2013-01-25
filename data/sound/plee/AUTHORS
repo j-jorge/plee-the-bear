@@ -1,0 +1,24 @@
+This file list the authors and contributors for each file in this
+directory. For each file, the authors are sorted from the initial
+author to the most recent contribution. Files with the same authors
+are grouped.
+
+LIST OF AUTHORS
+
+Philip Bradbury <ptbcomposer@gmail.com>
+Julien Jorge <julien.jorge@gamned.org>
+
+FILES
+
+snore.ogg / from http://www.pdsounds.org/sounds/snoring_low
+  Julien Jorge
+
+clung.flac
+injured.flac
+jump.flac
+power-jump.flac
+slap.flac
+start-cling.flac
+start-power-jump.flac
+throw.flac
+  Philip Bradbury

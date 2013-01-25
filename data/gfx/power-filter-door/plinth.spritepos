@@ -1,0 +1,4 @@
+# The format of the lines is
+# picture: x y width height
+
+plinth: 0 0 64 64

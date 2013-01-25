@@ -1,0 +1,8 @@
+# The format of the lines is
+# picture: x y width height
+
+soul effet: 16 0 146 202
+
+stars 1: 175 0 48 13
+stars 2: 175 13 48 13
+stars 3: 175 26 48 13

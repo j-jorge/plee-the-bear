@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<item xmlns="http://www.gamned.org/bear/schema/0.5" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gamned.org/bear/schema/0.5 http://www.gamned.org/bear/schema/0.5/item-description.xsd" class="ptb::reverse_ghost" category="enemy/castle" box_color="#FAFF1F" url="http://www.gamned.org/wiki/index.php/reverse_ghost">
+  <inherit>
+    <class>ptb::ghost</class>
+  </inherit>
+ <description>A ghost that reverses two controls.</description>
+ <fields>
+   <field type="string" name="reverse_ghost.first_action" required="true">
+      <description>One of both changed action.</description>
+      <set>
+        <element value="action_null"/>
+        <element value="move_left"/>
+        <element value="move_right"/>
+        <element value="jump"/>
+        <element value="look_upward"/>
+        <element value="crouch"/>
+        <element value="slap"/>
+        <element value="throw_stone"/>
+        <element value="change_object"/>
+        <element value="say"/>
+	<element value="get_camera"/>
+	</set>
+    </field>
+    <field type="string" name="reverse_ghost.second_action" required="true">
+      <description>One of both changed action.</description>
+      <set>
+        <element value="move_left"/>
+        <element value="move_right"/>
+        <element value="jump"/>
+        <element value="look_upward"/>
+        <element value="crouch"/>
+        <element value="slap"/>
+        <element value="throw_stone"/>
+        <element value="change_object"/>
+        <element value="say"/>
+	<element value="get_camera"/>
+	</set>
+    </field>
+ </fields>
+</item>

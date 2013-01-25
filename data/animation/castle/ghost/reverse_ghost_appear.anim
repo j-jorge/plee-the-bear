@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation loops='0' first_index='0' last_index='4' loop_back='false' auto_size='true' width='36' height='43' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'>
+  <frame duration='0.15'>
+    <sprite image='gfx/castle/ghost/ghost-1.png' x='0' y='0' clip_width='36' clip_height='43' spritepos='reverse-appear 1' auto_size='true' width='36' height='43' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.15'>
+    <sprite image='gfx/castle/ghost/ghost-1.png' x='36' y='0' clip_width='36' clip_height='43' spritepos='reverse-appear 2' auto_size='true' width='36' height='43' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.15'>
+    <sprite image='gfx/castle/ghost/ghost-1.png' x='72' y='0' clip_width='36' clip_height='43' spritepos='reverse-appear 3' auto_size='true' width='36' height='43' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.15'>
+    <sprite image='gfx/castle/ghost/ghost-1.png' x='108' y='0' clip_width='36' clip_height='43' spritepos='reverse-appear 4' auto_size='true' width='36' height='43' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.15'>
+    <sprite image='gfx/castle/ghost/ghost-1.png' x='144' y='0' clip_width='36' clip_height='43' spritepos='reverse-appear 5' auto_size='true' width='36' height='43' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+</animation>

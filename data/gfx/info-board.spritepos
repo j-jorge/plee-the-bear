@@ -1,0 +1,8 @@
+# The format of the lines is
+# picture: x y width height
+
+board 1:  0  0 57 62
+board 2: 57  0 57 62
+board 3:  0 62 57 62
+board 4: 57 62 57 62
+

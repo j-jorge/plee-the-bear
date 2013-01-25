@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation loops='0' first_index='0' last_index='0' loop_back='false' auto_size='true' width='19' height='30' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'>
+  <frame duration='1'>
+    <sprite image='gfx/plee/plee-alt-4.png' x='493' y='8' clip_width='19' clip_height='30' spritepos='changing hat 7 floating arm' auto_size='true' width='19' height='30' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+</animation>

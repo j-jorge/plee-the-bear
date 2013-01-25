@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation loops='0' first_index='0' last_index='8' loop_back='true' auto_size='true' width='32' height='16' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'>
+  <frame duration='0.09'>
+    <sprite image='gfx/bubble.png' x='32' y='0' clip_width='32' clip_height='16' spritepos='bubbles 1' auto_size='true' width='32' height='16' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.09'>
+    <sprite image='gfx/bubble.png' x='64' y='0' clip_width='32' clip_height='16' spritepos='bubbles 2' auto_size='true' width='32' height='16' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.09'>
+    <sprite image='gfx/bubble.png' x='96' y='0' clip_width='32' clip_height='16' spritepos='bubbles 3' auto_size='true' width='32' height='16' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.09'>
+    <sprite image='gfx/bubble.png' x='32' y='16' clip_width='32' clip_height='16' spritepos='bubbles 4' auto_size='true' width='32' height='16' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.09'>
+    <sprite image='gfx/bubble.png' x='96' y='0' clip_width='32' clip_height='16' spritepos='bubbles 3' auto_size='true' width='32' height='16' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.09'>
+    <sprite image='gfx/bubble.png' x='64' y='0' clip_width='32' clip_height='16' spritepos='bubbles 2' auto_size='true' width='32' height='16' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.09'>
+    <sprite image='gfx/bubble.png' x='32' y='0' clip_width='32' clip_height='16' spritepos='bubbles 1' auto_size='true' width='32' height='16' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.09'>
+    <sprite image='gfx/bubble.png' x='64' y='0' clip_width='32' clip_height='16' spritepos='bubbles 2' auto_size='true' width='32' height='16' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.09'>
+    <sprite image='gfx/bubble.png' x='96' y='0' clip_width='32' clip_height='16' spritepos='bubbles 3' auto_size='true' width='32' height='16' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+</animation>

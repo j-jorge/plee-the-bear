@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<item xmlns="http://www.gamned.org/bear/schema/0.5" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gamned.org/bear/schema/0.5 http://www.gamned.org/bear/schema/0.5/item-description.xsd" class="ptb::add_ingame_layers" category="interface" fixable="false" box_color="#788A22" url="http://www.gamned.org/wiki/index.php/add_ingame_layers">
+  <inherit>
+    <class>bear::base_item</class>
+  </inherit>
+  <description>This class adds the layers for the graphical user interface in the current level.</description>
+  <fields>
+    <field type="boolean" name="add_ingame_layers.show_introduction">
+      <description>Tell if we must show the introduction of the level (with the
+                   level name and the act number).</description>
+      <default_value>true</default_value>
+    </field>
+    <field type="item_reference" name="add_ingame_layers.status_layer.timer">
+      <description>The timer to use for the level.</description>
+      <set>
+	<element value="bear::timer"/>
+      </set>
+    </field>
+
+    <field type="animation" name="add_ingame_layers.corrupting_bonus_animation">
+      <description>The animation of the corrupting bonus.</description>
+      <default_value>none</default_value>
+    </field>
+  </fields>
+</item>

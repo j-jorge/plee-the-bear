@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<item xmlns="http://www.gamned.org/bear/schema/0.5" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gamned.org/bear/schema/0.5 http://www.gamned.org/bear/schema/0.5/item-description.xsd" class="ptb::bonus_time" category="bonus_points" fixable="false" url="http://www.gamned.org/wiki/index.php/bonus_time">
+  <inherit>
+    <class>ptb::bonus_points</class>
+  </inherit>
+  <fields>
+    <field type="item_reference" name="bonus_time.level_timer" required="true">
+      <description>The timer of the level, used to compute the time
+	bonuses.</description>
+      <set>
+	<element value="bear::timer"/>
+      </set>
+    </field>
+    <field type="u_integer" name="bonus_time.points_per_second">
+      <description>The number of points given by each remaining
+	second.</description>
+      <default_value>10</default_value>
+    </field>
+  </fields>
+  <remove_field>bonus_points.name</remove_field>
+  <remove_field>bonus_points.points</remove_field>
+  <remove_field>bonus_points.picture_filename</remove_field>
+  <remove_field>bonus_points.picture_name</remove_field>
+</item>

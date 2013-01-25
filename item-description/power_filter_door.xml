@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<item xmlns="http://www.gamned.org/bear/schema/0.5" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gamned.org/bear/schema/0.5 http://www.gamned.org/bear/schema/0.5/item-description.xsd" class="ptb::power_filter_door" category="entity" fixable="true" box_color="#FB8B6A" url="http://www.gamned.org/wiki/index.php/power_filter_door">
+  <inherit>
+    <class>bear::base_item</class>
+    <class>bear::basic_renderable_item</class>
+    <class>bear::item_with_decoration</class>
+  </inherit>
+  <description>A door with power restriction. Ple must be have a given power to go throw the door.</description>
+  <fields>
+    <field type="string" name="power_filter_door.type" required="true">
+      <description>The power restriction of this door.</description>
+      <set>
+        <element value="air_door"/>
+        <element value="fire_door"/>
+        <element value="water_door"/>
+      </set>
+    </field>
+    <field type="boolean" name="power_filter_door.remove_power">
+      <description>Indicates if the door removes the power when a player goes throw the door.</description>
+      <default_value>true</default_value>
+    </field>
+  </fields>
+</item>

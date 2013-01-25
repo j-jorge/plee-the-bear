@@ -1,0 +1,29 @@
+torch.png:
+    animate : True
+    crop_width: 300
+    crop_height: 1020
+    x: 0
+    y: 0
+    width: 100
+    height: 320
+    layers:
+        fire1:
+            - torch
+            - orange fire 1
+            - yellow fire 1
+        fire2:
+            - torch
+            - orange fire 2
+            - yellow fire 2
+        fire3:
+            - torch
+            - orange fire 3
+            - yellow fire 3
+        fire4:
+            - torch
+            - orange fire 4
+            - yellow fire 4
+        fire5:
+            - torch
+            - orange fire 5
+            - yellow fire 5

@@ -1,0 +1,1195 @@
+# Norwegian Nynorsk translations for Plee the Bear.
+# Copyright (C) 2010 Karl Ove Hufthammer
+# This file is distributed under the Creative Commons by-sa licence.
+#
+# Karl Ove Hufthammer <karl@huftis.org>, 2008, 2010, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: Plee the Bear 0.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-04-14 17:37+0200\n"
+"PO-Revision-Date: 2011-09-04 11:41+0200\n"
+"Last-Translator: Karl Ove Hufthammer <karl@huftis.org>\n"
+"Language-Team: Norwegian Nynorsk <i18n-nn@lister.ping.uio.no>\n"
+"Language: nn\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 1.2\n"
+
+#: ../../../src/ptb/frame/code/frame_profiles.cpp:267
+msgid "\". Are you sure?"
+msgstr "». Er du sikker på at du vil gjera dette?"
+
+msgid "\"I'm gonna find that boy and give him the wallop he deserves.\""
+msgstr ""
+
+#: ../../../src/ptb/layer/status/code/time_component.cpp:91
+msgid "%M:%S"
+msgstr "%M.%S"
+
+msgid "%p got %v%% of the notes."
+msgstr "%p trefte %v %% av notane."
+
+msgid "%p hit %v targets."
+msgstr "%p trefte %v mål."
+
+msgid "%p reached the top in %t."
+msgstr "%p nådde toppen på %t."
+
+msgid "%t"
+msgstr "%t"
+
+msgid "%v%%"
+msgstr "%v %%"
+
+msgid "%v/50"
+msgstr "%v/50"
+
+msgid "(demo)"
+msgstr "(demo)"
+
+msgid "1"
+msgstr ""
+
+msgid "2"
+msgstr ""
+
+msgid "3"
+msgstr ""
+
+msgid "4"
+msgstr ""
+
+msgid "5"
+msgstr ""
+
+msgid "6"
+msgstr ""
+
+msgid "7"
+msgstr ""
+
+msgid "8"
+msgstr ""
+
+msgid "9"
+msgstr ""
+
+# texts displayed in the "translation" level
+msgid "?"
+msgstr "?"
+
+msgid "A game by"
+msgstr "Eit spel frå"
+
+msgid "Action null"
+msgstr "Handling null"
+
+#: ../../../src/ptb/frame/code/frame_pause.cpp:110
+msgid "Are you sure you want to leave this level?"
+msgstr "Er du sikker på at du vil forlata brettet?"
+
+#: ../../../src/ptb/frame/code/frame_configure.cpp:72
+#: ../../../src/ptb/frame/code/frame_audio.cpp:47
+msgid "Audio"
+msgstr "Lyd"
+
+#: ../../../src/ptb/frame/code/frame_profiles.cpp:70
+#: ../../../src/ptb/frame/code/frame_profiles.cpp:224
+#: ../../../src/ptb/frame/code/frame_profiles.cpp:260
+#: ../../../src/ptb/frame/code/frame_profiles.cpp:312
+msgid "Available"
+msgstr "Tilgjengeleg"
+
+#: ../../../src/ptb/frame/code/frame_choose_player_mode.cpp:62
+#: ../../../src/ptb/frame/code/frame_play_mini_game.cpp:194
+#: ../../../src/ptb/frame/code/frame_profile_name.cpp:134
+#: ../../../src/ptb/frame/code/frame_start_menu.cpp:63
+#: ../../../src/ptb/frame/code/frame_profiles.cpp:181
+#: ../../../src/ptb/frame/code/frame_password.cpp:120
+#: ../../../src/ptb/frame/code/frame_configure.cpp:61
+#: ../../../src/ptb/frame/code/frame_play_story.cpp:239
+msgid "Back"
+msgstr "Tilbake"
+
+#: ../../../src/ptb/frame/code/frame_pause.cpp:139
+msgid "Back to title screen"
+msgstr "Hovudmeny"
+
+msgid "Be the last one alive."
+msgstr "Ver den siste som overlever."
+
+msgid "Bears on Fire"
+msgstr "Musikkbjørn"
+
+msgid "Break the bonus with a slap to collect the stones."
+msgstr "Slå til bonusen for å knusa han og ta steinane …"
+
+#: ../../../src/ptb/frame/code/frame_screen.cpp:127
+#: ../../../src/ptb/frame/code/message_box.cpp:185
+#: ../../../src/ptb/frame/code/frame_player_controls.cpp:178
+#: ../../../src/ptb/frame/code/frame_audio.cpp:234
+msgid "Cancel"
+msgstr "Avbryt"
+
+msgid "Captive"
+msgstr ""
+
+#: ../../../src/ptb/item_brick/impl/counted_enemy.tpp:63
+msgid "Carnage"
+msgstr "Blodbad"
+
+msgid "Change object"
+msgstr "Byt gjenstand"
+
+msgid "Change your active item to switch powers."
+msgstr "Byt gjenstand for å byta kraft."
+
+#: ../../../src/ptb/frame/code/frame_talk.cpp:138
+msgid "Close"
+msgstr "Lukk"
+
+msgid "Collecting souls will give you energy. Be quick or they will fly away!"
+msgstr ""
+"Ta så sjelene deira for å få meir energi. Ver rask, så dei ikkje fyk vekk!"
+
+msgid "Come swimming!"
+msgstr "Hopp uti!"
+
+#: ../../../src/ptb/frame/code/frame_pause.cpp:143
+#: ../../../src/ptb/frame/code/frame_main_menu.cpp:131
+#: ../../../src/ptb/frame/code/frame_configure.cpp:49
+msgid "Configuration"
+msgstr "Oppsett"
+
+msgid ""
+"Congratulations!\n"
+"\n"
+"The waterfall mini-game is now unlocked!"
+msgstr ""
+"Gratulerer!\n"
+"\n"
+"Du har no låst opp fosse-minispelet!"
+
+msgid "Congratulations! See the mini-game menu for a new song!"
+msgstr "Gratulerer! Sjå minispel-menyen for ein ny song!"
+
+#: ../../../src/ptb/frame/code/frame_profile_name.cpp:153
+msgid "Create"
+msgstr "Lag"
+
+msgid "Crouch"
+msgstr "Bøy / sjå ned"
+
+msgid "Daddy!"
+msgstr "Pappa!"
+
+msgid "Damn! Take cover!"
+msgstr "Uff! Søk dekning!"
+
+msgid ""
+"Did you listen to the music in this level? Now you have to play it yourself!"
+msgstr "Høyrde du musikken på dette brettet? No må du spela han sjølv!"
+
+#: ../../../src/ptb/item/code/owl.cpp:75
+msgid "Did you lose your friend?"
+msgstr "Har du mista vennen din?"
+
+msgid "Die"
+msgstr "Dø"
+
+msgid "Disappear"
+msgstr "Forsvinn"
+
+#: ../../../src/ptb/frame/code/frame_level_score.cpp:207
+msgid "Discard"
+msgstr "Lukk"
+
+msgid "Do the tutorial and take stones."
+msgstr "Gå gjennom opplæringa, og ta alle steinane."
+
+msgid "Do you remember this place?"
+msgstr "Hugsar du denne plassen?"
+
+msgid "End"
+msgstr "Slutt"
+
+#: ../../../src/ptb/item_brick/code/base_bonus.cpp:443
+msgid "Energy bonus found"
+msgstr ""
+
+msgid "English Language Editor"
+msgstr "Korrekturlesar for engelsk"
+
+msgid "First, gain some speed."
+msgstr "Ta sats!"
+
+msgid ""
+"First, you should look at the configuration menu to see or change commands."
+msgstr ""
+"Men først bør du sjå i oppsettmenyen kva tastar du skal bruka til kvar "
+"handling."
+
+msgid "Florian Massuyeau"
+msgstr "Florian Massuyeau"
+
+#, fuzzy
+#| msgid ""
+#| "Following honey drops on the ground, Plee reaches the edge of the forest."
+msgid ""
+"Following honey drops left on the ground, Plee reaches the edge of the forest"
+msgstr "Plee følgjer etter honningdråpane på bakken, og når snart skogkanten."
+
+#: ../../../src/ptb/frame/code/frame_game_options.cpp:82
+msgid "Friendly fire"
+msgstr "Kan skadast av medspelar"
+
+#: ../../../src/ptb/frame/code/frame_screen.cpp:81
+msgid "Fullscreen"
+msgstr "Fullskjerm"
+
+#: ../../../src/ptb/frame/code/frame_configure.cpp:80
+msgid "Game options"
+msgstr "Spelval"
+
+msgid "Get camera"
+msgstr "Hent kameraet"
+
+msgid "Get lost."
+msgstr "Dra til bloksberg!"
+
+msgid "Get to the top before time runs out!"
+msgstr "Klatra til toppen før tida går ut!"
+
+msgid "Give him your carrots!"
+msgstr "Gje han gulrøtene dine!"
+
+msgid "Graphism"
+msgstr "Grafikk"
+
+#: ../../../src/ptb/item/code/hideout_bonus_item.cpp:181
+msgid "Great explorer"
+msgstr ""
+
+#: ../../../src/ptb/item/code/hazelnut.cpp:179
+msgid "Hazelnut"
+msgstr "Lykkenøtt"
+
+msgid "Help me, daddy!"
+msgstr "Hjelp meg, pappa!"
+
+msgid "Help!"
+msgstr "Hjelp!"
+
+msgid "Hey!"
+msgstr "Hei!"
+
+msgid "Hi!"
+msgstr "Hei!"
+
+msgid "Hidden Places"
+msgstr "Hemmelege plassar"
+
+#: ../../../src/ptb/frame/code/frame_main_menu.cpp:145
+msgid "History"
+msgstr "Spel"
+
+msgid "Hit this bonus with your stones to move it."
+msgstr "Hiv nokre steinar på bonusen for å få han ned."
+
+msgid "Hold your jump button to float."
+msgstr "Hald inne hoppetasten for å sveva."
+
+msgid "I fell into this hole and I can't get out. Help me!"
+msgstr "Eg fall nedi her, og kjem meg ikkje ut. Hjelp meg!"
+
+msgid ""
+"I felt bad that I ate all the honey, Daddy, so I went looking for more..."
+msgstr ""
+"Eg angra på at eg hadde ete all honningen, pappa, så eg gjekk for å leita "
+"etter meir …"
+
+msgid "I will be your guide through this tutorial."
+msgstr "Eg skal visa deg korleis du skal spela."
+
+msgid "I will show you how to kill them with a stone."
+msgstr "Eg skal visa deg korleis du kan ta knekken på dei med steinane du har."
+
+msgid "I will take your son away from you, for his own safety."
+msgstr "Eg tek sonen din frå deg, for hans eiga skuld."
+
+# skip-rule: personifisering
+#: ../../../src/ptb/item/code/owl.cpp:86
+msgid "I'd like to have my lucky hazelnut back."
+msgstr "Eg vil ha lukkenøtta mi tilbake."
+
+msgid "I'll see what I can do."
+msgstr "Eg skal sjå kva eg kan få til."
+
+msgid "I'll show you how can we get of this pit."
+msgstr "Eg skal visa deg korleis me kan komma ut av hola."
+
+msgid "I'll show you what to do."
+msgstr "Eg skal visa deg kva du skal gjera."
+
+#, fuzzy
+#| msgid "I'm gonna give a spanking to this God too! Let's go!"
+msgid "I'm gonna give a spanking to this guy too! Let's go!"
+msgstr "Eg skal gje denne guden òg ein real omgang! Kom igjen!"
+
+msgid "I'm not sure I want to."
+msgstr "Eg veit ikkje om eg vil."
+
+#: ../../../src/ptb/item/code/owl.cpp:93
+msgid "I've been looking all over for it!"
+msgstr "Eg har lett etter ho overalt!"
+
+msgid "Idle"
+msgstr "I ro"
+
+msgid "If you run out of oxygen, you will drown."
+msgstr "Viss du slepp opp for luft, druknar du."
+
+msgid ""
+"In the First Act of the forest, fall from a high distance near a waterfall "
+"to find the owl. Then, do well to unlock this mini-game."
+msgstr ""
+"I første akt i skogen vil du møta ugla etter eit stort fall nær ein foss. "
+"Ver så flink på det hemmelege brettet."
+
+msgid "Julien Jorge"
+msgstr "Julien Jorge"
+
+msgid "Julien Lassalle"
+msgstr "Julien Lassalle"
+
+msgid "Jump"
+msgstr "Hopp"
+
+msgid "Jump in the tree."
+msgstr "Hopp opp i treet."
+
+msgid "Jump in the water to do a stroke."
+msgstr "Hopp mens du er i vatnet for å symja bortover."
+
+msgid "Jumping will abort the game, but remember: you only have one try!"
+msgstr "Du kan avbryta spelet ved å hoppa, men hugs: du har berre eitt forsøk!"
+
+msgid "Karl Ove Hufthammer"
+msgstr "Karl Ove Hufthammer"
+
+msgid "Kiera Whalen"
+msgstr "Kiera Whalen"
+
+# skip-rule: personifisering
+msgid "Leave my son alone!"
+msgstr "Ikkje rør sonen min!"
+
+msgid "Let's go!"
+msgstr "Kom igjen!"
+
+#: ../../../src/ptb/frame/code/frame_play_story.cpp:68
+msgid "Level selection"
+msgstr "Brettval"
+
+msgid "Loading..."
+msgstr "Lastar …"
+
+msgid "Look downward to see the wasps."
+msgstr "Sjå nedover for å få auga på vepsane."
+
+msgid "Look upward"
+msgstr "Sjå opp"
+
+msgid "Look upward and hold the jump button to jump higher."
+msgstr ""
+"For å hoppa høgare kan du halda inne hoppetasten samtidig som du ser opp."
+
+msgid "Look."
+msgstr "Sjå."
+
+#: ../../../src/ptb/frame/code/frame_main_menu.cpp:69
+msgid "Main menu"
+msgstr "Hovudmeny"
+
+msgid "Maintain the control to throw further."
+msgstr "Hald inne tasten viss du vil hiva steinane lenger."
+
+#: ../../../src/ptb/item/stone/code/stone.cpp:168
+msgid "Marskman"
+msgstr ""
+
+#: ../../../src/ptb/item/code/owl.cpp:451
+msgid "Meet the owl"
+msgstr "Møt ugla"
+
+#: ../../../src/ptb/frame/code/message_box.cpp:54
+msgid "Message"
+msgstr "Melding"
+
+#: ../../../src/ptb/frame/code/frame_play_mini_game.cpp:61
+#: ../../../src/ptb/frame/code/frame_main_menu.cpp:136
+msgid "Mini-game"
+msgstr "Minispel"
+
+#, fuzzy
+#| msgid "Mini-game"
+msgid "Mini-game unlocked"
+msgstr "Minispel"
+
+msgid "Move left"
+msgstr "Gå til venstre"
+
+msgid "Move right"
+msgstr "Gå til høgre"
+
+#: ../../../src/ptb/frame/code/frame_audio.cpp:123
+msgid "Music"
+msgstr "Musikk"
+
+#: ../../../src/ptb/frame/code/frame_level_score.cpp:114
+msgid "New record"
+msgstr "Ny rekord"
+
+#: ../../../src/ptb/frame/code/frame_play_mini_game.cpp:232
+#: ../../../src/ptb/frame/code/frame_play_story.cpp:277
+msgid "Next"
+msgstr "Neste"
+
+#: ../../../src/ptb/frame/code/frame_level_score.cpp:150
+msgid "No new record"
+msgstr "Ikkje ny rekord"
+
+#: ../../../src/ptb/frame/code/frame_play_story.cpp:562
+msgid "No player"
+msgstr "Ingen spelar"
+
+msgid "Now it's your turn."
+msgstr "No er det din tur."
+
+msgid "Now!"
+msgstr "No!"
+
+#: ../../../src/ptb/frame/code/frame_screen.cpp:108
+#: ../../../src/ptb/frame/code/message_box.cpp:166
+#: ../../../src/ptb/frame/code/frame_player_controls.cpp:159
+#: ../../../src/ptb/frame/code/frame_profiles.cpp:160
+#: ../../../src/ptb/frame/code/frame_audio.cpp:213
+#: ../../../src/ptb/frame/code/frame_game_options.cpp:106
+msgid "OK"
+msgstr "OK"
+
+#: ../../../src/ptb/frame/code/frame_choose_player_mode.cpp:72
+#: ../../../src/ptb/frame/code/frame_start_menu.cpp:77
+msgid "One player"
+msgstr "Éin spelar"
+
+msgid ""
+"Only to find it empty!\n"
+"\n"
+"Upon discovering that all the pots in his house are empty, Plee thinks of "
+"his mischievous son and swears:"
+msgstr ""
+
+#: ../../../src/ptb/frame/code/frame_game_options.cpp:47
+msgid "Options"
+msgstr "Spelval"
+
+msgid "Or with your bare hands."
+msgstr "Eller med nevane dine."
+
+msgid "Ouch!"
+msgstr "Au!"
+
+#: ../../../src/ptb/frame/code/frame_password.cpp:55
+#: ../../../src/ptb/frame/code/frame_configure.cpp:67
+msgid "Password"
+msgstr "Passord"
+
+#: ../../../src/ptb/frame/code/frame_pause.cpp:47
+msgid "Pause"
+msgstr "Pause"
+
+msgid "Philip Bradbury"
+msgstr "Philip Bradbury"
+
+msgid ""
+"Play along with the game's soundtrack by pressing the right buttons! A gold "
+"medal is rewarded for a perfect score."
+msgstr ""
+"Spel musikken frå spelet ved å trykkja på dei rette tastane. Du får ein "
+"gullmedalje om du klarer det perfekt!"
+
+#: ../../../src/ptb/frame/code/frame_play_mini_game.cpp:175
+#: ../../../src/ptb/frame/code/frame_play_story.cpp:220
+msgid "Play!"
+msgstr "Spel!"
+
+#: ../../../src/ptb/frame/code/frame_configure.cpp:88
+msgid "Player one's controls"
+msgstr "Kontrollar for spelar 1"
+
+#: ../../../src/ptb/frame/code/frame_configure.cpp:84
+msgid "Player two's controls"
+msgstr "Kontrollar for spelar 2"
+
+#: ../../../src/ptb/frame/code/frame_player_controls.cpp:71
+msgid "Player's controls"
+msgstr "Spelkontrollar"
+
+msgid "Plee the Bear"
+msgstr "Plee the Bear"
+
+msgid ""
+"Plee the Bear wakes up late one afternoon after dreaming of his earlier "
+"years, when he traveled across the world with his belle at his side.\n"
+"\n"
+"Craving an afternoon snack, he sticks his arm in a nearby honey pot..."
+msgstr ""
+
+msgid ""
+"Press a key to stop vertical arm \n"
+"and release to fire. \n"
+"Jump to cancel."
+msgstr ""
+
+msgid "Press up or down to aim your stone."
+msgstr "Trykk opp eller ned for å sikta."
+
+#: ../../../src/ptb/frame/code/frame_play_mini_game.cpp:213
+#: ../../../src/ptb/frame/code/frame_play_story.cpp:258
+msgid "Previous"
+msgstr "Førre"
+
+#: ../../../src/ptb/frame/code/frame_profile_name.cpp:54
+msgid "Profile name"
+msgstr "Profilnamn"
+
+#: ../../../src/ptb/frame/code/frame_profiles.cpp:52
+msgid "Profiles"
+msgstr "Profilar"
+
+msgid "Programming"
+msgstr "Programmering"
+
+#: ../../../src/ptb/frame/code/frame_main_menu.cpp:126
+msgid "Quit"
+msgstr "Avslutt"
+
+msgid "Raphaël Giudici"
+msgstr "Raphaël Giudici"
+
+msgid "Ray is found"
+msgstr ""
+
+msgid "Ray! I finally found you."
+msgstr "Ray! Endeleg fann eg deg!"
+
+msgid "Reach the top of the waterfall in the second act of the forest."
+msgstr "Nå toppen av fossen i andre akt i skogen."
+
+msgid "Release"
+msgstr ""
+
+msgid ""
+"Release the jump button at any moment to jump. Pressing an other button will "
+"cancel the jump."
+msgstr ""
+"Slepp hoppetasten for å hoppa, eller trykk ein annan tast for å avbryta "
+"hoppet."
+
+#: ../../../src/ptb/frame/code/frame_profiles.cpp:202
+msgid "Remove"
+msgstr "Fjern"
+
+#: ../../../src/ptb/frame/code/frame_pause.cpp:133
+msgid "Restart level"
+msgstr "Start brettet på nytt"
+
+#: ../../../src/ptb/frame/code/frame_pause.cpp:147
+msgid "Resume game"
+msgstr "Hald fram"
+
+msgid "Roar"
+msgstr "Brøl"
+
+msgid "Sandbox"
+msgstr "Sandkasse"
+
+#: ../../../src/ptb/frame/code/frame_level_score.cpp:226
+msgid "Save"
+msgstr "Lagra"
+
+msgid "Say"
+msgstr "Snakk"
+
+#: ../../../src/ptb/frame/code/frame_play_story.cpp:588
+msgid "Score:"
+msgstr "Poeng:"
+
+#: ../../../src/ptb/frame/code/frame_screen.cpp:47
+#: ../../../src/ptb/frame/code/frame_configure.cpp:76
+msgid "Screen"
+msgstr "Skjerm"
+
+msgid "Secret level found"
+msgstr ""
+
+#: ../../../src/ptb/item/code/owl.cpp:89
+msgid "See you in another world."
+msgstr "Ser deg i ei anna verd."
+
+msgid "See? Easy."
+msgstr "Ser du? Det er lett!"
+
+msgid "Slap"
+msgstr "Slå"
+
+msgid "Slap in mid-air to cling to the walls."
+msgstr "Slå mens du er i lufta for å halda deg fast til veggene."
+
+msgid "So if you die, don't worry, because you will return here."
+msgstr "Så ikkje ver redd for at du skal døy; då hamnar du berre tilbake her."
+
+# skip-rule: personifisering
+#: ../../../src/ptb/item/code/owl.cpp:82
+msgid "So you found my lucky hazelnut!"
+msgstr "Så du fann lukkenøtta mi!"
+
+#: ../../../src/ptb/frame/code/frame_audio.cpp:152
+msgid "Sound"
+msgstr "Lyd"
+
+# texts displayed in menu
+#: ../../../src/ptb/frame/code/frame_choose_player_mode.cpp:50
+#: ../../../src/ptb/frame/code/frame_start_menu.cpp:50
+msgid "Start game"
+msgstr "Start spelet"
+
+#: ../../../src/ptb/item/stone/code/stone.cpp:163
+msgid "Stone's waster"
+msgstr ""
+
+msgid "Stop!"
+msgstr "Stopp!"
+
+msgid "Sébastien Angibaud"
+msgstr "Sébastien Angibaud"
+
+msgid "THRONE"
+msgstr ""
+
+msgid "Take the power and come here."
+msgstr "Ta krafta, og kom her."
+
+#: ../../../src/ptb/frame/code/frame_talk.cpp:50
+msgid "Talk"
+msgstr "Snakk"
+
+msgid "Target Practice"
+msgstr "Skytetrening"
+
+msgid "Thank you for playing!"
+msgstr "Takk for at du spelte!"
+
+msgid "Thank you, daddy!"
+msgstr "Takk, pappa!"
+
+msgid "That time, I slapped him in mid-air."
+msgstr "No slo eg til han i lufta."
+
+msgid "The Arena"
+msgstr "Slagmarka"
+
+#, fuzzy
+#| msgid "The Castle Act 1"
+msgid "The Castle"
+msgstr "Slottet akt 1"
+
+msgid "The Forest"
+msgstr "Skogen"
+
+msgid "The Waterfall"
+msgstr "Fossen"
+
+msgid "The blue gauge on the left represents your oxygen level."
+msgstr "Den blå luftmålaren til venstre viser kor mykje luft du har att."
+
+msgid "The object to the left of you is a checkpoint."
+msgstr "Gjenstanden til venstre lagrar kor langt du er kommen i spelet."
+
+msgid "The powers can be combined. Let's try it!"
+msgstr "Du kan slå saman fleire krefter til éi superkraft. La oss prøva!"
+
+msgid "The stones will bounces of surfaces with the water power."
+msgstr "Med vasskrafta kan steinane spretta."
+
+msgid "The totem on your right will start some music..."
+msgstr "Totempålen til høgre set i gang musikken …"
+
+msgid "The totem on your right will start the music..."
+msgstr "Totempålen til høgre set i gang musikken …"
+
+msgid "Then, go to the next totem on the right."
+msgstr "Gå så til den neste totempålen til høgre."
+
+#, fuzzy
+#| msgid "\". Are you sure?"
+msgid "There you are!"
+msgstr "». Er du sikker på at du vil gjera dette?"
+
+#: ../../../src/ptb/item/code/bonus_box.cpp:399
+msgid "Thief"
+msgstr ""
+
+# skip-rule: personifisering
+msgid "This is for my honey!"
+msgstr "Her har du som takk for at du stal honningen min!"
+
+msgid "This power will also make you resistant to heat."
+msgstr "Ho gjer òg at du toler varme."
+
+msgid "Throw stone"
+msgstr "Hiv stein"
+
+msgid "Throw stones on targets."
+msgstr "Hiv steinar på mål."
+
+msgid "Translations"
+msgstr "Omsetjing"
+
+# title of the "tutorial" level
+#: ../../../src/ptb/frame/code/frame_main_menu.cpp:140
+msgid "Tutorial"
+msgstr "Opplæring"
+
+#: ../../../src/ptb/frame/code/frame_choose_player_mode.cpp:67
+#: ../../../src/ptb/frame/code/frame_start_menu.cpp:70
+msgid "Two players (local)"
+msgstr "To spelarar (lokalt)"
+
+#, fuzzy
+#| msgid "Two players (local)"
+msgid "Two players cooperation"
+msgstr "To spelarar (lokalt)"
+
+msgid "Wait"
+msgstr "Vent"
+
+msgid "What did you do?"
+msgstr "Kva gjorde du?"
+
+msgid "What is this?"
+msgstr "Kor er dette?"
+
+msgid "What the...?"
+msgstr "Kva i all …?"
+
+msgid "What?"
+msgstr "Kva?"
+
+msgid ""
+"When the wood logs reach the bottom of the waterfall, press the buttons on "
+"time to play along with the music."
+msgstr ""
+
+#, fuzzy
+#| msgid "What is this?"
+msgid "Where is the exit?"
+msgstr "Kor er dette?"
+
+msgid "Who the hell are you?"
+msgstr "Og kven er du?"
+
+msgid "With the power of fire, stones can hit multiple enemies."
+msgstr "Med eldkrafta kan steinane gå gjennom fiendane."
+
+msgid ""
+"With the power of water you can stay under water indefinitely. Take it now."
+msgstr ""
+"Med vasskrafta kan du verta verande under vatn så lenge du vil. Prøv det no."
+
+msgid "Yeah! Leave him!"
+msgstr "Ja! Forlat han!"
+
+# skip-rule: personifisering
+#: ../../../src/ptb/item/code/owl.cpp:79
+msgid "You already gave me my lucky hazelnut. Stop bothering me!"
+msgstr "Eg har alt lukkenøtta mi. Hut deg vekk!"
+
+msgid "You already!"
+msgstr "Du igjen!"
+
+#: ../../../src/ptb/frame/code/frame_profiles.cpp:266
+msgid "You are deleting the profile \""
+msgstr "Du er i ferd med å sletta profilen «"
+
+#: ../../../src/ptb/layer/code/misc_layer.cpp:384
+msgid ""
+"You are playing a demo version. The final version may provide a different "
+"experience."
+msgstr ""
+
+# skip-rule: personifisering
+msgid "You ate all my honey!"
+msgstr "Du åt all honningen min!"
+
+msgid "You can also throw a stone to create a new bubble."
+msgstr "Du kan òg hiva ein stein for å laga ei ny boble."
+
+msgid "You can float in mid-air with the power of air."
+msgstr "Med luftkrafta kan du sveva i lufta."
+
+msgid "You can get some oxygen in the big bubbles."
+msgstr "Du kan få tak i meir luft i dei store boblene."
+
+msgid ""
+"You can now practice your stone throwing in the \"Target Practice\" mini-"
+"game."
+msgstr ""
+"Du kan no øva deg på å hiva steinar i eit minispel tilgjengeleg frå "
+"hovudmenyen."
+
+msgid "You can then jump from the wall."
+msgstr "Du kan så hoppa vekk frå veggen."
+
+msgid "You can then throw the stones."
+msgstr "Du kan så hiva nokre steinar."
+
+msgid "You deserve a good spanking instead."
+msgstr "Du fortener heller ein god omgang juling."
+
+#: ../../../src/ptb/frame/code/frame_level_score.cpp:160
+msgid "You didn't get a high score. Try again!"
+msgstr "Du fekk ikkje nokon ny rekord. Prøv igjen!"
+
+msgid ""
+"You don't have to keep holding the \"slap\" button or anything once on the "
+"wall."
+msgstr "Du treng ikkje halda inne knappen når du heng på veggen."
+
+msgid "You don't need to know."
+msgstr ""
+
+msgid "You have to be excellent this time. :)"
+msgstr "Du må vera kjempeflink denne gongen! :)"
+
+msgid "You shouldn't beat up your child."
+msgstr "Du bør ikkje slå ungen din!"
+
+msgid "You'll have to wait until the next installment."
+msgstr ""
+
+msgid "You'll receive a nice surprise if you perform well enough. :)"
+msgstr "Du får ei hyggjeleg overrasking om du er flink nok! :-)"
+
+msgid "You're gonna feel my power! Gniark! Gniark! Gniark!"
+msgstr "Du skal få kjenna krafta mi! Gniark! Gniark! Gniark!"
+
+msgid "You're not ready yet."
+msgstr "Du er ikkje klar enno."
+
+#: ../../../src/ptb/transition_effect/code/level_starting_effect.cpp:214
+msgid "act"
+msgstr "akt"
+
+#: ../../../src/ptb/code/score_table.cpp:100
+#: ../../../src/ptb/code/score_table.cpp:104
+msgid "and"
+msgstr "og"
+
+#: ../../../src/ptb/transition_effect/code/game_over_effect.cpp:64
+msgid "game over"
+msgstr "spelet er slutt"
+
+#: ../../../src/ptb/code/score_table.cpp:98
+msgid "hour"
+msgid_plural "hours"
+msgstr[0] "time"
+msgstr[1] "timar"
+
+#: ../../../src/ptb/code/controller_layout.cpp:570
+msgid "joystick "
+msgstr "styrespak "
+
+#: ../../../src/ptb/code/player.cpp:2375
+#, fuzzy
+#| msgid "No player"
+msgid "lazy player"
+msgstr "Ingen spelar"
+
+#: ../../../src/ptb/code/score_table.cpp:99
+#: ../../../src/ptb/code/score_table.cpp:103
+msgid "minute"
+msgid_plural "minutes"
+msgstr[0] "minutt"
+msgstr[1] "minutt"
+
+#: ../../../src/ptb/code/score_table.cpp:101
+#: ../../../src/ptb/code/score_table.cpp:105
+#: ../../../src/ptb/code/score_table.cpp:107
+msgid "second"
+msgid_plural "seconds"
+msgstr[0] "sekund"
+msgstr[1] "sekund"
+
+#: ../../../src/ptb/item/stone/code/stone.cpp:236
+#: ../../../src/ptb/code/player.cpp:978
+msgid "snake in the grass"
+msgstr ""
+
+#~ msgid "The Castle Act 2"
+#~ msgstr "Slottet akt 2"
+
+#~ msgid "Chain"
+#~ msgstr "Lenkja"
+
+#~ msgid "Most people call me \"God\"."
+#~ msgstr "Dei fleste kallar meg Gud."
+
+#~ msgid "Unchain"
+#~ msgstr "Løys"
+
+#~ msgid ""
+#~ "\"One more trick of that kid\", he thinks. \"I'm going to give him such a "
+#~ "wallop of which he sure will remember\"."
+#~ msgstr ""
+#~ "«Ein fantestrek til frå den ungen, så skal han få ein omgang han seint "
+#~ "gløymer!», tenkjer han."
+
+#~ msgid ""
+#~ "4 PM or so, Plee wakes up, tired. Again he has dreamed about that awesome "
+#~ "period when he traveled the world together with his girlfriend.\n"
+#~ "\n"
+#~ "He sticks his paw in a honey pot..."
+#~ msgstr ""
+#~ "Seint på ettermiddagen vaknar endeleg Plee opp – ein trøytt bjørn. I natt "
+#~ "igjen har han drøymt om den fantastiske tida då han reiste jorda rundt "
+#~ "saman med kjærasten sin.\n"
+#~ "\n"
+#~ "Han stikk eine poten i ei honningkrukke …"
+
+#~ msgid "Also, you will be heat insensitive with this power."
+#~ msgstr "Du vil òg kunna tola varme med denne krafta."
+
+#~ msgid ""
+#~ "But before, you should check in the configuration menu which command is "
+#~ "associated with each action!"
+#~ msgstr ""
+#~ "Men først bør du sjå i oppsettmenyen kva tastar du skal bruka til kvar "
+#~ "handling!"
+
+#~ msgid ""
+#~ "By the way, I have unlocked a mini-game in which you can train yourself "
+#~ "to throw stones."
+#~ msgstr ""
+#~ "Eit minispel der du kan øva deg på å hiva steinar er no tilgjengeleg frå "
+#~ "hovudmenyen."
+
+#~ msgid "By the way, the item on your left saved your position."
+#~ msgstr ""
+#~ "Gjenstanden til venstre lagra forresten kor langt du er kommen i spelet."
+
+#~ msgid "Default text"
+#~ msgstr "Standardtekst"
+
+#~ msgid ""
+#~ "Developed by\n"
+#~ "  Sebastien Angibaud\n"
+#~ "  Julien Jorge"
+#~ msgstr ""
+#~ "Utvikla av\n"
+#~ "  Sébastien Angibaud\n"
+#~ "  Julien Jorge"
+
+#~ msgid "Empty! Moreover, every single honey pot in the house is empty."
+#~ msgstr "Tom! Og resten av honningkrukkene i huset er òg tomme!"
+
+#~ msgid ""
+#~ "Four marks will appear at the bottom of the waterfall, and then wood logs "
+#~ "will fall down on them..."
+#~ msgstr ""
+#~ "Fire merke vert viste under fossen, og så begynner det å falla trestokkar "
+#~ "ned på dei …"
+
+#~ msgid ""
+#~ "Graphics by\n"
+#~ "  Julien Lassalle\n"
+#~ "  Raphael Giudici\n"
+#~ "  David Michineau\n"
+#~ "  Julien Jorge"
+#~ msgstr ""
+#~ "Grafikk av\n"
+#~ "  Julien Lassalle\n"
+#~ "  Raphaël Giudici\n"
+#~ "  David Michineau\n"
+#~ "  Julien Jorge"
+
+#~ msgid "Honey pots"
+#~ msgstr "Honningkrukker"
+
+#~ msgid "I gave a slap during my jump."
+#~ msgstr "Eg slo mens eg hoppa."
+
+#~ msgid "I was in the forest searching for honey... for you, daddy..."
+#~ msgstr "Eg var i skogen og leitte etter honning … til deg, pappa …"
+
+#~ msgid "If the level reaches zero, you will drawn."
+#~ msgstr "Slepp du opp for luft, druknar du."
+
+#~ msgid "It's really bad to molest your child like this."
+#~ msgstr "Det er skikkeleg slemt å mishandla ungen din slik."
+
+#~ msgid ""
+#~ "Let's play the music of the title screen! You have to be excellent this "
+#~ "time!"
+#~ msgstr "La oss spela musikken frå hovudskjermen! Du må vera kjempegod no!"
+
+#~ msgid "Maintain your jump to float like me."
+#~ msgstr "Hald inne hoppetasten for å sveva som meg."
+
+#~ msgid ""
+#~ "Music by\n"
+#~ "  Florian Massuyeau\n"
+#~ "  Julien Jorge"
+#~ msgstr ""
+#~ "Musikk av\n"
+#~ "  Florian Massuyeau\n"
+#~ "  Julien Jorge"
+
+#~ msgid "Perfect."
+#~ msgstr "Perfekt."
+
+#~ msgid "Play mini-game"
+#~ msgstr "Spel minispel"
+
+#~ msgid ""
+#~ "Plee the Bear is a game from Gamned Studio, directed by Sebastien "
+#~ "Angibaud and Julien Jorge."
+#~ msgstr ""
+#~ "Plee the Bear er eit spel frå Gamned Studio, som vert leidd av Sébastien "
+#~ "Angibaud og Julien Jorge."
+
+#~ msgid "Rocket bonus"
+#~ msgstr "Rakettbonus"
+
+#~ msgid "Start tutorial"
+#~ msgstr "Start opplæring"
+
+#~ msgid "Taking their souls will give you more energy."
+#~ msgstr "Ta så sjelene deira for å få meir energi."
+
+#~ msgid ""
+#~ "This is a demo. Come and join us in creating the best free 2D platform "
+#~ "game!\n"
+#~ "\n"
+#~ "http://plee-the-bear.sf.net/"
+#~ msgstr ""
+#~ "Dette er ein demo. Vert med og hjelp oss å laga det beste frie 2D-"
+#~ "plattformspelet nokonsinne.\n"
+#~ "\n"
+#~ "http://plee-the-bear.sf.net/"
+
+#~ msgid "Throw some stones on this bonus to push it."
+#~ msgstr "Hiv nokre steinar på bonusen for å få han ned."
+
+#~ msgid "Time bonus"
+#~ msgstr "Tidbonus"
+
+#~ msgid ""
+#~ "Translation by\n"
+#~ "  Antoine Bremaud\n"
+#~ "  Julien Jorge\n"
+#~ "  Karl Ove Hufthammer"
+#~ msgstr ""
+#~ "Omsetjing av\n"
+#~ "  Antoine Brémaud\n"
+#~ "  Julien Jorge\n"
+#~ "  Karl Ove Hufthammer"
+
+#~ msgid "Wait until the next release."
+#~ msgstr "Vent til neste versjon."
+
+#~ msgid ""
+#~ "When a wood log comes behind its mark, just look in the indicated "
+#~ "direction..."
+#~ msgstr "Når ein trestokk kjem bak eit merke, sjå i retninga på merket …"
+
+#~ msgid "You are leaving this level. Are you sure?"
+#~ msgstr ""
+#~ "Du er i ferd med å forlata brettet. Er du sikker på at du vil dette?"
+
+#~ msgid "'%a6;' and '%a7;' lets you control the angle of the shot."
+#~ msgstr "Bruk «%a6;» og «%a7;» for å velja kva du skal sikta på."
+
+#~ msgid "And then press '%a5;' to jump."
+#~ msgstr "Trykk så «%a5;» for å hoppa."
+
+#~ msgid "Combine the three powers and discover stone properties."
+#~ msgstr "Slå saman dei tre kreftene for å få nye steineigenskapar."
+
+#~ msgid ""
+#~ "Congratulations!\n"
+#~ "\n"
+#~ "You can now train yourself to throw stones in a mini-game!"
+#~ msgstr ""
+#~ "Gratulerer!\n"
+#~ "\n"
+#~ "Du kan no øva deg på å hiva steinar i eit minispel!"
+
+#~ msgid "Default (5 ?)"
+#~ msgstr "Standard (5?)"
+
+#~ msgid "Do like me by pressing jump button."
+#~ msgstr "Gjer som meg ved å trykkja på hoppetasten."
+
+#~ msgid "Hold '%a6;' and '%a5;' to jump higher..."
+#~ msgstr "Hald inne «%a6;» og «%a5;» for å hoppa høgare …"
+
+#~ msgid ""
+#~ "In the second act of the forest, the conquest of this mini-game starts in "
+#~ "the secret passage near the sequence of five springs. Just look for a "
+#~ "mushroom in a wall.\n"
+#~ "Next, try to always go as high as possible. Your road will be long..."
+#~ msgstr ""
+#~ "I den andre akta i skogen startar oppdraget til dette minispelet i den "
+#~ "hemmelege gangen nær dei fem sprettfjørene. Sjå etter ein sopp i veggen.\n"
+#~ "Prøv så å komma deg så høgt opp som mogleg. Det vert ein lang veg …"
+
+#~ msgid "It is harder to move during this jump."
+#~ msgstr "Det er vanskelegare å styra når du hoppar på denne måten."
+
+#~ msgid "Joystick"
+#~ msgstr "Styrespak"
+
+#~ msgid "Kill the wasp with a stone by pressing '%a9;'..."
+#~ msgstr "Trykk «%a9;» for å drepa vepsen med ein stein …"
+
+#~ msgid "Press '%a5;' to jump."
+#~ msgstr "Trykk «%a5;» for å hoppa."
+
+#~ msgid "Press '%a8;' to hold on to walls..."
+#~ msgstr "Trykk «%a8;» for å halda deg fast til veggar …"
+
+#~ msgid "That's it!"
+#~ msgstr "Takk skal du ha!"
+
+#~ msgid "The stones bounce with this power."
+#~ msgstr "Med denne krafta kan steinane spretta."
+
+#~ msgid "Throw him the first stone"
+#~ msgstr "Hiv første stein på han"
+
+#~ msgid "Use '%a9;' to throw a stone..."
+#~ msgstr "Bruk «%a9;» for å hiva ein stein …"
+
+#~ msgid "With the power of air, you can explose a stone by pressing '%a9;'..."
+#~ msgstr "Med luftkrafta kan du eksplodera steinar ved å trykkja «%a9;» …"
+
+#~ msgid "You can also float in midair by holding the jump."
+#~ msgstr "Du kan òg sveva i lufta, ved å halda inne hoppetasten."
+
+#~ msgid "You can drop a power by pressing '%a10;'..."
+#~ msgstr "Du kan byta kraft ved å trykkja «%a10;» …"

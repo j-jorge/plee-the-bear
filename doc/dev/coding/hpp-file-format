@@ -1,0 +1,66 @@
+/*
+    Plee the Bear
+
+    Copyright (C) 2005 Julien Jorge
+
+    This program is free software; you can redistribute it and/or modify it
+    under the terms of the GNU General Public License as published by the
+    Free Software Foundation; either version 2 of the License, or (at your
+    option) any later version.
+
+    This program is distributed in the hope that it will be useful, but WITHOUT
+    ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
+    FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for
+    more details.
+
+    You should have received a copy of the GNU General Public License along
+    with this program; if not, write to the Free Software Foundation, Inc.,
+    51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
+
+    contact: julien.jorge@gamned.org, sebastien_angibaud@yahoo.fr
+
+    Please add the tag [PTB] in the subject of your mails.
+*/
+/**
+ * \file filename.hpp
+ * \brief descritpion.
+ * \author name of the author of the file.
+ *
+ * Detailed comments are welcome.
+ */
+#ifndef __PTB_FILENAME_HPP__
+#define __PTB_FILENAME_HPP__
+
+namespace ptb
+{
+  /**
+   * \brief Short class descritpion.
+   *
+   * Long description, if any.
+   */
+  class my_class : public inheritance
+  {
+  public:
+    // <types>
+  protected:
+    // <types>
+  private:
+    // <types>
+  
+  public:
+    // <methods>
+  protected:
+    // <methods>
+  private:
+    // <methods>
+  
+  public:
+    // <members>
+  protected:
+    // <members>
+  private:
+    // <members>
+  }; // class my_class
+} // namespace ptb
+  
+#endif // __PTB_FILENAME_HPP__

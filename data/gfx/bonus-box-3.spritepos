@@ -1,0 +1,9 @@
+# The format of the lines is
+# picture: x y width height
+
+energy 1:   0  0 60 80
+energy 2:  60  0 60 80
+energy 3: 120  0 60 80
+energy 4: 180  0 60 80
+energy 5:   0 80 60 80
+energy 6:  60 80 60 80

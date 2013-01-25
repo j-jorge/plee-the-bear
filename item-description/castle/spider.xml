@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<item xmlns="http://www.gamned.org/bear/schema/0.5" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gamned.org/bear/schema/0.5 http://www.gamned.org/bear/schema/0.5/item-description.xsd" class="ptb::spider" category="enemy/castle" box_color="#FAFF1F" url="http://www.gamned.org/wiki/index.php/spider">
+  <inherit>
+    <class>ptb::base_enemy</class>
+    <class>bear::model</class>
+    <class>bear::base_item</class>
+  </inherit>
+  <fields>
+    <field type="real" name="spider.max_walk_distance">
+      <description>The maximum possible distance with origin position.</description>
+      <default_value>200</default_value>
+    </field>
+    <field type="real" name="spider.spider_silk_length">
+      <description>The spider silk length.</description>
+      <default_value>300</default_value>
+    </field>
+  </fields>
+  <new_default_value name="base_item.fixed.y">"true"</new_default_value>
+  <new_default_value name="base_item.mass">50</new_default_value>
+  <new_default_value name="base_item.size.width">120</new_default_value>
+  <new_default_value name="base_item.size.height">40</new_default_value>
+  <new_default_value name="basic_renderable_item.auto_mirror">"true"</new_default_value>
+</item>

@@ -1,0 +1,5 @@
+?package(plee-the-bear):needs="X11" section="Games/Action" \
+  title="Plee the Bear" \
+  command="plee-the-bear" \
+  hints="Catch your son, he ate all your honey and ran away." \
+  icon="ptb.xpm"

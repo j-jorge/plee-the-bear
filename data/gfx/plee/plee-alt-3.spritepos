@@ -1,0 +1,36 @@
+# The format of the lines is
+# picture: x y width height
+
+clinging 1: 0 0 71 125
+clinging 2: 71 0 71 125
+clinging 3: 142 0 71 125
+clinging 4: 213 0 71 125
+
+clung: 291 5 64 102
+
+roaring 1: 355 0 71 112
+roaring 2: 426 0 71 112
+roaring 3: 0 125 71 112
+roaring 4: 71 125 71 112
+roaring 5: 142 125 71 112
+roaring 6: 213 125 71 112
+roaring 7: 284 125 71 112
+roaring 8: 355 125 71 112
+
+falling 1: 426 125 66 114
+falling 2: 0 239 66 114
+falling 3: 66 239 66 114
+
+falling and throwing 1: 132 239 76 114
+falling and throwing 2: 208 239 76 114
+falling and throwing 3: 284 239 76 114
+falling and throwing 4: 360 239 76 114
+
+swimming 1:   0 364 92 125
+swimming 2:  92 364 92 125
+swimming 3: 184 364 92 125
+swimming 4: 276 364 92 125
+
+floating underwater 1: 368 364 61 125
+floating underwater 2: 429 364 61 125
+floating underwater 3: 436 239 61 125

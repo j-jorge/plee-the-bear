@@ -1,0 +1,14 @@
+# The format of the lines is
+# picture: x y width height
+
+complete: 0 0 256 128
+right: 128 0 128 128
+left: 0 0 128 128
+
+no corners: 0 128 256 128
+vertical: 16 128 224 128
+horizontal: 0 144 256 112
+middle: 16 144 224 112
+
+right no corners: 128 128 112 128
+left no corners: 16 128 112 128

@@ -1,0 +1,58 @@
+0.0 player_1.control_player();
+0.0 player_1.stop();
+0.0 player_1.refuse_action(wait);
+0.0 player_2.control_player();
+0.0 player_2.stop();
+0.0 player_2.refuse_action(wait);
+0.0 player_water.control_player();
+0.0 player_water.refuse_action(wait);
+0.0 player_water.add_player_in_script(script, plee_water);
+0.0 player_water.give_oxygen(10000);
+
+/* This block stops the players. */
+0.1 block.set_center_of_mass( 22120, 3220 );
+0.2 player_1.do_action(get_camera, 0.1);
+0.3 player_water.do_action(move_left, 0.2);
+0.4 player_1.do_action(move_right, 1);
+
+0.7 player_1.do_action(crouch, 2.2);
+1.0 player_water.talk("/Come swimming!");
+
+3.2 block.set_center_of_mass( 22120, 3190 );
+3.3 player_1.do_action(move_right, 0.3);
+3.4 player_1.do_action(jump, 0.15);
+4.9 player_water.do_action(crouch, 0.5);
+5.0 player_water.talk("/Jump in the water to do a stroke.");
+6.5 player_water.do_action(jump, 0.2);
+6.7 player_1.do_action(jump, 0.2);
+
+7.2 player_water.do_action(move_right, 0.2);
+7.5 player_1.do_action(jump, 0.2);
+8 player_water.talk("/The blue gauge on the left represents your oxygen level./If you run out of oxygen, you will drown.");
+
+10.5 player_1.do_action(jump, 0.2);
+11.5 player_1.do_action(move_left, 1.5);
+14 player_water.talk("/You can get some oxygen in the big bubbles./You can also throw a stone to create a new bubble.");
+
+25 player_water.give_oxygen(10000);
+25 player_water.give_stone(1);
+25 player_water.do_action(throw_stone, 0.5);
+30 player_water.talk("/With the power of water you can stay under water indefinitely. Take it now.");
+
+36 camera.smooth_activate(0.5);
+38 shared_camera.focus_on(camera);
+38 shared_camera.activate();
+39 player_water.talk("/Now!");
+
+40 player_water.do_action(jump, 0.1);
+40.1 player_water.do_action(move_left, 1);
+40.2 player_water.do_action(jump, 0.5);
+
+41 player_water.give_oxygen(10000);
+41 plee_water.set_center_of_mass( 22378, 3087 );
+41 player_water.release_player();
+41 player_1.authorize_action(wait);
+41 player_1.release_player();
+41 player_2.authorize_action(wait);
+41 player_2.release_player();
+41 script.end();

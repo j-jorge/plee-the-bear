@@ -1,0 +1,145 @@
+%_______________________________________________________________________________
+\section{Rendu visuel, images et graphisme}
+
+\subsection{L'espace de noms visual \index{visual!espace de noms} }
+Tout ce qui se rapporte au rendu visuel est dans l'espace de noms
+\texttt{visual}. L'environnement doit être initialisé en écrivant :
+\begin{verbatim}
+    visual::screen::initialize();
+\end{verbatim}
+puis fermé en écrivant :
+\begin{verbatim}
+    visual::screen::release();
+\end{verbatim}
+
+\subsubsection{Les images \index{visual!images} }
+Les images sont représentées en mémoire par la classe
+\verb|visual::image|. Elles peuvent être construites à partir d'un
+objet \verb|claw::graphic::image|. On préférera utiliser des images
+\emph{targa}, qui permettent de stocker une couche alpha pour la
+transparence. Les dimensions des images doivent être une puissance
+de~2. Vous pouvez charger une image \emph{targa} via
+\verb|claw::graphic::targa|.
+
+\subsubsection{Les objets graphiques}
+Il y a deux types d'objets graphiques : les sprites et
+les animations.
+
+\subsubsection{Les sprites \index{visual!sprite} }
+Les sprites sont des éléments affichables. Ce sont d'ailleurs les
+seuls éléments réellement affichables. Les sprites sont définis par
+une image et un rectangle englobant (ie. la partie de l'image qui nous
+intéresse). Il est possible de lui appliquer divers effets : inversion
+horizontale, verticale et transparence globale. Voyez la classe
+\verb|visual::sprite| pour avoir plus de détails.
+
+\subsubsection{Les animations \index{visual!animation} }
+La classe \verb|visual::animation| est en quelque sorte une extension
+de la classe \verb|visual::sprite| permettant de faire, justement, des
+animations (séries de sprites régulées par un framerate). Les
+animations peuvent être lues un nombre fini ou infini de fois et
+peuvent effectuer une lecture inverse lorsque la dernière image est
+atteinte.
+
+\subsubsection{Les effets \index{visual!effet} }
+Il est possible d'appliquer des effets visuels sur l'ensemble de
+l'écran et de manière plus générale sur n'importe quelle image. Tous
+ces effets héritent de la classe \verb|visual::screen_effect|. Le nom
+porte à confusion : ces filtres peuvent bel et bien être appliqués à
+n'importe quelle image. Ils sont indépendants de l'existence de la
+classe \verb|visual::screen|. Les effets dont le comportement évolue
+dans le temps héritent de la classe
+\verb|visual::progressive_screen_effect|. Le tableau
+\ref{tab_effets_visuels} présente les différents effets implémentés.
+
+\begin{table}[!htb]
+  \begin{center}
+  \begin{tabular}{|c|l|}
+    \hline
+    Effet & Description \\
+    \hline
+    blur\_effect & Un effet de flou léger. \\
+    fade\_effect & Un effet de fondu en noir. \\
+    grey\_effect & Met l'image en noir et blanc. \\
+    negative\_effect & Inverse les couleurs de l'image. \\
+    pixel\_effect & Effet de pixellisation. \\
+    quake\_effect & << Secoue >> l'image pour donner une impression de
+                    tremblement. \\
+    zoom\_effect & Un effet de flou de vitesse vers l'intérieur de l'écran. \\
+    \hline
+  \end{tabular}
+  \caption{Effets visuels envisagés}
+  \label{tab_effets_visuels}
+  \end{center}
+\end{table}
+
+\subsubsection{L'écran \index{visual!ecran@écran} }
+L'écran est symboliquement représenté par la classe
+\verb|visual::screen|. C'est sur l'écran que se dessinent les
+sprites et que s'appliquent les effets visuels. Les sprites y sont
+dessinés via la méthode \texttt{render} et les effets y sont appliqués
+via la méthode \texttt{apply\_effect}. Pour initialiser une nouvelle
+session de rendu, appelez \texttt{begin\_render}. Pour initialiser une
+nouvelle session d'effets, appelez \texttt{begin\_effect}. Tout appel à
+\texttt{begin\_*} doit se terminer par un appel à \texttt{end\_*}. Il
+est possible d'appliquer des effets pendant le
+rendu. L'algorithme~\ref{algo_ex_visual} présente un exemple
+d'utilisation de la classe \verb|visual::screen|. Il est possible de
+sauver l'écran dans un fichier bitmap en appelant la méthode
+\texttt{shot}. 
+
+\begin{algorithm}[!htb]
+  \begin{center}
+  \begin{algorithmic}
+    \STATE\COMMENT{Two lists of renderable items}
+    \STATE{var background : list of pair<renderable, coordinate\_2d>}
+    \STATE{var foreground : list of pair<renderable, coordinate\_2d>}
+    \STATE
+    \STATE\COMMENT{Begining of the rendering process}
+    \STATE{screen.begin\_render()}
+    \STATE
+    \STATE\COMMENT{Draw the background}
+    \FORALL{item in background}
+      \STATE{screen.render(item.second, item.first)}
+    \ENDFOR
+    \STATE
+    \STATE\COMMENT{Application of an effect}
+    \STATE{screen.begin\_effect()}
+    \STATE{screen.apply\_effect( blur\_effect() ) }
+    \STATE{screen.end\_effect()}
+    \STATE
+    \STATE\COMMENT{Draw the foreground}
+    \FORALL{item in foreground}
+      \STATE{screen.render(item.second, item.first)}
+    \ENDFOR
+    \STATE{screen.end\_render()}
+  \end{algorithmic}
+  \caption{Exemple d'utilisation des classes de l'espace de nom
+           \texttt{visual}}
+  \label{algo_ex_visual}
+  \end{center}
+\end{algorithm}
+
+\subsubsection{Le gestionnaire d'images \index{visual!gestionnaire d'images} }
+La classe \verb|visual::image_manager| permet de gérer des ressources
+graphiques. Elle propose une méthode d'ajout d'image et une méthode de
+récupération d'image. Chaque image a un nom unique au sein du gestionnaire.
+
+\subsection{Gestion des ressources graphiques \index{ressource!gestionnaire
+            d'image} }
+Au sein du jeu, on distingue deux types d'images : les images locales à un
+niveau et les images présentes dans tout le jeu (joueur, bonii, etc.). Pour
+simplifier l'utilisation de ces images, on utilise le singleton
+\verb|ptb::image_manager|. Celui-ci propose deux méthodes d'ajouts, selon que
+l'image soit globale ou pas, mais une seule méthode d'accès, masquant ainsi la
+nature de l'image.
+
+\subsection{\'Eléments visuels du jeu }
+Dans le jeu, les objets souhaitant pouvoir être affichés doivent hériter de la
+classe \verb|ptb::renderable|
+ \index{renderable \emph{(classe ptb::)}}
+(plus précisément de \verb|ptb::renderable_item|
+ \index{renderable item \emph{(classe ptb::)}}
+ou de \verb|ptb::renderable_messageable|
+ \index{renderable messageable \emph{(classe ptb::)}}
+).

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<model>
+<action name="fly" duration="1" auto_next="">
+<marks>
+<mark label="right_eye" apply_angle_to_animation="0" pause_animation_when_hidden="0">
+</mark>
+<mark label="body" apply_angle_to_animation="0" pause_animation_when_hidden="0">
+<animation_file path='animation/castle/ghost/reverse_ghost_fly.canim' auto_size='true' width='35' height='46' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+</mark>
+<mark label="left_eye" apply_angle_to_animation="0" pause_animation_when_hidden="0">
+</mark>
+</marks>
+<snapshots>
+<snapshot date="0" function="start_fly" width="24" height="35" x_alignment="align_left" y_alignment="align_bottom" x_alignment_value="0" y_alignment_value="0">
+<mark_placements>
+<mark_placement label="left_eye" function="" x="15.032" y="25.7463" width="0" height="0" z="0" angle="0" visible="1" x_easing="none:in" y_easing="none:in" width_easing="none:in" height_easing="none:in" angle_easing="none:in"/>
+<mark_placement label="body" function="" x="12.7532" y="18.7719" width="0" height="0" z="0" angle="0" visible="1" x_easing="none:in" y_easing="none:in" width_easing="none:in" height_easing="none:in" angle_easing="none:in"/>
+<mark_placement label="right_eye" function="" x="8.2473" y="26.0413" width="0" height="0" z="0" angle="0" visible="1" x_easing="none:in" y_easing="none:in" width_easing="none:in" height_easing="none:in" angle_easing="none:in"/>
+</mark_placements>
+</snapshot></snapshots>
+</action>
+<action name="control" duration="1" auto_next="">
+<marks>
+<mark label="right_eye" apply_angle_to_animation="0" pause_animation_when_hidden="0">
+</mark>
+<mark label="body" apply_angle_to_animation="0" pause_animation_when_hidden="0">
+<animation_file path='animation/castle/ghost/reverse_ghost_control.canim' auto_size='true' width='36' height='43' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+</mark>
+<mark label="left_eye" apply_angle_to_animation="0" pause_animation_when_hidden="0">
+</mark>
+</marks>
+<snapshots>
+<snapshot date="0" function="start_control" width="24" height="35" x_alignment="align_left" y_alignment="align_bottom" x_alignment_value="0" y_alignment_value="0">
+<mark_placements>
+<mark_placement label="left_eye" function="" x="17.4818" y="26.6062" width="0" height="0" z="0" angle="0" visible="1" x_easing="none:in" y_easing="none:in" width_easing="none:in" height_easing="none:in" angle_easing="none:in"/>
+<mark_placement label="body" function="" x="12.7532" y="18.7719" width="0" height="0" z="0" angle="0" visible="1" x_easing="none:in" y_easing="none:in" width_easing="none:in" height_easing="none:in" angle_easing="none:in"/>
+<mark_placement label="right_eye" function="" x="8.73058" y="26.7045" width="0" height="0" z="0" angle="0" visible="1" x_easing="none:in" y_easing="none:in" width_easing="none:in" height_easing="none:in" angle_easing="none:in"/>
+</mark_placements>
+</snapshot></snapshots>
+</action>
+<action name="come_back" duration="1" auto_next="">
+<marks>
+<mark label="right_eye" apply_angle_to_animation="0" pause_animation_when_hidden="0">
+</mark>
+<mark label="body" apply_angle_to_animation="0" pause_animation_when_hidden="0">
+<animation_file path='animation/castle/ghost/reverse_ghost_fly.canim' auto_size='true' width='35' height='46' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+</mark>
+<mark label="left_eye" apply_angle_to_animation="0" pause_animation_when_hidden="0">
+</mark>
+</marks>
+<snapshots>
+<snapshot date="0" function="start_come_back" width="24" height="35" x_alignment="align_left" y_alignment="align_bottom" x_alignment_value="0" y_alignment_value="0">
+<mark_placements>
+<mark_placement label="left_eye" function="" x="15.032" y="25.7463" width="0" height="0" z="0" angle="0" visible="1" x_easing="none:in" y_easing="none:in" width_easing="none:in" height_easing="none:in" angle_easing="none:in"/>
+<mark_placement label="body" function="" x="12.7532" y="18.7719" width="0" height="0" z="0" angle="0" visible="1" x_easing="none:in" y_easing="none:in" width_easing="none:in" height_easing="none:in" angle_easing="none:in"/>
+<mark_placement label="right_eye" function="" x="8.2473" y="26.0413" width="0" height="0" z="0" angle="0" visible="1" x_easing="none:in" y_easing="none:in" width_easing="none:in" height_easing="none:in" angle_easing="none:in"/>
+</mark_placements>
+</snapshot><snapshot date="0.5" function="start_scan" width="24" height="35" x_alignment="align_left" y_alignment="align_bottom" x_alignment_value="0" y_alignment_value="0">
+<mark_placements>
+<mark_placement label="left_eye" function="" x="15.032" y="25.7463" width="0" height="0" z="0" angle="0" visible="1" x_easing="none:in" y_easing="none:in" width_easing="none:in" height_easing="none:in" angle_easing="none:in"/>
+<mark_placement label="body" function="" x="12.7532" y="18.7719" width="0" height="0" z="0" angle="0" visible="1" x_easing="none:in" y_easing="none:in" width_easing="none:in" height_easing="none:in" angle_easing="none:in"/>
+<mark_placement label="right_eye" function="" x="8.2473" y="26.0413" width="0" height="0" z="0" angle="0" visible="1" x_easing="none:in" y_easing="none:in" width_easing="none:in" height_easing="none:in" angle_easing="none:in"/>
+</mark_placements>
+</snapshot></snapshots>
+</action>
+<action name="wait" duration="0.15" auto_next="wait">
+<marks>
+<mark label="right_eye" apply_angle_to_animation="0" pause_animation_when_hidden="0">
+</mark>
+<mark label="body" apply_angle_to_animation="0" pause_animation_when_hidden="0">
+<animation_file path='animation/castle/ghost/reverse_ghost_wait.canim' auto_size='true' width='36' height='43' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+</mark>
+<mark label="left_eye" apply_angle_to_animation="0" pause_animation_when_hidden="0">
+</mark>
+</marks>
+<snapshots>
+<snapshot date="0" function="start_wait" width="24" height="35" x_alignment="align_left" y_alignment="align_bottom" x_alignment_value="0" y_alignment_value="0">
+<mark_placements>
+<mark_placement label="left_eye" function="" x="15.032" y="25.7463" width="0" height="0" z="0" angle="0" visible="1" x_easing="none:in" y_easing="none:in" width_easing="none:in" height_easing="none:in" angle_easing="none:in"/>
+<mark_placement label="body" function="" x="12.7532" y="18.7719" width="0" height="0" z="0" angle="0" visible="1" x_easing="none:in" y_easing="none:in" width_easing="none:in" height_easing="none:in" angle_easing="none:in"/>
+<mark_placement label="right_eye" function="" x="8.2473" y="26.0413" width="0" height="0" z="0" angle="0" visible="1" x_easing="none:in" y_easing="none:in" width_easing="none:in" height_easing="none:in" angle_easing="none:in"/>
+</mark_placements>
+</snapshot></snapshots>
+</action>
+<action name="appear" duration="0.75" auto_next="fly">
+<marks>
+<mark label="right_eye" apply_angle_to_animation="0" pause_animation_when_hidden="0">
+</mark>
+<mark label="body" apply_angle_to_animation="0" pause_animation_when_hidden="0">
+<animation_file path='animation/castle/ghost/reverse_ghost_appear.canim' auto_size='true' width='36' height='43' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+</mark>
+<mark label="left_eye" apply_angle_to_animation="0" pause_animation_when_hidden="0">
+</mark>
+</marks>
+<snapshots>
+<snapshot date="0" function="start_appear" width="24" height="35" x_alignment="align_left" y_alignment="align_bottom" x_alignment_value="0" y_alignment_value="0">
+<mark_placements>
+<mark_placement label="left_eye" function="" x="15.032" y="25.7463" width="0" height="0" z="0" angle="0" visible="1" x_easing="none:in" y_easing="none:in" width_easing="none:in" height_easing="none:in" angle_easing="none:in"/>
+<mark_placement label="body" function="" x="12.7532" y="18.7719" width="0" height="0" z="0" angle="0" visible="1" x_easing="none:in" y_easing="none:in" width_easing="none:in" height_easing="none:in" angle_easing="none:in"/>
+<mark_placement label="right_eye" function="" x="8.2473" y="26.0413" width="0" height="0" z="0" angle="0" visible="1" x_easing="none:in" y_easing="none:in" width_easing="none:in" height_easing="none:in" angle_easing="none:in"/>
+</mark_placements>
+</snapshot><snapshot date="0.7" function="start_fly" width="24" height="35" x_alignment="align_left" y_alignment="align_bottom" x_alignment_value="0" y_alignment_value="0">
+<mark_placements>
+<mark_placement label="left_eye" function="" x="15.032" y="25.7463" width="0" height="0" z="0" angle="0" visible="1" x_easing="none:in" y_easing="none:in" width_easing="none:in" height_easing="none:in" angle_easing="none:in"/>
+<mark_placement label="body" function="" x="12.7532" y="18.7719" width="0" height="0" z="0" angle="0" visible="1" x_easing="none:in" y_easing="none:in" width_easing="none:in" height_easing="none:in" angle_easing="none:in"/>
+<mark_placement label="right_eye" function="" x="8.2473" y="26.0413" width="0" height="0" z="0" angle="0" visible="1" x_easing="none:in" y_easing="none:in" width_easing="none:in" height_easing="none:in" angle_easing="none:in"/>
+</mark_placements>
+</snapshot></snapshots>
+</action>
+</model>
+

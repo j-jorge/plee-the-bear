@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation loops='1' first_index='0' last_index='3' loop_back='false' auto_size='true' width='41' height='90' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'>
+  <frame duration='0.24'>
+    <sprite image='gfx/ray/ray-1.png' x='0' y='87' clip_width='41' clip_height='90' spritepos='walking crying 1' auto_size='true' width='41' height='90' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.24'>
+    <sprite image='gfx/ray/ray-1.png' x='41' y='87' clip_width='41' clip_height='90' spritepos='walking crying 2' auto_size='true' width='41' height='90' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.24'>
+    <sprite image='gfx/ray/ray-1.png' x='82' y='87' clip_width='41' clip_height='90' spritepos='walking crying 3' auto_size='true' width='41' height='90' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.24'>
+    <sprite image='gfx/ray/ray-1.png' x='123' y='87' clip_width='41' clip_height='90' spritepos='walking crying 4' auto_size='true' width='41' height='90' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+</animation>

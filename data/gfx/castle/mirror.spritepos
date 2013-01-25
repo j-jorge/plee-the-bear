@@ -1,0 +1,4 @@
+# The format of the lines is
+# picture: x y width height
+
+mirror: 0 0 224 256

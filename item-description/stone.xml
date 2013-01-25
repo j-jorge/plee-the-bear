@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<item xmlns="http://www.gamned.org/bear/schema/0.5" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gamned.org/bear/schema/0.5 http://www.gamned.org/bear/schema/0.5/item-description.xsd" class="ptb::stone" category="enemy" box_color="#C3BB13" url="http://www.gamned.org/wiki/index.php/stone">
+  <inherit>
+    <class>bear::base_item</class>
+    <class>ptb::monster_item</class>
+    <class>bear::model</class>
+  </inherit>
+  <description>A basic stone.</description>	
+  <new_default_value name="base_item.density">2</new_default_value>
+  <new_default_value name="base_item.mass">1</new_default_value>
+  <new_default_value name="base_item.size.width">16</new_default_value>
+  <new_default_value name="base_item.size.height">16</new_default_value>	
+  <new_default_value name="monster_item.energy">1</new_default_value>
+  <new_default_value name="monster_item.offensive_strength">3</new_default_value>
+  <new_default_value name="monster_item.monster_type">stone_1</new_default_value>
+</item>

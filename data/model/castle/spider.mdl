@@ -1,0 +1,536 @@
+<?xml version="1.0" encoding="utf-8"?>
+<model>
+<action name="throw_venom" duration="2" auto_next="walk">
+<marks>
+<mark label="body" apply_angle_to_animation="0" pause_animation_when_hidden="0">
+<animation_file path='animation/castle/spider/body.canim' auto_size='true' width='86' height='41' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+</mark>
+<mark label="mouth" apply_angle_to_animation="0" pause_animation_when_hidden="0">
+<animation_file path='animation/castle/spider/drop.canim' auto_size='true' width='48' height='20' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+</mark>
+<mark label="front leg right begin" apply_angle_to_animation="1" pause_animation_when_hidden="0">
+<animation loops='0' first_index='0' last_index='0' loop_back='false' auto_size='true' width='37' height='15' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'>
+  <frame duration='1'>
+    <sprite image='gfx/castle/spider/spider.png' x='86' y='0' clip_width='37' clip_height='15' spritepos='leg begin' auto_size='true' width='37' height='15' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+</animation>
+</mark>
+<mark label="front leg right end" apply_angle_to_animation="1" pause_animation_when_hidden="0">
+<animation loops='0' first_index='0' last_index='0' loop_back='false' auto_size='true' width='55' height='14' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'>
+  <frame duration='1'>
+    <sprite image='gfx/castle/spider/spider.png' x='124' y='0' clip_width='55' clip_height='14' spritepos='leg end' auto_size='true' width='55' height='14' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+</animation>
+</mark>
+<mark label="middle leg right begin" apply_angle_to_animation="1" pause_animation_when_hidden="0">
+<animation loops='0' first_index='0' last_index='0' loop_back='false' auto_size='true' width='37' height='15' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'>
+  <frame duration='1'>
+    <sprite image='gfx/castle/spider/spider.png' x='86' y='0' clip_width='37' clip_height='15' spritepos='leg begin' auto_size='true' width='37' height='15' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+</animation>
+</mark>
+<mark label="middle leg right end" apply_angle_to_animation="1" pause_animation_when_hidden="0">
+<animation loops='0' first_index='0' last_index='0' loop_back='false' auto_size='true' width='55' height='14' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'>
+  <frame duration='1'>
+    <sprite image='gfx/castle/spider/spider.png' x='124' y='0' clip_width='55' clip_height='14' spritepos='leg end' auto_size='true' width='55' height='14' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+</animation>
+</mark>
+<mark label="back leg right begin" apply_angle_to_animation="1" pause_animation_when_hidden="0">
+<animation loops='0' first_index='0' last_index='0' loop_back='false' auto_size='true' width='37' height='15' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'>
+  <frame duration='1'>
+    <sprite image='gfx/castle/spider/spider.png' x='86' y='0' clip_width='37' clip_height='15' spritepos='leg begin' auto_size='true' width='37' height='15' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.7' green_intensity='0.7' blue_intensity='0.7'/>
+  </frame>
+</animation>
+</mark>
+<mark label="back leg right end" apply_angle_to_animation="1" pause_animation_when_hidden="0">
+<animation loops='0' first_index='0' last_index='0' loop_back='false' auto_size='true' width='55' height='14' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'>
+  <frame duration='1'>
+    <sprite image='gfx/castle/spider/spider.png' x='124' y='0' clip_width='55' clip_height='14' spritepos='leg end' auto_size='true' width='55' height='14' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.7' green_intensity='0.7' blue_intensity='0.7'/>
+  </frame>
+</animation>
+</mark>
+<mark label="front leg left begin" apply_angle_to_animation="1" pause_animation_when_hidden="0">
+<animation loops='0' first_index='0' last_index='0' loop_back='false' auto_size='true' width='37' height='15' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'>
+  <frame duration='1'>
+    <sprite image='gfx/castle/spider/spider.png' x='86' y='0' clip_width='37' clip_height='15' spritepos='leg begin' auto_size='true' width='37' height='15' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+</animation>
+</mark>
+<mark label="front leg left end" apply_angle_to_animation="1" pause_animation_when_hidden="0">
+<animation loops='0' first_index='0' last_index='0' loop_back='false' auto_size='true' width='55' height='14' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'>
+  <frame duration='1'>
+    <sprite image='gfx/castle/spider/spider.png' x='124' y='0' clip_width='55' clip_height='14' spritepos='leg end' auto_size='true' width='55' height='14' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+</animation>
+</mark>
+<mark label="middle leg left begin" apply_angle_to_animation="1" pause_animation_when_hidden="0">
+<animation loops='0' first_index='0' last_index='0' loop_back='false' auto_size='true' width='37' height='15' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'>
+  <frame duration='1'>
+    <sprite image='gfx/castle/spider/spider.png' x='86' y='0' clip_width='37' clip_height='15' spritepos='leg begin' auto_size='true' width='37' height='15' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+</animation>
+</mark>
+<mark label="middle leg left end" apply_angle_to_animation="1" pause_animation_when_hidden="0">
+<animation loops='0' first_index='0' last_index='0' loop_back='false' auto_size='true' width='55' height='14' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'>
+  <frame duration='1'>
+    <sprite image='gfx/castle/spider/spider.png' x='124' y='0' clip_width='55' clip_height='14' spritepos='leg end' auto_size='true' width='55' height='14' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+</animation>
+</mark>
+<mark label="back leg left begin" apply_angle_to_animation="1" pause_animation_when_hidden="0">
+<animation loops='0' first_index='0' last_index='0' loop_back='false' auto_size='true' width='37' height='15' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'>
+  <frame duration='1'>
+    <sprite image='gfx/castle/spider/spider.png' x='86' y='0' clip_width='37' clip_height='15' spritepos='leg begin' auto_size='true' width='37' height='15' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.7' green_intensity='0.7' blue_intensity='0.7'/>
+  </frame>
+</animation>
+</mark>
+<mark label="back leg left end" apply_angle_to_animation="1" pause_animation_when_hidden="0">
+<animation loops='0' first_index='0' last_index='0' loop_back='false' auto_size='true' width='55' height='14' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'>
+  <frame duration='1'>
+    <sprite image='gfx/castle/spider/spider.png' x='124' y='0' clip_width='55' clip_height='14' spritepos='leg end' auto_size='true' width='55' height='14' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.7' green_intensity='0.7' blue_intensity='0.7'/>
+  </frame>
+</animation>
+</mark>
+</marks>
+<snapshots>
+<snapshot date="0" function="start_throw_venom" width="120" height="40" x_alignment="align_left" y_alignment="align_bottom" x_alignment_value="0" y_alignment_value="0">
+<mark_placements>
+<mark_placement label="back leg left end" function="" x="3.97826" y="21.9621" width="0" height="0" z="-1" angle="-1.5" visible="1" x_easing="linear:in_out" y_easing="linear:in_out" width_easing="none:in" height_easing="none:in" angle_easing="linear:in_out"/>
+<mark_placement label="back leg left begin" function="" x="17.6739" y="8.70121" width="0" height="0" z="-1" angle="0.75" visible="1" x_easing="linear:in_out" y_easing="linear:in_out" width_easing="none:in" height_easing="none:in" angle_easing="linear:in_out"/>
+<mark_placement label="middle leg left end" function="" x="-3.30435" y="24.5708" width="0" height="0" z="4" angle="-1" visible="1" x_easing="linear:in_out" y_easing="linear:in_out" width_easing="none:in" height_easing="none:in" angle_easing="linear:in_out"/>
+<mark_placement label="middle leg left begin" function="" x="22.8913" y="11.5273" width="0" height="0" z="4" angle="0.5" visible="1" x_easing="linear:in_out" y_easing="linear:in_out" width_easing="none:in" height_easing="none:in" angle_easing="linear:in_out"/>
+<mark_placement label="front leg left end" function="" x="13.5435" y="22.1795" width="0" height="0" z="5" angle="-1.3" visible="1" x_easing="linear:in_out" y_easing="linear:in_out" width_easing="none:in" height_easing="none:in" angle_easing="linear:in_out"/>
+<mark_placement label="front leg left begin" function="" x="28.9783" y="9.35338" width="0" height="0" z="5" angle="1.1" visible="1" x_easing="linear:in_out" y_easing="linear:in_out" width_easing="none:in" height_easing="none:in" angle_easing="linear:in_out"/>
+<mark_placement label="back leg right end" function="" x="116.587" y="19.136" width="0" height="0" z="-1" angle="1.5" visible="1" x_easing="linear:in_out" y_easing="linear:in_out" width_easing="none:in" height_easing="none:in" angle_easing="linear:in_out"/>
+<mark_placement label="back leg right begin" function="" x="102.022" y="9.57077" width="0" height="0" z="-1" angle="-0.75" visible="1" x_easing="linear:in_out" y_easing="linear:in_out" width_easing="none:in" height_easing="none:in" angle_easing="linear:in_out"/>
+<mark_placement label="middle leg right end" function="" x="125.935" y="22.6143" width="0" height="0" z="4" angle="1" visible="1" x_easing="linear:in_out" y_easing="linear:in_out" width_easing="none:in" height_easing="none:in" angle_easing="linear:in_out"/>
+<mark_placement label="middle leg right begin" function="" x="99.8478" y="13.9186" width="0" height="0" z="4" angle="-0.5" visible="1" x_easing="linear:in_out" y_easing="linear:in_out" width_easing="none:in" height_easing="none:in" angle_easing="linear:in_out"/>
+<mark_placement label="front leg right end" function="" x="105.935" y="18.9186" width="0" height="0" z="5" angle="1.3" visible="1" x_easing="linear:in_out" y_easing="linear:in_out" width_easing="none:in" height_easing="none:in" angle_easing="linear:in_out"/>
+<mark_placement label="front leg right begin" function="" x="92.6739" y="10.0056" width="0" height="0" z="5" angle="-1.1" visible="1" x_easing="linear:in_out" y_easing="linear:in_out" width_easing="none:in" height_easing="none:in" angle_easing="linear:in_out"/>
+<mark_placement label="mouth" function="" x="63.5581" y="4.4186" width="0" height="0" z="0" angle="0" visible="1" x_easing="none:in" y_easing="none:in" width_easing="none:in" height_easing="none:in" angle_easing="none:in"/>
+<mark_placement label="body" function="" x="62.5581" y="22.4186" width="0" height="0" z="0" angle="0" visible="1" x_easing="none:in" y_easing="none:in" width_easing="none:in" height_easing="none:in" angle_easing="none:in"/>
+</mark_placements>
+</snapshot><snapshot date="0.4" function="throw_venom" width="120" height="40" x_alignment="align_left" y_alignment="align_bottom" x_alignment_value="0" y_alignment_value="0">
+<mark_placements>
+<mark_placement label="back leg left end" function="" x="3.97826" y="21.9621" width="0" height="0" z="-1" angle="-1.5" visible="1" x_easing="linear:in_out" y_easing="linear:in_out" width_easing="none:in" height_easing="none:in" angle_easing="linear:in_out"/>
+<mark_placement label="back leg left begin" function="" x="17.6739" y="8.70121" width="0" height="0" z="-1" angle="0.75" visible="1" x_easing="linear:in_out" y_easing="linear:in_out" width_easing="none:in" height_easing="none:in" angle_easing="linear:in_out"/>
+<mark_placement label="middle leg left end" function="" x="-3.30435" y="24.5708" width="0" height="0" z="4" angle="-1" visible="1" x_easing="linear:in_out" y_easing="linear:in_out" width_easing="none:in" height_easing="none:in" angle_easing="linear:in_out"/>
+<mark_placement label="middle leg left begin" function="" x="22.8913" y="11.5273" width="0" height="0" z="4" angle="0.5" visible="1" x_easing="linear:in_out" y_easing="linear:in_out" width_easing="none:in" height_easing="none:in" angle_easing="linear:in_out"/>
+<mark_placement label="front leg left end" function="" x="13.5435" y="22.1795" width="0" height="0" z="5" angle="-1.3" visible="1" x_easing="linear:in_out" y_easing="linear:in_out" width_easing="none:in" height_easing="none:in" angle_easing="linear:in_out"/>
+<mark_placement label="front leg left begin" function="" x="28.9783" y="9.35338" width="0" height="0" z="5" angle="1.1" visible="1" x_easing="linear:in_out" y_easing="linear:in_out" width_easing="none:in" height_easing="none:in" angle_easing="linear:in_out"/>
+<mark_placement label="back leg right end" function="" x="116.587" y="19.136" width="0" height="0" z="-1" angle="1.5" visible="1" x_easing="linear:in_out" y_easing="linear:in_out" width_easing="none:in" height_easing="none:in" angle_easing="linear:in_out"/>
+<mark_placement label="back leg right begin" function="" x="102.022" y="9.57077" width="0" height="0" z="-1" angle="-0.75" visible="1" x_easing="linear:in_out" y_easing="linear:in_out" width_easing="none:in" height_easing="none:in" angle_easing="linear:in_out"/>
+<mark_placement label="middle leg right end" function="" x="125.935" y="22.6143" width="0" height="0" z="4" angle="1" visible="1" x_easing="linear:in_out" y_easing="linear:in_out" width_easing="none:in" height_easing="none:in" angle_easing="linear:in_out"/>
+<mark_placement label="middle leg right begin" function="" x="99.8478" y="13.9186" width="0" height="0" z="4" angle="-0.5" visible="1" x_easing="linear:in_out" y_easing="linear:in_out" width_easing="none:in" height_easing="none:in" angle_easing="linear:in_out"/>
+<mark_placement label="front leg right end" function="" x="105.935" y="18.9186" width="0" height="0" z="5" angle="1.3" visible="1" x_easing="linear:in_out" y_easing="linear:in_out" width_easing="none:in" height_easing="none:in" angle_easing="linear:in_out"/>
+<mark_placement label="front leg right begin" function="" x="92.6739" y="10.0056" width="0" height="0" z="5" angle="-1.1" visible="1" x_easing="linear:in_out" y_easing="linear:in_out" width_easing="none:in" height_easing="none:in" angle_easing="linear:in_out"/>
+<mark_placement label="mouth" function="" x="63.5581" y="4.4186" width="0" height="0" z="0" angle="0" visible="1" x_easing="none:in" y_easing="none:in" width_easing="none:in" height_easing="none:in" angle_easing="none:in"/>
+<mark_placement label="body" function="" x="62.5581" y="22.4186" width="0" height="0" z="0" angle="0" visible="1" x_easing="none:in" y_easing="none:in" width_easing="none:in" height_easing="none:in" angle_easing="none:in"/>
+</mark_placements>
+</snapshot></snapshots>
+</action>
+<action name="walk" duration="0.449" auto_next="walk">
+<marks>
+<mark label="body" apply_angle_to_animation="0" pause_animation_when_hidden="0">
+<animation_file path='animation/castle/spider/body.canim' auto_size='true' width='86' height='41' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+</mark>
+<mark label="mouth" apply_angle_to_animation="0" pause_animation_when_hidden="0">
+<animation loops='0' first_index='0' last_index='0' loop_back='false' auto_size='true' width='48' height='20' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'>
+  <frame duration='1'>
+    <sprite image='gfx/castle/spider/spider.png' x='86' y='15' clip_width='48' clip_height='20' spritepos='mouth 1' auto_size='true' width='48' height='20' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+</animation>
+</mark>
+<mark label="front leg right begin" apply_angle_to_animation="1" pause_animation_when_hidden="0">
+<animation loops='0' first_index='0' last_index='0' loop_back='false' auto_size='true' width='37' height='15' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'>
+  <frame duration='1'>
+    <sprite image='gfx/castle/spider/spider.png' x='86' y='0' clip_width='37' clip_height='15' spritepos='leg begin' auto_size='true' width='37' height='15' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+</animation>
+</mark>
+<mark label="front leg right end" apply_angle_to_animation="1" pause_animation_when_hidden="0">
+<animation loops='0' first_index='0' last_index='0' loop_back='false' auto_size='true' width='55' height='14' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'>
+  <frame duration='1'>
+    <sprite image='gfx/castle/spider/spider.png' x='124' y='0' clip_width='55' clip_height='14' spritepos='leg end' auto_size='true' width='55' height='14' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+</animation>
+</mark>
+<mark label="middle leg right begin" apply_angle_to_animation="1" pause_animation_when_hidden="0">
+<animation loops='0' first_index='0' last_index='0' loop_back='false' auto_size='true' width='37' height='15' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'>
+  <frame duration='1'>
+    <sprite image='gfx/castle/spider/spider.png' x='86' y='0' clip_width='37' clip_height='15' spritepos='leg begin' auto_size='true' width='37' height='15' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+</animation>
+</mark>
+<mark label="middle leg right end" apply_angle_to_animation="1" pause_animation_when_hidden="0">
+<animation loops='0' first_index='0' last_index='0' loop_back='false' auto_size='true' width='55' height='14' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'>
+  <frame duration='1'>
+    <sprite image='gfx/castle/spider/spider.png' x='124' y='0' clip_width='55' clip_height='14' spritepos='leg end' auto_size='true' width='55' height='14' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+</animation>
+</mark>
+<mark label="back leg right begin" apply_angle_to_animation="1" pause_animation_when_hidden="0">
+<animation loops='0' first_index='0' last_index='0' loop_back='false' auto_size='true' width='37' height='15' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'>
+  <frame duration='1'>
+    <sprite image='gfx/castle/spider/spider.png' x='86' y='0' clip_width='37' clip_height='15' spritepos='leg begin' auto_size='true' width='37' height='15' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.7' green_intensity='0.7' blue_intensity='0.7'/>
+  </frame>
+</animation>
+</mark>
+<mark label="back leg right end" apply_angle_to_animation="1" pause_animation_when_hidden="0">
+<animation loops='0' first_index='0' last_index='0' loop_back='false' auto_size='true' width='55' height='14' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'>
+  <frame duration='1'>
+    <sprite image='gfx/castle/spider/spider.png' x='124' y='0' clip_width='55' clip_height='14' spritepos='leg end' auto_size='true' width='55' height='14' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.7' green_intensity='0.7' blue_intensity='0.7'/>
+  </frame>
+</animation>
+</mark>
+<mark label="front leg left begin" apply_angle_to_animation="1" pause_animation_when_hidden="0">
+<animation loops='0' first_index='0' last_index='0' loop_back='false' auto_size='true' width='37' height='15' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'>
+  <frame duration='1'>
+    <sprite image='gfx/castle/spider/spider.png' x='86' y='0' clip_width='37' clip_height='15' spritepos='leg begin' auto_size='true' width='37' height='15' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+</animation>
+</mark>
+<mark label="front leg left end" apply_angle_to_animation="1" pause_animation_when_hidden="0">
+<animation loops='0' first_index='0' last_index='0' loop_back='false' auto_size='true' width='55' height='14' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'>
+  <frame duration='1'>
+    <sprite image='gfx/castle/spider/spider.png' x='124' y='0' clip_width='55' clip_height='14' spritepos='leg end' auto_size='true' width='55' height='14' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+</animation>
+</mark>
+<mark label="middle leg left begin" apply_angle_to_animation="1" pause_animation_when_hidden="0">
+<animation loops='0' first_index='0' last_index='0' loop_back='false' auto_size='true' width='37' height='15' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'>
+  <frame duration='1'>
+    <sprite image='gfx/castle/spider/spider.png' x='86' y='0' clip_width='37' clip_height='15' spritepos='leg begin' auto_size='true' width='37' height='15' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+</animation>
+</mark>
+<mark label="middle leg left end" apply_angle_to_animation="1" pause_animation_when_hidden="0">
+<animation loops='0' first_index='0' last_index='0' loop_back='false' auto_size='true' width='55' height='14' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'>
+  <frame duration='1'>
+    <sprite image='gfx/castle/spider/spider.png' x='124' y='0' clip_width='55' clip_height='14' spritepos='leg end' auto_size='true' width='55' height='14' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+</animation>
+</mark>
+<mark label="back leg left begin" apply_angle_to_animation="1" pause_animation_when_hidden="0">
+<animation loops='0' first_index='0' last_index='0' loop_back='false' auto_size='true' width='37' height='15' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'>
+  <frame duration='1'>
+    <sprite image='gfx/castle/spider/spider.png' x='86' y='0' clip_width='37' clip_height='15' spritepos='leg begin' auto_size='true' width='37' height='15' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.7' green_intensity='0.7' blue_intensity='0.7'/>
+  </frame>
+</animation>
+</mark>
+<mark label="back leg left end" apply_angle_to_animation="1" pause_animation_when_hidden="0">
+<animation loops='0' first_index='0' last_index='0' loop_back='false' auto_size='true' width='55' height='14' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'>
+  <frame duration='1'>
+    <sprite image='gfx/castle/spider/spider.png' x='124' y='0' clip_width='55' clip_height='14' spritepos='leg end' auto_size='true' width='55' height='14' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.7' green_intensity='0.7' blue_intensity='0.7'/>
+  </frame>
+</animation>
+</mark>
+</marks>
+<snapshots>
+<snapshot date="0" function="start_walk" width="120" height="40" x_alignment="align_left" y_alignment="align_bottom" x_alignment_value="0" y_alignment_value="0">
+<mark_placements>
+<mark_placement label="back leg left end" function="" x="16" y="23" width="0" height="0" z="-1" angle="-1.3" visible="1" x_easing="linear:in_out" y_easing="linear:in_out" width_easing="none:in" height_easing="none:in" angle_easing="linear:in_out"/>
+<mark_placement label="back leg left begin" function="" x="30" y="10" width="0" height="0" z="-1" angle="1" visible="1" x_easing="linear:in_out" y_easing="linear:in_out" width_easing="none:in" height_easing="none:in" angle_easing="linear:in_out"/>
+<mark_placement label="middle leg left end" function="" x="11" y="13" width="0" height="0" z="4" angle="-1" visible="1" x_easing="linear:in_out" y_easing="linear:in_out" width_easing="none:in" height_easing="none:in" angle_easing="linear:in_out"/>
+<mark_placement label="middle leg left begin" function="" x="25" y="6" width="0" height="0" z="4" angle="1.1" visible="1" x_easing="linear:in_out" y_easing="linear:in_out" width_easing="none:in" height_easing="none:in" angle_easing="linear:in_out"/>
+<mark_placement label="front leg left end" function="" x="8" y="15" width="0" height="0" z="5" angle="-1.2" visible="1" x_easing="linear:in_out" y_easing="linear:in_out" width_easing="none:in" height_easing="none:in" angle_easing="linear:in_out"/>
+<mark_placement label="front leg left begin" function="" x="31" y="6" width="0" height="0" z="5" angle="1.2" visible="1" x_easing="linear:in_out" y_easing="linear:in_out" width_easing="none:in" height_easing="none:in" angle_easing="linear:in_out"/>
+<mark_placement label="back leg right end" function="" x="129.5" y="18.6686" width="0" height="0" z="-1" angle="1" visible="1" x_easing="linear:in_out" y_easing="linear:in_out" width_easing="none:in" height_easing="none:in" angle_easing="linear:in_out"/>
+<mark_placement label="back leg right begin" function="" x="105" y="12" width="0" height="0" z="-1" angle="-0.75" visible="1" x_easing="linear:in_out" y_easing="linear:in_out" width_easing="none:in" height_easing="none:in" angle_easing="linear:in_out"/>
+<mark_placement label="middle leg right end" function="" x="121" y="20" width="0" height="0" z="4" angle="1.2" visible="1" x_easing="linear:in_out" y_easing="linear:in_out" width_easing="none:in" height_easing="none:in" angle_easing="linear:in_out"/>
+<mark_placement label="middle leg right begin" function="" x="102" y="10" width="0" height="0" z="4" angle="-0.8" visible="1" x_easing="linear:in_out" y_easing="linear:in_out" width_easing="none:in" height_easing="none:in" angle_easing="linear:in_out"/>
+<mark_placement label="front leg right end" function="" x="100" y="20" width="0" height="0" z="5" angle="1.5" visible="1" x_easing="linear:in_out" y_easing="linear:in_out" width_easing="none:in" height_easing="none:in" angle_easing="linear:in_out"/>
+<mark_placement label="front leg right begin" function="" x="92" y="10" width="0" height="0" z="5" angle="-1.25" visible="1" x_easing="linear:in_out" y_easing="linear:in_out" width_easing="none:in" height_easing="none:in" angle_easing="linear:in_out"/>
+<mark_placement label="mouth" function="" x="63.5581" y="4.4186" width="0" height="0" z="0" angle="0" visible="1" x_easing="none:in" y_easing="none:in" width_easing="none:in" height_easing="none:in" angle_easing="none:in"/>
+<mark_placement label="body" function="" x="62.5581" y="22.4186" width="0" height="0" z="0" angle="0" visible="1" x_easing="none:in" y_easing="none:in" width_easing="none:in" height_easing="none:in" angle_easing="none:in"/>
+</mark_placements>
+</snapshot><snapshot date="0.15" function="start_walk" width="120" height="40" x_alignment="align_left" y_alignment="align_bottom" x_alignment_value="0" y_alignment_value="0">
+<mark_placements>
+<mark_placement label="back leg left end" function="" x="16" y="13" width="0" height="0" z="-1" angle="-1.2" visible="1" x_easing="linear:in_out" y_easing="linear:in_out" width_easing="none:in" height_easing="none:in" angle_easing="linear:in_out"/>
+<mark_placement label="back leg left begin" function="" x="31" y="4" width="0" height="0" z="-1" angle="1.2" visible="1" x_easing="linear:in_out" y_easing="linear:in_out" width_easing="none:in" height_easing="none:in" angle_easing="linear:in_out"/>
+<mark_placement label="middle leg left end" function="" x="7" y="21" width="0" height="0" z="4" angle="-1.3" visible="1" x_easing="linear:in_out" y_easing="linear:in_out" width_easing="none:in" height_easing="none:in" angle_easing="linear:in_out"/>
+<mark_placement label="middle leg left begin" function="" x="23" y="7" width="0" height="0" z="4" angle="1" visible="1" x_easing="linear:in_out" y_easing="linear:in_out" width_easing="none:in" height_easing="none:in" angle_easing="linear:in_out"/>
+<mark_placement label="front leg left end" function="" x="11" y="13" width="0" height="0" z="5" angle="-1" visible="1" x_easing="linear:in_out" y_easing="linear:in_out" width_easing="none:in" height_easing="none:in" angle_easing="linear:in_out"/>
+<mark_placement label="front leg left begin" function="" x="31" y="6" width="0" height="0" z="5" angle="1.1" visible="1" x_easing="linear:in_out" y_easing="linear:in_out" width_easing="none:in" height_easing="none:in" angle_easing="linear:in_out"/>
+<mark_placement label="back leg right end" function="" x="120.779" y="20.0814" width="0" height="0" z="-1" angle="1.2" visible="1" x_easing="linear:in_out" y_easing="linear:in_out" width_easing="none:in" height_easing="none:in" angle_easing="linear:in_out"/>
+<mark_placement label="back leg right begin" function="" x="107" y="9" width="0" height="0" z="-1" angle="-0.8" visible="1" x_easing="linear:in_out" y_easing="linear:in_out" width_easing="none:in" height_easing="none:in" angle_easing="linear:in_out"/>
+<mark_placement label="middle leg right end" function="" x="105" y="18" width="0" height="0" z="4" angle="1.5" visible="1" x_easing="linear:in_out" y_easing="linear:in_out" width_easing="none:in" height_easing="none:in" angle_easing="linear:in_out"/>
+<mark_placement label="middle leg right begin" function="" x="97" y="7" width="0" height="0" z="4" angle="-1.25" visible="1" x_easing="linear:in_out" y_easing="linear:in_out" width_easing="none:in" height_easing="none:in" angle_easing="linear:in_out"/>
+<mark_placement label="front leg right end" function="" x="128.686" y="17.0581" width="0" height="0" z="5" angle="1" visible="1" x_easing="linear:in_out" y_easing="linear:in_out" width_easing="none:in" height_easing="none:in" angle_easing="linear:in_out"/>
+<mark_placement label="front leg right begin" function="" x="99.5" y="12.6686" width="0" height="0" z="5" angle="-0.75" visible="1" x_easing="linear:in_out" y_easing="linear:in_out" width_easing="none:in" height_easing="none:in" angle_easing="linear:in_out"/>
+<mark_placement label="mouth" function="" x="63.5581" y="4.4186" width="0" height="0" z="0" angle="0" visible="1" x_easing="none:in" y_easing="none:in" width_easing="none:in" height_easing="none:in" angle_easing="none:in"/>
+<mark_placement label="body" function="" x="62.5581" y="22.4186" width="0" height="0" z="0" angle="0" visible="1" x_easing="none:in" y_easing="none:in" width_easing="none:in" height_easing="none:in" angle_easing="none:in"/>
+</mark_placements>
+</snapshot><snapshot date="0.3" function="start_walk" width="120" height="40" x_alignment="align_left" y_alignment="align_bottom" x_alignment_value="0" y_alignment_value="0">
+<mark_placements>
+<mark_placement label="back leg left end" function="" x="8" y="11" width="0" height="0" z="-1" angle="-1" visible="1" x_easing="linear:in_out" y_easing="linear:in_out" width_easing="none:in" height_easing="none:in" angle_easing="linear:in_out"/>
+<mark_placement label="back leg left begin" function="" x="30" y="5" width="0" height="0" z="-1" angle="1.1" visible="1" x_easing="linear:in_out" y_easing="linear:in_out" width_easing="none:in" height_easing="none:in" angle_easing="linear:in_out"/>
+<mark_placement label="middle leg left end" function="" x="11" y="14" width="0" height="0" z="4" angle="-1.2" visible="1" x_easing="linear:in_out" y_easing="linear:in_out" width_easing="none:in" height_easing="none:in" angle_easing="linear:in_out"/>
+<mark_placement label="middle leg left begin" function="" x="27" y="4" width="0" height="0" z="4" angle="1.2" visible="1" x_easing="linear:in_out" y_easing="linear:in_out" width_easing="none:in" height_easing="none:in" angle_easing="linear:in_out"/>
+<mark_placement label="front leg left end" function="" x="15" y="22" width="0" height="0" z="5" angle="-1.3" visible="1" x_easing="linear:in_out" y_easing="linear:in_out" width_easing="none:in" height_easing="none:in" angle_easing="linear:in_out"/>
+<mark_placement label="front leg left begin" function="" x="31" y="7" width="0" height="0" z="5" angle="1" visible="1" x_easing="linear:in_out" y_easing="linear:in_out" width_easing="none:in" height_easing="none:in" angle_easing="linear:in_out"/>
+<mark_placement label="back leg right end" function="" x="104" y="19" width="0" height="0" z="-1" angle="1.5" visible="1" x_easing="linear:in_out" y_easing="linear:in_out" width_easing="none:in" height_easing="none:in" angle_easing="linear:in_out"/>
+<mark_placement label="back leg right begin" function="" x="100" y="9" width="0" height="0" z="-1" angle="-1.25" visible="1" x_easing="linear:in_out" y_easing="linear:in_out" width_easing="none:in" height_easing="none:in" angle_easing="linear:in_out"/>
+<mark_placement label="middle leg right end" function="" x="124.733" y="22.1744" width="0" height="0" z="4" angle="1" visible="1" x_easing="linear:in_out" y_easing="linear:in_out" width_easing="none:in" height_easing="none:in" angle_easing="linear:in_out"/>
+<mark_placement label="middle leg right begin" function="" x="100" y="16" width="0" height="0" z="4" angle="-0.75" visible="1" x_easing="linear:in_out" y_easing="linear:in_out" width_easing="none:in" height_easing="none:in" angle_easing="linear:in_out"/>
+<mark_placement label="front leg right end" function="" x="118.919" y="21.2442" width="0" height="0" z="5" angle="1.2" visible="1" x_easing="linear:in_out" y_easing="linear:in_out" width_easing="none:in" height_easing="none:in" angle_easing="linear:in_out"/>
+<mark_placement label="front leg right begin" function="" x="99" y="13" width="0" height="0" z="5" angle="-0.8" visible="1" x_easing="linear:in_out" y_easing="linear:in_out" width_easing="none:in" height_easing="none:in" angle_easing="linear:in_out"/>
+<mark_placement label="mouth" function="" x="63.5581" y="4.4186" width="0" height="0" z="0" angle="0" visible="1" x_easing="none:in" y_easing="none:in" width_easing="none:in" height_easing="none:in" angle_easing="none:in"/>
+<mark_placement label="body" function="" x="62.5581" y="22.4186" width="0" height="0" z="0" angle="0" visible="1" x_easing="none:in" y_easing="none:in" width_easing="none:in" height_easing="none:in" angle_easing="none:in"/>
+</mark_placements>
+</snapshot></snapshots>
+</action>
+<action name="dead" duration="1" auto_next="dead">
+<marks>
+<mark label="body" apply_angle_to_animation="0" pause_animation_when_hidden="0">
+<animation_file path='animation/castle/spider/body.canim' auto_size='true' width='86' height='41' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+</mark>
+<mark label="mouth" apply_angle_to_animation="0" pause_animation_when_hidden="0">
+<animation loops='1' first_index='0' last_index='0' loop_back='true' auto_size='true' width='48' height='20' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'>
+  <frame duration='0.15'>
+    <sprite image='gfx/castle/spider/spider.png' x='86' y='15' clip_width='48' clip_height='20' spritepos='mouth 1' auto_size='true' width='48' height='20' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+</animation>
+</mark>
+<mark label="front leg right begin" apply_angle_to_animation="1" pause_animation_when_hidden="0">
+<animation loops='0' first_index='0' last_index='0' loop_back='false' auto_size='true' width='37' height='15' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'>
+  <frame duration='1'>
+    <sprite image='gfx/castle/spider/spider.png' x='86' y='0' clip_width='37' clip_height='15' spritepos='leg begin' auto_size='true' width='37' height='15' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+</animation>
+</mark>
+<mark label="front leg right end" apply_angle_to_animation="1" pause_animation_when_hidden="0">
+<animation loops='0' first_index='0' last_index='0' loop_back='false' auto_size='true' width='55' height='14' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'>
+  <frame duration='1'>
+    <sprite image='gfx/castle/spider/spider.png' x='124' y='0' clip_width='55' clip_height='14' spritepos='leg end' auto_size='true' width='55' height='14' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+</animation>
+</mark>
+<mark label="middle leg right begin" apply_angle_to_animation="1" pause_animation_when_hidden="0">
+<animation loops='0' first_index='0' last_index='0' loop_back='false' auto_size='true' width='37' height='15' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'>
+  <frame duration='1'>
+    <sprite image='gfx/castle/spider/spider.png' x='86' y='0' clip_width='37' clip_height='15' spritepos='leg begin' auto_size='true' width='37' height='15' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+</animation>
+</mark>
+<mark label="middle leg right end" apply_angle_to_animation="1" pause_animation_when_hidden="0">
+<animation loops='0' first_index='0' last_index='0' loop_back='false' auto_size='true' width='55' height='14' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'>
+  <frame duration='1'>
+    <sprite image='gfx/castle/spider/spider.png' x='124' y='0' clip_width='55' clip_height='14' spritepos='leg end' auto_size='true' width='55' height='14' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+</animation>
+</mark>
+<mark label="back leg right begin" apply_angle_to_animation="1" pause_animation_when_hidden="0">
+<animation loops='0' first_index='0' last_index='0' loop_back='false' auto_size='true' width='37' height='15' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'>
+  <frame duration='1'>
+    <sprite image='gfx/castle/spider/spider.png' x='86' y='0' clip_width='37' clip_height='15' spritepos='leg begin' auto_size='true' width='37' height='15' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.7' green_intensity='0.7' blue_intensity='0.7'/>
+  </frame>
+</animation>
+</mark>
+<mark label="back leg right end" apply_angle_to_animation="1" pause_animation_when_hidden="0">
+<animation loops='0' first_index='0' last_index='0' loop_back='false' auto_size='true' width='55' height='14' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'>
+  <frame duration='1'>
+    <sprite image='gfx/castle/spider/spider.png' x='124' y='0' clip_width='55' clip_height='14' spritepos='leg end' auto_size='true' width='55' height='14' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.7' green_intensity='0.7' blue_intensity='0.7'/>
+  </frame>
+</animation>
+</mark>
+<mark label="front leg left begin" apply_angle_to_animation="1" pause_animation_when_hidden="0">
+<animation loops='0' first_index='0' last_index='0' loop_back='false' auto_size='true' width='37' height='15' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'>
+  <frame duration='1'>
+    <sprite image='gfx/castle/spider/spider.png' x='86' y='0' clip_width='37' clip_height='15' spritepos='leg begin' auto_size='true' width='37' height='15' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+</animation>
+</mark>
+<mark label="front leg left end" apply_angle_to_animation="1" pause_animation_when_hidden="0">
+<animation loops='0' first_index='0' last_index='0' loop_back='false' auto_size='true' width='55' height='14' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'>
+  <frame duration='1'>
+    <sprite image='gfx/castle/spider/spider.png' x='124' y='0' clip_width='55' clip_height='14' spritepos='leg end' auto_size='true' width='55' height='14' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+</animation>
+</mark>
+<mark label="middle leg left begin" apply_angle_to_animation="1" pause_animation_when_hidden="0">
+<animation loops='0' first_index='0' last_index='0' loop_back='false' auto_size='true' width='37' height='15' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'>
+  <frame duration='1'>
+    <sprite image='gfx/castle/spider/spider.png' x='86' y='0' clip_width='37' clip_height='15' spritepos='leg begin' auto_size='true' width='37' height='15' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+</animation>
+</mark>
+<mark label="middle leg left end" apply_angle_to_animation="1" pause_animation_when_hidden="0">
+<animation loops='0' first_index='0' last_index='0' loop_back='false' auto_size='true' width='55' height='14' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'>
+  <frame duration='1'>
+    <sprite image='gfx/castle/spider/spider.png' x='124' y='0' clip_width='55' clip_height='14' spritepos='leg end' auto_size='true' width='55' height='14' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+</animation>
+</mark>
+<mark label="back leg left begin" apply_angle_to_animation="1" pause_animation_when_hidden="0">
+<animation loops='0' first_index='0' last_index='0' loop_back='false' auto_size='true' width='37' height='15' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'>
+  <frame duration='1'>
+    <sprite image='gfx/castle/spider/spider.png' x='86' y='0' clip_width='37' clip_height='15' spritepos='leg begin' auto_size='true' width='37' height='15' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.7' green_intensity='0.7' blue_intensity='0.7'/>
+  </frame>
+</animation>
+</mark>
+<mark label="back leg left end" apply_angle_to_animation="1" pause_animation_when_hidden="0">
+<animation loops='0' first_index='0' last_index='0' loop_back='false' auto_size='true' width='55' height='14' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'>
+  <frame duration='1'>
+    <sprite image='gfx/castle/spider/spider.png' x='124' y='0' clip_width='55' clip_height='14' spritepos='leg end' auto_size='true' width='55' height='14' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.7' green_intensity='0.7' blue_intensity='0.7'/>
+  </frame>
+</animation>
+</mark>
+</marks>
+<snapshots>
+<snapshot date="0" function="start_dead" width="120" height="40" x_alignment="align_left" y_alignment="align_bottom" x_alignment_value="0" y_alignment_value="0">
+<mark_placements>
+<mark_placement label="back leg left end" function="" x="3.97826" y="21.9621" width="0" height="0" z="-1" angle="-1.5" visible="1" x_easing="linear:in_out" y_easing="linear:in_out" width_easing="none:in" height_easing="none:in" angle_easing="linear:in_out"/>
+<mark_placement label="back leg left begin" function="" x="17.6739" y="8.70121" width="0" height="0" z="-1" angle="0.75" visible="1" x_easing="linear:in_out" y_easing="linear:in_out" width_easing="none:in" height_easing="none:in" angle_easing="linear:in_out"/>
+<mark_placement label="middle leg left end" function="" x="-3.30435" y="24.5708" width="0" height="0" z="4" angle="-1" visible="1" x_easing="linear:in_out" y_easing="linear:in_out" width_easing="none:in" height_easing="none:in" angle_easing="linear:in_out"/>
+<mark_placement label="middle leg left begin" function="" x="22.8913" y="11.5273" width="0" height="0" z="4" angle="0.5" visible="1" x_easing="linear:in_out" y_easing="linear:in_out" width_easing="none:in" height_easing="none:in" angle_easing="linear:in_out"/>
+<mark_placement label="front leg left end" function="" x="13.5435" y="22.1795" width="0" height="0" z="5" angle="-1.3" visible="1" x_easing="linear:in_out" y_easing="linear:in_out" width_easing="none:in" height_easing="none:in" angle_easing="linear:in_out"/>
+<mark_placement label="front leg left begin" function="" x="28.9783" y="9.35338" width="0" height="0" z="5" angle="1.1" visible="1" x_easing="linear:in_out" y_easing="linear:in_out" width_easing="none:in" height_easing="none:in" angle_easing="linear:in_out"/>
+<mark_placement label="back leg right end" function="" x="116.587" y="19.136" width="0" height="0" z="-1" angle="1.5" visible="1" x_easing="linear:in_out" y_easing="linear:in_out" width_easing="none:in" height_easing="none:in" angle_easing="linear:in_out"/>
+<mark_placement label="back leg right begin" function="" x="102.022" y="9.57077" width="0" height="0" z="-1" angle="-0.75" visible="1" x_easing="linear:in_out" y_easing="linear:in_out" width_easing="none:in" height_easing="none:in" angle_easing="linear:in_out"/>
+<mark_placement label="middle leg right end" function="" x="125.935" y="22.6143" width="0" height="0" z="4" angle="1" visible="1" x_easing="linear:in_out" y_easing="linear:in_out" width_easing="none:in" height_easing="none:in" angle_easing="linear:in_out"/>
+<mark_placement label="middle leg right begin" function="" x="99.8478" y="13.9186" width="0" height="0" z="4" angle="-0.5" visible="1" x_easing="linear:in_out" y_easing="linear:in_out" width_easing="none:in" height_easing="none:in" angle_easing="linear:in_out"/>
+<mark_placement label="front leg right end" function="" x="105.935" y="18.9186" width="0" height="0" z="5" angle="1.3" visible="1" x_easing="linear:in_out" y_easing="linear:in_out" width_easing="none:in" height_easing="none:in" angle_easing="linear:in_out"/>
+<mark_placement label="front leg right begin" function="" x="92.6739" y="10.0056" width="0" height="0" z="5" angle="-1.1" visible="1" x_easing="linear:in_out" y_easing="linear:in_out" width_easing="none:in" height_easing="none:in" angle_easing="linear:in_out"/>
+<mark_placement label="mouth" function="" x="63.5581" y="4.4186" width="0" height="0" z="0" angle="0" visible="1" x_easing="none:in" y_easing="none:in" width_easing="none:in" height_easing="none:in" angle_easing="none:in"/>
+<mark_placement label="body" function="" x="62.5581" y="22.4186" width="0" height="0" z="0" angle="0" visible="1" x_easing="none:in" y_easing="none:in" width_easing="none:in" height_easing="none:in" angle_easing="none:in"/>
+</mark_placements>
+</snapshot></snapshots>
+</action>
+<action name="dangle" duration="8" auto_next="walk">
+<marks>
+<mark label="body" apply_angle_to_animation="0" pause_animation_when_hidden="0">
+<animation_file path='animation/castle/spider/body.canim' auto_size='true' width='86' height='41' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+</mark>
+<mark label="mouth" apply_angle_to_animation="0" pause_animation_when_hidden="0">
+<animation loops='1' first_index='0' last_index='0' loop_back='true' auto_size='true' width='48' height='20' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'>
+  <frame duration='0.15'>
+    <sprite image='gfx/castle/spider/spider.png' x='86' y='15' clip_width='48' clip_height='20' spritepos='mouth 1' auto_size='true' width='48' height='20' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+</animation>
+</mark>
+<mark label="front leg right begin" apply_angle_to_animation="1" pause_animation_when_hidden="0">
+<animation loops='0' first_index='0' last_index='0' loop_back='false' auto_size='true' width='37' height='15' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'>
+  <frame duration='1'>
+    <sprite image='gfx/castle/spider/spider.png' x='86' y='0' clip_width='37' clip_height='15' spritepos='leg begin' auto_size='true' width='37' height='15' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+</animation>
+</mark>
+<mark label="front leg right end" apply_angle_to_animation="1" pause_animation_when_hidden="0">
+<animation loops='0' first_index='0' last_index='0' loop_back='false' auto_size='true' width='55' height='14' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'>
+  <frame duration='1'>
+    <sprite image='gfx/castle/spider/spider.png' x='124' y='0' clip_width='55' clip_height='14' spritepos='leg end' auto_size='true' width='55' height='14' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+</animation>
+</mark>
+<mark label="middle leg right begin" apply_angle_to_animation="1" pause_animation_when_hidden="0">
+<animation loops='0' first_index='0' last_index='0' loop_back='false' auto_size='true' width='37' height='15' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'>
+  <frame duration='1'>
+    <sprite image='gfx/castle/spider/spider.png' x='86' y='0' clip_width='37' clip_height='15' spritepos='leg begin' auto_size='true' width='37' height='15' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+</animation>
+</mark>
+<mark label="middle leg right end" apply_angle_to_animation="1" pause_animation_when_hidden="0">
+<animation loops='0' first_index='0' last_index='0' loop_back='false' auto_size='true' width='55' height='14' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'>
+  <frame duration='1'>
+    <sprite image='gfx/castle/spider/spider.png' x='124' y='0' clip_width='55' clip_height='14' spritepos='leg end' auto_size='true' width='55' height='14' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+</animation>
+</mark>
+<mark label="back leg right begin" apply_angle_to_animation="1" pause_animation_when_hidden="0">
+<animation loops='0' first_index='0' last_index='0' loop_back='false' auto_size='true' width='37' height='15' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'>
+  <frame duration='1'>
+    <sprite image='gfx/castle/spider/spider.png' x='86' y='0' clip_width='37' clip_height='15' spritepos='leg begin' auto_size='true' width='37' height='15' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.7' green_intensity='0.7' blue_intensity='0.7'/>
+  </frame>
+</animation>
+</mark>
+<mark label="back leg right end" apply_angle_to_animation="1" pause_animation_when_hidden="0">
+<animation loops='0' first_index='0' last_index='0' loop_back='false' auto_size='true' width='55' height='14' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'>
+  <frame duration='1'>
+    <sprite image='gfx/castle/spider/spider.png' x='124' y='0' clip_width='55' clip_height='14' spritepos='leg end' auto_size='true' width='55' height='14' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.7' green_intensity='0.7' blue_intensity='0.7'/>
+  </frame>
+</animation>
+</mark>
+<mark label="front leg left begin" apply_angle_to_animation="1" pause_animation_when_hidden="0">
+<animation loops='0' first_index='0' last_index='0' loop_back='false' auto_size='true' width='37' height='15' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'>
+  <frame duration='1'>
+    <sprite image='gfx/castle/spider/spider.png' x='86' y='0' clip_width='37' clip_height='15' spritepos='leg begin' auto_size='true' width='37' height='15' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+</animation>
+</mark>
+<mark label="front leg left end" apply_angle_to_animation="1" pause_animation_when_hidden="0">
+<animation loops='0' first_index='0' last_index='0' loop_back='false' auto_size='true' width='55' height='14' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'>
+  <frame duration='1'>
+    <sprite image='gfx/castle/spider/spider.png' x='124' y='0' clip_width='55' clip_height='14' spritepos='leg end' auto_size='true' width='55' height='14' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+</animation>
+</mark>
+<mark label="middle leg left begin" apply_angle_to_animation="1" pause_animation_when_hidden="0">
+<animation loops='0' first_index='0' last_index='0' loop_back='false' auto_size='true' width='37' height='15' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'>
+  <frame duration='1'>
+    <sprite image='gfx/castle/spider/spider.png' x='86' y='0' clip_width='37' clip_height='15' spritepos='leg begin' auto_size='true' width='37' height='15' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+</animation>
+</mark>
+<mark label="middle leg left end" apply_angle_to_animation="1" pause_animation_when_hidden="0">
+<animation loops='0' first_index='0' last_index='0' loop_back='false' auto_size='true' width='55' height='14' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'>
+  <frame duration='1'>
+    <sprite image='gfx/castle/spider/spider.png' x='124' y='0' clip_width='55' clip_height='14' spritepos='leg end' auto_size='true' width='55' height='14' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+</animation>
+</mark>
+<mark label="back leg left begin" apply_angle_to_animation="1" pause_animation_when_hidden="0">
+<animation loops='0' first_index='0' last_index='0' loop_back='false' auto_size='true' width='37' height='15' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'>
+  <frame duration='1'>
+    <sprite image='gfx/castle/spider/spider.png' x='86' y='0' clip_width='37' clip_height='15' spritepos='leg begin' auto_size='true' width='37' height='15' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.7' green_intensity='0.7' blue_intensity='0.7'/>
+  </frame>
+</animation>
+</mark>
+<mark label="back leg left end" apply_angle_to_animation="1" pause_animation_when_hidden="0">
+<animation loops='0' first_index='0' last_index='0' loop_back='false' auto_size='true' width='55' height='14' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'>
+  <frame duration='1'>
+    <sprite image='gfx/castle/spider/spider.png' x='124' y='0' clip_width='55' clip_height='14' spritepos='leg end' auto_size='true' width='55' height='14' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.7' green_intensity='0.7' blue_intensity='0.7'/>
+  </frame>
+</animation>
+</mark>
+</marks>
+<snapshots>
+<snapshot date="0" function="start_dangle" width="120" height="40" x_alignment="align_left" y_alignment="align_bottom" x_alignment_value="0" y_alignment_value="0">
+<mark_placements>
+<mark_placement label="back leg left end" function="" x="3.97826" y="21.9621" width="0" height="0" z="-1" angle="-1.5" visible="1" x_easing="elastic:in_out" y_easing="elastic:in_out" width_easing="none:in" height_easing="none:in" angle_easing="elastic:in_out"/>
+<mark_placement label="back leg left begin" function="" x="17.6739" y="8.70121" width="0" height="0" z="-1" angle="0.75" visible="1" x_easing="elastic:in_out" y_easing="elastic:in_out" width_easing="none:in" height_easing="none:in" angle_easing="elastic:in_out"/>
+<mark_placement label="middle leg left end" function="" x="-3.30435" y="24.5708" width="0" height="0" z="4" angle="-1" visible="1" x_easing="elastic:in_out" y_easing="elastic:in_out" width_easing="none:in" height_easing="none:in" angle_easing="elastic:in_out"/>
+<mark_placement label="middle leg left begin" function="" x="22.8913" y="11.5273" width="0" height="0" z="4" angle="0.5" visible="1" x_easing="elastic:in_out" y_easing="elastic:in_out" width_easing="none:in" height_easing="none:in" angle_easing="elastic:in_out"/>
+<mark_placement label="front leg left end" function="" x="13.5435" y="22.1795" width="0" height="0" z="5" angle="-1.3" visible="1" x_easing="elastic:in_out" y_easing="elastic:in_out" width_easing="none:in" height_easing="none:in" angle_easing="elastic:in_out"/>
+<mark_placement label="front leg left begin" function="" x="28.9783" y="9.35338" width="0" height="0" z="5" angle="1.1" visible="1" x_easing="elastic:in_out" y_easing="elastic:in_out" width_easing="none:in" height_easing="none:in" angle_easing="elastic:in_out"/>
+<mark_placement label="back leg right end" function="" x="116.587" y="19.136" width="0" height="0" z="-1" angle="1.5" visible="1" x_easing="elastic:in_out" y_easing="elastic:in_out" width_easing="none:in" height_easing="none:in" angle_easing="elastic:in_out"/>
+<mark_placement label="back leg right begin" function="" x="102.022" y="9.57077" width="0" height="0" z="-1" angle="-0.75" visible="1" x_easing="elastic:in_out" y_easing="elastic:in_out" width_easing="none:in" height_easing="none:in" angle_easing="elastic:in_out"/>
+<mark_placement label="middle leg right end" function="" x="125.935" y="22.6143" width="0" height="0" z="4" angle="1" visible="1" x_easing="elastic:in_out" y_easing="elastic:in_out" width_easing="none:in" height_easing="none:in" angle_easing="elastic:in_out"/>
+<mark_placement label="middle leg right begin" function="" x="99.8478" y="13.9186" width="0" height="0" z="4" angle="-0.5" visible="1" x_easing="elastic:in_out" y_easing="elastic:in_out" width_easing="none:in" height_easing="none:in" angle_easing="elastic:in_out"/>
+<mark_placement label="front leg right end" function="" x="105.935" y="18.9186" width="0" height="0" z="5" angle="1.3" visible="1" x_easing="elastic:in_out" y_easing="elastic:in_out" width_easing="none:in" height_easing="none:in" angle_easing="elastic:in_out"/>
+<mark_placement label="front leg right begin" function="" x="92.6739" y="10.0056" width="0" height="0" z="5" angle="-1.1" visible="1" x_easing="elastic:in_out" y_easing="elastic:in_out" width_easing="none:in" height_easing="none:in" angle_easing="elastic:in_out"/>
+<mark_placement label="mouth" function="" x="63.5581" y="4.4186" width="0" height="0" z="0" angle="0" visible="1" x_easing="none:in" y_easing="none:in" width_easing="none:in" height_easing="none:in" angle_easing="none:in"/>
+<mark_placement label="body" function="" x="62.5581" y="22.4186" width="0" height="0" z="0" angle="0" visible="1" x_easing="none:in" y_easing="none:in" width_easing="none:in" height_easing="none:in" angle_easing="none:in"/>
+</mark_placements>
+</snapshot><snapshot date="4" function="go_up" width="120" height="40" x_alignment="align_left" y_alignment="align_bottom" x_alignment_value="0" y_alignment_value="0">
+<mark_placements>
+<mark_placement label="back leg left end" function="" x="-8.30435" y="21.4186" width="0" height="0" z="-1" angle="-1" visible="1" x_easing="linear:in_out" y_easing="linear:in_out" width_easing="none:in" height_easing="none:in" angle_easing="linear:in_out"/>
+<mark_placement label="back leg left begin" function="" x="17.6739" y="8.70121" width="0" height="0" z="-1" angle="0.5" visible="1" x_easing="linear:in_out" y_easing="linear:in_out" width_easing="none:in" height_easing="none:in" angle_easing="linear:in_out"/>
+<mark_placement label="middle leg left end" function="" x="-13.8043" y="18.6686" width="0" height="0" z="4" angle="-0.5" visible="1" x_easing="linear:in_out" y_easing="linear:in_out" width_easing="none:in" height_easing="none:in" angle_easing="linear:in_out"/>
+<mark_placement label="middle leg left begin" function="" x="22.8913" y="11.5273" width="0" height="0" z="4" angle="0.3" visible="1" x_easing="linear:in_out" y_easing="linear:in_out" width_easing="none:in" height_easing="none:in" angle_easing="linear:in_out"/>
+<mark_placement label="front leg left end" function="" x="2.44565" y="15.6686" width="0" height="0" z="5" angle="-0.8" visible="1" x_easing="linear:in_out" y_easing="linear:in_out" width_easing="none:in" height_easing="none:in" angle_easing="linear:in_out"/>
+<mark_placement label="front leg left begin" function="" x="28.9783" y="9.35338" width="0" height="0" z="5" angle="0.9" visible="1" x_easing="linear:in_out" y_easing="linear:in_out" width_easing="none:in" height_easing="none:in" angle_easing="linear:in_out"/>
+<mark_placement label="back leg right end" function="" x="115.446" y="18.1686" width="0" height="0" z="-1" angle="1" visible="1" x_easing="linear:in_out" y_easing="linear:in_out" width_easing="none:in" height_easing="none:in" angle_easing="linear:in_out"/>
+<mark_placement label="back leg right begin" function="" x="102.022" y="9.57077" width="0" height="0" z="-1" angle="-0.75" visible="1" x_easing="linear:in_out" y_easing="linear:in_out" width_easing="none:in" height_easing="none:in" angle_easing="linear:in_out"/>
+<mark_placement label="middle leg right end" function="" x="133.946" y="20.4186" width="0" height="0" z="4" angle="0.5" visible="1" x_easing="linear:in_out" y_easing="linear:in_out" width_easing="none:in" height_easing="none:in" angle_easing="linear:in_out"/>
+<mark_placement label="middle leg right begin" function="" x="99.8478" y="13.9186" width="0" height="0" z="4" angle="-0.3" visible="1" x_easing="linear:in_out" y_easing="linear:in_out" width_easing="none:in" height_easing="none:in" angle_easing="linear:in_out"/>
+<mark_placement label="front leg right end" function="" x="128.946" y="14.4186" width="0" height="0" z="5" angle="0.8" visible="1" x_easing="linear:in_out" y_easing="linear:in_out" width_easing="none:in" height_easing="none:in" angle_easing="linear:in_out"/>
+<mark_placement label="front leg right begin" function="" x="92.6739" y="10.0056" width="0" height="0" z="5" angle="-0.9" visible="1" x_easing="linear:in_out" y_easing="linear:in_out" width_easing="none:in" height_easing="none:in" angle_easing="linear:in_out"/>
+<mark_placement label="mouth" function="" x="63.5581" y="4.4186" width="0" height="0" z="0" angle="0" visible="1" x_easing="none:in" y_easing="none:in" width_easing="none:in" height_easing="none:in" angle_easing="none:in"/>
+<mark_placement label="body" function="" x="62.5581" y="22.4186" width="0" height="0" z="0" angle="0" visible="1" x_easing="none:in" y_easing="none:in" width_easing="none:in" height_easing="none:in" angle_easing="none:in"/>
+</mark_placements>
+</snapshot></snapshots>
+</action>
+</model>
+

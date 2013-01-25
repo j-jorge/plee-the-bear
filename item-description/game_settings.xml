@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<item xmlns="http://www.gamned.org/bear/schema/0.5" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gamned.org/bear/schema/0.5 http://www.gamned.org/bear/schema/0.5/item-description.xsd" class="ptb::game_settings" category="settings" fixable="false" box_color="#4637A1" url="http://www.gamned.org/wiki/index.php/game_settings">
+  <inherit>
+    <class>bear::base_item</class>
+  </inherit>
+  <description>An item to set parameters of game.</description>
+  <fields>
+    <field type="u_integer" name="game_settings.corrupting_bonus_count">
+      <description>The number of corrupting bonus.</description>
+      <default_value>unmodified</default_value>
+    </field>
+  </fields>
+</item>

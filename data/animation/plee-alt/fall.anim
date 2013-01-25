@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation loops='1' first_index='0' last_index='2' loop_back='true' auto_size='true' width='66' height='114' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'>
+  <frame duration='0.3'>
+    <sprite image='gfx/plee/plee-alt-3.png' x='426' y='125' clip_width='66' clip_height='114' spritepos='falling 1' auto_size='true' width='66' height='114' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.12'>
+    <sprite image='gfx/plee/plee-alt-3.png' x='0' y='239' clip_width='66' clip_height='114' spritepos='falling 2' auto_size='true' width='66' height='114' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.12'>
+    <sprite image='gfx/plee/plee-alt-3.png' x='66' y='239' clip_width='66' clip_height='114' spritepos='falling 3' auto_size='true' width='66' height='114' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+</animation>

@@ -1,0 +1,68 @@
+# File describing each mini-game
+#
+# Format :
+# 
+#	[mini-game identifier]
+#	field1 = value1
+#	field2 = value2
+#	...
+# 
+# Required fields are:
+#	level_file: the filename of the mini-game (.cl extension)
+#	locked_informations: informations displayed when the mini-game is locked
+#	unlocked_informations: informations displayed when the
+#               mini-game is unlocked
+#	playability: indicates the number of required players
+#		= one_or_two_players : one or two players
+#		= one_player_only : one player
+#		= two_players_only : two players
+#	score_format: a string describing how the score is displayed in the
+#		minigame frame, where:
+#			- %p is replaced by the name of the player,
+#			- %v is replaced by the score,
+#			- %t is replaced by the score interpreted as a time in
+#                         seconds.
+#	score_ordering: how the best score is interpreted: max or min,
+#		respectively for the maximisation of the score or the
+#		minimisation.
+#	unlocked: tell if the mini game is unlocked by default (true or false).
+#		Default value is false.
+#	
+#
+
+
+#-------------------------------------------------
+[Bears on Fire]
+level_file = level/mini-game/bears_on_fire.cl
+locked_informations = In the First Act of the forest, fall from a high distance near a waterfall to find the owl. Then, do well to unlock this mini-game.
+unlocked_informations = Play along with the game's soundtrack by pressing the right buttons! A gold medal is rewarded for a perfect score.
+playability = one_or_two_players
+score_format = %p got %v%% of the notes.
+score_ordering = max
+
+#-------------------------------------------------
+[The Waterfall]
+level_file = level/mini-game/the_waterfall.cl
+locked_informations = Reach the top of the waterfall in the second act of the forest.
+unlocked_informations = Get to the top before time runs out!
+playability = one_player_only
+score_format = %p reached the top in %t.
+score_ordering = min
+
+#-------------------------------------------------
+[Target Practice]
+level_file = level/mini-game/target_practice.cl
+locked_informations = Do the tutorial and take stones.
+unlocked_informations = Throw stones on targets.
+playability = one_player_only
+score_format = %p hit %v targets.
+score_ordering = max
+
+#-------------------------------------------------
+[The Arena]
+level_file = level/mini-game/the_arena.cl
+unlocked_informations = Be the last one alive.
+playability = two_players_only
+unlocked = true
+
+

@@ -1,0 +1,14 @@
+# The format of the lines is
+# picture: x y width height
+
+rope off: 0 0 142 128
+rope left: 142 0 142 128
+rope right: 284 0 142 128
+rope green: 0 128 142 128
+
+brown off: 142 128 142 128
+brown left: 284 128 142 128
+brown right: 0 256 142 128
+brown green: 142 256 142 128
+
+hook off: 284 256 142 128

@@ -1,0 +1,8 @@
+# The format of the lines is
+# picture: x y width height
+
+arrow 1: 0 0 46 27
+arrow 2: 0 27 46 27
+plee: 46 0 16 30
+shiny jar: 46 30 16 16
+fast forward: 63 0 64 48

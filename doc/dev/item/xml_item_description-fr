@@ -1,0 +1,207 @@
+== Description d'item ==
+
+Un item est décrit entre les balises <item></item> qui contiennent,
+dans l'entête, la classe de l'item et sa catégorie.
+
+La classe de l'item est le nom de la classe dans le code source, la
+catégorie est juste pour la convenance dans l'éditeur de niveaux. Des
+exemples de catégorie : "structural", "entity" et "tool". La première
+est pour les murs et tout ce qui décrit la structure du monde ; la
+deuxième est pour les objets "vivants" (bonus, ennemis, etc.) et la
+troisième est pour les objets spéciaux comme "lancer un niveau",
+"désactiver le mode pause" et d'autres.
+
+Par exemple, si nous voulons décrire l'ennemi "guêpe", nous
+commencerions par quelquechose comme ça :
+
+ <item class="wasp" category="entity/enemy" box_color="#FF00FF">
+   ...
+ </item>
+
+L'attribut "box_color" est optionel et est juste la couleur de la
+boîte qui représente l'item dans l'éditeur.
+
+Quand un item hérite de "messageable_item", il a besoin d'un
+nom. Cette information est donnée en plaçant la balise suivante dans
+le corps de la description :
+
+ <need_a_name/>
+
+Une autre information à propos de l'item est s'il est à une position
+fixe (comme un mur) ou s'il peut se déplacer dans le niveau. Si sa
+position est constante, la balise suivante doit être ajoutée à la
+description :
+
+ <fixed/>
+
+Souvenez-vous que l'attribut "fixed" est hérité. Si un item est fixe,
+tous ses items fils seront fixes aussi.
+
+Par exemple, la description d'un item fixe avec un nom devrait
+ressembler à
+
+ <item class="foo" category="entity/item" box_color="#FF24FF">
+  <fixed/>
+  <need_a_name/>
+ </item>
+
+et le code généré sera
+
+ create [fixed] foo["user_given_name"]
+ {
+  ...
+ };
+
+Une autre information est le type du calque dans lequel l'item peut
+être. Cette information est donnée par la balise <layer>. Par
+exemple :
+
+ <layer type="action_layer"/>
+
+où "type" est un des types de calques définis dans la documentation du
+compilateur de niveaux. Remarquez que l'attribut "fixed" est, pour
+l'instant, uniquement valide dans le calque d'activité.
+
+Une fois que l'on a informé le lecteur à propos est propriétés
+globales de l'item, nous devons énumérer les champs pouvant être
+configurés par l'utilisateur. C'est le rôle de la section
+<fields>. Cette section contient une liste de sections <field> et
+ressemble à
+
+ <fields>
+  <field type="some_type" name="some_name">
+   ...
+  </field>
+  <field  type="some_type" name="some_name">
+   ...
+  </field>
+ <fields>
+
+L'attribut "type" défini le type du champ. Les valeurs valides sont
+celles définies dans la documentation du compilateur de
+niveaux. L'attribut "name" défini le nom du champ. Si le champ
+doit obligatoirement être rempli, la balise <required/> doit être
+ajoutée au copr de la section.
+
+Certains champs ne peuvent prendre leur valeur que parmi des valeurs
+prédéfinies. Ces valeurs peuvent être définies avec au plus une des
+sections <range> et <set>.
+
+La section <range> donne l'intervalle des valeurs [from, to] valide
+pour le champ. Par exemple :
+
+    <range>
+      <from value="0"/>
+      <to value="1000"/>
+    </range>
+
+Alors que <set> énumère les valeurs valides pour le champ. Par
+exemple :
+
+    <set>
+      <item value="top-left"/>
+      <item value="top"/>
+      <item value="top-right"/>
+    </set>
+
+Certains champs doivent être définis dans un certain ordre. Pour
+exprimer qu'un champ doit être défini avant un autre, nous utilisons
+la balise <before> dans le corps de la section <field> :
+
+    <before field=""/>
+
+Notez que le parser doit alors vérifier que la valeur de "field" est
+un champ et que ça complique la possibilité d'utiliser le même nom
+pour deux champs de types différents.
+
+Certains items necessitent la présence de ressources graphiques ou
+sonores. Ce besoin peut être déclaré dans la section <require>, dans
+le corps de la section <item>, en utilisant les balises <sound> ou
+<gfx> pour exprimer le besoin respectif d'un son ou d'une image.
+
+ <require>
+  <sound name="needed_sound" path="its_path"/>
+  <gfx name="needed_picture" path="its_path"/>
+ </require>
+
+== Héritage ==
+
+Certains items ont des champs en commun (comme la position). Ça
+pourrait être confortable pour l'utilisateur d'avoir la possibilité
+d'utiliser un système d'héritage, pour pouvoir définir les champs
+commun une seule fois. L'héritage pourrait être fait dans l'entête de
+la section, comme
+
+ <item inherit="parent_item" ...>
+
+ou avec une balise spécifique
+
+ <inherit class="parent_item"/>
+
+La deuxième méthode autorise l'héritage multiple, qui est peut-être un
+concept un peu dur à implémenter et peut-être pas très utile. La
+première méthode serait donc probablement mieux.
+
+La classe fille hérite de tout le corps de son parent. L'attribut
+"fixed", si présent dans le parent, ne peut pas être redéfini. Nous
+aurons probablement besoin d'un moyen pour désactiver la balise
+<need_a_name/>, pour les items qui génèrent leur nom à l'exécution. Ça
+pourrait être la balise <no_need_for_a_name/>. Tous les champs de la
+classe mère peuvent être redéfinis ; toutes les ressources nécessaires
+et les types de calques sont conservés.
+
+Certains items ne seront alors décrits que pour pouvoir être hérités
+(comme base_item). Ils ne seront pas ajoutables dans le niveau et, par
+conséquent, ne devraient pas apparaître dans les menus de l'éditeur de
+niveaux. Ces classes auront la catégorie "-abstract-" (avec les tirets).
+
+== Exemple complet ==
+
+Nous allons maintenant décrire une ampoule que le joueur pourra
+allumer en utilisant un interrupteur. L'activation se fait depuis un
+objet distant ; nous donnerons un nom à l'ampoule pour qu'elle puisse
+recevoir des messages. Sa position est constante. L'item a besoin d'un
+son à jouer quand il est activé et d'une image de halo
+lumineux. L'ampoule a besoin d'un sprite, une couleur et une intensité
+(pour la lumière). La couleur doit être définie avant l'intensité.
+
+Tout d'abord, nous avons besoin de la définition des classes mères.
+
+ <item class="base_item" category="-abstract-">
+  <fields>
+   <field type="u_integer" name="pos_x"/>
+   <field type="u_integer" name="pos_y"/>
+  </fields>
+ </item>
+
+Nous décrivons ensuite la classe "light_bulb" de notre item.
+
+ <item class="light_bulb" category="decoration/light"
+       box_color="#00FFFF" inherit="base_item">
+  <need_a_name/>
+  <fixed/>
+  <fields>
+   <field type="sprite" name="sprite">
+    </required>
+   </field>
+   <field type="real" name="intensity>
+    <range>
+     <from value="0"/>
+     <to value="1"/>
+    </range>
+   </field>
+   <field type="string" name="color">
+    <set>
+     <item value="red"/>
+     <item value="green"/>
+     <item value="yellow"/>
+     <item value="blue"/>
+    </set>
+    <before field="intensity"/>
+   </field>
+  </fields>
+  <require>
+   <sound name="click" path="sound/click.ogg"/>
+   <gfx name="halo" path="gfx/halo.tga"/>
+  <require>
+ </item>

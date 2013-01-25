@@ -1,0 +1,14 @@
+# The format of the lines is
+# picture: x y width height
+
+walking 1:   0 0 102 116
+walking 2: 102 0 102 116
+walking 3: 204 0 102 116
+walking 4: 306 0 102 116
+walking 5: 408 0 102 116
+
+running 1:   0 116 102 120
+running 2: 102 116 102 120
+running 3: 204 116 102 120
+running 4: 306 116 102 120
+running 5: 408 116 102 120

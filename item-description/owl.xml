@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<item xmlns="http://www.gamned.org/bear/schema/0.5" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gamned.org/bear/schema/0.5 http://www.gamned.org/bear/schema/0.5/item-description.xsd" class="ptb::owl" category="scenario/characters" box_color="#555518" url="http://www.gamned.org/wiki/index.php/owl">
+  <inherit>
+    <class>bear::base_item</class>
+    <class>bear::model</class>
+    <class>ptb::activate_on_players</class>
+  </inherit>
+  <description>The owl opens a secret level if the player has found the hazelnut.</description>
+  <fields>
+    <field type="string" name="owl.level" required="true">
+      <description>The name of the level to push.</description>
+    </field>
+    <field type="string" name="owl.speech.want_an_hazelnut" list="true">
+      <description>A sentence to explain that the owl wants its lucky hazelnut.
+      </description>
+      <default_value>I want my lucky hazelnut back.</default_value>
+    </field>
+    <field type="string" name="owl.speech.happy" list="true">
+      <description>A sentence to show that the owl is happy to see that the
+                   player found his hazelnut.</description>
+      <default_value>So you found my lucky hazelnut!</default_value>
+    </field>
+    <field type="string" name="owl.speech.other_player" list="true">
+      <description>A sentence to explain that the other player must be here too.
+      </description>
+      <default_value>Did you lose your friend?</default_value>
+    </field>
+    <field type="string" name="owl.speech.already_have" list="true">
+      <description>A sentence to say that the owl already has his hazelnut.
+      </description>
+      <default_value>You already gave me my lucky hazelnut. Stop bothering me!</default_value>
+    </field>
+    <field type="string" name="owl.speech.bye" list="true">
+      <description>The last sentence, said before pushing the level.
+      </description>
+      <default_value>See you in another world.</default_value>
+    </field>
+    <field type="string" name="owl.speech.receive_hazelnut" list="true">
+      <description>The sentence said when receiving the hazelnut.
+      </description>
+      <default_value>I've been looking all over for it!</default_value>
+    </field>
+  </fields>
+  <new_default_value name="base_item.phantom">true</new_default_value>
+</item>

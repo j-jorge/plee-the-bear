@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<item xmlns="http://www.gamned.org/bear/schema/0.5" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gamned.org/bear/schema/0.5 http://www.gamned.org/bear/schema/0.5/item-description.xsd" class="ptb::bonus_points" category="bonus_points" fixable="false" url="http://www.gamned.org/wiki/index.php/bonus_points">
+  <inherit>
+    <class>bear::base_item</class>
+    <class>bear::with_boolean_expression_assignment</class>
+    <class>bear::with_linear_expression_assignment</class>
+  </inherit>
+  <fields>
+    <field type="u_integer" name="bonus_points.points">
+      <description>The number of points to give.</description>
+      <default_value>0</default_value>
+    </field>
+    <field type="string" name="bonus_points.name">
+      <description>The name of the bonus as displayed to the
+	player.</description>
+      <default_value>(none)</default_value>
+    </field>
+    <field type="string" name="bonus_points.picture_filename">
+      <description>The filename of the bonus picture.</description>
+      <default_value>(none)</default_value>
+    </field>
+    <field type="string" name="bonus_points.picture_name">
+      <description>The name of the bonus picture.</description>
+      <default_value>(none)</default_value>
+    </field>
+  </fields>
+</item>

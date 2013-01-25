@@ -1,0 +1,143 @@
+#!/bin/sh
+
+DEV_PATH="$(echo $0 | sed 's:/release/make-source::')"
+
+#-------------------------------------------------------------------------------
+# Keep only the sources and the resources in a folder
+# $1 The folder to clean
+clean_folder()
+{
+  local FOLDER="$1"
+  echo "---- Cleaning '$FOLDER'..."
+
+  rm -fr "$FOLDER/DEBIAN"
+  rm -fr "$FOLDER/bin"
+  rm -f  "$FOLDER"/game/stats.dat
+  rm -f  "$FOLDER"/release/game_description
+  rm -f  "$FOLDER"/release/plee-the-bear
+
+  for f in CMakeFiles CMakeCache.txt CMakeTmp "*.cmake" install_manifest.txt \
+      Makefile progress.make ".svn" "*.log" "*.o" "*.a" "*.so" "*.os" "#*#"
+    do
+    rm -fr $(find "$FOLDER" -name "$f")
+  done
+
+  rm $(find "$FOLDER" -name "*~")
+} # clean_folder
+
+#-------------------------------------------------------------------------------
+# Remove all files not needed for a "make && make install" procedure
+# $1 The folder to clean
+minimal_plee()
+{
+  local FOLDER="$1"
+  echo "---- Cleaning '$FOLDER' for compilation..."
+
+  rm -f $(find "$FOLDER" -name "*.xcf*")
+  rm -f $(find "$FOLDER" -name "*.spritepos")
+  rm -f $(find "$FOLDER" -name "*.scm")
+  rm -f $(find "$FOLDER" -name "*.rg")
+  rm -f $(find "$FOLDER" -name "*.mid")
+  rm -f $(find "$FOLDER" -name "*.lvl")
+  rm -f $(find "$FOLDER" -name "*.mdl")
+  rm -f $(find "$FOLDER" -name "*!*")
+
+  rm -fr "$FOLDER/dev/image-cutter"
+  rm -fr "$FOLDER/dev/level-editor"
+  rm -fr "$FOLDER/dev/model-compiler"
+  rm -fr "$FOLDER/dev/texture-tools"
+
+  sed -i 's/image-cutter//;s/level-editor//;s/model-compiler//;s/texture-tools//' \
+      "$FOLDER/dev/CMakeLists.txt"
+  sed -i 's/^CUSTOM_COMPILE_RULE.\+//' "$FOLDER/data/CMakeLists.txt"
+
+  (
+      echo "This is a source code archive with the minimum required files for"
+      echo "compiling Plee the Bear and play. This archive does not contain"
+      echo "the source files of the pictures, sounds, levels, etc., nor the"
+      echo "source code of the developper's tools (level editor, model "
+      echo "compiler, etc.)"
+      echo 
+      echo "See http://plee-the-bear.sourceforge.net/ to get a full archive."
+  ) > "$FOLDER/README"
+} # minimal_plee()
+
+#-------------------------------------------------------------------------------
+# main procedure
+# ask for the source directory
+TMP=
+echo -n "Path to the source code [$DEV_PATH]: "
+read TMP
+
+if [ "$TMP" != "" ]
+then
+  DEV_PATH="$TMP"
+  TMP=""
+fi
+
+# find the file containing the version number
+read VERSION_FILE <<EOF
+  $(find "$DEV_PATH" -name "version.hpp")
+EOF
+
+if [ "$VERSION_FILE" != "" ]
+then
+    read VERSION <<EOF
+    $(grep "#define BEAR_MAJOR_VERSION" "$VERSION_FILE" -A 2 \
+        | cut -d' ' -f3 \
+        | tr '\n' '.' \
+        | sed 's/.$/\n/')
+EOF
+fi
+
+# ask for the version number
+TMP=
+echo -n "Version [$VERSION]: "
+read TMP
+
+if [ "$TMP" != "" ]
+then
+  VERSION="$TMP"
+  TMP=""
+fi
+
+# create the archives
+FOLDER_NAME="plee-the-bear-$VERSION"
+
+if [ ! -f "$FOLDER_NAME.tar.bz2" ] || [ ! -f "$FOLDER_NAME-light.tar.bz2" ]
+then
+
+  if [ -e "$FOLDER_NAME" ]
+  then
+    rm -fr "$FOLDER_NAME"
+  fi
+
+  # copy the content of the program in a local directory
+  echo "---- Copying the code."
+  mkdirhier "$FOLDER_NAME"
+  cp "$DEV_PATH"/* "$FOLDER_NAME" -r
+
+  sed -i \
+   's/BEAR_VERSION_STRING.\+$/BEAR_VERSION_STRING "Bear Engine '"$VERSION"'"/' \
+   "$FOLDER_NAME/dev/bear_engine/src/core/engine/version.hpp"
+
+  clean_folder "$FOLDER_NAME"
+
+  if [ ! -f "$FOLDER_NAME.tar.bz2" ]
+  then
+    # build the archive
+    echo "---- Building the archive."
+    tar cfj "$FOLDER_NAME.tar.bz2" "$FOLDER_NAME"
+  fi
+
+  if [ ! -f "$FOLDER_NAME-light.tar.bz2" ]
+  then
+    # build the archive
+    echo "---- Building the archive (light)."
+    minimal_plee "$FOLDER_NAME"
+    tar cfj "$FOLDER_NAME-light.tar.bz2" "$FOLDER_NAME"
+  fi
+
+  echo "---- Deleting the copy of the code."
+  rm -fr "$FOLDER_NAME"
+fi

@@ -1,0 +1,35 @@
+# The format of the lines is
+# picture: x y width height
+
+idle: 0 0 28 87
+
+walking 1:  28 0 55 87
+walking 2:  83 0 55 87
+walking 3: 138 0 55 87
+walking 4: 193 0 55 87
+walking 5: 248 0 55 87
+walking 6: 303 0 55 87
+walking 7: 358 0 55 87
+walking 8: 413 0 55 87
+
+look upward: 468 0 27 91
+
+walking crying 1:   0 87 41 90
+walking crying 2:  41 87 41 90
+walking crying 3:  82 87 41 90
+walking crying 4: 123 87 41 90
+
+crying 1: 164 87 27 90
+crying 2: 191 87 27 90
+crying 3: 218 87 27 90
+crying 4: 245 87 27 90
+
+jumping 1: 272 87 39 95
+jumping 2: 311 87 39 95
+jumping 3: 350 87 39 95
+
+falling 1: 389 87 40 86
+falling 2: 429 91 40 86
+falling 3: 469 91 40 86
+
+injured: 0 177 43 81

@@ -1,0 +1,14 @@
+# The format of the lines is
+# picture: x y width height
+
+frog: 0 0 48 48
+woodpecker: 48 0 48 48
+gorilla: 96 0 48 48
+wasp: 144 0 48 48
+rabbit: 192 0 48 48
+
+waterfall: 0 48 48 48
+bears on fire: 48 48 48 48
+
+boss: 96 48 48 48
+

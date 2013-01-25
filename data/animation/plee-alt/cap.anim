@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation loops='0' first_index='0' last_index='5' loop_back='false' auto_size='true' width='34' height='16' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'>
+  <frame duration='0.2'>
+    <sprite image='gfx/plee/cap-alt.png' x='0' y='0' clip_width='34' clip_height='16' spritepos='cap 0' auto_size='true' width='34' height='16' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.2'>
+    <sprite image='gfx/plee/cap-alt.png' x='34' y='0' clip_width='34' clip_height='16' spritepos='cap 1' auto_size='true' width='34' height='16' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.2'>
+    <sprite image='gfx/plee/cap-alt.png' x='68' y='0' clip_width='34' clip_height='16' spritepos='cap 2' auto_size='true' width='34' height='16' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.2'>
+    <sprite image='gfx/plee/cap-alt.png' x='0' y='16' clip_width='34' clip_height='16' spritepos='cap 3' auto_size='true' width='34' height='16' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.2'>
+    <sprite image='gfx/plee/cap-alt.png' x='34' y='16' clip_width='34' clip_height='16' spritepos='cap 4' auto_size='true' width='34' height='16' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.2'>
+    <sprite image='gfx/plee/cap-alt.png' x='68' y='16' clip_width='34' clip_height='16' spritepos='cap 5' auto_size='true' width='34' height='16' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+</animation>

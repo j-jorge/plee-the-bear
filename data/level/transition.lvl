@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<level name='' width='800' height='600' music=''>
+  <layer class_name='action_layer' name='' width='800' height='600' fit_level='1'>
+
+<items>
+    <item class_name='bear::camera' fixed='false' id='camera'>
+<fields>
+<field name='base_item.size.height'>
+<real value='600'/>
+</field>
+<field name='base_item.size.width'>
+<real value='800'/>
+</field>
+</fields>
+    </item><!-- bear::camera -->
+
+    <item class_name='bear::block' fixed='true'>
+<fields>
+<field name='item_with_friction.top_friction'>
+<real value='0.95'/>
+</field>
+<field name='item_with_decoration.sprite'>
+<sprite image='gfx/transition/ground.png' x='0' y='0' clip_width='256' clip_height='128' spritepos='' auto_size='true' width='256' height='128' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+</field>
+<field name='base_item.position.bottom'>
+<real value='40'/>
+</field>
+<field name='base_item.size.height'>
+<real value='128'/>
+</field>
+<field name='base_item.size.width'>
+<real value='256'/>
+</field>
+<field name='item_with_activable_sides.top_side_is_active'>
+<bool value='1'/>
+</field>
+</fields>
+    </item><!-- bear::block -->
+
+    <item class_name='bear::delayed_level_loading' fixed='true'>
+<fields>
+<field name='base_item.position.bottom'>
+<real value='192'/>
+</field>
+<field name='base_item.position.left'>
+<real value='66'/>
+</field>
+<field name='delayed_level_loading.delay'>
+<real value='10'/>
+</field>
+<field name='delayed_level_loading.level'>
+<string value='level/quick-end.cl'/>
+</field>
+<field name='delayed_level_loading.transition_layer_name'>
+<string value='transition_effect_layer'/>
+</field>
+</fields>
+    </item><!-- bear::delayed_level_loading -->
+
+    <item class_name='ptb::add_ingame_layers' fixed='false'>
+<fields>
+<field name='base_item.position.bottom'>
+<real value='458'/>
+</field>
+<field name='base_item.position.left'>
+<real value='81'/>
+</field>
+<field name='add_ingame_layers.show_introduction'>
+<bool value='0'/>
+</field>
+</fields>
+    </item><!-- ptb::add_ingame_layers -->
+
+    <item class_name='bear::decorative_item' fixed='false' id='player-2'>
+<fields>
+<field name='base_item.position.bottom'>
+<real value='168'/>
+</field>
+<field name='base_item.position.left'>
+<real value='145'/>
+</field>
+<field name='basic_renderable_item.color'>
+<color opacity='1' red_intensity='1' green_intensity='1' blue_intensity='0.7'/>
+</field>
+<field name='item_with_decoration.animation'>
+<animation_file path='animation/plee/idle.canim' auto_size='true' width='64' height='112' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+</field>
+</fields>
+    </item><!-- bear::decorative_item -->
+
+    <item class_name='bear::decorative_item' fixed='false' id='player-2-cap'>
+<fields>
+<field name='base_item.position.bottom'>
+<real value='271'/>
+</field>
+<field name='base_item.position.depth'>
+<integer value='10'/>
+</field>
+<field name='base_item.position.left'>
+<real value='159'/>
+</field>
+<field name='basic_renderable_item.angle'>
+<real value='0.1'/>
+</field>
+<field name='item_with_decoration.animation'>
+<animation_file path='animation/plee/cap.canim' auto_size='true' width='34' height='16' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+</field>
+</fields>
+    </item><!-- bear::decorative_item -->
+
+    <item class_name='ptb::two_players_only' fixed='false'>
+<fields>
+<field name='base_item.position.bottom'>
+<real value='334'/>
+</field>
+<field name='base_item.position.left'>
+<real value='238'/>
+</field>
+<field name='two_players_only.items_killed_with_one_player'>
+<item_reference value='player-2'/>
+<item_reference value='player-2-cap'/>
+</field>
+</fields>
+    </item><!-- ptb::two_players_only -->
+
+    <item class_name='bear::camera_toggle' fixed='true'>
+<fields>
+<field name='base_item.position.bottom'>
+<real value='117'/>
+</field>
+<field name='base_item.position.left'>
+<real value='252'/>
+</field>
+<field name='item_with_toggle.initial_state'>
+<bool value='1'/>
+</field>
+<field name='camera_toggle.camera'>
+<item_reference value='camera'/>
+</field>
+</fields>
+    </item><!-- bear::camera_toggle -->
+
+    <item class_name='bear::block' fixed='true'>
+<fields>
+<field name='item_with_friction.top_friction'>
+<real value='0.95'/>
+</field>
+<field name='item_with_decoration.sprite'>
+<sprite image='gfx/transition/ground.png' x='0' y='0' clip_width='256' clip_height='128' spritepos='' auto_size='true' width='256' height='128' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+</field>
+<field name='base_item.position.bottom'>
+<real value='40'/>
+</field>
+<field name='base_item.position.left'>
+<real value='256'/>
+</field>
+<field name='base_item.size.height'>
+<real value='128'/>
+</field>
+<field name='base_item.size.width'>
+<real value='256'/>
+</field>
+<field name='item_with_activable_sides.top_side_is_active'>
+<bool value='1'/>
+</field>
+</fields>
+    </item><!-- bear::block -->
+
+    <item class_name='bear::decorative_item' fixed='true'>
+<fields>
+<field name='base_item.position.bottom'>
+<real value='168'/>
+</field>
+<field name='base_item.position.left'>
+<real value='267'/>
+</field>
+<field name='item_with_decoration.animation'>
+<animation_file path='animation/plee/idle.canim' auto_size='true' width='64' height='112' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+</field>
+</fields>
+    </item><!-- bear::decorative_item -->
+
+    <item class_name='bear::decorative_item' fixed='true'>
+<fields>
+<field name='base_item.position.bottom'>
+<real value='271'/>
+</field>
+<field name='base_item.position.depth'>
+<integer value='10'/>
+</field>
+<field name='base_item.position.left'>
+<real value='281'/>
+</field>
+<field name='basic_renderable_item.angle'>
+<real value='0.1'/>
+</field>
+<field name='item_with_decoration.animation'>
+<animation_file path='animation/plee/cap.canim' auto_size='true' width='34' height='16' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+</field>
+</fields>
+    </item><!-- bear::decorative_item -->
+
+    <item class_name='ptb::gossipy_item' fixed='true'>
+<fields>
+<field name='item_that_speaks.speeches'>
+<string value='?'/>
+<string value='What?'/>
+<string value='Get lost.'/>
+</field>
+<field name='base_item.position.bottom'>
+<real value='278'/>
+</field>
+<field name='base_item.position.left'>
+<real value='326'/>
+</field>
+</fields>
+    </item><!-- ptb::gossipy_item -->
+
+    <item class_name='bear::decorative_item' fixed='true'>
+<fields>
+<field name='base_item.position.bottom'>
+<real value='168'/>
+</field>
+<field name='base_item.position.left'>
+<real value='452'/>
+</field>
+<field name='basic_renderable_item.mirror'>
+<bool value='1'/>
+</field>
+<field name='item_with_decoration.animation'>
+<animation_file path='animation/god/human-talking.canim' auto_size='true' width='128' height='170' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+</field>
+</fields>
+    </item><!-- bear::decorative_item -->
+
+    <item class_name='bear::block' fixed='true'>
+<fields>
+<field name='item_with_friction.top_friction'>
+<real value='0.95'/>
+</field>
+<field name='item_with_decoration.sprite'>
+<sprite image='gfx/transition/ground.png' x='0' y='0' clip_width='256' clip_height='128' spritepos='' auto_size='true' width='256' height='128' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+</field>
+<field name='base_item.position.bottom'>
+<real value='40'/>
+</field>
+<field name='base_item.position.left'>
+<real value='512'/>
+</field>
+<field name='base_item.size.height'>
+<real value='128'/>
+</field>
+<field name='base_item.size.width'>
+<real value='256'/>
+</field>
+<field name='item_with_activable_sides.top_side_is_active'>
+<bool value='1'/>
+</field>
+</fields>
+    </item><!-- bear::block -->
+
+    <item class_name='ptb::gossipy_item' fixed='true'>
+<fields>
+<field name='item_that_speaks.speeches'>
+<string value='There you are!'/>
+<string value='You&apos;re gonna feel my power! Gniark! Gniark! Gniark!'/>
+<string value='You&apos;ll have to wait until the next installment.'/>
+</field>
+<field name='base_item.position.bottom'>
+<real value='316'/>
+</field>
+<field name='base_item.position.left'>
+<real value='549'/>
+</field>
+</fields>
+    </item><!-- ptb::gossipy_item -->
+
+    <item class_name='bear::block' fixed='true'>
+<fields>
+<field name='item_with_friction.top_friction'>
+<real value='0.95'/>
+</field>
+<field name='item_with_decoration.sprite'>
+<sprite image='gfx/transition/ground.png' x='0' y='0' clip_width='256' clip_height='128' spritepos='' auto_size='true' width='256' height='128' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+</field>
+<field name='base_item.position.bottom'>
+<real value='40'/>
+</field>
+<field name='base_item.position.left'>
+<real value='768'/>
+</field>
+<field name='base_item.size.height'>
+<real value='128'/>
+</field>
+<field name='base_item.size.width'>
+<real value='256'/>
+</field>
+<field name='item_with_activable_sides.top_side_is_active'>
+<bool value='1'/>
+</field>
+</fields>
+    </item><!-- bear::block -->
+
+</items>
+
+<priority>
+</priority>
+
+  </layer><!-- action_layer -->
+
+</level>

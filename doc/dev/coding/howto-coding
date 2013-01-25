@@ -1,0 +1,15 @@
+How to format the code?
+
+Source files try to follow some basic rules. The default indentation
+of XEmacs is nice and, please, break the brackets. Please use spaces
+instead of tabs and do not write lines longer than 80 symbols. Try to
+make as small as possible functions.
+
+See the files [ch]pp-file-format to see how files should be organized.
+
+Should I say it? Comment your code; add a doxygen compatible
+comment for classes, members, methods and files.
+
+Any external documentation describing a particular concept is welcome.
+
+Julien.

@@ -1,0 +1,75 @@
+%_______________________________________________________________________________
+\section{Entrées, clavier et joystick}
+
+\index{entrees@entrées|see{input}}
+
+\subsection{L'espace de noms input \index{input!espace de noms} }
+Tout ce qui se rapporte aux entrées est dans l'espace de noms \texttt{input}.
+L'environnement doit être initialisé en écrivant :
+\begin{verbatim}
+    input::system::initialize();
+\end{verbatim}
+puis fermé en écrivant :
+\begin{verbatim}
+    input::system::release();
+\end{verbatim}
+
+\subsubsection{Le système d'entrées \index{input!systeme@système} }
+Le système permettant de gérer le clavier et les joysticks est implanté par la
+classe \verb|input::system|. Il propose une méthode pour créer un nouveau
+contrôleur (clavier ou joystick) et une pour détruire un contrôleur quelconque.
+Vous devez utiliser la même instance de \verb|input::system| pour créer et
+détruire une instance d'un contrôleur. les contrôleurs associés à une instance
+de \verb|input::system| deviennent invalides si l'instance est détruite.
+
+La méthode \texttt{refresh()} met à jour l'état de tous les contrôleurs,
+\textbf{quelle que soit l'instance} de
+\verb|input::system| ayant servi à le créer. Cependant, vous devrier considérer
+que ce n'est pas le cas et appeler \texttt{refresh()} sur toutes les instances
+de \verb|input::system|.
+
+Cette contrainte est dûe à SDL \emph{(Simple Directmedia Layer)}. SDL
+gère les entrées sous la forme d'événements et il n'est pas possible de ne 
+récupérer que les événements d'un contrôleur en particulier.
+
+\subsubsection{Le clavier \index{input!clavier} }
+Le clavier est représenté par la classe \verb|input::keyboard|. Il n'y a aucun
+moyen de choisir quel est le clavier à associer à l'instance, tant pis pour ceux
+qui ont plusieurs claviers branchés à leur PC.
+
+Les touches sont identifiées de manière unique par une valeur de type
+\verb|input::keyboard::key_code|. La classe propose le couple de méthodes
+\texttt{begin()}/\texttt{end()} permettant d'itérer sur les touches pressées et
+une méthode \texttt{empty()} indiquant s'il n'y a pas de touches pressées.
+
+La classe propose quatre méthodes pour manipuler les codes de touches. La
+méthode \texttt{is\_symbol()} indique si un code correspond à un caractère
+imprimable ; \texttt{code\_to\_char()} convertit un de ces caractères imprimable
+en \texttt{char}. Les méthodes \texttt{get\_name\_of()} et
+\texttt{set\_name\_of()} permettent respectivement d'obtenir et de définir le
+nom associé à un code de touche.
+
+\paragraph{Note :}la méthode \texttt{refresh()} ne doit être utilisée que par
+la classe \verb|input::system|.
+
+\subsubsection{Le joystick \index{input!joystick} \index{input!manette}}
+Les joysticks et manettes sont représentés par la classe \verb|input::joystick|.
+Le constructeur prend en paramètre l'identifiant du contrôleur associé. Un
+identifiant est une valeur positive strictement inférieure au nombre de 
+joysticks branchés. La méthode statique
+\verb|input::joystick::number_of_joysticks()| permet d'obtenir le nombre de
+joysticks branchés.
+
+Les boutons sont identifiées de manière unique par une valeur de type
+\verb|input::joystick::joy_code|. La classe propose le couple de méthodes
+\texttt{begin()}/\texttt{end()} permettant d'itérer sur les boutons pressées et
+une méthode \texttt{empty()} indiquant s'il n'y a pas de boutons pressées. La
+croix directionnelle correspond à huit codes, un pour chaque direction.
+
+La classe propose deux méthodes pour manipuler les codes des boutons. Les
+méthodes \texttt{get\_name\_of()} et \texttt{set\_name\_of()} permettent
+respectivement d'obtenir et de définir le nom associé au code d'un bouton.
+
+\paragraph{Note :}la méthode \texttt{refresh()} ne doit être utilisée que par
+la classe \verb|input::system|.
+

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<item xmlns="http://www.gamned.org/bear/schema/0.5" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gamned.org/bear/schema/0.5 http://www.gamned.org/bear/schema/0.5/item-description.xsd" class="ptb::base_bonus" category="-abstract-" fixable="true" url="http://www.gamned.org/wiki/index.php/base_bonus">
+  <inherit>
+    <class>bear::base_item</class>
+    <class>bear::basic_renderable_item</class>
+  </inherit>
+  <fields>
+    <field type="real" name="base_bonus.change_interval">
+      <description>The delay before changing the bonus given to the player.
+      </description>
+      <default_value>infinity</default_value>
+    </field>
+    <field type="u_integer" name="base_bonus.player_index">
+      <description>Index of player that can take the bonus (0 if all players).
+      </description>
+      <default_value>0</default_value>
+    </field>
+    <field type="string" name="base_bonus.type" required="true" list="true">
+      <description>The power provided by this box.</description>
+      <set>
+        <element value="air_power"/>
+        <element value="fire_power"/>
+        <element value="water_power"/>
+        <element value="invincibility_power"/>
+        <element value="stones_stock"/>
+        <element value="stones_big_stock"/>
+        <element value="one_more_life"/>
+        <element value="increase_max_energy"/>
+        <element value="switch_players"/>
+      </set>
+    </field>
+  </fields>
+</item>

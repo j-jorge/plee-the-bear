@@ -1,0 +1,42 @@
+0.0 player_wasp.control_player();
+0.0 player_wasp.refuse_action(wait);
+0.0 player_wasp.add_player_in_script(script, plee_wasp);
+0.0 player_1.control_player();
+0.0 player_1.refuse_action(wait);
+0.0 player_2.control_player();
+0.0 player_2.refuse_action(wait);
+
+0.3 player_wasp.do_action(move_left, 0.6);
+0.4 player_wasp.give_stone(1);
+1.5 player_wasp.talk("/Look downward to see the wasps.");
+2.5 player_1.do_action(crouch, 3);
+2.5 player_2.do_action(crouch, 3);
+6 player_wasp.talk("/I will show you how to kill them with a stone./Or with your bare hands.");
+13 player_wasp.talk("/The object to the left of you is a checkpoint./So if you die, don't worry, because you will return here.");
+
+25.0 player_wasp.do_action(move_right, 1.7);
+25.2 player_wasp.do_action(jump, 0.4);
+25.2 player_wasp.talk("/Let's go!");
+25.2 camera.focus_on( shared_camera );
+25.2 camera.activate();
+
+27 player_wasp.do_action(move_left, 1.1);
+28 player_wasp.do_action(throw_stone, 0.5);
+29.5 player_wasp.do_action(move_left, 1);
+30 player_wasp.do_action(jump, 0.3);
+31.5 player_wasp.talk("/Collecting souls will give you energy. Be quick or they will fly away!");
+37.0 player_wasp.do_action(move_left, 1.1);
+37.5 player_wasp.do_action(jump, 0.1);
+37.7 player_wasp.do_action(slap, 0.5);
+39 player_wasp.talk("/That time, I slapped him in mid-air.");
+39 player_wasp.do_action(move_right, 1);
+45 shared_camera.focus_on( camera );
+45 shared_camera.activate();
+
+45.1 plee_wasp.set_center_of_mass( 18628, 1756 );
+45.3 player_wasp.release_player();
+45.3 player_1.authorize_action(wait);
+45.3 player_1.release_player();
+45.3 player_2.authorize_action(wait);
+45.3 player_2.release_player();
+45.3 script.end();

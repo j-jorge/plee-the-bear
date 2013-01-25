@@ -1,0 +1,27 @@
+%_______________________________________________________________________________
+\section{Manipulation de texte}
+
+\subsection{L'espace de noms text \index{text!espace de noms} }
+Tout ce qui se rapporte au traitement de textes est dans l'espace de noms
+\texttt{text}.
+
+\subsection{Polices de caractères \index{text!police} }
+Les polices de caractères sont représentées par la classe \verb|text::font|. Il
+faut passer l'image des caractères au constructeur, ainsi que la taille des
+caractères. Toutes les polices sont à chasse fixe.
+
+L'image doit contenir, dans l'ordre : les minuscules, les majuscules,
+les chiffres, l'espace et les caractères spéciaux :
+
+\begin{verbatim}
+! " # $ % & \ ( ) *
++ , - . / : ; < = >
+? @ [ \ ] ^ _ ` { |
+} ~ à â ä ç è é ê ë
+î ï ô ö û ü
+\end{verbatim}
+
+\subsection{Mesures \index{text!mesure} }
+La classe \verb|text::text_metric| permet de mesurer la taille d'un texte
+associé à une police, en nombre de caractères ou de pixels.
+

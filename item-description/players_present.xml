@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<item xmlns="http://www.gamned.org/bear/schema/0.5" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gamned.org/bear/schema/0.5 http://www.gamned.org/bear/schema/0.5/item-description.xsd" class="ptb::players_present" category="trigger" fixable="true" box_color="#69DAFF" url="http://www.gamned.org/wiki/index.php/players_present">
+  <inherit>
+    <class>ptb::item_waiting_for_players</class>
+    <class>bear::base_item</class>
+  </inherit>
+  <description>This item activates a set of toggles when some players are present.</description>
+  <fields>
+    <field type="boolean" name="players_present.check_all_players">
+      <description>Indicates that this item checks if all players are present.</description>
+      <default_value>true</default_value>
+    </field>
+    <field type="item_reference" name="players_present.toggles" list="true">
+      <description>The list of toggles to activate.</description>
+      <set>
+        <element value="bear::with_toggle"/>
+      </set>
+    </field>
+  </fields>
+</item>

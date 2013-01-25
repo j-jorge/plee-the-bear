@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<item xmlns="http://www.gamned.org/bear/schema/0.5" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gamned.org/bear/schema/0.5 http://www.gamned.org/bear/schema/0.5/item-description.xsd" class="ptb::rabbit" category="enemy/forest" box_color="#FAFF1F" fixable="false" url="http://www.gamned.org/wiki/index.php/rabbit">
+  <inherit>
+    <class>bear::model</class>
+    <class>bear::base_item</class>
+    <class>ptb::counted_item</class>
+  </inherit>
+  <description>The class describing a rabbit.</description>
+
+  <fields>
+    <field type="real" name="rabbit.max_distance">
+      <description>The maximum distance to the initial horizontal position
+	where the rabbit is allowed to go.</description>
+      <default_value>500</default_value>
+    </field>
+
+    <field type="boolean" name="rabbit.is_marionette">
+      <description>Tell if the rabbit is a marionette, in which case he won't
+        decide is actions himself.</description>
+      <default_value>false</default_value>
+    </field>
+  </fields>
+
+  <new_default_value name="base_item.can_move_items">false</new_default_value>
+  <new_default_value name="base_item.mass">10</new_default_value>
+  <new_default_value name="base_item.density">0.9</new_default_value>
+</item>

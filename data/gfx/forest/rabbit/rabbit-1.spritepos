@@ -1,0 +1,34 @@
+# The format of the lines is
+# picture: x y width height
+
+idle:   0 0 26 32
+
+walk 1: 26 0 46 22
+walk 2: 72 0 46 22
+walk 3: 118 0 46 22
+
+dig 1: 164 0 29 28
+dig 2: 193 0 29 28
+dig 3: 222 0 29 28
+dig 4: 0 32 29 28
+dig 5: 29 32 29 28
+dig 6: 58 32 29 28
+
+dust 1: 87 22 32 16
+dust 2: 119 22 32 16
+dust 3: 87 38 32 16
+dust 4: 119 38 32 16
+
+dust end 1: 151 32 19 15
+dust end 2: 170 32 19 15
+dust end 3: 151 48 19 15
+dust end 4: 170 48 19 15
+
+jump 1: 189 32 40 40
+jump 2: 0 61 40 40
+jump 3: 40 61 40 40
+jump 4: 80 61 40 40
+
+fall: 120 61 23 35
+
+injured: 143 61 21 35

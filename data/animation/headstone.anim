@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation loops='1' first_index='0' last_index='15' loop_back='false' auto_size='true' width='55' height='45' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'>
+  <frame duration='0.03'>
+    <sprite image='gfx/headstone.png' x='0' y='0' clip_width='55' clip_height='45' spritepos='' auto_size='true' width='55' height='45' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.03'>
+    <sprite image='gfx/headstone.png' x='55' y='0' clip_width='55' clip_height='45' spritepos='' auto_size='true' width='55' height='45' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.03'>
+    <sprite image='gfx/headstone.png' x='110' y='0' clip_width='55' clip_height='45' spritepos='' auto_size='true' width='55' height='45' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.03'>
+    <sprite image='gfx/headstone.png' x='165' y='0' clip_width='55' clip_height='45' spritepos='' auto_size='true' width='55' height='45' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.03'>
+    <sprite image='gfx/headstone.png' x='220' y='0' clip_width='55' clip_height='45' spritepos='' auto_size='true' width='55' height='45' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.03'>
+    <sprite image='gfx/headstone.png' x='275' y='0' clip_width='55' clip_height='45' spritepos='' auto_size='true' width='55' height='45' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.03'>
+    <sprite image='gfx/headstone.png' x='330' y='0' clip_width='55' clip_height='45' spritepos='' auto_size='true' width='55' height='45' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.03'>
+    <sprite image='gfx/headstone.png' x='385' y='0' clip_width='55' clip_height='45' spritepos='' auto_size='true' width='55' height='45' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.03'>
+    <sprite image='gfx/headstone.png' x='440' y='0' clip_width='55' clip_height='45' spritepos='' auto_size='true' width='55' height='45' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.03'>
+    <sprite image='gfx/headstone.png' x='0' y='45' clip_width='55' clip_height='45' spritepos='' auto_size='true' width='55' height='45' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.03'>
+    <sprite image='gfx/headstone.png' x='55' y='45' clip_width='55' clip_height='45' spritepos='' auto_size='true' width='55' height='45' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.03'>
+    <sprite image='gfx/headstone.png' x='110' y='45' clip_width='55' clip_height='45' spritepos='' auto_size='true' width='55' height='45' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.03'>
+    <sprite image='gfx/headstone.png' x='165' y='45' clip_width='55' clip_height='45' spritepos='' auto_size='true' width='55' height='45' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.03'>
+    <sprite image='gfx/headstone.png' x='220' y='45' clip_width='55' clip_height='45' spritepos='' auto_size='true' width='55' height='45' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.03'>
+    <sprite image='gfx/headstone.png' x='275' y='45' clip_width='55' clip_height='45' spritepos='' auto_size='true' width='55' height='45' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.03'>
+    <sprite image='gfx/headstone.png' x='330' y='45' clip_width='55' clip_height='45' spritepos='' auto_size='true' width='55' height='45' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+</animation>

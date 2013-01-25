@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation loops='0' first_index='0' last_index='1' loop_back='true' auto_size='true' width='127' height='156' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'>
+  <frame duration='0.06'>
+    <sprite image='gfx/god/human-talking.png' x='256' y='340' clip_width='127' clip_height='156' spritepos='ball creation 1' auto_size='true' width='127' height='156' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.06'>
+    <sprite image='gfx/god/human-talking.png' x='383' y='340' clip_width='127' clip_height='156' spritepos='ball creation 2' auto_size='true' width='127' height='156' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+</animation>

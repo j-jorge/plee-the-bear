@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<item xmlns="http://www.gamned.org/bear/schema/0.5" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gamned.org/bear/schema/0.5 http://www.gamned.org/bear/schema/0.5/item-description.xsd" class="ptb::script_director" category="script" box_color="#BA7EFF" url="http://www.gamned.org/wiki/index.php/script_director">
+  <inherit>
+    <class>bear::script_director</class>
+  </inherit>
+  <description>An item that plays a script and add black stripes at
+    the top and the bottom of the screen.</description>
+</item>

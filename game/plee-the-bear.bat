@@ -1,0 +1,1 @@
+..\..\bear-engine\bin\running-bear --log-level=verbose --log-concise "--game-name=Plee the Bear" --screen-width=800 --screen-height=600 --stats-destination=http://plee-the-bear.sourceforge.net/stats.php --active-area=500 --data-path=..\data\ --item-library=..\..\bear-engine\bin\libbear_generic_items.dll --item-library=..\bin\libplee_the_bear.dll --start-level=level/dummy.cl

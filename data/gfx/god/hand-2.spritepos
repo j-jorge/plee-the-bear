@@ -1,0 +1,19 @@
+# The format of the lines is
+# picture: x y width height
+
+frame 10: 340 276 170 138
+frame 11: 170 276 170 138
+frame 12: 0 276 170 138
+frame 13: 340 138 170 138
+frame 14: 170 138 170 138
+frame 15: 0 138 170 138
+frame 16: 340 0 170 138
+frame 17: 170 0 170 138
+frame 18: 0 0 170 138
+
+ball 1: 310 414 62 63
+ball 2: 248 414 62 63
+ball 3: 186 414 62 63
+ball 4: 124 414 62 63
+ball 5: 62 414 62 63
+ball 6: 0 414 62 63

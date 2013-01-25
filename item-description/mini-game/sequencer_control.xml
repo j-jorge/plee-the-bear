@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<item xmlns="http://www.gamned.org/bear/schema/0.5" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gamned.org/bear/schema/0.5 http://www.gamned.org/bear/schema/0.5/item-description.xsd" class="ptb::sequencer_control" category="mini-game" box_color="#BE41D1" url="http://www.gamned.org/wiki/index.php/sequencer_control">
+  <inherit>
+    <class>bear::base_item</class>
+    <class>ptb::item_with_player_action_reader</class>
+    <class>bear::item_with_toggle</class>
+  </inherit>
+  <description>This items controls at most two sequencers, the background music, the players who activate them and so on.</description>
+  <fields>
+    <field type="real" name="sequencer_control.game_interval">
+      <description>Delay between two games.</description>
+      <default_value>infinity</default_value>
+    </field>
+    <field type="sample" name="sequencer_control.background_music">
+      <description>The song played in the background.</description>
+    </field>
+    <field type="item_reference" name="sequencer_control.sequencer.first">
+      <description>
+        The sequencer for the first player.
+      </description>
+      <set>
+        <element value="bear::sequencer"/>
+      </set>
+      <default_value>none</default_value>
+    </field>
+    <field type="item_reference" name="sequencer_control.sequencer.second">
+      <description>
+        The sequencer for the second player.
+      </description>
+      <set>
+        <element value="bear::sequencer"/>
+      </set>
+      <default_value>none</default_value>
+    </field>
+    <field type="string" name="sequencer_control.give_up_action">
+      <description>
+        The action to do to give up the song.
+      </description>
+      <set>
+        <element value="jump"/>
+        <element value="slap"/>
+        <element value="throw_stone"/>
+        <element value="change_object"/>
+        <element value="get_camera"/>
+      </set>
+      <default_value>jump</default_value>
+    </field>
+  </fields>
+  <new_default_value name="base_item.phantom">true</new_default_value>
+  <new_default_value name="base_item.can_move_items">false</new_default_value>
+</item>

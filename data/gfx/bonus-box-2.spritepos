@@ -1,0 +1,16 @@
+# The format of the lines is
+# picture: x y width height
+
+broken box bottom:  0 0 60 48
+broken box top:  5 48 50 48
+
+energy 1:   0  96 60 80
+energy 2:  60  96 60 80
+energy 3: 120  96 60 80
+energy 4: 180  96 60 80
+energy 5:   0 176 60 80
+energy 6:  60 176 60 80
+
+extra try: 120 176 60 80
+
+air: 180 176 60 80

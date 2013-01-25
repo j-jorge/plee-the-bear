@@ -1,0 +1,58 @@
+% Documentation francaise de l'API utilisée pour réaliser Plee the Bear
+%
+\documentclass{article}
+\usepackage{comment}
+\usepackage[Algorithme]{algorithm}
+\usepackage{algorithmic}      % écriture d'algorithmes
+\usepackage[francais]{babel}  % en français
+\usepackage[latin1]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{amssymb}          % symboles mathémathiques
+\usepackage{amsmath}          % environnements mathémathiques
+\usepackage{graphicx}         % insertion d'images
+\usepackage{makeidx}          % index
+
+\title{Plee the Bear - Guide du dévelopeur v1}
+\author{Julien Jorge}
+\date{\today}
+
+\makeindex
+
+\begin{document}
+
+\maketitle
+\newpage
+\tableofcontents
+\listoftables
+\listoffigures
+\listofalgorithms
+\newpage
+
+\section{Changements par rapport à la version précédente}
+\begin{itemize}
+\item Mercredi 14 septembre 2005 : Version 0 : version initiale.
+\item Lundi 20 févrer : Version 1 : 
+      \begin{itemize}
+      \item séparation du fichier en plusieurs petits fichiers ;
+      \item mise à jour du contenu avec les nouvelles classes, et correction
+            des informations obsolètes ;
+      \item ajout de l'index.
+      \end{itemize}
+\end{itemize}
+
+\input{ptb-developer-introduction-fr}
+\input{ptb-developer-visual-fr}
+\input{ptb-developer-sound-fr}
+\input{ptb-developer-concept-fr}
+\input{ptb-developer-communication-fr}
+\input{ptb-developer-input-fr}
+\input{ptb-developer-universe-fr}
+\input{ptb-developer-text-fr}
+\input{ptb-developer-gui-fr}
+\input{ptb-developer-ptb-fr}
+
+%_______________________________________________________________________________
+
+\printindex
+
+\end{document}

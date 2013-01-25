@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<item xmlns="http://www.gamned.org/bear/schema/0.5" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gamned.org/bear/schema/0.5 http://www.gamned.org/bear/schema/0.5/item-description.xsd" class="ptb::two_players_only" category="control" fixable="false" box_color="#2A9153" url="http://www.gamned.org/wiki/index.php/two_players_only">
+  <inherit>
+    <class>bear::base_item</class>
+  </inherit>
+  <description>This class implements an item taht kills items according to the player mode.</description>
+  <fields>
+    <field type="item_reference" name="two_players_only.items_killed_with_one_player" list="true">
+      <description>The list of the items to kill when there is only one player.</description>
+    </field>
+    <field type="item_reference" name="two_players_only.items_killed_with_two_players" list="true">
+      <description>The list of the items to kill when there are two players.</description>
+    </field>
+  </fields>
+  <new_default_value name="base_item.global">true</new_default_value>
+</item>

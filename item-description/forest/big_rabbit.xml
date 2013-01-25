@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<item xmlns="http://www.gamned.org/bear/schema/0.5" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gamned.org/bear/schema/0.5 http://www.gamned.org/bear/schema/0.5/item-description.xsd" class="ptb::big_rabbit" category="enemy/forest" box_color="#FAFF1F" fixable="false" url="http://www.gamned.org/wiki/index.php/big_rabbit">
+  <inherit>
+    <class>ptb::boss</class>
+  </inherit>
+  <description>The class describing the boss of the forest : a rabbit.</description>
+  <fields>
+    <field type="item_reference" name="big_rabbit.carrot_position" list="true">
+      <description>The list of item_reference to set carrot position.</description>
+      <set>
+	<element value="bear::reference_item"/>
+      </set>
+    </field>
+  </fields>
+  <new_default_value name="base_item.can_move_items">false</new_default_value>
+  <new_default_value name="base_item.mass">10</new_default_value>
+  <new_default_value name="base_item.density">0.9</new_default_value>
+</item>

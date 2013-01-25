@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<model>
+<action name="idle" duration="0.015" auto_next="idle">
+<marks>
+<mark label="back_wheel" apply_angle_to_animation="1" pause_animation_when_hidden="0">
+<animation loops='0' first_index='0' last_index='0' loop_back='false' auto_size='true' width='107' height='107' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'>
+  <frame duration='1'>
+    <sprite image='gfx/castle/catapult/catapult.png' x='357' y='90' clip_width='107' clip_height='107' spritepos='back wheel' auto_size='true' width='107' height='107' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+</animation>
+</mark>
+<mark label="front_wheel" apply_angle_to_animation="1" pause_animation_when_hidden="0">
+<animation loops='0' first_index='0' last_index='0' loop_back='false' auto_size='true' width='107' height='107' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'>
+  <frame duration='1'>
+    <sprite image='gfx/castle/catapult/catapult.png' x='357' y='204' clip_width='107' clip_height='107' spritepos='front wheel' auto_size='true' width='107' height='107' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+</animation>
+</mark>
+<mark label="vehicle" apply_angle_to_animation="0" pause_animation_when_hidden="0">
+<animation loops='0' first_index='0' last_index='0' loop_back='false' auto_size='true' width='331' height='52' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'>
+  <frame duration='1'>
+    <sprite image='gfx/castle/catapult/catapult.png' x='7' y='261' clip_width='331' clip_height='52' spritepos='vehicle' auto_size='true' width='331' height='52' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+</animation>
+</mark>
+<mark label="vehicle_front" apply_angle_to_animation="0" pause_animation_when_hidden="0">
+<animation loops='0' first_index='0' last_index='0' loop_back='false' auto_size='true' width='188' height='53' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'>
+  <frame duration='1'>
+    <sprite image='gfx/castle/catapult/catapult.png' x='167' y='206' clip_width='188' clip_height='53' spritepos='vehicle front' auto_size='true' width='188' height='53' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+</animation>
+</mark>
+<mark label="vehicle_back" apply_angle_to_animation="0" pause_animation_when_hidden="0">
+<animation loops='0' first_index='0' last_index='0' loop_back='false' auto_size='true' width='163' height='53' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'>
+  <frame duration='1'>
+    <sprite image='gfx/castle/catapult/catapult.png' x='1' y='205' clip_width='163' clip_height='53' spritepos='vehicle back' auto_size='true' width='163' height='53' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+</animation>
+</mark>
+<mark label="stop" apply_angle_to_animation="1" pause_animation_when_hidden="0">
+<animation loops='0' first_index='0' last_index='0' loop_back='false' auto_size='true' width='39' height='239' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'>
+  <frame duration='1'>
+    <sprite image='gfx/castle/catapult/catapult.png' x='467' y='1' clip_width='39' clip_height='239' spritepos='stop' auto_size='true' width='39' height='239' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+</animation>
+</mark>
+<mark label="selector" apply_angle_to_animation="0" pause_animation_when_hidden="0">
+<animation loops='0' first_index='0' last_index='0' loop_back='false' auto_size='true' width='313' height='107' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'>
+  <frame duration='1'>
+    <sprite image='gfx/castle/catapult/catapult.png' x='1' y='92' clip_width='313' clip_height='107' spritepos='angle selector' auto_size='true' width='313' height='107' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+</animation>
+</mark>
+<mark label="arm" apply_angle_to_animation="1" pause_animation_when_hidden="0">
+<animation loops='0' first_index='0' last_index='0' loop_back='false' auto_size='true' width='459' height='81' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'>
+  <frame duration='1'>
+    <sprite image='gfx/castle/catapult/catapult.png' x='2' y='3' clip_width='459' clip_height='81' spritepos='arm' auto_size='true' width='459' height='81' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+</animation>
+</mark>
+<mark label="placement" apply_angle_to_animation="0" pause_animation_when_hidden="0">
+</mark>
+</marks>
+<snapshots>
+<snapshot date="0" width="665" height="80" x_alignment="align_left" y_alignment="align_bottom" x_alignment_value="0" y_alignment_value="0">
+<mark_placements>
+<mark_placement label="placement" function="on_placement_collision" x="92" y="170" width="60" height="14" z="0" angle="0" visible="1" x_easing="none:in" y_easing="none:in" width_easing="none:in" height_easing="none:in" angle_easing="none:in"/>
+<mark_placement label="arm" function="" x="250" y="170" width="0" height="0" z="-2" angle="0" visible="1" x_easing="none:in" y_easing="none:in" width_easing="none:in" height_easing="none:in" angle_easing="none:in"/>
+<mark_placement label="selector" function="" x="487" y="130" width="0" height="0" z="-1" angle="0" visible="1" x_easing="none:in" y_easing="none:in" width_easing="none:in" height_easing="none:in" angle_easing="none:in"/>
+<mark_placement label="stop" function="" x="492" y="193" width="0" height="0" z="0" angle="0" visible="1" x_easing="none:in" y_easing="none:in" width_easing="none:in" height_easing="none:in" angle_easing="none:in"/>
+<mark_placement label="vehicle_back" function="" x="75" y="51" width="0" height="0" z="0" angle="0" visible="1" x_easing="none:in" y_easing="none:in" width_easing="none:in" height_easing="none:in" angle_easing="none:in"/>
+<mark_placement label="vehicle_front" function="" x="582" y="51" width="0" height="0" z="0" angle="0" visible="1" x_easing="none:in" y_easing="none:in" width_easing="none:in" height_easing="none:in" angle_easing="none:in"/>
+<mark_placement label="vehicle" function="" x="322" y="51" width="0" height="0" z="0" angle="0" visible="1" x_easing="none:in" y_easing="none:in" width_easing="none:in" height_easing="none:in" angle_easing="none:in"/>
+<mark_placement label="front_wheel" function="" x="489" y="51" width="0" height="0" z="1" angle="0" visible="1" x_easing="none:in" y_easing="none:in" width_easing="none:in" height_easing="none:in" angle_easing="none:in"/>
+<mark_placement label="back_wheel" function="" x="160" y="51" width="0" height="0" z="1" angle="0" visible="1" x_easing="none:in" y_easing="none:in" width_easing="none:in" height_easing="none:in" angle_easing="none:in"/>
+</mark_placements>
+</snapshot></snapshots>
+</action>
+</model>
+

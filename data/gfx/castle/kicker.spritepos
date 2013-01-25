@@ -1,0 +1,9 @@
+# The format of the lines is
+# picture: x y width height
+
+up 3: 0 0 215 42
+up 2: 0 42 215 42
+up 1: 0 84 215 42
+down 2: 0 126 215 42
+down 1: 0 168 215 42
+default: 0 210 215 42

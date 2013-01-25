@@ -1,0 +1,41 @@
+0.0 player_1.control_player();
+0.0 player_1.refuse_action(wait);
+0.0 player_2.control_player();
+0.0 player_2.refuse_action(wait);
+0.0 player_cling.control_player();
+0.0 player_cling.refuse_action(wait);
+0.0 player_cling.add_player_in_script(script, plee_cling);
+
+0.3 camera.focus_on( shared_camera );
+0.3 camera.activate();
+
+0.3 player_cling.do_action(move_right, 0.6);
+1 player_cling.talk("/Slap in mid-air to cling to the walls.");
+
+3 player_cling.do_action(move_left, 0.5);
+3.15 player_cling.do_action(jump, 0.5);
+3.5 player_cling.do_action(slap, 0.5);
+
+4 player_cling.talk("/You can then jump from the wall.");
+9 player_cling.do_action(jump, 0.5);
+9.5 player_cling.do_action(slap, 0.5);
+9.5 player_cling.talk("/You don't have to keep holding the \"slap\" button or anything once on the wall.");
+12 player_cling.do_action(jump, 0.5);
+12.5 player_cling.do_action(slap, 0.5);
+14 player_cling.do_action(jump, 0.5);
+14.5 player_cling.do_action(slap, 0.5);
+15 player_cling.do_action(jump, 0.5);
+15.5 player_cling.do_action(slap, 0.5);
+16 player_cling.do_action(jump, 0.5);
+17 player_cling.talk("/See? Easy.");
+
+20.3 shared_camera.focus_on( camera );
+20.3 shared_camera.activate();
+20.3 plee_cling.set_center_of_mass( 8501.4, 2008 );
+20.4 player_cling.release_player();
+20.4 player_1.authorize_action(wait);
+20.4 player_1.release_player();
+20.4 player_2.authorize_action(wait);
+20.4 player_2.release_player();
+20.4 script.end();
+

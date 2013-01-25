@@ -1,0 +1,952 @@
+<?xml version="1.0" encoding="utf-8"?>
+<level name='' width='800' height='600' music=''>
+  <layer class_name='decoration_layer' name='' width='1600' height='1200' fit_level='0'>
+
+<items>
+</items>
+
+<priority>
+</priority>
+
+  </layer><!-- decoration_layer -->
+
+  <layer class_name='decoration_layer' name='' width='30000' height='7500' fit_level='0'>
+
+<items>
+    <item class_name='bear::decorative_item' fixed='true'>
+<fields>
+<field name='base_item.position.bottom'>
+<real value='499'/>
+</field>
+<field name='base_item.position.left'>
+<real value='1049'/>
+</field>
+<field name='base_item.size.height'>
+<real value='128'/>
+</field>
+<field name='base_item.size.width'>
+<real value='256'/>
+</field>
+</fields>
+    </item><!-- bear::decorative_item -->
+
+    <item class_name='bear::decorative_item' fixed='true'>
+<fields>
+<field name='base_item.position.bottom'>
+<real value='499'/>
+</field>
+<field name='base_item.position.left'>
+<real value='1305'/>
+</field>
+<field name='base_item.size.height'>
+<real value='256'/>
+</field>
+<field name='base_item.size.width'>
+<real value='256'/>
+</field>
+</fields>
+    </item><!-- bear::decorative_item -->
+
+    <item class_name='bear::decorative_item' fixed='true'>
+<fields>
+<field name='base_item.position.bottom'>
+<real value='499'/>
+</field>
+<field name='base_item.position.left'>
+<real value='1561'/>
+</field>
+<field name='base_item.size.height'>
+<real value='128'/>
+</field>
+<field name='base_item.size.width'>
+<real value='256'/>
+</field>
+</fields>
+    </item><!-- bear::decorative_item -->
+
+</items>
+
+<priority>
+</priority>
+
+  </layer><!-- decoration_layer -->
+
+  <layer class_name='action_layer' name='' width='30000' height='7500' fit_level='0'>
+
+<items>
+    <item class_name='ptb::layer_border' fixed='false'>
+<fields>
+<field name='base_item.position.bottom'>
+<real value='56'/>
+</field>
+<field name='base_item.position.left'>
+<real value='51'/>
+</field>
+</fields>
+    </item><!-- ptb::layer_border -->
+
+    <item class_name='ptb::add_ingame_layers' fixed='false'>
+<fields>
+<field name='base_item.position.bottom'>
+<real value='106'/>
+</field>
+<field name='base_item.position.left'>
+<real value='51'/>
+</field>
+</fields>
+    </item><!-- ptb::add_ingame_layers -->
+
+    <item class_name='ptb::corrupting_bonus' fixed='false' id='corrupting_bonus'>
+<fields>
+<field name='base_item.global'>
+<bool value='1'/>
+</field>
+<field name='base_item.position.bottom'>
+<real value='156'/>
+</field>
+<field name='base_item.position.left'>
+<real value='51'/>
+</field>
+</fields>
+    </item><!-- ptb::corrupting_bonus -->
+
+    <item class_name='bear::world_parameters' fixed='false'>
+<fields>
+<field name='base_item.position.bottom'>
+<real value='56'/>
+</field>
+<field name='base_item.position.left'>
+<real value='101'/>
+</field>
+<field name='world_parameters.default_density'>
+<real value='0.001'/>
+</field>
+<field name='world_parameters.gravity.y'>
+<real value='-60'/>
+</field>
+<field name='world_parameters.unit'>
+<real value='50'/>
+</field>
+</fields>
+    </item><!-- bear::world_parameters -->
+
+    <item class_name='ptb::timer_kill_players' fixed='false'>
+<fields>
+<field name='base_item.position.bottom'>
+<real value='106'/>
+</field>
+<field name='base_item.position.left'>
+<real value='101'/>
+</field>
+</fields>
+    </item><!-- ptb::timer_kill_players -->
+
+    <item class_name='ptb::clingable' fixed='true'>
+<fields>
+<field name='base_item.position.bottom'>
+<real value='431'/>
+</field>
+<field name='base_item.position.left'>
+<real value='151'/>
+</field>
+<field name='base_item.size.height'>
+<real value='129'/>
+</field>
+<field name='base_item.size.width'>
+<real value='56'/>
+</field>
+</fields>
+    </item><!-- ptb::clingable -->
+
+    <item class_name='bear::block' fixed='true'>
+<fields>
+<field name='item_with_z_shift.z_shift'>
+<integer value='10'/>
+</field>
+<field name='base_item.position.bottom'>
+<real value='371'/>
+</field>
+<field name='base_item.position.left'>
+<real value='153'/>
+</field>
+<field name='base_item.size.height'>
+<real value='128'/>
+</field>
+<field name='base_item.size.width'>
+<real value='128'/>
+</field>
+<field name='item_with_activable_sides.bottom_side_is_active'>
+<bool value='1'/>
+</field>
+<field name='item_with_activable_sides.left_side_is_active'>
+<bool value='1'/>
+</field>
+</fields>
+    </item><!-- bear::block -->
+
+    <item class_name='bear::slope' fixed='true'>
+<fields>
+<field name='basic_renderable_item.gap.y'>
+<integer value='128'/>
+</field>
+<field name='item_with_friction.top_friction'>
+<real value='0.95'/>
+</field>
+<field name='item_with_z_shift.z_shift'>
+<integer value='10'/>
+</field>
+<field name='base_item.position.bottom'>
+<real value='499'/>
+</field>
+<field name='base_item.position.left'>
+<real value='153'/>
+</field>
+<field name='base_item.size.height'>
+<real value='126'/>
+</field>
+<field name='base_item.size.width'>
+<real value='128'/>
+</field>
+<field name='slope.left_side_is_active'>
+<bool value='1'/>
+</field>
+<field name='slope.steepness'>
+<real value='28'/>
+</field>
+</fields>
+    </item><!-- bear::slope -->
+
+    <item class_name='ptb::shared_camera' fixed='false'>
+<fields>
+<field name='base_item.position.bottom'>
+<real value='491'/>
+</field>
+<field name='base_item.position.left'>
+<real value='213'/>
+</field>
+<field name='base_item.size.height'>
+<real value='600'/>
+</field>
+<field name='base_item.size.width'>
+<real value='800'/>
+</field>
+<field name='camera.max_move_length'>
+<real value='2000'/>
+</field>
+<field name='camera.max_zoom_length'>
+<real value='500'/>
+</field>
+<field name='camera.valid_max.x'>
+<real value='29900'/>
+</field>
+<field name='camera.valid_max.y'>
+<real value='7700'/>
+</field>
+<field name='camera.valid_min.x'>
+<real value='100'/>
+</field>
+<field name='camera.valid_min.y'>
+<real value='100'/>
+</field>
+<field name='messageable_item.name'>
+<string value='camera'/>
+</field>
+</fields>
+    </item><!-- ptb::shared_camera -->
+
+    <item class_name='ptb::game_settings' fixed='false'>
+<fields>
+<field name='base_item.position.bottom'>
+<real value='121'/>
+</field>
+<field name='base_item.position.left'>
+<real value='281'/>
+</field>
+<field name='game_settings.corrupting_bonus_count'>
+<u_integer value='0'/>
+</field>
+</fields>
+    </item><!-- ptb::game_settings -->
+
+    <item class_name='bear::block' fixed='true'>
+<fields>
+<field name='item_with_z_shift.z_shift'>
+<integer value='10'/>
+</field>
+<field name='base_item.position.bottom'>
+<real value='371'/>
+</field>
+<field name='base_item.position.left'>
+<real value='281'/>
+</field>
+<field name='base_item.size.height'>
+<real value='128'/>
+</field>
+<field name='base_item.size.width'>
+<real value='256'/>
+</field>
+<field name='item_with_activable_sides.bottom_side_is_active'>
+<bool value='1'/>
+</field>
+</fields>
+    </item><!-- bear::block -->
+
+    <item class_name='bear::block' fixed='true'>
+<fields>
+<field name='basic_renderable_item.gap.y'>
+<integer value='128'/>
+</field>
+<field name='item_with_friction.top_friction'>
+<real value='0.95'/>
+</field>
+<field name='item_with_z_shift.z_shift'>
+<integer value='10'/>
+</field>
+<field name='base_item.position.bottom'>
+<real value='499'/>
+</field>
+<field name='base_item.position.left'>
+<real value='281'/>
+</field>
+<field name='base_item.size.height'>
+<real value='126'/>
+</field>
+<field name='base_item.size.width'>
+<real value='256'/>
+</field>
+<field name='item_with_activable_sides.top_side_is_active'>
+<bool value='1'/>
+</field>
+</fields>
+    </item><!-- bear::block -->
+
+    <item class_name='ptb::level_settings' fixed='false'>
+<fields>
+<field name='base_item.position.bottom'>
+<real value='118'/>
+</field>
+<field name='base_item.position.left'>
+<real value='341'/>
+</field>
+</fields>
+    </item><!-- ptb::level_settings -->
+
+    <item class_name='ptb::player_start_position' fixed='false' id='pos-l155-b3662'>
+<fields>
+<field name='base_item.position.bottom'>
+<real value='731'/>
+</field>
+<field name='base_item.position.left'>
+<real value='355'/>
+</field>
+<field name='player_start_position.player_index'>
+<u_integer value='1'/>
+</field>
+</fields>
+    </item><!-- ptb::player_start_position -->
+
+    <item class_name='ptb::player_settings' fixed='false'>
+<fields>
+<field name='base_item.position.bottom'>
+<real value='126'/>
+</field>
+<field name='base_item.position.left'>
+<real value='407'/>
+</field>
+<field name='player_settings.player_index'>
+<u_integer value='1'/>
+</field>
+</fields>
+    </item><!-- ptb::player_settings -->
+
+    <item class_name='ptb::player_start_position' fixed='false'>
+<fields>
+<field name='base_item.position.bottom'>
+<real value='731'/>
+</field>
+<field name='base_item.position.left'>
+<real value='428'/>
+</field>
+<field name='player_start_position.player_index'>
+<u_integer value='2'/>
+</field>
+</fields>
+    </item><!-- ptb::player_start_position -->
+
+    <item class_name='ptb::player_settings' fixed='false'>
+<fields>
+<field name='base_item.position.bottom'>
+<real value='126'/>
+</field>
+<field name='base_item.position.left'>
+<real value='466'/>
+</field>
+<field name='player_settings.player_index'>
+<u_integer value='2'/>
+</field>
+</fields>
+    </item><!-- ptb::player_settings -->
+
+    <item class_name='bear::block' fixed='true'>
+<fields>
+<field name='item_with_z_shift.z_shift'>
+<integer value='10'/>
+</field>
+<field name='base_item.position.bottom'>
+<real value='370'/>
+</field>
+<field name='base_item.position.left'>
+<real value='537'/>
+</field>
+<field name='base_item.size.height'>
+<real value='128'/>
+</field>
+<field name='base_item.size.width'>
+<real value='128'/>
+</field>
+<field name='item_with_activable_sides.bottom_side_is_active'>
+<bool value='1'/>
+</field>
+</fields>
+    </item><!-- bear::block -->
+
+    <item class_name='bear::block' fixed='true'>
+<fields>
+<field name='basic_renderable_item.gap.y'>
+<integer value='128'/>
+</field>
+<field name='item_with_friction.top_friction'>
+<real value='0.95'/>
+</field>
+<field name='item_with_z_shift.z_shift'>
+<integer value='10'/>
+</field>
+<field name='base_item.position.bottom'>
+<real value='499'/>
+</field>
+<field name='base_item.position.left'>
+<real value='537'/>
+</field>
+<field name='base_item.size.height'>
+<real value='126'/>
+</field>
+<field name='base_item.size.width'>
+<real value='256'/>
+</field>
+<field name='item_with_activable_sides.top_side_is_active'>
+<bool value='1'/>
+</field>
+</fields>
+    </item><!-- bear::block -->
+
+    <item class_name='ptb::clingable' fixed='true'>
+<fields>
+<field name='base_item.position.bottom'>
+<real value='178'/>
+</field>
+<field name='base_item.position.left'>
+<real value='662'/>
+</field>
+<field name='base_item.size.height'>
+<real value='129'/>
+</field>
+<field name='base_item.size.width'>
+<real value='56'/>
+</field>
+</fields>
+    </item><!-- ptb::clingable -->
+
+    <item class_name='bear::block' fixed='true'>
+<fields>
+<field name='item_with_z_shift.z_shift'>
+<integer value='10'/>
+</field>
+<field name='base_item.position.bottom'>
+<real value='114'/>
+</field>
+<field name='base_item.position.left'>
+<real value='665'/>
+</field>
+<field name='base_item.size.height'>
+<real value='128'/>
+</field>
+<field name='base_item.size.width'>
+<real value='128'/>
+</field>
+<field name='item_with_activable_sides.bottom_side_is_active'>
+<bool value='1'/>
+</field>
+<field name='item_with_activable_sides.left_side_is_active'>
+<bool value='1'/>
+</field>
+</fields>
+    </item><!-- bear::block -->
+
+    <item class_name='bear::block' fixed='true'>
+<fields>
+<field name='item_with_z_shift.z_shift'>
+<integer value='10'/>
+</field>
+<field name='base_item.position.bottom'>
+<real value='242'/>
+</field>
+<field name='base_item.position.left'>
+<real value='665'/>
+</field>
+<field name='base_item.size.height'>
+<real value='256'/>
+</field>
+<field name='base_item.size.width'>
+<real value='128'/>
+</field>
+<field name='item_with_activable_sides.left_side_is_active'>
+<bool value='1'/>
+</field>
+</fields>
+    </item><!-- bear::block -->
+
+    <item class_name='bear::block' fixed='true'>
+<fields>
+<field name='item_with_z_shift.z_shift'>
+<integer value='10'/>
+</field>
+<field name='base_item.position.bottom'>
+<real value='114'/>
+</field>
+<field name='base_item.position.left'>
+<real value='793'/>
+</field>
+<field name='base_item.size.height'>
+<real value='128'/>
+</field>
+<field name='base_item.size.width'>
+<real value='256'/>
+</field>
+<field name='item_with_activable_sides.bottom_side_is_active'>
+<bool value='1'/>
+</field>
+</fields>
+    </item><!-- bear::block -->
+
+    <item class_name='bear::slope' fixed='true'>
+<fields>
+<field name='basic_renderable_item.gap.y'>
+<integer value='256'/>
+</field>
+<field name='item_with_friction.top_friction'>
+<real value='0.95'/>
+</field>
+<field name='item_with_z_shift.z_shift'>
+<integer value='10'/>
+</field>
+<field name='base_item.position.bottom'>
+<real value='499'/>
+</field>
+<field name='base_item.position.left'>
+<real value='793'/>
+</field>
+<field name='base_item.size.height'>
+<real value='254'/>
+</field>
+<field name='base_item.size.width'>
+<real value='256'/>
+</field>
+<field name='slope.steepness'>
+<real value='128'/>
+</field>
+</fields>
+    </item><!-- bear::slope -->
+
+    <item class_name='bear::block' fixed='true'>
+<fields>
+<field name='item_with_z_shift.z_shift'>
+<integer value='10'/>
+</field>
+<field name='base_item.position.bottom'>
+<real value='114'/>
+</field>
+<field name='base_item.position.left'>
+<real value='1049'/>
+</field>
+<field name='base_item.size.height'>
+<real value='128'/>
+</field>
+<field name='base_item.size.width'>
+<real value='256'/>
+</field>
+<field name='item_with_activable_sides.bottom_side_is_active'>
+<bool value='1'/>
+</field>
+</fields>
+    </item><!-- bear::block -->
+
+    <item class_name='bear::slope' fixed='true'>
+<fields>
+<field name='basic_renderable_item.gap.y'>
+<integer value='2'/>
+</field>
+<field name='item_with_friction.top_friction'>
+<real value='0.95'/>
+</field>
+<field name='item_with_z_shift.z_shift'>
+<integer value='10'/>
+</field>
+<field name='base_item.position.bottom'>
+<real value='626'/>
+</field>
+<field name='base_item.position.left'>
+<real value='1049'/>
+</field>
+<field name='base_item.size.height'>
+<real value='254'/>
+</field>
+<field name='base_item.size.width'>
+<real value='256'/>
+</field>
+<field name='slope.steepness'>
+<real value='128'/>
+</field>
+</fields>
+    </item><!-- bear::slope -->
+
+    <item class_name='bear::block' fixed='true'>
+<fields>
+<field name='item_with_z_shift.z_shift'>
+<integer value='10'/>
+</field>
+<field name='base_item.position.bottom'>
+<real value='114'/>
+</field>
+<field name='base_item.position.left'>
+<real value='1305'/>
+</field>
+<field name='base_item.size.height'>
+<real value='128'/>
+</field>
+<field name='base_item.size.width'>
+<real value='256'/>
+</field>
+<field name='item_with_activable_sides.bottom_side_is_active'>
+<bool value='1'/>
+</field>
+</fields>
+    </item><!-- bear::block -->
+
+    <item class_name='bear::straight_slope' fixed='true'>
+<fields>
+<field name='basic_renderable_item.gap.y'>
+<integer value='2'/>
+</field>
+<field name='item_with_friction.top_friction'>
+<real value='0.95'/>
+</field>
+<field name='item_with_z_shift.z_shift'>
+<integer value='10'/>
+</field>
+<field name='base_item.position.bottom'>
+<real value='754'/>
+</field>
+<field name='base_item.position.left'>
+<real value='1305'/>
+</field>
+<field name='base_item.size.height'>
+<real value='126'/>
+</field>
+<field name='base_item.size.width'>
+<real value='256'/>
+</field>
+<field name='straight_slope.top_side_is_active'>
+<bool value='1'/>
+</field>
+</fields>
+    </item><!-- bear::straight_slope -->
+
+    <item class_name='ptb::checkpoint' fixed='true'>
+<fields>
+<field name='base_item.position.bottom'>
+<real value='880'/>
+</field>
+<field name='base_item.position.depth'>
+<integer value='5'/>
+</field>
+<field name='base_item.position.left'>
+<real value='1384'/>
+</field>
+</fields>
+    </item><!-- ptb::checkpoint -->
+
+    <item class_name='bear::block' fixed='true'>
+<fields>
+<field name='item_with_z_shift.z_shift'>
+<integer value='10'/>
+</field>
+<field name='base_item.position.bottom'>
+<real value='114'/>
+</field>
+<field name='base_item.position.left'>
+<real value='1561'/>
+</field>
+<field name='base_item.size.height'>
+<real value='128'/>
+</field>
+<field name='base_item.size.width'>
+<real value='256'/>
+</field>
+<field name='item_with_activable_sides.bottom_side_is_active'>
+<bool value='1'/>
+</field>
+</fields>
+    </item><!-- bear::block -->
+
+    <item class_name='bear::slope' fixed='true'>
+<fields>
+<field name='basic_renderable_item.gap.y'>
+<integer value='2'/>
+</field>
+<field name='item_with_friction.top_friction'>
+<real value='0.95'/>
+</field>
+<field name='item_with_z_shift.z_shift'>
+<integer value='10'/>
+</field>
+<field name='base_item.position.bottom'>
+<real value='626'/>
+</field>
+<field name='base_item.position.left'>
+<real value='1561'/>
+</field>
+<field name='base_item.size.height'>
+<real value='254'/>
+</field>
+<field name='base_item.size.width'>
+<real value='256'/>
+</field>
+<field name='slope.steepness'>
+<real value='-128'/>
+</field>
+</fields>
+    </item><!-- bear::slope -->
+
+    <item class_name='bear::block' fixed='true'>
+<fields>
+<field name='item_with_z_shift.z_shift'>
+<integer value='10'/>
+</field>
+<field name='base_item.position.bottom'>
+<real value='114'/>
+</field>
+<field name='base_item.position.left'>
+<real value='1817'/>
+</field>
+<field name='base_item.size.height'>
+<real value='128'/>
+</field>
+<field name='base_item.size.width'>
+<real value='256'/>
+</field>
+<field name='item_with_activable_sides.bottom_side_is_active'>
+<bool value='1'/>
+</field>
+</fields>
+    </item><!-- bear::block -->
+
+    <item class_name='bear::slope' fixed='true'>
+<fields>
+<field name='basic_renderable_item.gap.y'>
+<integer value='2'/>
+</field>
+<field name='item_with_friction.top_friction'>
+<real value='0.95'/>
+</field>
+<field name='item_with_z_shift.z_shift'>
+<integer value='10'/>
+</field>
+<field name='base_item.position.bottom'>
+<real value='498'/>
+</field>
+<field name='base_item.position.left'>
+<real value='1817'/>
+</field>
+<field name='base_item.size.height'>
+<real value='254'/>
+</field>
+<field name='base_item.size.width'>
+<real value='256'/>
+</field>
+<field name='slope.steepness'>
+<real value='-128'/>
+</field>
+</fields>
+    </item><!-- bear::slope -->
+
+    <item class_name='bear::block' fixed='true'>
+<fields>
+<field name='item_with_z_shift.z_shift'>
+<integer value='10'/>
+</field>
+<field name='base_item.position.bottom'>
+<real value='114'/>
+</field>
+<field name='base_item.position.left'>
+<real value='2073'/>
+</field>
+<field name='base_item.size.height'>
+<real value='128'/>
+</field>
+<field name='base_item.size.width'>
+<real value='256'/>
+</field>
+<field name='item_with_activable_sides.bottom_side_is_active'>
+<bool value='1'/>
+</field>
+</fields>
+    </item><!-- bear::block -->
+
+    <item class_name='bear::block' fixed='true'>
+<fields>
+<field name='basic_renderable_item.gap.y'>
+<integer value='2'/>
+</field>
+<field name='item_with_friction.top_friction'>
+<real value='0.95'/>
+</field>
+<field name='item_with_z_shift.z_shift'>
+<integer value='10'/>
+</field>
+<field name='base_item.position.bottom'>
+<real value='498'/>
+</field>
+<field name='base_item.position.depth'>
+<integer value='1000'/>
+</field>
+<field name='base_item.position.left'>
+<real value='2073'/>
+</field>
+<field name='base_item.size.height'>
+<real value='126'/>
+</field>
+<field name='base_item.size.width'>
+<real value='256'/>
+</field>
+<field name='item_with_activable_sides.top_side_is_active'>
+<bool value='1'/>
+</field>
+</fields>
+    </item><!-- bear::block -->
+
+    <item class_name='bear::block' fixed='true'>
+<fields>
+<field name='item_with_z_shift.z_shift'>
+<integer value='10'/>
+</field>
+<field name='base_item.position.bottom'>
+<real value='114'/>
+</field>
+<field name='base_item.position.left'>
+<real value='2329'/>
+</field>
+<field name='base_item.size.height'>
+<real value='128'/>
+</field>
+<field name='base_item.size.width'>
+<real value='128'/>
+</field>
+<field name='item_with_activable_sides.bottom_side_is_active'>
+<bool value='1'/>
+</field>
+<field name='item_with_activable_sides.right_side_is_active'>
+<bool value='1'/>
+</field>
+</fields>
+    </item><!-- bear::block -->
+
+    <item class_name='bear::block' fixed='true'>
+<fields>
+<field name='item_with_z_shift.z_shift'>
+<integer value='10'/>
+</field>
+<field name='base_item.position.bottom'>
+<real value='242'/>
+</field>
+<field name='base_item.position.left'>
+<real value='2329'/>
+</field>
+<field name='base_item.size.height'>
+<real value='256'/>
+</field>
+<field name='base_item.size.width'>
+<real value='128'/>
+</field>
+<field name='item_with_activable_sides.right_side_is_active'>
+<bool value='1'/>
+</field>
+</fields>
+    </item><!-- bear::block -->
+
+    <item class_name='bear::slope' fixed='true'>
+<fields>
+<field name='basic_renderable_item.gap.y'>
+<integer value='2'/>
+</field>
+<field name='item_with_friction.top_friction'>
+<real value='0.95'/>
+</field>
+<field name='item_with_z_shift.z_shift'>
+<integer value='10'/>
+</field>
+<field name='base_item.position.bottom'>
+<real value='498'/>
+</field>
+<field name='base_item.position.left'>
+<real value='2329'/>
+</field>
+<field name='base_item.size.height'>
+<real value='126'/>
+</field>
+<field name='base_item.size.width'>
+<real value='128'/>
+</field>
+<field name='slope.right_side_is_active'>
+<bool value='1'/>
+</field>
+<field name='slope.steepness'>
+<real value='-28'/>
+</field>
+</fields>
+    </item><!-- bear::slope -->
+
+    <item class_name='ptb::clingable' fixed='true'>
+<fields>
+<field name='base_item.position.bottom'>
+<real value='181'/>
+</field>
+<field name='base_item.position.left'>
+<real value='2405'/>
+</field>
+<field name='base_item.size.height'>
+<real value='377'/>
+</field>
+<field name='base_item.size.width'>
+<real value='56'/>
+</field>
+</fields>
+    </item><!-- ptb::clingable -->
+
+</items>
+
+<priority>
+</priority>
+
+  </layer><!-- action_layer -->
+
+  <layer class_name='decoration_layer' name='' width='30000' height='7500' fit_level='0'>
+
+<items>
+</items>
+
+<priority>
+</priority>
+
+  </layer><!-- decoration_layer -->
+
+</level>

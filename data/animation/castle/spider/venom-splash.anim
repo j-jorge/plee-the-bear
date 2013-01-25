@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation loops='1' first_index='0' last_index='4' loop_back='false' auto_size='true' width='33' height='17' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'>
+  <frame duration='0.1'>
+    <sprite image='gfx/castle/spider/spider.png' x='101' y='83' clip_width='33' clip_height='17' spritepos='venom 5' auto_size='true' width='33' height='17' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.1'>
+    <sprite image='gfx/castle/spider/spider.png' x='132' y='83' clip_width='33' clip_height='17' spritepos='venom 6' auto_size='true' width='33' height='17' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.1'>
+    <sprite image='gfx/castle/spider/spider.png' x='164' y='83' clip_width='33' clip_height='17' spritepos='venom 7' auto_size='true' width='33' height='17' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.1'>
+    <sprite image='gfx/castle/spider/spider.png' x='197' y='83' clip_width='33' clip_height='17' spritepos='venom 8' auto_size='true' width='33' height='17' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.1'>
+    <sprite image='gfx/castle/spider/spider.png' x='223' y='19' clip_width='33' clip_height='17' spritepos='venom 9' auto_size='true' width='33' height='17' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+</animation>

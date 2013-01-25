@@ -1,0 +1,10 @@
+# The format of the lines is
+# picture: x y width height
+
+floor: 0 0 346 98
+floor with branch: 0 98 346 138
+cabin: 0 235 282 219
+background: 0 454 81 50
+chimney: 346 0 76 76
+bridge: 391 76 121 13
+bridge support: 391 89 121 64

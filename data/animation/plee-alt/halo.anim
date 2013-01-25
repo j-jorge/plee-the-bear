@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation loops='0' first_index='0' last_index='3' loop_back='true' auto_size='true' width='72' height='64' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'>
+  <frame duration='0.025'>
+    <sprite image='gfx/plee/halo.png' x='0' y='0' clip_width='72' clip_height='64' spritepos='' auto_size='true' width='72' height='64' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.025'>
+    <sprite image='gfx/plee/halo.png' x='72' y='0' clip_width='72' clip_height='64' spritepos='' auto_size='true' width='72' height='64' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.025'>
+    <sprite image='gfx/plee/halo.png' x='144' y='0' clip_width='72' clip_height='64' spritepos='' auto_size='true' width='72' height='64' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.025'>
+    <sprite image='gfx/plee/halo.png' x='0' y='64' clip_width='72' clip_height='64' spritepos='' auto_size='true' width='72' height='64' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+</animation>

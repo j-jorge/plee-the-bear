@@ -1,0 +1,13 @@
+# The format of the lines is
+# picture: x y width height
+
+blue top: 0 0 256 40
+blue middle: 0 40 256 164
+blue bottom: 0 204 256 52
+blue full: 0 0 256 256
+
+purple top: 256 0 256 40
+purple middle: 256 40 256 164
+purple bottom: 256 204 256 52
+purple full: 256 0 256 256
+

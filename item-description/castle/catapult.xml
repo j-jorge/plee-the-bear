@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<item xmlns="http://www.gamned.org/bear/schema/0.5" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gamned.org/bear/schema/0.5 http://www.gamned.org/bear/schema/0.5/item-description.xsd" class="ptb::catapult" category="enemy/castle" box_color="#FAFF1F" url="http://www.gamned.org/wiki/index.php/catapult">
+  <inherit>
+    <class>bear::model</class>
+    <class>bear::base_item</class>
+    <class>ptb::item_with_single_player_action_reader</class>
+  </inherit>
+  <new_default_value name="base_item.mass">2000</new_default_value>
+  <new_default_value name="base_item.size.width">665</new_default_value>
+  <new_default_value name="base_item.size.height">80</new_default_value>
+</item>

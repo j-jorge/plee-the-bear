@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<item xmlns="http://www.gamned.org/bear/schema/0.5" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gamned.org/bear/schema/0.5 http://www.gamned.org/bear/schema/0.5/item-description.xsd" class="ptb::add_players_camera" category="control/camera" fixable="false" box_color="#E6EF1D" url="http://www.gamned.org/wiki/index.php/add_players_camera">
+  <inherit>
+    <class>bear::base_item</class>
+  </inherit>
+  <description>An object that gives players item to a camera_on_object item.</description>
+  <fields>
+    <field type="item_reference" name="add_players_camera.camera">
+      <description>The camera to inform.</description>
+      <set>
+        <element value="bear::camera_on_object"/>
+      </set>
+    </field>
+   <field type="boolean" name="add_players_camera.first_item">
+      <description>
+       Indicates if we add the first player.
+      </description>
+      <default_value>false</default_value>
+    </field>
+   <field type="boolean" name="add_players_camera.second_item">
+      <description>
+       Indicates if we add the second player.
+      </description>
+      <default_value>false</default_value>
+    </field>
+  </fields>
+</item>

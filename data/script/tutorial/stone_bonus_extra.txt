@@ -1,0 +1,26 @@
+0.0 player_1.control_player();
+0.0 player_1.refuse_action(wait);
+0.0 player_2.control_player();
+0.0 player_2.refuse_action(wait);
+0.0 player_extra_stones.control_player();
+0.0 player_extra_stones.add_player_in_script(script, plee_extra_stones);
+
+0.1 camera.focus_on( shared_camera );
+0.1 camera.activate();
+0.5 plee_extra_stones.remove_position_constraint_y();
+
+1 player_extra_stones.do_action(crouch, 6.5);
+1.2 player_extra_stones.talk("/Hit this bonus with your stones to move it.");
+7.5 player_extra_stones.do_action(jump, 0.1);
+
+8.0 shared_camera.focus_on( camera );
+8.0 shared_camera.activate();
+8.1 plee_extra_stones.set_center_of_mass( 15420, 2534 );
+8.1 plee_extra_stones.add_position_constraint_y();
+8.2 player_extra_stones.release_player();
+8.2 player_1.authorize_action(wait);
+8.2 player_1.release_player();
+8.2 player_2.authorize_action(wait);
+8.2 player_2.release_player();
+8.3 script.end();
+

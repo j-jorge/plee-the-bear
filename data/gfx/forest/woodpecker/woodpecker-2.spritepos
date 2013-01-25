@@ -1,0 +1,6 @@
+# The format of the lines is
+# picture: x y width height
+
+soul 1:   0 0 36 68
+soul 2:  36 0 36 68
+soul 3:  72 0 36 68

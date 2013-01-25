@@ -1,0 +1,23 @@
+# The format of the lines is
+# picture: x y width height
+
+air 4: 159 102 29 20
+air 3: 159 82 29 20
+air 2: 159 62 29 20
+air 1: 130 102 29 20
+water 4: 130 82 29 20
+water 3: 130 62 29 20
+water 2: 101 102 29 20
+water 1: 101 82 29 20
+fire 4: 101 62 29 20
+fire 3: 72 102 29 20
+fire 2: 72 82 29 20
+fire 1: 72 62 29 20
+hand 4: 216 60 29 20
+hand 3: 216 40 29 20
+hand 2: 216 20 29 20
+hand 1: 216 0 29 20
+jump 4: 0 62 72 62
+jump 3: 144 0 72 62
+jump 2: 72 0 72 62
+jump 1: 0 0 72 62

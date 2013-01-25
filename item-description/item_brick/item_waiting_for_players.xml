@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<item xmlns="http://www.gamned.org/bear/schema/0.5" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gamned.org/bear/schema/0.5 http://www.gamned.org/bear/schema/0.5/item-description.xsd" class="ptb::item_waiting_for_players" category="-abstract-" url="http://www.gamned.org/wiki/index.php/item_waiting_for_players">
+  <inherit>
+    <class>bear::basic_renderable_item</class>
+  </inherit>
+  <fields>
+    <field type="animation" name="item_waiting_for_players.animation_off">
+      <description>The animation when no player is here.</description>
+    </field>
+    <field type="animation" name="item_waiting_for_players.animation_for_single_one">
+      <description>The animation when only the first player is here.</description>
+    </field>
+    <field type="animation" name="item_waiting_for_players.animation_for_single_two">
+      <description>The animation when only the second player is here.</description>
+    </field>
+    <field type="animation" name="item_waiting_for_players.animation_for_all">
+      <description>The animation when each player is here.</description>
+    </field>
+<field type="string" name="item_waiting_for_players.allowed_actions" list="true">
+      <description>List of allowed actions for activation.</description>
+      <set>
+        <element value="captive"/>
+        <element value="cling"/>
+        <element value="crouch"/>
+        <element value="disappear"/>
+        <element value="fall"/>
+        <element value="float"/>
+        <element value="float_and_swim"/>
+        <element value="game_over"/>
+        <element value="idle"/>
+        <element value="injured"/>
+        <element value="jump"/>
+        <element value="look_upward"/>
+        <element value="maintain"/>
+        <element value="maintain_and_fall"/>
+        <element value="maintain_and_walk"/>
+        <element value="paralyze"/>
+        <element value="roar"/>
+        <element value="run"/>
+        <element value="sink"/>
+        <element value="slap"/>
+        <element value="slap_and_walk"/>
+        <element value="start_cling"/>
+        <element value="start_hang"/>
+        <element value="start_jump"/>
+        <element value="swimming"/>
+        <element value="take_hat"/>
+        <element value="throw"/>
+        <element value="throw_and_fall"/>
+        <element value="throw_and_walk"/>
+        <element value="vertical_jump"/>
+        <element value="wait1"/>
+        <element value="wait2"/>
+        <element value="wait3"/>
+        <element value="walk"/>
+      </set>
+      <default_value>"all actions"</default_value>
+    </field>
+  </fields>
+</item>

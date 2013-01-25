@@ -1,0 +1,44 @@
+0.0 player_1.control_player();
+0.0 player_1.refuse_action(wait);
+0.0 player_2.control_player();
+0.0 player_2.refuse_action(wait);
+0.0 player_air.control_player();
+0.0 player_air.refuse_action(wait);
+0.0 player_air.add_player_in_script(script, plee_air);
+
+0.2 camera.focus_on( shared_camera );
+0.2 camera.activate();
+
+0.2 player_air.do_action(move_left, 0.7);
+1.7 player_air.talk("/You can float in mid-air with the power of air.");
+
+1.7 player_air.set_power(air, 1);
+7.7 player_air.do_action(jump, 1);
+10.0 player_air.talk("/I'll show you how can we get of this pit.");
+
+11.0 player_air.do_action(move_left, 2.3);
+12.3 player_air.do_action(jump, 0.3);
+14.0 player_air.do_action(look_upward, 1.2);
+14.0 player_air.do_action(jump, 1);
+15.0 player_air.do_action(move_left, 1.7);
+17.0 player_air.do_action(move_right, 0.2);
+
+17.9 player_air.talk("/First, gain some speed.");
+19.0 player_air.do_action(move_right, 3);
+20.6 player_air.do_action(jump, 3);
+
+22.0 player_air.talk("/Take the power and come here./Hold your jump button to float.");
+22.2 player_air.do_action(move_left, 0.1);
+
+30.0 shared_camera.focus_on( camera );
+30.0 shared_camera.activate();
+
+30.3 plee_air.set_center_of_mass(25299.2, 981);
+
+30.5 player_air.release_player();
+30.5 player_1.authorize_action(wait);
+30.5 player_1.release_player();
+30.5 player_2.authorize_action(wait);
+30.5 player_2.release_player();
+30.5 script.end();
+

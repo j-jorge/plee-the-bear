@@ -1,0 +1,22 @@
+# The format of the lines is
+# picture: x y width height
+
+water 1:  0 0 60 80
+water 2: 60 0 60 80
+water 3: 80 0 60 80
+
+stones: 180 0 60 80
+more stones: 0 80 60 80
+
+fire 1:  60 80 60 80
+fire 2: 120 80 60 80
+fire 3: 180 80 60 80
+
+invincibility 1:   0 160 60 80
+invincibility 2:  60 160 60 80
+invincibility 3: 120 160 60 80
+invincibility 4: 180 160 60 80
+
+water pot: 0 240 15 16
+fire pot: 15 240 15 16
+air pot: 30 240 15 16

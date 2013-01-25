@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<item xmlns="http://www.gamned.org/bear/schema/0.5" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gamned.org/bear/schema/0.5 http://www.gamned.org/bear/schema/0.5/item-description.xsd" class="ptb::players_detector" category="entity" fixable="false" box_color="#B15A78" url="http://www.gamned.org/wiki/index.php/players_detector">
+  <inherit>
+    <class>ptb::item_waiting_for_players</class>
+    <class>bear::base_item</class>
+  </inherit>
+  <description>An item that kills itself after collision with a player.</description>
+  <fields>
+    <field type="string" name="players_detector.category">
+      <description>The category of the item used by ptb::bonus_all_dead_by_category items.</description>
+    </field>
+  </fields>
+</item>

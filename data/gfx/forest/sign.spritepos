@@ -1,0 +1,8 @@
+# The format of the lines is
+# picture: x y width height
+
+exit sign:   0 0 80 98
+coop sign:  80 0 80 98
+single down sign: 160 0 80 98
+single up sign: 240 0 80 98
+single horizontal sign: 320 0 80 98

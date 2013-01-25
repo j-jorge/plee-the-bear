@@ -1,0 +1,10 @@
+0.1 player_intro.control_player();
+0.1 player_intro.refuse_action(wait);
+0.45 player_intro.do_action(move_left, 0.8);
+
+1 player_intro.talk("/Hi!/I will be your guide through this tutorial./First, you should look at the configuration menu to see or change commands./Then, go to the next totem on the right.");
+
+20 player_intro.do_action(move_right, 0.8);
+20.8 player_intro.do_action(disappear, 0.01);
+21 player_intro.release_player();
+21.1 script.end();

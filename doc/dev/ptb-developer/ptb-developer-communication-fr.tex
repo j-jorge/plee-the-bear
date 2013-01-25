@@ -1,0 +1,50 @@
+%_______________________________________________________________________________
+\section{La communication entre les objets \index{communication!espace de 
+         noms} }
+
+\subsection{L'espace de noms communication \index{communication!espace de
+            noms} }
+Tout ce qui se rapporte à la communication entre objets est dans l'espace de
+noms \texttt{communication}.
+
+\subsubsection{Le bureau de poste \index{communication!post office
+                \emph{(classe)}} }
+La classe \verb|communication::post_office| agit comme un bureau de poste.
+Entendez par là quelle permet de faire communiquer les items qui en dépendent.
+Vous pouvez théoriquement avoir autant de bureaux de poste que vous le
+souhaitez. Tous les objets dépendants d'un bureau de poste doivent avoir un nom
+unique. Cependant, deux items dépendant de bureaux de poste différents peuvent
+avoir le même nom.
+
+Il y a deux manières d'envoyer un message. La méthode \verb|post_message()|
+ajoute le message dans la queue des messages du destinataire ; alors que la
+méthode \verb|send_message()| permet de faire traiter le message par le
+destinataire. La première méthode garde une référence vers le message envoyé,
+il ne faut donc pas que celui ci soit détruit avant d'être traité. Il est à la
+charge de l'émetteur de détruire les messages envoyés.
+
+Appelez la méthode \verb|process_messages()| pour traiter les messages en
+attente dans la file d'attente des items.
+
+Les objets souhaitant pouvoir recevoir des messages doivent hériter de la
+classe \verb|communication::messageable| \index{communication!messageable} et
+s'enregistrer auprès d'un bureau de poste.
+
+\subsubsection{Les messages \index{communication!message \emph{(classe)}} }
+Les messages transmis doivent hériter de la classe
+\verb|communication::message|. Chaque type de message doit avoir un code
+identifiant son contenu (afin de faciliter le traitement par les destinataires).
+
+\subsection{Organisation de la communication dans le jeu
+            \index{communication!message \emph{(classe)}} }
+Dans le jeu, il n'y a qu'un seul bureau de poste, représenté par le singleton
+\verb|ptb::post_office|
+ \index{post office \emph{(classe ptb::)}}
+ \index{bureau de poste}.
+
+Les items souhaitant recevoir des messages doivent hériter de
+\verb|ptb::messageable_item|
+ \index{messageable item \emph{(classe ptb::)}}
+ou de \verb|ptb::renderable_messageable|
+ \index{renderable messageable \emph{(classe ptb::)}}
+.

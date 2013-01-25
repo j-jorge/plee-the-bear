@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<item xmlns="http://www.gamned.org/bear/schema/0.5" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gamned.org/bear/schema/0.5 http://www.gamned.org/bear/schema/0.5/item-description.xsd" class="ptb::player_action_sender" category="input" fixable="false" box_color="#8D256E" url="http://www.gamned.org/wiki/index.php/player_action_sender">
+  <inherit>
+    <class>bear::base_item</class>
+  </inherit>
+  <description>This class send player actions on network.</description>
+  <fields>
+    <field type="u_integer" name="player_action_sender.local_player_index">
+      <description>The index of the local player.</description>
+    </field>
+    <field type="string" name="player_action_sender.other_ip">
+      <description>IP adress of other player.</description>
+      <after field="player_action_sender.local_player_index"/>
+    </field>
+  </fields>
+</item>

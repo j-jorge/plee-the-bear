@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<level name='' width='800' height='600' music=''>
+  <layer class_name='action_layer' name='' width='800' height='600' fit_level='1'>
+
+<items>
+    <item class_name='bear::delayed_level_loading' fixed='true'>
+<fields>
+<field name='base_item.position.bottom'>
+<real value='37'/>
+</field>
+<field name='base_item.position.left'>
+<real value='42'/>
+</field>
+<field name='delayed_level_loading.delay'>
+<real value='1'/>
+</field>
+<field name='delayed_level_loading.level'>
+<string value='level/gamned.cl'/>
+</field>
+</fields>
+    </item><!-- bear::delayed_level_loading -->
+
+</items>
+
+<priority>
+</priority>
+
+  </layer><!-- action_layer -->
+
+</level>

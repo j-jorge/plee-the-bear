@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<item xmlns="http://www.gamned.org/bear/schema/0.5" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gamned.org/bear/schema/0.5 http://www.gamned.org/bear/schema/0.5/item-description.xsd" class="ptb::power_drop_restriction_zone" category="control" fixable="true" box_color="#D48E82" url="http://www.gamned.org/wiki/index.php/power_drop_restriction_zone">
+  <inherit>
+    <class>bear::base_item</class>
+  </inherit>
+  <description>A zone in which players cannot drop a given power.</description>
+  <fields>
+    <field type="boolean" name="power_drop_restriction_zone.air">
+      <description>Indicates if there is a restriction for air power.</description>
+      <default_value>false</default_value>
+    </field>
+    <field type="boolean" name="power_drop_restriction_zone.fire">
+      <description>Indicates if there is a restriction for fire power.</description>
+      <default_value>false</default_value>
+    </field>
+    <field type="boolean" name="power_drop_restriction_zone.water">
+      <description>Indicates if there is a restriction for water power.</description>
+      <default_value>false</default_value>
+    </field>
+  </fields>
+</item>

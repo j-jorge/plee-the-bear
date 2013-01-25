@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation loops='0' first_index='0' last_index='0' loop_back='false' auto_size='true' width='15' height='15' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'>
+  <frame duration='1'>
+    <sprite image='gfx/bonus-box-1.png' x='15' y='240' clip_width='15' clip_height='15' spritepos='' auto_size='true' width='15' height='15' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+</animation>

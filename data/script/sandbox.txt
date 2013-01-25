@@ -1,0 +1,4 @@
+0 {
+  boss.start_model_action("idle");
+  script.end();
+}

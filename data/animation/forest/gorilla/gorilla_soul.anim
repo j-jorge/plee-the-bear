@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation loops='0' first_index='0' last_index='4' loop_back='false' auto_size='true' width='91' height='193' mirror='boolean_false' flip='boolean_false' angle='0' opacity='0.6' red_intensity='1' green_intensity='1' blue_intensity='1'>
+  <frame duration='0.105'>
+    <sprite image='gfx/forest/gorilla/soul.png' x='0' y='0' clip_width='91' clip_height='193' spritepos='soul 1' auto_size='true' width='91' height='193' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.105'>
+    <sprite image='gfx/forest/gorilla/soul.png' x='91' y='0' clip_width='91' clip_height='193' spritepos='soul 2' auto_size='true' width='91' height='193' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.105'>
+    <sprite image='gfx/forest/gorilla/soul.png' x='182' y='0' clip_width='91' clip_height='193' spritepos='soul 3' auto_size='true' width='91' height='193' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.105'>
+    <sprite image='gfx/forest/gorilla/soul.png' x='273' y='0' clip_width='91' clip_height='193' spritepos='soul 4' auto_size='true' width='91' height='193' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.105'>
+    <sprite image='gfx/forest/gorilla/soul.png' x='364' y='0' clip_width='91' clip_height='193' spritepos='soul 5' auto_size='true' width='91' height='193' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+</animation>

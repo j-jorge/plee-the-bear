@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation loops='0' first_index='0' last_index='5' loop_back='false' auto_size='true' width='96' height='80' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'>
+  <frame duration='0.12'>
+    <sprite image='gfx/forest/woodpecker/woodpecker-1.png' x='214' y='80' clip_width='96' clip_height='80' spritepos='flying 1' auto_size='true' width='96' height='80' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.12'>
+    <sprite image='gfx/forest/woodpecker/woodpecker-1.png' x='214' y='160' clip_width='96' clip_height='80' spritepos='flying 2' auto_size='true' width='96' height='80' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.12'>
+    <sprite image='gfx/forest/woodpecker/woodpecker-1.png' x='310' y='0' clip_width='96' clip_height='80' spritepos='flying 3' auto_size='true' width='96' height='80' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.12'>
+    <sprite image='gfx/forest/woodpecker/woodpecker-1.png' x='406' y='0' clip_width='96' clip_height='80' spritepos='flying 4' auto_size='true' width='96' height='80' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.06'>
+    <sprite image='gfx/forest/woodpecker/woodpecker-1.png' x='310' y='0' clip_width='96' clip_height='80' spritepos='flying 3' auto_size='true' width='96' height='80' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.06'>
+    <sprite image='gfx/forest/woodpecker/woodpecker-1.png' x='214' y='160' clip_width='96' clip_height='80' spritepos='flying 2' auto_size='true' width='96' height='80' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+</animation>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<item xmlns="http://www.gamned.org/bear/schema/0.5" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gamned.org/bear/schema/0.5 http://www.gamned.org/bear/schema/0.5/item-description.xsd" class="ptb::player_start_position" category="entity" fixable="false" box_color="#8D256E" url="http://www.gamned.org/wiki/index.php/player_start_position">
+  <inherit>
+    <class>bear::base_item</class>
+  </inherit>
+  <description>This class represent the position of a player when a level starts.</description>
+  <fields>
+    <field type="u_integer" name="player_start_position.player_index" required="true">
+      <description>The index of the player to create.</description>
+    </field>
+    <field type="string" name="player_start_position.exit_name">
+      <description>The name of the exit associated with this entry.</description>
+      <default_value>default</default_value>
+    </field>
+    <field type="string" name="player_start_position.character">
+      <description>The type of the player.</description>
+      <set>
+        <element value="plee"/>
+        <element value="ray"/>
+      </set>
+      <default_value>plee</default_value>
+    </field>
+  </fields>
+</item>

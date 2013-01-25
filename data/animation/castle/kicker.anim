@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation loops='1' first_index='0' last_index='9' loop_back='false' auto_size='true' width='215' height='42' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'>
+  <frame duration='0.05'>
+    <sprite image='gfx/castle/kicker.png' x='0' y='168' clip_width='215' clip_height='42' spritepos='down 1' auto_size='true' width='215' height='42' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.05'>
+    <sprite image='gfx/castle/kicker.png' x='0' y='126' clip_width='215' clip_height='42' spritepos='down 2' auto_size='true' width='215' height='42' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.05'>
+    <sprite image='gfx/castle/kicker.png' x='0' y='168' clip_width='215' clip_height='42' spritepos='down 1' auto_size='true' width='215' height='42' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.05'>
+    <sprite image='gfx/castle/kicker.png' x='0' y='210' clip_width='215' clip_height='42' spritepos='default' auto_size='true' width='215' height='42' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.05'>
+    <sprite image='gfx/castle/kicker.png' x='0' y='84' clip_width='215' clip_height='42' spritepos='up 1' auto_size='true' width='215' height='42' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.05'>
+    <sprite image='gfx/castle/kicker.png' x='0' y='42' clip_width='215' clip_height='42' spritepos='up 2' auto_size='true' width='215' height='42' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.05'>
+    <sprite image='gfx/castle/kicker.png' x='0' y='0' clip_width='215' clip_height='42' spritepos='up 3' auto_size='true' width='215' height='42' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.05'>
+    <sprite image='gfx/castle/kicker.png' x='0' y='42' clip_width='215' clip_height='42' spritepos='up 2' auto_size='true' width='215' height='42' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.05'>
+    <sprite image='gfx/castle/kicker.png' x='0' y='84' clip_width='215' clip_height='42' spritepos='up 1' auto_size='true' width='215' height='42' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.05'>
+    <sprite image='gfx/castle/kicker.png' x='0' y='210' clip_width='215' clip_height='42' spritepos='default' auto_size='true' width='215' height='42' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+</animation>

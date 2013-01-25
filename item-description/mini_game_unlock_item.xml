@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<item xmlns="http://www.gamned.org/bear/schema/0.5" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gamned.org/bear/schema/0.5 http://www.gamned.org/bear/schema/0.5/item-description.xsd" class="ptb::mini_game_unlock_item" category="toggle/action" fixable="false" box_color="#009296" url="http://www.gamned.org/wiki/index.php/mini_game_unlock_item">
+  <inherit>
+    <class>ptb::notification_toggle</class>
+    <class>bear::basic_renderable_item</class>
+  </inherit>
+  <description>A item that unlocks a mini-game.</description>
+  <fields>
+    <field type="string" name="mini_game_unlock_item.name" required="true">
+      <description>The name of the mini-game to unlock.</description>
+    </field>
+    <field type="string" name="mini_game_unlock_item.unlocked_sentence">
+      <description>The sentence that is written when the mini-game is unlocked.</description>
+    </field>
+  </fields>
+</item>

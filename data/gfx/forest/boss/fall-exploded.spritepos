@@ -1,0 +1,8 @@
+# The format of the lines is
+# picture: x y width height
+
+right leg: 0 0 164 299
+right ear: 361 1 89 177
+head: 0 299 176 142
+left ear: 176 242 69 167
+left leg: 164 0 197 242

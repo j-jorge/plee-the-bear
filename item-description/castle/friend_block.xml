@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<item xmlns="http://www.gamned.org/bear/schema/0.5" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gamned.org/bear/schema/0.5 http://www.gamned.org/bear/schema/0.5/item-description.xsd" class="ptb::friend_block" category="enemy/castle" box_color="#FAFF1F" url="http://www.gamned.org/wiki/index.php/friend_block">
+  <inherit>
+    <class>bear::block</class>
+  </inherit>
+ <description>A wall that is desactivated when a friend ghost possess a player.</description>
+  <fields>
+    <field type="item_reference" name="friend_block.friend_ghost" required="true">
+      <description>The friend ghost to consider.</description>
+      <set>
+        <element value="ptb::friend_ghost"/>
+      </set>
+    </field>
+  </fields>
+</item>

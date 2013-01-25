@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<item xmlns="http://www.gamned.org/bear/schema/0.5" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gamned.org/bear/schema/0.5 http://www.gamned.org/bear/schema/0.5/item-description.xsd" class="ptb::bonus_point" category="-abstract-" fixable="true" url="http://www.gamned.org/wiki/index.php/bonus_point">
+  <inherit>
+    <class>bear::base_item</class>
+  </inherit>
+  <fields>
+    <field type="string" name="bonus_point.name">
+      <description>The name of given points.</description>
+    </field>
+    <field type="u_integer" name="bonus_point.point">
+      <description>The number of points to give.</description>
+    </field>
+  </fields>
+</item>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation loops='1' first_index='0' last_index='12' loop_back='false' auto_size='true' width='121' height='168' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'>
+  <frame duration='0.045'>
+    <sprite image='gfx/god/appearing.png' x='363' y='336' clip_width='121' clip_height='168' spritepos='frame 12' auto_size='true' width='121' height='168' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.045'>
+    <sprite image='gfx/god/appearing.png' x='242' y='336' clip_width='121' clip_height='168' spritepos='frame 11' auto_size='true' width='121' height='168' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.045'>
+    <sprite image='gfx/god/appearing.png' x='121' y='336' clip_width='121' clip_height='168' spritepos='frame 10' auto_size='true' width='121' height='168' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.045'>
+    <sprite image='gfx/god/appearing.png' x='0' y='336' clip_width='121' clip_height='168' spritepos='frame 9' auto_size='true' width='121' height='168' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.045'>
+    <sprite image='gfx/god/appearing.png' x='363' y='168' clip_width='121' clip_height='168' spritepos='frame 8' auto_size='true' width='121' height='168' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.045'>
+    <sprite image='gfx/god/appearing.png' x='242' y='168' clip_width='121' clip_height='168' spritepos='frame 7' auto_size='true' width='121' height='168' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.045'>
+    <sprite image='gfx/god/appearing.png' x='121' y='168' clip_width='121' clip_height='168' spritepos='frame 6' auto_size='true' width='121' height='168' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.045'>
+    <sprite image='gfx/god/appearing.png' x='0' y='168' clip_width='121' clip_height='168' spritepos='frame 5' auto_size='true' width='121' height='168' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.045'>
+    <sprite image='gfx/god/appearing.png' x='363' y='0' clip_width='121' clip_height='168' spritepos='frame 4' auto_size='true' width='121' height='168' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.045'>
+    <sprite image='gfx/god/appearing.png' x='242' y='0' clip_width='121' clip_height='168' spritepos='frame 3' auto_size='true' width='121' height='168' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.045'>
+    <sprite image='gfx/god/appearing.png' x='121' y='0' clip_width='121' clip_height='168' spritepos='frame 2' auto_size='true' width='121' height='168' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.045'>
+    <sprite image='gfx/god/appearing.png' x='0' y='0' clip_width='121' clip_height='168' spritepos='frame 1' auto_size='true' width='121' height='168' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.045'>
+    <sprite image='gfx/god/appearing.png' x='0' y='0' clip_width='1' clip_height='1' spritepos='' auto_size='true' width='1' height='1' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+</animation>

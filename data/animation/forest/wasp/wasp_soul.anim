@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation loops='0' first_index='0' last_index='3' loop_back='true' auto_size='true' width='95' height='90' mirror='boolean_false' flip='boolean_false' angle='0' opacity='0.75' red_intensity='1' green_intensity='1' blue_intensity='1'>
+  <frame duration='0.105'>
+    <sprite image='gfx/forest/wasp/wasp.png' x='0' y='153' clip_width='95' clip_height='90' spritepos='soul 1' auto_size='true' width='95' height='90' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.105'>
+    <sprite image='gfx/forest/wasp/wasp.png' x='95' y='153' clip_width='95' clip_height='90' spritepos='soul 2' auto_size='true' width='95' height='90' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.105'>
+    <sprite image='gfx/forest/wasp/wasp.png' x='190' y='153' clip_width='95' clip_height='90' spritepos='soul 3' auto_size='true' width='95' height='90' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.105'>
+    <sprite image='gfx/forest/wasp/wasp.png' x='285' y='153' clip_width='95' clip_height='90' spritepos='soul 4' auto_size='true' width='95' height='90' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+</animation>

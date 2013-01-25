@@ -1,0 +1,77 @@
+fire.png:
+    animate : True
+    crop_width: 500
+    crop_height: 350
+    x: 860
+    y: 1360
+    width: 183
+    height: 128
+    layers:
+        fire1:
+            - fire reflect 1
+            - fire orange 1
+            - fire yellow 1
+            - wood logs
+            - spindle
+            - spindle reflect
+            - fire shadow 1
+        fire2:
+            - fire reflect 2
+            - fire orange 2
+            - fire yellow 2
+            - wood logs
+            - spindle
+            - spindle reflect
+            - fire shadow 2
+        fire3:
+            - fire reflect 3
+            - fire orange 3
+            - fire yellow 3
+            - wood logs
+            - spindle
+            - spindle reflect
+            - fire shadow 3
+
+fireplace.png:
+    crop_width: 1400
+    crop_height: 1400
+    x: 400
+    y: 350
+    width: 512
+    height: 512
+    layers:
+        - web spider
+        - deer details
+        - deer background
+        - wood
+        - deer board details
+        - deer board
+        - outline fireplace
+        - fireplace shadow
+        - fireplace texture
+        - fireplace opaque background
+
+fireplace_without_deer.png:
+    crop_width: 1400
+    crop_height: 1400
+    x: 400
+    y: 350
+    width: 512
+    height: 512
+    layers:
+        - outline fireplace
+        - fireplace shadow
+        - fireplace texture
+        - fireplace opaque background
+
+
+wall.png:
+    crop_width: 1400
+    crop_height: 1400
+    x: 400
+    y: 350
+    width: 512
+    height: 512
+    layers:
+        - wall texture
+        - background

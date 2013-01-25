@@ -1,0 +1,19 @@
+0.0 player_1.control_player();
+0.0 player_1.refuse_action(wait);
+0.0 player_2.control_player();
+0.0 player_2.refuse_action(wait);
+0.0 player_combined.control_player();
+0.0 player_combined.refuse_action(wait);
+0.0 player_combined.add_player_in_script(script, plee_combined);
+
+0.2 player_combined.do_action(move_left, 1);
+1 player_combined.talk("/The powers can be combined. Let's try it!/Change your active item to switch powers.");
+12 player_combined.do_action(move_right, 1);
+
+14 plee_combined.set_center_of_mass( 33139, 729 );
+14 player_combined.release_player();
+14 player_1.authorize_action(wait);
+14 player_1.release_player();
+14 player_2.authorize_action(wait);
+14 player_2.release_player();
+14 script.end();

@@ -1,0 +1,7 @@
+# The format of the lines is
+# picture: x y width height
+
+fire 1: 0 0 32 256
+fire 2: 32 0 32 256
+fire 3: 64 0 32 256
+fire 4: 96 0 32 256

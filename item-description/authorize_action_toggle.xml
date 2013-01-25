@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<item xmlns="http://www.gamned.org/bear/schema/0.5" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gamned.org/bear/schema/0.5 http://www.gamned.org/bear/schema/0.5/item-description.xsd" class="ptb::authorize_action_toggle" category="toggle" box_color="#009296" url="http://www.gamned.org/wiki/index.php/authorize_action_toggle">
+  <inherit>
+    <class>bear::base_item</class>
+    <class>bear::item_with_toggle</class>
+  </inherit>
+  <description>A toggle that authorizes or refuses to do a given action.</description>
+  <fields>
+    <field type="string" name="authorize_action_toggle.action" required="true">
+      <description>
+        The action to set.
+      </description>
+      <set>
+        <element value="die"/>
+	<element value="idle"/>
+	<element value="move_left"/>
+	<element value="move_right"/>
+	<element value="jump"/>
+	<element value="look_upward"/>
+	<element value="crouch"/>
+	<element value="slap"/>
+	<element value="throw_stone"/>
+	<element value="change_object"/>
+	<element value="say"/>
+	<element value="get_camera"/>
+	<element value="chain"/>
+	<element value="unchain"/>
+	<element value="roar"/>
+	<element value="disappear"/>
+      </set>
+    </field>
+    <field type="boolean" name="authorize_action_toggle.value">
+      <description>
+        The value of the action : true if the action is authorized.
+      </description>
+      <default_value>true</default_value>
+    </field>
+  </fields>
+</item>

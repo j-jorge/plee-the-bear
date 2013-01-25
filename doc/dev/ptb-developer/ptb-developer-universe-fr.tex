@@ -1,0 +1,98 @@
+%_______________________________________________________________________________
+\section{Objets, lois de physiques et interactions}
+
+\subsection{L'espace de noms univers \index{universe!espace de noms} }
+Tout ce qui se rapporte à l'univers (entités de base, lois de la physique, etc.)
+est dans l'espace de noms \texttt{universe}.
+
+\subsubsection{Qu'est-ce qu'un objet physique ? \index{universe!objet
+               physique} }
+Un objet physique (classe \verb|universe::physical_item|) est un objet
+sur lequel s'appliquent les lois de la physique ; un objet qui peut
+intéragir, rentrer en contact avec ses semblables ; un objet qui subit
+la gravité, a une vitesse, une accéleration, etc. Les collisions sont
+détectées avec la méthode des boites englobantes.
+
+Lors d'une collision, les objets en contacts sont informés par un appel à leur
+méthode \texttt{collision}. Le système leur donne alors une référence de l'autre
+item et les positions de chaque objets. Cette méthode n'a pas le droit de
+modifier directement la position des objets (méthode \texttt{set\_position()}),
+elle peut cependant modifier les paramètres de positions qui lui sont passés.
+
+Les objets du jeu hériteront de \verb|universe::base_entity|, qui propose une
+méthode \texttt{progress()} sensée effectuer l'évolution de l'objet et hérite de
+\verb|universe::physical_item|. 
+
+\subsubsection{Quelles sont les lois physiques ? \index{universe!lois de la
+               physique} }
+La classe \verb|universe::physic_rules| représente, autant qu'elle le
+peut, le comportement physique des objets du monde. Elle calcule la
+nouvelle position de tous les objets mobiles et détecte les
+collisions. Son utilisation se fait comme présenté dans
+l'algorithme~\ref{algo_ex_physic_rules}.
+
+\begin{algorithm}[!htb]
+  \begin{center}
+  \begin{algorithmic}
+    \STATE{physic\_rules pr}
+    \STATE\COMMENT{Tell the physic which items are interesting}
+    \STATE{pr.begin\_listing()}
+    \FORALL{item in the active area}
+      \STATE{pr.add\_item(item)}
+    \ENDFOR
+    \STATE{pr.end\_listing()}
+    \STATE\COMMENT{Apply the rules}
+    \STATE{pr.progress()}
+  \end{algorithmic}
+  \caption{Exemple d'utilisation de la classe universe::physic\_rules }
+  \label{algo_ex_physic_rules}
+  \end{center}
+\end{algorithm}
+
+\subsubsection{Les mouvements forcés \index{universe!mouvements
+               forces@mouvements forcés} }
+Il est possible d'imposer un mouvement à un objet. Dans ce cas, cet
+objet ne subira plus les forces de la physique. L'application de ces
+mouvements est effectuée lors de l'appel à \verb|physic_rules::progress|.
+Il n'est donc plus nécessaire de s'occuper d'un mouvement forcé une fois que
+celui-ci a été appliqué à un objet.  Le tableau~ \ref{tab_mouvements_forces}
+présente les différents mouvements envisagés. Lorsque le mouvement fait
+intervenir deux objets, celui auquel le mouvement est appliqué est l'objet $A$ ;
+l'objet $B$ étant en général un point de référence.
+
+
+\begin{table}[!htb]
+  \begin{center}
+  \begin{tabular}{|c|l|}
+    \hline
+    Mouvement & Description \\
+    \hline
+    forced\_join & L'objet $A$ va rejoindre l'objet $B$ \\
+    forced\_rotation & Fait tourner l'objet $A$ autour de l'objet $B$
+    \\
+    forced\_tracking & L'objet $A$ reste à une distance
+                       constante de l'objet $B$ \\
+    forced\_train & Fait suivre un chemin à l'objet $A$ \\
+    \hline
+  \end{tabular}
+  \caption{Mouvements forcés envisagés}
+  \label{tab_mouvements_forces}
+  \end{center}
+\end{table}
+
+\subsubsection{Structure du monde \index{universe!monde} }
+Le monde est représenté par la classe \verb|universe::world|. C'est un
+conteneur de \verb|universe::physical_item| (pour les murs et tous ces
+objets immobiles et à durée de vie infinie) et de \verb|universe::base_entity|
+(pour tous les objets <<~vivants~>>). De plus le monde possède des lois
+physiques.
+
+Le monde sans ses entités est plutôt vide (il ne reste que les
+murs). Vide dans le sens où il y a beaucoup de coordonnées sans
+murs. On utilise donc une instance de \verb|concept::static_map()| (voir
+\ref{section-concept-static_map}) pour les stocker.
+
+\subsection{Le monde dans le jeu \index{monde} }
+Dans le jeu, le monde est représenté par la classe \verb|ptb::world|, qui
+hérite de \verb|universe::world|. La seule méthode ajoutée est
+\texttt{render()}, qui permet d'afficher les objets stockés.

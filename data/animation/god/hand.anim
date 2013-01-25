@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation loops='1' first_index='0' last_index='18' loop_back='false' auto_size='true' width='170' height='138' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'>
+  <frame duration='0.054'>
+    <sprite image='gfx/god/hand-1.png' x='340' y='276' clip_width='170' clip_height='138' spritepos='frame 1' auto_size='true' width='170' height='138' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.054'>
+    <sprite image='gfx/god/hand-1.png' x='170' y='276' clip_width='170' clip_height='138' spritepos='frame 2' auto_size='true' width='170' height='138' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.054'>
+    <sprite image='gfx/god/hand-1.png' x='0' y='276' clip_width='170' clip_height='138' spritepos='frame 3' auto_size='true' width='170' height='138' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.054'>
+    <sprite image='gfx/god/hand-1.png' x='340' y='138' clip_width='170' clip_height='138' spritepos='frame 4' auto_size='true' width='170' height='138' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.054'>
+    <sprite image='gfx/god/hand-1.png' x='170' y='138' clip_width='170' clip_height='138' spritepos='frame 5' auto_size='true' width='170' height='138' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.054'>
+    <sprite image='gfx/god/hand-1.png' x='0' y='138' clip_width='170' clip_height='138' spritepos='frame 6' auto_size='true' width='170' height='138' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.054'>
+    <sprite image='gfx/god/hand-1.png' x='340' y='0' clip_width='170' clip_height='138' spritepos='frame 7' auto_size='true' width='170' height='138' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.054'>
+    <sprite image='gfx/god/hand-1.png' x='170' y='0' clip_width='170' clip_height='138' spritepos='frame 8' auto_size='true' width='170' height='138' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.081'>
+    <sprite image='gfx/god/hand-1.png' x='0' y='0' clip_width='170' clip_height='138' spritepos='frame 9' auto_size='true' width='170' height='138' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.108'>
+    <sprite image='gfx/god/hand-2.png' x='340' y='276' clip_width='170' clip_height='138' spritepos='frame 10' auto_size='true' width='170' height='138' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.081'>
+    <sprite image='gfx/god/hand-2.png' x='170' y='276' clip_width='170' clip_height='138' spritepos='frame 11' auto_size='true' width='170' height='138' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.054'>
+    <sprite image='gfx/god/hand-2.png' x='0' y='276' clip_width='170' clip_height='138' spritepos='frame 12' auto_size='true' width='170' height='138' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.054'>
+    <sprite image='gfx/god/hand-2.png' x='340' y='138' clip_width='170' clip_height='138' spritepos='frame 13' auto_size='true' width='170' height='138' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.054'>
+    <sprite image='gfx/god/hand-2.png' x='170' y='138' clip_width='170' clip_height='138' spritepos='frame 14' auto_size='true' width='170' height='138' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.054'>
+    <sprite image='gfx/god/hand-2.png' x='0' y='138' clip_width='170' clip_height='138' spritepos='frame 15' auto_size='true' width='170' height='138' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.054'>
+    <sprite image='gfx/god/hand-2.png' x='340' y='0' clip_width='170' clip_height='138' spritepos='frame 16' auto_size='true' width='170' height='138' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.054'>
+    <sprite image='gfx/god/hand-2.png' x='170' y='0' clip_width='170' clip_height='138' spritepos='frame 17' auto_size='true' width='170' height='138' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.054'>
+    <sprite image='gfx/god/hand-2.png' x='0' y='0' clip_width='170' clip_height='138' spritepos='frame 18' auto_size='true' width='170' height='138' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.054'>
+    <sprite image='gfx/god/hand-2.png' x='0' y='0' clip_width='1' clip_height='1' spritepos='' auto_size='true' width='1' height='1' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+</animation>

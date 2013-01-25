@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<item xmlns="http://www.gamned.org/bear/schema/0.5" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gamned.org/bear/schema/0.5 http://www.gamned.org/bear/schema/0.5/item-description.xsd" class="ptb::bonus_all_dead_by_category" category="bonus_points" fixable="false" url="http://www.gamned.org/wiki/index.php/bonus_all_dead_by_category">
+  <inherit>
+    <class>ptb::bonus_points</class>
+  </inherit>
+  <description>An item that adds points if all players_detector items of given category are dead.</description>
+  <fields>
+    <field type="string" name="bonus_all_dead_by_category.category" required="true">
+      <description>The category of players_detector to consider.</description>
+    </field>
+  </fields>
+</item>

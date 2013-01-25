@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation loops='1' first_index='0' last_index='11' loop_back='false' auto_size='true' width='78' height='129' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'>
+  <frame duration='0.2'>
+    <sprite image='gfx/plee/plee-alt-4.png' x='68' y='245' clip_width='78' clip_height='129' spritepos='drowning 1' auto_size='true' width='78' height='129' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.24'>
+    <sprite image='gfx/plee/plee-alt-4.png' x='146' y='245' clip_width='78' clip_height='129' spritepos='drowning 2' auto_size='true' width='78' height='129' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.12'>
+    <sprite image='gfx/plee/plee-alt-4.png' x='224' y='245' clip_width='78' clip_height='129' spritepos='drowning 3' auto_size='true' width='78' height='129' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.12'>
+    <sprite image='gfx/plee/plee-alt-4.png' x='224' y='245' clip_width='78' clip_height='129' spritepos='drowning 3' auto_size='true' width='78' height='129' mirror='boolean_false' flip='boolean_false' angle='-0.1' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.12'>
+    <sprite image='gfx/plee/plee-alt-4.png' x='224' y='245' clip_width='78' clip_height='129' spritepos='drowning 3' auto_size='true' width='78' height='129' mirror='boolean_false' flip='boolean_false' angle='-0.2' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.12'>
+    <sprite image='gfx/plee/plee-alt-4.png' x='224' y='245' clip_width='78' clip_height='129' spritepos='drowning 3' auto_size='true' width='78' height='129' mirror='boolean_false' flip='boolean_false' angle='-0.3' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.12'>
+    <sprite image='gfx/plee/plee-alt-4.png' x='224' y='245' clip_width='78' clip_height='129' spritepos='drowning 3' auto_size='true' width='78' height='129' mirror='boolean_false' flip='boolean_false' angle='-0.4' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.12'>
+    <sprite image='gfx/plee/plee-alt-4.png' x='224' y='245' clip_width='78' clip_height='129' spritepos='drowning 3' auto_size='true' width='78' height='129' mirror='boolean_false' flip='boolean_false' angle='-0.5' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.12'>
+    <sprite image='gfx/plee/plee-alt-4.png' x='224' y='245' clip_width='78' clip_height='129' spritepos='drowning 3' auto_size='true' width='78' height='129' mirror='boolean_false' flip='boolean_false' angle='-0.6' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.12'>
+    <sprite image='gfx/plee/plee-alt-4.png' x='224' y='245' clip_width='78' clip_height='129' spritepos='drowning 3' auto_size='true' width='78' height='129' mirror='boolean_false' flip='boolean_false' angle='-0.7' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.12'>
+    <sprite image='gfx/plee/plee-alt-4.png' x='224' y='245' clip_width='78' clip_height='129' spritepos='drowning 3' auto_size='true' width='78' height='129' mirror='boolean_false' flip='boolean_false' angle='-0.8' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.12'>
+    <sprite image='gfx/plee/plee-alt-4.png' x='224' y='245' clip_width='78' clip_height='129' spritepos='drowning 3' auto_size='true' width='78' height='129' mirror='boolean_false' flip='boolean_false' angle='-0.9' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+</animation>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation loops='0' first_index='0' last_index='2' loop_back='false' auto_size='true' width='48' height='13' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'>
+  <frame duration='0.09'>
+    <sprite image='gfx/plee/misc.png' x='175' y='0' clip_width='48' clip_height='13' spritepos='stars 1' auto_size='true' width='48' height='13' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.09'>
+    <sprite image='gfx/plee/misc.png' x='175' y='13' clip_width='48' clip_height='13' spritepos='stars 2' auto_size='true' width='48' height='13' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.09'>
+    <sprite image='gfx/plee/misc.png' x='175' y='26' clip_width='48' clip_height='13' spritepos='stars 3' auto_size='true' width='48' height='13' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+</animation>

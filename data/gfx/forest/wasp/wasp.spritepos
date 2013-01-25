@@ -1,0 +1,17 @@
+# The format of the lines is
+# picture: x y width height
+
+fly 1:   0 0 92 63
+fly 2:  92 0 92 63
+fly 3: 184 0 92 63
+fly 4: 276 0 92 63
+
+dead 1:   0 63 89 90
+dead 2:  89 63 89 90
+dead 3: 178 63 89 90
+dead 4: 267 63 89 90
+
+soul 1:   0 153 95 90
+soul 2:  95 153 95 90
+soul 3: 190 153 95 90
+soul 4: 285 153 95 90

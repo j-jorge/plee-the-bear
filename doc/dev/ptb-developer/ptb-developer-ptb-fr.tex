@@ -1,0 +1,150 @@
+%_______________________________________________________________________________
+\section{Les outils du jeu \index{outils} }
+
+%-------------------------------------------------------------------------------
+\subsection{Collisions \index{collision} }
+
+\subsubsection{Prise de contrôle \index{controle@contrôle} }
+
+Nous n'avons pas encore choidi comment déterminer quel est l'objet qui prend le
+contrôle lors d'une collision.
+
+\subsubsection{Gestion événementielle \index{collisions!evenement@événement} }
+Il est possible d'automatiser le comportement à adopter lors d'une collision à
+l'aide des classes filles de la classe \verb|ptb::collision_event|. Les
+événements actuellement implantés sont :
+\begin{itemize}
+\item \texttt{collision\_event\_align} : aligne l'autre item en utilisant
+      l'alignement passé comme paramètre template
+      (voir~\ref{section-alignements}) ;
+\item \texttt{collision\_event\_align\_accelerate} : aligne l'autre item de la
+      même manière que \texttt{collision\_event\_align} et lui applique
+      ensuite une accélération pour l'éloigner de l'item courant ;
+\item \texttt{collision\_event\_align\_stop} : semblable à
+      \texttt{collision\_event\_align}, avec ceci de plus que l'autre item est
+      arrêté.
+\end{itemize}
+
+La classe \verb|ptb::base_item| contient une table permettant d'affecter un
+traitement de collision en fonction de l'origine de l'autre item.
+
+\subsection{Alignements de rectangles \index{alignement} }
+\label{section-alignements}
+L'ensemble des classes filles de \verb|ptb::alignment| permet d'aligner deux
+rectangles. Les paramètres nécessaires sont la boîte fixe, la boîte à aligner et
+l'ancienne position de la boîte à aligner. L'alignement se fait de manière
+naturelle.
+
+\paragraph{Note :}l'ancienne position de l'autre item doit être différente de 
+la position actuelle pour les alignements en coin.
+
+\subsubsection{Zones créées par un item \index{zone} }
+En traçant des droites passant par chaque côté de la boîte englobante d'un item,
+on fait apparaître neuf zones que l'on numérote conventionnellement de la
+gauche vers la droite puis du haut vers le bas ; la première étant 0 ou 1 selon
+l'indiçage qui vous arrange.
+
+%-------------------------------------------------------------------------------
+\subsection{Objets de base \index{base} }
+Les items de base du jeu sont au nombre de quatre : \verb|ptb::base_item|,
+\index{base item \emph{(classe ptb::)} }
+\verb|ptb::renderable_item|, \verb|ptb::messageable_item| et
+\index{renderable item \emph{(classe ptb::)} }
+\index{messageable item \emph{(classe ptb::)} }
+\verb|ptb::renderable_messageable|. Les trois derniers héritent du premier.
+\index{renderable messageable \emph{(classe ptb::)} }
+
+Chaque instance d'une de ces classes a un identifiant unique pendant tout le
+jeu. \index{identifiant}
+
+La classe de base a une méthode \texttt{is\_renderable()} qui renverra vrai si
+l'arbre contenant la classe instanciée a un noeud \verb|ptb::renderable|.
+
+Il est possible de paramétrer dynamiquement certains champs à l'aide des
+méthodes \texttt{set\_field()}. Les paramètres sont de type \texttt{int},
+\texttt{float} et \verb|std::string|. La version \texttt{void*} va disparaître
+au profit d'une version \verb|visual::sprite| et d'une autre
+\verb|visual::animation|. La méthode \texttt{is\_valid()} doit retourner vrai
+uniquement si tous les paramètres dynamiques nécessaires ont été configurés.
+
+La classe de base a une table de neuf \texttt{collision\_event} permettant
+d'automatiser la gestion des collisions en fonction de la zone de provenance
+de l'autre item. L'événement par défaut ne fait aucune action. Vous pouvez
+changer l'événement associé à une zone avec la méthode
+\texttt{set\_collision\_event()}. Appelez la méthode
+\texttt{default\_collision\_event()} pour appliquer l'événement qui convient.
+
+La classe \verb|ptb::renderable_item| n'ajoute aucun champ ou méthode et permet
+juste d'indiquer que l'objet héritant est affichable.
+
+La classe \verb|ptb::messageable_item| hérite de
+\verb|communication::messageable| \index{communication!messageable} et permet
+donc aux classes filles de recevoir des messages.
+
+La classe \verb|ptb::renderable_messageable| combine les propriétés des deux
+classes précédentes.
+
+%-------------------------------------------------------------------------------
+\subsection{Population \index{population} }
+
+La classe singleton \verb|ptb::population| stocke et gère la création et la
+suppression des entités. Une méthode \texttt{exists()} permet de savoir s'il
+existe un item avec un identifiant particulier.
+
+%-------------------------------------------------------------------------------
+\subsection{Entités partagées \index{entite partagee@entité partagée} }
+
+Il est quelquefois nécessaire de stocker un pointeur vers un item que l'on ne
+contrôle pas, c'est à dire que l'item peut cesser d'exister à n'importe quel
+moment. La classe \verb|ptb::item_handle| permet de manipuler ce genre d'items
+de manière sûre. Elle défini les opérateurs de déréférence, permettant ainsi
+de l'utiliser comme on utiliserait le pointeur qu'elle contient. La méthode
+\texttt{is\_valid()} permet de savoir si le pointeur contenu est toujours
+valide.
+
+%-------------------------------------------------------------------------------
+\subsection{Calques \index{calque} \index{layer|see{calque}} }
+
+Les calques héritent tous de la classe \verb|ptb::layer|. Nous en avons envisagé
+quatre, mais seulement trois sont implémentés.
+
+\subsubsection{Calque de décoration \index{calque!decoration@décoration} }
+
+Les calques de décoration ne contiennent que des sprites et des animations. Les
+deux sont stockés dans un \verb|concept::static_map| pour économiser l'espace.
+Bien entendu, les positions des décorations sont fixes.
+
+\subsubsection{Calque d'activité \index{calque!activite@activité} }
+
+C'est dans le calque d'activité que se passe toute l'action. Bien entendu il n'y
+aura qu'un seul calque d'activité dans la pile des calques. Ce calque contient
+une instance de \verb|ptb::world| et sert juste de conteneur.
+
+\subsubsection{Calque de motif \index{calque!motif} }
+
+Le calque de motif n'est pas encore implémenté.
+
+\subsubsection{Calque de status \index{calque!status} }
+Le calque de status devrait être unique et au dessus de tous les autres calques.
+Il ne sert qu'à afficher des informations sur l'état du (des) joueur(s) (points,
+vies, énergie et autres).
+
+%-------------------------------------------------------------------------------
+\subsection{Caméra \index{camera@caméra} }
+
+Une caméra est représentée par la classe \verb|ptb::camera|. Il s'agit
+simplement d'un rectangle placé dans le monde. Il y a deux manières de
+positionner une caméra : soit en indiquant la position du coin en haut à gauche,
+soit en indiquant la position du centre. Dans les deux cas, la caméra est
+ajustée pour ne pas sortir du niveau. La méthode \texttt{get\_focus()} permet
+de récupérer la position de la caméra.
+
+%-------------------------------------------------------------------------------
+\subsection{Niveaux \index{niveau} }
+
+La classe \verb|ptb::level| représente un niveau. Elle contient la caméra du
+niveau (position à calculer en fonction des positions des joueurs) et les
+calques.
+
+Il est envisageable d'implémenter des niveaux particuliers en héritant de cette
+classe.

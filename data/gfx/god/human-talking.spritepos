@@ -1,0 +1,16 @@
+# The format of the lines is
+# picture: x y width height
+
+frame 1:   0 0 128 170
+frame 2: 128 0 128 170
+frame 3: 256 0 128 170
+frame 4: 384 0 128 170
+frame 5:   0 170 128 170
+frame 6: 128 170 128 170
+frame 7: 256 170 128 170
+frame 8: 384 170 128 170
+frame 9:   0 340 128 170
+frame 10: 128 340 128 170
+
+ball creation 1: 256 340 127 156
+ball creation 2: 383 340 127 156

@@ -1,0 +1,16 @@
+# The format of the lines is
+# picture: x y width height
+
+waiting 1:   0 0 62 85
+waiting 2:  62 0 62 85
+waiting 3: 124 0 62 85
+
+owl with nut: 186 0 70 85
+
+owl tears 1:   0  85 72 85
+owl tears 2:  72  85 72 85
+owl tears 3: 144  85 72 85
+owl tears 4:   0 170 72 85
+owl tears 5:  72 170 72 85
+
+nut: 216 85 24 24
