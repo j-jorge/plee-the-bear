@@ -874,10 +874,39 @@
 <mark label="hat" apply_angle_to_animation="1" pause_animation_when_hidden="0">
 <animation_file path='animation/plee/cap.canim' auto_size='true' width='34' height='16' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </mark>
+<mark label="arm" apply_angle_to_animation="1" pause_animation_when_hidden="0">
+<animation loops='0' first_index='0' last_index='0' loop_back='false' auto_size='true' width='19' height='54' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'>
+  <frame duration='1'>
+    <sprite image='gfx/plee/plee-1.png' x='492' y='457' clip_width='19' clip_height='54' spritepos='arm' auto_size='true' width='19' height='54' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+</animation>
+</mark>
 </marks>
 <snapshots>
 <snapshot date="0" function="apply_walk" width="40" height="110" x_alignment="align_left" y_alignment="align_bottom" x_alignment_value="0" y_alignment_value="0">
 <mark_placements>
+<mark_placement label="arm" function="" x="14.3235" y="56.6471" width="0" height="0" z="1" angle="0" visible="1" x_easing="cubic:out" y_easing="cubic:out" width_easing="none:in" height_easing="none:in" angle_easing="cubic:out"/>
+<mark_placement label="hat" function="" x="23" y="110" width="0" height="0" z="1" angle="0.2" visible="1" x_easing="none:in" y_easing="none:in" width_easing="none:in" height_easing="none:in" angle_easing="none:in"/>
+<mark_placement label="mouth" function="" x="31" y="87" width="0" height="0" z="1" angle="0" visible="1" x_easing="none:in" y_easing="none:in" width_easing="none:in" height_easing="none:in" angle_easing="none:in"/>
+<mark_placement label="body" function="" x="24" y="56" width="0" height="0" z="0" angle="0" visible="1" x_easing="none:in" y_easing="none:in" width_easing="none:in" height_easing="none:in" angle_easing="none:in"/>
+</mark_placements>
+</snapshot><snapshot date="0.24" width="40" height="110" x_alignment="align_left" y_alignment="align_bottom" x_alignment_value="0" y_alignment_value="0">
+<mark_placements>
+<mark_placement label="arm" function="" x="17" y="56.2353" width="0" height="0" z="1" angle="0.17" visible="1" x_easing="cubic:out" y_easing="cubic:out" width_easing="none:in" height_easing="none:in" angle_easing="cubic:out"/>
+<mark_placement label="hat" function="" x="23" y="110" width="0" height="0" z="1" angle="0.2" visible="1" x_easing="none:in" y_easing="none:in" width_easing="none:in" height_easing="none:in" angle_easing="none:in"/>
+<mark_placement label="mouth" function="" x="31" y="87" width="0" height="0" z="1" angle="0" visible="1" x_easing="none:in" y_easing="none:in" width_easing="none:in" height_easing="none:in" angle_easing="none:in"/>
+<mark_placement label="body" function="" x="24" y="56" width="0" height="0" z="0" angle="0" visible="1" x_easing="none:in" y_easing="none:in" width_easing="none:in" height_easing="none:in" angle_easing="none:in"/>
+</mark_placements>
+</snapshot><snapshot date="0.48" width="40" height="110" x_alignment="align_left" y_alignment="align_bottom" x_alignment_value="0" y_alignment_value="0">
+<mark_placements>
+<mark_placement label="arm" function="" x="14.3235" y="56.6471" width="0" height="0" z="1" angle="0" visible="1" x_easing="cubic:out" y_easing="cubic:out" width_easing="none:in" height_easing="none:in" angle_easing="cubic:out"/>
+<mark_placement label="hat" function="" x="23" y="110" width="0" height="0" z="1" angle="0.2" visible="1" x_easing="none:in" y_easing="none:in" width_easing="none:in" height_easing="none:in" angle_easing="none:in"/>
+<mark_placement label="mouth" function="" x="31" y="87" width="0" height="0" z="1" angle="0" visible="1" x_easing="none:in" y_easing="none:in" width_easing="none:in" height_easing="none:in" angle_easing="none:in"/>
+<mark_placement label="body" function="" x="24" y="56" width="0" height="0" z="0" angle="0" visible="1" x_easing="none:in" y_easing="none:in" width_easing="none:in" height_easing="none:in" angle_easing="none:in"/>
+</mark_placements>
+</snapshot><snapshot date="0.72" width="40" height="110" x_alignment="align_left" y_alignment="align_bottom" x_alignment_value="0" y_alignment_value="0">
+<mark_placements>
+<mark_placement label="arm" function="" x="10.5294" y="56.9412" width="0" height="0" z="1" angle="-0.16" visible="1" x_easing="cubic:out" y_easing="cubic:out" width_easing="none:in" height_easing="none:in" angle_easing="cubic:out"/>
 <mark_placement label="hat" function="" x="23" y="110" width="0" height="0" z="1" angle="0.2" visible="1" x_easing="none:in" y_easing="none:in" width_easing="none:in" height_easing="none:in" angle_easing="none:in"/>
 <mark_placement label="mouth" function="" x="31" y="87" width="0" height="0" z="1" angle="0" visible="1" x_easing="none:in" y_easing="none:in" width_easing="none:in" height_easing="none:in" angle_easing="none:in"/>
 <mark_placement label="body" function="" x="24" y="56" width="0" height="0" z="0" angle="0" visible="1" x_easing="none:in" y_easing="none:in" width_easing="none:in" height_easing="none:in" angle_easing="none:in"/>
@@ -1306,10 +1335,32 @@
 <mark label="hat" apply_angle_to_animation="1" pause_animation_when_hidden="0">
 <animation_file path='animation/plee/cap.canim' auto_size='true' width='34' height='16' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </mark>
+<mark label="arm" apply_angle_to_animation="1" pause_animation_when_hidden="0">
+<animation loops='0' first_index='0' last_index='0' loop_back='false' auto_size='true' width='19' height='54' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'>
+  <frame duration='1'>
+    <sprite image='gfx/plee/plee-1.png' x='492' y='457' clip_width='19' clip_height='54' spritepos='arm' auto_size='true' width='19' height='54' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+</animation>
+</mark>
 </marks>
 <snapshots>
 <snapshot date="0" function="apply_idle" width="40" height="110" x_alignment="align_left" y_alignment="align_bottom" x_alignment_value="0" y_alignment_value="0">
 <mark_placements>
+<mark_placement label="arm" function="" x="13.4167" y="53.5833" width="0" height="0" z="1" angle="0" visible="1" x_easing="cubic:out" y_easing="cubic:out" width_easing="none:in" height_easing="none:in" angle_easing="cubic:out"/>
+<mark_placement label="hat" function="" x="21" y="110" width="0" height="0" z="1" angle="0.2" visible="1" x_easing="none:in" y_easing="none:in" width_easing="none:in" height_easing="none:in" angle_easing="none:in"/>
+<mark_placement label="mouth" function="" x="28" y="87" width="0" height="0" z="1" angle="0" visible="1" x_easing="none:in" y_easing="none:in" width_easing="none:in" height_easing="none:in" angle_easing="none:in"/>
+<mark_placement label="body" function="" x="23" y="56" width="0" height="0" z="0" angle="0" visible="1" x_easing="none:in" y_easing="none:in" width_easing="none:in" height_easing="none:in" angle_easing="none:in"/>
+</mark_placements>
+</snapshot><snapshot date="0.24" width="40" height="110" x_alignment="align_left" y_alignment="align_bottom" x_alignment_value="0" y_alignment_value="0">
+<mark_placements>
+<mark_placement label="arm" function="" x="18.5806" y="54" width="0" height="0" z="1" angle="0.26" visible="1" x_easing="cubic:out" y_easing="cubic:out" width_easing="none:in" height_easing="none:in" angle_easing="cubic:out"/>
+<mark_placement label="hat" function="" x="21" y="110" width="0" height="0" z="1" angle="0.2" visible="1" x_easing="none:in" y_easing="none:in" width_easing="none:in" height_easing="none:in" angle_easing="none:in"/>
+<mark_placement label="mouth" function="" x="28" y="87" width="0" height="0" z="1" angle="0" visible="1" x_easing="none:in" y_easing="none:in" width_easing="none:in" height_easing="none:in" angle_easing="none:in"/>
+<mark_placement label="body" function="" x="23" y="56" width="0" height="0" z="0" angle="0" visible="1" x_easing="none:in" y_easing="none:in" width_easing="none:in" height_easing="none:in" angle_easing="none:in"/>
+</mark_placements>
+</snapshot><snapshot date="0.48" function="apply_idle" width="40" height="110" x_alignment="align_left" y_alignment="align_bottom" x_alignment_value="0" y_alignment_value="0">
+<mark_placements>
+<mark_placement label="arm" function="" x="13.4167" y="53.5833" width="0" height="0" z="1" angle="0" visible="1" x_easing="cubic:out" y_easing="cubic:out" width_easing="none:in" height_easing="none:in" angle_easing="cubic:out"/>
 <mark_placement label="hat" function="" x="21" y="110" width="0" height="0" z="1" angle="0.2" visible="1" x_easing="none:in" y_easing="none:in" width_easing="none:in" height_easing="none:in" angle_easing="none:in"/>
 <mark_placement label="mouth" function="" x="28" y="87" width="0" height="0" z="1" angle="0" visible="1" x_easing="none:in" y_easing="none:in" width_easing="none:in" height_easing="none:in" angle_easing="none:in"/>
 <mark_placement label="body" function="" x="23" y="56" width="0" height="0" z="0" angle="0" visible="1" x_easing="none:in" y_easing="none:in" width_easing="none:in" height_easing="none:in" angle_easing="none:in"/>

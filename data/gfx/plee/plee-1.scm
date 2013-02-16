@@ -51,27 +51,32 @@
                (left_leg            10)
                (left_leg_back       11) )
 
+          (create-layer-crop src_image
+                             (list right_arm_1)
+                             32 73 52 147
+                             492 457 19 54 dest_image '())
+
           (create-layer src_image
-                        (list right_arm_1 right_leg body)
+                        (list right_leg body)
                         0 0 64 112 dest_image)
           (create-layer src_image
-                        (list right_arm_1 right_leg_front body left_leg)
+                        (list right_leg_front body left_leg)
                         64 0 64 112 dest_image)
           (create-layer src_image
-                        (list right_arm_2 right_leg_front body left_leg_back)
+                        (list right_leg_front body left_leg_back)
                         128 0 64 112 dest_image)
           (create-layer src_image
-                        (list right_arm_2 right_leg body left_leg_back)
+                        (list right_leg body left_leg_back)
                         192 0 64 112 dest_image)
           ; insert the first frame here
           (create-layer src_image
-                        (list right_arm_1 right_leg body left_leg_front)
+                        (list right_leg body left_leg_front)
                         256 0 64 112 dest_image)
           (create-layer src_image
-                        (list right_arm_0 right_leg_back body left_leg_front)
+                        (list right_leg_back body left_leg_front)
                         320 0 64 112 dest_image)
           (create-layer src_image
-                        (list right_arm_0 right_leg_back body left_leg)
+                        (list right_leg_back body left_leg)
                         384 0 64 112 dest_image)
 
           ; this is the frame for the 'waiting' animation
