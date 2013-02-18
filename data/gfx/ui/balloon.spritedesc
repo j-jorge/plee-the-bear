@@ -1,0 +1,20 @@
+/*  */
+sprite_sheet "balloon-1" 512 x 512 margin 1
+
+balloon "balloon.xcf.bz2"
+
+"spike" autosize * 0.5 with balloon
+  glob "spike*"
+  ;
+
+"vertical border" autosize * 0.5 with balloon
+  glob "vertical border*"
+  ;
+
+"horizontal border" autosize * 0.5 with balloon
+  glob "horizontal border*"
+  ;
+
+"corner" autosize * 0.5 with balloon
+  glob "corner*"
+  ;

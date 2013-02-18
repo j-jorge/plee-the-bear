@@ -34,7 +34,7 @@ void ptb::item_that_speaks<Base>::pre_cache()
   super::pre_cache();
 
   this->get_level_globals().load_font("font/speech.fnt");
-  this->get_level_globals().load_image("gfx/ui/balloon.png");
+  this->get_level_globals().load_image("gfx/ui/balloon-1.png");
 } // item_that_speaks::pre_cache()
 
 /*---------------------------------------------------------------------------*/
@@ -47,16 +47,16 @@ void ptb::item_that_speaks<Base>::build()
   super::build();
 
   this->get_balloon().set_spike_sprite
-    ( this->get_level_globals().auto_sprite("gfx/ui/balloon.png", "spike") );
+    ( this->get_level_globals().auto_sprite("gfx/ui/balloon-1.png", "spike") );
   this->get_balloon().set_corner_sprite
-    ( this->get_level_globals().auto_sprite("gfx/ui/balloon.png", "corner") );
+    ( this->get_level_globals().auto_sprite("gfx/ui/balloon-1.png", "corner") );
 
   this->get_balloon().set_horizontal_border_sprite
     ( this->get_level_globals().auto_sprite
-      ( "gfx/ui/balloon.png", "horizontal border" ) );
+      ( "gfx/ui/balloon-1.png", "horizontal border" ) );
   this->get_balloon().set_vertical_border_sprite
     ( this->get_level_globals().auto_sprite
-      ( "gfx/ui/balloon.png", "vertical border" ) );
+      ( "gfx/ui/balloon-1.png", "vertical border" ) );
 
   this->get_balloon().set_font
     ( this->get_level_globals().get_font("font/speech.fnt", 14) );
