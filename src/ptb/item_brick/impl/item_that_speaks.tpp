@@ -33,7 +33,7 @@ void ptb::item_that_speaks<Base>::pre_cache()
 {
   super::pre_cache();
 
-  this->get_level_globals().load_font("font/speech.fnt");
+  this->get_level_globals().load_font("font/comic.ttf");
   this->get_level_globals().load_image("gfx/ui/balloon-1.png");
 } // item_that_speaks::pre_cache()
 
@@ -59,5 +59,5 @@ void ptb::item_that_speaks<Base>::build()
       ( "gfx/ui/balloon-1.png", "vertical border" ) );
 
   this->get_balloon().set_font
-    ( this->get_level_globals().get_font("font/speech.fnt", 14) );
+    ( this->get_level_globals().get_font("font/comic.ttf", 24) );
 } // item_that_speaks::build()

@@ -9,6 +9,7 @@
  * \author Julien Jorge
  */
 #include "ptb/init.hpp"
+
 #include "ptb/defines.hpp"
 #include "ptb/config_file.hpp"
 #include "ptb/controller_config.hpp"
@@ -17,9 +18,10 @@
 #include "engine/system/game_filesystem.hpp"
 #include "engine/variable/variable.hpp"
 #include "engine/resource_pool.hpp"
+#include "engine/i18n/gettext_translator.hpp"
+#include "engine/i18n/translator.hpp"
 
 #include <locale>
-#include <libintl.h>
 #include <claw/logger.hpp>
 #include <claw/string_algorithm.hpp>
 #include <claw/configuration_file.hpp>
@@ -70,6 +72,13 @@ void load_mini_game()
  */
 void init_plee_the_bear()
 {
+  bindtextdomain( "plee-the-bear", "/usr/share/locale" );
+  bind_textdomain_codeset( "plee-the-bear", "ISO-8859-15" );
+  textdomain( "plee-the-bear" );
+
+  bear::engine::game::get_instance().set_translator
+    ( bear::engine::gettext_translator( "plee-the-bear" ) );
+
   srand( time(NULL) );
 
   ptb::config_file config;
@@ -80,13 +89,4 @@ void init_plee_the_bear()
   controller.load();
 
   load_mini_game();
-
-#ifdef _WIN32
-  bindtextdomain( "plee-the-bear", "share/locale" );
-#elif defined PTB_TEXT_DOMAIN_PATH
-  bindtextdomain( "plee-the-bear", BOOST_PP_STRINGIZE(PTB_TEXT_DOMAIN_PATH) );
-#endif
-
-  bind_textdomain_codeset( "plee-the-bear", "ISO-8859-15" );
-  textdomain( "plee-the-bear" );
 } // init_plee_the_bear()

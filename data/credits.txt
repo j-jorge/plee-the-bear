@@ -1,6 +1,6 @@
 # Lines starting with a # are comments
 #
-# Lines starting with #font indicate the path ans the size to the font
+# Lines starting with #font indicate the path ans the size of the font
 # to use to display the content of the next lines
 #
 # Lines starting with #intensity indicate the color and the opacity of the text

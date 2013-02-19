@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-04-14 17:37+0200\n"
+"POT-Creation-Date: 2013-02-19 17:55+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,14 +18,14 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 
-#: ../../../src/ptb/frame/code/frame_profiles.cpp:267
+#: ../../../src/ptb/frame/code/frame_profiles.cpp:254
 msgid "\". Are you sure?"
 msgstr ""
 
 msgid "\"I'm gonna find that boy and give him the wallop he deserves.\""
 msgstr ""
 
-#: ../../../src/ptb/layer/status/code/time_component.cpp:91
+#: ../../../src/ptb/layer/status/code/time_component.cpp:74
 msgid "%M:%S"
 msgstr ""
 
@@ -48,6 +48,9 @@ msgid "%v/50"
 msgstr ""
 
 msgid "(demo)"
+msgstr ""
+
+msgid "...AH! AH! AH! AAH!"
 msgstr ""
 
 msgid "1"
@@ -86,34 +89,37 @@ msgstr ""
 msgid "Action null"
 msgstr ""
 
-#: ../../../src/ptb/frame/code/frame_pause.cpp:110
+msgid "Am I alone?"
+msgstr ""
+
+#: ../../../src/ptb/frame/code/frame_pause.cpp:92
 msgid "Are you sure you want to leave this level?"
 msgstr ""
 
-#: ../../../src/ptb/frame/code/frame_configure.cpp:72
-#: ../../../src/ptb/frame/code/frame_audio.cpp:47
+#: ../../../src/ptb/frame/code/frame_configure.cpp:54
+#: ../../../src/ptb/frame/code/frame_audio.cpp:29
 msgid "Audio"
 msgstr ""
 
-#: ../../../src/ptb/frame/code/frame_profiles.cpp:70
-#: ../../../src/ptb/frame/code/frame_profiles.cpp:224
-#: ../../../src/ptb/frame/code/frame_profiles.cpp:260
-#: ../../../src/ptb/frame/code/frame_profiles.cpp:312
+#: ../../../src/ptb/frame/code/frame_profiles.cpp:55
+#: ../../../src/ptb/frame/code/frame_profiles.cpp:211
+#: ../../../src/ptb/frame/code/frame_profiles.cpp:247
+#: ../../../src/ptb/frame/code/frame_profiles.cpp:302
 msgid "Available"
 msgstr ""
 
-#: ../../../src/ptb/frame/code/frame_choose_player_mode.cpp:62
-#: ../../../src/ptb/frame/code/frame_play_mini_game.cpp:194
-#: ../../../src/ptb/frame/code/frame_profile_name.cpp:134
-#: ../../../src/ptb/frame/code/frame_start_menu.cpp:63
-#: ../../../src/ptb/frame/code/frame_profiles.cpp:181
-#: ../../../src/ptb/frame/code/frame_password.cpp:120
-#: ../../../src/ptb/frame/code/frame_configure.cpp:61
-#: ../../../src/ptb/frame/code/frame_play_story.cpp:239
+#: ../../../src/ptb/frame/code/frame_choose_player_mode.cpp:45
+#: ../../../src/ptb/frame/code/frame_play_mini_game.cpp:176
+#: ../../../src/ptb/frame/code/frame_profile_name.cpp:120
+#: ../../../src/ptb/frame/code/frame_start_menu.cpp:45
+#: ../../../src/ptb/frame/code/frame_profiles.cpp:168
+#: ../../../src/ptb/frame/code/frame_password.cpp:102
+#: ../../../src/ptb/frame/code/frame_configure.cpp:43
+#: ../../../src/ptb/frame/code/frame_play_story.cpp:220
 msgid "Back"
 msgstr ""
 
-#: ../../../src/ptb/frame/code/frame_pause.cpp:139
+#: ../../../src/ptb/frame/code/frame_pause.cpp:121
 msgid "Back to title screen"
 msgstr ""
 
@@ -126,17 +132,17 @@ msgstr ""
 msgid "Break the bonus with a slap to collect the stones."
 msgstr ""
 
-#: ../../../src/ptb/frame/code/frame_screen.cpp:127
-#: ../../../src/ptb/frame/code/message_box.cpp:185
-#: ../../../src/ptb/frame/code/frame_player_controls.cpp:178
-#: ../../../src/ptb/frame/code/frame_audio.cpp:234
+#: ../../../src/ptb/frame/code/frame_screen.cpp:109
+#: ../../../src/ptb/frame/code/message_box.cpp:167
+#: ../../../src/ptb/frame/code/frame_player_controls.cpp:160
+#: ../../../src/ptb/frame/code/frame_audio.cpp:216
 msgid "Cancel"
 msgstr ""
 
 msgid "Captive"
 msgstr ""
 
-#: ../../../src/ptb/item_brick/impl/counted_enemy.tpp:63
+#: ../../../src/ptb/item_brick/impl/counted_enemy.tpp:45
 msgid "Carnage"
 msgstr ""
 
@@ -146,7 +152,7 @@ msgstr ""
 msgid "Change your active item to switch powers."
 msgstr ""
 
-#: ../../../src/ptb/frame/code/frame_talk.cpp:138
+#: ../../../src/ptb/frame/code/frame_talk.cpp:120
 msgid "Close"
 msgstr ""
 
@@ -156,9 +162,9 @@ msgstr ""
 msgid "Come swimming!"
 msgstr ""
 
-#: ../../../src/ptb/frame/code/frame_pause.cpp:143
-#: ../../../src/ptb/frame/code/frame_main_menu.cpp:131
-#: ../../../src/ptb/frame/code/frame_configure.cpp:49
+#: ../../../src/ptb/frame/code/frame_pause.cpp:125
+#: ../../../src/ptb/frame/code/frame_main_menu.cpp:113
+#: ../../../src/ptb/frame/code/frame_configure.cpp:31
 msgid "Configuration"
 msgstr ""
 
@@ -171,7 +177,7 @@ msgstr ""
 msgid "Congratulations! See the mini-game menu for a new song!"
 msgstr ""
 
-#: ../../../src/ptb/frame/code/frame_profile_name.cpp:153
+#: ../../../src/ptb/frame/code/frame_profile_name.cpp:139
 msgid "Create"
 msgstr ""
 
@@ -188,7 +194,7 @@ msgid ""
 "Did you listen to the music in this level? Now you have to play it yourself!"
 msgstr ""
 
-#: ../../../src/ptb/item/code/owl.cpp:75
+#: ../../../src/ptb/item/code/owl.cpp:58
 msgid "Did you lose your friend?"
 msgstr ""
 
@@ -198,7 +204,7 @@ msgstr ""
 msgid "Disappear"
 msgstr ""
 
-#: ../../../src/ptb/frame/code/frame_level_score.cpp:207
+#: ../../../src/ptb/frame/code/frame_level_score.cpp:189
 msgid "Discard"
 msgstr ""
 
@@ -211,7 +217,7 @@ msgstr ""
 msgid "End"
 msgstr ""
 
-#: ../../../src/ptb/item_brick/code/base_bonus.cpp:443
+#: ../../../src/ptb/item_brick/code/base_bonus.cpp:427
 msgid "Energy bonus found"
 msgstr ""
 
@@ -232,15 +238,15 @@ msgid ""
 "Following honey drops left on the ground, Plee reaches the edge of the forest"
 msgstr ""
 
-#: ../../../src/ptb/frame/code/frame_game_options.cpp:82
+#: ../../../src/ptb/frame/code/frame_game_options.cpp:64
 msgid "Friendly fire"
 msgstr ""
 
-#: ../../../src/ptb/frame/code/frame_screen.cpp:81
+#: ../../../src/ptb/frame/code/frame_screen.cpp:63
 msgid "Fullscreen"
 msgstr ""
 
-#: ../../../src/ptb/frame/code/frame_configure.cpp:80
+#: ../../../src/ptb/frame/code/frame_configure.cpp:62
 msgid "Game options"
 msgstr ""
 
@@ -259,11 +265,11 @@ msgstr ""
 msgid "Graphism"
 msgstr ""
 
-#: ../../../src/ptb/item/code/hideout_bonus_item.cpp:181
+#: ../../../src/ptb/item/code/hideout_bonus_item.cpp:163
 msgid "Great explorer"
 msgstr ""
 
-#: ../../../src/ptb/item/code/hazelnut.cpp:179
+#: ../../../src/ptb/item/code/hazelnut.cpp:163
 msgid "Hazelnut"
 msgstr ""
 
@@ -282,7 +288,7 @@ msgstr ""
 msgid "Hidden Places"
 msgstr ""
 
-#: ../../../src/ptb/frame/code/frame_main_menu.cpp:145
+#: ../../../src/ptb/frame/code/frame_main_menu.cpp:127
 msgid "History"
 msgstr ""
 
@@ -308,7 +314,7 @@ msgstr ""
 msgid "I will take your son away from you, for his own safety."
 msgstr ""
 
-#: ../../../src/ptb/item/code/owl.cpp:86
+#: ../../../src/ptb/item/code/owl.cpp:69
 msgid "I'd like to have my lucky hazelnut back."
 msgstr ""
 
@@ -327,7 +333,7 @@ msgstr ""
 msgid "I'm not sure I want to."
 msgstr ""
 
-#: ../../../src/ptb/item/code/owl.cpp:93
+#: ../../../src/ptb/item/code/owl.cpp:76
 msgid "I've been looking all over for it!"
 msgstr ""
 
@@ -372,7 +378,7 @@ msgstr ""
 msgid "Let's go!"
 msgstr ""
 
-#: ../../../src/ptb/frame/code/frame_play_story.cpp:68
+#: ../../../src/ptb/frame/code/frame_play_story.cpp:49
 msgid "Level selection"
 msgstr ""
 
@@ -391,27 +397,30 @@ msgstr ""
 msgid "Look."
 msgstr ""
 
-#: ../../../src/ptb/frame/code/frame_main_menu.cpp:69
+msgid "MWAH! AH! AH! AAH!..."
+msgstr ""
+
+#: ../../../src/ptb/frame/code/frame_main_menu.cpp:51
 msgid "Main menu"
 msgstr ""
 
 msgid "Maintain the control to throw further."
 msgstr ""
 
-#: ../../../src/ptb/item/stone/code/stone.cpp:168
+#: ../../../src/ptb/item/stone/code/stone.cpp:150
 msgid "Marskman"
 msgstr ""
 
-#: ../../../src/ptb/item/code/owl.cpp:451
+#: ../../../src/ptb/item/code/owl.cpp:435
 msgid "Meet the owl"
 msgstr ""
 
-#: ../../../src/ptb/frame/code/message_box.cpp:54
+#: ../../../src/ptb/frame/code/message_box.cpp:36
 msgid "Message"
 msgstr ""
 
-#: ../../../src/ptb/frame/code/frame_play_mini_game.cpp:61
-#: ../../../src/ptb/frame/code/frame_main_menu.cpp:136
+#: ../../../src/ptb/frame/code/frame_play_mini_game.cpp:43
+#: ../../../src/ptb/frame/code/frame_main_menu.cpp:118
 msgid "Mini-game"
 msgstr ""
 
@@ -424,24 +433,24 @@ msgstr ""
 msgid "Move right"
 msgstr ""
 
-#: ../../../src/ptb/frame/code/frame_audio.cpp:123
+#: ../../../src/ptb/frame/code/frame_audio.cpp:105
 msgid "Music"
 msgstr ""
 
-#: ../../../src/ptb/frame/code/frame_level_score.cpp:114
+#: ../../../src/ptb/frame/code/frame_level_score.cpp:96
 msgid "New record"
 msgstr ""
 
-#: ../../../src/ptb/frame/code/frame_play_mini_game.cpp:232
-#: ../../../src/ptb/frame/code/frame_play_story.cpp:277
+#: ../../../src/ptb/frame/code/frame_play_mini_game.cpp:214
+#: ../../../src/ptb/frame/code/frame_play_story.cpp:258
 msgid "Next"
 msgstr ""
 
-#: ../../../src/ptb/frame/code/frame_level_score.cpp:150
+#: ../../../src/ptb/frame/code/frame_level_score.cpp:132
 msgid "No new record"
 msgstr ""
 
-#: ../../../src/ptb/frame/code/frame_play_story.cpp:562
+#: ../../../src/ptb/frame/code/frame_play_story.cpp:543
 msgid "No player"
 msgstr ""
 
@@ -451,17 +460,17 @@ msgstr ""
 msgid "Now!"
 msgstr ""
 
-#: ../../../src/ptb/frame/code/frame_screen.cpp:108
-#: ../../../src/ptb/frame/code/message_box.cpp:166
-#: ../../../src/ptb/frame/code/frame_player_controls.cpp:159
-#: ../../../src/ptb/frame/code/frame_profiles.cpp:160
-#: ../../../src/ptb/frame/code/frame_audio.cpp:213
-#: ../../../src/ptb/frame/code/frame_game_options.cpp:106
+#: ../../../src/ptb/frame/code/frame_screen.cpp:90
+#: ../../../src/ptb/frame/code/message_box.cpp:148
+#: ../../../src/ptb/frame/code/frame_player_controls.cpp:141
+#: ../../../src/ptb/frame/code/frame_profiles.cpp:147
+#: ../../../src/ptb/frame/code/frame_audio.cpp:195
+#: ../../../src/ptb/frame/code/frame_game_options.cpp:88
 msgid "OK"
 msgstr ""
 
-#: ../../../src/ptb/frame/code/frame_choose_player_mode.cpp:72
-#: ../../../src/ptb/frame/code/frame_start_menu.cpp:77
+#: ../../../src/ptb/frame/code/frame_choose_player_mode.cpp:55
+#: ../../../src/ptb/frame/code/frame_start_menu.cpp:59
 msgid "One player"
 msgstr ""
 
@@ -472,7 +481,7 @@ msgid ""
 "his mischievous son and swears:"
 msgstr ""
 
-#: ../../../src/ptb/frame/code/frame_game_options.cpp:47
+#: ../../../src/ptb/frame/code/frame_game_options.cpp:29
 msgid "Options"
 msgstr ""
 
@@ -482,12 +491,12 @@ msgstr ""
 msgid "Ouch!"
 msgstr ""
 
-#: ../../../src/ptb/frame/code/frame_password.cpp:55
-#: ../../../src/ptb/frame/code/frame_configure.cpp:67
+#: ../../../src/ptb/frame/code/frame_password.cpp:37
+#: ../../../src/ptb/frame/code/frame_configure.cpp:49
 msgid "Password"
 msgstr ""
 
-#: ../../../src/ptb/frame/code/frame_pause.cpp:47
+#: ../../../src/ptb/frame/code/frame_pause.cpp:29
 msgid "Pause"
 msgstr ""
 
@@ -499,20 +508,20 @@ msgid ""
 "medal is rewarded for a perfect score."
 msgstr ""
 
-#: ../../../src/ptb/frame/code/frame_play_mini_game.cpp:175
-#: ../../../src/ptb/frame/code/frame_play_story.cpp:220
+#: ../../../src/ptb/frame/code/frame_play_mini_game.cpp:157
+#: ../../../src/ptb/frame/code/frame_play_story.cpp:201
 msgid "Play!"
 msgstr ""
 
-#: ../../../src/ptb/frame/code/frame_configure.cpp:88
+#: ../../../src/ptb/frame/code/frame_configure.cpp:70
 msgid "Player one's controls"
 msgstr ""
 
-#: ../../../src/ptb/frame/code/frame_configure.cpp:84
+#: ../../../src/ptb/frame/code/frame_configure.cpp:66
 msgid "Player two's controls"
 msgstr ""
 
-#: ../../../src/ptb/frame/code/frame_player_controls.cpp:71
+#: ../../../src/ptb/frame/code/frame_player_controls.cpp:53
 msgid "Player's controls"
 msgstr ""
 
@@ -535,23 +544,23 @@ msgstr ""
 msgid "Press up or down to aim your stone."
 msgstr ""
 
-#: ../../../src/ptb/frame/code/frame_play_mini_game.cpp:213
-#: ../../../src/ptb/frame/code/frame_play_story.cpp:258
+#: ../../../src/ptb/frame/code/frame_play_mini_game.cpp:195
+#: ../../../src/ptb/frame/code/frame_play_story.cpp:239
 msgid "Previous"
 msgstr ""
 
-#: ../../../src/ptb/frame/code/frame_profile_name.cpp:54
+#: ../../../src/ptb/frame/code/frame_profile_name.cpp:37
 msgid "Profile name"
 msgstr ""
 
-#: ../../../src/ptb/frame/code/frame_profiles.cpp:52
+#: ../../../src/ptb/frame/code/frame_profiles.cpp:37
 msgid "Profiles"
 msgstr ""
 
 msgid "Programming"
 msgstr ""
 
-#: ../../../src/ptb/frame/code/frame_main_menu.cpp:126
+#: ../../../src/ptb/frame/code/frame_main_menu.cpp:108
 msgid "Quit"
 msgstr ""
 
@@ -575,15 +584,15 @@ msgid ""
 "cancel the jump."
 msgstr ""
 
-#: ../../../src/ptb/frame/code/frame_profiles.cpp:202
+#: ../../../src/ptb/frame/code/frame_profiles.cpp:189
 msgid "Remove"
 msgstr ""
 
-#: ../../../src/ptb/frame/code/frame_pause.cpp:133
+#: ../../../src/ptb/frame/code/frame_pause.cpp:115
 msgid "Restart level"
 msgstr ""
 
-#: ../../../src/ptb/frame/code/frame_pause.cpp:147
+#: ../../../src/ptb/frame/code/frame_pause.cpp:129
 msgid "Resume game"
 msgstr ""
 
@@ -593,26 +602,26 @@ msgstr ""
 msgid "Sandbox"
 msgstr ""
 
-#: ../../../src/ptb/frame/code/frame_level_score.cpp:226
+#: ../../../src/ptb/frame/code/frame_level_score.cpp:208
 msgid "Save"
 msgstr ""
 
 msgid "Say"
 msgstr ""
 
-#: ../../../src/ptb/frame/code/frame_play_story.cpp:588
+#: ../../../src/ptb/frame/code/frame_play_story.cpp:569
 msgid "Score:"
 msgstr ""
 
-#: ../../../src/ptb/frame/code/frame_screen.cpp:47
-#: ../../../src/ptb/frame/code/frame_configure.cpp:76
+#: ../../../src/ptb/frame/code/frame_screen.cpp:29
+#: ../../../src/ptb/frame/code/frame_configure.cpp:58
 msgid "Screen"
 msgstr ""
 
 msgid "Secret level found"
 msgstr ""
 
-#: ../../../src/ptb/item/code/owl.cpp:89
+#: ../../../src/ptb/item/code/owl.cpp:72
 msgid "See you in another world."
 msgstr ""
 
@@ -628,20 +637,20 @@ msgstr ""
 msgid "So if you die, don't worry, because you will return here."
 msgstr ""
 
-#: ../../../src/ptb/item/code/owl.cpp:82
+#: ../../../src/ptb/item/code/owl.cpp:65
 msgid "So you found my lucky hazelnut!"
 msgstr ""
 
-#: ../../../src/ptb/frame/code/frame_audio.cpp:152
+#: ../../../src/ptb/frame/code/frame_audio.cpp:134
 msgid "Sound"
 msgstr ""
 
-#: ../../../src/ptb/frame/code/frame_choose_player_mode.cpp:50
-#: ../../../src/ptb/frame/code/frame_start_menu.cpp:50
+#: ../../../src/ptb/frame/code/frame_choose_player_mode.cpp:33
+#: ../../../src/ptb/frame/code/frame_start_menu.cpp:32
 msgid "Start game"
 msgstr ""
 
-#: ../../../src/ptb/item/stone/code/stone.cpp:163
+#: ../../../src/ptb/item/stone/code/stone.cpp:145
 msgid "Stone's waster"
 msgstr ""
 
@@ -657,7 +666,7 @@ msgstr ""
 msgid "Take the power and come here."
 msgstr ""
 
-#: ../../../src/ptb/frame/code/frame_talk.cpp:50
+#: ../../../src/ptb/frame/code/frame_talk.cpp:32
 msgid "Talk"
 msgstr ""
 
@@ -709,7 +718,7 @@ msgstr ""
 msgid "There you are!"
 msgstr ""
 
-#: ../../../src/ptb/item/code/bonus_box.cpp:399
+#: ../../../src/ptb/item/code/bonus_box.cpp:383
 msgid "Thief"
 msgstr ""
 
@@ -728,12 +737,12 @@ msgstr ""
 msgid "Translations"
 msgstr ""
 
-#: ../../../src/ptb/frame/code/frame_main_menu.cpp:140
+#: ../../../src/ptb/frame/code/frame_main_menu.cpp:122
 msgid "Tutorial"
 msgstr ""
 
-#: ../../../src/ptb/frame/code/frame_choose_player_mode.cpp:67
-#: ../../../src/ptb/frame/code/frame_start_menu.cpp:70
+#: ../../../src/ptb/frame/code/frame_choose_player_mode.cpp:50
+#: ../../../src/ptb/frame/code/frame_start_menu.cpp:52
 msgid "Two players (local)"
 msgstr ""
 
@@ -760,6 +769,9 @@ msgid ""
 "time to play along with the music."
 msgstr ""
 
+msgid "Where are the others?"
+msgstr ""
+
 msgid "Where is the exit?"
 msgstr ""
 
@@ -776,18 +788,18 @@ msgstr ""
 msgid "Yeah! Leave him!"
 msgstr ""
 
-#: ../../../src/ptb/item/code/owl.cpp:79
+#: ../../../src/ptb/item/code/owl.cpp:62
 msgid "You already gave me my lucky hazelnut. Stop bothering me!"
 msgstr ""
 
 msgid "You already!"
 msgstr ""
 
-#: ../../../src/ptb/frame/code/frame_profiles.cpp:266
+#: ../../../src/ptb/frame/code/frame_profiles.cpp:253
 msgid "You are deleting the profile \""
 msgstr ""
 
-#: ../../../src/ptb/layer/code/misc_layer.cpp:384
+#: ../../../src/ptb/layer/code/misc_layer.cpp:378
 msgid ""
 "You are playing a demo version. The final version may provide a different "
 "experience."
@@ -819,7 +831,7 @@ msgstr ""
 msgid "You deserve a good spanking instead."
 msgstr ""
 
-#: ../../../src/ptb/frame/code/frame_level_score.cpp:160
+#: ../../../src/ptb/frame/code/frame_level_score.cpp:142
 msgid "You didn't get a high score. Try again!"
 msgstr ""
 
@@ -849,49 +861,49 @@ msgstr ""
 msgid "You're not ready yet."
 msgstr ""
 
-#: ../../../src/ptb/transition_effect/code/level_starting_effect.cpp:214
+#: ../../../src/ptb/transition_effect/code/level_starting_effect.cpp:197
 msgid "act"
 msgstr ""
 
-#: ../../../src/ptb/code/score_table.cpp:100
-#: ../../../src/ptb/code/score_table.cpp:104
+#: ../../../src/ptb/code/score_table.cpp:82
+#: ../../../src/ptb/code/score_table.cpp:86
 msgid "and"
 msgstr ""
 
-#: ../../../src/ptb/transition_effect/code/game_over_effect.cpp:64
+#: ../../../src/ptb/transition_effect/code/game_over_effect.cpp:46
 msgid "game over"
 msgstr ""
 
-#: ../../../src/ptb/code/score_table.cpp:98
+#: ../../../src/ptb/code/score_table.cpp:80
 msgid "hour"
 msgid_plural "hours"
 msgstr[0] ""
 msgstr[1] ""
 
-#: ../../../src/ptb/code/controller_layout.cpp:570
+#: ../../../src/ptb/code/controller_layout.cpp:551
 msgid "joystick "
 msgstr ""
 
-#: ../../../src/ptb/code/player.cpp:2375
+#: ../../../src/ptb/code/player.cpp:2417
 msgid "lazy player"
 msgstr ""
 
-#: ../../../src/ptb/code/score_table.cpp:99
-#: ../../../src/ptb/code/score_table.cpp:103
+#: ../../../src/ptb/code/score_table.cpp:81
+#: ../../../src/ptb/code/score_table.cpp:85
 msgid "minute"
 msgid_plural "minutes"
 msgstr[0] ""
 msgstr[1] ""
 
-#: ../../../src/ptb/code/score_table.cpp:101
-#: ../../../src/ptb/code/score_table.cpp:105
-#: ../../../src/ptb/code/score_table.cpp:107
+#: ../../../src/ptb/code/score_table.cpp:83
+#: ../../../src/ptb/code/score_table.cpp:87
+#: ../../../src/ptb/code/score_table.cpp:89
 msgid "second"
 msgid_plural "seconds"
 msgstr[0] ""
 msgstr[1] ""
 
-#: ../../../src/ptb/item/stone/code/stone.cpp:236
-#: ../../../src/ptb/code/player.cpp:978
+#: ../../../src/ptb/item/stone/code/stone.cpp:218
+#: ../../../src/ptb/code/player.cpp:962
 msgid "snake in the grass"
 msgstr ""

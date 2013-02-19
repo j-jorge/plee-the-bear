@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Plee the Bear 0.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-04-14 17:37+0200\n"
+"POT-Creation-Date: 2013-02-19 17:55+0100\n"
 "PO-Revision-Date: 2011-09-04 11:41+0200\n"
 "Last-Translator: Karl Ove Hufthammer <karl@huftis.org>\n"
 "Language-Team: Norwegian Nynorsk <i18n-nn@lister.ping.uio.no>\n"
@@ -18,14 +18,14 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Lokalize 1.2\n"
 
-#: ../../../src/ptb/frame/code/frame_profiles.cpp:267
+#: ../../../src/ptb/frame/code/frame_profiles.cpp:254
 msgid "\". Are you sure?"
 msgstr "». Er du sikker på at du vil gjera dette?"
 
 msgid "\"I'm gonna find that boy and give him the wallop he deserves.\""
 msgstr ""
 
-#: ../../../src/ptb/layer/status/code/time_component.cpp:91
+#: ../../../src/ptb/layer/status/code/time_component.cpp:74
 msgid "%M:%S"
 msgstr "%M.%S"
 
@@ -49,6 +49,9 @@ msgstr "%v/50"
 
 msgid "(demo)"
 msgstr "(demo)"
+
+msgid "...AH! AH! AH! AAH!"
+msgstr ""
 
 msgid "1"
 msgstr ""
@@ -87,34 +90,37 @@ msgstr "Eit spel frå"
 msgid "Action null"
 msgstr "Handling null"
 
-#: ../../../src/ptb/frame/code/frame_pause.cpp:110
+msgid "Am I alone?"
+msgstr ""
+
+#: ../../../src/ptb/frame/code/frame_pause.cpp:92
 msgid "Are you sure you want to leave this level?"
 msgstr "Er du sikker på at du vil forlata brettet?"
 
-#: ../../../src/ptb/frame/code/frame_configure.cpp:72
-#: ../../../src/ptb/frame/code/frame_audio.cpp:47
+#: ../../../src/ptb/frame/code/frame_configure.cpp:54
+#: ../../../src/ptb/frame/code/frame_audio.cpp:29
 msgid "Audio"
 msgstr "Lyd"
 
-#: ../../../src/ptb/frame/code/frame_profiles.cpp:70
-#: ../../../src/ptb/frame/code/frame_profiles.cpp:224
-#: ../../../src/ptb/frame/code/frame_profiles.cpp:260
-#: ../../../src/ptb/frame/code/frame_profiles.cpp:312
+#: ../../../src/ptb/frame/code/frame_profiles.cpp:55
+#: ../../../src/ptb/frame/code/frame_profiles.cpp:211
+#: ../../../src/ptb/frame/code/frame_profiles.cpp:247
+#: ../../../src/ptb/frame/code/frame_profiles.cpp:302
 msgid "Available"
 msgstr "Tilgjengeleg"
 
-#: ../../../src/ptb/frame/code/frame_choose_player_mode.cpp:62
-#: ../../../src/ptb/frame/code/frame_play_mini_game.cpp:194
-#: ../../../src/ptb/frame/code/frame_profile_name.cpp:134
-#: ../../../src/ptb/frame/code/frame_start_menu.cpp:63
-#: ../../../src/ptb/frame/code/frame_profiles.cpp:181
-#: ../../../src/ptb/frame/code/frame_password.cpp:120
-#: ../../../src/ptb/frame/code/frame_configure.cpp:61
-#: ../../../src/ptb/frame/code/frame_play_story.cpp:239
+#: ../../../src/ptb/frame/code/frame_choose_player_mode.cpp:45
+#: ../../../src/ptb/frame/code/frame_play_mini_game.cpp:176
+#: ../../../src/ptb/frame/code/frame_profile_name.cpp:120
+#: ../../../src/ptb/frame/code/frame_start_menu.cpp:45
+#: ../../../src/ptb/frame/code/frame_profiles.cpp:168
+#: ../../../src/ptb/frame/code/frame_password.cpp:102
+#: ../../../src/ptb/frame/code/frame_configure.cpp:43
+#: ../../../src/ptb/frame/code/frame_play_story.cpp:220
 msgid "Back"
 msgstr "Tilbake"
 
-#: ../../../src/ptb/frame/code/frame_pause.cpp:139
+#: ../../../src/ptb/frame/code/frame_pause.cpp:121
 msgid "Back to title screen"
 msgstr "Hovudmeny"
 
@@ -127,17 +133,17 @@ msgstr "Musikkbjørn"
 msgid "Break the bonus with a slap to collect the stones."
 msgstr "Slå til bonusen for å knusa han og ta steinane …"
 
-#: ../../../src/ptb/frame/code/frame_screen.cpp:127
-#: ../../../src/ptb/frame/code/message_box.cpp:185
-#: ../../../src/ptb/frame/code/frame_player_controls.cpp:178
-#: ../../../src/ptb/frame/code/frame_audio.cpp:234
+#: ../../../src/ptb/frame/code/frame_screen.cpp:109
+#: ../../../src/ptb/frame/code/message_box.cpp:167
+#: ../../../src/ptb/frame/code/frame_player_controls.cpp:160
+#: ../../../src/ptb/frame/code/frame_audio.cpp:216
 msgid "Cancel"
 msgstr "Avbryt"
 
 msgid "Captive"
 msgstr ""
 
-#: ../../../src/ptb/item_brick/impl/counted_enemy.tpp:63
+#: ../../../src/ptb/item_brick/impl/counted_enemy.tpp:45
 msgid "Carnage"
 msgstr "Blodbad"
 
@@ -147,7 +153,7 @@ msgstr "Byt gjenstand"
 msgid "Change your active item to switch powers."
 msgstr "Byt gjenstand for å byta kraft."
 
-#: ../../../src/ptb/frame/code/frame_talk.cpp:138
+#: ../../../src/ptb/frame/code/frame_talk.cpp:120
 msgid "Close"
 msgstr "Lukk"
 
@@ -158,9 +164,9 @@ msgstr ""
 msgid "Come swimming!"
 msgstr "Hopp uti!"
 
-#: ../../../src/ptb/frame/code/frame_pause.cpp:143
-#: ../../../src/ptb/frame/code/frame_main_menu.cpp:131
-#: ../../../src/ptb/frame/code/frame_configure.cpp:49
+#: ../../../src/ptb/frame/code/frame_pause.cpp:125
+#: ../../../src/ptb/frame/code/frame_main_menu.cpp:113
+#: ../../../src/ptb/frame/code/frame_configure.cpp:31
 msgid "Configuration"
 msgstr "Oppsett"
 
@@ -176,7 +182,7 @@ msgstr ""
 msgid "Congratulations! See the mini-game menu for a new song!"
 msgstr "Gratulerer! Sjå minispel-menyen for ein ny song!"
 
-#: ../../../src/ptb/frame/code/frame_profile_name.cpp:153
+#: ../../../src/ptb/frame/code/frame_profile_name.cpp:139
 msgid "Create"
 msgstr "Lag"
 
@@ -193,7 +199,7 @@ msgid ""
 "Did you listen to the music in this level? Now you have to play it yourself!"
 msgstr "Høyrde du musikken på dette brettet? No må du spela han sjølv!"
 
-#: ../../../src/ptb/item/code/owl.cpp:75
+#: ../../../src/ptb/item/code/owl.cpp:58
 msgid "Did you lose your friend?"
 msgstr "Har du mista vennen din?"
 
@@ -203,7 +209,7 @@ msgstr "Dø"
 msgid "Disappear"
 msgstr "Forsvinn"
 
-#: ../../../src/ptb/frame/code/frame_level_score.cpp:207
+#: ../../../src/ptb/frame/code/frame_level_score.cpp:189
 msgid "Discard"
 msgstr "Lukk"
 
@@ -216,7 +222,7 @@ msgstr "Hugsar du denne plassen?"
 msgid "End"
 msgstr "Slutt"
 
-#: ../../../src/ptb/item_brick/code/base_bonus.cpp:443
+#: ../../../src/ptb/item_brick/code/base_bonus.cpp:427
 msgid "Energy bonus found"
 msgstr ""
 
@@ -242,15 +248,15 @@ msgid ""
 "Following honey drops left on the ground, Plee reaches the edge of the forest"
 msgstr "Plee følgjer etter honningdråpane på bakken, og når snart skogkanten."
 
-#: ../../../src/ptb/frame/code/frame_game_options.cpp:82
+#: ../../../src/ptb/frame/code/frame_game_options.cpp:64
 msgid "Friendly fire"
 msgstr "Kan skadast av medspelar"
 
-#: ../../../src/ptb/frame/code/frame_screen.cpp:81
+#: ../../../src/ptb/frame/code/frame_screen.cpp:63
 msgid "Fullscreen"
 msgstr "Fullskjerm"
 
-#: ../../../src/ptb/frame/code/frame_configure.cpp:80
+#: ../../../src/ptb/frame/code/frame_configure.cpp:62
 msgid "Game options"
 msgstr "Spelval"
 
@@ -269,11 +275,11 @@ msgstr "Gje han gulrøtene dine!"
 msgid "Graphism"
 msgstr "Grafikk"
 
-#: ../../../src/ptb/item/code/hideout_bonus_item.cpp:181
+#: ../../../src/ptb/item/code/hideout_bonus_item.cpp:163
 msgid "Great explorer"
 msgstr ""
 
-#: ../../../src/ptb/item/code/hazelnut.cpp:179
+#: ../../../src/ptb/item/code/hazelnut.cpp:163
 msgid "Hazelnut"
 msgstr "Lykkenøtt"
 
@@ -292,7 +298,7 @@ msgstr "Hei!"
 msgid "Hidden Places"
 msgstr "Hemmelege plassar"
 
-#: ../../../src/ptb/frame/code/frame_main_menu.cpp:145
+#: ../../../src/ptb/frame/code/frame_main_menu.cpp:127
 msgid "History"
 msgstr "Spel"
 
@@ -321,7 +327,7 @@ msgid "I will take your son away from you, for his own safety."
 msgstr "Eg tek sonen din frå deg, for hans eiga skuld."
 
 # skip-rule: personifisering
-#: ../../../src/ptb/item/code/owl.cpp:86
+#: ../../../src/ptb/item/code/owl.cpp:69
 msgid "I'd like to have my lucky hazelnut back."
 msgstr "Eg vil ha lukkenøtta mi tilbake."
 
@@ -342,7 +348,7 @@ msgstr "Eg skal gje denne guden òg ein real omgang! Kom igjen!"
 msgid "I'm not sure I want to."
 msgstr "Eg veit ikkje om eg vil."
 
-#: ../../../src/ptb/item/code/owl.cpp:93
+#: ../../../src/ptb/item/code/owl.cpp:76
 msgid "I've been looking all over for it!"
 msgstr "Eg har lett etter ho overalt!"
 
@@ -390,7 +396,7 @@ msgstr "Ikkje rør sonen min!"
 msgid "Let's go!"
 msgstr "Kom igjen!"
 
-#: ../../../src/ptb/frame/code/frame_play_story.cpp:68
+#: ../../../src/ptb/frame/code/frame_play_story.cpp:49
 msgid "Level selection"
 msgstr "Brettval"
 
@@ -410,27 +416,30 @@ msgstr ""
 msgid "Look."
 msgstr "Sjå."
 
-#: ../../../src/ptb/frame/code/frame_main_menu.cpp:69
+msgid "MWAH! AH! AH! AAH!..."
+msgstr ""
+
+#: ../../../src/ptb/frame/code/frame_main_menu.cpp:51
 msgid "Main menu"
 msgstr "Hovudmeny"
 
 msgid "Maintain the control to throw further."
 msgstr "Hald inne tasten viss du vil hiva steinane lenger."
 
-#: ../../../src/ptb/item/stone/code/stone.cpp:168
+#: ../../../src/ptb/item/stone/code/stone.cpp:150
 msgid "Marskman"
 msgstr ""
 
-#: ../../../src/ptb/item/code/owl.cpp:451
+#: ../../../src/ptb/item/code/owl.cpp:435
 msgid "Meet the owl"
 msgstr "Møt ugla"
 
-#: ../../../src/ptb/frame/code/message_box.cpp:54
+#: ../../../src/ptb/frame/code/message_box.cpp:36
 msgid "Message"
 msgstr "Melding"
 
-#: ../../../src/ptb/frame/code/frame_play_mini_game.cpp:61
-#: ../../../src/ptb/frame/code/frame_main_menu.cpp:136
+#: ../../../src/ptb/frame/code/frame_play_mini_game.cpp:43
+#: ../../../src/ptb/frame/code/frame_main_menu.cpp:118
 msgid "Mini-game"
 msgstr "Minispel"
 
@@ -445,24 +454,24 @@ msgstr "Gå til venstre"
 msgid "Move right"
 msgstr "Gå til høgre"
 
-#: ../../../src/ptb/frame/code/frame_audio.cpp:123
+#: ../../../src/ptb/frame/code/frame_audio.cpp:105
 msgid "Music"
 msgstr "Musikk"
 
-#: ../../../src/ptb/frame/code/frame_level_score.cpp:114
+#: ../../../src/ptb/frame/code/frame_level_score.cpp:96
 msgid "New record"
 msgstr "Ny rekord"
 
-#: ../../../src/ptb/frame/code/frame_play_mini_game.cpp:232
-#: ../../../src/ptb/frame/code/frame_play_story.cpp:277
+#: ../../../src/ptb/frame/code/frame_play_mini_game.cpp:214
+#: ../../../src/ptb/frame/code/frame_play_story.cpp:258
 msgid "Next"
 msgstr "Neste"
 
-#: ../../../src/ptb/frame/code/frame_level_score.cpp:150
+#: ../../../src/ptb/frame/code/frame_level_score.cpp:132
 msgid "No new record"
 msgstr "Ikkje ny rekord"
 
-#: ../../../src/ptb/frame/code/frame_play_story.cpp:562
+#: ../../../src/ptb/frame/code/frame_play_story.cpp:543
 msgid "No player"
 msgstr "Ingen spelar"
 
@@ -472,17 +481,17 @@ msgstr "No er det din tur."
 msgid "Now!"
 msgstr "No!"
 
-#: ../../../src/ptb/frame/code/frame_screen.cpp:108
-#: ../../../src/ptb/frame/code/message_box.cpp:166
-#: ../../../src/ptb/frame/code/frame_player_controls.cpp:159
-#: ../../../src/ptb/frame/code/frame_profiles.cpp:160
-#: ../../../src/ptb/frame/code/frame_audio.cpp:213
-#: ../../../src/ptb/frame/code/frame_game_options.cpp:106
+#: ../../../src/ptb/frame/code/frame_screen.cpp:90
+#: ../../../src/ptb/frame/code/message_box.cpp:148
+#: ../../../src/ptb/frame/code/frame_player_controls.cpp:141
+#: ../../../src/ptb/frame/code/frame_profiles.cpp:147
+#: ../../../src/ptb/frame/code/frame_audio.cpp:195
+#: ../../../src/ptb/frame/code/frame_game_options.cpp:88
 msgid "OK"
 msgstr "OK"
 
-#: ../../../src/ptb/frame/code/frame_choose_player_mode.cpp:72
-#: ../../../src/ptb/frame/code/frame_start_menu.cpp:77
+#: ../../../src/ptb/frame/code/frame_choose_player_mode.cpp:55
+#: ../../../src/ptb/frame/code/frame_start_menu.cpp:59
 msgid "One player"
 msgstr "Éin spelar"
 
@@ -493,7 +502,7 @@ msgid ""
 "his mischievous son and swears:"
 msgstr ""
 
-#: ../../../src/ptb/frame/code/frame_game_options.cpp:47
+#: ../../../src/ptb/frame/code/frame_game_options.cpp:29
 msgid "Options"
 msgstr "Spelval"
 
@@ -503,12 +512,12 @@ msgstr "Eller med nevane dine."
 msgid "Ouch!"
 msgstr "Au!"
 
-#: ../../../src/ptb/frame/code/frame_password.cpp:55
-#: ../../../src/ptb/frame/code/frame_configure.cpp:67
+#: ../../../src/ptb/frame/code/frame_password.cpp:37
+#: ../../../src/ptb/frame/code/frame_configure.cpp:49
 msgid "Password"
 msgstr "Passord"
 
-#: ../../../src/ptb/frame/code/frame_pause.cpp:47
+#: ../../../src/ptb/frame/code/frame_pause.cpp:29
 msgid "Pause"
 msgstr "Pause"
 
@@ -522,20 +531,20 @@ msgstr ""
 "Spel musikken frå spelet ved å trykkja på dei rette tastane. Du får ein "
 "gullmedalje om du klarer det perfekt!"
 
-#: ../../../src/ptb/frame/code/frame_play_mini_game.cpp:175
-#: ../../../src/ptb/frame/code/frame_play_story.cpp:220
+#: ../../../src/ptb/frame/code/frame_play_mini_game.cpp:157
+#: ../../../src/ptb/frame/code/frame_play_story.cpp:201
 msgid "Play!"
 msgstr "Spel!"
 
-#: ../../../src/ptb/frame/code/frame_configure.cpp:88
+#: ../../../src/ptb/frame/code/frame_configure.cpp:70
 msgid "Player one's controls"
 msgstr "Kontrollar for spelar 1"
 
-#: ../../../src/ptb/frame/code/frame_configure.cpp:84
+#: ../../../src/ptb/frame/code/frame_configure.cpp:66
 msgid "Player two's controls"
 msgstr "Kontrollar for spelar 2"
 
-#: ../../../src/ptb/frame/code/frame_player_controls.cpp:71
+#: ../../../src/ptb/frame/code/frame_player_controls.cpp:53
 msgid "Player's controls"
 msgstr "Spelkontrollar"
 
@@ -558,23 +567,23 @@ msgstr ""
 msgid "Press up or down to aim your stone."
 msgstr "Trykk opp eller ned for å sikta."
 
-#: ../../../src/ptb/frame/code/frame_play_mini_game.cpp:213
-#: ../../../src/ptb/frame/code/frame_play_story.cpp:258
+#: ../../../src/ptb/frame/code/frame_play_mini_game.cpp:195
+#: ../../../src/ptb/frame/code/frame_play_story.cpp:239
 msgid "Previous"
 msgstr "Førre"
 
-#: ../../../src/ptb/frame/code/frame_profile_name.cpp:54
+#: ../../../src/ptb/frame/code/frame_profile_name.cpp:37
 msgid "Profile name"
 msgstr "Profilnamn"
 
-#: ../../../src/ptb/frame/code/frame_profiles.cpp:52
+#: ../../../src/ptb/frame/code/frame_profiles.cpp:37
 msgid "Profiles"
 msgstr "Profilar"
 
 msgid "Programming"
 msgstr "Programmering"
 
-#: ../../../src/ptb/frame/code/frame_main_menu.cpp:126
+#: ../../../src/ptb/frame/code/frame_main_menu.cpp:108
 msgid "Quit"
 msgstr "Avslutt"
 
@@ -600,15 +609,15 @@ msgstr ""
 "Slepp hoppetasten for å hoppa, eller trykk ein annan tast for å avbryta "
 "hoppet."
 
-#: ../../../src/ptb/frame/code/frame_profiles.cpp:202
+#: ../../../src/ptb/frame/code/frame_profiles.cpp:189
 msgid "Remove"
 msgstr "Fjern"
 
-#: ../../../src/ptb/frame/code/frame_pause.cpp:133
+#: ../../../src/ptb/frame/code/frame_pause.cpp:115
 msgid "Restart level"
 msgstr "Start brettet på nytt"
 
-#: ../../../src/ptb/frame/code/frame_pause.cpp:147
+#: ../../../src/ptb/frame/code/frame_pause.cpp:129
 msgid "Resume game"
 msgstr "Hald fram"
 
@@ -618,26 +627,26 @@ msgstr "Brøl"
 msgid "Sandbox"
 msgstr "Sandkasse"
 
-#: ../../../src/ptb/frame/code/frame_level_score.cpp:226
+#: ../../../src/ptb/frame/code/frame_level_score.cpp:208
 msgid "Save"
 msgstr "Lagra"
 
 msgid "Say"
 msgstr "Snakk"
 
-#: ../../../src/ptb/frame/code/frame_play_story.cpp:588
+#: ../../../src/ptb/frame/code/frame_play_story.cpp:569
 msgid "Score:"
 msgstr "Poeng:"
 
-#: ../../../src/ptb/frame/code/frame_screen.cpp:47
-#: ../../../src/ptb/frame/code/frame_configure.cpp:76
+#: ../../../src/ptb/frame/code/frame_screen.cpp:29
+#: ../../../src/ptb/frame/code/frame_configure.cpp:58
 msgid "Screen"
 msgstr "Skjerm"
 
 msgid "Secret level found"
 msgstr ""
 
-#: ../../../src/ptb/item/code/owl.cpp:89
+#: ../../../src/ptb/item/code/owl.cpp:72
 msgid "See you in another world."
 msgstr "Ser deg i ei anna verd."
 
@@ -654,21 +663,21 @@ msgid "So if you die, don't worry, because you will return here."
 msgstr "Så ikkje ver redd for at du skal døy; då hamnar du berre tilbake her."
 
 # skip-rule: personifisering
-#: ../../../src/ptb/item/code/owl.cpp:82
+#: ../../../src/ptb/item/code/owl.cpp:65
 msgid "So you found my lucky hazelnut!"
 msgstr "Så du fann lukkenøtta mi!"
 
-#: ../../../src/ptb/frame/code/frame_audio.cpp:152
+#: ../../../src/ptb/frame/code/frame_audio.cpp:134
 msgid "Sound"
 msgstr "Lyd"
 
 # texts displayed in menu
-#: ../../../src/ptb/frame/code/frame_choose_player_mode.cpp:50
-#: ../../../src/ptb/frame/code/frame_start_menu.cpp:50
+#: ../../../src/ptb/frame/code/frame_choose_player_mode.cpp:33
+#: ../../../src/ptb/frame/code/frame_start_menu.cpp:32
 msgid "Start game"
 msgstr "Start spelet"
 
-#: ../../../src/ptb/item/stone/code/stone.cpp:163
+#: ../../../src/ptb/item/stone/code/stone.cpp:145
 msgid "Stone's waster"
 msgstr ""
 
@@ -684,7 +693,7 @@ msgstr ""
 msgid "Take the power and come here."
 msgstr "Ta krafta, og kom her."
 
-#: ../../../src/ptb/frame/code/frame_talk.cpp:50
+#: ../../../src/ptb/frame/code/frame_talk.cpp:32
 msgid "Talk"
 msgstr "Snakk"
 
@@ -740,7 +749,7 @@ msgstr "Gå så til den neste totempålen til høgre."
 msgid "There you are!"
 msgstr "». Er du sikker på at du vil gjera dette?"
 
-#: ../../../src/ptb/item/code/bonus_box.cpp:399
+#: ../../../src/ptb/item/code/bonus_box.cpp:383
 msgid "Thief"
 msgstr ""
 
@@ -761,12 +770,12 @@ msgid "Translations"
 msgstr "Omsetjing"
 
 # title of the "tutorial" level
-#: ../../../src/ptb/frame/code/frame_main_menu.cpp:140
+#: ../../../src/ptb/frame/code/frame_main_menu.cpp:122
 msgid "Tutorial"
 msgstr "Opplæring"
 
-#: ../../../src/ptb/frame/code/frame_choose_player_mode.cpp:67
-#: ../../../src/ptb/frame/code/frame_start_menu.cpp:70
+#: ../../../src/ptb/frame/code/frame_choose_player_mode.cpp:50
+#: ../../../src/ptb/frame/code/frame_start_menu.cpp:52
 msgid "Two players (local)"
 msgstr "To spelarar (lokalt)"
 
@@ -797,6 +806,11 @@ msgstr ""
 
 #, fuzzy
 #| msgid "What is this?"
+msgid "Where are the others?"
+msgstr "Kor er dette?"
+
+#, fuzzy
+#| msgid "What is this?"
 msgid "Where is the exit?"
 msgstr "Kor er dette?"
 
@@ -815,18 +829,18 @@ msgid "Yeah! Leave him!"
 msgstr "Ja! Forlat han!"
 
 # skip-rule: personifisering
-#: ../../../src/ptb/item/code/owl.cpp:79
+#: ../../../src/ptb/item/code/owl.cpp:62
 msgid "You already gave me my lucky hazelnut. Stop bothering me!"
 msgstr "Eg har alt lukkenøtta mi. Hut deg vekk!"
 
 msgid "You already!"
 msgstr "Du igjen!"
 
-#: ../../../src/ptb/frame/code/frame_profiles.cpp:266
+#: ../../../src/ptb/frame/code/frame_profiles.cpp:253
 msgid "You are deleting the profile \""
 msgstr "Du er i ferd med å sletta profilen «"
 
-#: ../../../src/ptb/layer/code/misc_layer.cpp:384
+#: ../../../src/ptb/layer/code/misc_layer.cpp:378
 msgid ""
 "You are playing a demo version. The final version may provide a different "
 "experience."
@@ -861,7 +875,7 @@ msgstr "Du kan så hiva nokre steinar."
 msgid "You deserve a good spanking instead."
 msgstr "Du fortener heller ein god omgang juling."
 
-#: ../../../src/ptb/frame/code/frame_level_score.cpp:160
+#: ../../../src/ptb/frame/code/frame_level_score.cpp:142
 msgid "You didn't get a high score. Try again!"
 msgstr "Du fekk ikkje nokon ny rekord. Prøv igjen!"
 
@@ -891,52 +905,52 @@ msgstr "Du skal få kjenna krafta mi! Gniark! Gniark! Gniark!"
 msgid "You're not ready yet."
 msgstr "Du er ikkje klar enno."
 
-#: ../../../src/ptb/transition_effect/code/level_starting_effect.cpp:214
+#: ../../../src/ptb/transition_effect/code/level_starting_effect.cpp:197
 msgid "act"
 msgstr "akt"
 
-#: ../../../src/ptb/code/score_table.cpp:100
-#: ../../../src/ptb/code/score_table.cpp:104
+#: ../../../src/ptb/code/score_table.cpp:82
+#: ../../../src/ptb/code/score_table.cpp:86
 msgid "and"
 msgstr "og"
 
-#: ../../../src/ptb/transition_effect/code/game_over_effect.cpp:64
+#: ../../../src/ptb/transition_effect/code/game_over_effect.cpp:46
 msgid "game over"
 msgstr "spelet er slutt"
 
-#: ../../../src/ptb/code/score_table.cpp:98
+#: ../../../src/ptb/code/score_table.cpp:80
 msgid "hour"
 msgid_plural "hours"
 msgstr[0] "time"
 msgstr[1] "timar"
 
-#: ../../../src/ptb/code/controller_layout.cpp:570
+#: ../../../src/ptb/code/controller_layout.cpp:551
 msgid "joystick "
 msgstr "styrespak "
 
-#: ../../../src/ptb/code/player.cpp:2375
+#: ../../../src/ptb/code/player.cpp:2417
 #, fuzzy
 #| msgid "No player"
 msgid "lazy player"
 msgstr "Ingen spelar"
 
-#: ../../../src/ptb/code/score_table.cpp:99
-#: ../../../src/ptb/code/score_table.cpp:103
+#: ../../../src/ptb/code/score_table.cpp:81
+#: ../../../src/ptb/code/score_table.cpp:85
 msgid "minute"
 msgid_plural "minutes"
 msgstr[0] "minutt"
 msgstr[1] "minutt"
 
-#: ../../../src/ptb/code/score_table.cpp:101
-#: ../../../src/ptb/code/score_table.cpp:105
-#: ../../../src/ptb/code/score_table.cpp:107
+#: ../../../src/ptb/code/score_table.cpp:83
+#: ../../../src/ptb/code/score_table.cpp:87
+#: ../../../src/ptb/code/score_table.cpp:89
 msgid "second"
 msgid_plural "seconds"
 msgstr[0] "sekund"
 msgstr[1] "sekund"
 
-#: ../../../src/ptb/item/stone/code/stone.cpp:236
-#: ../../../src/ptb/code/player.cpp:978
+#: ../../../src/ptb/item/stone/code/stone.cpp:218
+#: ../../../src/ptb/code/player.cpp:962
 msgid "snake in the grass"
 msgstr ""
 

@@ -1,0 +1,31 @@
+0 {
+  player_1.control_player();
+  player_1.add_player_in_script( script, player_1_instance );
+  ray.add_player_in_script( script, ray_instance );
+}
+
++1.3 player_1.do_action( "move_right", 1.9 );
+
++3 {
+  player_1.talk( "/Where are the others?/Am I alone?" );
+}
+
++2 {
+  player_1.do_action( "move_left", 0.01 );
+}
+
++0.5 {
+  player_1.do_action( "move_right", 0.01 );
+}
+
++0.1 {
+  god.do_action( "talk" );
+  god.talk( "/MWAH! AH! AH! AAH!.../...AH! AH! AH! AAH!" );
+}
+
++100 {
+  player_1_instance.authorize_all_actions();
+  player_1.release_player();
+
+  script.end();
+}
