@@ -40,7 +40,8 @@ ptb::ray::s_jump_force_in_float = 9200000;
 const bear::universe::coordinate_type
 ptb::ray::s_vertical_jump_force = 5000000;
 
-const bear::universe::coordinate_type ptb::ray::s_speed_to_run = 170;
+// while run animation is available
+const bear::universe::coordinate_type ptb::ray::s_speed_to_run = 1000; //170;
 
 const double ptb::ray::s_mass = 80;
 const double ptb::ray::s_density = 1.5;
