@@ -23,7 +23,7 @@ const bear::universe::coordinate_type
 ptb::ray::s_move_force_in_vertical_jump = 32000;
 
 const bear::universe::coordinate_type
-ptb::ray::s_move_force_in_run = 280000;
+ptb::ray::s_move_force_in_run = 81000;
 
 const bear::universe::coordinate_type
 ptb::ray::s_move_force_in_swimming = 64000;
