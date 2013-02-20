@@ -1250,13 +1250,13 @@
     <item class_name='ptb::god' fixed='false' id='god'>
 <fields>
 <field name='base_item.position.bottom'>
-<real value='879'/>
+<real value='883'/>
 </field>
 <field name='base_item.position.depth'>
 <integer value='30'/>
 </field>
 <field name='base_item.position.left'>
-<real value='732'/>
+<real value='686'/>
 </field>
 </fields>
     </item><!-- ptb::god -->
