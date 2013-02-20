@@ -1125,7 +1125,7 @@
 </mark_placements>
 </snapshot></snapshots>
 </action>
-<action name="walk-cry" duration="0.96" auto_next="walk-cry">
+<action name="walk-cry" duration="0.48" auto_next="walk-cry">
 <marks>
 <mark label="body" apply_angle_to_animation="0" pause_animation_when_hidden="0">
 <animation_file path='animation/ray/walk-cry.canim' auto_size='true' width='41' height='90' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>

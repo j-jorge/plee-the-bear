@@ -1091,13 +1091,27 @@
 <real value='514'/>
 </field>
 <field name='add_script_actor.actor'>
-<item_reference value='platform-movement-toggle'/>
+<item_reference value='platform-movement-trigger'/>
 </field>
 <field name='add_script_actor.actor_name'>
 <string value='platform_mvt'/>
 </field>
 </fields>
     </item><!-- bear::add_script_actor -->
+
+    <item class_name='bear::trigger' fixed='true' id='platform-movement-trigger'>
+<fields>
+<field name='base_item.position.bottom'>
+<real value='679'/>
+</field>
+<field name='base_item.position.left'>
+<real value='532'/>
+</field>
+<field name='trigger.toggle'>
+<item_reference value='platform-movement-toggle'/>
+</field>
+</fields>
+    </item><!-- bear::trigger -->
 
     <item class_name='bear::script_director' fixed='false' id='script_director'>
 <fields>

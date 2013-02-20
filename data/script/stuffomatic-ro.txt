@@ -7,32 +7,65 @@
 +1.3 player_1.do_action( "move_right", 1.9 );
 
 +3 {
-  player_1.talk( "/Where are the others?/Am I alone?" );
+  player_1.talk( "/Where are the others?" );
 }
 
 +2 {
   player_1.do_action( "move_left", 0.02 );
 }
 
-+0.5 {
++1 {
+  player_1.talk( "/Am I alone?" );
+}
+
++1 {
   player_1.do_action( "move_right", 0.02 );
 }
 
-+0.5 {
++1.5 {
   ray.talk( "/Daddy!" );
 }
 
 +1 {
-  ray.do_action( "move_right", 1.2 );
+  ray.do_action( "move_right", 3.6 );
 }
 
-+0.7 {
++1.5 {
+  player_1.do_action( "move_left", 0.02 );
+}
+
++2 {
   ray.talk( "/Help me daddy!" );
 }
 
-+0.1 {
++0.3 {
+  player_1.talk
+  ( "/Don't put your balloon over me./What's happening to you?" );
+}
+
++6 {
+  ray.talk
+  ( "/I've been kidnapped!/But I escaped.../But the kidnapper is after me..." );
+}
+
++1 {
+   player_1.talk( "/Damn balloons..." );
+}
+
++6 {
+  ray.do_action( "move_left", 0.02 );
+  ray.do_action( "look_upward", 7.2 );
+  player_1.do_action( "look_upward", 7.2 );
+
   god.do_action( "talk" );
-  god.talk( "/MWAH! AH! AH! AAH!.../...AH! AH! AH! AAH!" );
+  god.talk( "/MWAH! AH! AH! AAH!.../...AH! AH! AH! AAH!/...AH! AH! AAH!" );
+  platform_mvt.activate();
+}
+
++3.2 {
+  ray.do_action( "move_right", 0.02 );
+  ray.talk( "/That's him!" );
+  player_1.do_action( "move_right", 0.02 );
 }
 
 +100 {
