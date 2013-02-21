@@ -1082,6 +1082,23 @@
 </fields>
     </item><!-- bear::add_script_actor -->
 
+    <item class_name='bear::add_script_actor' fixed='true' id='add_god_2_actor'>
+<fields>
+<field name='base_item.position.bottom'>
+<real value='784'/>
+</field>
+<field name='base_item.position.left'>
+<real value='438'/>
+</field>
+<field name='add_script_actor.actor'>
+<item_reference value='god-2'/>
+</field>
+<field name='add_script_actor.actor_name'>
+<string value='god_2'/>
+</field>
+</fields>
+    </item><!-- bear::add_script_actor -->
+
     <item class_name='bear::add_script_actor' fixed='true' id='add_platform_mvt_actor'>
 <fields>
 <field name='base_item.position.bottom'>
@@ -1129,6 +1146,13 @@
 <item_reference value='add_god_actor'/>
 <item_reference value='add_ray_actor'/>
 <item_reference value='add_platform_mvt_actor'/>
+<item_reference value='add_god_2_actor'/>
+</field>
+<field name='script_director.can_be_accelerated'>
+<bool value='1'/>
+</field>
+<field name='script_director.scale'>
+<real value='4'/>
 </field>
 <field name='script_director.script'>
 <string value='script/stuffomatic-ro.txt'/>
@@ -1503,6 +1527,23 @@
 </field>
 </fields>
     </item><!-- bear::block -->
+
+    <item class_name='ptb::god' fixed='false' id='god-2'>
+<fields>
+<field name='base_item.position.bottom'>
+<real value='512'/>
+</field>
+<field name='base_item.position.depth'>
+<integer value='30'/>
+</field>
+<field name='base_item.position.left'>
+<real value='1967'/>
+</field>
+<field name='basic_renderable_item.mirror'>
+<bool value='1'/>
+</field>
+</fields>
+    </item><!-- ptb::god -->
 
     <item class_name='bear::block' fixed='true'>
 <fields>

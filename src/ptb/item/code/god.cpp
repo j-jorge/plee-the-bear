@@ -125,7 +125,7 @@ void ptb::god::progress_idle
 void ptb::god::progress_talk
 ( bear::universe::time_type elapsed_time )
 {
-  if ( has_finished_to_speak() )
+  if ( has_finished_to_speak() && (get_current_action_name() == "talk") )
     start_model_action("idle");
 } // god::progress_talk()
 

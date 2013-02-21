@@ -68,6 +68,36 @@
   player_1.do_action( "move_right", 0.02 );
 }
 
++4.8 {
+  god_2.do_action( "appear" );
+}
+
++0.585 {
+  god_2.talk( "/Give me the kid!" );
+}
+
++2 {
+  player_1.talk( "/No way!" );
+}
+
++2 {
+  god_2.talk( "/Well, then take this!" );
+  god_2.start_model_action("create-ball");
+}
+
++2 {
+  player_1.talk( "/What is this?" );
+}
+
++2 {
+  god_2.launch_ball(1.0, 1.2);
+}
+
++0.7 {
+  player_1.do_action( "jump", 0.1 );
+  player_1.talk( "/Oops!" );
+}
+
 +100 {
   player_1_instance.authorize_all_actions();
   player_1.release_player();
