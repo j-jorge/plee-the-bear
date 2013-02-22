@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 5.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-02-19 17:55+0100\n"
-"PO-Revision-Date: 2013-02-19 17:58+0100\n"
+"POT-Creation-Date: 2013-02-22 20:37+0100\n"
+"PO-Revision-Date: 2013-02-22 20:42+0100\n"
 "Last-Translator: Julien Jorge <julien.jorge@gamned.org>\n"
 "Language-Team: French <>\n"
 "Language: fr\n"
@@ -22,6 +22,7 @@ msgstr ""
 msgid "\". Are you sure?"
 msgstr " ». Es-tu sûr ?"
 
+#: ../../../data/level/forest-intro.lvl
 msgid "\"I'm gonna find that boy and give him the wallop he deserves.\""
 msgstr "« Je vais retrouver ce petit et lui donner la baffe qu'il mérite. »"
 
@@ -38,48 +39,274 @@ msgstr "%p a atteint %v cibles."
 msgid "%p reached the top in %t."
 msgstr "%p a atteint le haut en %t."
 
+#: ../../../data/level/mini-game/the_waterfall.lvl
 msgid "%t"
 msgstr "%t"
 
+#: ../../../data/level/mini-game/bears_on_fire.lvl
 msgid "%v%%"
 msgstr "%v %%"
 
+#: ../../../data/level/mini-game/target_practice.lvl
 msgid "%v/50"
 msgstr "%v/50"
 
 msgid "(demo)"
 msgstr "(démo)"
 
-msgid "...AH! AH! AH! AAH!"
-msgstr "...AH ! AH ! AH ! AAH !"
+msgid "/Am I alone?"
+msgstr "/Suis-je seul ?"
 
+msgid "/Break the bonus with a slap to collect the stones."
+msgstr "/Casse le bonus avec une baffe pour récupérer les pierres."
+
+msgid "/Collecting souls will give you energy. Be quick or they will fly away!"
+msgstr "/Attrape les âmes pour récupérer de l'énergie. Vite avant qu'elles ne s'envolent !"
+
+msgid "/Come swimming!"
+msgstr "/Viens nager !"
+
+msgid "/Daddy!"
+msgstr "/Papa !"
+
+msgid "/Damn balloons..."
+msgstr "/Satanés bulles..."
+
+msgid "/Damn! Take cover!"
+msgstr "/Zut ! Planque-toi !"
+
+msgid "/First, gain some speed."
+msgstr "/Commence par prendre un peu de vitesse."
+
+msgid "/Give him your carrots!"
+msgstr "/Donne-lui tes carottes !"
+
+msgid "/Give me the kid!"
+msgstr "/Donne-moi le gamin !"
+
+msgid "/Help me daddy!"
+msgstr "/Aide-moi papa !"
+
+msgid "/Help me, daddy!"
+msgstr "/Aide-moi papa !"
+
+msgid "/Help!"
+msgstr "/À l'aide !"
+
+msgid "/Hey!"
+msgstr "/Hey !"
+
+msgid "/Hi!/I will be your guide through this tutorial./First, you should look at the configuration menu to see or change commands./Then, go to the next totem on the right."
+msgstr "/Salut !/Je serai ton guide dans ce tutoriel./Tu devrais tout d'abord regarder le menu de configuration pour voir ou changer les commandes./Puis rejoins le prochain totem sur ta droite."
+
+msgid "/Hit this bonus with your stones to move it."
+msgstr "/Touche ce bonus avec une pierre pour le déplacer."
+
+msgid "/I fell into this hole and I can't get out. Help me!"
+msgstr "/Je suis tombé dans ce trou et je n'arrive pas à sortir. Aide-moi !"
+
+msgid "/I felt bad that I ate all the honey, Daddy, so I went looking for more..."
+msgstr "/Je culpabilisais d'avoir mangé tout ce miel papa, alors je suis parti en chercher..."
+
+msgid "/I will show you how to kill them with a stone./Or with your bare hands."
+msgstr "/Je te montrerai comment les tuer avec une pierre./Ou à mains nues."
+
+msgid "/I will take your son away from you, for his own safety."
+msgstr "/Je t'enlève ton fils, pour sa propre sûreté."
+
+msgid "/I'll see what I can do."
+msgstr "/Je vais voir ce que je peux faire."
+
+msgid "/I'll show you how can we get of this pit."
+msgstr "/Je te montre comment sortir de ce trou."
+
+msgid "/I'll show you what to do."
+msgstr "/Je te montre comment faire."
+
+msgid "/I'm gonna give a spanking to this guy too! Let's go!"
+msgstr "/Ce mec va se prendre une baffe aussi ! C'est parti !"
+
+msgid "/I'm not sure I want to./You ate all my honey!/You deserve a good spanking instead."
+msgstr "/Je ne suis pas sûr de vouloir./Tu as mangé tout mon miel./Tu mérites une bonne baffe plutôt."
+
+msgid "/Jump in the tree."
+msgstr "/Saute dans l'arbre."
+
+msgid "/Jump in the water to do a stroke."
+msgstr "/Saute dans l'eau pour faire une brasse."
+
+msgid "/Leave my son alone!"
+msgstr "/Laisse mon fils tranquille !"
+
+msgid "/Let's go!"
+msgstr "/C'est parti !"
+
+msgid "/Look downward to see the wasps."
+msgstr "/Regarde en bas pour voir les guêpes."
+
+msgid "/Look upward and hold the jump button to jump higher."
+msgstr "/Regarde en haut tout en maintenant le saut pour sauter plus haut."
+
+msgid "/MWHA! HA! HA! HAA!.../...HA! HA! HA! HAA!/...HA! HA! HAA!"
+msgstr "/MWHA ! HA ! HA ! HAA !.../...HA ! HA ! HA ! HAA !/...HA ! HA ! HAA !"
+
+msgid "/No way!"
+msgstr "/Pas question !"
+
+msgid "/Now it's your turn."
+msgstr "/C'est à toi maintenant."
+
+msgid "/Now!"
+msgstr "/Maintenant !"
+
+msgid "/Oops!"
+msgstr "/Oups !"
+
+msgid "/Ouch!"
+msgstr "/Ouille !"
+
+msgid "/Ray! I finally found you."
+msgstr "/Ray ! Je te trouve enfin."
+
+msgid "/Release the jump button at any moment to jump. Pressing an other button will cancel the jump."
+msgstr "/Relâche le saut à n'importe quel moment pour sauter. Toute autre action annulera le saut."
+
+msgid "/See? Easy."
+msgstr "/Tu vois ? C'est facile."
+
+msgid "/Slap in mid-air to cling to the walls."
+msgstr "/Donne une baffe en l'air pour t'accrocher aux murs."
+
+msgid "/Stop!"
+msgstr "/Stop !"
+
+msgid "/Take the power and come here./Hold your jump button to float."
+msgstr "/Maintiens le bouton de saut pour flotter."
+
+msgid "/Thank you, daddy!"
+msgstr "/Merci papa !"
+
+msgid "/That time, I slapped him in mid-air."
+msgstr "/Cette fois, je l'ai frappé en l'air."
+
+msgid "/That's him!"
+msgstr "/C'est lui !"
+
+msgid "/The blue gauge on the left represents your oxygen level./If you run out of oxygen, you will drown."
+msgstr "/La jauge bleue sur la gauche représente ton niveau d'oxygène."
+
+msgid "/The object to the left of you is a checkpoint./So if you die, don't worry, because you will return here."
+msgstr "/Ne t'inquiète donc pas si tu meures, tu réapparaîtras ici."
+
+msgid "/The powers can be combined. Let's try it!/Change your active item to switch powers."
+msgstr "/Change l'objet à jeter pour te débarrasser d'un pouvoir."
+
+msgid "/The stones will bounces of surfaces with the water power."
+msgstr "/Les pierres rebondissent avec le pouvoir de l'eau."
+
+msgid "/This is for my honey!"
+msgstr "/Ça c'est pour mon miel !"
+
+msgid "/This power will also make you resistant to heat."
+msgstr "/Ce pouvoir te rendra aussi résistant à la chaleur."
+
+msgid "/Well, then take this!"
+msgstr "/Bien, alors prend ça !"
+
+msgid "/What did you do?"
+msgstr "/Qu'as-tu fait ?"
+
+msgid "/What is this?"
+msgstr "/Qu'est-ce que c'est ?"
+
+msgid "/What the...?"
+msgstr "/Qu'est-ce que... ?"
+
+msgid "/Where are the others?"
+msgstr "/Où sont les autres ?"
+
+msgid "/Who the hell are you?"
+msgstr "/T'es qui toi ?"
+
+msgid "/With the power of fire, stones can hit multiple enemies./Look."
+msgstr "/Avec le pouvoir de feu, tes pierres pourront toucher plusieurs ennemis."
+
+msgid "/With the power of water you can stay under water indefinitely. Take it now."
+msgstr "/Avec le pouvoir d'eau tu peux rester sous l'eau indéfiniment. Prend le maintenant."
+
+msgid "/Yeah! Leave him!"
+msgstr "/Ouais ! Laisse-le !"
+
+msgid "/You already!"
+msgstr "/Toi ? Déjà ?"
+
+msgid "/You ate all my honey!"
+msgstr "/Tu as mangé tout mon miel !"
+
+msgid "/You can float in mid-air with the power of air."
+msgstr "/Tu peux flotter en l'air avec le pouvoir de l'air."
+
+msgid "/You can get some oxygen in the big bubbles./You can also throw a stone to create a new bubble."
+msgstr "/Tu peux aussi lancer une pierre pour créer une nouvelle bulle."
+
+msgid "/You can now practice your stone throwing in the \\\"Target Practice\\\" mini-game."
+msgstr "/Tu peux maintenant t'entraîner au jeté de pierre dans le mini-jeu « Entraînement aux pierres »."
+
+msgid "/You can then jump from the wall."
+msgstr "/Tu peux ensuite sauter à partir du mur."
+
+msgid "/You can then throw the stones./Maintain the control to throw further./Press up or down to aim your stone."
+msgstr ""
+
+msgid "/You don't have to keep holding the \\\"slap\\\" button or anything once on the wall."
+msgstr "/Tu n'as pas à maintenir quelque action que ce soit quand tu es sur le mur."
+
+msgid "/You don't need to know."
+msgstr "/Tu n'as pas besoin de savoir"
+
+msgid "/You shouldn't beat up your child."
+msgstr "/Tu ne devrais pas frapper ton fils."
+
+msgid "/You're not ready yet."
+msgstr "/Tu n'es pas encore prêt."
+
+#: ../../../data/level/castle-2.lvl
 msgid "1"
 msgstr ""
 
+#: ../../../data/level/castle-2.lvl
 msgid "2"
 msgstr ""
 
+#: ../../../data/level/castle-2.lvl
 msgid "3"
 msgstr ""
 
+#: ../../../data/level/castle-2.lvl
 msgid "4"
 msgstr ""
 
+#: ../../../data/level/castle-2.lvl
 msgid "5"
 msgstr ""
 
+#: ../../../data/level/castle-2.lvl
 msgid "6"
 msgstr ""
 
+#: ../../../data/level/castle-2.lvl
 msgid "7"
 msgstr ""
 
+#: ../../../data/level/castle-2.lvl
 msgid "8"
 msgstr ""
 
+#: ../../../data/level/castle-2.lvl
 msgid "9"
 msgstr ""
 
+#: ../../../data/level/transition.lvl
 msgid "?"
 msgstr "?"
 
@@ -88,9 +315,6 @@ msgstr "Un jeu de"
 
 msgid "Action null"
 msgstr "Action non définie"
-
-msgid "Am I alone?"
-msgstr "Suis-je seul ?"
 
 #: ../../../src/ptb/frame/code/frame_pause.cpp:92
 msgid "Are you sure you want to leave this level?"
@@ -126,11 +350,9 @@ msgstr "Retour à l'écran titre"
 msgid "Be the last one alive."
 msgstr "Soit le dernier à rester en vie."
 
+#: ../../../data/level/secret/forest-1.lvl
 msgid "Bears on Fire"
 msgstr "Les ours en folie"
-
-msgid "Break the bonus with a slap to collect the stones."
-msgstr "Casse le bonus avec une baffe pour récupérer les pierres."
 
 #: ../../../src/ptb/frame/code/frame_screen.cpp:109
 #: ../../../src/ptb/frame/code/message_box.cpp:167
@@ -149,18 +371,9 @@ msgstr "Carnage"
 msgid "Change object"
 msgstr "Changer d'objet"
 
-msgid "Change your active item to switch powers."
-msgstr "Change l'objet à jeter pour te débarrasser d'un pouvoir."
-
 #: ../../../src/ptb/frame/code/frame_talk.cpp:120
 msgid "Close"
 msgstr "Fermer"
-
-msgid "Collecting souls will give you energy. Be quick or they will fly away!"
-msgstr "Attrape les âmes pour récupérer de l'énergie. Vite avant qu'elles ne s'envolent !"
-
-msgid "Come swimming!"
-msgstr "Viens nager !"
 
 #: ../../../src/ptb/frame/code/frame_pause.cpp:125
 #: ../../../src/ptb/frame/code/frame_main_menu.cpp:113
@@ -168,17 +381,16 @@ msgstr "Viens nager !"
 msgid "Configuration"
 msgstr "Configuration"
 
-msgid ""
-"Congratulations!\n"
-"\n"
-"The waterfall mini-game is now unlocked!"
+#: ../../../data/level/secret/forest-1.lvl
+msgid "Congratulations! See the mini-game menu for a new song!"
+msgstr "Félicitations ! Va dans le menu des mini-jeux pour une nouvelle musique !"
+
+#: ../../../data/level/forest-2.lvl ../../../data/level/secret/castle-2.lvl
+msgid "Congratulations!nnThe waterfall mini-game is now unlocked!"
 msgstr ""
 "Félicitations !\n"
 "\n"
 "Le mini-jeu de la cascade est maintenant disponible !"
-
-msgid "Congratulations! See the mini-game menu for a new song!"
-msgstr "Félicitations ! Va dans le menu des mini-jeux pour une nouvelle musique !"
 
 #: ../../../src/ptb/frame/code/frame_profile_name.cpp:139
 msgid "Create"
@@ -187,12 +399,7 @@ msgstr "Créer"
 msgid "Crouch"
 msgstr "S'accroupir"
 
-msgid "Daddy!"
-msgstr "Papa !"
-
-msgid "Damn! Take cover!"
-msgstr "Zut ! Planque-toi !"
-
+#: ../../../data/level/secret/forest-1.lvl
 msgid "Did you listen to the music in this level? Now you have to play it yourself!"
 msgstr "As-tu écouté la musique de ce niveau ? Tu vas devoir la jouer maintenant !"
 
@@ -213,11 +420,9 @@ msgstr "Abandonner"
 msgid "Do the tutorial and take stones."
 msgstr "Joue au tutoriel et récupère les pierres."
 
+#: ../../../data/level/mini-game/bears_on_fire.lvl
 msgid "Do you remember this place?"
 msgstr "Tu te souviens de cet endroit ?"
-
-msgid "End"
-msgstr "Fin"
 
 #: ../../../src/ptb/item_brick/code/base_bonus.cpp:427
 msgid "Energy bonus found"
@@ -226,15 +431,10 @@ msgstr "Bonus d'énergie trouvé"
 msgid "English Language Editor"
 msgstr "Relecteur"
 
-msgid "First, gain some speed."
-msgstr "Commence par prendre un peu de vitesse."
-
-msgid "First, you should look at the configuration menu to see or change commands."
-msgstr "Tu devrais tout d'abord regarder le menu de configuration pour voir ou changer les commandes."
-
 msgid "Florian Massuyeau"
 msgstr "Florian Massuyeau"
 
+#: ../../../data/level/forest-intro.lvl
 msgid "Following honey drops left on the ground, Plee reaches the edge of the forest"
 msgstr "En suivant les traces de miel sur le sol, Plee arrive à l'orée de la forêt."
 
@@ -253,14 +453,12 @@ msgstr "Options du jeu"
 msgid "Get camera"
 msgstr "Prendre la caméra"
 
+#: ../../../data/level/transition.lvl
 msgid "Get lost."
 msgstr "Dégage."
 
 msgid "Get to the top before time runs out!"
 msgstr "Monte en haut du niveau avant la fin du compte-à-rebours."
-
-msgid "Give him your carrots!"
-msgstr "Donne-lui tes carottes !"
 
 msgid "Graphism"
 msgstr "Graphisme"
@@ -273,64 +471,13 @@ msgstr "Grand explorateur"
 msgid "Hazelnut"
 msgstr "Noisette"
 
-msgid "Help me, daddy!"
-msgstr "Aide-moi papa !"
-
-msgid "Help!"
-msgstr "À l'aide !"
-
-msgid "Hey!"
-msgstr "Hey !"
-
-msgid "Hi!"
-msgstr "Salut !"
-
-msgid "Hidden Places"
-msgstr "Lieux cachés"
-
 #: ../../../src/ptb/frame/code/frame_main_menu.cpp:127
 msgid "History"
 msgstr "Histoire"
 
-msgid "Hit this bonus with your stones to move it."
-msgstr "Touche ce bonus avec une pierre pour le déplacer."
-
-msgid "Hold your jump button to float."
-msgstr "Maintiens le bouton de saut pour flotter."
-
-msgid "I fell into this hole and I can't get out. Help me!"
-msgstr "Je suis tombé dans ce trou et je n'arrive pas à sortir. Aide-moi !"
-
-msgid "I felt bad that I ate all the honey, Daddy, so I went looking for more..."
-msgstr "Je culpabilisais d'avoir mangé tout ce miel papa, alors je suis parti en chercher..."
-
-msgid "I will be your guide through this tutorial."
-msgstr "Je vais te guider au long de ce tutoriel."
-
-msgid "I will show you how to kill them with a stone."
-msgstr "Je te montrerai comment les tuer avec une pierre."
-
-msgid "I will take your son away from you, for his own safety."
-msgstr "Je t'enlève ton fils, pour sa propre sûreté."
-
 #: ../../../src/ptb/item/code/owl.cpp:69
 msgid "I'd like to have my lucky hazelnut back."
 msgstr "Je voudrais retrouver ma noisette porte-bonheur."
-
-msgid "I'll see what I can do."
-msgstr "Je vais voir ce que je peux faire."
-
-msgid "I'll show you how can we get of this pit."
-msgstr "Je te montre comment sortir de ce trou."
-
-msgid "I'll show you what to do."
-msgstr "Je te montre comment faire."
-
-msgid "I'm gonna give a spanking to this guy too! Let's go!"
-msgstr "Ce mec va se prendre une baffe aussi ! C'est parti !"
-
-msgid "I'm not sure I want to."
-msgstr "Je n'en ai pas très envie."
 
 #: ../../../src/ptb/item/code/owl.cpp:76
 msgid "I've been looking all over for it!"
@@ -338,9 +485,6 @@ msgstr "Je l'ai cherchée partout !"
 
 msgid "Idle"
 msgstr "Ne rien faire"
-
-msgid "If you run out of oxygen, you will drown."
-msgstr "Si tu manques d'oxygène tu te noieras."
 
 msgid "In the First Act of the forest, fall from a high distance near a waterfall to find the owl. Then, do well to unlock this mini-game."
 msgstr "Dans le premier acte de la forêt, tombe de haut près d'une chute d'eau pour rencontrer le hibou. Ensuite, soit bon dans le niveau secret."
@@ -354,12 +498,8 @@ msgstr "Julien Lassalle"
 msgid "Jump"
 msgstr "Sauter"
 
-msgid "Jump in the tree."
-msgstr "Saute dans l'arbre."
-
-msgid "Jump in the water to do a stroke."
-msgstr "Saute dans l'eau pour faire une brasse."
-
+#: ../../../data/level/secret/forest-1.lvl
+#: ../../../data/level/mini-game/bears_on_fire.lvl
 msgid "Jumping will abort the game, but remember: you only have one try!"
 msgstr "Sauter annulera la partie mais rappelle-toi : tu n'as qu'un seul essai !"
 
@@ -369,40 +509,20 @@ msgstr "Karl Ove Huftammer"
 msgid "Kiera Whalen"
 msgstr "Kiera Whalen"
 
-msgid "Leave my son alone!"
-msgstr "Laisse mon fils tranquille !"
-
-msgid "Let's go!"
-msgstr "C'est parti !"
-
 #: ../../../src/ptb/frame/code/frame_play_story.cpp:49
 msgid "Level selection"
 msgstr "Sélection de niveau"
 
+#: ../../../data/level/loading.lvl
 msgid "Loading..."
 msgstr "Chargement…"
-
-msgid "Look downward to see the wasps."
-msgstr "Regarde en bas pour voir les guêpes."
 
 msgid "Look upward"
 msgstr "Regarder en haut"
 
-msgid "Look upward and hold the jump button to jump higher."
-msgstr "Regarde en haut tout en maintenant le saut pour sauter plus haut."
-
-msgid "Look."
-msgstr "Regarde."
-
-msgid "MWAH! AH! AH! AAH!..."
-msgstr "MWAH ! AH ! AH ! AAH !..."
-
 #: ../../../src/ptb/frame/code/frame_main_menu.cpp:51
 msgid "Main menu"
 msgstr "Menu principal"
-
-msgid "Maintain the control to throw further."
-msgstr "Maintiens le contrôle pour jeter plus loin."
 
 #: ../../../src/ptb/item/stone/code/stone.cpp:150
 msgid "Marskman"
@@ -421,6 +541,8 @@ msgstr "Message"
 msgid "Mini-game"
 msgstr "Mini-jeu"
 
+#: ../../../data/level/forest-2.lvl ../../../data/level/secret/forest-1.lvl
+#: ../../../data/level/secret/castle-2.lvl
 msgid "Mini-game unlocked"
 msgstr "Mini-jeu débloqué"
 
@@ -451,12 +573,6 @@ msgstr "Pas de nouveau record"
 msgid "No player"
 msgstr "Aucun joueur"
 
-msgid "Now it's your turn."
-msgstr "C'est à toi maintenant."
-
-msgid "Now!"
-msgstr "Maintenant !"
-
 #: ../../../src/ptb/frame/code/frame_screen.cpp:90
 #: ../../../src/ptb/frame/code/message_box.cpp:148
 #: ../../../src/ptb/frame/code/frame_player_controls.cpp:141
@@ -471,10 +587,14 @@ msgstr "OK"
 msgid "One player"
 msgstr "Un joueur"
 
-msgid ""
-"Only to find it empty!\n"
-"\n"
-"Upon discovering that all the pots in his house are empty, Plee thinks of his mischievous son and swears:"
+#: ../../../data/level/forest-intro.lvl
+#, fuzzy
+#| msgid ""
+#| "Only to find it empty!\n"
+#| "\n"
+#| "Upon discovering that all the pots in his house are empty, Plee thinks of "
+#| "his mischievous son and swears:"
+msgid "Only to find it empty!nnUpon discovering that all the pots in his house are empty, Plee thinks of his mischievous son and swears:"
 msgstr ""
 "Et découvre qu'il est vide !\n"
 "\n"
@@ -483,12 +603,6 @@ msgstr ""
 #: ../../../src/ptb/frame/code/frame_game_options.cpp:29
 msgid "Options"
 msgstr "Options du jeu"
-
-msgid "Or with your bare hands."
-msgstr "Ou à mains nues."
-
-msgid "Ouch!"
-msgstr "Ouille !"
 
 #: ../../../src/ptb/frame/code/frame_password.cpp:37
 #: ../../../src/ptb/frame/code/frame_configure.cpp:49
@@ -525,26 +639,30 @@ msgstr "Contrôles du joueur"
 msgid "Plee the Bear"
 msgstr "Plee the Bear"
 
-msgid ""
-"Plee the Bear wakes up late one afternoon after dreaming of his earlier years, when he traveled across the world with his belle at his side.\n"
-"\n"
-"Craving an afternoon snack, he sticks his arm in a nearby honey pot..."
+#: ../../../data/level/forest-intro.lvl
+#, fuzzy
+#| msgid ""
+#| "Plee the Bear wakes up late one afternoon after dreaming of his earlier "
+#| "years, when he traveled across the world with his belle at his side.\n"
+#| "\n"
+#| "Craving an afternoon snack, he sticks his arm in a nearby honey pot..."
+msgid "Plee the Bear wakes up late one afternoon after dreaming of his earlier years, when he traveled across the world with his belle at his side.nnCraving an afternoon snack, he sticks his arm in a nearby honey pot..."
 msgstr ""
 "Plee l'ours se réveille au milieu de l'après-midi, alors qu'il rêvait de cette époque formidable pendant laquelle il arpentait le monde en compagnie de sa belle.\n"
 "\n"
 "Désirant savourer un petit goûter, il plonge sa patte dans le pot de miel…"
 
-msgid ""
-"Press a key to stop vertical arm \n"
-"and release to fire. \n"
-"Jump to cancel."
+#: ../../../data/level/sandbox.lvl
+#, fuzzy
+#| msgid ""
+#| "Press a key to stop vertical arm \n"
+#| "and release to fire. \n"
+#| "Jump to cancel."
+msgid "Press a key to stop vertical arm nand release to fire. nJump to cancel."
 msgstr ""
 "Appuie sur une touche pour stopper le bras vertical \n"
 "et relâche pour tirer. \n"
 "Saute pour annuler."
-
-msgid "Press up or down to aim your stone."
-msgstr "Appuie sur haut ou bas pour diriger ta pierre."
 
 #: ../../../src/ptb/frame/code/frame_play_mini_game.cpp:195
 #: ../../../src/ptb/frame/code/frame_play_story.cpp:239
@@ -569,20 +687,15 @@ msgstr "Quitter"
 msgid "Raphaël Giudici"
 msgstr "Raphaël Giudici"
 
+#: ../../../data/level/forest-1.lvl
 msgid "Ray is found"
 msgstr "Ray est trouvé"
-
-msgid "Ray! I finally found you."
-msgstr "Ray ! Je te trouve enfin."
 
 msgid "Reach the top of the waterfall in the second act of the forest."
 msgstr "Va en haut de la chute d'eau dans le second acte de la forêt."
 
 msgid "Release"
-msgstr ""
-
-msgid "Release the jump button at any moment to jump. Pressing an other button will cancel the jump."
-msgstr "Relâche le saut à n'importe quel moment pour sauter. Toute autre action annulera le saut."
+msgstr "Relâche"
 
 #: ../../../src/ptb/frame/code/frame_profiles.cpp:189
 msgid "Remove"
@@ -598,9 +711,6 @@ msgstr "Revenir au jeu"
 
 msgid "Roar"
 msgstr "Rugir"
-
-msgid "Sandbox"
-msgstr "Bac à sable"
 
 #: ../../../src/ptb/frame/code/frame_level_score.cpp:208
 msgid "Save"
@@ -618,6 +728,9 @@ msgstr "Score :"
 msgid "Screen"
 msgstr "Écran"
 
+#: ../../../data/level/secret/forest-1.lvl
+#: ../../../data/level/secret/castle-2.lvl
+#: ../../../data/level/secret/forest-2.lvl
 msgid "Secret level found"
 msgstr "Niveau secret trouvé"
 
@@ -625,17 +738,8 @@ msgstr "Niveau secret trouvé"
 msgid "See you in another world."
 msgstr "On se voit dans un autre monde."
 
-msgid "See? Easy."
-msgstr "Tu vois ? C'est facile."
-
 msgid "Slap"
 msgstr "Baffer"
-
-msgid "Slap in mid-air to cling to the walls."
-msgstr "Donne une baffe en l'air pour t'accrocher aux murs."
-
-msgid "So if you die, don't worry, because you will return here."
-msgstr "Ne t'inquiète donc pas si tu meures, tu réapparaîtras ici."
 
 #: ../../../src/ptb/item/code/owl.cpp:65
 msgid "So you found my lucky hazelnut!"
@@ -655,80 +759,44 @@ msgstr "Commencer le jeu"
 msgid "Stone's waster"
 msgstr "Gaspilleur de projectiles"
 
-msgid "Stop!"
-msgstr "Stop !"
-
 msgid "Sébastien Angibaud"
 msgstr "Sébastien Angibaud"
 
+#: ../../../data/level/castle-2.lvl
 msgid "THRONE"
 msgstr ""
-
-msgid "Take the power and come here."
-msgstr "Prend le pouvoir et viens ici."
 
 #: ../../../src/ptb/frame/code/frame_talk.cpp:32
 msgid "Talk"
 msgstr "Parler"
 
+#: ../../../data/level/tutorial.lvl
 msgid "Target Practice"
 msgstr "Entraînement aux pierres"
 
 msgid "Thank you for playing!"
 msgstr "Merci d'avoir joué !"
 
-msgid "Thank you, daddy!"
-msgstr "Merci papa !"
-
-msgid "That time, I slapped him in mid-air."
-msgstr "Cette fois, je l'ai frappé en l'air."
-
-msgid "The Arena"
-msgstr "Le ring"
-
-msgid "The Castle"
-msgstr "La Château"
-
-msgid "The Forest"
-msgstr "La forêt"
-
+#: ../../../data/level/forest-2.lvl ../../../data/level/secret/castle-2.lvl
 msgid "The Waterfall"
 msgstr "La cascade"
 
-msgid "The blue gauge on the left represents your oxygen level."
-msgstr "La jauge bleue sur la gauche représente ton niveau d'oxygène."
-
-msgid "The object to the left of you is a checkpoint."
-msgstr "L'objet sur ta gauche est un point de sauvegarde."
-
-msgid "The powers can be combined. Let's try it!"
-msgstr "Les pouvoirs peuvent être combinés. Essaye !"
-
-msgid "The stones will bounces of surfaces with the water power."
-msgstr "Les pierres rebondissent avec le pouvoir de l'eau."
-
+#: ../../../data/level/mini-game/bears_on_fire.lvl
 msgid "The totem on your right will start some music..."
 msgstr "Le totem sur ta droite va lancer la musique..."
 
+#: ../../../data/level/secret/forest-1.lvl
 msgid "The totem on your right will start the music..."
 msgstr "Le totem sur ta droite va lancer la musique..."
 
-msgid "Then, go to the next totem on the right."
-msgstr "Puis, vas au prochain totem sur la droite."
-
 # texts displayed in the "translation" level
+#: ../../../data/level/transition.lvl
 msgid "There you are!"
 msgstr "Te voilà !"
 
 #: ../../../src/ptb/item/code/bonus_box.cpp:383
 msgid "Thief"
 msgstr "Voleur"
-
-msgid "This is for my honey!"
-msgstr "Ça c'est pour mon miel !"
-
-msgid "This power will also make you resistant to heat."
-msgstr "Ce pouvoir te rendra aussi résistant à la chaleur."
 
 msgid "Throw stone"
 msgstr "Jeter une pierre"
@@ -748,6 +816,8 @@ msgstr "Tutoriel"
 msgid "Two players (local)"
 msgstr "Deux joueurs (en local)"
 
+#: ../../../data/level/forest-1.lvl ../../../data/level/forest-2.lvl
+#: ../../../data/level/bug.lvl
 msgid "Two players cooperation"
 msgstr "Deux joueurs en coopération"
 
@@ -755,47 +825,23 @@ msgstr "Deux joueurs en coopération"
 msgid "Wait"
 msgstr "Attend"
 
-msgid "What did you do?"
-msgstr "Qu'as-tu fait ?"
-
-msgid "What is this?"
-msgstr "Qu'est-ce que c'est ?"
-
-msgid "What the...?"
-msgstr "Qu'est-ce que... ?"
-
 # texts displayed in the "translation" level
+#: ../../../data/level/transition.lvl
 msgid "What?"
 msgstr "Quoi ?"
 
+#: ../../../data/level/secret/forest-1.lvl
+#: ../../../data/level/mini-game/bears_on_fire.lvl
 msgid "When the wood logs reach the bottom of the waterfall, press the buttons on time to play along with the music."
 msgstr "Quand les bûches arrivent en bas de la chute, presse les boutons pour jouer en rythme avec la musique."
 
-#| msgid "Where is the exit?"
-msgid "Where are the others?"
-msgstr "Où sont les autres ?"
-
+#: ../../../data/level/tutorial.lvl
 msgid "Where is the exit?"
 msgstr "Où est la sortie ?"
-
-msgid "Who the hell are you?"
-msgstr "T'es qui toi ?"
-
-msgid "With the power of fire, stones can hit multiple enemies."
-msgstr "Avec le pouvoir de feu, tes pierres pourront toucher plusieurs ennemis."
-
-msgid "With the power of water you can stay under water indefinitely. Take it now."
-msgstr "Avec le pouvoir d'eau tu peux rester sous l'eau indéfiniment. Prend le maintenant."
-
-msgid "Yeah! Leave him!"
-msgstr "Ouais ! Laisse-le !"
 
 #: ../../../src/ptb/item/code/owl.cpp:62
 msgid "You already gave me my lucky hazelnut. Stop bothering me!"
 msgstr "J'ai déjà ma noisette porte-bonheur. Va-t-en !"
-
-msgid "You already!"
-msgstr "Toi ? Déjà ?"
 
 #: ../../../src/ptb/frame/code/frame_profiles.cpp:253
 msgid "You are deleting the profile \""
@@ -805,58 +851,26 @@ msgstr "Tu es en train de supprimer le profile « "
 msgid "You are playing a demo version. The final version may provide a different experience."
 msgstr "Vous jouez à une version de démonstration. L'expérience de jeu peut différer de la version finale."
 
-msgid "You ate all my honey!"
-msgstr "Tu as mangé tout mon miel !"
-
-msgid "You can also throw a stone to create a new bubble."
-msgstr "Tu peux aussi lancer une pierre pour créer une nouvelle bulle."
-
-msgid "You can float in mid-air with the power of air."
-msgstr "Tu peux flotter en l'air avec le pouvoir de l'air."
-
-msgid "You can get some oxygen in the big bubbles."
-msgstr "Tu peux récupérer un peu d'oxygène dans les grosses bulles."
-
-msgid "You can now practice your stone throwing in the \"Target Practice\" mini-game."
-msgstr "Tu peux maintenant t'entraîner au jeté de pierre dans le mini-jeu « Entraînement aux pierres »."
-
-msgid "You can then jump from the wall."
-msgstr "Tu peux ensuite sauter à partir du mur."
-
-msgid "You can then throw the stones."
-msgstr "Tu peux ensuite jeter des pierres."
-
-msgid "You deserve a good spanking instead."
-msgstr "Tu mérites une bonne baffe plutôt."
-
 #: ../../../src/ptb/frame/code/frame_level_score.cpp:142
 msgid "You didn't get a high score. Try again!"
 msgstr "Tu n'es pas dans le meilleurs scores. Essaie encore !"
 
-msgid "You don't have to keep holding the \"slap\" button or anything once on the wall."
-msgstr "Tu n'as pas à maintenir quelque action que ce soit quand tu es sur le mur."
-
-msgid "You don't need to know."
-msgstr "Tu n'as pas besoin de savoir"
-
+#: ../../../data/level/mini-game/bears_on_fire.lvl
 msgid "You have to be excellent this time. :)"
 msgstr "Tu devras être excellent cette fois :)"
 
-msgid "You shouldn't beat up your child."
-msgstr "Tu ne devrais pas frapper ton fils."
-
+#: ../../../data/level/transition.lvl
 msgid "You'll have to wait until the next installment."
 msgstr "Tu devras attendre la prochaine version."
 
+#: ../../../data/level/secret/forest-1.lvl
 msgid "You'll receive a nice surprise if you perform well enough. :)"
 msgstr "Tu auras une belle surprise si tu te débrouilles assez bien :)"
 
 # texts displayed in the "translation" level
+#: ../../../data/level/transition.lvl
 msgid "You're gonna feel my power! Gniark! Gniark! Gniark!"
 msgstr "Tu vas voir de quoi je suis capable ! Gniark ! Gniark ! Gniark !"
-
-msgid "You're not ready yet."
-msgstr "Tu n'es pas encore prêt."
 
 #: ../../../src/ptb/transition_effect/code/level_starting_effect.cpp:197
 msgid "act"
@@ -867,9 +881,2081 @@ msgstr "acte "
 msgid "and"
 msgstr "et"
 
+#: ../../../data/level/tutorial.lvl ../../../data/level/castle-2.lvl
+#: ../../../data/level/forest-2.lvl
+msgid "animation/air_bubble_generator.canim"
+msgstr ""
+
+#: ../../../data/level/castle-1.lvl
+msgid "animation/castle/corrupting-bonus.canim"
+msgstr ""
+
+#: ../../../data/level/jeremie.lvl
+msgid "animation/castle/fire.canim"
+msgstr ""
+
+#: ../../../data/model/castle/friend_ghost.mdl
+#: ../../../data/model/castle/thief_ghost.mdl
+#: ../../../data/model/castle/reverse_ghost.mdl
+msgid "animation/castle/ghost/reverse_ghost_appear.canim"
+msgstr ""
+
+#: ../../../data/model/castle/friend_ghost.mdl
+#: ../../../data/model/castle/thief_ghost.mdl
+#: ../../../data/model/castle/reverse_ghost.mdl
+msgid "animation/castle/ghost/reverse_ghost_control.canim"
+msgstr ""
+
+#: ../../../data/model/castle/friend_ghost.mdl
+#: ../../../data/model/castle/thief_ghost.mdl
+#: ../../../data/model/castle/reverse_ghost.mdl
+msgid "animation/castle/ghost/reverse_ghost_fly.canim"
+msgstr ""
+
+#: ../../../data/model/castle/friend_ghost.mdl
+#: ../../../data/model/castle/thief_ghost.mdl
+#: ../../../data/model/castle/reverse_ghost.mdl
+msgid "animation/castle/ghost/reverse_ghost_wait.canim"
+msgstr ""
+
+#: ../../../data/level/castle-1.lvl ../../../data/level/castle-2.lvl
+#: ../../../data/level/mini-game/beware_of_ghosts.lvl
+msgid "animation/castle/kicker.canim"
+msgstr ""
+
+#: ../../../data/level/castle-1.lvl ../../../data/level/castle-2.lvl
+#: ../../../data/level/stuffomatic-ro.lvl
+#: ../../../data/level/mini-game/beware_of_ghosts.lvl
+msgid "animation/castle/platform.canim"
+msgstr ""
+
+#: ../../../data/model/castle/spider.mdl
+msgid "animation/castle/spider/body.canim"
+msgstr ""
+
+#: ../../../data/model/castle/spider.mdl
+msgid "animation/castle/spider/drop.canim"
+msgstr ""
+
+#: ../../../data/model/castle/venom.mdl
+msgid "animation/castle/spider/venom.canim"
+msgstr ""
+
+#: ../../../data/level/castle-1.lvl
+msgid "animation/castle/spring_medium.canim"
+msgstr ""
+
+#: ../../../data/level/castle-1.lvl ../../../data/level/sandbox.lvl
+#: ../../../data/level/castle-2.lvl
+msgid "animation/castle/spring_strong.canim"
+msgstr ""
+
+#: ../../../data/level/castle-2.lvl
+#: ../../../data/level/mini-game/beware_of_ghosts.lvl
+msgid "animation/castle/spring_weak.canim"
+msgstr ""
+
+#: ../../../data/level/jeremie.lvl
+msgid "animation/castle/torch.canim"
+msgstr ""
+
+#: ../../../data/level/forest-1.lvl ../../../data/level/forest-2.lvl
+#: ../../../data/level/secret/forest-1.lvl
+#: ../../../data/level/secret/forest-2.lvl ../../../data/level/bug.lvl
+#: ../../../data/level/mini-game/beware_of_ghosts.lvl
+msgid "animation/corrupting-bonus.canim"
+msgstr ""
+
+#: ../../../data/level/castle-2.lvl
+msgid "animation/effect/clod.canim"
+msgstr ""
+
+#: ../../../data/model/forest/big_rabbit.mdl
+msgid "animation/effect/ground-blast-side.canim"
+msgstr ""
+
+#: ../../../data/model/forest/big_rabbit.mdl
+msgid "animation/effect/ground-blast.canim"
+msgstr ""
+
+#: ../../../data/model/forest/carrot_monster.mdl
+msgid "animation/forest/boss/carrot-attack.canim"
+msgstr ""
+
+#: ../../../data/model/forest/carrot_monster.mdl
+msgid "animation/forest/boss/carrot-crush.canim"
+msgstr ""
+
+#: ../../../data/level/forest-1.lvl ../../../data/level/bug.lvl
+msgid "animation/forest/bridge-plank.canim"
+msgstr ""
+
+#: ../../../data/level/forest-1.lvl ../../../data/level/tutorial.lvl
+#: ../../../data/level/forest-2.lvl ../../../data/level/bug.lvl
+msgid "animation/forest/butterfly/butterfly-*.canim"
+msgstr ""
+
+#: ../../../data/level/forest-1.lvl ../../../data/level/sandbox.lvl
+#: ../../../data/level/castle-2.lvl ../../../data/level/stuffomatic-ro.lvl
+#: ../../../data/level/forest-boss.lvl ../../../data/level/forest-2.lvl
+#: ../../../data/level/secret/forest-1.lvl
+#: ../../../data/level/secret/castle-2.lvl
+#: ../../../data/level/secret/forest-2.lvl ../../../data/level/bug.lvl
+#: ../../../data/level/jeremie.lvl
+msgid "animation/forest/corrupting-carrot.canim"
+msgstr ""
+
+#: ../../../data/model/forest/frog.mdl
+msgid "animation/forest/frog/frog_explose.canim"
+msgstr ""
+
+#: ../../../data/model/forest/frog.mdl
+msgid "animation/forest/frog/frog_fall.canim"
+msgstr ""
+
+#: ../../../data/model/forest/frog.mdl
+msgid "animation/forest/frog/frog_idle_1.canim"
+msgstr ""
+
+#: ../../../data/model/forest/frog.mdl
+msgid "animation/forest/frog/frog_idle_2.canim"
+msgstr ""
+
+#: ../../../data/model/forest/frog.mdl
+msgid "animation/forest/frog/frog_jump.canim"
+msgstr ""
+
+#: ../../../data/model/forest/gorilla.mdl
+msgid "animation/forest/gorilla/gorilla_angry-1.canim"
+msgstr ""
+
+#: ../../../data/model/forest/gorilla.mdl
+msgid "animation/forest/gorilla/gorilla_angry-2.canim"
+msgstr ""
+
+#: ../../../data/model/forest/gorilla.mdl
+msgid "animation/forest/gorilla/gorilla_angry-3.canim"
+msgstr ""
+
+#: ../../../data/model/forest/gorilla.mdl
+msgid "animation/forest/gorilla/gorilla_attack.canim"
+msgstr ""
+
+#: ../../../data/model/forest/gorilla.mdl
+msgid "animation/forest/gorilla/gorilla_idle.canim"
+msgstr ""
+
+#: ../../../data/model/forest/gorilla.mdl
+msgid "animation/forest/gorilla/gorilla_scan_left.canim"
+msgstr ""
+
+#: ../../../data/model/forest/gorilla.mdl
+msgid "animation/forest/gorilla/gorilla_scan_right.canim"
+msgstr ""
+
+#: ../../../data/model/forest/gorilla.mdl
+msgid "animation/forest/gorilla/gorilla_walking.canim"
+msgstr ""
+
+#: ../../../data/level/forest-1.lvl ../../../data/level/tutorial.lvl
+#: ../../../data/level/forest-2.lvl ../../../data/level/bug.lvl
+#: ../../../data/level/mini-game/the_waterfall.lvl
+msgid "animation/forest/kicker.canim"
+msgstr ""
+
+#: ../../../data/level/forest-1.lvl ../../../data/level/tutorial.lvl
+#: ../../../data/level/castle-2.lvl ../../../data/level/forest-2.lvl
+#: ../../../data/level/bug.lvl
+#: ../../../data/level/mini-game/target_practice.lvl
+msgid "animation/forest/platform.canim"
+msgstr ""
+
+#: ../../../data/model/forest/rabbit.mdl
+msgid "animation/forest/rabbit/dust-end.canim"
+msgstr ""
+
+#: ../../../data/model/forest/rabbit.mdl
+msgid "animation/forest/rabbit/dust.canim"
+msgstr ""
+
+#: ../../../data/model/forest/rabbit.mdl
+msgid "animation/forest/rabbit/rabbit_dig.canim"
+msgstr ""
+
+#: ../../../data/model/forest/rabbit.mdl
+msgid "animation/forest/rabbit/rabbit_eat.canim"
+msgstr ""
+
+#: ../../../data/model/forest/big_rabbit.mdl
+#: ../../../data/model/forest/rabbit.mdl
+msgid "animation/forest/rabbit/rabbit_fall.canim"
+msgstr ""
+
+#: ../../../data/model/forest/rabbit.mdl
+msgid "animation/forest/rabbit/rabbit_idle.canim"
+msgstr ""
+
+#: ../../../data/model/forest/rabbit.mdl
+msgid "animation/forest/rabbit/rabbit_injured.canim"
+msgstr ""
+
+#: ../../../data/model/forest/rabbit.mdl
+msgid "animation/forest/rabbit/rabbit_jump.canim"
+msgstr ""
+
+#: ../../../data/model/forest/rabbit.mdl
+msgid "animation/forest/rabbit/rabbit_walk.canim"
+msgstr ""
+
+#: ../../../data/level/forest-1.lvl
+msgid "animation/forest/splash-block.canim"
+msgstr ""
+
+#: ../../../data/level/forest-1.lvl ../../../data/level/bug.lvl
+msgid "animation/forest/spring_orange.canim"
+msgstr ""
+
+#: ../../../data/level/forest-1.lvl ../../../data/level/tutorial.lvl
+#: ../../../data/level/forest-2.lvl ../../../data/level/bug.lvl
+#: ../../../data/level/mini-game/the_arena.lvl
+msgid "animation/forest/spring_red.canim"
+msgstr ""
+
+#: ../../../data/level/forest-1.lvl ../../../data/level/bug.lvl
+msgid "animation/forest/spring_yellow.canim"
+msgstr ""
+
+#: ../../../data/model/forest/wasp.mdl ../../../data/model/forest/sting.mdl
+#: ../../../data/model/projectile_enemy.mdl
+msgid "animation/forest/wasp/sting_attack.canim"
+msgstr ""
+
+#: ../../../data/model/projectile_enemy.mdl
+msgid "animation/forest/wasp/sting_explosion.canim"
+msgstr ""
+
+#: ../../../data/model/forest/wasp.mdl
+msgid "animation/forest/wasp/wasp_attack.canim"
+msgstr ""
+
+#: ../../../data/model/forest/wasp.mdl
+msgid "animation/forest/wasp/wasp_dead.canim"
+msgstr ""
+
+#: ../../../data/model/forest/wasp.mdl
+msgid "animation/forest/wasp/wasp_fly.canim"
+msgstr ""
+
+#: ../../../data/level/forest-1.lvl ../../../data/level/forest-2.lvl
+msgid "animation/forest/waterfall-top.canim"
+msgstr ""
+
+#: ../../../data/level/forest-1.lvl ../../../data/level/forest-2.lvl
+#: ../../../data/level/secret/forest-1.lvl
+#: ../../../data/level/mini-game/the_waterfall.lvl
+#: ../../../data/level/mini-game/bears_on_fire.lvl
+msgid "animation/forest/waterfall.canim"
+msgstr ""
+
+#: ../../../data/level/forest-1.lvl
+msgid "animation/forest/woodlog-thrower.canim"
+msgstr ""
+
+#: ../../../data/model/forest/woodpecker.mdl
+msgid "animation/forest/woodpecker/woodpecker_attacking.canim"
+msgstr ""
+
+#: ../../../data/model/forest/woodpecker.mdl
+msgid "animation/forest/woodpecker/woodpecker_dying.canim"
+msgstr ""
+
+#: ../../../data/model/forest/woodpecker.mdl
+msgid "animation/forest/woodpecker/woodpecker_flying.canim"
+msgstr ""
+
+#: ../../../data/model/forest/woodpecker.mdl
+msgid "animation/forest/woodpecker/woodpecker_pecking.canim"
+msgstr ""
+
+#: ../../../data/model/forest/woodpecker.mdl
+msgid "animation/forest/woodpecker/woodpecker_watching.canim"
+msgstr ""
+
+#: ../../../data/model/forest/woodpecker.mdl
+msgid "animation/forest/woodpecker/woodpecker_watching_right.canim"
+msgstr ""
+
+#: ../../../data/model/god.mdl
+msgid "animation/god/appearing.canim"
+msgstr ""
+
+#: ../../../data/model/god.mdl
+msgid "animation/god/ball-creation.canim"
+msgstr ""
+
+#: ../../../data/model/god.mdl
+msgid "animation/god/ball.canim"
+msgstr ""
+
+#: ../../../data/model/god.mdl
+msgid "animation/god/disappearing.canim"
+msgstr ""
+
+#: ../../../data/model/god.mdl
+msgid "animation/god/hand.canim"
+msgstr ""
+
+#: ../../../data/model/god.mdl
+msgid "animation/god/human-idle.canim"
+msgstr ""
+
+#: ../../../data/level/transition.lvl ../../../data/model/god.mdl
+msgid "animation/god/human-talking.canim"
+msgstr ""
+
+#: ../../../data/model/god.mdl
+msgid "animation/god/stork-disappearing.canim"
+msgstr ""
+
+#: ../../../data/model/god.mdl
+msgid "animation/god/stork-flying.canim"
+msgstr ""
+
+#: ../../../data/model/headstone.mdl
+msgid "animation/headstone.canim"
+msgstr ""
+
+#: ../../../data/model/forest/carrot_monster.mdl
+msgid "animation/light-flash.canim"
+msgstr ""
+
+#: ../../../data/model/owl.mdl
+msgid "animation/owl/owl_bye.canim"
+msgstr ""
+
+#: ../../../data/model/owl.mdl
+msgid "animation/owl/owl_speaking.canim"
+msgstr ""
+
+#: ../../../data/model/owl.mdl
+msgid "animation/owl/owl_waiting.canim"
+msgstr ""
+
+#: ../../../data/model/owl.mdl
+msgid "animation/owl/owl_with_nut.canim"
+msgstr ""
+
+#: ../../../data/model/player/plee-alt.mdl
+msgid "animation/plee-alt/cap.canim"
+msgstr ""
+
+#: ../../../data/model/player/plee-alt.mdl
+msgid "animation/plee-alt/captive.canim"
+msgstr ""
+
+#: ../../../data/model/player/plee-alt.mdl
+msgid "animation/plee-alt/cling.canim"
+msgstr ""
+
+#: ../../../data/model/player/plee-alt.mdl
+msgid "animation/plee-alt/crouch.canim"
+msgstr ""
+
+#: ../../../data/model/player/plee-alt.mdl
+msgid "animation/plee-alt/dream.canim"
+msgstr ""
+
+#: ../../../data/model/player/plee-alt.mdl
+msgid "animation/plee-alt/fall.canim"
+msgstr ""
+
+#: ../../../data/model/player/plee-alt.mdl
+msgid "animation/plee-alt/float.canim"
+msgstr ""
+
+#: ../../../data/model/player/plee-alt.mdl
+msgid "animation/plee-alt/float_and_swim.canim"
+msgstr ""
+
+#: ../../../data/model/player/plee-alt.mdl
+msgid "animation/plee-alt/idle.canim"
+msgstr ""
+
+#: ../../../data/model/player/plee-alt.mdl
+msgid "animation/plee-alt/injured.canim"
+msgstr ""
+
+#: ../../../data/model/player/plee-alt.mdl
+msgid "animation/plee-alt/jump.canim"
+msgstr ""
+
+#: ../../../data/model/player/plee-alt.mdl
+msgid "animation/plee-alt/look_upward.canim"
+msgstr ""
+
+#: ../../../data/model/player/plee-alt.mdl
+msgid "animation/plee-alt/maintain.canim"
+msgstr ""
+
+#: ../../../data/model/player/plee-alt.mdl
+msgid "animation/plee-alt/maintain_and_fall.canim"
+msgstr ""
+
+#: ../../../data/model/player/plee-alt.mdl
+msgid "animation/plee-alt/maintain_and_walk.canim"
+msgstr ""
+
+#: ../../../data/model/player/plee-alt.mdl
+msgid "animation/plee-alt/roar.canim"
+msgstr ""
+
+#: ../../../data/model/player/plee-alt.mdl
+msgid "animation/plee-alt/run.canim"
+msgstr ""
+
+#: ../../../data/model/player/plee-alt.mdl
+msgid "animation/plee-alt/sink.canim"
+msgstr ""
+
+#: ../../../data/model/player/plee-alt.mdl
+msgid "animation/plee-alt/slap.canim"
+msgstr ""
+
+#: ../../../data/model/player/plee-alt.mdl
+msgid "animation/plee-alt/slap_and_walk.canim"
+msgstr ""
+
+#: ../../../data/model/player/plee-alt.mdl
+msgid "animation/plee-alt/sleep.canim"
+msgstr ""
+
+#: ../../../data/model/player/plee-alt.mdl
+msgid "animation/plee-alt/start_cling.canim"
+msgstr ""
+
+#: ../../../data/model/player/plee-alt.mdl
+msgid "animation/plee-alt/start_hang.canim"
+msgstr ""
+
+#: ../../../data/model/player/plee-alt.mdl
+msgid "animation/plee-alt/start_vertical_jump.canim"
+msgstr ""
+
+#: ../../../data/model/player/plee-alt.mdl
+msgid "animation/plee-alt/swimming.canim"
+msgstr ""
+
+#: ../../../data/model/player/plee-alt.mdl
+msgid "animation/plee-alt/take_hat.canim"
+msgstr ""
+
+#: ../../../data/model/player/plee-alt.mdl
+msgid "animation/plee-alt/throw.canim"
+msgstr ""
+
+#: ../../../data/model/player/plee-alt.mdl
+msgid "animation/plee-alt/throw_and_fall.canim"
+msgstr ""
+
+#: ../../../data/model/player/plee-alt.mdl
+msgid "animation/plee-alt/throw_and_walk.canim"
+msgstr ""
+
+#: ../../../data/model/player/plee-alt.mdl
+msgid "animation/plee-alt/vertical_jump.canim"
+msgstr ""
+
+#: ../../../data/model/player/plee-alt.mdl
+msgid "animation/plee-alt/wait1.canim"
+msgstr ""
+
+#: ../../../data/model/player/plee-alt.mdl
+msgid "animation/plee-alt/wait2.canim"
+msgstr ""
+
+#: ../../../data/model/player/plee-alt.mdl
+msgid "animation/plee-alt/walk.canim"
+msgstr ""
+
+#: ../../../data/level/transition.lvl ../../../data/model/player/ray.mdl
+#: ../../../data/model/player/plee.mdl ../../../data/model/little_plee.mdl
+msgid "animation/plee/cap.canim"
+msgstr ""
+
+#: ../../../data/model/player/ray.mdl ../../../data/model/player/plee.mdl
+msgid "animation/plee/captive.canim"
+msgstr ""
+
+#: ../../../data/model/player/ray.mdl ../../../data/model/player/plee.mdl
+msgid "animation/plee/cling.canim"
+msgstr ""
+
+#: ../../../data/model/player/ray.mdl
+msgid "animation/plee/clung_jump.canim"
+msgstr ""
+
+#: ../../../data/model/player/ray.mdl ../../../data/model/player/plee.mdl
+msgid "animation/plee/crouch.canim"
+msgstr ""
+
+#: ../../../data/model/player/ray.mdl ../../../data/model/player/plee.mdl
+msgid "animation/plee/dream.canim"
+msgstr ""
+
+#: ../../../data/model/player/plee.mdl ../../../data/model/little_plee.mdl
+msgid "animation/plee/fall.canim"
+msgstr ""
+
+#: ../../../data/model/player/ray.mdl ../../../data/model/player/plee.mdl
+msgid "animation/plee/float.canim"
+msgstr ""
+
+#: ../../../data/model/player/ray.mdl ../../../data/model/player/plee.mdl
+msgid "animation/plee/float_and_swim.canim"
+msgstr ""
+
+#: ../../../data/model/player/ray.mdl
+msgid "animation/plee/hang.canim"
+msgstr ""
+
+#: ../../../data/level/transition.lvl ../../../data/model/player/ray.mdl
+#: ../../../data/model/player/plee.mdl ../../../data/model/little_plee.mdl
+msgid "animation/plee/idle.canim"
+msgstr ""
+
+#: ../../../data/model/player/plee.mdl
+msgid "animation/plee/injured.canim"
+msgstr ""
+
+#: ../../../data/model/player/plee.mdl ../../../data/model/little_plee.mdl
+msgid "animation/plee/jump.canim"
+msgstr ""
+
+#: ../../../data/model/player/plee.mdl
+msgid "animation/plee/look_upward.canim"
+msgstr ""
+
+#: ../../../data/model/player/ray.mdl ../../../data/model/player/plee.mdl
+msgid "animation/plee/maintain.canim"
+msgstr ""
+
+#: ../../../data/model/player/ray.mdl ../../../data/model/player/plee.mdl
+msgid "animation/plee/maintain_and_fall.canim"
+msgstr ""
+
+#: ../../../data/model/player/ray.mdl ../../../data/model/player/plee.mdl
+msgid "animation/plee/maintain_and_walk.canim"
+msgstr ""
+
+#: ../../../data/model/player/ray.mdl ../../../data/model/player/plee.mdl
+msgid "animation/plee/roar.canim"
+msgstr ""
+
+#: ../../../data/model/player/ray.mdl ../../../data/model/player/plee.mdl
+#: ../../../data/model/little_plee.mdl
+msgid "animation/plee/run.canim"
+msgstr ""
+
+#: ../../../data/model/player/ray.mdl ../../../data/model/player/plee.mdl
+msgid "animation/plee/sink.canim"
+msgstr ""
+
+#: ../../../data/model/player/ray.mdl ../../../data/model/player/plee.mdl
+msgid "animation/plee/slap.canim"
+msgstr ""
+
+#: ../../../data/model/player/ray.mdl ../../../data/model/player/plee.mdl
+msgid "animation/plee/slap_and_walk.canim"
+msgstr ""
+
+#: ../../../data/model/player/ray.mdl ../../../data/model/player/plee.mdl
+msgid "animation/plee/sleep.canim"
+msgstr ""
+
+#: ../../../data/model/player/ray.mdl ../../../data/model/player/plee.mdl
+msgid "animation/plee/start_cling.canim"
+msgstr ""
+
+#: ../../../data/model/player/ray.mdl ../../../data/model/player/plee.mdl
+msgid "animation/plee/start_hang.canim"
+msgstr ""
+
+#: ../../../data/model/player/ray.mdl ../../../data/model/player/plee.mdl
+msgid "animation/plee/start_vertical_jump.canim"
+msgstr ""
+
+#: ../../../data/model/player/ray.mdl ../../../data/model/player/plee.mdl
+msgid "animation/plee/swimming.canim"
+msgstr ""
+
+#: ../../../data/model/player/ray.mdl ../../../data/model/player/plee.mdl
+msgid "animation/plee/take_hat.canim"
+msgstr ""
+
+#: ../../../data/model/player/ray.mdl ../../../data/model/player/plee.mdl
+msgid "animation/plee/throw.canim"
+msgstr ""
+
+#: ../../../data/model/player/ray.mdl ../../../data/model/player/plee.mdl
+msgid "animation/plee/throw_and_fall.canim"
+msgstr ""
+
+#: ../../../data/model/player/ray.mdl ../../../data/model/player/plee.mdl
+msgid "animation/plee/throw_and_walk.canim"
+msgstr ""
+
+#: ../../../data/model/player/ray.mdl ../../../data/model/player/plee.mdl
+msgid "animation/plee/vertical_jump.canim"
+msgstr ""
+
+#: ../../../data/model/player/ray.mdl ../../../data/model/player/plee.mdl
+msgid "animation/plee/wait1.canim"
+msgstr ""
+
+#: ../../../data/model/player/ray.mdl ../../../data/model/player/plee.mdl
+msgid "animation/plee/wait2.canim"
+msgstr ""
+
+#: ../../../data/model/player/plee.mdl ../../../data/model/little_plee.mdl
+msgid "animation/plee/walk.canim"
+msgstr ""
+
+#: ../../../data/model/forest/big_rabbit.mdl
+msgid "animation/power-filter-door/waves.canim"
+msgstr ""
+
+#: ../../../data/model/player/ray.mdl
+msgid "animation/ray/cry.canim"
+msgstr ""
+
+#: ../../../data/model/player/ray.mdl
+msgid "animation/ray/fall.canim"
+msgstr ""
+
+#: ../../../data/model/player/ray.mdl
+msgid "animation/ray/idle.canim"
+msgstr ""
+
+#: ../../../data/model/player/ray.mdl
+msgid "animation/ray/injured.canim"
+msgstr ""
+
+#: ../../../data/model/player/ray.mdl
+msgid "animation/ray/jump.canim"
+msgstr ""
+
+#: ../../../data/model/player/ray.mdl
+msgid "animation/ray/look_upward.canim"
+msgstr ""
+
+#: ../../../data/model/player/ray.mdl ../../../data/model/god.mdl
+msgid "animation/ray/walk-cry.canim"
+msgstr ""
+
+#: ../../../data/model/player/ray.mdl
+msgid "animation/ray/walk.canim"
+msgstr ""
+
+#: ../../../data/level/castle-2.lvl
+msgid "animation/smoke.canim"
+msgstr ""
+
+#: ../../../data/model/player/plee-alt.mdl ../../../data/model/player/plee.mdl
+msgid "animation/stars.canim"
+msgstr ""
+
+#: ../../../data/level/castle-2.lvl
+msgid "animation/steam.canim"
+msgstr ""
+
+#: ../../../data/model/stones/air_fire_stone.mdl
+#: ../../../data/model/stones/air_water_stone.mdl
+#: ../../../data/model/stones/air_stone.mdl
+msgid "animation/stones/air_blast_stone.canim"
+msgstr ""
+
+#: ../../../data/model/stones/fire_stone.mdl
+msgid "animation/stones/air_fire_extinct_stone.canim"
+msgstr ""
+
+#: ../../../data/model/stones/air_fire_stone.mdl
+msgid "animation/stones/air_fire_stone.canim"
+msgstr ""
+
+#: ../../../data/model/stones/air_fire_water_stone.mdl
+msgid "animation/stones/air_fire_water_stone.canim"
+msgstr ""
+
+#: ../../../data/model/stones/air_stone.mdl
+msgid "animation/stones/air_stone.canim"
+msgstr ""
+
+#: ../../../data/model/stones/air_stone.mdl
+msgid "animation/stones/air_stone_deflated.canim"
+msgstr ""
+
+#: ../../../data/model/stones/air_stone.mdl
+msgid "animation/stones/air_stone_deflating.canim"
+msgstr ""
+
+#: ../../../data/model/stones/air_stone.mdl
+msgid "animation/stones/air_stone_exploding.canim"
+msgstr ""
+
+#: ../../../data/model/stones/air_water_stone.mdl
+msgid "animation/stones/air_water_stone.canim"
+msgstr ""
+
+#: ../../../data/model/stones/fire_stone.mdl
+msgid "animation/stones/fire_stone.canim"
+msgstr ""
+
+#: ../../../data/model/stones/stone.mdl
+msgid "animation/stones/stone.canim"
+msgstr ""
+
+#: ../../../data/model/stones/water_fire_stone.mdl
+msgid "animation/stones/water_fire_extinct_stone.canim"
+msgstr ""
+
+#: ../../../data/model/stones/water_fire_stone.mdl
+msgid "animation/stones/water_fire_stone.canim"
+msgstr ""
+
+#: ../../../data/model/stones/water_stone.mdl
+msgid "animation/stones/water_stone.canim"
+msgstr ""
+
+#: ../../../data/level/castle-1.lvl ../../../data/level/forest-1.lvl
+#: ../../../data/level/tutorial.lvl ../../../data/level/castle-2.lvl
+#: ../../../data/level/forest-2.lvl
+#: ../../../data/level/mini-game/target_practice.lvl
+msgid "animation/water.canim"
+msgstr ""
+
 #: ../../../src/ptb/transition_effect/code/game_over_effect.cpp:46
 msgid "game over"
 msgstr "Fin de partie"
+
+#: ../../../data/animation/powerup/water.anim
+#: ../../../data/animation/powerup/small_fire.anim
+#: ../../../data/animation/powerup/invincibility.anim
+#: ../../../data/animation/powerup/fire.anim
+#: ../../../data/animation/powerup/stones_big_stock.anim
+#: ../../../data/animation/powerup/stones_stock.anim
+#: ../../../data/animation/powerup/small_water.anim
+#: ../../../data/animation/powerup/small_air.anim
+msgid "gfx/bonus-box-1.png"
+msgstr ""
+
+#: ../../../data/animation/powerup/one_more_life.anim
+#: ../../../data/animation/powerup/increase_max_energy.anim
+#: ../../../data/animation/powerup/air.anim
+msgid "gfx/bonus-box-2.png"
+msgstr ""
+
+#: ../../../data/animation/powerup/increase_max_energy-alt.anim
+msgid "gfx/bonus-box-3.png"
+msgstr ""
+
+#: ../../../data/level/forest-1.lvl ../../../data/level/forest-2.lvl
+#: ../../../data/level/bug.lvl
+#: ../../../data/animation/air_bubble_generator.anim
+msgid "gfx/bubble.png"
+msgstr ""
+
+#: ../../../data/level/castle-2.lvl ../../../data/model/castle/axe.mdl
+#: ../../../data/model/castle/armor.mdl
+msgid "gfx/castle/armor/armor-parts.png"
+msgstr ""
+
+#: ../../../data/level/castle-1.lvl ../../../data/level/castle-2.lvl
+#: ../../../data/level/secret/castle-2.lvl
+#: ../../../data/level/mini-game/beware_of_ghosts.lvl
+msgid "gfx/castle/bk/bk_00.png"
+msgstr ""
+
+#: ../../../data/level/castle-1.lvl ../../../data/level/castle-2.lvl
+#: ../../../data/level/secret/castle-2.lvl
+#: ../../../data/level/mini-game/beware_of_ghosts.lvl
+msgid "gfx/castle/bk/bk_01.png"
+msgstr ""
+
+#: ../../../data/level/castle-1.lvl ../../../data/level/castle-2.lvl
+#: ../../../data/level/secret/castle-2.lvl
+#: ../../../data/level/mini-game/beware_of_ghosts.lvl
+msgid "gfx/castle/bk/bk_02.png"
+msgstr ""
+
+#: ../../../data/level/castle-1.lvl ../../../data/level/castle-2.lvl
+#: ../../../data/level/secret/castle-2.lvl
+#: ../../../data/level/mini-game/beware_of_ghosts.lvl
+msgid "gfx/castle/bk/bk_03.png"
+msgstr ""
+
+#: ../../../data/level/castle-1.lvl ../../../data/level/castle-2.lvl
+#: ../../../data/level/secret/castle-2.lvl
+#: ../../../data/level/mini-game/beware_of_ghosts.lvl
+msgid "gfx/castle/bk/bk_04.png"
+msgstr ""
+
+#: ../../../data/level/castle-1.lvl ../../../data/level/castle-2.lvl
+#: ../../../data/level/secret/castle-2.lvl
+#: ../../../data/level/mini-game/beware_of_ghosts.lvl
+msgid "gfx/castle/bk/bk_05.png"
+msgstr ""
+
+#: ../../../data/level/castle-1.lvl ../../../data/level/castle-2.lvl
+#: ../../../data/level/secret/castle-2.lvl
+#: ../../../data/level/mini-game/beware_of_ghosts.lvl
+msgid "gfx/castle/bk/bk_06.png"
+msgstr ""
+
+#: ../../../data/level/castle-1.lvl ../../../data/level/castle-2.lvl
+#: ../../../data/level/secret/castle-2.lvl
+#: ../../../data/level/mini-game/beware_of_ghosts.lvl
+msgid "gfx/castle/bk/bk_07.png"
+msgstr ""
+
+#: ../../../data/level/castle-1.lvl ../../../data/level/castle-2.lvl
+#: ../../../data/level/secret/castle-2.lvl
+#: ../../../data/level/mini-game/beware_of_ghosts.lvl
+msgid "gfx/castle/bk/bk_08.png"
+msgstr ""
+
+#: ../../../data/level/castle-1.lvl ../../../data/level/castle-2.lvl
+#: ../../../data/level/secret/castle-2.lvl
+#: ../../../data/level/mini-game/beware_of_ghosts.lvl
+msgid "gfx/castle/bk/bk_09.png"
+msgstr ""
+
+#: ../../../data/level/castle-1.lvl ../../../data/level/castle-2.lvl
+#: ../../../data/level/secret/castle-2.lvl
+#: ../../../data/level/mini-game/beware_of_ghosts.lvl
+msgid "gfx/castle/bk/bk_10.png"
+msgstr ""
+
+#: ../../../data/level/castle-1.lvl ../../../data/level/castle-2.lvl
+#: ../../../data/level/secret/castle-2.lvl
+#: ../../../data/level/mini-game/beware_of_ghosts.lvl
+msgid "gfx/castle/bk/bk_11.png"
+msgstr ""
+
+#: ../../../data/level/castle-1.lvl ../../../data/level/castle-2.lvl
+#: ../../../data/level/secret/castle-2.lvl
+#: ../../../data/level/mini-game/beware_of_ghosts.lvl
+msgid "gfx/castle/bk/bk_12.png"
+msgstr ""
+
+#: ../../../data/level/castle-1.lvl ../../../data/level/castle-2.lvl
+#: ../../../data/level/secret/castle-2.lvl
+#: ../../../data/level/mini-game/beware_of_ghosts.lvl
+msgid "gfx/castle/bk/bk_13.png"
+msgstr ""
+
+#: ../../../data/level/castle-1.lvl ../../../data/level/castle-2.lvl
+#: ../../../data/level/secret/castle-2.lvl
+#: ../../../data/level/mini-game/beware_of_ghosts.lvl
+msgid "gfx/castle/bk/bk_14.png"
+msgstr ""
+
+#: ../../../data/level/castle-1.lvl ../../../data/level/castle-2.lvl
+#: ../../../data/level/secret/castle-2.lvl
+#: ../../../data/level/mini-game/beware_of_ghosts.lvl
+msgid "gfx/castle/bk/bk_15.png"
+msgstr ""
+
+#: ../../../data/level/castle-1.lvl ../../../data/level/castle-2.lvl
+#: ../../../data/level/secret/castle-2.lvl
+#: ../../../data/level/mini-game/beware_of_ghosts.lvl
+msgid "gfx/castle/bk/bk_16.png"
+msgstr ""
+
+#: ../../../data/level/castle-1.lvl ../../../data/level/castle-2.lvl
+#: ../../../data/level/secret/castle-2.lvl
+#: ../../../data/level/mini-game/beware_of_ghosts.lvl
+msgid "gfx/castle/bk/bk_17.png"
+msgstr ""
+
+#: ../../../data/level/castle-1.lvl ../../../data/level/castle-2.lvl
+#: ../../../data/level/secret/castle-2.lvl
+#: ../../../data/level/mini-game/beware_of_ghosts.lvl
+msgid "gfx/castle/bk/bk_18.png"
+msgstr ""
+
+#: ../../../data/level/castle-1.lvl ../../../data/level/castle-2.lvl
+#: ../../../data/level/secret/castle-2.lvl
+#: ../../../data/level/mini-game/beware_of_ghosts.lvl
+msgid "gfx/castle/bk/bk_19.png"
+msgstr ""
+
+#: ../../../data/model/castle/catapult.mdl
+msgid "gfx/castle/catapult/catapult.png"
+msgstr ""
+
+#: ../../../data/level/castle-1.lvl ../../../data/level/castle-2.lvl
+#: ../../../data/level/stuffomatic-ro.lvl
+msgid "gfx/castle/curtain.png"
+msgstr ""
+
+#: ../../../data/level/castle-1.lvl ../../../data/level/sandbox.lvl
+#: ../../../data/level/castle-2.lvl ../../../data/level/stuffomatic-ro.lvl
+msgid "gfx/castle/decorations.png"
+msgstr ""
+
+#: ../../../data/level/castle-2.lvl ../../../data/animation/castle/fire.anim
+msgid "gfx/castle/fire.png"
+msgstr ""
+
+#: ../../../data/level/castle-1.lvl ../../../data/level/castle-2.lvl
+#: ../../../data/level/jeremie.lvl
+msgid "gfx/castle/fireplace.png"
+msgstr ""
+
+#: ../../../data/level/castle-2.lvl
+msgid "gfx/castle/fireplace_without_deer.png"
+msgstr ""
+
+#: ../../../data/level/castle-1.lvl ../../../data/level/castle-2.lvl
+#: ../../../data/level/stuffomatic-ro.lvl
+msgid "gfx/castle/furnitures.png"
+msgstr ""
+
+#: ../../../data/animation/castle/ghost/reverse_ghost_fly.anim
+#: ../../../data/animation/castle/ghost/reverse_ghost_appear.anim
+#: ../../../data/animation/castle/ghost/reverse_ghost_control.anim
+#: ../../../data/animation/castle/ghost/reverse_ghost_wait.anim
+msgid "gfx/castle/ghost/ghost-1.png"
+msgstr ""
+
+#: ../../../data/level/castle-1.lvl ../../../data/level/castle-2.lvl
+#: ../../../data/level/stuffomatic-ro.lvl
+msgid "gfx/castle/inside/crack.png"
+msgstr ""
+
+#: ../../../data/level/castle-1.lvl ../../../data/level/sandbox.lvl
+#: ../../../data/level/castle-2.lvl ../../../data/level/stuffomatic-ro.lvl
+msgid "gfx/castle/inside/wall-fill*.png"
+msgstr ""
+
+#: ../../../data/level/castle-1.lvl ../../../data/level/castle-2.lvl
+msgid "gfx/castle/inside/wall-fill-2.png"
+msgstr ""
+
+#: ../../../data/level/castle-1.lvl ../../../data/level/castle-2.lvl
+msgid "gfx/castle/inside/wall-fill-3.png"
+msgstr ""
+
+#: ../../../data/level/castle-1.lvl ../../../data/level/castle-2.lvl
+msgid "gfx/castle/inside/wall-fill.png"
+msgstr ""
+
+#: ../../../data/animation/castle/kicker.anim
+msgid "gfx/castle/kicker.png"
+msgstr ""
+
+#: ../../../data/level/castle-1.lvl ../../../data/level/castle-2.lvl
+msgid "gfx/castle/mirror.png"
+msgstr ""
+
+#: ../../../data/level/castle-1.lvl ../../../data/level/castle-2.lvl
+msgid "gfx/castle/outside-wall/battlement.png"
+msgstr ""
+
+#: ../../../data/level/castle-1.lvl ../../../data/level/castle-2.lvl
+msgid "gfx/castle/outside-wall/entry-bottom.png"
+msgstr ""
+
+#: ../../../data/level/castle-1.lvl ../../../data/level/castle-2.lvl
+msgid "gfx/castle/outside-wall/entry.png"
+msgstr ""
+
+#: ../../../data/level/castle-1.lvl ../../../data/level/castle-2.lvl
+msgid "gfx/castle/outside-wall/left-wall.png"
+msgstr ""
+
+#: ../../../data/level/castle-1.lvl ../../../data/level/castle-2.lvl
+msgid "gfx/castle/outside-wall/top-wall.png"
+msgstr ""
+
+#: ../../../data/level/castle-1.lvl ../../../data/level/castle-2.lvl
+msgid "gfx/castle/outside-wall/wall-fill*.png"
+msgstr ""
+
+#: ../../../data/level/castle-1.lvl ../../../data/level/castle-2.lvl
+msgid "gfx/castle/outside-wall/wall.png"
+msgstr ""
+
+#: ../../../data/level/castle-1.lvl ../../../data/level/castle-2.lvl
+msgid "gfx/castle/outside/ground-ceiling.png"
+msgstr ""
+
+#: ../../../data/level/castle-1.lvl
+msgid "gfx/castle/outside/right-corner-ceiling.png"
+msgstr ""
+
+#: ../../../data/level/castle-1.lvl ../../../data/level/castle-2.lvl
+msgid "gfx/castle/outside/wall-corner.png"
+msgstr ""
+
+#: ../../../data/level/castle-1.lvl ../../../data/level/castle-2.lvl
+msgid "gfx/castle/outside/wall-fill*.png"
+msgstr ""
+
+#: ../../../data/level/castle-2.lvl
+#: ../../../data/animation/castle/platform.anim
+msgid "gfx/castle/platform.png"
+msgstr ""
+
+#: ../../../data/level/castle-1.lvl ../../../data/level/castle-2.lvl
+msgid "gfx/castle/portcullis.png"
+msgstr ""
+
+#: ../../../data/level/castle-2.lvl ../../../data/model/castle/spider.mdl
+#: ../../../data/animation/castle/spider/venom-splash.anim
+#: ../../../data/animation/castle/spider/venom.anim
+#: ../../../data/animation/castle/spider/body.anim
+#: ../../../data/animation/castle/spider/drop.anim
+msgid "gfx/castle/spider/spider.png"
+msgstr ""
+
+#: ../../../data/level/castle-1.lvl ../../../data/level/castle-2.lvl
+#: ../../../data/level/mini-game/beware_of_ghosts.lvl
+#: ../../../data/animation/castle/spring_weak.anim
+#: ../../../data/animation/castle/spring_medium.anim
+#: ../../../data/animation/castle/spring_strong.anim
+msgid "gfx/castle/spring.png"
+msgstr ""
+
+#: ../../../data/animation/castle/torch.anim
+msgid "gfx/castle/torch.png"
+msgstr ""
+
+#: ../../../data/level/castle-1.lvl ../../../data/level/castle-2.lvl
+msgid "gfx/castle/wall/ceiling-slope-26-left.png"
+msgstr ""
+
+#: ../../../data/level/castle-1.lvl ../../../data/level/castle-2.lvl
+msgid "gfx/castle/wall/ceiling-slope-26-right.png"
+msgstr ""
+
+#: ../../../data/level/castle-1.lvl ../../../data/level/sandbox.lvl
+#: ../../../data/level/castle-2.lvl ../../../data/level/stuffomatic-ro.lvl
+#: ../../../data/level/secret/castle-2.lvl
+#: ../../../data/level/mini-game/beware_of_ghosts.lvl
+msgid "gfx/castle/wall/ground-ceiling.png"
+msgstr ""
+
+#: ../../../data/level/castle-1.lvl ../../../data/level/castle-2.lvl
+#: ../../../data/level/secret/castle-2.lvl
+#: ../../../data/level/mini-game/beware_of_ghosts.lvl
+msgid "gfx/castle/wall/right-corner-ceiling.png"
+msgstr ""
+
+#: ../../../data/level/castle-1.lvl ../../../data/level/castle-2.lvl
+#: ../../../data/level/secret/castle-2.lvl
+#: ../../../data/level/mini-game/beware_of_ghosts.lvl
+msgid "gfx/castle/wall/right-corner.png"
+msgstr ""
+
+#: ../../../data/level/castle-1.lvl ../../../data/level/castle-2.lvl
+#: ../../../data/level/secret/castle-2.lvl
+#: ../../../data/level/mini-game/beware_of_ghosts.lvl
+msgid "gfx/castle/wall/slope-26-left.png"
+msgstr ""
+
+#: ../../../data/level/castle-1.lvl ../../../data/level/castle-2.lvl
+#: ../../../data/level/secret/castle-2.lvl
+#: ../../../data/level/mini-game/beware_of_ghosts.lvl
+msgid "gfx/castle/wall/slope-26-right.png"
+msgstr ""
+
+#: ../../../data/level/castle-1.lvl ../../../data/level/sandbox.lvl
+#: ../../../data/level/castle-2.lvl ../../../data/level/secret/castle-2.lvl
+#: ../../../data/level/mini-game/beware_of_ghosts.lvl
+msgid "gfx/castle/wall/slope-26s-left.png"
+msgstr ""
+
+#: ../../../data/level/castle-1.lvl ../../../data/level/sandbox.lvl
+#: ../../../data/level/castle-2.lvl ../../../data/level/secret/castle-2.lvl
+#: ../../../data/level/mini-game/beware_of_ghosts.lvl
+msgid "gfx/castle/wall/slope-26s-right.png"
+msgstr ""
+
+#: ../../../data/level/castle-1.lvl ../../../data/level/sandbox.lvl
+#: ../../../data/level/castle-2.lvl ../../../data/level/secret/castle-2.lvl
+#: ../../../data/level/mini-game/beware_of_ghosts.lvl
+msgid "gfx/castle/wall/wall-corner.png"
+msgstr ""
+
+#: ../../../data/level/castle-1.lvl ../../../data/level/castle-2.lvl
+#: ../../../data/level/stuffomatic-ro.lvl
+#: ../../../data/level/secret/castle-2.lvl
+#: ../../../data/level/mini-game/beware_of_ghosts.lvl
+msgid "gfx/castle/wall/wall-fill*.png"
+msgstr ""
+
+#: ../../../data/level/castle-1.lvl
+msgid "gfx/castle/wall/wall-fill-2.png"
+msgstr ""
+
+#: ../../../data/level/castle-1.lvl ../../../data/level/castle-2.lvl
+#: ../../../data/level/mini-game/beware_of_ghosts.lvl
+msgid "gfx/castle/wall/wall-fill.png"
+msgstr ""
+
+#: ../../../data/level/jeremie.lvl
+msgid "gfx/castle/wall_texture.png"
+msgstr ""
+
+#: ../../../data/animation/checkpoint-1.anim
+#: ../../../data/animation/checkpoint-2.anim
+msgid "gfx/checkpoint.png"
+msgstr ""
+
+#: ../../../data/level/castle-1.lvl ../../../data/level/tutorial.lvl
+#: ../../../data/level/castle-2.lvl ../../../data/level/forest-2.lvl
+#: ../../../data/level/secret/forest-1.lvl
+#: ../../../data/level/secret/castle-2.lvl ../../../data/level/jeremie.lvl
+#: ../../../data/level/mini-game/the_waterfall.lvl
+#: ../../../data/level/mini-game/the_arena.lvl
+#: ../../../data/level/mini-game/bears_on_fire.lvl
+msgid "gfx/coop/totem.png"
+msgstr ""
+
+#: ../../../data/animation/light-flash.anim
+#: ../../../data/animation/corrupting-bonus-disapearing.anim
+msgid "gfx/corrupting-bonus-disapearing.png"
+msgstr ""
+
+#: ../../../data/animation/corrupting-bonus.anim
+msgid "gfx/corrupting-bonus/corrupting-bonus.png"
+msgstr ""
+
+#: ../../../data/animation/stones/air_blast_stone.anim
+msgid "gfx/effect/air-blast.png"
+msgstr ""
+
+#: ../../../data/animation/effect/clod.anim
+#: ../../../data/animation/effect/bubbles.anim
+#: ../../../data/animation/effect/ground-blast.anim
+#: ../../../data/animation/effect/ground-blast-side.anim
+msgid "gfx/effect/ground-blast.png"
+msgstr ""
+
+#: ../../../data/level/forest-1.lvl ../../../data/level/sandbox.lvl
+#: ../../../data/level/tutorial.lvl ../../../data/level/forest-boss.lvl
+#: ../../../data/level/forest-2.lvl ../../../data/level/secret/forest-1.lvl
+#: ../../../data/level/secret/forest-2.lvl ../../../data/level/jeremie.lvl
+#: ../../../data/level/mini-game/the_waterfall.lvl
+#: ../../../data/level/mini-game/target_practice.lvl
+#: ../../../data/level/mini-game/bears_on_fire.lvl
+msgid "gfx/forest/bk/bk_00.png"
+msgstr ""
+
+#: ../../../data/level/forest-1.lvl ../../../data/level/sandbox.lvl
+#: ../../../data/level/tutorial.lvl ../../../data/level/forest-boss.lvl
+#: ../../../data/level/forest-2.lvl ../../../data/level/secret/forest-1.lvl
+#: ../../../data/level/secret/forest-2.lvl ../../../data/level/jeremie.lvl
+#: ../../../data/level/mini-game/the_waterfall.lvl
+#: ../../../data/level/mini-game/target_practice.lvl
+#: ../../../data/level/mini-game/bears_on_fire.lvl
+msgid "gfx/forest/bk/bk_01.png"
+msgstr ""
+
+#: ../../../data/level/forest-1.lvl ../../../data/level/sandbox.lvl
+#: ../../../data/level/tutorial.lvl ../../../data/level/forest-boss.lvl
+#: ../../../data/level/forest-2.lvl ../../../data/level/secret/forest-1.lvl
+#: ../../../data/level/secret/forest-2.lvl ../../../data/level/jeremie.lvl
+#: ../../../data/level/mini-game/the_waterfall.lvl
+#: ../../../data/level/mini-game/target_practice.lvl
+#: ../../../data/level/mini-game/bears_on_fire.lvl
+msgid "gfx/forest/bk/bk_02.png"
+msgstr ""
+
+#: ../../../data/level/forest-1.lvl ../../../data/level/sandbox.lvl
+#: ../../../data/level/tutorial.lvl ../../../data/level/forest-boss.lvl
+#: ../../../data/level/forest-2.lvl ../../../data/level/secret/forest-1.lvl
+#: ../../../data/level/secret/forest-2.lvl ../../../data/level/jeremie.lvl
+#: ../../../data/level/mini-game/the_waterfall.lvl
+#: ../../../data/level/mini-game/target_practice.lvl
+#: ../../../data/level/mini-game/bears_on_fire.lvl
+msgid "gfx/forest/bk/bk_03.png"
+msgstr ""
+
+#: ../../../data/level/forest-1.lvl ../../../data/level/sandbox.lvl
+#: ../../../data/level/tutorial.lvl ../../../data/level/forest-boss.lvl
+#: ../../../data/level/forest-2.lvl ../../../data/level/secret/forest-1.lvl
+#: ../../../data/level/secret/forest-2.lvl ../../../data/level/jeremie.lvl
+#: ../../../data/level/mini-game/the_waterfall.lvl
+#: ../../../data/level/mini-game/target_practice.lvl
+#: ../../../data/level/mini-game/bears_on_fire.lvl
+msgid "gfx/forest/bk/bk_04.png"
+msgstr ""
+
+#: ../../../data/level/forest-1.lvl ../../../data/level/sandbox.lvl
+#: ../../../data/level/tutorial.lvl ../../../data/level/forest-boss.lvl
+#: ../../../data/level/forest-2.lvl ../../../data/level/secret/forest-1.lvl
+#: ../../../data/level/secret/forest-2.lvl ../../../data/level/jeremie.lvl
+#: ../../../data/level/mini-game/the_waterfall.lvl
+#: ../../../data/level/mini-game/target_practice.lvl
+#: ../../../data/level/mini-game/bears_on_fire.lvl
+msgid "gfx/forest/bk/bk_05.png"
+msgstr ""
+
+#: ../../../data/level/forest-1.lvl ../../../data/level/sandbox.lvl
+#: ../../../data/level/tutorial.lvl ../../../data/level/forest-boss.lvl
+#: ../../../data/level/forest-2.lvl ../../../data/level/secret/forest-1.lvl
+#: ../../../data/level/secret/forest-2.lvl ../../../data/level/jeremie.lvl
+#: ../../../data/level/mini-game/the_waterfall.lvl
+#: ../../../data/level/mini-game/target_practice.lvl
+#: ../../../data/level/mini-game/bears_on_fire.lvl
+msgid "gfx/forest/bk/bk_06.png"
+msgstr ""
+
+#: ../../../data/level/forest-1.lvl ../../../data/level/sandbox.lvl
+#: ../../../data/level/tutorial.lvl ../../../data/level/forest-boss.lvl
+#: ../../../data/level/forest-2.lvl ../../../data/level/secret/forest-1.lvl
+#: ../../../data/level/secret/forest-2.lvl ../../../data/level/jeremie.lvl
+#: ../../../data/level/mini-game/the_waterfall.lvl
+#: ../../../data/level/mini-game/target_practice.lvl
+#: ../../../data/level/mini-game/bears_on_fire.lvl
+msgid "gfx/forest/bk/bk_07.png"
+msgstr ""
+
+#: ../../../data/level/forest-1.lvl ../../../data/level/sandbox.lvl
+#: ../../../data/level/tutorial.lvl ../../../data/level/forest-boss.lvl
+#: ../../../data/level/forest-2.lvl ../../../data/level/secret/forest-1.lvl
+#: ../../../data/level/secret/forest-2.lvl ../../../data/level/jeremie.lvl
+#: ../../../data/level/mini-game/the_waterfall.lvl
+#: ../../../data/level/mini-game/target_practice.lvl
+#: ../../../data/level/mini-game/bears_on_fire.lvl
+msgid "gfx/forest/bk/bk_08.png"
+msgstr ""
+
+#: ../../../data/level/forest-1.lvl ../../../data/level/sandbox.lvl
+#: ../../../data/level/tutorial.lvl ../../../data/level/forest-boss.lvl
+#: ../../../data/level/forest-2.lvl ../../../data/level/secret/forest-1.lvl
+#: ../../../data/level/secret/forest-2.lvl ../../../data/level/jeremie.lvl
+#: ../../../data/level/mini-game/the_waterfall.lvl
+#: ../../../data/level/mini-game/target_practice.lvl
+#: ../../../data/level/mini-game/bears_on_fire.lvl
+msgid "gfx/forest/bk/bk_09.png"
+msgstr ""
+
+#: ../../../data/level/forest-1.lvl ../../../data/level/sandbox.lvl
+#: ../../../data/level/tutorial.lvl ../../../data/level/forest-boss.lvl
+#: ../../../data/level/forest-2.lvl ../../../data/level/secret/forest-1.lvl
+#: ../../../data/level/secret/forest-2.lvl ../../../data/level/jeremie.lvl
+#: ../../../data/level/mini-game/the_waterfall.lvl
+#: ../../../data/level/mini-game/target_practice.lvl
+#: ../../../data/level/mini-game/bears_on_fire.lvl
+msgid "gfx/forest/bk/bk_10.png"
+msgstr ""
+
+#: ../../../data/level/forest-1.lvl ../../../data/level/sandbox.lvl
+#: ../../../data/level/tutorial.lvl ../../../data/level/forest-boss.lvl
+#: ../../../data/level/forest-2.lvl ../../../data/level/secret/forest-1.lvl
+#: ../../../data/level/secret/forest-2.lvl ../../../data/level/jeremie.lvl
+#: ../../../data/level/mini-game/the_waterfall.lvl
+#: ../../../data/level/mini-game/target_practice.lvl
+#: ../../../data/level/mini-game/bears_on_fire.lvl
+msgid "gfx/forest/bk/bk_11.png"
+msgstr ""
+
+#: ../../../data/level/forest-1.lvl ../../../data/level/sandbox.lvl
+#: ../../../data/level/tutorial.lvl ../../../data/level/forest-boss.lvl
+#: ../../../data/level/forest-2.lvl ../../../data/level/secret/forest-1.lvl
+#: ../../../data/level/secret/forest-2.lvl ../../../data/level/jeremie.lvl
+#: ../../../data/level/mini-game/the_waterfall.lvl
+#: ../../../data/level/mini-game/target_practice.lvl
+#: ../../../data/level/mini-game/bears_on_fire.lvl
+msgid "gfx/forest/bk/bk_12.png"
+msgstr ""
+
+#: ../../../data/level/forest-1.lvl ../../../data/level/sandbox.lvl
+#: ../../../data/level/tutorial.lvl ../../../data/level/forest-boss.lvl
+#: ../../../data/level/forest-2.lvl ../../../data/level/secret/forest-1.lvl
+#: ../../../data/level/secret/forest-2.lvl ../../../data/level/jeremie.lvl
+#: ../../../data/level/mini-game/the_waterfall.lvl
+#: ../../../data/level/mini-game/target_practice.lvl
+#: ../../../data/level/mini-game/bears_on_fire.lvl
+msgid "gfx/forest/bk/bk_13.png"
+msgstr ""
+
+#: ../../../data/level/forest-1.lvl ../../../data/level/sandbox.lvl
+#: ../../../data/level/tutorial.lvl ../../../data/level/forest-boss.lvl
+#: ../../../data/level/forest-2.lvl ../../../data/level/secret/forest-1.lvl
+#: ../../../data/level/secret/forest-2.lvl ../../../data/level/jeremie.lvl
+#: ../../../data/level/mini-game/the_waterfall.lvl
+#: ../../../data/level/mini-game/target_practice.lvl
+#: ../../../data/level/mini-game/bears_on_fire.lvl
+msgid "gfx/forest/bk/bk_14.png"
+msgstr ""
+
+#: ../../../data/level/forest-1.lvl ../../../data/level/sandbox.lvl
+#: ../../../data/level/tutorial.lvl ../../../data/level/forest-boss.lvl
+#: ../../../data/level/forest-2.lvl ../../../data/level/secret/forest-1.lvl
+#: ../../../data/level/secret/forest-2.lvl ../../../data/level/jeremie.lvl
+#: ../../../data/level/mini-game/the_waterfall.lvl
+#: ../../../data/level/mini-game/target_practice.lvl
+#: ../../../data/level/mini-game/bears_on_fire.lvl
+msgid "gfx/forest/bk/bk_15.png"
+msgstr ""
+
+#: ../../../data/level/forest-1.lvl ../../../data/level/sandbox.lvl
+#: ../../../data/level/tutorial.lvl ../../../data/level/forest-boss.lvl
+#: ../../../data/level/forest-2.lvl ../../../data/level/secret/forest-1.lvl
+#: ../../../data/level/secret/forest-2.lvl ../../../data/level/jeremie.lvl
+#: ../../../data/level/mini-game/the_waterfall.lvl
+#: ../../../data/level/mini-game/target_practice.lvl
+#: ../../../data/level/mini-game/bears_on_fire.lvl
+msgid "gfx/forest/bk/bk_16.png"
+msgstr ""
+
+#: ../../../data/level/forest-1.lvl ../../../data/level/sandbox.lvl
+#: ../../../data/level/tutorial.lvl ../../../data/level/forest-boss.lvl
+#: ../../../data/level/forest-2.lvl ../../../data/level/secret/forest-1.lvl
+#: ../../../data/level/secret/forest-2.lvl ../../../data/level/jeremie.lvl
+#: ../../../data/level/mini-game/the_waterfall.lvl
+#: ../../../data/level/mini-game/target_practice.lvl
+#: ../../../data/level/mini-game/bears_on_fire.lvl
+msgid "gfx/forest/bk/bk_17.png"
+msgstr ""
+
+#: ../../../data/level/forest-1.lvl ../../../data/level/sandbox.lvl
+#: ../../../data/level/tutorial.lvl ../../../data/level/forest-boss.lvl
+#: ../../../data/level/forest-2.lvl ../../../data/level/secret/forest-1.lvl
+#: ../../../data/level/secret/forest-2.lvl ../../../data/level/jeremie.lvl
+#: ../../../data/level/mini-game/the_waterfall.lvl
+#: ../../../data/level/mini-game/target_practice.lvl
+#: ../../../data/level/mini-game/bears_on_fire.lvl
+msgid "gfx/forest/bk/bk_18.png"
+msgstr ""
+
+#: ../../../data/level/forest-1.lvl ../../../data/level/sandbox.lvl
+#: ../../../data/level/tutorial.lvl ../../../data/level/forest-boss.lvl
+#: ../../../data/level/forest-2.lvl ../../../data/level/secret/forest-1.lvl
+#: ../../../data/level/secret/forest-2.lvl ../../../data/level/jeremie.lvl
+#: ../../../data/level/mini-game/the_waterfall.lvl
+#: ../../../data/level/mini-game/target_practice.lvl
+#: ../../../data/level/mini-game/bears_on_fire.lvl
+msgid "gfx/forest/bk/bk_19.png"
+msgstr ""
+
+#: ../../../data/model/forest/big_rabbit.mdl
+msgid "gfx/forest/boss/fall-exploded.png"
+msgstr ""
+
+#: ../../../data/model/forest/big_rabbit.mdl
+#: ../../../data/animation/forest/boss/corruption.anim
+#: ../../../data/animation/forest/boss/carrot-crush.anim
+#: ../../../data/animation/forest/boss/carrot-attack.anim
+msgid "gfx/forest/boss/idle-exploded.png"
+msgstr ""
+
+#: ../../../data/model/forest/big_rabbit.mdl
+msgid "gfx/forest/boss/jump-exploded.png"
+msgstr ""
+
+#: ../../../data/level/forest-1.lvl ../../../data/level/tutorial.lvl
+#: ../../../data/level/forest-2.lvl ../../../data/level/bug.lvl
+#: ../../../data/level/mini-game/the_waterfall.lvl
+#: ../../../data/level/mini-game/the_arena.lvl
+#: ../../../data/level/mini-game/target_practice.lvl
+#: ../../../data/animation/forest/bridge-plank.anim
+msgid "gfx/forest/bridge.png"
+msgstr ""
+
+#: ../../../data/animation/forest/butterfly/butterfly-tri-pattern.anim
+#: ../../../data/animation/forest/butterfly/butterfly-bi-2-pattern.anim
+#: ../../../data/animation/forest/butterfly/butterfly-pattern.anim
+#: ../../../data/animation/forest/butterfly/butterfly-tri-mono.anim
+#: ../../../data/animation/forest/butterfly/butterfly-mono.anim
+#: ../../../data/animation/forest/butterfly/butterfly-bi-pattern.anim
+#: ../../../data/animation/forest/butterfly/butterfly-bi-2-mono.anim
+#: ../../../data/animation/forest/butterfly/butterfly-bi-mono.anim
+msgid "gfx/forest/butterfly/butterfly.png"
+msgstr ""
+
+#: ../../../data/level/forest-1.lvl ../../../data/level/tutorial.lvl
+#: ../../../data/level/forest-2.lvl ../../../data/level/secret/forest-1.lvl
+#: ../../../data/level/bug.lvl ../../../data/level/mini-game/the_arena.lvl
+msgid "gfx/forest/ceiling-slope-26-left.png"
+msgstr ""
+
+#: ../../../data/level/forest-1.lvl ../../../data/level/tutorial.lvl
+#: ../../../data/level/forest-2.lvl ../../../data/level/secret/forest-1.lvl
+#: ../../../data/level/bug.lvl
+msgid "gfx/forest/ceiling-slope-26-right.png"
+msgstr ""
+
+#: ../../../data/model/forest/rabbit.mdl
+#: ../../../data/animation/castle/corrupting-bonus.anim
+#: ../../../data/animation/forest/corrupting-carrot.anim
+msgid "gfx/forest/corrupting-carrot.png"
+msgstr ""
+
+#: ../../../data/level/forest-2.lvl
+msgid "gfx/forest/fog-1.png"
+msgstr ""
+
+#: ../../../data/animation/forest/frog/frog_explose.anim
+#: ../../../data/animation/forest/frog/frog_idle_2.anim
+#: ../../../data/animation/forest/frog/frog_idle_1.anim
+msgid "gfx/forest/frog/frog-1.png"
+msgstr ""
+
+#: ../../../data/animation/forest/frog/frog_fall.anim
+#: ../../../data/animation/forest/frog/frog_jump.anim
+msgid "gfx/forest/frog/frog-2.png"
+msgstr ""
+
+#: ../../../data/animation/forest/gorilla/gorilla_angry-3.anim
+#: ../../../data/animation/forest/gorilla/gorilla_angry-2.anim
+#: ../../../data/animation/forest/gorilla/gorilla_angry-1.anim
+msgid "gfx/forest/gorilla/angry.png"
+msgstr ""
+
+#: ../../../data/animation/forest/gorilla/gorilla_idle.anim
+msgid "gfx/forest/gorilla/idle.png"
+msgstr ""
+
+#: ../../../data/animation/forest/gorilla/gorilla_scan_left.anim
+#: ../../../data/animation/forest/gorilla/gorilla_scan_right.anim
+msgid "gfx/forest/gorilla/scan.png"
+msgstr ""
+
+#: ../../../data/animation/forest/gorilla/gorilla_soul.anim
+msgid "gfx/forest/gorilla/soul.png"
+msgstr ""
+
+#: ../../../data/animation/forest/gorilla/gorilla_walking.anim
+#: ../../../data/animation/forest/gorilla/gorilla_attack.anim
+msgid "gfx/forest/gorilla/walking.png"
+msgstr ""
+
+#: ../../../data/level/forest-1.lvl ../../../data/level/sandbox.lvl
+#: ../../../data/level/tutorial.lvl ../../../data/level/forest-boss.lvl
+#: ../../../data/level/forest-2.lvl ../../../data/level/secret/forest-1.lvl
+#: ../../../data/level/secret/forest-2.lvl ../../../data/level/bug.lvl
+#: ../../../data/level/jeremie.lvl
+#: ../../../data/level/mini-game/the_waterfall.lvl
+#: ../../../data/level/mini-game/the_arena.lvl
+#: ../../../data/level/mini-game/target_practice.lvl
+#: ../../../data/level/mini-game/bears_on_fire.lvl
+msgid "gfx/forest/ground-ceiling.png"
+msgstr ""
+
+#: ../../../data/level/forest-1.lvl ../../../data/level/tutorial.lvl
+#: ../../../data/level/forest-2.lvl ../../../data/level/bug.lvl
+#: ../../../data/level/mini-game/target_practice.lvl
+msgid "gfx/forest/ground-water.png"
+msgstr ""
+
+#: ../../../data/level/forest-1.lvl ../../../data/level/tutorial.lvl
+#: ../../../data/level/forest-2.lvl
+msgid "gfx/forest/hollow-trunk.png"
+msgstr ""
+
+#: ../../../data/animation/forest/kicker.anim
+msgid "gfx/forest/kicker-branch.png"
+msgstr ""
+
+#: ../../../data/level/forest-1.lvl ../../../data/level/forest-2.lvl
+#: ../../../data/level/bug.lvl
+msgid "gfx/forest/little-slope-wall.png"
+msgstr ""
+
+#: ../../../data/level/forest-1.lvl ../../../data/level/forest-2.lvl
+#: ../../../data/level/bug.lvl
+msgid "gfx/forest/plants.png"
+msgstr ""
+
+#: ../../../data/animation/forest/platform.anim
+msgid "gfx/forest/platform.png"
+msgstr ""
+
+#: ../../../data/animation/forest/rabbit/rabbit_dig.anim
+#: ../../../data/animation/forest/rabbit/dust.anim
+#: ../../../data/animation/forest/rabbit/rabbit_injured.anim
+#: ../../../data/animation/forest/rabbit/rabbit_jump.anim
+#: ../../../data/animation/forest/rabbit/rabbit_fall.anim
+#: ../../../data/animation/forest/rabbit/rabbit_idle.anim
+#: ../../../data/animation/forest/rabbit/dust-end.anim
+#: ../../../data/animation/forest/rabbit/rabbit_walk.anim
+msgid "gfx/forest/rabbit/rabbit-1.png"
+msgstr ""
+
+#: ../../../data/animation/forest/rabbit/rabbit_eat.anim
+msgid "gfx/forest/rabbit/rabbit-2.png"
+msgstr ""
+
+#: ../../../data/level/forest-1.lvl ../../../data/level/tutorial.lvl
+#: ../../../data/level/forest-boss.lvl ../../../data/level/forest-2.lvl
+#: ../../../data/level/secret/forest-1.lvl ../../../data/level/bug.lvl
+#: ../../../data/level/mini-game/the_waterfall.lvl
+#: ../../../data/level/mini-game/the_arena.lvl
+#: ../../../data/level/mini-game/bears_on_fire.lvl
+msgid "gfx/forest/right-corner-ceiling.png"
+msgstr ""
+
+#: ../../../data/level/forest-1.lvl ../../../data/level/tutorial.lvl
+#: ../../../data/level/forest-2.lvl ../../../data/level/bug.lvl
+#: ../../../data/level/mini-game/target_practice.lvl
+msgid "gfx/forest/right-corner-water.png"
+msgstr ""
+
+#: ../../../data/level/forest-1.lvl ../../../data/level/tutorial.lvl
+#: ../../../data/level/forest-boss.lvl ../../../data/level/forest-2.lvl
+#: ../../../data/level/secret/forest-1.lvl
+#: ../../../data/level/secret/forest-2.lvl ../../../data/level/bug.lvl
+#: ../../../data/level/mini-game/the_waterfall.lvl
+#: ../../../data/level/mini-game/the_arena.lvl
+#: ../../../data/level/mini-game/target_practice.lvl
+#: ../../../data/level/mini-game/bears_on_fire.lvl
+msgid "gfx/forest/right-corner.png"
+msgstr ""
+
+#: ../../../data/level/forest-1.lvl ../../../data/level/tutorial.lvl
+#: ../../../data/level/forest-boss.lvl ../../../data/level/forest-2.lvl
+#: ../../../data/level/secret/forest-1.lvl
+#: ../../../data/level/secret/forest-2.lvl ../../../data/level/bug.lvl
+#: ../../../data/level/mini-game/the_waterfall.lvl
+#: ../../../data/level/mini-game/target_practice.lvl
+#: ../../../data/level/mini-game/bears_on_fire.lvl
+msgid "gfx/forest/sign.png"
+msgstr ""
+
+#: ../../../data/level/forest-1.lvl ../../../data/level/tutorial.lvl
+#: ../../../data/level/forest-2.lvl ../../../data/level/secret/forest-1.lvl
+#: ../../../data/level/bug.lvl
+msgid "gfx/forest/slope-26-left.png"
+msgstr ""
+
+#: ../../../data/level/forest-1.lvl ../../../data/level/tutorial.lvl
+#: ../../../data/level/forest-2.lvl ../../../data/level/bug.lvl
+msgid "gfx/forest/slope-26-right.png"
+msgstr ""
+
+#: ../../../data/level/forest-1.lvl ../../../data/level/tutorial.lvl
+#: ../../../data/level/forest-2.lvl ../../../data/level/secret/forest-1.lvl
+#: ../../../data/level/bug.lvl
+#: ../../../data/level/mini-game/target_practice.lvl
+msgid "gfx/forest/slope-26s-left.png"
+msgstr ""
+
+#: ../../../data/level/forest-1.lvl ../../../data/level/tutorial.lvl
+#: ../../../data/level/forest-2.lvl ../../../data/level/secret/forest-1.lvl
+#: ../../../data/level/bug.lvl
+#: ../../../data/level/mini-game/target_practice.lvl
+msgid "gfx/forest/slope-26s-right.png"
+msgstr ""
+
+#: ../../../data/animation/forest/splash-block.anim
+msgid "gfx/forest/splash-block.png"
+msgstr ""
+
+#: ../../../data/level/forest-1.lvl
+#: ../../../data/animation/forest/spring_yellow.anim
+#: ../../../data/animation/forest/spring_red.anim
+#: ../../../data/animation/forest/spring_orange.anim
+msgid "gfx/forest/spring.png"
+msgstr ""
+
+#: ../../../data/level/forest-1.lvl ../../../data/level/tutorial.lvl
+#: ../../../data/level/forest-2.lvl ../../../data/level/bug.lvl
+#: ../../../data/level/mini-game/the_waterfall.lvl
+msgid "gfx/forest/stake.png"
+msgstr ""
+
+#: ../../../data/level/forest-1.lvl ../../../data/level/tutorial.lvl
+#: ../../../data/level/forest-2.lvl ../../../data/level/bug.lvl
+#: ../../../data/level/mini-game/target_practice.lvl
+msgid "gfx/forest/tree-house.png"
+msgstr ""
+
+#: ../../../data/level/forest-1.lvl ../../../data/level/tutorial.lvl
+#: ../../../data/level/forest-boss.lvl ../../../data/level/forest-2.lvl
+#: ../../../data/level/secret/forest-1.lvl
+#: ../../../data/level/mini-game/target_practice.lvl
+msgid "gfx/forest/tree_1.png"
+msgstr ""
+
+#: ../../../data/level/forest-1.lvl ../../../data/level/tutorial.lvl
+#: ../../../data/level/forest-boss.lvl ../../../data/level/forest-2.lvl
+#: ../../../data/level/secret/forest-1.lvl ../../../data/level/bug.lvl
+#: ../../../data/level/mini-game/the_waterfall.lvl
+#: ../../../data/level/mini-game/the_arena.lvl
+#: ../../../data/level/mini-game/target_practice.lvl
+msgid "gfx/forest/tree_2.png"
+msgstr ""
+
+#: ../../../data/level/forest-1.lvl ../../../data/level/tutorial.lvl
+#: ../../../data/level/forest-boss.lvl ../../../data/level/forest-2.lvl
+#: ../../../data/level/secret/forest-1.lvl ../../../data/level/bug.lvl
+#: ../../../data/level/mini-game/target_practice.lvl
+msgid "gfx/forest/tree_3.png"
+msgstr ""
+
+#: ../../../data/level/forest-1.lvl ../../../data/level/tutorial.lvl
+#: ../../../data/level/forest-boss.lvl ../../../data/level/forest-2.lvl
+#: ../../../data/level/secret/forest-1.lvl ../../../data/level/bug.lvl
+#: ../../../data/level/mini-game/the_waterfall.lvl
+#: ../../../data/level/mini-game/the_arena.lvl
+#: ../../../data/level/mini-game/target_practice.lvl
+msgid "gfx/forest/tree_4.png"
+msgstr ""
+
+#: ../../../data/level/forest-1.lvl ../../../data/level/tutorial.lvl
+#: ../../../data/level/forest-2.lvl ../../../data/level/secret/forest-1.lvl
+#: ../../../data/level/secret/forest-2.lvl ../../../data/level/bug.lvl
+#: ../../../data/level/mini-game/the_waterfall.lvl
+#: ../../../data/level/mini-game/the_arena.lvl
+#: ../../../data/level/mini-game/target_practice.lvl
+#: ../../../data/level/mini-game/bears_on_fire.lvl
+msgid "gfx/forest/wall-corner.png"
+msgstr ""
+
+#: ../../../data/level/forest-1.lvl ../../../data/level/tutorial.lvl
+#: ../../../data/level/forest-boss.lvl ../../../data/level/forest-2.lvl
+#: ../../../data/level/secret/forest-1.lvl ../../../data/level/bug.lvl
+#: ../../../data/level/jeremie.lvl
+#: ../../../data/level/mini-game/bears_on_fire.lvl
+msgid "gfx/forest/wall-fill*.png"
+msgstr ""
+
+#: ../../../data/level/forest-1.lvl ../../../data/level/tutorial.lvl
+#: ../../../data/level/forest-2.lvl ../../../data/level/secret/forest-1.lvl
+#: ../../../data/level/secret/forest-2.lvl
+#: ../../../data/level/mini-game/the_waterfall.lvl
+#: ../../../data/level/mini-game/the_arena.lvl
+#: ../../../data/level/mini-game/target_practice.lvl
+#: ../../../data/level/mini-game/bears_on_fire.lvl
+msgid "gfx/forest/wall-fill-2.png"
+msgstr ""
+
+#: ../../../data/level/tutorial.lvl ../../../data/level/secret/forest-2.lvl
+#: ../../../data/level/mini-game/the_waterfall.lvl
+#: ../../../data/level/mini-game/target_practice.lvl
+msgid "gfx/forest/wall-fill.png"
+msgstr ""
+
+#: ../../../data/animation/forest/wasp/sting_attack.anim
+#: ../../../data/animation/forest/wasp/sting_explosion.anim
+msgid "gfx/forest/wasp/sting.png"
+msgstr ""
+
+#: ../../../data/animation/forest/wasp/wasp_attack.anim
+msgid "gfx/forest/wasp/wasp-shooting-1.png"
+msgstr ""
+
+#: ../../../data/animation/forest/wasp/wasp_attack.anim
+msgid "gfx/forest/wasp/wasp-shooting-2.png"
+msgstr ""
+
+#: ../../../data/animation/forest/wasp/wasp_attack.anim
+msgid "gfx/forest/wasp/wasp-shooting-3.png"
+msgstr ""
+
+#: ../../../data/animation/forest/wasp/wasp_dead.anim
+#: ../../../data/animation/forest/wasp/wasp_fly.anim
+#: ../../../data/animation/forest/wasp/wasp_soul.anim
+#: ../../../data/animation/forest/gorilla/gorilla_hit.anim
+#: ../../../data/animation/forest/gorilla/gorilla_dead.anim
+msgid "gfx/forest/wasp/wasp.png"
+msgstr ""
+
+#: ../../../data/animation/forest/waterfall.anim
+msgid "gfx/forest/waterfall-1.png"
+msgstr ""
+
+#: ../../../data/animation/forest/waterfall.anim
+msgid "gfx/forest/waterfall-2.png"
+msgstr ""
+
+#: ../../../data/animation/forest/waterfall-top.anim
+msgid "gfx/forest/waterfall-top.png"
+msgstr ""
+
+#: ../../../data/animation/forest/woodlog-thrower.anim
+msgid "gfx/forest/woodlog-thrower.png"
+msgstr ""
+
+#: ../../../data/level/forest-1.lvl ../../../data/level/tutorial.lvl
+#: ../../../data/level/forest-2.lvl ../../../data/level/secret/forest-2.lvl
+#: ../../../data/level/bug.lvl ../../../data/level/mini-game/the_waterfall.lvl
+#: ../../../data/level/mini-game/the_arena.lvl
+msgid "gfx/forest/woodlog.png"
+msgstr ""
+
+#: ../../../data/level/forest-1.lvl
+#: ../../../data/animation/forest/woodpecker/woodpecker_attacking.anim
+#: ../../../data/animation/forest/woodpecker/woodpecker_flying.anim
+#: ../../../data/animation/forest/woodpecker/woodpecker_pecking.anim
+#: ../../../data/animation/forest/woodpecker/woodpecker_dying.anim
+#: ../../../data/animation/forest/woodpecker/woodpecker_watching.anim
+#: ../../../data/animation/forest/woodpecker/woodpecker_watching_right.anim
+msgid "gfx/forest/woodpecker/woodpecker-1.png"
+msgstr ""
+
+#: ../../../data/animation/forest/woodpecker/woodpecker_soul.anim
+msgid "gfx/forest/woodpecker/woodpecker-2.png"
+msgstr ""
+
+#: ../../../data/level/gamned.lvl
+msgid "gfx/gamned.png"
+msgstr ""
+
+#: ../../../data/animation/god/disappearing.anim
+#: ../../../data/animation/god/appearing.anim
+msgid "gfx/god/appearing.png"
+msgstr ""
+
+#: ../../../data/animation/god/stork-disappearing.anim
+msgid "gfx/god/disappearing-stork.png"
+msgstr ""
+
+#: ../../../data/animation/god/hand.anim
+msgid "gfx/god/hand-1.png"
+msgstr ""
+
+#: ../../../data/animation/god/hand.anim ../../../data/animation/god/ball.anim
+msgid "gfx/god/hand-2.png"
+msgstr ""
+
+#: ../../../data/animation/god/human-talking.anim
+#: ../../../data/animation/god/human-idle.anim
+#: ../../../data/animation/god/ball-creation.anim
+msgid "gfx/god/human-talking.png"
+msgstr ""
+
+#: ../../../data/animation/god/stork-flying.anim
+msgid "gfx/god/stork.png"
+msgstr ""
+
+#: ../../../data/animation/headstone.anim
+msgid "gfx/headstone.png"
+msgstr ""
+
+#: ../../../data/level/secret/forest-1.lvl
+#: ../../../data/level/mini-game/bears_on_fire.lvl
+msgid "gfx/info-board.png"
+msgstr ""
+
+#: ../../../data/level/forest-intro.lvl
+msgid "gfx/intro/intro-1.png"
+msgstr ""
+
+#: ../../../data/level/forest-intro.lvl
+msgid "gfx/intro/intro-2.png"
+msgstr ""
+
+#: ../../../data/level/forest-intro.lvl
+msgid "gfx/intro/intro-3.png"
+msgstr ""
+
+#: ../../../data/level/forest-intro.lvl
+msgid "gfx/intro/intro-4.png"
+msgstr ""
+
+#: ../../../data/level/loading.lvl
+msgid "gfx/loading/plumber-plee.png"
+msgstr ""
+
+#: ../../../data/level/secret/forest-1.lvl
+#: ../../../data/level/mini-game/bears_on_fire.lvl
+msgid "gfx/mini-game/sequencer/notes.png"
+msgstr ""
+
+#: ../../../data/level/mini-game/target_practice.lvl
+msgid "gfx/mini-game/stones/target.png"
+msgstr ""
+
+#: ../../../data/level/castle-1.lvl ../../../data/level/castle-2.lvl
+#: ../../../data/level/forest-2.lvl
+msgid "gfx/misc/enemy.png"
+msgstr ""
+
+#: ../../../data/level/castle-1.lvl ../../../data/level/forest-1.lvl
+#: ../../../data/level/castle-2.lvl ../../../data/level/forest-2.lvl
+#: ../../../data/level/bug.lvl
+msgid "gfx/misc/link.png"
+msgstr ""
+
+#: ../../../data/animation/owl/owl_speaking.anim
+#: ../../../data/animation/owl/owl_bye.anim
+#: ../../../data/animation/owl/owl_waiting.anim
+#: ../../../data/animation/owl/hazelnut.anim
+#: ../../../data/animation/owl/owl_with_nut.anim
+msgid "gfx/owl/owl.png"
+msgstr ""
+
+#: ../../../data/animation/plee-alt/cap.anim
+msgid "gfx/plee/cap-alt.png"
+msgstr ""
+
+#: ../../../data/animation/plee/cap.anim
+#: ../../../data/animation/plee/bath-cap.anim
+#: ../../../data/animation/plee-alt/bath-cap.anim
+msgid "gfx/plee/cap.png"
+msgstr ""
+
+#: ../../../data/animation/effect/power/air_effect.anim
+#: ../../../data/animation/effect/power/fire_effect.anim
+#: ../../../data/animation/effect/power/water_effect.anim
+#: ../../../data/animation/plee/halo.anim
+#: ../../../data/animation/plee/halo_hand.anim
+#: ../../../data/animation/plee-alt/halo.anim
+#: ../../../data/animation/plee-alt/halo_hand.anim
+msgid "gfx/plee/halo.png"
+msgstr ""
+
+#: ../../../data/animation/stars.anim
+msgid "gfx/plee/misc.png"
+msgstr ""
+
+#: ../../../data/animation/plee/sleep.anim
+#: ../../../data/animation/plee/walk.anim
+#: ../../../data/animation/plee/slap_and_walk.anim
+#: ../../../data/animation/plee/start_vertical_jump.anim
+#: ../../../data/animation/plee/look_upward.anim
+#: ../../../data/animation/plee/clung_jump.anim
+#: ../../../data/animation/plee/captive.anim
+#: ../../../data/animation/plee/idle.anim
+#: ../../../data/animation/plee/slap.anim
+#: ../../../data/animation/plee/vertical_jump.anim
+#: ../../../data/animation/plee/wait1.anim
+#: ../../../data/animation/plee/hang.anim
+#: ../../../data/animation/plee/wait2.anim
+#: ../../../data/animation/plee/crouch.anim
+#: ../../../data/animation/plee/start_hang.anim
+msgid "gfx/plee/plee-1.png"
+msgstr ""
+
+#: ../../../data/animation/plee/throw.anim
+#: ../../../data/animation/plee/run.anim
+#: ../../../data/animation/plee/dream.anim
+#: ../../../data/animation/plee/jump.anim
+#: ../../../data/animation/plee/maintain.anim
+#: ../../../data/animation/plee/injured.anim
+#: ../../../data/animation/plee/throw_and_walk.anim
+#: ../../../data/animation/plee/maintain_and_walk.anim
+msgid "gfx/plee/plee-2.png"
+msgstr ""
+
+#: ../../../data/animation/plee/swimming.anim
+#: ../../../data/animation/plee/start_cling.anim
+#: ../../../data/animation/plee/cling.anim
+#: ../../../data/animation/plee/fall.anim
+#: ../../../data/animation/plee/maintain_and_fall.anim
+#: ../../../data/animation/plee/throw_and_fall.anim
+#: ../../../data/animation/plee/roar.anim
+#: ../../../data/animation/plee/sink.anim
+msgid "gfx/plee/plee-3.png"
+msgstr ""
+
+#: ../../../data/model/player/plee.mdl ../../../data/animation/plee/drown.anim
+#: ../../../data/animation/plee/float_and_swim.anim
+#: ../../../data/animation/plee/take_hat.anim
+#: ../../../data/animation/plee/arm.anim
+#: ../../../data/animation/plee/float.anim
+msgid "gfx/plee/plee-4.png"
+msgstr ""
+
+#: ../../../data/animation/plee-alt/sleep.anim
+#: ../../../data/animation/plee-alt/walk.anim
+#: ../../../data/animation/plee-alt/slap_and_walk.anim
+#: ../../../data/animation/plee-alt/start_vertical_jump.anim
+#: ../../../data/animation/plee-alt/look_upward.anim
+#: ../../../data/animation/plee-alt/clung_jump.anim
+#: ../../../data/animation/plee-alt/captive.anim
+#: ../../../data/animation/plee-alt/idle.anim
+#: ../../../data/animation/plee-alt/slap.anim
+#: ../../../data/animation/plee-alt/vertical_jump.anim
+#: ../../../data/animation/plee-alt/wait1.anim
+#: ../../../data/animation/plee-alt/hang.anim
+#: ../../../data/animation/plee-alt/wait2.anim
+#: ../../../data/animation/plee-alt/crouch.anim
+#: ../../../data/animation/plee-alt/start_hang.anim
+msgid "gfx/plee/plee-alt-1.png"
+msgstr ""
+
+#: ../../../data/animation/plee-alt/throw.anim
+#: ../../../data/animation/plee-alt/run.anim
+#: ../../../data/animation/plee-alt/dream.anim
+#: ../../../data/animation/plee-alt/jump.anim
+#: ../../../data/animation/plee-alt/maintain.anim
+#: ../../../data/animation/plee-alt/injured.anim
+#: ../../../data/animation/plee-alt/throw_and_walk.anim
+#: ../../../data/animation/plee-alt/maintain_and_walk.anim
+msgid "gfx/plee/plee-alt-2.png"
+msgstr ""
+
+#: ../../../data/animation/plee-alt/swimming.anim
+#: ../../../data/animation/plee-alt/start_cling.anim
+#: ../../../data/animation/plee-alt/cling.anim
+#: ../../../data/animation/plee-alt/fall.anim
+#: ../../../data/animation/plee-alt/maintain_and_fall.anim
+#: ../../../data/animation/plee-alt/throw_and_fall.anim
+#: ../../../data/animation/plee-alt/roar.anim
+#: ../../../data/animation/plee-alt/sink.anim
+msgid "gfx/plee/plee-alt-3.png"
+msgstr ""
+
+#: ../../../data/model/player/plee-alt.mdl
+#: ../../../data/animation/plee-alt/drown.anim
+#: ../../../data/animation/plee-alt/float_and_swim.anim
+#: ../../../data/animation/plee-alt/take_hat.anim
+#: ../../../data/animation/plee-alt/arm.anim
+#: ../../../data/animation/plee-alt/float.anim
+msgid "gfx/plee/plee-alt-4.png"
+msgstr ""
+
+#: ../../../data/level/tutorial.lvl
+msgid "gfx/power-filter-door/plinth.png"
+msgstr ""
+
+#: ../../../data/animation/power-filter-door/water.anim
+#: ../../../data/animation/power-filter-door/air.anim
+msgid "gfx/power-filter-door/power-filter-door-1.png"
+msgstr ""
+
+#: ../../../data/animation/power-filter-door/fire.anim
+msgid "gfx/power-filter-door/power-filter-door-2.png"
+msgstr ""
+
+#: ../../../data/animation/power-filter-door/waves.anim
+#: ../../../data/animation/power-filter-door/back-waves.anim
+msgid "gfx/power-filter-door/waves.png"
+msgstr ""
+
+#: ../../../data/animation/ray/cry.anim ../../../data/animation/ray/walk.anim
+#: ../../../data/animation/ray/look_upward.anim
+#: ../../../data/animation/ray/fall.anim ../../../data/animation/ray/idle.anim
+#: ../../../data/animation/ray/jump.anim
+#: ../../../data/animation/ray/injured.anim
+#: ../../../data/animation/ray/walk-cry.anim
+msgid "gfx/ray/ray-1.png"
+msgstr ""
+
+#: ../../../data/animation/shiny-honey-jar.anim
+msgid "gfx/shiny-honey-jar/shiny-honey-jar.png"
+msgstr ""
+
+#: ../../../data/animation/smoke.anim
+msgid "gfx/smoke/smoke.png"
+msgstr ""
+
+#: ../../../data/animation/steam.anim
+msgid "gfx/smoke/steam.png"
+msgstr ""
+
+#: ../../../data/animation/stones/air_sliver_5.anim
+#: ../../../data/animation/stones/air_stone_deflating.anim
+#: ../../../data/animation/stones/air_sliver_4.anim
+#: ../../../data/animation/stones/air_stone.anim
+#: ../../../data/animation/stones/air_sliver_3.anim
+#: ../../../data/animation/stones/air_sliver_1.anim
+#: ../../../data/animation/stones/air_stone_deflated.anim
+#: ../../../data/animation/stones/air_stone_exploding.anim
+#: ../../../data/animation/stones/air_sliver_2.anim
+msgid "gfx/stone/air-stone.png"
+msgstr ""
+
+#: ../../../data/animation/stones/fire_water_stone.anim
+#: ../../../data/animation/stones/sliver_3.anim
+#: ../../../data/animation/stones/air_fire_extinct_stone.anim
+#: ../../../data/animation/stones/air_fire_stone.anim
+#: ../../../data/animation/stones/water_fire_stone.anim
+#: ../../../data/animation/stones/sliver_1.anim
+#: ../../../data/animation/stones/sliver_2.anim
+#: ../../../data/animation/stones/sliver_4.anim
+#: ../../../data/animation/stones/air_fire_water_stone.anim
+#: ../../../data/animation/stones/air_water_stone.anim
+#: ../../../data/animation/stones/water_fire_extinct_stone.anim
+#: ../../../data/animation/stones/stone.anim
+#: ../../../data/animation/stones/fire_stone.anim
+#: ../../../data/animation/stones/sliver_5.anim
+#: ../../../data/animation/stones/water_stone.anim
+msgid "gfx/stone/stone.png"
+msgstr ""
+
+#: ../../../data/level/title_screen.lvl
+msgid "gfx/title_screen/background_00.png"
+msgstr ""
+
+#: ../../../data/level/title_screen.lvl
+msgid "gfx/title_screen/background_01.png"
+msgstr ""
+
+#: ../../../data/level/title_screen.lvl
+msgid "gfx/title_screen/background_02.png"
+msgstr ""
+
+#: ../../../data/level/title_screen.lvl
+msgid "gfx/title_screen/background_03.png"
+msgstr ""
+
+#: ../../../data/level/title_screen.lvl
+msgid "gfx/title_screen/background_04.png"
+msgstr ""
+
+#: ../../../data/level/title_screen.lvl
+msgid "gfx/title_screen/background_05.png"
+msgstr ""
+
+#: ../../../data/level/title_screen.lvl
+msgid "gfx/title_screen/background_06.png"
+msgstr ""
+
+#: ../../../data/level/title_screen.lvl
+msgid "gfx/title_screen/background_07.png"
+msgstr ""
+
+#: ../../../data/level/title_screen.lvl
+msgid "gfx/title_screen/background_08.png"
+msgstr ""
+
+#: ../../../data/level/title_screen.lvl
+msgid "gfx/title_screen/background_09.png"
+msgstr ""
+
+#: ../../../data/level/title_screen.lvl
+msgid "gfx/title_screen/background_10.png"
+msgstr ""
+
+#: ../../../data/level/title_screen.lvl
+msgid "gfx/title_screen/background_11.png"
+msgstr ""
+
+#: ../../../data/level/transition.lvl
+msgid "gfx/transition/ground.png"
+msgstr ""
+
+#: ../../../data/level/sandbox.lvl ../../../data/level/forest-intro.lvl
+msgid "gfx/ui/status/status.png"
+msgstr ""
+
+#: ../../../data/level/castle-1.lvl ../../../data/level/forest-1.lvl
+#: ../../../data/level/tutorial.lvl ../../../data/level/castle-2.lvl
+#: ../../../data/level/forest-2.lvl
+#: ../../../data/level/mini-game/target_practice.lvl
+#: ../../../data/animation/water.anim
+msgid "gfx/water.png"
+msgstr ""
+
+#: ../../../data/animation/weather/rain-light.anim
+msgid "gfx/weather/rain-light.png"
+msgstr ""
+
+#: ../../../data/animation/weather/rain-medium.anim
+msgid "gfx/weather/rain-medium.png"
+msgstr ""
+
+#: ../../../data/animation/weather/rain.anim
+msgid "gfx/weather/rain.png"
+msgstr ""
 
 #: ../../../src/ptb/code/score_table.cpp:80
 msgid "hour"
@@ -905,25 +2991,67 @@ msgstr[1] "secondes"
 msgid "snake in the grass"
 msgstr "Traître"
 
+#~| msgid "...AH! AH! AH! AAH!"
+#~ msgid "...AH! AH! AAH!"
+#~ msgstr "...AH ! AH ! AH ! AAH !"
+#~ msgid "...AH! AH! AH! AAH!"
+#~ msgstr "...AH ! AH ! AH ! AAH !"
+#~ msgid "End"
+#~ msgstr "Fin"
+#~ msgid "Hi!"
+#~ msgstr "Salut !"
+#~ msgid "Hidden Places"
+#~ msgstr "Lieux cachés"
+#~ msgid "I will be your guide through this tutorial."
+#~ msgstr "Je vais te guider au long de ce tutoriel."
+#~ msgid "I'm not sure I want to."
+#~ msgstr "Je n'en ai pas très envie."
+#~ msgid "If you run out of oxygen, you will drown."
+#~ msgstr "Si tu manques d'oxygène tu te noieras."
+#~ msgid "Look."
+#~ msgstr "Regarde."
+#~ msgid "MWAH! AH! AH! AAH!..."
+#~ msgstr "MWAH ! AH ! AH ! AAH !..."
+#~ msgid "Maintain the control to throw further."
+#~ msgstr "Maintiens le contrôle pour jeter plus loin."
+#~ msgid "Or with your bare hands."
+#~ msgstr "Ou à mains nues."
+#~ msgid "Press up or down to aim your stone."
+#~ msgstr "Appuie sur haut ou bas pour diriger ta pierre."
+#~ msgid "Sandbox"
+#~ msgstr "Bac à sable"
+#~ msgid "Take the power and come here."
+#~ msgstr "Prend le pouvoir et viens ici."
+#~ msgid "The Arena"
+#~ msgstr "Le ring"
+#~ msgid "The Castle"
+#~ msgstr "La Château"
+#~ msgid "The Forest"
+#~ msgstr "La forêt"
+#~ msgid "The object to the left of you is a checkpoint."
+#~ msgstr "L'objet sur ta gauche est un point de sauvegarde."
+#~ msgid "The powers can be combined. Let's try it!"
+#~ msgstr "Les pouvoirs peuvent être combinés. Essaye !"
+#~ msgid "Then, go to the next totem on the right."
+#~ msgstr "Puis, vas au prochain totem sur la droite."
+#~ msgid "You can get some oxygen in the big bubbles."
+#~ msgstr "Tu peux récupérer un peu d'oxygène dans les grosses bulles."
+#~ msgid "You can then throw the stones."
+#~ msgstr "Tu peux ensuite jeter des pierres."
 #~ msgid "The Castle Act 2"
 #~ msgstr "Le Château Acte 2"
-
 #~ msgid "Chain"
 #~ msgstr "Enchaîner"
-
 #~ msgid "Most people call me \"God\"."
 #~ msgstr "Les gens m'appellent « Dieu »."
-
 #~ msgid "Unchain"
 #~ msgstr "Libérer"
-
 #~ msgid ""
 #~ "\"One more trick of that kid\", he thinks. \"I'm going to give him such a "
 #~ "wallop of which he sure will remember\"."
 #~ msgstr ""
 #~ "\"Encore un mauvais coup du gamin\", pense t-il. \"Je vais lui foutre une "
 #~ "torgnole dont il se souviendra longtemps\"."
-
 #~ msgid ""
 #~ "4 PM or so, Plee wakes up, tired. Again he has dreamed about that awesome "
 #~ "period when he traveled the world together with his girlfriend.\n"
@@ -934,30 +3062,24 @@ msgstr "Traître"
 #~ "de l'époque où il parcourait le monde avec sa belle.\n"
 #~ "\n"
 #~ "Il met sa patte dans le pot de miel..."
-
 #~ msgid "Also, you will be heat insensitive with this power."
 #~ msgstr "De plus, tu seras insensible à la chaleur avec ce pouvoir."
-
 #~ msgid ""
 #~ "But before, you should check in the configuration menu which command is "
 #~ "associated with each action!"
 #~ msgstr ""
 #~ "Mais avant, tu devrais regarder dans le menu de configuration quelle "
 #~ "commande est associée avec chaque action !"
-
 #~ msgid ""
 #~ "By the way, I have unlocked a mini-game in which you can train yourself "
 #~ "to throw stones."
 #~ msgstr ""
 #~ "Au fait, j'ai débloqué un mini jeu dans lequel tu pourras t'entraîner à "
 #~ "lancer des pierres."
-
 #~ msgid "By the way, the item on your left saved your position."
 #~ msgstr "Au fait, l'objet sur ta gauche sauvegarde ta position."
-
 #~ msgid "Default text"
 #~ msgstr "Default text"
-
 #~ msgid ""
 #~ "Developed by\n"
 #~ "  Sebastien Angibaud\n"
@@ -966,17 +3088,14 @@ msgstr "Traître"
 #~ "Developpé par\n"
 #~ "  Sebastien Angibaud\n"
 #~ "  Julien Jorge"
-
 #~ msgid "Empty! Moreover, every single honey pot in the house is empty."
 #~ msgstr "Vide! D'ailleurs tous les pots de miel de la maison sont vides."
-
 #~ msgid ""
 #~ "Four marks will appear at the bottom of the waterfall, and then wood logs "
 #~ "will fall down on them..."
 #~ msgstr ""
 #~ "Quatre marques vont apparaître en bas de la chute, puis des bûches "
 #~ "tomberont sur elles..."
-
 #~ msgid ""
 #~ "Graphics by\n"
 #~ "  Julien Lassalle\n"
@@ -989,31 +3108,23 @@ msgstr "Traître"
 #~ "  Raphael Giudici\n"
 #~ "  David Michineau\n"
 #~ "  Julien Jorge"
-
 #~ msgid "Honey pots"
 #~ msgstr "Pots de miel"
-
 #~ msgid "I gave a slap during my jump."
 #~ msgstr "J'ai donné une baffe pendant mon saut."
-
 #~ msgid "I was in the forest searching for honey... for you, daddy..."
 #~ msgstr "J'étais dans la forêt pour chercher du miel... pour toi, papa..."
-
 #~ msgid "If the level reaches zero, you will drawn."
 #~ msgstr "Si le niveau atteint zéro, tu te noieras."
-
 #~ msgid "It's really bad to molest your child like this."
 #~ msgstr "C'est très mal de taper ton fils comme cela."
-
 #~ msgid ""
 #~ "Let's play the music of the title screen! You have to be excellent this "
 #~ "time!"
 #~ msgstr ""
 #~ "Jouons la musique de l'écran titre ! Tu devras être excellent cette fois !"
-
 #~ msgid "Maintain your jump to float like me."
 #~ msgstr "Maintiens ton saut pour flotter comme moi."
-
 #~ msgid ""
 #~ "Music by\n"
 #~ "  Florian Massuyeau\n"
@@ -1022,10 +3133,8 @@ msgstr "Traître"
 #~ "Musique de\n"
 #~ "  Florian Massuyeau\n"
 #~ "  Julien Jorge"
-
 #~ msgid "Perfect."
 #~ msgstr "Parfait."
-
 #~| msgid "Main menu"
 #~ msgid "Play menu"
 #~ msgstr "Menu de jeu"

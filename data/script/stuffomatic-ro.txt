@@ -58,7 +58,7 @@
   player_1.do_action( "look_upward", 7.2 );
 
   god.do_action( "talk" );
-  god.talk( "/MWAH! AH! AH! AAH!.../...AH! AH! AH! AAH!/...AH! AH! AAH!" );
+  god.speak( "/MWHA! HA! HA! HAA!.../...HA! HA! HA! HAA!/...HA! HA! HAA!" );
   platform_mvt.activate();
 }
 
@@ -73,7 +73,7 @@
 }
 
 +0.585 {
-  god_2.talk( "/Give me the kid!" );
+  god_2.speak( "/Give me the kid!" );
 }
 
 +2 {
@@ -81,7 +81,7 @@
 }
 
 +2 {
-  god_2.talk( "/Well, then take this!" );
+  god_2.speak( "/Well, then take this!" );
   god_2.start_model_action("create-ball");
 }
 

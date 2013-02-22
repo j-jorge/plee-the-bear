@@ -34,24 +34,104 @@ xpath_wrapper()
 	| awk '{ print toupper(substr($0, 1, 1)) substr($0, 2); }' \
 	| sed 's/^/msgid "/;s/$/"\nmsgstr ""\n/'
 
-    echo "Searching strings in levels." 1>&2
+    echo "Searching strings, sprites and animations in levels." 1>&2
     find ../../../data/level/ -name "*.lvl" \
 	| while read F
           do
 	    echo "$F..." 1>&2
 
+            #string in .lvl
 	    xpath_wrapper \
                 '/level/layer/items/item/fields/field/string/@value' $F \
 		| grep 'value="[^[:lower:]]' \
 		| sed "s/&apos;/'/g;"'s/&quot;/"/g' \
-                | sed 's/ value="\(.\+\)"/\1/' \
-		| sed 's/"/\\"/g;s/^/msgid "/;s/$/"\nmsgstr ""\n/'
+                | sed 's/ value="//;s/"$//' \
+		| sed 's/"/\\\\"/g' \
+                | while read MSG
+                  do
+                    echo "#: $F"
+                    echo 'msgid "'$MSG'"'
+                    echo 'msgstr ""'
+                  done
 
-	    xpath_wrapper '/level/@name' $F \
-                | grep 'name="[^"]' \
-                | sed 's/ name="\(.*\)"/\1/' \
-		| sed 's/ [aA]ct [0-9]\+//' \
-		| sed 's/"/\\"/g;s/^/msgid "/;s/$/"\nmsgstr ""\n/'
+            # sprite in .lvl
+            xpath_wrapper \
+                '//sprite/@image' $F \
+		| sed "s/&apos;/'/g;"'s/&quot;/"/g' \
+                | sed 's/ image="//;s/"$//' \
+		| sed 's/"/\\\\"/g' \
+                | while read MSG
+                  do
+                    echo "#: $F"
+                    echo 'msgid "'$MSG'"'
+                    echo 'msgstr ""'
+                  done
+            
+            # animation in .lvl
+            xpath_wrapper \
+                '/level/layer/items/item/fields/field/animation_file//@path' $F \
+		| sed "s/&apos;/'/g;"'s/&quot;/"/g' \
+                | sed 's/ path="//;s/"$//' \
+		| sed 's/"/\\\\"/g' \
+                | while read MSG
+                  do
+                    echo "#: $F"
+                    echo 'msgid "'$MSG'"'
+                    echo 'msgstr ""'
+                  done
+          done
+
+    echo "Searching sprites and animations in models." 1>&2
+    find ../../../data/model/ -name "*.mdl" \
+	| while read F
+          do
+	    echo "$F..." 1>&2
+
+            # sprite in .mdl
+            xpath_wrapper \
+                '/model/action/marks/mark/animation/frame/sprite/@image' $F \
+		| sed "s/&apos;/'/g;"'s/&quot;/"/g' \
+                | sed 's/ image="//;s/"$//' \
+		| sed 's/"/\\\\"/g' \
+                | while read MSG
+                  do
+                    echo "#: $F"
+                    echo 'msgid "'$MSG'"'
+                    echo 'msgstr ""'
+                  done
+            
+            # animation in .mdl
+            xpath_wrapper \
+                '/model/action/marks/mark/animation_file//@path' $F \
+		| sed "s/&apos;/'/g;"'s/&quot;/"/g' \
+                | sed 's/ path="//;s/"$//' \
+		| sed 's/"/\\\\"/g' \
+                | while read MSG
+                  do
+                    echo "#: $F"
+                    echo 'msgid "'$MSG'"'
+                    echo 'msgstr ""'
+                  done
+          done
+
+    echo "Searching sprites in animation." 1>&2
+    find ../../../data/animation/ -name "*.anim" \
+	| while read F
+          do
+	    echo "$F..." 1>&2
+
+            # sprite in .anim
+            xpath_wrapper \
+                '/animation/frame/sprite/@image' $F \
+		| sed "s/&apos;/'/g;"'s/&quot;/"/g' \
+                | sed 's/ image="//;s/"$//' \
+		| sed 's/"/\\\\"/g' \
+                | while read MSG
+                  do
+                    echo "#: $F"
+                    echo 'msgid "'$MSG'"'
+                    echo 'msgstr ""'
+                  done
           done
 
     echo "Searching strings in scripts." 1>&2
@@ -59,14 +139,15 @@ xpath_wrapper()
 	| while read F
           do
 	    echo "$F..." 1>&2
-	    grep '\.talk(' $F \
-		| sed 's:.\+\.talk( *"\(.\+\)" *);:\1:' \
+            tr -d '\n' < $F \
+                | sed 's:;}:\n:g' \
+                | grep '\.\(talk\|speak\) *(' $F \
+		| sed 's:.\+\.\(talk\|speak\) *( *"\(.\+\)" *);:\2:' \
                 | while read T
                   do
-		    S=$(echo "$T" | cut -c 1)
-                    echo $T | cut -c 2- | tr "$S" '\n'
-                  done \
-		      | sed 's/"/\\"/g;s/^/msgid "/;s/$/"\nmsgstr ""\n/'
+		    echo "$T" \
+                        | sed 's/"/\\\\\\"/g;s/^/msgid "/;s/$/"\nmsgstr ""\n/'
+                  done
           done
 
     echo 'msgid "act"'
