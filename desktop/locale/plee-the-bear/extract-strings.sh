@@ -139,10 +139,8 @@ xpath_wrapper()
 	| while read F
           do
 	    echo "$F..." 1>&2
-            tr -d '\n' < $F \
-                | sed 's:;}:\n:g' \
-                | grep '\.\(talk\|speak\) *(' $F \
-		| sed 's:.\+\.\(talk\|speak\) *( *"\(.\+\)" *);:\2:' \
+            grep '\.\(talk\|speak\)(' $F \
+		| sed 's:.\+\.\(talk\|speak\)( *"\(.\+\)" *);:\2:' \
                 | while read T
                   do
 		    echo "$T" \

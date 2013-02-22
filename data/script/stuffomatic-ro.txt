@@ -39,13 +39,11 @@
 }
 
 +0.3 {
-  player_1.talk
-  ( "/Don't put your balloon over me./What's happening to you?" );
+  player_1.talk( "/Don't put your balloon over me./What's happening to you?" );
 }
 
 +6 {
-  ray.talk
-  ( "/I've been kidnapped!/But I escaped.../But the kidnapper is after me..." );
+  ray.talk( "/I've been kidnapped!/But I escaped.../But the kidnapper is after me..." );
 }
 
 +1 {
