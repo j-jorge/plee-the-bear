@@ -1155,7 +1155,7 @@
 <real value='4'/>
 </field>
 <field name='script_director.script'>
-<string value='script/stuffomatic-ro.txt'/>
+<string value='script/stuffomatic-ro-ok.txt'/>
 </field>
 </fields>
     </item><!-- bear::script_director -->

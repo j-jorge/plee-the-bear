@@ -39,7 +39,7 @@
 }
 
 +0.3 {
-  player_1.talk( "/Don't put your balloon over me./What's happening to you?" );
+  player_1.talk( "/Yep./What's happening to you?" );
 }
 
 +6 {
@@ -47,14 +47,10 @@
 }
 
 +1 {
-   player_1.talk( "/Damn balloons..." );
+   player_1.talk( "/Really?" );
 }
 
-+4 {
-   player_1.talk( "/Aaaaaaaaaaaargh!" );
-}
-
-+2 {
++6 {
   ray.do_action( "move_left", 0.02 );
   ray.do_action( "look_upward", 7.2 );
   player_1.do_action( "look_upward", 7.2 );

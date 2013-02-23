@@ -149,7 +149,10 @@ void ptb::misc_layer::render( scene_element_list& e ) const
 {
   ++m_fps_count;
   render_fps( e );
-  render_demo( e );
+
+  if ( m_first_screenshot == 0 )
+    render_demo( e );
+
   //render_network_status( e );
 
   if ( (m_mouse_idle <= 2) && (m_first_screenshot == 0) )

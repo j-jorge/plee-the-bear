@@ -92,6 +92,8 @@ void ptb::ray::on_enters_layer()
   set_model_actor( get_level_globals().get_model("model/player/ray.cm") );
   start_action_model("idle");
   m_wait_state_number = 0;
+
+  set_persistent_balloon( true );
 } // ray::on_enters_layer()
 
 /*---------------------------------------------------------------------------*/
