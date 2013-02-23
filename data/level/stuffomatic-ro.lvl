@@ -1354,6 +1354,26 @@
 </fields>
     </item><!-- bear::block -->
 
+    <item class_name='bear::camera' fixed='false'>
+<fields>
+<field name='base_item.position.bottom'>
+<real value='370'/>
+</field>
+<field name='base_item.position.left'>
+<real value='898'/>
+</field>
+<field name='base_item.size.height'>
+<real value='720'/>
+</field>
+<field name='base_item.size.width'>
+<real value='1280'/>
+</field>
+<field name='camera.active'>
+<bool value='1'/>
+</field>
+</fields>
+    </item><!-- bear::camera -->
+
     <item class_name='ptb::shared_camera' fixed='false' id='shared_camera'>
 <fields>
 <field name='base_item.fixed.x'>
@@ -1391,26 +1411,6 @@
 </field>
 </fields>
     </item><!-- ptb::shared_camera -->
-
-    <item class_name='bear::camera' fixed='false'>
-<fields>
-<field name='base_item.position.bottom'>
-<real value='370'/>
-</field>
-<field name='base_item.position.left'>
-<real value='898'/>
-</field>
-<field name='base_item.size.height'>
-<real value='720'/>
-</field>
-<field name='base_item.size.width'>
-<real value='1280'/>
-</field>
-<field name='camera.active'>
-<bool value='1'/>
-</field>
-</fields>
-    </item><!-- bear::camera -->
 
     <item class_name='bear::block' fixed='true'>
 <fields>
@@ -1537,7 +1537,7 @@
 <integer value='30'/>
 </field>
 <field name='base_item.position.left'>
-<real value='1967'/>
+<real value='2048'/>
 </field>
 <field name='basic_renderable_item.mirror'>
 <bool value='1'/>
