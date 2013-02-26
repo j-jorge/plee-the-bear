@@ -1,0 +1,231 @@
+sprite_sheet "plee" 1024 x 1024 margin 1
+
+walking "plee-walking.xcf.bz2"
+
+"idle" image_size * 0.38 with walking
+  "right arm 1"
+  "right leg middle"
+  "left leg middle"
+  "body"
+  "lights"
+  "left leg shadow"
+  ;
+
+"walk 1" image_size * 0.38 with walking
+  "right arm 1"
+
+  "right leg front"
+  "left leg back"
+
+  "body"
+  "lights"
+  "left leg shadow"
+  ;
+
+"walk 2" image_size * 0.38 with walking
+  "right arm 1"
+
+  "right leg front 1"
+  "left leg forward 1"
+
+  "body"
+  "lights"
+  "left leg shadow"
+  ;
+
+"walk 3" image_size * 0.38 with walking
+  "right arm 1"
+
+  "right leg front 2"
+  "left leg forward 2"
+  "body"
+  "lights"
+  "left leg shadow"
+  ;
+
+"walk 4" image_size * 0.38 with walking
+  "right arm 1"
+
+  "right leg front 3"
+  "left leg forward 3"
+
+  "body"
+  "lights"
+  "left leg shadow"
+  ;
+
+"walk 5" image_size * 0.38 with walking
+  "right arm 1"
+
+  "right leg middle"
+  "left leg 1"
+
+  "body"
+  "lights"
+  "left leg shadow"
+  ;
+
+"walk 6" image_size * 0.38 with walking
+  "right arm 1"
+
+  "right leg back 1"
+  "left leg 2"
+
+  "body"
+  "lights"
+  "left leg shadow"
+  ;
+
+"walk 7" image_size * 0.38 with walking
+  "right arm 1"
+
+  "right leg back 2"
+  "left leg 3"
+
+  "body"
+  "lights"
+  "left leg shadow"
+  ;
+
+"walk 8" image_size * 0.38 with walking
+  "right arm 1"
+
+  "right leg back 3"
+  "left leg 4"
+
+  "body"
+  "lights"
+  "left leg shadow"
+  ;
+
+"walk 9" image_size * 0.38 with walking
+  "right arm 1"
+
+  "right leg back 4"
+  "left leg 5"
+
+  "body"
+  "lights"
+  "left leg shadow"
+  ;
+
+"walk 10" image_size * 0.38 with walking
+  "right arm 1"
+
+  "right leg back 5"
+  "left leg front"
+
+  "body"
+  "lights"
+  "left leg shadow"
+  ;
+
+"walk 11" image_size * 0.38 with walking
+  "right arm 1"
+
+  "right leg back"
+  "left leg front"
+
+  "body"
+  "lights"
+  "left leg shadow"
+  ;
+
+"walk 12" image_size * 0.38 with walking
+  "right arm 1"
+
+  "right leg forward 1"
+  "left leg front 1"
+
+  "body"
+  "lights"
+  "left leg shadow"
+  ;
+
+"walk 13" image_size * 0.38 with walking
+  "right arm 1"
+
+  "right leg forward 2"
+  "left leg front 2"
+
+  "body"
+  "lights"
+  "left leg shadow"
+  ;
+
+"walk 14" image_size * 0.38 with walking
+  "right arm 1"
+
+  "right leg forward 3"
+  "left leg front 3"
+
+  "body"
+  "lights"
+  "left leg shadow"
+  ;
+
+"walk 15" image_size * 0.38 with walking
+  "right arm 1"
+
+  "right leg 1"
+  "left leg middle"
+
+  "body"
+  "lights"
+  "left leg shadow"
+  ;
+
+"walk 16" image_size * 0.38 with walking
+  "right arm 1"
+
+  "right leg 2"
+  "left leg back 1"
+
+  "body"
+  "lights"
+  "left leg shadow"
+  ;
+
+"walk 17" image_size * 0.38 with walking
+  "right arm 1"
+
+  "right leg 3"
+  "left leg back 2"
+
+  "body"
+  "lights"
+  "left leg shadow"
+  ;
+
+"walk 18" image_size * 0.38 with walking
+  "right arm 1"
+
+  "right leg 4"
+  "left leg back 3"
+
+  "body"
+  "lights"
+  "left leg shadow"
+  ;
+
+"walk 19" image_size * 0.38 with walking
+  "right arm 1"
+
+  "right leg 5"
+  "left leg back 4"
+
+  "body"
+  "lights"
+  "left leg shadow"
+  ;
+
+"walk 20" image_size * 0.38 with walking
+  "right arm 1"
+
+  "right leg front"
+  "left leg back 5"
+
+  "body"
+  "lights"
+  "left leg shadow"
+  ;

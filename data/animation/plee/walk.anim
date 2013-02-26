@@ -1,27 +1,63 @@
 <?xml version="1.0" encoding="utf-8"?>
-<animation loops='1' first_index='0' last_index='7' loop_back='false' auto_size='true' width='64' height='112' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'>
-  <frame duration='0.12'>
-    <sprite image='gfx/plee/plee-1.png' x='0' y='0' clip_width='64' clip_height='112' spritepos='walking 1' auto_size='true' width='64' height='112' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+<animation loops='0' first_index='0' last_index='19' loop_back='false' auto_size='true' width='64' height='112' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'>
+  <frame duration='0.048'>
+    <sprite image='gfx/plee/plee.png' x='65' y='113' clip_width='64' clip_height='112' spritepos='walk 16' auto_size='true' width='64' height='112' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
   </frame>
-  <frame duration='0.12'>
-    <sprite image='gfx/plee/plee-1.png' x='64' y='0' clip_width='64' clip_height='112' spritepos='walking 2' auto_size='true' width='64' height='112' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  <frame duration='0.048'>
+    <sprite image='gfx/plee/plee.png' x='130' y='113' clip_width='64' clip_height='112' spritepos='walk 17' auto_size='true' width='64' height='112' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
   </frame>
-  <frame duration='0.12'>
-    <sprite image='gfx/plee/plee-1.png' x='128' y='0' clip_width='64' clip_height='112' spritepos='walking 3' auto_size='true' width='64' height='112' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  <frame duration='0.048'>
+    <sprite image='gfx/plee/plee.png' x='195' y='113' clip_width='64' clip_height='112' spritepos='walk 18' auto_size='true' width='64' height='112' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
   </frame>
-  <frame duration='0.12'>
-    <sprite image='gfx/plee/plee-1.png' x='192' y='0' clip_width='64' clip_height='112' spritepos='walking 4' auto_size='true' width='64' height='112' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  <frame duration='0.048'>
+    <sprite image='gfx/plee/plee.png' x='260' y='113' clip_width='64' clip_height='112' spritepos='walk 19' auto_size='true' width='64' height='112' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
   </frame>
-  <frame duration='0.12'>
-    <sprite image='gfx/plee/plee-1.png' x='0' y='0' clip_width='64' clip_height='112' spritepos='walking 1' auto_size='true' width='64' height='112' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  <frame duration='0.048'>
+    <sprite image='gfx/plee/plee.png' x='325' y='113' clip_width='64' clip_height='112' spritepos='walk 20' auto_size='true' width='64' height='112' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
   </frame>
-  <frame duration='0.12'>
-    <sprite image='gfx/plee/plee-1.png' x='256' y='0' clip_width='64' clip_height='112' spritepos='walking 6' auto_size='true' width='64' height='112' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  <frame duration='0.048'>
+    <sprite image='gfx/plee/plee.png' x='65' y='0' clip_width='64' clip_height='112' spritepos='walk 1' auto_size='true' width='64' height='112' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
   </frame>
-  <frame duration='0.12'>
-    <sprite image='gfx/plee/plee-1.png' x='320' y='0' clip_width='64' clip_height='112' spritepos='walking 7' auto_size='true' width='64' height='112' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  <frame duration='0.048'>
+    <sprite image='gfx/plee/plee.png' x='130' y='0' clip_width='64' clip_height='112' spritepos='walk 2' auto_size='true' width='64' height='112' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
   </frame>
-  <frame duration='0.12'>
-    <sprite image='gfx/plee/plee-1.png' x='384' y='0' clip_width='64' clip_height='112' spritepos='walking 8' auto_size='true' width='64' height='112' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  <frame duration='0.048'>
+    <sprite image='gfx/plee/plee.png' x='195' y='0' clip_width='64' clip_height='112' spritepos='walk 3' auto_size='true' width='64' height='112' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.048'>
+    <sprite image='gfx/plee/plee.png' x='260' y='0' clip_width='64' clip_height='112' spritepos='walk 4' auto_size='true' width='64' height='112' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.048'>
+    <sprite image='gfx/plee/plee.png' x='325' y='0' clip_width='64' clip_height='112' spritepos='walk 5' auto_size='true' width='64' height='112' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.048'>
+    <sprite image='gfx/plee/plee.png' x='390' y='0' clip_width='64' clip_height='112' spritepos='walk 6' auto_size='true' width='64' height='112' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.048'>
+    <sprite image='gfx/plee/plee.png' x='455' y='0' clip_width='64' clip_height='112' spritepos='walk 7' auto_size='true' width='64' height='112' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.048'>
+    <sprite image='gfx/plee/plee.png' x='520' y='0' clip_width='64' clip_height='112' spritepos='walk 8' auto_size='true' width='64' height='112' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.048'>
+    <sprite image='gfx/plee/plee.png' x='585' y='0' clip_width='64' clip_height='112' spritepos='walk 9' auto_size='true' width='64' height='112' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.048'>
+    <sprite image='gfx/plee/plee.png' x='650' y='0' clip_width='64' clip_height='112' spritepos='walk 10' auto_size='true' width='64' height='112' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.048'>
+    <sprite image='gfx/plee/plee.png' x='715' y='0' clip_width='64' clip_height='112' spritepos='walk 11' auto_size='true' width='64' height='112' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.048'>
+    <sprite image='gfx/plee/plee.png' x='780' y='0' clip_width='64' clip_height='112' spritepos='walk 12' auto_size='true' width='64' height='112' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.048'>
+    <sprite image='gfx/plee/plee.png' x='845' y='0' clip_width='64' clip_height='112' spritepos='walk 13' auto_size='true' width='64' height='112' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.048'>
+    <sprite image='gfx/plee/plee.png' x='910' y='0' clip_width='64' clip_height='112' spritepos='walk 14' auto_size='true' width='64' height='112' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+  </frame>
+  <frame duration='0.048'>
+    <sprite image='gfx/plee/plee.png' x='0' y='113' clip_width='64' clip_height='112' spritepos='walk 15' auto_size='true' width='64' height='112' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
   </frame>
 </animation>
