@@ -6,7 +6,7 @@ walking "plee-walking.xcf.bz2"
   "right arm 1"
   "right leg middle"
   "left leg middle"
-  "body"
+  "body 1"
   "lights"
   "left leg shadow"
   ;
@@ -17,7 +17,7 @@ walking "plee-walking.xcf.bz2"
   "right leg front"
   "left leg back"
 
-  "body"
+  "body 4"
   "lights"
   "left leg shadow"
   ;
@@ -28,7 +28,7 @@ walking "plee-walking.xcf.bz2"
   "right leg front 1"
   "left leg forward 1"
 
-  "body"
+  "body 3"
   "lights"
   "left leg shadow"
   ;
@@ -38,7 +38,7 @@ walking "plee-walking.xcf.bz2"
 
   "right leg front 2"
   "left leg forward 2"
-  "body"
+  "body 2"
   "lights"
   "left leg shadow"
   ;
@@ -49,7 +49,7 @@ walking "plee-walking.xcf.bz2"
   "right leg front 3"
   "left leg forward 3"
 
-  "body"
+  "body 1"
   "lights"
   "left leg shadow"
   ;
@@ -60,7 +60,7 @@ walking "plee-walking.xcf.bz2"
   "right leg middle"
   "left leg 1"
 
-  "body"
+  "body 1"
   "lights"
   "left leg shadow"
   ;
@@ -71,7 +71,7 @@ walking "plee-walking.xcf.bz2"
   "right leg back 1"
   "left leg 2"
 
-  "body"
+  "body 1"
   "lights"
   "left leg shadow"
   ;
@@ -82,7 +82,7 @@ walking "plee-walking.xcf.bz2"
   "right leg back 2"
   "left leg 3"
 
-  "body"
+  "body 1"
   "lights"
   "left leg shadow"
   ;
@@ -93,7 +93,7 @@ walking "plee-walking.xcf.bz2"
   "right leg back 3"
   "left leg 4"
 
-  "body"
+  "body 2"
   "lights"
   "left leg shadow"
   ;
@@ -104,7 +104,7 @@ walking "plee-walking.xcf.bz2"
   "right leg back 4"
   "left leg 5"
 
-  "body"
+  "body 3"
   "lights"
   "left leg shadow"
   ;
@@ -115,7 +115,7 @@ walking "plee-walking.xcf.bz2"
   "right leg back 5"
   "left leg front"
 
-  "body"
+  "body 4"
   "lights"
   "left leg shadow"
   ;
@@ -126,7 +126,7 @@ walking "plee-walking.xcf.bz2"
   "right leg back"
   "left leg front"
 
-  "body"
+  "body 4"
   "lights"
   "left leg shadow"
   ;
@@ -137,7 +137,7 @@ walking "plee-walking.xcf.bz2"
   "right leg forward 1"
   "left leg front 1"
 
-  "body"
+  "body 3"
   "lights"
   "left leg shadow"
   ;
@@ -148,7 +148,7 @@ walking "plee-walking.xcf.bz2"
   "right leg forward 2"
   "left leg front 2"
 
-  "body"
+  "body 2"
   "lights"
   "left leg shadow"
   ;
@@ -159,7 +159,7 @@ walking "plee-walking.xcf.bz2"
   "right leg forward 3"
   "left leg front 3"
 
-  "body"
+  "body 1"
   "lights"
   "left leg shadow"
   ;
@@ -170,7 +170,7 @@ walking "plee-walking.xcf.bz2"
   "right leg 1"
   "left leg middle"
 
-  "body"
+  "body 1"
   "lights"
   "left leg shadow"
   ;
@@ -181,7 +181,7 @@ walking "plee-walking.xcf.bz2"
   "right leg 2"
   "left leg back 1"
 
-  "body"
+  "body 1"
   "lights"
   "left leg shadow"
   ;
@@ -192,7 +192,7 @@ walking "plee-walking.xcf.bz2"
   "right leg 3"
   "left leg back 2"
 
-  "body"
+  "body 1"
   "lights"
   "left leg shadow"
   ;
@@ -203,7 +203,7 @@ walking "plee-walking.xcf.bz2"
   "right leg 4"
   "left leg back 3"
 
-  "body"
+  "body 2"
   "lights"
   "left leg shadow"
   ;
@@ -214,7 +214,7 @@ walking "plee-walking.xcf.bz2"
   "right leg 5"
   "left leg back 4"
 
-  "body"
+  "body 3"
   "lights"
   "left leg shadow"
   ;
@@ -225,7 +225,7 @@ walking "plee-walking.xcf.bz2"
   "right leg front"
   "left leg back 5"
 
-  "body"
+  "body 4"
   "lights"
   "left leg shadow"
   ;
