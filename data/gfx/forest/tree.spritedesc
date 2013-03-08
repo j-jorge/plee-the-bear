@@ -1,0 +1,11 @@
+sprite_sheet "forest-1" 1024 x 1024 margin 1
+
+tree "tree/tree.xcf.bz2"
+
+"trunk" autosize * 0.5 with tree
+  "trunk"
+  ;
+
+"roots" autosize * 0.5 with tree
+  "roots"
+  ;
