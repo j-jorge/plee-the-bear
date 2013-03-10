@@ -1,2 +1,12 @@
-roots: 0 0 485 207
-trunk: 0 208 180 256
+leaves 4: 0 0 436 298
+trunk: 437 0 180 256
+trunk 2: 618 0 180 256
+leaves 5: 0 299 362 250
+leaves 5 alt: 363 299 362 250
+roots: 0 550 485 207
+leaves 3: 486 550 303 197
+leaves 2: 726 299 288 178
+leaves 1: 0 758 264 160
+top: 265 758 497 140
+right branch: 763 758 235 138
+middle branch: 790 550 212 126

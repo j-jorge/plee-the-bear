@@ -1,0 +1,67 @@
+sprite_sheet "forest-1" 1024 x 1024 margin 1 order "height"
+
+tree "tree/tree.xcf.bz2"
+
+"trunk" autosize * 0.5 with tree
+  "trunk"
+  ;
+
+"trunk 2" autosize * 0.5 with tree
+  "trunk 2"
+  ;
+
+"roots" autosize * 0.5 with tree
+  "roots"
+  ;
+
+"top" autosize * 0.5 with tree
+  "top"
+  ;
+
+"right branch" autosize * 0.5 with tree
+  "right"
+  ;
+
+"middle branch" autosize * 0.5 with tree
+  "middle"
+  ;
+
+"leaves 1" "leaves 1" * 0.5 with tree
+  "global light"
+  "leaves 1"
+  ;
+
+"leaves 2" "leaves 2" * 0.5 with tree
+  "global light"
+  "leaves 2"
+  ;
+
+"leaves 3" "leaves 3" * 0.5 with tree
+  "global light"
+  "leaves 3"
+  ;
+
+"leaves 4" "leaves 4" * 0.5 with tree
+  "global light"
+  "leaves 4"
+  ;
+
+"leaves 5" "leaves 5" * 0.5 with tree
+  "global light"
+  "leaves 5"
+  ;
+
+"leaves 5 alt" "leaves 5" * 0.5 with tree
+  "global light"
+  "leaves 5"
+  mask "mask leaves 5"
+  ;
+
+/*----------------------------------------------------------------------------*/
+sprite_sheet "forest-2" 1024 x 1024 margin 1
+
+tree "tree/tree.xcf.bz2"
+
+"left branch" autosize * 0.5 with tree
+  "left"
+  ;
