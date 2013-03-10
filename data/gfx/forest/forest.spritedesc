@@ -26,10 +26,6 @@ tree "tree/tree.xcf.bz2"
   "middle"
   ;
 
-"left branch" autosize * 0.5 with tree
-  "left"
-  ;
-
 "leaves 1" "leaves 1" * 0.5 with tree
   "global light"
   "leaves 1"
