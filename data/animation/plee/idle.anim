@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <animation loops='1' first_index='0' last_index='0' loop_back='false' auto_size='true' width='64' height='112' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'>
   <frame duration='1'>
-    <sprite image='gfx/plee/plee-1.png' x='0' y='0' clip_width='64' clip_height='112' spritepos='walking 1' auto_size='true' width='64' height='112' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+    <sprite image='gfx/plee/plee.png' x='0' y='0' clip_width='64' clip_height='112' spritepos='idle' auto_size='true' width='64' height='112' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
   </frame>
 </animation>
