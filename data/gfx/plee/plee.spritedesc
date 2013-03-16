@@ -1,6 +1,7 @@
 sprite_sheet "plee" 1024 x 1024 margin 1
 
 walking "plee-walking.xcf.bz2"
+falling "plee-falling.xcf.bz2"
 
 "idle" image_size * 0.38 with walking
   "right arm 0"
@@ -228,4 +229,45 @@ walking "plee-walking.xcf.bz2"
   "body 4"
   "lights"
   "left leg shadow"
+  ;
+
+/*----------------------------------------------------------------------------*/
+"fall 1" image_size * 0.38 with falling
+
+  "lights"
+  "left leg shadow"
+
+  glob "* 1"
+  ;
+
+"fall 2" image_size * 0.38 with falling
+
+  "lights"
+  "left leg shadow"
+
+  glob "* 2"
+  ;
+
+"fall 3" image_size * 0.38 with falling
+
+  "lights"
+  "left leg shadow"
+
+  glob "* 3"
+  ;
+
+"fall 4" image_size * 0.38 with falling
+
+  "lights"
+  "left leg shadow"
+
+  glob "* 4"
+  ;
+
+"fall 5" image_size * 0.38 with falling
+
+  "lights"
+  "left leg shadow"
+
+  glob "* 5"
   ;
