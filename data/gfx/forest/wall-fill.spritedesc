@@ -15,3 +15,16 @@ img "base-block.xcf.bz2"
 "wall-fill" autosize * 0.5 with img
   "center"
   ;
+
+/*----------------------------------------------------------------------------*/
+sprite_sheet "ground-ceiling" 256 x 512 margin 0
+
+img "base-block.xcf.bz2"
+
+"top" autosize * 0.5 with img
+  "top"
+  ;
+
+"ceiling" autosize * 0.5 with img
+  glob "* Bottom"
+  ;

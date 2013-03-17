@@ -1,6 +1,2 @@
-# The format of the lines is
-# picture: x y width height
-
-ground: 0 0 256 128
-ceiling: 0 128 256 128
-
+top: 0 0 256 147
+ceiling: 0 147 256 128
