@@ -2,7 +2,7 @@
 
 PLEE_THE_BEAR=../../bear/bear-engine/bin/running-bear
 MODE="$1"
-ARGS='--log-level=warning --log-concise --game-name="Plee the Bear" --screen-width=1280 --screen-height=720 --stats-destination=http://plee-the-bear.sourceforge.net/stats.php --active-area=500 --data-path=../data --item-library=../../bear/bear-engine/bin/libbear_generic_items.so --item-library=../bin/libplee_the_bear.so --start-level=level/title_screen.cl'
+ARGS='--log-level=verbose --log-file=log.txt --log-concise --game-name="Plee the Bear" --screen-width=1280 --screen-height=720 --stats-destination=http://plee-the-bear.sourceforge.net/stats.php --active-area=500 --data-path=../data --item-library=../../bear/bear-engine/bin/libbear_generic_items.so --item-library=../bin/libplee_the_bear.so --start-level=level/title_screen.cl'
 
 shift
 
