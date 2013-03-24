@@ -335,9 +335,7 @@ ptb::player::get_visual( std::list<bear::engine::scene_visual>& visuals ) const
     }
 
   bear::visual::shader_program p
-    ( get_level_globals().get_shader( "shader/greyscale.frag" ) );
-
-  p.set_variable<double>( "intensity", m_index == 1 ? 0.33 : 0.66 );
+    ( get_level_globals().get_shader( "shader/holes.frag" ) );
 
   visuals.push_front( bear::visual::scene_shader_push( p ) );
   visuals.push_back( bear::visual::scene_shader_pop() );
