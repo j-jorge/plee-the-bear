@@ -16,7 +16,9 @@
 #include "engine/world.hpp"
 #include "engine/message/transition_effect_message.hpp"
 #include "engine/message/transition_effect_erase_message.hpp"
-#include "ptb/message/status_layer_notification_message.hpp"
+
+#include "visual/scene_shader_push.hpp"
+#include "visual/scene_shader_pop.hpp"
 
 #include "generic_items/tweener_item.hpp"
 #include "generic_items/camera_shaker.hpp"
@@ -53,6 +55,7 @@
 #include "ptb/item/stone/fire_stone.hpp"
 #include "ptb/item/hazelnut.hpp"
 #include "ptb/item/corrupting_bonus_attractor.hpp"
+#include "ptb/message/status_layer_notification_message.hpp"
 #include "ptb/player_state/state_player.hpp"
 #include "ptb/player_state/state_roar.hpp"
 #include "ptb/player_state/state_walk.hpp"
@@ -330,6 +333,14 @@ ptb::player::get_visual( std::list<bear::engine::scene_visual>& visuals ) const
       for (it2 = it->begin(); it2 != it->end(); ++it2 )
         visuals.push_front(*it2);
     }
+
+  bear::visual::shader_program p
+    ( get_level_globals().get_shader( "shader/greyscale.frag" ) );
+
+  p.set_variable<double>( "intensity", m_index == 1 ? 0.33 : 0.66 );
+
+  visuals.push_front( bear::visual::scene_shader_push( p ) );
+  visuals.push_back( bear::visual::scene_shader_pop() );
 } // player::get_visual()
 
 /*----------------------------------------------------------------------------*/
