@@ -34,11 +34,6 @@ tree "ground-grass.xcf.bz2"
   "2"
   ;
 
-
-"grass 6" "3" * 0.5 with tree
-  "3"
-  ;
-
-"leaves 7" "4" * 0.5 with tree
+"leaves 6" "4" * 0.5 with tree
   "4"
   ;
