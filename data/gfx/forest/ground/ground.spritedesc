@@ -2,19 +2,38 @@ sprite_sheet "ground-1" 1024 x 1024 margin 1 order "height"
 
 tree "ground-grass.xcf.bz2"
 
-"grass 1" "1" * 0.5 with tree
-  "1"
+"grass 1" autosize * 0.5 with tree
+  [ hollow ] "top grass alt color"
+  [ hollow ] "hard lights 1"
+  [] "1-1"
+  "1-2"
+  "1-3"
   ;
 
-"grass 2" "2" * 0.5 with tree
+"grass 2" autosize * 0.5 with tree
+  [ hollow ] "top grass alt color"
+  [ hollow ] "hard lights 1"
+  "1-1"
+  "1-2"
+  ;
+
+"grass 3" autosize * 0.5 with tree
+  [ hollow ] "top grass alt color"
+  [ hollow ] "hard lights 1"
+  "1-1"
+  "1-3"
+  ;
+
+"grass 4" autosize * 0.5 with tree
+  [ hollow ] "top grass alt color"
+  [ hollow ] "hard lights 1"
+  "1-1"
+  ;
+
+"grass 5" "2" * 0.5 with tree
   "2"
   ;
 
-
-"grass 3" "3" * 0.5 with tree
-  "3"
-  ;
-
-"leaves 1" "4" * 0.5 with tree
+"leaves 6" "4" * 0.5 with tree
   "4"
   ;
