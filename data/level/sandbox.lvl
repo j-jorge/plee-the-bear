@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <level name='The Forest act 1' width='30000' height='7800' music='music/forest-1.ogg'>
-  <layer class_name='decoration_layer' name='far' width='1689' height='950' fit_level='0' tag=''>
+  <layer class_name='decoration_layer' name='far' width='1689' height='950' fit_level='0' tag='common'>
 
 <items>
     <item class_name='bear::decorative_item' fixed='true'>
@@ -157,7 +157,7 @@
 
   </layer><!-- decoration_layer -->
 
-  <layer class_name='decoration_layer' name='near' width='2560' height='1440' fit_level='0' tag=''>
+  <layer class_name='decoration_layer' name='near' width='2560' height='1440' fit_level='0' tag='common'>
 
 <items>
     <item class_name='bear::decorative_item' fixed='false'>
@@ -314,7 +314,7 @@
 
   </layer><!-- decoration_layer -->
 
-  <layer class_name='decoration_layer' name='' width='30000' height='7800' fit_level='1' tag=''>
+  <layer class_name='decoration_layer' name='' width='30000' height='7800' fit_level='1' tag='origin'>
 
 <items>
     <item class_name='bear::decorative_item' fixed='true'>
@@ -492,20 +492,6 @@
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
-
-    <item class_name='bear::layer_shader' fixed='false'>
-<fields>
-<field name='base_item.position.bottom'>
-<real value='7740'/>
-</field>
-<field name='base_item.position.left'>
-<real value='151'/>
-</field>
-<field name='layer_shader.shader'>
-<string value='shader/tunnel_origin.frag'/>
-</field>
-</fields>
-    </item><!-- bear::layer_shader -->
 
     <item class_name='bear::decorative_item' fixed='false'>
 <fields>
@@ -35494,6 +35480,23 @@
 </fields>
     </item><!-- bear::block -->
 
+    <item class_name='bear::layer_shader' fixed='false' id='shader target'>
+<fields>
+<field name='base_item.position.bottom'>
+<real value='7702'/>
+</field>
+<field name='base_item.position.left'>
+<real value='62'/>
+</field>
+<field name='layer_shader.layer_tags'>
+<string value='target'/>
+</field>
+<field name='layer_shader.shader'>
+<string value='shader/tunnel_target.frag'/>
+</field>
+</fields>
+    </item><!-- bear::layer_shader -->
+
     <item class_name='ptb::game_settings' fixed='false' id='game_settings'>
 <fields>
 <field name='base_item.position.bottom'>
@@ -35721,6 +35724,23 @@
 </fields>
     </item><!-- bear::delayed_level_loading -->
 
+    <item class_name='bear::layer_shader' fixed='false' id='shader origin'>
+<fields>
+<field name='base_item.position.bottom'>
+<real value='7750'/>
+</field>
+<field name='base_item.position.left'>
+<real value='118'/>
+</field>
+<field name='layer_shader.layer_tags'>
+<string value='origin'/>
+</field>
+<field name='layer_shader.shader'>
+<string value='shader/tunnel_origin.frag'/>
+</field>
+</fields>
+    </item><!-- bear::layer_shader -->
+
     <item class_name='ptb::player_start_position' fixed='false'>
 <fields>
 <field name='base_item.position.bottom'>
@@ -35870,6 +35890,23 @@
 </field>
 </fields>
     </item><!-- bear::bool_game_variable_getter_creator -->
+
+    <item class_name='bear::layer_shader' fixed='false' id='shader common'>
+<fields>
+<field name='base_item.position.bottom'>
+<real value='7697'/>
+</field>
+<field name='base_item.position.left'>
+<real value='176'/>
+</field>
+<field name='layer_shader.layer_tags'>
+<string value='common'/>
+</field>
+<field name='layer_shader.shader'>
+<string value='shader/tunnel_common.frag'/>
+</field>
+</fields>
+    </item><!-- bear::layer_shader -->
 
     <item class_name='bear::applied_boolean_expression' fixed='false'>
 <fields>
@@ -71075,7 +71112,7 @@
 
   </layer><!-- action_layer -->
 
-  <layer class_name='decoration_layer' name='' width='30000' height='7800' fit_level='1' tag=''>
+  <layer class_name='decoration_layer' name='' width='30000' height='7800' fit_level='1' tag='target'>
 
 <items>
     <item class_name='bear::decorative_item' fixed='true'>
@@ -71188,20 +71225,6 @@
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
-
-    <item class_name='bear::layer_shader' fixed='false'>
-<fields>
-<field name='base_item.position.bottom'>
-<real value='7709'/>
-</field>
-<field name='base_item.position.left'>
-<real value='109'/>
-</field>
-<field name='layer_shader.shader'>
-<string value='shader/tunnel_target.frag'/>
-</field>
-</fields>
-    </item><!-- bear::layer_shader -->
 
     <item class_name='bear::decorative_item' fixed='true'>
 <fields>
