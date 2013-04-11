@@ -12,6 +12,7 @@ bin
 
 # Temporary files
 *~
+prof.log
 game/vars.sh
 game/log.txt
 
