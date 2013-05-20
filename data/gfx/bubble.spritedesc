@@ -1,0 +1,23 @@
+sprite_sheet "bubble" 64 x 64 margin 1
+
+img "bubble.xcf.bz2"
+
+"bubble" autosize * 0.5 with img
+  "large"
+  ;
+
+"bubbles 1" autosize * 0.5 with img
+  "bubbles 1"
+  ;
+
+"bubbles 2" autosize * 0.5 with img
+  "bubbles 2"
+  ;
+
+"bubbles 3" autosize * 0.5 with img
+  "bubbles 3"
+  ;
+
+"bubbles 4" autosize * 0.5 with img
+  "bubbles 4"
+  ;

@@ -1,10 +1,5 @@
-# The format of the lines is
-# picture: x y width height
-
 bubble: 0 0 32 32
-
-bubbles 1: 32  0 32 16
-bubbles 2: 64  0 32 16
-bubbles 3: 96  0 32 16
-bubbles 4: 32 16 32 16
-
+bubbles 1: 33 0 30 12
+bubbles 2: 33 13 30 12
+bubbles 3: 0 33 30 12
+bubbles 4: 31 33 30 12
