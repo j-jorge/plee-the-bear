@@ -13,7 +13,7 @@ sprite_sheet "wall-fill-2" 256 x 256 margin 0
 img "base-block.xcf.bz2"
 
 "wall-fill" autosize * 0.5 with img
-  "center"
+  "center 2"
   ;
 
 /*----------------------------------------------------------------------------*/
