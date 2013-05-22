@@ -241,7 +241,7 @@ void ptb::bonus_box::create_broken_glass(bool left_orientation)
 
   CLAW_ASSERT( item->is_valid(),
          "The decoration of broken glass isn't correctly initialized" );
-} // bonus_box::create_broken_bonus_box()
+} // bonus_box::create_broken_glass()
 
 /*----------------------------------------------------------------------------*/
 /**
