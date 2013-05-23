@@ -1,10 +1,7 @@
-# The format of the lines is
-# picture: x y width height
-
-frame 1: 0 0 64 32
-frame 2: 64 0 64 32
-frame 3: 128 0 64 32
-frame 4: 192 0 64 32
-frame 5: 0 32 64 32
-frame 6: 64 32 64 32
-frame 7: 128 32 64 32
+frame 1: 0 0 61 32
+frame 2: 62 0 61 32
+frame 3: 124 0 61 32
+frame 4: 186 0 61 32
+frame 5: 0 33 61 32
+frame 6: 62 33 61 32
+frame 7: 124 33 61 32

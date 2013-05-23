@@ -1,0 +1,21 @@
+/*----------------------------------------------------------------------------*/
+sprite_sheet "ceiling-slope-26-left" 256 x 256 margin 0
+
+img "ceiling-slope-26.xcf.bz2"
+
+"slope" "left part mask" * 0.5 with img
+  "ends"
+  "adjusted middle"
+  "fill"
+  ;
+
+/*----------------------------------------------------------------------------*/
+sprite_sheet "ceiling-slope-26-right" 256 x 256 margin 0
+
+img "ceiling-slope-26.xcf.bz2"
+
+"slope" "right part mask" * 0.5 with img
+  "ends"
+  "adjusted middle"
+  "fill"
+  ;
