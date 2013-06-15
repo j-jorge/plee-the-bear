@@ -1,0 +1,70 @@
+sprite_sheet "totem" 512 x 512 margin 1
+
+img "totem.xcf.bz2"
+
+"rope off" autosize * 0.478 with img
+  glob "* off"
+  "rope"
+  "hook"
+  "noise"
+  "block"
+  ;
+
+"rope left" autosize * 0.478 with img
+  "right light off"
+  "left light on"
+  "rope"
+  "hook"
+  "noise"
+  "block"
+  ;
+
+"rope right" autosize * 0.478 with img
+  "right light on"
+  "left light off"
+  "rope"
+  "hook"
+  "noise"
+  "block"
+  ;
+
+"rope green" autosize * 0.478 with img
+  "green lights"
+  "rope"
+  "hook"
+  "noise"
+  "block"
+  ;
+
+"hook off" autosize * 0.478 with img
+  glob "* off"
+  "hook"
+  "noise"
+  "block"
+  ;
+
+"brown off" autosize * 0.478 with img
+  glob "* off"
+  "noise"
+  "brown block"
+  ;
+
+"brown left" autosize * 0.478 with img
+  "right light off"
+  "left light on"
+  "noise"
+  "brown block"
+  ;
+
+"brown right" autosize * 0.478 with img
+  "right light on"
+  "left light off"
+  "noise"
+  "brown block"
+  ;
+
+"brown green" autosize * 0.478 with img
+  "green lights"
+  "noise"
+  "brown block"
+  ;
