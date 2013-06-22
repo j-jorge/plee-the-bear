@@ -70512,7 +70512,7 @@ item_with_friction.top_friction
 item_with_z_shift.z_shift
 10
 32
-ptb::spring
+bear::spring
 1
 42
 base_item.position.bottom
@@ -83925,7 +83925,7 @@ gfx/castle/wall/wall-corner.png
 item_with_z_shift.z_shift
 10
 32
-ptb::spring
+bear::spring
 1
 42
 base_item.position.bottom
@@ -88288,7 +88288,7 @@ timer.time
 timer.toggle
 149
 32
-ptb::spring
+bear::spring
 1
 42
 base_item.position.bottom
@@ -96773,7 +96773,7 @@ gfx/castle/wall/wall-corner.png
 item_with_z_shift.z_shift
 10
 32
-ptb::spring
+bear::spring
 1
 42
 base_item.position.bottom
@@ -99027,7 +99027,7 @@ gfx/castle/wall/ground-ceiling.png
 1
 0
 32
-ptb::spring
+bear::spring
 1
 42
 base_item.position.bottom

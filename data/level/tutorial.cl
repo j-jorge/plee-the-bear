@@ -43557,7 +43557,7 @@ gfx/forest/wall-corner.png
 item_with_z_shift.z_shift
 10
 32
-ptb::spring
+bear::spring
 1
 42
 base_item.position.bottom
@@ -54177,7 +54177,7 @@ item_with_z_shift.z_shift
 straight_slope.top_side_is_active
 1
 32
-ptb::spring
+bear::spring
 1
 42
 base_item.position.bottom

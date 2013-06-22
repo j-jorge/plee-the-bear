@@ -50190,7 +50190,7 @@
 </fields>
     </item><!-- bear::slope -->
 
-    <item class_name='ptb::spring' fixed='true'>
+    <item class_name='bear::spring' fixed='true'>
 <fields>
 <field name='base_item.position.bottom'>
 <real value='1670'/>
@@ -50223,7 +50223,7 @@
 <real value='400000'/>
 </field>
 </fields>
-    </item><!-- ptb::spring -->
+    </item><!-- bear::spring -->
 
     <item class_name='bear::add_script_actor' fixed='true' id='add_shared_camera'>
 <fields>
@@ -57171,7 +57171,7 @@
 </fields>
     </item><!-- ptb::corrupting_bonus -->
 
-    <item class_name='ptb::spring' fixed='false' id='pushing_2_spring_left'>
+    <item class_name='bear::spring' fixed='false' id='pushing_2_spring_left'>
 <fields>
 <field name='base_item.mass'>
 <real value='100'/>
@@ -57213,7 +57213,7 @@
 <real value='-250000'/>
 </field>
 </fields>
-    </item><!-- ptb::spring -->
+    </item><!-- bear::spring -->
 
     <item class_name='bear::train' fixed='false' id='pushing_2_center'>
 <fields>
@@ -57714,7 +57714,7 @@
 </fields>
     </item><!-- bear::block -->
 
-    <item class_name='ptb::spring' fixed='false' id='pushing_2_spring_right'>
+    <item class_name='bear::spring' fixed='false' id='pushing_2_spring_right'>
 <fields>
 <field name='base_item.mass'>
 <real value='100'/>
@@ -57753,7 +57753,7 @@
 <real value='250000'/>
 </field>
 </fields>
-    </item><!-- ptb::spring -->
+    </item><!-- bear::spring -->
 
     <item class_name='ptb::rabbit' fixed='false'>
 <fields>
@@ -57853,7 +57853,7 @@
 </fields>
     </item><!-- bear::slope -->
 
-    <item class_name='ptb::spring' fixed='true'>
+    <item class_name='bear::spring' fixed='true'>
 <fields>
 <field name='base_item.position.bottom'>
 <real value='1029'/>
@@ -57889,7 +57889,7 @@
 <real value='440000'/>
 </field>
 </fields>
-    </item><!-- ptb::spring -->
+    </item><!-- bear::spring -->
 
     <item class_name='ptb::clingable' fixed='true'>
 <fields>
@@ -60297,7 +60297,7 @@
 </fields>
     </item><!-- ptb::corrupting_bonus -->
 
-    <item class_name='ptb::spring' fixed='false' id='pushing_1_spring_left'>
+    <item class_name='bear::spring' fixed='false' id='pushing_1_spring_left'>
 <fields>
 <field name='base_item.mass'>
 <real value='100'/>
@@ -60339,7 +60339,7 @@
 <real value='-250000'/>
 </field>
 </fields>
-    </item><!-- ptb::spring -->
+    </item><!-- bear::spring -->
 
     <item class_name='bear::train' fixed='false' id='pushing_1_center'>
 <fields>
@@ -60821,7 +60821,7 @@
 </fields>
     </item><!-- ptb::corrupting_bonus -->
 
-    <item class_name='ptb::spring' fixed='false' id='pushing_1_spring_right'>
+    <item class_name='bear::spring' fixed='false' id='pushing_1_spring_right'>
 <fields>
 <field name='base_item.mass'>
 <real value='100'/>
@@ -60860,7 +60860,7 @@
 <real value='250000'/>
 </field>
 </fields>
-    </item><!-- ptb::spring -->
+    </item><!-- bear::spring -->
 
     <item class_name='ptb::corrupting_bonus' fixed='false'>
 <fields>
@@ -63356,7 +63356,7 @@
 </fields>
     </item><!-- ptb::clingable -->
 
-    <item class_name='ptb::spring' fixed='true'>
+    <item class_name='bear::spring' fixed='true'>
 <fields>
 <field name='base_item.position.bottom'>
 <real value='1290'/>
@@ -63389,7 +63389,7 @@
 <real value='400000'/>
 </field>
 </fields>
-    </item><!-- ptb::spring -->
+    </item><!-- bear::spring -->
 
     <item class_name='ptb::passive_enemy' fixed='false'>
 <fields>
@@ -68372,7 +68372,7 @@
 </fields>
     </item><!-- ptb::bonus_box -->
 
-    <item class_name='ptb::spring' fixed='true'>
+    <item class_name='bear::spring' fixed='true'>
 <fields>
 <field name='base_item.position.bottom'>
 <real value='4858'/>
@@ -68402,9 +68402,9 @@
 <real value='700000'/>
 </field>
 </fields>
-    </item><!-- ptb::spring -->
+    </item><!-- bear::spring -->
 
-    <item class_name='ptb::spring' fixed='true'>
+    <item class_name='bear::spring' fixed='true'>
 <fields>
 <field name='base_item.position.bottom'>
 <real value='6344'/>
@@ -68440,7 +68440,7 @@
 <real value='-10'/>
 </field>
 </fields>
-    </item><!-- ptb::spring -->
+    </item><!-- bear::spring -->
 
     <item class_name='ptb::corrupting_bonus' fixed='false'>
 <fields>
@@ -72600,7 +72600,7 @@
 </fields>
     </item><!-- bear::block -->
 
-    <item class_name='ptb::spring' fixed='true'>
+    <item class_name='bear::spring' fixed='true'>
 <fields>
 <field name='base_item.position.bottom'>
 <real value='6138'/>
@@ -72633,7 +72633,7 @@
 <real value='460000'/>
 </field>
 </fields>
-    </item><!-- ptb::spring -->
+    </item><!-- bear::spring -->
 
     <item class_name='bear::slope' fixed='true'>
 <fields>
@@ -84757,7 +84757,7 @@
 </fields>
     </item><!-- bear::block -->
 
-    <item class_name='ptb::spring' fixed='true'>
+    <item class_name='bear::spring' fixed='true'>
 <fields>
 <field name='base_item.position.bottom'>
 <real value='5624'/>
@@ -84787,7 +84787,7 @@
 <real value='450000'/>
 </field>
 </fields>
-    </item><!-- ptb::spring -->
+    </item><!-- bear::spring -->
 
     <item class_name='bear::slope' fixed='true'>
 <fields>
@@ -88635,7 +88635,7 @@
 </fields>
     </item><!-- bear::slope -->
 
-    <item class_name='ptb::spring' fixed='true'>
+    <item class_name='bear::spring' fixed='true'>
 <fields>
 <field name='base_item.position.bottom'>
 <real value='2807'/>
@@ -88671,9 +88671,9 @@
 <real value='300000'/>
 </field>
 </fields>
-    </item><!-- ptb::spring -->
+    </item><!-- bear::spring -->
 
-    <item class_name='ptb::spring' fixed='true'>
+    <item class_name='bear::spring' fixed='true'>
 <fields>
 <field name='base_item.position.bottom'>
 <real value='3575'/>
@@ -88709,7 +88709,7 @@
 <real value='340000'/>
 </field>
 </fields>
-    </item><!-- ptb::spring -->
+    </item><!-- bear::spring -->
 
     <item class_name='bear::slope' fixed='true'>
 <fields>
@@ -90020,7 +90020,7 @@
 </fields>
     </item><!-- bear::block -->
 
-    <item class_name='ptb::spring' fixed='true'>
+    <item class_name='bear::spring' fixed='true'>
 <fields>
 <field name='base_item.position.bottom'>
 <real value='2314'/>
@@ -90056,7 +90056,7 @@
 <real value='350000'/>
 </field>
 </fields>
-    </item><!-- ptb::spring -->
+    </item><!-- bear::spring -->
 
     <item class_name='ptb::clingable' fixed='true'>
 <fields>
@@ -90635,7 +90635,7 @@
 </fields>
     </item><!-- ptb::woodpecker -->
 
-    <item class_name='ptb::spring' fixed='true'>
+    <item class_name='bear::spring' fixed='true'>
 <fields>
 <field name='base_item.position.bottom'>
 <real value='4100'/>
@@ -90671,9 +90671,9 @@
 <real value='250000'/>
 </field>
 </fields>
-    </item><!-- ptb::spring -->
+    </item><!-- bear::spring -->
 
-    <item class_name='ptb::spring' fixed='true'>
+    <item class_name='bear::spring' fixed='true'>
 <fields>
 <field name='base_item.position.bottom'>
 <real value='3081'/>
@@ -90709,7 +90709,7 @@
 <real value='320000'/>
 </field>
 </fields>
-    </item><!-- ptb::spring -->
+    </item><!-- bear::spring -->
 
     <item class_name='ptb::clingable' fixed='true'>
 <fields>
@@ -91673,7 +91673,7 @@
 </fields>
     </item><!-- bear::block -->
 
-    <item class_name='ptb::spring' fixed='true'>
+    <item class_name='bear::spring' fixed='true'>
 <fields>
 <field name='base_item.position.bottom'>
 <real value='4616'/>
@@ -91703,7 +91703,7 @@
 <real value='430000'/>
 </field>
 </fields>
-    </item><!-- ptb::spring -->
+    </item><!-- bear::spring -->
 
     <item class_name='ptb::corrupting_bonus' fixed='false'>
 <fields>
@@ -93265,7 +93265,7 @@
 </fields>
     </item><!-- bear::forced_tracking_creator -->
 
-    <item class_name='ptb::spring' fixed='false' id='pushing_1_spring_left-1'>
+    <item class_name='bear::spring' fixed='false' id='pushing_1_spring_left-1'>
 <fields>
 <field name='base_item.mass'>
 <real value='100'/>
@@ -93307,7 +93307,7 @@
 <real value='-250000'/>
 </field>
 </fields>
-    </item><!-- ptb::spring -->
+    </item><!-- bear::spring -->
 
     <item class_name='bear::train' fixed='false' id='pushing_1_center-1'>
 <fields>
@@ -93423,7 +93423,7 @@
 </fields>
     </item><!-- bear::forced_sequence_creator -->
 
-    <item class_name='ptb::spring' fixed='false' id='pushing_1_spring_right-1'>
+    <item class_name='bear::spring' fixed='false' id='pushing_1_spring_right-1'>
 <fields>
 <field name='base_item.mass'>
 <real value='100'/>
@@ -93462,7 +93462,7 @@
 <real value='250000'/>
 </field>
 </fields>
-    </item><!-- ptb::spring -->
+    </item><!-- bear::spring -->
 
     <item class_name='bear::straight_slope' fixed='true'>
 <fields>

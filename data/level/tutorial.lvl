@@ -22628,7 +22628,7 @@
 </fields>
     </item><!-- bear::forced_stay_around_creator -->
 
-    <item class_name='ptb::spring' fixed='true'>
+    <item class_name='bear::spring' fixed='true'>
 <fields>
 <field name='base_item.position.bottom'>
 <real value='1437'/>
@@ -22664,7 +22664,7 @@
 <real value='390000'/>
 </field>
 </fields>
-    </item><!-- ptb::spring -->
+    </item><!-- bear::spring -->
 
     <item class_name='bear::forced_goto_creator' fixed='false' id='butterfly-goto-2-1'>
 <fields>
@@ -31655,7 +31655,7 @@
 </fields>
     </item><!-- bear::block -->
 
-    <item class_name='ptb::spring' fixed='true'>
+    <item class_name='bear::spring' fixed='true'>
 <fields>
 <field name='base_item.position.bottom'>
 <real value='3226'/>
@@ -31691,7 +31691,7 @@
 <real value='300000'/>
 </field>
 </fields>
-    </item><!-- ptb::spring -->
+    </item><!-- bear::spring -->
 
     <item class_name='ptb::clingable' fixed='true'>
 <fields>

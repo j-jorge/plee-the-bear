@@ -73094,7 +73094,7 @@ base_item.size.height
 base_item.size.width
 55
 32
-ptb::spring
+bear::spring
 1
 42
 base_item.position.bottom
@@ -74772,7 +74772,7 @@ gfx/forest/right-corner-ceiling.png
 1
 0
 32
-ptb::spring
+bear::spring
 1
 42
 base_item.position.bottom
@@ -76213,7 +76213,7 @@ gfx/forest/right-corner-ceiling.png
 item_with_z_shift.z_shift
 10
 32
-ptb::spring
+bear::spring
 1
 42
 base_item.position.bottom
@@ -80885,7 +80885,7 @@ gfx/forest/wall-corner.png
 item_with_z_shift.z_shift
 10
 32
-ptb::spring
+bear::spring
 1
 42
 base_item.position.bottom
@@ -81046,7 +81046,7 @@ base_item.size.height
 base_item.size.width
 56
 32
-ptb::spring
+bear::spring
 1
 42
 base_item.position.bottom
@@ -81481,7 +81481,7 @@ basic_renderable_item.gap.y
 item_with_decoration.item_to_mimic
 96
 32
-ptb::spring
+bear::spring
 1
 42
 base_item.position.bottom
@@ -89190,7 +89190,7 @@ gfx/forest/right-corner-ceiling.png
 item_with_z_shift.z_shift
 10
 32
-ptb::spring
+bear::spring
 1
 42
 base_item.position.bottom
@@ -91420,7 +91420,7 @@ base_item.position.left
 rabbit.max_distance
 150
 32
-ptb::spring
+bear::spring
 1
 42
 base_item.position.bottom
@@ -97696,7 +97696,7 @@ item_with_friction.top_friction
 item_with_z_shift.z_shift
 10
 32
-ptb::spring
+bear::spring
 1
 42
 base_item.position.bottom
@@ -102707,7 +102707,7 @@ item_with_friction.top_friction
 item_with_z_shift.z_shift
 10
 32
-ptb::spring
+bear::spring
 1
 42
 base_item.position.bottom
@@ -103534,7 +103534,7 @@ basic_renderable_item.gap.y
 item_with_decoration.item_to_mimic
 96
 32
-ptb::spring
+bear::spring
 1
 42
 base_item.position.bottom
@@ -105193,7 +105193,7 @@ gfx/forest/wall-corner.png
 item_with_z_shift.z_shift
 10
 32
-ptb::spring
+bear::spring
 1
 42
 base_item.position.bottom

@@ -27822,7 +27822,7 @@
 </fields>
     </item><!-- ptb::clingable -->
 
-    <item class_name='ptb::spring' fixed='true'>
+    <item class_name='bear::spring' fixed='true'>
 <fields>
 <field name='base_item.position.bottom'>
 <real value='10603'/>
@@ -27855,7 +27855,7 @@
 <real value='350000'/>
 </field>
 </fields>
-    </item><!-- ptb::spring -->
+    </item><!-- bear::spring -->
 
     <item class_name='bear::block' fixed='true'>
 <fields>
@@ -39738,7 +39738,7 @@
 </fields>
     </item><!-- ptb::clingable -->
 
-    <item class_name='ptb::spring' fixed='true'>
+    <item class_name='bear::spring' fixed='true'>
 <fields>
 <field name='base_item.position.bottom'>
 <real value='7118'/>
@@ -39771,7 +39771,7 @@
 <real value='170000'/>
 </field>
 </fields>
-    </item><!-- ptb::spring -->
+    </item><!-- bear::spring -->
 
     <item class_name='bear::slope' fixed='true'>
 <fields>
@@ -41466,7 +41466,7 @@
 </fields>
     </item><!-- bear::slope -->
 
-    <item class_name='ptb::spring' fixed='true'>
+    <item class_name='bear::spring' fixed='true'>
 <fields>
 <field name='base_item.position.bottom'>
 <real value='6262'/>
@@ -41499,7 +41499,7 @@
 <real value='450000'/>
 </field>
 </fields>
-    </item><!-- ptb::spring -->
+    </item><!-- bear::spring -->
 
     <item class_name='ptb::clingable' fixed='true'>
 <fields>
@@ -43473,7 +43473,7 @@
 </fields>
     </item><!-- bear::decorative_item -->
 
-    <item class_name='ptb::spring' fixed='false' id='spring-2'>
+    <item class_name='bear::spring' fixed='false' id='spring-2'>
 <fields>
 <field name='base_item.global'>
 <bool value='1'/>
@@ -43509,7 +43509,7 @@
 <real value='180000'/>
 </field>
 </fields>
-    </item><!-- ptb::spring -->
+    </item><!-- bear::spring -->
 
     <item class_name='ptb::players_present' fixed='true'>
 <fields>
@@ -43698,7 +43698,7 @@
 </fields>
     </item><!-- ptb::passive_enemy -->
 
-    <item class_name='ptb::spring' fixed='false' id='spring-3'>
+    <item class_name='bear::spring' fixed='false' id='spring-3'>
 <fields>
 <field name='base_item.global'>
 <bool value='1'/>
@@ -43728,9 +43728,9 @@
 <real value='180000'/>
 </field>
 </fields>
-    </item><!-- ptb::spring -->
+    </item><!-- bear::spring -->
 
-    <item class_name='ptb::spring' fixed='true' id='spring_bottom-3'>
+    <item class_name='bear::spring' fixed='true' id='spring_bottom-3'>
 <fields>
 <field name='base_item.position.bottom'>
 <real value='3960'/>
@@ -43760,7 +43760,7 @@
 <real value='450000'/>
 </field>
 </fields>
-    </item><!-- ptb::spring -->
+    </item><!-- bear::spring -->
 
     <item class_name='bear::straight_slope' fixed='true'>
 <fields>
@@ -44502,7 +44502,7 @@
 </fields>
     </item><!-- ptb::clingable -->
 
-    <item class_name='ptb::spring' fixed='false' id='spring-5'>
+    <item class_name='bear::spring' fixed='false' id='spring-5'>
 <fields>
 <field name='base_item.global'>
 <bool value='1'/>
@@ -44541,7 +44541,7 @@
 <real value='180000'/>
 </field>
 </fields>
-    </item><!-- ptb::spring -->
+    </item><!-- bear::spring -->
 
     <item class_name='ptb::passive_enemy' fixed='true'>
 <fields>
@@ -46521,7 +46521,7 @@
 </fields>
     </item><!-- bear::decorative_item -->
 
-    <item class_name='ptb::spring' fixed='true'>
+    <item class_name='bear::spring' fixed='true'>
 <fields>
 <field name='base_item.position.bottom'>
 <real value='9844'/>
@@ -46557,7 +46557,7 @@
 <real value='200000'/>
 </field>
 </fields>
-    </item><!-- ptb::spring -->
+    </item><!-- bear::spring -->
 
     <item class_name='ptb::clingable' fixed='true'>
 <fields>
@@ -46646,7 +46646,7 @@
 </fields>
     </item><!-- bear::slope -->
 
-    <item class_name='ptb::spring' fixed='true'>
+    <item class_name='bear::spring' fixed='true'>
 <fields>
 <field name='base_item.position.bottom'>
 <real value='11895'/>
@@ -46676,7 +46676,7 @@
 <real value='300000'/>
 </field>
 </fields>
-    </item><!-- ptb::spring -->
+    </item><!-- bear::spring -->
 
     <item class_name='bear::block' fixed='true'>
 <fields>
@@ -47295,7 +47295,7 @@
 </fields>
     </item><!-- ptb::clingable -->
 
-    <item class_name='ptb::spring' fixed='true'>
+    <item class_name='bear::spring' fixed='true'>
 <fields>
 <field name='base_item.position.bottom'>
 <real value='10099'/>
@@ -47331,7 +47331,7 @@
 <real value='200000'/>
 </field>
 </fields>
-    </item><!-- ptb::spring -->
+    </item><!-- bear::spring -->
 
     <item class_name='bear::block' fixed='true'>
 <fields>
@@ -49154,7 +49154,7 @@
 </fields>
     </item><!-- ptb::checkpoint -->
 
-    <item class_name='ptb::spring' fixed='true' id='spring-6'>
+    <item class_name='bear::spring' fixed='true' id='spring-6'>
 <fields>
 <field name='base_item.position.bottom'>
 <real value='5513'/>
@@ -49184,7 +49184,7 @@
 <real value='-200000'/>
 </field>
 </fields>
-    </item><!-- ptb::spring -->
+    </item><!-- bear::spring -->
 
     <item class_name='bear::decorative_item' fixed='true'>
 <fields>
@@ -50048,7 +50048,7 @@
 </fields>
     </item><!-- ptb::passive_enemy -->
 
-    <item class_name='ptb::spring' fixed='true'>
+    <item class_name='bear::spring' fixed='true'>
 <fields>
 <field name='base_item.position.bottom'>
 <real value='6775'/>
@@ -50072,7 +50072,7 @@
 <real value='500000'/>
 </field>
 </fields>
-    </item><!-- ptb::spring -->
+    </item><!-- bear::spring -->
 
     <item class_name='ptb::clingable' fixed='true'>
 <fields>
