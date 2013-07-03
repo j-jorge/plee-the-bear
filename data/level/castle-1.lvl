@@ -36370,7 +36370,7 @@
 </fields>
     </item><!-- bear::block -->
 
-    <item class_name='ptb::spring' fixed='true'>
+    <item class_name='bear::spring' fixed='true'>
 <fields>
 <field name='base_item.position.bottom'>
 <real value='3611'/>
@@ -36409,7 +36409,7 @@
 <real value='180000'/>
 </field>
 </fields>
-    </item><!-- ptb::spring -->
+    </item><!-- bear::spring -->
 
     <item class_name='ptb::clingable' fixed='true'>
 <fields>
@@ -38018,7 +38018,7 @@
 </fields>
     </item><!-- bear::block -->
 
-    <item class_name='ptb::spring' fixed='true'>
+    <item class_name='bear::spring' fixed='true'>
 <fields>
 <field name='base_item.position.bottom'>
 <real value='1397'/>
@@ -38048,7 +38048,7 @@
 <real value='600000'/>
 </field>
 </fields>
-    </item><!-- ptb::spring -->
+    </item><!-- bear::spring -->
 
     <item class_name='ptb::kicker' fixed='true'>
 <fields>
@@ -44625,7 +44625,7 @@
 </fields>
     </item><!-- bear::block -->
 
-    <item class_name='ptb::spring' fixed='true'>
+    <item class_name='bear::spring' fixed='true'>
 <fields>
 <field name='base_item.position.bottom'>
 <real value='4500'/>
@@ -44664,7 +44664,7 @@
 <real value='300000'/>
 </field>
 </fields>
-    </item><!-- ptb::spring -->
+    </item><!-- bear::spring -->
 
     <item class_name='ptb::clingable' fixed='true'>
 <fields>
@@ -48140,7 +48140,7 @@
 </fields>
     </item><!-- bear::block -->
 
-    <item class_name='ptb::spring' fixed='true'>
+    <item class_name='bear::spring' fixed='true'>
 <fields>
 <field name='base_item.position.bottom'>
 <real value='3198'/>
@@ -48167,7 +48167,7 @@
 <real value='500000'/>
 </field>
 </fields>
-    </item><!-- ptb::spring -->
+    </item><!-- bear::spring -->
 
     <item class_name='bear::block' fixed='true'>
 <fields>
@@ -58732,7 +58732,7 @@
 </fields>
     </item><!-- bear::block -->
 
-    <item class_name='ptb::spring' fixed='true'>
+    <item class_name='bear::spring' fixed='true'>
 <fields>
 <field name='base_item.position.bottom'>
 <real value='1397'/>
@@ -58759,7 +58759,7 @@
 <real value='500000'/>
 </field>
 </fields>
-    </item><!-- ptb::spring -->
+    </item><!-- bear::spring -->
 
     <item class_name='ptb::clingable' fixed='true'>
 <fields>

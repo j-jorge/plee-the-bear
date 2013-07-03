@@ -7411,7 +7411,7 @@
 </fields>
     </item><!-- ptb::corrupting_bonus -->
 
-    <item class_name='ptb::spring' fixed='true' id='spring'>
+    <item class_name='bear::spring' fixed='true' id='spring'>
 <fields>
 <field name='base_item.position.bottom'>
 <real value='2954'/>
@@ -7444,7 +7444,7 @@
 <real value='-300000'/>
 </field>
 </fields>
-    </item><!-- ptb::spring -->
+    </item><!-- bear::spring -->
 
     <item class_name='bear::decorative_item' fixed='true'>
 <fields>

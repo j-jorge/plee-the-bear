@@ -48057,13 +48057,13 @@ bear::forced_rotation_creator
 bear::forced_rotation_creator
 bear::forced_rotation_creator
 bear::forced_rotation_creator
-ptb::spring
+bear::spring
 bear::decorative_item
-ptb::spring
+bear::spring
 bear::decorative_item
-ptb::spring
-ptb::spring
-ptb::spring
+bear::spring
+bear::spring
+bear::spring
 bear::decorative_item
 bear::decorative_item
 bear::forced_goto_creator
@@ -75826,7 +75826,7 @@ base_item.size.height
 base_item.size.width
 56
 32
-ptb::spring
+bear::spring
 1
 42
 base_item.position.bottom
@@ -79429,7 +79429,7 @@ gfx/castle/wall/right-corner-ceiling.png
 item_with_z_shift.z_shift
 10
 32
-ptb::spring
+bear::spring
 1
 42
 base_item.position.bottom
@@ -80248,7 +80248,7 @@ gfx/castle/wall/right-corner-ceiling.png
 item_with_z_shift.z_shift
 10
 32
-ptb::spring
+bear::spring
 1
 42
 base_item.position.bottom
@@ -80514,7 +80514,7 @@ item_with_z_shift.z_shift
 straight_slope.top_side_is_active
 1
 32
-ptb::spring
+bear::spring
 1
 42
 base_item.position.bottom
@@ -87048,7 +87048,7 @@ base_item.position.bottom
 base_item.position.left
 5780
 32
-ptb::spring
+bear::spring
 1
 42
 base_item.position.bottom
@@ -89386,7 +89386,7 @@ item_with_z_shift.z_shift
 slope.steepness
 90
 32
-ptb::spring
+bear::spring
 1
 42
 base_item.position.bottom
@@ -102260,7 +102260,7 @@ players_present.toggles
 1
 188
 32
-ptb::spring
+bear::spring
 1
 42
 base_item.position.bottom

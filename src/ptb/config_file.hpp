@@ -2,6 +2,9 @@
   Copyright (C) 2012 Stuffomatic Ltd. <contact@stuff-o-matic.com>
 
   All rights reserved.
+
+  See the accompanying license file for details about usage, modification and
+  distribution of this file.
 */
 /**
  * \brief The class storing the information of the configuration file of the

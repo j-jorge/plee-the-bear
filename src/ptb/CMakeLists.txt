@@ -140,7 +140,6 @@ set( LIBPTB_SOURCE_FILES
   item/code/shared_camera.cpp
   item/code/small_honeypot.cpp
   item/code/soul.cpp
-  item/code/spring.cpp
   item/code/stone_tracer.cpp
   item/code/timer_kill_players.cpp
   item/code/two_players_only.cpp

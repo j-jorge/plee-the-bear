@@ -1651,7 +1651,7 @@
 </fields>
     </item><!-- ptb::player_settings -->
 
-    <item class_name='ptb::spring' fixed='true'>
+    <item class_name='bear::spring' fixed='true'>
 <fields>
 <field name='base_item.position.bottom'>
 <real value='509'/>
@@ -1690,7 +1690,7 @@
 <real value='400000'/>
 </field>
 </fields>
-    </item><!-- ptb::spring -->
+    </item><!-- bear::spring -->
 
     <item class_name='ptb::add_ingame_layers' fixed='false'>
 <fields>
@@ -3485,7 +3485,7 @@
 </fields>
     </item><!-- bear::trigger -->
 
-    <item class_name='ptb::spring' fixed='true'>
+    <item class_name='bear::spring' fixed='true'>
 <fields>
 <field name='base_item.position.bottom'>
 <real value='509'/>
@@ -3524,7 +3524,7 @@
 <real value='400000'/>
 </field>
 </fields>
-    </item><!-- ptb::spring -->
+    </item><!-- bear::spring -->
 
     <item class_name='ptb::clingable' fixed='true'>
 <fields>

@@ -4030,7 +4030,7 @@ bear::forced_tracking_creator
 bear::forced_sequence_creator
 bear::forced_sequence_creator
 bear::forced_sequence_creator
-ptb::spring
+bear::spring
 bear::decorative_item
 bear::decorative_item
 bear::decorative_item
