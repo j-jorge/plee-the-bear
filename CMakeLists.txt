@@ -94,7 +94,7 @@ find_package( Boost 1.46 REQUIRED COMPONENTS signals)
 
 if( NOT Boost_FOUND )
   message( FATAL_ERROR 
-    "You must have boost::filesystem and boost::thread libraries installed (at least 1.35)" )
+    "You must have boost::filesystem and boost::thread libraries installed (at least 1.46)" )
 endif( NOT Boost_FOUND )
 
 #-------------------------------------------------------------------------------
