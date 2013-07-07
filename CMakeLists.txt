@@ -3,18 +3,24 @@ project(plee-the-bear)
 
 set( GAME_ROOT_DIRECTORY "${CMAKE_CURRENT_SOURCE_DIR}" )
 
-get_directory_property(
-  BEAR_ENGINE_INSTALL_EXECUTABLE_DIR DIRECTORY
-  ${BEAR_ROOT_DIRECTORY}/bear-engine
-  DEFINITION BEAR_ENGINE_INSTALL_EXECUTABLE_DIR
-  )
+#-------------------------------------------------------------------------------
+if( NOT DEFINED BEAR_ROOT_DIRECTORY )
 
-get_directory_property(
-  BEAR_ENGINE_INSTALL_LIBRARY_DIR DIRECTORY
-  ${BEAR_ROOT_DIRECTORY}/bear-engine
-  DEFINITION BEAR_ENGINE_INSTALL_LIBRARY_DIR
-  )
+  #The path to the directory containing the source code of the Bear engine.
+  set(
+    BEAR_ROOT_DIRECTORY
+    "${CMAKE_CURRENT_SOURCE_DIR}/../bear"
+    )
+endif()
 
+set( CMAKE_MODULE_PATH "${BEAR_ROOT_DIRECTORY}/cmake-helper" )
+
+include( bear-config )
+include( gettext )
+include( compiler-defaults )
+include( docbook-to-man )
+
+#-------------------------------------------------------------------------------
 # where the game resources are installed
 if( NOT PTB_INSTALL_DATA_DIR )
   set( PTB_INSTALL_DATA_DIR share/plee-the-bear )
@@ -113,6 +119,15 @@ link_directories(
 # Link directories for the game
 link_directories(
   ${LIBRARY_OUTPUT_PATH}
+  )
+
+#-------------------------------------------------------------------------------
+include_directories( "${BEAR_ENGINE_INCLUDE_DIRECTORY}" )
+include_directories( "${BEAR_ITEMS_INCLUDE_DIRECTORY}" )
+
+# Link directories for the Bear engine
+link_directories(
+  ${BEAR_ENGINE_LIBRARY_DIRECTORY}
   )
 
 #-------------------------------------------------------------------------------
