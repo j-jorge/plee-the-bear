@@ -56,8 +56,7 @@ void ptb::frame_profile_name::validate()
       
       boost::filesystem::path path
         ( g.get_game_filesystem().get_custom_config_file_name
-          ( PTB_PROFILES_FOLDER ) + name,
-          boost::filesystem::native );
+          ( PTB_PROFILES_FOLDER ) + name );
 
       if ( !boost::filesystem::exists(path) )
         {
