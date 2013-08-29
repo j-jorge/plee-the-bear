@@ -35644,7 +35644,7 @@
 <real value='103'/>
 </field>
 <field name='base_item.size.height'>
-<real value='126'/>
+<real value='128'/>
 </field>
 <field name='base_item.size.width'>
 <real value='128'/>
@@ -35690,7 +35690,7 @@
     <item class_name='ptb::player_start_position' fixed='false'>
 <fields>
 <field name='base_item.position.bottom'>
-<real value='3662'/>
+<real value='3664'/>
 </field>
 <field name='base_item.position.left'>
 <real value='153'/>
@@ -35905,7 +35905,7 @@
     <item class_name='ptb::player_start_position' fixed='false'>
 <fields>
 <field name='base_item.position.bottom'>
-<real value='3662'/>
+<real value='3664'/>
 </field>
 <field name='base_item.position.left'>
 <real value='228'/>
@@ -36899,10 +36899,10 @@
 <sprite image='gfx/forest/forest-1.png' x='763' y='758' clip_width='235' clip_height='138' spritepos='right branch' auto_size='true' width='235' height='138' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </field>
 <field name='base_item.position.bottom'>
-<real value='3804'/>
+<real value='3808'/>
 </field>
 <field name='base_item.position.left'>
-<real value='640'/>
+<real value='672'/>
 </field>
 <field name='base_item.size.height'>
 <real value='75'/>
@@ -38631,6 +38631,9 @@
 <field name='base_item.size.height'>
 <real value='244'/>
 </field>
+<field name='base_item.size.width'>
+<real value='256'/>
+</field>
 <field name='slope.control_point.left.x'>
 <real value='128'/>
 </field>
@@ -38912,6 +38915,9 @@
 <field name='base_item.size.height'>
 <real value='384'/>
 </field>
+<field name='base_item.size.width'>
+<real value='256'/>
+</field>
 <field name='slope.control_point.left.x'>
 <real value='65'/>
 </field>
@@ -38920,9 +38926,6 @@
 </field>
 <field name='slope.control_point.right.x'>
 <real value='-128'/>
-</field>
-<field name='slope.control_point.right.y'>
-<real value='0'/>
 </field>
 <field name='slope.steepness'>
 <real value='140'/>
@@ -39306,7 +39309,7 @@
 <real value='5247'/>
 </field>
 <field name='base_item.size.height'>
-<real value='126'/>
+<real value='128'/>
 </field>
 <field name='base_item.size.width'>
 <real value='128'/>
@@ -39387,7 +39390,7 @@
 <real value='5375'/>
 </field>
 <field name='base_item.size.height'>
-<real value='126'/>
+<real value='128'/>
 </field>
 <field name='base_item.size.width'>
 <real value='256'/>
@@ -39647,7 +39650,7 @@
 <real value='5503'/>
 </field>
 <field name='base_item.size.height'>
-<real value='126'/>
+<real value='128'/>
 </field>
 <field name='base_item.size.width'>
 <real value='128'/>
@@ -40675,7 +40678,7 @@
 <real value='7423'/>
 </field>
 <field name='base_item.size.height'>
-<real value='126'/>
+<real value='128'/>
 </field>
 <field name='base_item.size.width'>
 <real value='256'/>
@@ -41021,7 +41024,10 @@
 <integer value='10'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/slope-26s-left.png' x='128' y='0' clip_width='128' clip_height='256' spritepos='' auto_size='true' width='128' height='256' mirror='boolean_true' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+<sprite image='gfx/forest/forest-2.png' x='257' y='397' clip_width='256' clip_height='256' spritepos='sin slope down' auto_size='true' width='256' height='256' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+</field>
+<field name='item_with_restricted_z_collision.max_z_for_collision'>
+<integer value='500'/>
 </field>
 <field name='base_item.position.bottom'>
 <real value='3226'/>
@@ -41030,13 +41036,22 @@
 <real value='7679'/>
 </field>
 <field name='base_item.size.height'>
-<real value='254'/>
+<real value='244'/>
 </field>
 <field name='base_item.size.width'>
-<real value='128'/>
+<real value='256'/>
+</field>
+<field name='slope.control_point.left.x'>
+<real value='65'/>
+</field>
+<field name='slope.control_point.left.y'>
+<real value='-53'/>
+</field>
+<field name='slope.control_point.right.x'>
+<real value='-128'/>
 </field>
 <field name='slope.steepness'>
-<real value='-84'/>
+<real value='-116'/>
 </field>
 </fields>
     </item><!-- bear::slope -->
@@ -41095,35 +41110,6 @@
 </field>
 </fields>
     </item><!-- ptb::corrupting_bonus -->
-
-    <item class_name='bear::slope' fixed='true'>
-<fields>
-<field name='item_with_friction.top_friction'>
-<real value='0.95'/>
-</field>
-<field name='item_with_z_shift.z_shift'>
-<integer value='10'/>
-</field>
-<field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/slope-26s-left.png' x='0' y='80' clip_width='128' clip_height='176' spritepos='' auto_size='true' width='128' height='176' mirror='boolean_true' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
-</field>
-<field name='base_item.position.bottom'>
-<real value='3226'/>
-</field>
-<field name='base_item.position.left'>
-<real value='7807'/>
-</field>
-<field name='base_item.size.height'>
-<real value='170'/>
-</field>
-<field name='base_item.size.width'>
-<real value='128'/>
-</field>
-<field name='slope.steepness'>
-<real value='-44'/>
-</field>
-</fields>
-    </item><!-- bear::slope -->
 
     <item class_name='bear::block' fixed='true'>
 <fields>
@@ -41776,6 +41762,9 @@
 <field name='base_item.size.height'>
 <real value='384'/>
 </field>
+<field name='base_item.size.width'>
+<real value='256'/>
+</field>
 <field name='slope.control_point.left.x'>
 <real value='128'/>
 </field>
@@ -41810,6 +41799,9 @@
 </field>
 <field name='base_item.size.height'>
 <real value='244'/>
+</field>
+<field name='base_item.size.width'>
+<real value='256'/>
 </field>
 <field name='slope.control_point.left.x'>
 <real value='128'/>
@@ -41927,6 +41919,9 @@
 <field name='base_item.size.height'>
 <real value='244'/>
 </field>
+<field name='base_item.size.width'>
+<real value='256'/>
+</field>
 <field name='slope.control_point.left.x'>
 <real value='65'/>
 </field>
@@ -41962,6 +41957,9 @@
 <field name='base_item.size.height'>
 <real value='384'/>
 </field>
+<field name='base_item.size.width'>
+<real value='256'/>
+</field>
 <field name='slope.control_point.left.x'>
 <real value='65'/>
 </field>
@@ -41970,9 +41968,6 @@
 </field>
 <field name='slope.control_point.right.x'>
 <real value='-128'/>
-</field>
-<field name='slope.control_point.right.y'>
-<real value='0'/>
 </field>
 <field name='slope.steepness'>
 <real value='140'/>
@@ -42110,6 +42105,9 @@
 <field name='base_item.size.height'>
 <real value='384'/>
 </field>
+<field name='base_item.size.width'>
+<real value='256'/>
+</field>
 <field name='slope.control_point.left.x'>
 <real value='128'/>
 </field>
@@ -42150,6 +42148,9 @@
 </field>
 <field name='base_item.size.height'>
 <real value='244'/>
+</field>
+<field name='base_item.size.width'>
+<real value='256'/>
 </field>
 <field name='slope.control_point.left.x'>
 <real value='128'/>
@@ -42270,6 +42271,9 @@
 <field name='base_item.size.height'>
 <real value='244'/>
 </field>
+<field name='base_item.size.width'>
+<real value='256'/>
+</field>
 <field name='slope.control_point.left.x'>
 <real value='65'/>
 </field>
@@ -42311,6 +42315,9 @@
 <field name='base_item.size.height'>
 <real value='384'/>
 </field>
+<field name='base_item.size.width'>
+<real value='256'/>
+</field>
 <field name='slope.control_point.left.x'>
 <real value='65'/>
 </field>
@@ -42319,9 +42326,6 @@
 </field>
 <field name='slope.control_point.right.x'>
 <real value='-128'/>
-</field>
-<field name='slope.control_point.right.y'>
-<real value='0'/>
 </field>
 <field name='slope.steepness'>
 <real value='140'/>
@@ -42456,6 +42460,9 @@
 <field name='base_item.size.height'>
 <real value='384'/>
 </field>
+<field name='base_item.size.width'>
+<real value='256'/>
+</field>
 <field name='slope.control_point.left.x'>
 <real value='128'/>
 </field>
@@ -42495,7 +42502,7 @@
 <real value='9728'/>
 </field>
 <field name='base_item.size.height'>
-<real value='126'/>
+<real value='128'/>
 </field>
 <field name='base_item.size.width'>
 <real value='256'/>
@@ -42607,6 +42614,9 @@
 <field name='base_item.size.height'>
 <real value='244'/>
 </field>
+<field name='base_item.size.width'>
+<real value='256'/>
+</field>
 <field name='slope.control_point.left.x'>
 <real value='65'/>
 </field>
@@ -42646,7 +42656,7 @@
 <real value='9984'/>
 </field>
 <field name='base_item.size.height'>
-<real value='126'/>
+<real value='128'/>
 </field>
 <field name='base_item.size.width'>
 <real value='256'/>
@@ -43315,7 +43325,7 @@
 <real value='10752'/>
 </field>
 <field name='base_item.size.height'>
-<real value='126'/>
+<real value='128'/>
 </field>
 <field name='base_item.size.width'>
 <real value='256'/>
@@ -43379,7 +43389,7 @@
 <real value='11008'/>
 </field>
 <field name='base_item.size.height'>
-<real value='126'/>
+<real value='128'/>
 </field>
 <field name='base_item.size.width'>
 <real value='256'/>
@@ -43443,7 +43453,7 @@
 <real value='11264'/>
 </field>
 <field name='base_item.size.height'>
-<real value='126'/>
+<real value='128'/>
 </field>
 <field name='base_item.size.width'>
 <real value='256'/>
@@ -43571,7 +43581,7 @@
 <real value='11288'/>
 </field>
 <field name='base_item.size.height'>
-<real value='126'/>
+<real value='128'/>
 </field>
 <field name='base_item.size.width'>
 <real value='128'/>
@@ -43638,7 +43648,7 @@
 <real value='11416'/>
 </field>
 <field name='base_item.size.height'>
-<real value='126'/>
+<real value='128'/>
 </field>
 <field name='base_item.size.width'>
 <real value='256'/>
@@ -43780,7 +43790,7 @@
 <real value='11520'/>
 </field>
 <field name='base_item.size.height'>
-<real value='126'/>
+<real value='128'/>
 </field>
 <field name='base_item.size.width'>
 <real value='256'/>
@@ -44119,7 +44129,7 @@
 <real value='11776'/>
 </field>
 <field name='base_item.size.height'>
-<real value='126'/>
+<real value='128'/>
 </field>
 <field name='base_item.size.width'>
 <real value='256'/>
@@ -44293,7 +44303,7 @@
 <real value='11928'/>
 </field>
 <field name='base_item.size.height'>
-<real value='126'/>
+<real value='128'/>
 </field>
 <field name='base_item.size.width'>
 <real value='256'/>
@@ -44322,7 +44332,7 @@
 <real value='12032'/>
 </field>
 <field name='base_item.size.height'>
-<real value='126'/>
+<real value='128'/>
 </field>
 <field name='base_item.size.width'>
 <real value='256'/>
@@ -44461,7 +44471,7 @@
 <real value='12056'/>
 </field>
 <field name='base_item.size.height'>
-<real value='126'/>
+<real value='128'/>
 </field>
 <field name='base_item.size.width'>
 <real value='128'/>
@@ -44844,7 +44854,7 @@
 <real value='12288'/>
 </field>
 <field name='base_item.size.height'>
-<real value='126'/>
+<real value='128'/>
 </field>
 <field name='base_item.size.width'>
 <real value='256'/>
@@ -45138,7 +45148,7 @@
 <real value='12544'/>
 </field>
 <field name='base_item.size.height'>
-<real value='126'/>
+<real value='128'/>
 </field>
 <field name='base_item.size.width'>
 <real value='256'/>
@@ -45413,7 +45423,7 @@
 <real value='12696'/>
 </field>
 <field name='base_item.size.height'>
-<real value='126'/>
+<real value='128'/>
 </field>
 <field name='base_item.size.width'>
 <real value='128'/>
@@ -45493,7 +45503,7 @@
 <real value='12800'/>
 </field>
 <field name='base_item.size.height'>
-<real value='126'/>
+<real value='128'/>
 </field>
 <field name='base_item.size.width'>
 <real value='256'/>
@@ -45623,7 +45633,7 @@
 <real value='13056'/>
 </field>
 <field name='base_item.size.height'>
-<real value='126'/>
+<real value='128'/>
 </field>
 <field name='base_item.size.width'>
 <real value='256'/>
@@ -45678,7 +45688,7 @@
 <real value='13056'/>
 </field>
 <field name='base_item.size.height'>
-<real value='126'/>
+<real value='128'/>
 </field>
 <field name='base_item.size.width'>
 <real value='128'/>
@@ -45840,7 +45850,7 @@
 <real value='13127'/>
 </field>
 <field name='base_item.size.height'>
-<real value='126'/>
+<real value='128'/>
 </field>
 <field name='base_item.size.width'>
 <real value='128'/>
@@ -45956,7 +45966,7 @@
 <real value='13312'/>
 </field>
 <field name='base_item.size.height'>
-<real value='126'/>
+<real value='128'/>
 </field>
 <field name='base_item.size.width'>
 <real value='256'/>
@@ -46330,7 +46340,7 @@
 <real value='13560'/>
 </field>
 <field name='base_item.size.height'>
-<real value='126'/>
+<real value='128'/>
 </field>
 <field name='base_item.size.width'>
 <real value='256'/>
@@ -46397,7 +46407,7 @@
 <real value='13568'/>
 </field>
 <field name='base_item.size.height'>
-<real value='126'/>
+<real value='128'/>
 </field>
 <field name='base_item.size.width'>
 <real value='3840'/>
@@ -46781,7 +46791,7 @@
 <real value='13767'/>
 </field>
 <field name='base_item.size.height'>
-<real value='126'/>
+<real value='128'/>
 </field>
 <field name='base_item.size.width'>
 <real value='256'/>
@@ -46994,7 +47004,7 @@
 <real value='13895'/>
 </field>
 <field name='base_item.size.height'>
-<real value='126'/>
+<real value='128'/>
 </field>
 <field name='base_item.size.width'>
 <real value='128'/>
@@ -47183,7 +47193,7 @@
 <real value='14023'/>
 </field>
 <field name='base_item.size.height'>
-<real value='126'/>
+<real value='128'/>
 </field>
 <field name='base_item.size.width'>
 <real value='256'/>
@@ -47238,7 +47248,7 @@
 <real value='14023'/>
 </field>
 <field name='base_item.size.height'>
-<real value='126'/>
+<real value='128'/>
 </field>
 <field name='base_item.size.width'>
 <real value='128'/>
@@ -47697,7 +47707,7 @@
 <real value='14279'/>
 </field>
 <field name='base_item.size.height'>
-<real value='126'/>
+<real value='128'/>
 </field>
 <field name='base_item.size.width'>
 <real value='256'/>
@@ -47778,7 +47788,7 @@
 <real value='14328'/>
 </field>
 <field name='base_item.size.height'>
-<real value='126'/>
+<real value='128'/>
 </field>
 <field name='base_item.size.width'>
 <real value='256'/>
@@ -48138,7 +48148,7 @@
 <real value='14584'/>
 </field>
 <field name='base_item.size.height'>
-<real value='126'/>
+<real value='128'/>
 </field>
 <field name='base_item.size.width'>
 <real value='256'/>
@@ -48541,7 +48551,7 @@
 <real value='14840'/>
 </field>
 <field name='base_item.size.height'>
-<real value='126'/>
+<real value='128'/>
 </field>
 <field name='base_item.size.width'>
 <real value='256'/>
@@ -48710,7 +48720,7 @@
 <real value='14944'/>
 </field>
 <field name='base_item.size.height'>
-<real value='126'/>
+<real value='128'/>
 </field>
 <field name='base_item.size.width'>
 <real value='256'/>
@@ -48959,7 +48969,7 @@
 <real value='15096'/>
 </field>
 <field name='base_item.size.height'>
-<real value='126'/>
+<real value='128'/>
 </field>
 <field name='base_item.size.width'>
 <real value='256'/>
@@ -49098,7 +49108,7 @@
 <real value='15200'/>
 </field>
 <field name='base_item.size.height'>
-<real value='126'/>
+<real value='128'/>
 </field>
 <field name='base_item.size.width'>
 <real value='128'/>
@@ -49353,7 +49363,7 @@
 <real value='15303'/>
 </field>
 <field name='base_item.size.height'>
-<real value='126'/>
+<real value='128'/>
 </field>
 <field name='base_item.size.width'>
 <real value='128'/>
@@ -49414,7 +49424,7 @@
 <real value='15352'/>
 </field>
 <field name='base_item.size.height'>
-<real value='126'/>
+<real value='128'/>
 </field>
 <field name='base_item.size.width'>
 <real value='256'/>
@@ -49712,7 +49722,7 @@
 <real value='15608'/>
 </field>
 <field name='base_item.size.height'>
-<real value='126'/>
+<real value='128'/>
 </field>
 <field name='base_item.size.width'>
 <real value='256'/>
@@ -49822,7 +49832,7 @@
 <real value='15620'/>
 </field>
 <field name='base_item.size.height'>
-<real value='126'/>
+<real value='128'/>
 </field>
 <field name='base_item.size.width'>
 <real value='128'/>
@@ -50028,7 +50038,7 @@
 <real value='15748'/>
 </field>
 <field name='base_item.size.height'>
-<real value='126'/>
+<real value='128'/>
 </field>
 <field name='base_item.size.width'>
 <real value='256'/>
@@ -50243,7 +50253,7 @@
 <real value='15864'/>
 </field>
 <field name='base_item.size.height'>
-<real value='126'/>
+<real value='128'/>
 </field>
 <field name='base_item.size.width'>
 <real value='256'/>
@@ -50586,6 +50596,9 @@
 <field name='base_item.size.height'>
 <real value='244'/>
 </field>
+<field name='base_item.size.width'>
+<real value='256'/>
+</field>
 <field name='slope.control_point.left.x'>
 <real value='128'/>
 </field>
@@ -50688,7 +50701,7 @@
 <real value='15992'/>
 </field>
 <field name='base_item.size.height'>
-<real value='126'/>
+<real value='128'/>
 </field>
 <field name='base_item.size.width'>
 <real value='64'/>
@@ -50807,7 +50820,7 @@
 <real value='16056'/>
 </field>
 <field name='base_item.size.height'>
-<real value='126'/>
+<real value='128'/>
 </field>
 <field name='base_item.size.width'>
 <real value='64'/>
@@ -51117,6 +51130,9 @@
 <field name='base_item.size.height'>
 <real value='384'/>
 </field>
+<field name='base_item.size.width'>
+<real value='256'/>
+</field>
 <field name='slope.control_point.left.x'>
 <real value='65'/>
 </field>
@@ -51125,9 +51141,6 @@
 </field>
 <field name='slope.control_point.right.x'>
 <real value='-128'/>
-</field>
-<field name='slope.control_point.right.y'>
-<real value='0'/>
 </field>
 <field name='slope.steepness'>
 <real value='140'/>
@@ -51442,7 +51455,7 @@
 <real value='16632'/>
 </field>
 <field name='base_item.size.height'>
-<real value='126'/>
+<real value='128'/>
 </field>
 <field name='base_item.size.width'>
 <real value='256'/>
@@ -51673,7 +51686,7 @@
 <real value='16888'/>
 </field>
 <field name='base_item.size.height'>
-<real value='126'/>
+<real value='128'/>
 </field>
 <field name='base_item.size.width'>
 <real value='256'/>
@@ -51806,7 +51819,7 @@
 <real value='17000'/>
 </field>
 <field name='base_item.size.height'>
-<real value='126'/>
+<real value='128'/>
 </field>
 <field name='base_item.size.width'>
 <real value='256'/>
@@ -51884,7 +51897,7 @@
 <real value='17000'/>
 </field>
 <field name='base_item.size.height'>
-<real value='126'/>
+<real value='128'/>
 </field>
 <field name='base_item.size.width'>
 <real value='201'/>
@@ -51959,7 +51972,7 @@
 <real value='17024'/>
 </field>
 <field name='base_item.size.height'>
-<real value='126'/>
+<real value='128'/>
 </field>
 <field name='base_item.size.width'>
 <real value='128'/>
@@ -52152,7 +52165,7 @@
 <real value='17144'/>
 </field>
 <field name='base_item.size.height'>
-<real value='126'/>
+<real value='128'/>
 </field>
 <field name='base_item.size.width'>
 <real value='256'/>
@@ -52184,7 +52197,7 @@
 <real value='17152'/>
 </field>
 <field name='base_item.size.height'>
-<real value='126'/>
+<real value='128'/>
 </field>
 <field name='base_item.size.width'>
 <real value='256'/>
@@ -52227,7 +52240,7 @@
 <real value='17177'/>
 </field>
 <field name='base_item.size.height'>
-<real value='126'/>
+<real value='128'/>
 </field>
 <field name='base_item.size.width'>
 <real value='185'/>
@@ -52385,7 +52398,7 @@
 <real value='17256'/>
 </field>
 <field name='base_item.size.height'>
-<real value='126'/>
+<real value='128'/>
 </field>
 <field name='base_item.size.width'>
 <real value='1024'/>
@@ -52431,7 +52444,7 @@
 <real value='17302'/>
 </field>
 <field name='base_item.size.height'>
-<real value='126'/>
+<real value='128'/>
 </field>
 <field name='base_item.size.width'>
 <real value='210'/>
@@ -52457,7 +52470,7 @@
 <real value='17361'/>
 </field>
 <field name='base_item.size.height'>
-<real value='126'/>
+<real value='128'/>
 </field>
 <field name='base_item.size.width'>
 <real value='47'/>
@@ -52506,7 +52519,7 @@
 <real value='17384'/>
 </field>
 <field name='base_item.size.height'>
-<real value='126'/>
+<real value='128'/>
 </field>
 <field name='base_item.size.width'>
 <real value='768'/>
@@ -52593,7 +52606,7 @@
 <real value='17400'/>
 </field>
 <field name='base_item.size.height'>
-<real value='126'/>
+<real value='128'/>
 </field>
 <field name='base_item.size.width'>
 <real value='256'/>
@@ -52625,7 +52638,7 @@
 <real value='17408'/>
 </field>
 <field name='base_item.size.height'>
-<real value='126'/>
+<real value='128'/>
 </field>
 <field name='base_item.size.width'>
 <real value='256'/>
@@ -52902,7 +52915,7 @@
 <real value='17656'/>
 </field>
 <field name='base_item.size.height'>
-<real value='126'/>
+<real value='128'/>
 </field>
 <field name='base_item.size.width'>
 <real value='256'/>
@@ -52934,7 +52947,7 @@
 <real value='17664'/>
 </field>
 <field name='base_item.size.height'>
-<real value='126'/>
+<real value='128'/>
 </field>
 <field name='base_item.size.width'>
 <real value='256'/>
@@ -53238,7 +53251,7 @@
 <real value='17920'/>
 </field>
 <field name='base_item.size.height'>
-<real value='126'/>
+<real value='128'/>
 </field>
 <field name='base_item.size.width'>
 <real value='256'/>
@@ -53642,7 +53655,7 @@
 <real value='18176'/>
 </field>
 <field name='base_item.size.height'>
-<real value='126'/>
+<real value='128'/>
 </field>
 <field name='base_item.size.width'>
 <real value='256'/>
@@ -53711,7 +53724,7 @@
 <real value='18280'/>
 </field>
 <field name='base_item.size.height'>
-<real value='126'/>
+<real value='128'/>
 </field>
 <field name='base_item.size.width'>
 <real value='256'/>
@@ -53960,7 +53973,7 @@
 <real value='18432'/>
 </field>
 <field name='base_item.size.height'>
-<real value='126'/>
+<real value='128'/>
 </field>
 <field name='base_item.size.width'>
 <real value='256'/>
@@ -54328,7 +54341,7 @@
 <real value='18688'/>
 </field>
 <field name='base_item.size.height'>
-<real value='126'/>
+<real value='128'/>
 </field>
 <field name='base_item.size.width'>
 <real value='256'/>
@@ -54600,7 +54613,7 @@
 <real value='18944'/>
 </field>
 <field name='base_item.size.height'>
-<real value='126'/>
+<real value='128'/>
 </field>
 <field name='base_item.size.width'>
 <real value='256'/>
@@ -54704,7 +54717,7 @@
 <real value='19048'/>
 </field>
 <field name='base_item.size.height'>
-<real value='126'/>
+<real value='128'/>
 </field>
 <field name='base_item.size.width'>
 <real value='256'/>
@@ -54852,7 +54865,7 @@
 <real value='19200'/>
 </field>
 <field name='base_item.size.height'>
-<real value='126'/>
+<real value='128'/>
 </field>
 <field name='base_item.size.width'>
 <real value='256'/>
@@ -54988,7 +55001,7 @@
 <real value='19456'/>
 </field>
 <field name='base_item.size.height'>
-<real value='126'/>
+<real value='128'/>
 </field>
 <field name='base_item.size.width'>
 <real value='256'/>
@@ -55136,7 +55149,7 @@
 <real value='19560'/>
 </field>
 <field name='base_item.size.height'>
-<real value='126'/>
+<real value='128'/>
 </field>
 <field name='base_item.size.width'>
 <real value='128'/>
@@ -55298,7 +55311,7 @@
 <real value='19712'/>
 </field>
 <field name='base_item.size.height'>
-<real value='126'/>
+<real value='128'/>
 </field>
 <field name='base_item.size.width'>
 <real value='256'/>
@@ -55553,7 +55566,7 @@
 <real value='19839'/>
 </field>
 <field name='base_item.size.height'>
-<real value='126'/>
+<real value='128'/>
 </field>
 <field name='base_item.size.width'>
 <real value='128'/>
@@ -55787,7 +55800,7 @@
 <real value='19967'/>
 </field>
 <field name='base_item.size.height'>
-<real value='126'/>
+<real value='128'/>
 </field>
 <field name='base_item.size.width'>
 <real value='128'/>
@@ -55810,7 +55823,7 @@
 <real value='19968'/>
 </field>
 <field name='base_item.size.height'>
-<real value='126'/>
+<real value='128'/>
 </field>
 <field name='base_item.size.width'>
 <real value='256'/>
@@ -56135,7 +56148,7 @@
 <real value='20224'/>
 </field>
 <field name='base_item.size.height'>
-<real value='126'/>
+<real value='128'/>
 </field>
 <field name='base_item.size.width'>
 <real value='256'/>
@@ -56292,7 +56305,7 @@
 <real value='20352'/>
 </field>
 <field name='base_item.size.height'>
-<real value='126'/>
+<real value='128'/>
 </field>
 <field name='base_item.size.width'>
 <real value='128'/>
@@ -56416,7 +56429,7 @@
 <real value='20480'/>
 </field>
 <field name='base_item.size.height'>
-<real value='126'/>
+<real value='128'/>
 </field>
 <field name='base_item.size.width'>
 <real value='256'/>
@@ -56486,7 +56499,7 @@
 <real value='20480'/>
 </field>
 <field name='base_item.size.height'>
-<real value='126'/>
+<real value='128'/>
 </field>
 <field name='base_item.size.width'>
 <real value='128'/>
@@ -56627,7 +56640,7 @@
 <real value='20736'/>
 </field>
 <field name='base_item.size.height'>
-<real value='126'/>
+<real value='128'/>
 </field>
 <field name='base_item.size.width'>
 <real value='256'/>
@@ -56883,7 +56896,7 @@
 <real value='20992'/>
 </field>
 <field name='base_item.size.height'>
-<real value='126'/>
+<real value='128'/>
 </field>
 <field name='base_item.size.width'>
 <real value='256'/>
@@ -56903,7 +56916,7 @@
 <integer value='10'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/slope-26s-left.png' x='0' y='80' clip_width='128' clip_height='176' spritepos='' auto_size='true' width='128' height='176' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+<sprite image='gfx/forest/forest-2.png' x='257' y='397' clip_width='256' clip_height='256' spritepos='sin slope down' auto_size='true' width='256' height='256' mirror='boolean_true' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </field>
 <field name='base_item.position.bottom'>
 <real value='4640'/>
@@ -56912,13 +56925,22 @@
 <real value='21096'/>
 </field>
 <field name='base_item.size.height'>
-<real value='170'/>
+<real value='244'/>
 </field>
 <field name='base_item.size.width'>
+<real value='256'/>
+</field>
+<field name='slope.control_point.left.x'>
 <real value='128'/>
 </field>
+<field name='slope.control_point.right.x'>
+<real value='-65'/>
+</field>
+<field name='slope.control_point.right.y'>
+<real value='-53'/>
+</field>
 <field name='slope.steepness'>
-<real value='44'/>
+<real value='116'/>
 </field>
 </fields>
     </item><!-- bear::slope -->
@@ -56960,35 +56982,6 @@
 </field>
 </fields>
     </item><!-- bear::block -->
-
-    <item class_name='bear::slope' fixed='true'>
-<fields>
-<field name='item_with_friction.top_friction'>
-<real value='0.95'/>
-</field>
-<field name='item_with_z_shift.z_shift'>
-<integer value='10'/>
-</field>
-<field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/slope-26s-left.png' x='128' y='0' clip_width='128' clip_height='256' spritepos='' auto_size='true' width='128' height='256' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
-</field>
-<field name='base_item.position.bottom'>
-<real value='4640'/>
-</field>
-<field name='base_item.position.left'>
-<real value='21224'/>
-</field>
-<field name='base_item.size.height'>
-<real value='254'/>
-</field>
-<field name='base_item.size.width'>
-<real value='128'/>
-</field>
-<field name='slope.steepness'>
-<real value='84'/>
-</field>
-</fields>
-    </item><!-- bear::slope -->
 
     <item class_name='bear::block' fixed='true'>
 <fields>
@@ -57075,7 +57068,7 @@
 <real value='21248'/>
 </field>
 <field name='base_item.size.height'>
-<real value='126'/>
+<real value='128'/>
 </field>
 <field name='base_item.size.width'>
 <real value='256'/>
@@ -57126,51 +57119,31 @@
 <integer value='10'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/slope-26s-right.png' x='0' y='38' clip_width='128' clip_height='218' spritepos='' auto_size='true' width='128' height='218' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+<sprite image='gfx/forest/forest-2.png' x='0' y='0' clip_width='256' clip_height='396' spritepos='sin slope up' auto_size='true' width='256' height='396' mirror='boolean_true' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </field>
 <field name='base_item.position.bottom'>
-<real value='4768'/>
+<real value='4640'/>
 </field>
 <field name='base_item.position.left'>
 <real value='21352'/>
 </field>
 <field name='base_item.size.height'>
-<real value='216'/>
+<real value='384'/>
 </field>
 <field name='base_item.size.width'>
-<real value='128'/>
+<real value='256'/>
+</field>
+<field name='slope.control_point.left.x'>
+<real value='65'/>
+</field>
+<field name='slope.control_point.left.y'>
+<real value='53'/>
+</field>
+<field name='slope.control_point.right.x'>
+<real value='-128'/>
 </field>
 <field name='slope.steepness'>
-<real value='90'/>
-</field>
-</fields>
-    </item><!-- bear::slope -->
-
-    <item class_name='bear::slope' fixed='true'>
-<fields>
-<field name='item_with_friction.top_friction'>
-<real value='0.95'/>
-</field>
-<field name='item_with_z_shift.z_shift'>
-<integer value='10'/>
-</field>
-<field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/slope-26s-right.png' x='128' y='0' clip_width='128' clip_height='256' spritepos='' auto_size='true' width='128' height='256' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
-</field>
-<field name='base_item.position.bottom'>
-<real value='4768'/>
-</field>
-<field name='base_item.position.left'>
-<real value='21480'/>
-</field>
-<field name='base_item.size.height'>
-<real value='254'/>
-</field>
-<field name='base_item.size.width'>
-<real value='128'/>
-</field>
-<field name='slope.steepness'>
-<real value='38'/>
+<real value='140'/>
 </field>
 </fields>
     </item><!-- bear::slope -->
@@ -58011,7 +57984,7 @@
 <real value='21864'/>
 </field>
 <field name='base_item.size.height'>
-<real value='126'/>
+<real value='128'/>
 </field>
 <field name='base_item.size.width'>
 <real value='256'/>
@@ -58749,6 +58722,9 @@
 <field name='base_item.size.height'>
 <real value='244'/>
 </field>
+<field name='base_item.size.width'>
+<real value='256'/>
+</field>
 <field name='slope.control_point.left.x'>
 <real value='128'/>
 </field>
@@ -59036,7 +59012,7 @@
 <real value='22304'/>
 </field>
 <field name='base_item.size.height'>
-<real value='126'/>
+<real value='128'/>
 </field>
 <field name='base_item.size.width'>
 <real value='128'/>
@@ -59427,7 +59403,7 @@
 <real value='22432'/>
 </field>
 <field name='base_item.size.height'>
-<real value='126'/>
+<real value='128'/>
 </field>
 <field name='base_item.size.width'>
 <real value='128'/>
@@ -60105,7 +60081,7 @@
 <real value='22632'/>
 </field>
 <field name='base_item.size.height'>
-<real value='126'/>
+<real value='128'/>
 </field>
 <field name='base_item.size.width'>
 <real value='256'/>
@@ -60832,7 +60808,7 @@
 <real value='22888'/>
 </field>
 <field name='base_item.size.height'>
-<real value='126'/>
+<real value='128'/>
 </field>
 <field name='base_item.size.width'>
 <real value='256'/>
@@ -61700,7 +61676,7 @@
 <real value='23144'/>
 </field>
 <field name='base_item.size.height'>
-<real value='126'/>
+<real value='128'/>
 </field>
 <field name='base_item.size.width'>
 <real value='256'/>
@@ -62923,7 +62899,7 @@
 <real value='23683'/>
 </field>
 <field name='base_item.size.height'>
-<real value='126'/>
+<real value='128'/>
 </field>
 <field name='base_item.size.width'>
 <real value='128'/>
@@ -63181,7 +63157,7 @@
 <real value='23712'/>
 </field>
 <field name='base_item.size.height'>
-<real value='126'/>
+<real value='128'/>
 </field>
 <field name='base_item.size.width'>
 <real value='128'/>
@@ -63236,7 +63212,7 @@
 <real value='23811'/>
 </field>
 <field name='base_item.size.height'>
-<real value='126'/>
+<real value='128'/>
 </field>
 <field name='base_item.size.width'>
 <real value='256'/>
@@ -63366,7 +63342,7 @@
 <real value='23840'/>
 </field>
 <field name='base_item.size.height'>
-<real value='126'/>
+<real value='128'/>
 </field>
 <field name='base_item.size.width'>
 <real value='256'/>
@@ -63469,7 +63445,7 @@
 <real value='24067'/>
 </field>
 <field name='base_item.size.height'>
-<real value='126'/>
+<real value='128'/>
 </field>
 <field name='base_item.size.width'>
 <real value='256'/>
@@ -63637,7 +63613,7 @@
 <real value='24096'/>
 </field>
 <field name='base_item.size.height'>
-<real value='126'/>
+<real value='128'/>
 </field>
 <field name='base_item.size.width'>
 <real value='256'/>
@@ -64024,7 +64000,7 @@
 <real value='24323'/>
 </field>
 <field name='base_item.size.height'>
-<real value='126'/>
+<real value='128'/>
 </field>
 <field name='base_item.size.width'>
 <real value='256'/>
@@ -64083,6 +64059,9 @@
 </field>
 <field name='base_item.size.height'>
 <real value='244'/>
+</field>
+<field name='base_item.size.width'>
+<real value='256'/>
 </field>
 <field name='slope.control_point.left.x'>
 <real value='128'/>
@@ -64143,7 +64122,7 @@
 <real value='24352'/>
 </field>
 <field name='base_item.size.height'>
-<real value='126'/>
+<real value='128'/>
 </field>
 <field name='base_item.size.width'>
 <real value='256'/>
@@ -64333,7 +64312,7 @@
 <real value='24579'/>
 </field>
 <field name='base_item.size.height'>
-<real value='126'/>
+<real value='128'/>
 </field>
 <field name='base_item.size.width'>
 <real value='256'/>
@@ -64387,6 +64366,9 @@
 <field name='base_item.size.height'>
 <real value='384'/>
 </field>
+<field name='base_item.size.width'>
+<real value='256'/>
+</field>
 <field name='slope.control_point.left.x'>
 <real value='65'/>
 </field>
@@ -64395,9 +64377,6 @@
 </field>
 <field name='slope.control_point.right.x'>
 <real value='-128'/>
-</field>
-<field name='slope.control_point.right.y'>
-<real value='0'/>
 </field>
 <field name='slope.steepness'>
 <real value='140'/>
@@ -64743,7 +64722,7 @@
 <real value='24835'/>
 </field>
 <field name='base_item.size.height'>
-<real value='126'/>
+<real value='128'/>
 </field>
 <field name='base_item.size.width'>
 <real value='256'/>
@@ -64792,7 +64771,7 @@
 <real value='24835'/>
 </field>
 <field name='base_item.size.height'>
-<real value='126'/>
+<real value='128'/>
 </field>
 <field name='base_item.size.width'>
 <real value='256'/>
@@ -65559,7 +65538,7 @@
 <real value='25091'/>
 </field>
 <field name='base_item.size.height'>
-<real value='126'/>
+<real value='128'/>
 </field>
 <field name='base_item.size.width'>
 <real value='256'/>
@@ -65614,7 +65593,7 @@
 <real value='25120'/>
 </field>
 <field name='base_item.size.height'>
-<real value='126'/>
+<real value='128'/>
 </field>
 <field name='base_item.size.width'>
 <real value='256'/>
@@ -66180,6 +66159,9 @@
 <field name='base_item.size.height'>
 <real value='244'/>
 </field>
+<field name='base_item.size.width'>
+<real value='256'/>
+</field>
 <field name='slope.control_point.left.x'>
 <real value='128'/>
 </field>
@@ -66282,7 +66264,7 @@
 <real value='25376'/>
 </field>
 <field name='base_item.size.height'>
-<real value='126'/>
+<real value='128'/>
 </field>
 <field name='base_item.size.width'>
 <real value='256'/>
@@ -66776,7 +66758,7 @@
 <real value='25632'/>
 </field>
 <field name='base_item.size.height'>
-<real value='126'/>
+<real value='128'/>
 </field>
 <field name='base_item.size.width'>
 <real value='256'/>
@@ -67007,7 +66989,7 @@
 <real value='25888'/>
 </field>
 <field name='base_item.size.height'>
-<real value='126'/>
+<real value='128'/>
 </field>
 <field name='base_item.size.width'>
 <real value='256'/>
@@ -67062,7 +67044,7 @@
 <real value='25888'/>
 </field>
 <field name='base_item.size.height'>
-<real value='126'/>
+<real value='128'/>
 </field>
 <field name='base_item.size.width'>
 <real value='256'/>
@@ -67209,7 +67191,7 @@
 <real value='26144'/>
 </field>
 <field name='base_item.size.height'>
-<real value='126'/>
+<real value='128'/>
 </field>
 <field name='base_item.size.width'>
 <real value='256'/>
@@ -67264,7 +67246,7 @@
 <real value='26144'/>
 </field>
 <field name='base_item.size.height'>
-<real value='126'/>
+<real value='128'/>
 </field>
 <field name='base_item.size.width'>
 <real value='256'/>
@@ -67358,6 +67340,9 @@
 <field name='base_item.size.height'>
 <real value='244'/>
 </field>
+<field name='base_item.size.width'>
+<real value='256'/>
+</field>
 <field name='slope.control_point.left.x'>
 <real value='128'/>
 </field>
@@ -67414,7 +67399,7 @@
 <real value='26400'/>
 </field>
 <field name='base_item.size.height'>
-<real value='126'/>
+<real value='128'/>
 </field>
 <field name='base_item.size.width'>
 <real value='256'/>
@@ -67469,7 +67454,7 @@
 <real value='26400'/>
 </field>
 <field name='base_item.size.height'>
-<real value='126'/>
+<real value='128'/>
 </field>
 <field name='base_item.size.width'>
 <real value='256'/>
@@ -67552,6 +67537,9 @@
 <field name='base_item.size.height'>
 <real value='384'/>
 </field>
+<field name='base_item.size.width'>
+<real value='256'/>
+</field>
 <field name='slope.control_point.left.x'>
 <real value='65'/>
 </field>
@@ -67560,9 +67548,6 @@
 </field>
 <field name='slope.control_point.right.x'>
 <real value='-128'/>
-</field>
-<field name='slope.control_point.right.y'>
-<real value='0'/>
 </field>
 <field name='slope.steepness'>
 <real value='140'/>
@@ -67625,7 +67610,7 @@
 <real value='26656'/>
 </field>
 <field name='base_item.size.height'>
-<real value='126'/>
+<real value='128'/>
 </field>
 <field name='base_item.size.width'>
 <real value='256'/>
@@ -67680,7 +67665,7 @@
 <real value='26656'/>
 </field>
 <field name='base_item.size.height'>
-<real value='126'/>
+<real value='128'/>
 </field>
 <field name='base_item.size.width'>
 <real value='256'/>
@@ -67830,7 +67815,7 @@
 <real value='26912'/>
 </field>
 <field name='base_item.size.height'>
-<real value='126'/>
+<real value='128'/>
 </field>
 <field name='base_item.size.width'>
 <real value='128'/>
@@ -67888,7 +67873,7 @@
 <real value='26912'/>
 </field>
 <field name='base_item.size.height'>
-<real value='126'/>
+<real value='128'/>
 </field>
 <field name='base_item.size.width'>
 <real value='256'/>
@@ -68096,7 +68081,7 @@
 <real value='27168'/>
 </field>
 <field name='base_item.size.height'>
-<real value='126'/>
+<real value='128'/>
 </field>
 <field name='base_item.size.width'>
 <real value='256'/>
@@ -68331,7 +68316,7 @@
 <real value='27395'/>
 </field>
 <field name='base_item.size.height'>
-<real value='126'/>
+<real value='128'/>
 </field>
 <field name='base_item.size.width'>
 <real value='256'/>
@@ -68467,7 +68452,7 @@
 <real value='27424'/>
 </field>
 <field name='base_item.size.height'>
-<real value='126'/>
+<real value='128'/>
 </field>
 <field name='base_item.size.width'>
 <real value='256'/>
@@ -68600,7 +68585,7 @@
 <real value='27474'/>
 </field>
 <field name='base_item.size.height'>
-<real value='126'/>
+<real value='128'/>
 </field>
 <field name='base_item.size.width'>
 <real value='128'/>
@@ -68749,7 +68734,7 @@
 <real value='27602'/>
 </field>
 <field name='base_item.size.height'>
-<real value='126'/>
+<real value='128'/>
 </field>
 <field name='base_item.size.width'>
 <real value='128'/>
@@ -68772,7 +68757,7 @@
 <real value='27651'/>
 </field>
 <field name='base_item.size.height'>
-<real value='126'/>
+<real value='128'/>
 </field>
 <field name='base_item.size.width'>
 <real value='256'/>
@@ -68913,7 +68898,7 @@
 <real value='27680'/>
 </field>
 <field name='base_item.size.height'>
-<real value='126'/>
+<real value='128'/>
 </field>
 <field name='base_item.size.width'>
 <real value='256'/>
@@ -69124,7 +69109,7 @@
 <real value='27907'/>
 </field>
 <field name='base_item.size.height'>
-<real value='126'/>
+<real value='128'/>
 </field>
 <field name='base_item.size.width'>
 <real value='256'/>
@@ -69179,7 +69164,7 @@
 <real value='27936'/>
 </field>
 <field name='base_item.size.height'>
-<real value='126'/>
+<real value='128'/>
 </field>
 <field name='base_item.size.width'>
 <real value='256'/>
@@ -69393,7 +69378,7 @@
 <real value='28044'/>
 </field>
 <field name='base_item.size.height'>
-<real value='126'/>
+<real value='128'/>
 </field>
 <field name='base_item.size.width'>
 <real value='128'/>
@@ -69497,7 +69482,7 @@
 <real value='28163'/>
 </field>
 <field name='base_item.size.height'>
-<real value='126'/>
+<real value='128'/>
 </field>
 <field name='base_item.size.width'>
 <real value='256'/>
@@ -69532,7 +69517,7 @@
 <real value='28172'/>
 </field>
 <field name='base_item.size.height'>
-<real value='126'/>
+<real value='128'/>
 </field>
 <field name='base_item.size.width'>
 <real value='128'/>
@@ -69645,7 +69630,7 @@
 <real value='28192'/>
 </field>
 <field name='base_item.size.height'>
-<real value='126'/>
+<real value='128'/>
 </field>
 <field name='base_item.size.width'>
 <real value='256'/>
@@ -69827,7 +69812,7 @@
 <real value='28419'/>
 </field>
 <field name='base_item.size.height'>
-<real value='126'/>
+<real value='128'/>
 </field>
 <field name='base_item.size.width'>
 <real value='256'/>
@@ -69882,7 +69867,7 @@
 <real value='28448'/>
 </field>
 <field name='base_item.size.height'>
-<real value='126'/>
+<real value='128'/>
 </field>
 <field name='base_item.size.width'>
 <real value='256'/>
@@ -70019,7 +70004,7 @@
 <real value='28675'/>
 </field>
 <field name='base_item.size.height'>
-<real value='126'/>
+<real value='128'/>
 </field>
 <field name='base_item.size.width'>
 <real value='256'/>
@@ -70091,7 +70076,7 @@
 <real value='28704'/>
 </field>
 <field name='base_item.size.height'>
-<real value='126'/>
+<real value='128'/>
 </field>
 <field name='base_item.size.width'>
 <real value='256'/>
@@ -70192,7 +70177,7 @@
 <real value='28803'/>
 </field>
 <field name='base_item.size.height'>
-<real value='126'/>
+<real value='128'/>
 </field>
 <field name='base_item.size.width'>
 <real value='128'/>
@@ -70227,7 +70212,7 @@
 <real value='28931'/>
 </field>
 <field name='base_item.size.height'>
-<real value='126'/>
+<real value='128'/>
 </field>
 <field name='base_item.size.width'>
 <real value='256'/>
@@ -70282,7 +70267,7 @@
 <real value='28960'/>
 </field>
 <field name='base_item.size.height'>
-<real value='126'/>
+<real value='128'/>
 </field>
 <field name='base_item.size.width'>
 <real value='256'/>
@@ -70357,7 +70342,7 @@
 <real value='29187'/>
 </field>
 <field name='base_item.size.height'>
-<real value='126'/>
+<real value='128'/>
 </field>
 <field name='base_item.size.width'>
 <real value='256'/>
@@ -70412,7 +70397,7 @@
 <real value='29216'/>
 </field>
 <field name='base_item.size.height'>
-<real value='126'/>
+<real value='128'/>
 </field>
 <field name='base_item.size.width'>
 <real value='256'/>
@@ -70487,7 +70472,7 @@
 <real value='29443'/>
 </field>
 <field name='base_item.size.height'>
-<real value='126'/>
+<real value='128'/>
 </field>
 <field name='base_item.size.width'>
 <real value='256'/>
@@ -70559,7 +70544,7 @@
 <real value='29472'/>
 </field>
 <field name='base_item.size.height'>
-<real value='126'/>
+<real value='128'/>
 </field>
 <field name='base_item.size.width'>
 <real value='256'/>
@@ -70729,7 +70714,7 @@
 <real value='29699'/>
 </field>
 <field name='base_item.size.height'>
-<real value='126'/>
+<real value='128'/>
 </field>
 <field name='base_item.size.width'>
 <real value='256'/>
@@ -70784,7 +70769,7 @@
 <real value='29728'/>
 </field>
 <field name='base_item.size.height'>
-<real value='126'/>
+<real value='128'/>
 </field>
 <field name='base_item.size.width'>
 <real value='256'/>
@@ -70888,7 +70873,7 @@
 <real value='29955'/>
 </field>
 <field name='base_item.size.height'>
-<real value='126'/>
+<real value='128'/>
 </field>
 <field name='base_item.size.width'>
 <real value='256'/>
@@ -71025,7 +71010,7 @@
 <integer value='500'/>
 </field>
 <field name='base_item.size.height'>
-<real value='126'/>
+<real value='128'/>
 </field>
 <field name='base_item.size.width'>
 <real value='256'/>
@@ -71151,7 +71136,7 @@
 <real value='256'/>
 </field>
 <field name='base_item.size.height'>
-<real value='126'/>
+<real value='128'/>
 </field>
 <field name='base_item.size.width'>
 <real value='256'/>
@@ -71268,7 +71253,7 @@
 <real value='512'/>
 </field>
 <field name='base_item.size.height'>
-<real value='126'/>
+<real value='128'/>
 </field>
 <field name='base_item.size.width'>
 <real value='256'/>
@@ -71497,7 +71482,7 @@
 <real value='768'/>
 </field>
 <field name='base_item.size.height'>
-<real value='126'/>
+<real value='128'/>
 </field>
 <field name='base_item.size.width'>
 <real value='256'/>
@@ -71603,7 +71588,7 @@
 <real value='1024'/>
 </field>
 <field name='base_item.size.height'>
-<real value='126'/>
+<real value='128'/>
 </field>
 <field name='base_item.size.width'>
 <real value='128'/>
@@ -71634,26 +71619,6 @@
     <item class_name='bear::decorative_item' fixed='true'>
 <fields>
 <field name='base_item.position.bottom'>
-<real value='1813'/>
-</field>
-<field name='base_item.position.depth'>
-<integer value='20'/>
-</field>
-<field name='base_item.position.left'>
-<real value='1254'/>
-</field>
-<field name='basic_renderable_item.angle'>
-<real value='-0.05'/>
-</field>
-<field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/ground/ground-1.png' x='678' y='0' clip_width='171' clip_height='93' spritepos='grass 4' auto_size='true' width='171' height='93' mirror='boolean_true' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
-</field>
-</fields>
-    </item><!-- bear::decorative_item -->
-
-    <item class_name='bear::decorative_item' fixed='true'>
-<fields>
-<field name='base_item.position.bottom'>
 <real value='1653'/>
 </field>
 <field name='base_item.position.left'>
@@ -71667,23 +71632,6 @@
 </field>
 <field name='item_with_decoration.sprite'>
 <sprite image='gfx/forest/tree_4.png' x='230' y='130' clip_width='100' clip_height='119' spritepos='shrub' auto_size='true' width='100' height='119' mirror='boolean_true' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
-</field>
-</fields>
-    </item><!-- bear::decorative_item -->
-
-    <item class_name='bear::decorative_item' fixed='true'>
-<fields>
-<field name='base_item.position.bottom'>
-<real value='1822'/>
-</field>
-<field name='base_item.position.depth'>
-<integer value='20'/>
-</field>
-<field name='base_item.position.left'>
-<real value='1364'/>
-</field>
-<field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/ground/ground-1.png' x='360' y='163' clip_width='327' clip_height='75' spritepos='grass 5' auto_size='true' width='327' height='75' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -71752,26 +71700,6 @@
 </field>
 <field name='item_with_decoration.sprite'>
 <sprite image='gfx/forest/right-corner-ceiling.png' x='0' y='128' clip_width='86' clip_height='103' spritepos='plant' auto_size='true' width='86' height='103' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='1' blue_intensity='0.2'/>
-</field>
-</fields>
-    </item><!-- bear::decorative_item -->
-
-    <item class_name='bear::decorative_item' fixed='true'>
-<fields>
-<field name='base_item.position.bottom'>
-<real value='1747'/>
-</field>
-<field name='base_item.position.depth'>
-<integer value='20'/>
-</field>
-<field name='base_item.position.left'>
-<real value='1611'/>
-</field>
-<field name='basic_renderable_item.angle'>
-<real value='-0.05'/>
-</field>
-<field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/ground/ground-1.png' x='248' y='0' clip_width='181' clip_height='160' spritepos='grass 2' auto_size='true' width='181' height='160' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
