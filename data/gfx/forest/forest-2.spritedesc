@@ -1,0 +1,92 @@
+/*----------------------------------------------------------------------------*/
+sprite_sheet "forest-2" 1024 x 1024 margin 1
+
+tree "tree/tree.xcf.bz2"
+
+base_block "wall/base-block.xcf.bz2"
+ground_corner "wall/right-corner.xcf.bz2"
+ceiling_corner "wall/right-corner-ceiling.xcf.bz2"
+
+"left branch" autosize * 0.5 with tree
+  "left"
+  ;
+
+/*----------------------------------------------------------------------------*/
+/* -- Ground, walls, blocks -- */
+/* ---------------------------------------------------------------------------*/
+
+"top-left" "corner mask" * 0.5 with base_block
+  "curved top left"
+  [ hollow ] "cover corner"
+  ;
+
+"curved top-left" "corner mask" * 0.5 with base_block
+  "curved top left"
+  [ hollow ] "cover curve"
+  ;
+
+"top" "top mask" * 0.5 with base_block
+  "top"
+  [ hollow ] "cover top"
+  ;
+
+"left" "left" * 0.5 with base_block
+  "left"
+  ;
+
+"bottom-left" "bottom left" * 0.5 with base_block
+  "bottom left"
+  ;
+
+"bottom" "bottom" * 0.5 with base_block
+  "bottom"
+  ;
+
+"center 1" "center 2" * 0.5 with base_block
+  "center 2"
+  ;
+
+"center 2" "center" * 0.5 with base_block
+  "center"
+  ;
+
+/*----------------------------------------------------------------------------*/
+/* -- Corners -- */
+/* ---------------------------------------------------------------------------*/
+
+"ground corner" "ground mask" * 0.5 with ground_corner
+  "ground"
+  "wall"
+  [ hollow ] "common grass"
+  ;
+
+"ground corner wall" "wall mask" * 0.5 with ground_corner
+  "ground"
+  "wall"
+  [ hollow ] "common grass"
+  ;
+
+"ground corner step" "step mask" * 0.5 with ground_corner
+  "step corner"
+  "wall"
+  [ hollow ] "step grass"
+  [ hollow ] "common grass"
+  ;
+
+"ground corner curved step" "curved step mask" * 0.5 with ground_corner
+  "curved step corner"
+  "wall"
+  [ hollow ] "curved grass"
+  [ hollow ] "common grass"
+  mask "curved step mask"
+  ;
+
+"ceiling corner" "ceiling mask" * 0.5 with ceiling_corner
+  "ceiling"
+  "wall"
+  ;
+
+"ceiling corner wall" "wall mask" * 0.5 with ceiling_corner
+  "ceiling"
+  "wall"
+  ;

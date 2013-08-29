@@ -1,1 +1,15 @@
-left branch: 0 0 244 123
+center 1: 0 0 256 256
+center 2: 257 0 256 256
+ground corner: 514 0 256 146
+top: 0 257 256 140
+left: 0 398 128 256
+bottom: 257 257 256 128
+ceiling corner: 514 257 256 128
+left branch: 771 257 244 123
+ground corner curved step: 129 398 137 147
+ground corner step: 771 0 139 140
+top-left: 267 398 137 140
+curved top-left: 405 398 137 140
+bottom-left: 543 398 128 128
+ground corner wall: 672 398 128 128
+ceiling corner wall: 801 398 128 128

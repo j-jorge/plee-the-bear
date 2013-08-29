@@ -56,12 +56,3 @@ tree "tree/tree.xcf.bz2"
   "leaves 5"
   mask "mask leaves 5"
   ;
-
-/*----------------------------------------------------------------------------*/
-sprite_sheet "forest-2" 1024 x 1024 margin 1
-
-tree "tree/tree.xcf.bz2"
-
-"left branch" autosize * 0.5 with tree
-  "left"
-  ;
