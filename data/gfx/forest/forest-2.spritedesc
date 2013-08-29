@@ -7,6 +7,9 @@ base_block "wall/base-block.xcf.bz2"
 ground_corner "wall/right-corner.xcf.bz2"
 ceiling_corner "wall/right-corner-ceiling.xcf.bz2"
 
+sin_slope "slope/sin-slope.xcf.bz2"
+slope "slope/slope.xcf.bz2"
+
 "left branch" autosize * 0.5 with tree
   "left"
   ;
@@ -90,3 +93,37 @@ ceiling_corner "wall/right-corner-ceiling.xcf.bz2"
   "ceiling"
   "wall"
   ;
+
+/*----------------------------------------------------------------------------*/
+/* -- Sin Slope -- */
+/* ---------------------------------------------------------------------------*/
+
+"sin slope up" "1" * 0.5 with sin_slope
+  "ground"
+  "back"
+  mask "1"
+  ;
+
+"sin slope down" "2" * 0.5 with sin_slope
+  "ground"
+  "back"
+  mask "2"
+  ;
+
+
+/*----------------------------------------------------------------------------*/
+/* -- Sin Slope -- */
+/* ---------------------------------------------------------------------------*/
+
+"slope up" "1" * 0.5 with slope
+  "ground"
+  "back"
+  mask "1"
+  ;
+
+"slope down" "2" * 0.5 with slope
+  "ground"
+  "back"
+  mask "2"
+  ;
+
