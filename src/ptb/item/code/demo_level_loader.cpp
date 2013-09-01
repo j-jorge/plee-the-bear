@@ -167,6 +167,8 @@ void ptb::demo_level_loader::progress
 
           game_variables::set_next_level_name(m_level_name[i]);
           game_variables::set_players_count(m_players_count[i]);
+          game_variables::set_last_level_exit
+            ( m_level_name[i], m_players_count[i], PTB_DEFAULT_EXIT_NAME );
 
           bear::delayed_level_loading* loader
             ( new bear::delayed_level_loading
