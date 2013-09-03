@@ -111,12 +111,12 @@ const bear::universe::time_type ptb::player::s_time_to_crouch = 0.5;
 const bear::universe::time_type ptb::player::s_time_to_look_upward = 0.5;
 const bear::universe::time_type ptb::player::s_time_to_wait = 3;
 const bear::universe::time_type ptb::player::s_time_to_jump = 1;
-const bear::universe::time_type ptb::player::s_time_to_run = 1.2;
+const bear::universe::time_type ptb::player::s_time_to_run = 2.5; // 1.2;
 const bear::universe::time_type ptb::player::s_time_to_start_throw = 0.34;
 const bear::universe::time_type ptb::player::s_max_time_to_cling = 0.3;
 const bear::universe::time_type ptb::player::s_max_time_to_hang = 1;
 const bear::universe::time_type ptb::player::s_max_time_air_float = 1;
-const bear::universe::time_type ptb::player::s_max_time_continue_jump = 0.26;
+const bear::universe::time_type ptb::player::s_max_time_continue_jump = 0.28; //0.26;
 
 /*----------------------------------------------------------------------------*/
 /**

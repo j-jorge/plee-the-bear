@@ -63,8 +63,7 @@ void ptb::frame_profiles::on_focus()
 
               boost::filesystem::path path
                 ( g.get_game_filesystem().get_custom_config_file_name
-                  ( PTB_PROFILES_FOLDER ) + profile,
-                  boost::filesystem::native );
+                  ( PTB_PROFILES_FOLDER ) + profile );
 
               if ( boost::filesystem::exists(path) )
                 {
@@ -273,8 +272,7 @@ void ptb::frame_profiles::update_controls()
   const bear::engine::game& g( bear::engine::game::get_instance() );
 
   boost::filesystem::path path
-    ( g.get_game_filesystem().get_custom_config_file_name(PTB_PROFILES_FOLDER),
-      boost::filesystem::native );
+    ( g.get_game_filesystem().get_custom_config_file_name(PTB_PROFILES_FOLDER) );
 
   if ( !boost::filesystem::exists(path) )
     boost::filesystem::create_directory( path );
@@ -290,7 +288,7 @@ void ptb::frame_profiles::update_controls()
         if ( boost::filesystem::is_directory(*it) &&
              (i < PTB_NUMBER_OF_PROFILES) )
           {
-            std::string dir(it->string());
+            std::string dir(it->path().string());
             std::string name(dir, path.string().size(),
                              dir.size() - path.string().size());
 

@@ -27,13 +27,13 @@ const bear::universe::coordinate_type
 ptb::plee::s_move_force_in_vertical_jump = 50000;
 
 const bear::universe::coordinate_type
-ptb::plee::s_move_force_in_run = 450000;
+ptb::plee::s_move_force_in_run = 350000; //450000;
 
 const bear::universe::coordinate_type
 ptb::plee::s_move_force_in_swimming = 80000;
 
 const bear::universe::coordinate_type
-ptb::plee::s_move_force_min_in_walk = 50000;
+ptb::plee::s_move_force_min_in_walk = 50000; // 50000
 
 const bear::universe::coordinate_type
 ptb::plee::s_move_force_max_in_walk = 300000;
