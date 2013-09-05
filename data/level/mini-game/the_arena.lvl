@@ -4778,6 +4778,9 @@
 <field name='camera.active'>
 <bool value='1'/>
 </field>
+<field name='camera.max_zoom_length'>
+<real value='200'/>
+</field>
 <field name='camera.size.min_height'>
 <real value='720'/>
 </field>

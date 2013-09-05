@@ -7204,6 +7204,9 @@ base_item.size.width
 camera.active
 1
 42
+camera.max_zoom_length
+200
+42
 camera.size.min_height
 720
 42
