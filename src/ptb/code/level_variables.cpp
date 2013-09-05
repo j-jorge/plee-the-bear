@@ -377,3 +377,26 @@ void ptb::level_variables::set_network_game
   lvl.set_level_variable
     ( bear::engine::variable<bool>( "network_game", v ) );
 } // game_variables::set_network_game()
+
+/*----------------------------------------------------------------------------*/
+/**
+ * \brief Tell if player status are fixed.
+ * \param lvl The level in which we take the variable.
+ */
+bool ptb::level_variables::get_player_status_fixed(bear::engine::level& lvl)
+{
+  return ptb_level_variables_get_value( lvl, "player_status_fixed", false );
+} // game_variables::get_player_status_fixed()
+
+/*----------------------------------------------------------------------------*/
+/**
+ * \brief Set if player status are fixed.
+ * \param lvl The level in which we take the variable.
+ * \param v The state.
+ */
+void ptb::level_variables::set_player_status_fixed
+( bear::engine::level& lvl, bool v )
+{
+  lvl.set_level_variable
+    ( bear::engine::variable<bool>( "player_status_fixed", v ) );
+} // game_variables::set_player_status_fixed()

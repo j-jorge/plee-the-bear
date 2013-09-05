@@ -33,6 +33,7 @@
  * \param y_p The placement on y-coordinate.
  * \param lvl The level containing the honey pots.
  * \param layer_size The size of the layer in which the component is displayed.
+ * \param auto_disappear Indicates that the component disappears automatically.
  */
 ptb::honeypots_component::honeypots_component
 ( bear::engine::level_globals& glob, const player_proxy& p,
@@ -40,8 +41,10 @@ ptb::honeypots_component::honeypots_component
   bear::universe::zone::position side,
   x_placement x_p, y_placement y_p,
   const bear::engine::level& lvl,
-  const bear::universe::size_box_type& layer_size)
-  : super(glob,p,active_position,side, x_p, y_p, layer_size), m_level(lvl)
+  const bear::universe::size_box_type& layer_size,
+  bool auto_disappear )
+  : super(glob,p,active_position,side, x_p, y_p, layer_size, auto_disappear),
+    m_level(lvl)
 {
 } // honeypots_component::honeypots_component()
 

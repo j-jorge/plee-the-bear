@@ -43,7 +43,8 @@ namespace ptb
       bear::universe::zone::position side,
       x_placement x_p, y_placement y_p,
       const monster_handle& m,
-      const bear::universe::size_box_type& layer_size );
+      const bear::universe::size_box_type& layer_size,
+      bool auto_disappear );
 
     void progress( bear::universe::time_type elapsed_time );
     void render( scene_element_list& e ) const;

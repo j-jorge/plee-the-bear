@@ -74,6 +74,9 @@ namespace ptb
 
     static bool is_network_game(bear::engine::level& lvl);
     static void set_network_game(bear::engine::level& lvl, bool b);
+
+    static bool get_player_status_fixed(bear::engine::level& lvl);
+    static void set_player_status_fixed(bear::engine::level& lvl, bool b);
   }; // class level_variables
 } // namespace ptb
 

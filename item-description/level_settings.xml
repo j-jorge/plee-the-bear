@@ -17,5 +17,9 @@
       <description>Indicates if game over is allowed.</description>
       <default_value>true</default_value>
     </field>
+    <field type="boolean" name="level_settings.player_status_fixed">
+      <description>Indicates if player status are fixed.</description>
+      <default_value>false</default_value>
+    </field>
   </fields>
 </item>

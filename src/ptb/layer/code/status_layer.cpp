@@ -27,6 +27,7 @@
 #include "ptb/layer/status/throwable_item_component.hpp"
 #include "ptb/util/player_util.hpp"
 #include "ptb/game_variables.hpp"
+#include "ptb/level_variables.hpp"
 
 #include "visual/bitmap_writing.hpp"
 
@@ -54,6 +55,9 @@ ptb::status_layer::player_status::player_status
 {
   if ( m_player != NULL )
     {
+      bool auto_disappear =  
+        ! level_variables::get_player_status_fixed(p.get_level());
+
       bear::visual::position_type pos(pos_ref);
       bear::universe::zone::position z = 
 	bear::universe::zone::middle_left_zone;
@@ -62,43 +66,49 @@ ptb::status_layer::player_status::player_status
 
       status_component * c = new energy_component
 	(glob, p, pos, bear::universe::zone::top_zone,
-	 x_p,status_component::top_placement,layer_size); 
+	 x_p,status_component::top_placement,layer_size, auto_disappear); 
       c->build();
       m_components.push_back(c);
 
       pos.y -= c->height() + s_margin;
       c = new score_component
-	(glob, p, pos, z, x_p,status_component::top_placement,layer_size); 
+	(glob, p, pos, z, x_p, status_component::top_placement,
+         layer_size, auto_disappear); 
       c->build();
       m_components.push_back(c);
 
       pos.y -= c->height() + s_margin;
       c = new throwable_item_component
-	(glob, p, pos, z, x_p,status_component::top_placement,layer_size); 
+	(glob, p, pos, z, x_p, status_component::top_placement, 
+         layer_size, auto_disappear); 
       c->build();
       m_components.push_back(c);
 
       pos.y -= c->height() + s_margin;
       c = new oxygen_gauge_component
-	(glob, p, pos, z, x_p,status_component::top_placement,layer_size); 
+	(glob, p, pos, z, x_p, status_component::top_placement, 
+         layer_size, true); 
       c->build();
       m_components.push_back(c);
 
       pos.y -= c->height() + s_margin;
       c = new heat_gauge_component
-	(glob, p, pos, z, x_p,status_component::top_placement,layer_size); 
+	(glob, p, pos, z, x_p, status_component::top_placement,
+         layer_size, true); 
       c->build();
       m_components.push_back(c);
 
       pos.y -= c->height() + s_margin;
       c = new cold_gauge_component
-	(glob, p, pos, z, x_p,status_component::top_placement,layer_size); 
+	(glob, p, pos, z, x_p, status_component::top_placement,
+         layer_size, true); 
       c->build();
       m_components.push_back(c);
 
       pos.y = s_margin;
       c = new lives_component
-	(glob, p, pos, z, x_p,status_component::bottom_placement,layer_size); 
+	(glob, p, pos, z, x_p, status_component::bottom_placement,
+         layer_size, auto_disappear); 
       c->build();
       m_components.push_back(c);
     }
@@ -409,7 +419,7 @@ void ptb::status_layer::set_boss( const monster* b )
 	(get_level_globals(), player_proxy(), pos,
 	 bear::universe::zone::middle_zone, 
 	 status_component::middle_x_placement,
-	 status_component::bottom_placement, the_boss, get_size());
+	 status_component::bottom_placement, the_boss, get_size(), true);
       
       c->build();
       
@@ -496,7 +506,7 @@ void ptb::status_layer::create_components()
     corrupting_bonus_component
     (get_level_globals(), player_proxy(), pos,
      bear::universe::zone::bottom_zone, status_component::middle_x_placement, 
-     status_component::bottom_placement,get_size());
+     status_component::bottom_placement, get_size(), true);
   c->build();
   m_components.push_back(c);
 
@@ -507,7 +517,7 @@ void ptb::status_layer::create_components()
    honeypots_component
     (get_level_globals(), player_proxy(), pos,
      bear::universe::zone::bottom_zone, status_component::middle_x_placement, 
-     status_component::bottom_placement, get_level(),get_size());
+     status_component::bottom_placement, get_level(), get_size(), true);
   c->build();
   m_components.push_back(c);
 
@@ -518,7 +528,7 @@ void ptb::status_layer::create_components()
   time_component
     (get_level_globals(), player_proxy(), pos,
      bear::universe::zone::middle_zone, status_component::middle_x_placement, 
-     status_component::top_placement, m_timer,get_size());
+     status_component::top_placement, m_timer, get_size(), true);
   c->build();
   m_components.push_back(c);
   
@@ -529,7 +539,7 @@ void ptb::status_layer::create_components()
   hazelnut_component
     (get_level_globals(), player_proxy(), pos,
      bear::universe::zone::middle_zone, status_component::middle_x_placement, 
-     status_component::top_placement, get_level(),get_size());
+     status_component::top_placement, get_level(), get_size(), true);
   c->build();
   m_components.push_back(c);
 } // status_layer::create_time()
@@ -548,7 +558,7 @@ void ptb::status_layer::create_persistent_components()
     (get_level_globals(), player_proxy(), pos,
      bear::universe::zone::middle_zone,
      status_component::middle_x_placement,
-     status_component::middle_y_placement,get_size());
+     status_component::middle_y_placement, get_size(), true);
 
   c->build();
 

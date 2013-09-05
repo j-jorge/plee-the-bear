@@ -51,7 +51,10 @@ namespace ptb
 
   private:
     /** \brief Indicates if the level is a main level. */
-    bool m_is_main_level;
+    bool m_is_main_level; 
+
+    /** \brief Indicates if the player status is always displayed. */
+    bool m_player_status_fixed;
   }; // class level_settings
 } // namespace ptb
 

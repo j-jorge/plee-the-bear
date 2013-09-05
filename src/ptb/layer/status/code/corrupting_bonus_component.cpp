@@ -37,14 +37,16 @@
  * \param y_p The placement on y-coordinate.
  * \param layer_size The size of the layer.
  * \param layer_size The size of the layer in which the component is displayed.
+ * \param auto_disappear Indicates that the component disappears automatically.
  */
 ptb::corrupting_bonus_component::corrupting_bonus_component
 ( bear::engine::level_globals& glob, const player_proxy& p,
   const bear::visual::position_type& active_position, 
   bear::universe::zone::position side,
   x_placement x_p, y_placement y_p,
-  const bear::universe::size_box_type& layer_size )
-  : super(glob,p,active_position,side, x_p, y_p, layer_size),
+  const bear::universe::size_box_type& layer_size,
+  bool auto_disappear )
+  : super(glob,p,active_position,side, x_p, y_p, layer_size, auto_disappear),
     m_font(glob.get_font("font/bouncy.fnt", 30)),
     m_corrupting_bonus_scale(1)
 {

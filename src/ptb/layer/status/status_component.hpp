@@ -59,7 +59,8 @@ namespace ptb
       const bear::visual::position_type& active_position,
       bear::universe::zone::position side,
       x_placement x_p, y_placement y_p, 
-      const bear::universe::size_box_type& layer_size);
+      const bear::universe::size_box_type& layer_size,
+      bool auto_disappear );
     virtual ~status_component();
     
     virtual void build();
@@ -131,6 +132,8 @@ namespace ptb
     /** \brief The connections to various signals. */
     std::list<boost::signals::connection> m_signals;
 
+    /** \brief Indicates if the component disappear automatically. */
+    bool m_auto_disappear;
   }; // class status_component
 } // namespace ptb
 

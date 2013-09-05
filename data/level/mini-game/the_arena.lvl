@@ -4618,7 +4618,7 @@
 </fields>
     </item><!-- bear::applied_boolean_expression -->
 
-    <item class_name='ptb::level_settings' fixed='false'>
+    <item class_name='ptb::level_settings' fixed='false' id='level_settings'>
 <fields>
 <field name='base_item.position.bottom'>
 <real value='1350'/>
@@ -4627,6 +4627,9 @@
 <real value='2268'/>
 </field>
 <field name='level_settings.friendly_fire'>
+<bool value='1'/>
+</field>
+<field name='level_settings.player_status_fixed'>
 <bool value='1'/>
 </field>
 </fields>
@@ -6875,6 +6878,7 @@
 
 <priority>
 <ref id="server"/>
+<ref id="level_settings"/>
 </priority>
 
   </layer><!-- action_layer -->

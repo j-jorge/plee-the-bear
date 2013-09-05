@@ -22,7 +22,7 @@ BASE_ITEM_EXPORT( level_settings, ptb )
  * \brief Contructor.
  */
 ptb::level_settings::level_settings()
-  : m_is_main_level(true)
+: m_is_main_level(true), m_player_status_fixed(false)
 {
 } // level_settings::level_settings()
 
@@ -58,6 +58,8 @@ ptb::level_settings::set_bool_field( const std::string& name, bool value )
     level_variables::set_friendly_fire(get_level(), value);
   else if (name == "level_settings.game_over_allowed")
     level_variables::allow_game_over(get_level(), value);
+  else if (name == "level_settings.player_status_fixed")
+    level_variables::set_player_status_fixed(get_level(), value);
   else if (name == "level_settings.is_main_level")
     m_is_main_level  = value;
   else

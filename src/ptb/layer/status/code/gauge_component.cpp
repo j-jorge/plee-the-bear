@@ -37,6 +37,7 @@
  *        "gfx/ui/status/tube-vertical.png" of the image to use for the icon of
  *        the bar.
  * \param layer_size The size of the layer in which the component is displayed.
+ * \param auto_disappear Indicates that the component disappears automatically.
  */
 ptb::gauge_component::gauge_component
 ( bear::engine::level_globals& glob, const player_proxy& p,
@@ -44,8 +45,9 @@ ptb::gauge_component::gauge_component
   bear::universe::zone::position side,
   x_placement x_p, y_placement y_p,
   const std::string& level_sprite, const std::string& icon_sprite,
-  const bear::universe::size_box_type& layer_size )
-  : super(glob, p, active_position, side, x_p, y_p, layer_size),
+  const bear::universe::size_box_type& layer_size,
+  bool auto_disappear )
+  : super(glob, p, active_position, side, x_p, y_p, layer_size, auto_disappear),
     m_gauge( glob, s_bar_length, level_sprite, icon_sprite )
 {
 } // gauge_component::gauge_component()

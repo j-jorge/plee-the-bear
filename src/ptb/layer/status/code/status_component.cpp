@@ -27,16 +27,19 @@ const unsigned int ptb::status_component::s_margin = 10;
  * \param x_p The placement on x-coordinate.
  * \param y_p The placement on y-coordinate.
  * \param layer_size The size of the layer.
+ * \param auto_disappear Indicates that the component disappears automatically.
  */
 ptb::status_component::status_component
 ( bear::engine::level_globals& glob, const player_proxy& p,
   const bear::visual::position_type& active_position,
   bear::universe::zone::position side,
   x_placement x_p, y_placement y_p,
-  const bear::universe::size_box_type& layer_size)
+  const bear::universe::size_box_type& layer_size,
+  bool auto_disappear)
   : m_level_globals(glob), m_player(p), m_side(side),
     m_x_placement(x_p), m_y_placement(y_p),
-    m_layer_size(layer_size), m_active_position(active_position)
+    m_layer_size(layer_size), m_active_position(active_position),
+    m_auto_disappear(auto_disappear)
 {
   
 } // status_component::status_component()
@@ -188,20 +191,23 @@ void ptb::status_component::update_inactive_position()
 {
   m_inactive_position = m_active_position;
   
-  if ( m_side == bear::universe::zone::middle_left_zone ) 
+  if ( m_auto_disappear )
     {
-      m_inactive_position.x = 0;
-      m_inactive_position.x -= width();
+      if ( m_side == bear::universe::zone::middle_left_zone ) 
+        {
+          m_inactive_position.x = 0;
+          m_inactive_position.x -= width();
+        }
+      else if ( m_side == bear::universe::zone::middle_right_zone )
+        m_inactive_position.x = get_layer_size().x + width();
+      else if ( m_side == bear::universe::zone::bottom_zone )
+        {
+          m_inactive_position.y = 0;
+          m_inactive_position.y -= height();
+        }
+      else if ( m_side == bear::universe::zone::top_zone )
+        m_inactive_position.y = get_layer_size().y + height();
     }
-  else if ( m_side == bear::universe::zone::middle_right_zone )
-    m_inactive_position.x = get_layer_size().x + width();
-  else if ( m_side == bear::universe::zone::bottom_zone )
-    {
-      m_inactive_position.y = 0;
-      m_inactive_position.y -= height();
-    }
-  else if ( m_side == bear::universe::zone::top_zone )
-    m_inactive_position.y = get_layer_size().y + height();
 } // status_component::update_inactive_position()
 
 /*----------------------------------------------------------------------------*/

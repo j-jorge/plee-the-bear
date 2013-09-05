@@ -34,14 +34,16 @@
  * \param x_p The placement on x-coordinate.
  * \param y_p The placement on y-coordinate.
  * \param layer_size The size of the layer in which the component is displayed.
+ * \param auto_disappear Indicates that the component disappears automatically.
  */
 ptb::energy_component::energy_component
 ( bear::engine::level_globals& glob, const player_proxy& p,
   const bear::visual::position_type& active_position, 
   bear::universe::zone::position side,
   x_placement x_p, y_placement y_p,
-  const bear::universe::size_box_type& layer_size )
-  : super(glob,p,active_position,side, x_p, y_p, layer_size),
+  const bear::universe::size_box_type& layer_size,
+  bool auto_disappear )
+  : super(glob,p,active_position,side, x_p, y_p, layer_size, auto_disappear),
     m_energy( glob, s_bar_length, "bar (green)", "bar (red)", "heart", true )
 {
 } // energy_component::energy_component()
