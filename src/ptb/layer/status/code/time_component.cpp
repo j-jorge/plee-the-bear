@@ -45,7 +45,7 @@ ptb::time_component::time_component
   const bear::universe::size_box_type& layer_size,
   bool auto_disappear )
   : super(glob,p,active_position,side, x_p, y_p, layer_size, auto_disappear),
-    m_font(glob.get_font("font/bouncy.fnt", 30)),
+    m_font(glob.get_font("font/Fava-black.ttf", 30)),
     m_time_on(true), m_timer(t)
 {
 } // time_component::time_component()
@@ -85,7 +85,7 @@ void ptb::time_component::progress
         m_text_time->set_intensity(1, 0.8, 0);
 
       m_text_time.create
-        ( get_level_globals().get_font("font/bouncy.fnt", 30), t );
+        ( get_level_globals().get_font("font/Fava-black.ttf", 30), t );
     }
   else
     m_time_on = false;

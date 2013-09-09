@@ -46,7 +46,7 @@ ptb::score_component::score_component
   const bear::universe::size_box_type& layer_size,
   bool auto_disappear )
   : super(glob,p,active_position,side, x_p, y_p, layer_size, auto_disappear),
-    m_font(glob.get_font("font/bouncy.fnt", 30))
+    m_font(glob.get_font("font/Fava-black.ttf", 30))
 {
 
 } // score_component::score_component()

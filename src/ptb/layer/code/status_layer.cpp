@@ -223,7 +223,7 @@ void ptb::status_layer::player_status::create_notification()
    notification.set_background
      (m_level_globals.auto_sprite("gfx/ui/status/notification.png", "frame"));
    notification.set_text
-     (m_level_globals.get_font("font/speech.fnt", 14),
+     (m_level_globals.get_font("font/AndikaBasic.ttf", 14),
       m_notifications.front().first);
    notification.set_picture(m_notifications.front().second);
    m_notifications.pop_front();
@@ -474,7 +474,7 @@ void ptb::status_layer::search_players( )
       if ( p != NULL )
         m_data_1 = new player_status
           ( get_level_globals(),
-            get_level_globals().get_font("font/bouncy.fnt", 30), p,
+            get_level_globals().get_font("font/Fava-black.ttf", 30), p,
 	    bear::visual::position_type(s_margin,get_size().y - s_margin),
 	    status_component::left_placement, get_size());
     }
@@ -486,7 +486,7 @@ void ptb::status_layer::search_players( )
       if ( p != NULL )
         m_data_2 = new player_status
           ( get_level_globals(),
-            get_level_globals().get_font("font/bouncy.fnt", 30), p,
+            get_level_globals().get_font("font/Fava-black.ttf", 30), p,
 	    bear::visual::position_type
 	    (get_size().x - s_margin,get_size().y - s_margin),
 	    status_component::right_placement, get_size() );
