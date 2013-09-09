@@ -188,6 +188,7 @@ set( LIBPTB_SOURCE_FILES
   layer/status/code/cold_gauge_component.cpp
   layer/status/code/corrupting_bonus_component.cpp
   layer/status/code/energy_component.cpp
+  layer/status/code/floating_bonus.cpp
   layer/status/code/floating_corrupting_bonus.cpp
   layer/status/code/gauge_component.cpp
   layer/status/code/hazelnut_component.cpp
