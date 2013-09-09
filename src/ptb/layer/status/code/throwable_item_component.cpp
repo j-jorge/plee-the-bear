@@ -92,14 +92,19 @@ void ptb::throwable_item_component::progress
  */
 void ptb::throwable_item_component::render( scene_element_list& e ) const
 {
+  bear::visual::coordinate_type pos_y = height() / 2;
+
   bear::visual::scene_sprite s1
-    ( get_render_position().x, get_render_position().y, 
+    ( get_render_position().x, 
+      ( pos_y - m_throwable_item_animation.get_sprite().height() ) / 2 + 
+      get_render_position().y, 
       m_throwable_item_animation.get_sprite());
 
   bear::visual::scene_writing s2
     ( get_render_position().x + 
       m_throwable_item_animation.get_max_size().x + s_margin, 
-      get_render_position().y, m_throwable_item );
+      ( pos_y - m_throwable_item.get_height() ) / 2 + 
+      get_render_position().y , m_throwable_item );
 
   e.push_back( s1 );
   e.push_back( s2 );
