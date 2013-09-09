@@ -127,7 +127,7 @@ void ptb::frame_main_menu::create_controls()
       ( boost::bind( &frame_main_menu::on_tutorial, this ) ) );
 
   push
-    ( gettext("History"),
+    ( gettext("Story mode"),
       bear::gui::callback_function_maker
       ( boost::bind( &frame_main_menu::on_game, this ) ) );
 
