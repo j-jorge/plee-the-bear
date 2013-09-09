@@ -1,0 +1,15 @@
+sprite_sheet "common-1" 512 x 1024 margin 1 order "height"
+
+spring "spring.xcf.bz2"
+
+"red spring 1" image_size * 0.5 with spring
+  "1"
+  ;
+
+"red spring 2" image_size * 0.5 with spring
+  "2"
+  ;
+
+"red spring 3" image_size * 0.5 with spring
+  "3"
+  ;
