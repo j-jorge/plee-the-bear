@@ -5716,6 +5716,9 @@
 <field name='base_bonus.type'>
 <string value='stones_stock'/>
 </field>
+<field name='counted_item.bonus_item'>
+<bool value='0'/>
+</field>
 </fields>
     </item><!-- ptb::bonus_box -->
 
@@ -6046,10 +6049,12 @@
 <string value='air_power'/>
 <string value='fire_power'/>
 <string value='stones_big_stock'/>
-<string value='one_more_life'/>
 <string value='stones_stock'/>
 <string value='water_power'/>
 <string value='stones_stock'/>
+</field>
+<field name='counted_item.bonus_item'>
+<bool value='0'/>
 </field>
 </fields>
     </item><!-- ptb::bonus_box -->
@@ -6230,10 +6235,12 @@
 <string value='air_power'/>
 <string value='stones_big_stock'/>
 <string value='fire_power'/>
-<string value='one_more_life'/>
 <string value='stones_stock'/>
 <string value='water_power'/>
 <string value='stones_stock'/>
+</field>
+<field name='counted_item.bonus_item'>
+<bool value='0'/>
 </field>
 </fields>
     </item><!-- ptb::bonus_box -->
@@ -6442,6 +6449,9 @@
 </field>
 <field name='base_bonus.type'>
 <string value='stones_stock'/>
+</field>
+<field name='counted_item.bonus_item'>
+<bool value='0'/>
 </field>
 </fields>
     </item><!-- ptb::bonus_box -->
