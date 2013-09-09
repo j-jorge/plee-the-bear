@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <animation loops='1' first_index='0' last_index='5' loop_back='false' auto_size='true' width='84' height='112' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'>
-  <frame duration='0.1'>
+  <frame duration='0.05'>
     <sprite image='gfx/plee/plee-alt-1.png' x='5' y='112' clip_width='84' clip_height='112' spritepos='slapping 1' auto_size='true' width='84' height='112' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
   </frame>
-  <frame duration='0.1'>
+  <frame duration='0.05'>
     <sprite image='gfx/plee/plee-alt-1.png' x='89' y='112' clip_width='84' clip_height='112' spritepos='slapping 2' auto_size='true' width='84' height='112' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
   </frame>
-  <frame duration='0.1'>
+  <frame duration='0.05'>
     <sprite image='gfx/plee/plee-alt-1.png' x='173' y='112' clip_width='84' clip_height='112' spritepos='slapping 3' auto_size='true' width='84' height='112' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
   </frame>
   <frame duration='0.1'>

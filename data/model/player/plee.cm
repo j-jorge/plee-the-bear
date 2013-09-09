@@ -1,5 +1,5 @@
 0
-8
+9
 0
 35
 content_file
@@ -2540,7 +2540,7 @@ align_bottom
 1
 
 slap
-0.6
+0.45
 idle
 0
 0
@@ -2672,7 +2672,7 @@ sound/plee/slap.ogg
 1
 1
 
-0.1
+0.05
 
 40
 110
@@ -2777,7 +2777,7 @@ align_bottom
 1
 1
 
-0.2
+0.1
 
 56
 110
@@ -2882,7 +2882,7 @@ align_bottom
 1
 1
 
-0.301
+0.151
 apply_attack
 69
 110
@@ -2987,7 +2987,7 @@ align_bottom
 1
 1
 
-0.4
+0.25
 
 68
 110
@@ -3092,7 +3092,7 @@ align_bottom
 1
 1
 
-0.5
+0.35
 
 53
 110
@@ -3198,7 +3198,7 @@ align_bottom
 1
 
 slap_and_walk
-0.6
+0.45
 idle
 0
 0
@@ -3330,7 +3330,7 @@ sound/plee/slap.ogg
 1
 1
 
-0.1
+0.05
 
 53
 110
@@ -3435,7 +3435,7 @@ align_bottom
 1
 1
 
-0.2
+0.1
 
 57
 110
@@ -3540,7 +3540,7 @@ align_bottom
 1
 1
 
-0.301
+0.151
 apply_attack
 74
 110
@@ -3645,7 +3645,7 @@ align_bottom
 1
 1
 
-0.4
+0.25
 
 71
 110
@@ -3750,7 +3750,7 @@ align_bottom
 1
 1
 
-0.5
+0.35
 
 52
 110
