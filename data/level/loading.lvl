@@ -1,8 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
 <level name='' width='1280' height='720' music=''>
-  <layer class_name='decoration_layer' name='' width='1280' height='720' fit_level='1'>
+  <layer class_name='decoration_layer' name='' width='1280' height='720' fit_level='1' tag=''>
 
 <items>
+    <item class_name='bear::decorative_item' fixed='true'>
+<fields>
+<field name='base_item.position.bottom'>
+<real value='163'/>
+</field>
+<field name='base_item.position.left'>
+<real value='0'/>
+</field>
+<field name='base_item.size.height'>
+<real value='100'/>
+</field>
+<field name='base_item.size.width'>
+<real value='1280'/>
+</field>
+<field name='item_with_text.font'>
+<font path='font/AndikaBasic.ttf' size='30'/>
+</field>
+<field name='item_with_text.horizontal_align'>
+<string value='align_center'/>
+</field>
+<field name='item_with_text.text'>
+<string value='http://www.stuff-o-matic.com/ptb/'/>
+</field>
+<field name='item_with_text.text_inside'>
+<bool value='1'/>
+</field>
+<field name='item_with_text.vertical_align'>
+<string value='align_middle'/>
+</field>
+</fields>
+    </item><!-- bear::decorative_item -->
+
     <item class_name='bear::decorative_item' fixed='true'>
 <fields>
 <field name='base_item.position.bottom'>
@@ -15,7 +47,7 @@
 <font path='font/fixed-10x20.fnt' size='20'/>
 </field>
 <field name='item_with_text.text'>
-<string value='Loading...'/>
+<string value='...'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -23,13 +55,13 @@
     <item class_name='bear::decorative_item' fixed='true'>
 <fields>
 <field name='base_item.position.bottom'>
-<real value='232'/>
+<real value='345'/>
 </field>
 <field name='base_item.position.left'>
-<real value='567.5'/>
+<real value='530'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/loading/plumber-plee.png' x='0' y='0' clip_width='145' clip_height='256' spritepos='plumber-plee' auto_size='true' width='145' height='256' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+<sprite image='gfx/loading/plee-the-bear.png' x='0' y='0' clip_width='220' clip_height='256' spritepos='' auto_size='true' width='220' height='256' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
