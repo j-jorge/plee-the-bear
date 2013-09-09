@@ -1239,8 +1239,8 @@ void ptb::player::apply_move_right()
       m_move_right = true;
       add_internal_force( bear::universe::force_type(m_move_force, 0) );
     }
-  if ( get_speed().x == 0 )
-    get_rendering_attributes().mirror(false);
+  //  if ( get_speed().x == 0 )
+  //  get_rendering_attributes().mirror(false);
 } // player::apply_move_right()
 
 /*----------------------------------------------------------------------------*/
@@ -1254,8 +1254,8 @@ void ptb::player::apply_move_left()
       m_move_left = true;
       add_internal_force( bear::universe::force_type(-m_move_force, 0) );
     }
-  else if ( get_speed().x == 0 )
-    get_rendering_attributes().mirror(true);
+  // else if ( get_speed().x == 0 )
+  //  get_rendering_attributes().mirror(true);
 } // player::apply_move_left()
 
 /*----------------------------------------------------------------------------*/
@@ -2794,10 +2794,10 @@ void ptb::player::update_orientation()
   if ( get_current_action_name() != "captive" )
     { 
       if ( m_move_right && ! has_bottom_contact() )
-        get_rendering_attributes().mirror(false);
+          get_rendering_attributes().mirror(false);
       else if ( m_move_left && ! has_bottom_contact() )
-        get_rendering_attributes().mirror(true);
-      else if ( get_speed().x < 0 )
+          get_rendering_attributes().mirror(true);
+      else if ( get_speed().x < -1 )
 	{
 	  if ( ( !is_injured() ) ||
 	       ( m_injured_orientation &&
@@ -2806,7 +2806,7 @@ void ptb::player::update_orientation()
 	  else
 	    get_rendering_attributes().mirror(false);
 	}
-      else if ( get_speed().x > 0 )
+      else if ( get_speed().x > 1 )
 	{
 	  if ( ( !is_injured() ) ||
 	       ( m_injured_orientation &&
