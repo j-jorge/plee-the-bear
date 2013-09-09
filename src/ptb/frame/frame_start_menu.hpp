@@ -28,10 +28,14 @@ namespace ptb
     ( windows_layer* owning_layer, bool use_loading,
       playability_type::value_type playability );
 
+    static frame_start_menu* launch
+    ( windows_layer* owning_layer, bool use_loading,
+      playability_type::value_type playability );
+    
   private:
     void create_controls();
 
-    void start_game( unsigned int p ) const;
+    static void start_game( bool use_loading, unsigned int p );
 
   private:
     /** \brief Tell if we use the "loading" level. */
