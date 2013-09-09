@@ -4349,7 +4349,7 @@ align_bottom
 1
 
 throw
-0.54
+0.3
 idle
 0
 0
@@ -4481,7 +4481,7 @@ sound/plee/throw.ogg
 1
 1
 
-0.09
+0.05
 
 58
 110
@@ -4586,7 +4586,7 @@ align_bottom
 1
 1
 
-0.18
+0.1
 apply_throw_object
 58
 110
@@ -4691,7 +4691,7 @@ align_bottom
 1
 1
 
-0.27
+0.15
 
 58
 110
@@ -4796,7 +4796,7 @@ align_bottom
 1
 1
 
-0.36
+0.2
 
 58
 110
@@ -4901,7 +4901,7 @@ align_bottom
 1
 1
 
-0.45
+0.25
 
 58
 110
@@ -5007,7 +5007,7 @@ align_bottom
 1
 
 throw_and_walk
-0.48
+0.32
 walk
 0
 0
@@ -5139,7 +5139,7 @@ sound/plee/throw.ogg
 1
 1
 
-0.12
+0.08
 
 53
 110
@@ -5244,7 +5244,7 @@ align_bottom
 1
 1
 
-0.18
+0.1
 apply_throw_object
 53
 110
@@ -5349,7 +5349,7 @@ align_bottom
 1
 1
 
-0.24
+0.16
 
 53
 110
@@ -5454,7 +5454,7 @@ align_bottom
 1
 1
 
-0.36
+0.24
 
 53
 110
@@ -5647,7 +5647,7 @@ align_bottom
 1
 
 throw_and_fall
-0.36
+0.2
 idle
 0
 0
@@ -5779,7 +5779,7 @@ sound/plee/throw.ogg
 1
 1
 
-0.09
+0.05
 
 53
 105
@@ -5884,7 +5884,7 @@ align_bottom
 1
 1
 
-0.18
+0.1
 apply_throw_object
 53
 105
@@ -5989,7 +5989,7 @@ align_bottom
 1
 1
 
-0.27
+0.15
 
 53
 105

@@ -32,5 +32,5 @@ sed -i 's/cap.png/cap-alt.png/g' animation/plee-alt/cap.anim
 
 sed 's:animation/plee/:animation/plee-alt/:g;s/plee-\([1-4]\).png/plee-alt-\1.png/g' model/player/plee.mdl > model/player/plee-alt.mdl
 
-../../bear-factory/bin/bf-animation-editor -c animation/plee-alt/*.anim
-../../bear-factory/bin/bf-model-editor -c model/player/plee-alt.mdl
+../../bear/bear-factory/bin/bf-animation-editor -c animation/plee-alt/*.anim
+../../bear/bear-factory/bin/bf-model-editor -c model/player/plee-alt.mdl
