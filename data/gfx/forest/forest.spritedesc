@@ -2,6 +2,8 @@ sprite_sheet "forest-1" 1024 x 1024 margin 1 order "height"
 
 tree "tree/tree.xcf.bz2"
 
+flower "flower/flower.xcf.bz2"
+
 "trunk" autosize * 0.5 with tree
   "trunk"
   ;
@@ -56,3 +58,19 @@ tree "tree/tree.xcf.bz2"
   "leaves 5"
   mask "mask leaves 5"
   ;
+
+/*----------------------------------------------------------------------------*/
+/* -- Flowers -- */
+/* ---------------------------------------------------------------------------*/
+
+"blue flower 1" autosize * 0.390625 with flower
+  "flower head 1"
+  "flower bottom"
+  "1-1"
+;
+ 
+"blue flower 2" autosize * 0.390625 with flower
+  "flower head 2"
+  "flower bottom"
+  "1-2"
+;

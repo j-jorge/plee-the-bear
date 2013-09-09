@@ -5,8 +5,10 @@ leaves 5: 0 299 362 250
 leaves 5 alt: 363 299 362 250
 roots: 0 550 485 207
 leaves 3: 486 550 303 197
+blue flower 2: 790 550 102 185
 leaves 2: 726 299 288 178
+blue flower 1: 893 550 113 164
 leaves 1: 0 758 264 160
 top: 265 758 497 140
 right branch: 763 758 235 138
-middle branch: 790 550 212 126
+middle branch: 799 0 212 126
