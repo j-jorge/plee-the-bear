@@ -260,7 +260,7 @@ void ptb::throwable_item_component::create_floating_bonus
 void ptb::throwable_item_component::on_stones_stock_changed
 ( unsigned int stock )
 {
-  if ( m_stones_count + 20 > stock )
+  if ( m_stones_count + 20 < stock )
     create_floating_bonus("stones");
   else if ( m_stones_count < stock )
     create_floating_bonus("stone");
