@@ -6,7 +6,7 @@
     <item class_name='bear::decorative_item' fixed='true'>
 <fields>
 <field name='base_item.position.bottom'>
-<real value='163'/>
+<real value='113'/>
 </field>
 <field name='base_item.position.left'>
 <real value='0'/>
@@ -55,7 +55,7 @@
     <item class_name='bear::decorative_item' fixed='true'>
 <fields>
 <field name='base_item.position.bottom'>
-<real value='345'/>
+<real value='295'/>
 </field>
 <field name='base_item.position.left'>
 <real value='530'/>
