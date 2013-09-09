@@ -135,7 +135,7 @@ bear::visual::sprite ptb::frame::get_slider() const
 bear::visual::font ptb::frame::get_font() const
 {
   return m_owning_layer->get_level().get_globals().get_font
-    ("font/fixed_yellow-10x20.fnt", 20);
+    ("font/AndikaBasic.ttf", 20);
 } // frame::get_font()
 
 /*----------------------------------------------------------------------------*/
@@ -144,7 +144,7 @@ bear::visual::font ptb::frame::get_font() const
  */
 bear::visual::size_type ptb::frame::get_margin() const
 {
-  return 10;
+  return 20;
 } // frame::get_margin()
 
 /*----------------------------------------------------------------------------*/

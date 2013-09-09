@@ -18,13 +18,13 @@
 #define PTB_THEME_SELECTION bear::visual::color_type(211, 215, 239, 64)
 
 /** \brief The color of the bright sides of the controls. */
-#define PTB_THEME_LIGHT bear::visual::color_type("990e2599")
+#define PTB_THEME_LIGHT bear::visual::color_type("C00e2599")
 
 /** \brief The color of the shadows of the controls. */
-#define PTB_THEME_DARK bear::visual::color_type("99071147")
+#define PTB_THEME_DARK bear::visual::color_type("C0071147")
 
 /** \brief The color of the faces of the controls. */
-#define PTB_THEME_FACE bear::visual::color_type("990e0f27")
+#define PTB_THEME_FACE bear::visual::color_type("C00e0f27")
 
 /** \brief A transparent color. */
 #define PTB_THEME_TRANSPARENT bear::visual::color_type(0, 0, 0, 0)
