@@ -1002,7 +1002,7 @@
 </mark_placements>
 </snapshot></snapshots>
 </action>
-<action name="maintain" duration="0.34" auto_next="throw">
+<action name="maintain" duration="0.17" auto_next="throw">
 <marks>
 <mark label="body" apply_angle_to_animation="0" pause_animation_when_hidden="0">
 <animation_file path='animation/plee-alt/maintain.canim' auto_size='true' width='83' height='112' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
@@ -1025,7 +1025,7 @@
 </mark_placements>
 </snapshot></snapshots>
 </action>
-<action name="maintain_and_walk" duration="0.34" auto_next="throw_and_walk">
+<action name="maintain_and_walk" duration="0.17" auto_next="throw_and_walk">
 <marks>
 <mark label="body" apply_angle_to_animation="0" pause_animation_when_hidden="0">
 <animation_file path='animation/plee-alt/maintain_and_walk.canim' auto_size='true' width='87' height='112' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
@@ -1055,7 +1055,7 @@
 </mark_placements>
 </snapshot></snapshots>
 </action>
-<action name="maintain_and_fall" duration="0.34" auto_next="throw_and_fall">
+<action name="maintain_and_fall" duration="0.17" auto_next="throw_and_fall">
 <marks>
 <mark label="body" apply_angle_to_animation="0" pause_animation_when_hidden="0">
 <animation_file path='animation/plee-alt/maintain_and_fall.canim' auto_size='true' width='76' height='114' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
