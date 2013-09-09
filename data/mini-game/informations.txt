@@ -32,6 +32,13 @@
 
 
 #-------------------------------------------------
+[The Arena]
+level_file = level/mini-game/the_arena.cl
+unlocked_informations = Be the last one alive.
+playability = two_players_only
+unlocked = true
+
+#-------------------------------------------------
 [Bears on Fire]
 level_file = level/mini-game/bears_on_fire.cl
 locked_informations = In the First Act of the forest, fall from a high distance near a waterfall to find the owl. Then, do well to unlock this mini-game.
@@ -57,12 +64,3 @@ unlocked_informations = Throw stones on targets.
 playability = one_player_only
 score_format = %p hit %v targets.
 score_ordering = max
-
-#-------------------------------------------------
-[The Arena]
-level_file = level/mini-game/the_arena.cl
-unlocked_informations = Be the last one alive.
-playability = two_players_only
-unlocked = true
-
-
