@@ -1239,8 +1239,6 @@ void ptb::player::apply_move_right()
       m_move_right = true;
       add_internal_force( bear::universe::force_type(m_move_force, 0) );
     }
-  //  if ( get_speed().x == 0 )
-  //  get_rendering_attributes().mirror(false);
 } // player::apply_move_right()
 
 /*----------------------------------------------------------------------------*/
@@ -1254,8 +1252,6 @@ void ptb::player::apply_move_left()
       m_move_left = true;
       add_internal_force( bear::universe::force_type(-m_move_force, 0) );
     }
-  // else if ( get_speed().x == 0 )
-  //  get_rendering_attributes().mirror(true);
 } // player::apply_move_left()
 
 /*----------------------------------------------------------------------------*/
