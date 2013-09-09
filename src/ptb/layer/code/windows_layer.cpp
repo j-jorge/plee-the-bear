@@ -309,9 +309,9 @@ void ptb::windows_layer::show_window( window_item wnd )
   m_ref_bottom[wnd] = wnd->bottom();
 
   m_windows.push_front( wnd );
-  wnd->on_focus();
-
   apply_show_effect( wnd );
+
+  wnd->on_focus();
 } // windows_layer::show_window()
 
 /*----------------------------------------------------------------------------*/

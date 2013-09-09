@@ -1,0 +1,22 @@
+sprite_sheet "arena-1" 1024 x 1024 margin 1
+
+img "versus.xcf.bz2"
+
+"player 1" "mask p1" * 1.0 with img
+  "thunder"
+  "player 1"
+  "bk shadow"
+  mask "mask p1"
+  ;
+
+"player 2" "mask p2" * 1.0 with img
+  "thunder"
+  "player 2"
+  "bk shadow"
+  mask "mask p2"
+  ;
+
+"versus" autosize * 1.0 with img
+  "versus"
+  ;
+

@@ -4721,6 +4721,9 @@
 <field name='base_item.position.left'>
 <real value='2222'/>
 </field>
+<field name='add_ingame_layers.show_introduction'>
+<bool value='0'/>
+</field>
 </fields>
     </item><!-- ptb::add_ingame_layers -->
 
@@ -4884,6 +4887,144 @@
 </field>
 </fields>
     </item><!-- bear::force_rectangle_creator -->
+
+    <item class_name='bear::forced_goto_creator' fixed='false' id='goto-down-slide'>
+<fields>
+<field name='base_item.position.bottom'>
+<real value='2273'/>
+</field>
+<field name='base_item.position.left'>
+<real value='2306'/>
+</field>
+<field name='forced_goto_creator.acceleration_time'>
+<real value='0'/>
+</field>
+<field name='forced_goto_creator.duration'>
+<real value='3'/>
+</field>
+<field name='forced_goto_creator.length.x'>
+<real value='180'/>
+</field>
+<field name='forced_goto_creator.length.y'>
+<real value='60'/>
+</field>
+</fields>
+    </item><!-- bear::forced_goto_creator -->
+
+    <item class_name='bear::forced_goto_creator' fixed='false' id='goto-down'>
+<fields>
+<field name='base_item.position.bottom'>
+<real value='2217'/>
+</field>
+<field name='base_item.position.left'>
+<real value='2311'/>
+</field>
+<field name='forced_goto_creator.acceleration_time'>
+<real value='0'/>
+</field>
+<field name='forced_goto_creator.duration'>
+<real value='0.5'/>
+</field>
+<field name='forced_goto_creator.length.x'>
+<real value='0'/>
+</field>
+<field name='forced_goto_creator.length.y'>
+<real value='-552'/>
+</field>
+</fields>
+    </item><!-- bear::forced_goto_creator -->
+
+    <item class_name='bear::forced_goto_creator' fixed='false' id='goto-up-quit'>
+<fields>
+<field name='base_item.position.bottom'>
+<real value='1900'/>
+</field>
+<field name='base_item.position.left'>
+<real value='2317'/>
+</field>
+<field name='forced_goto_creator.acceleration_time'>
+<real value='0'/>
+</field>
+<field name='forced_goto_creator.duration'>
+<real value='0.5'/>
+</field>
+<field name='forced_goto_creator.length.x'>
+<real value='160'/>
+</field>
+<field name='forced_goto_creator.length.y'>
+<real value='560'/>
+</field>
+</fields>
+    </item><!-- bear::forced_goto_creator -->
+
+    <item class_name='bear::forced_goto_creator' fixed='false' id='goto-up'>
+<fields>
+<field name='base_item.position.bottom'>
+<real value='2043'/>
+</field>
+<field name='base_item.position.left'>
+<real value='2319'/>
+</field>
+<field name='forced_goto_creator.acceleration_time'>
+<real value='0'/>
+</field>
+<field name='forced_goto_creator.duration'>
+<real value='0.5'/>
+</field>
+<field name='forced_goto_creator.length.x'>
+<real value='0'/>
+</field>
+<field name='forced_goto_creator.length.y'>
+<real value='492'/>
+</field>
+</fields>
+    </item><!-- bear::forced_goto_creator -->
+
+    <item class_name='bear::forced_goto_creator' fixed='false' id='goto-up-slide'>
+<fields>
+<field name='base_item.position.bottom'>
+<real value='1965'/>
+</field>
+<field name='base_item.position.left'>
+<real value='2320'/>
+</field>
+<field name='forced_goto_creator.acceleration_time'>
+<real value='0'/>
+</field>
+<field name='forced_goto_creator.duration'>
+<real value='3'/>
+</field>
+<field name='forced_goto_creator.length.x'>
+<real value='180'/>
+</field>
+<field name='forced_goto_creator.length.y'>
+<real value='60'/>
+</field>
+</fields>
+    </item><!-- bear::forced_goto_creator -->
+
+    <item class_name='bear::forced_goto_creator' fixed='false' id='goto-down-quit'>
+<fields>
+<field name='base_item.position.bottom'>
+<real value='2324'/>
+</field>
+<field name='base_item.position.left'>
+<real value='2322'/>
+</field>
+<field name='forced_goto_creator.acceleration_time'>
+<real value='0'/>
+</field>
+<field name='forced_goto_creator.duration'>
+<real value='0.5'/>
+</field>
+<field name='forced_goto_creator.length.x'>
+<real value='-160'/>
+</field>
+<field name='forced_goto_creator.length.y'>
+<real value='-600'/>
+</field>
+</fields>
+    </item><!-- bear::forced_goto_creator -->
 
     <item class_name='ptb::player_start_position' fixed='false'>
 <fields>
@@ -5070,6 +5211,38 @@
 </fields>
     </item><!-- bear::block -->
 
+    <item class_name='bear::forced_sequence_creator' fixed='false' id='mvt vs p1'>
+<fields>
+<field name='base_item.position.bottom'>
+<real value='2248'/>
+</field>
+<field name='base_item.position.left'>
+<real value='2379'/>
+</field>
+<field name='forced_sequence_creator.movements'>
+<item_reference value='goto-down'/>
+<item_reference value='goto-down-slide'/>
+<item_reference value='goto-down-quit'/>
+</field>
+</fields>
+    </item><!-- bear::forced_sequence_creator -->
+
+    <item class_name='bear::forced_sequence_creator' fixed='false' id='mvt vs p2'>
+<fields>
+<field name='base_item.position.bottom'>
+<real value='2034'/>
+</field>
+<field name='base_item.position.left'>
+<real value='2389'/>
+</field>
+<field name='forced_sequence_creator.movements'>
+<item_reference value='goto-up'/>
+<item_reference value='goto-up-slide'/>
+<item_reference value='goto-up-quit'/>
+</field>
+</fields>
+    </item><!-- bear::forced_sequence_creator -->
+
     <item class_name='bear::add_script_actor' fixed='false' id='add_player_actor-2'>
 <fields>
 <field name='base_item.global'>
@@ -5181,6 +5354,57 @@
 </field>
 </fields>
     </item><!-- ptb::clingable -->
+
+    <item class_name='bear::applied_forced_movement' fixed='false'>
+<fields>
+<field name='base_item.position.bottom'>
+<real value='2046'/>
+</field>
+<field name='base_item.position.left'>
+<real value='2480'/>
+</field>
+<field name='forced_movement_applicator.actor'>
+<item_reference value='vs p2'/>
+</field>
+<field name='forced_movement_applicator.movement'>
+<item_reference value='mvt vs p2'/>
+</field>
+</fields>
+    </item><!-- bear::applied_forced_movement -->
+
+    <item class_name='bear::applied_forced_movement' fixed='false'>
+<fields>
+<field name='base_item.position.bottom'>
+<real value='2259'/>
+</field>
+<field name='base_item.position.left'>
+<real value='2488'/>
+</field>
+<field name='forced_movement_applicator.actor'>
+<item_reference value='vs p1'/>
+</field>
+<field name='forced_movement_applicator.movement'>
+<item_reference value='mvt vs p1'/>
+</field>
+</fields>
+    </item><!-- bear::applied_forced_movement -->
+
+    <item class_name='bear::decorative_item' fixed='false' id='vs'>
+<fields>
+<field name='base_item.position.bottom'>
+<real value='808'/>
+</field>
+<field name='base_item.position.depth'>
+<integer value='5010'/>
+</field>
+<field name='base_item.position.left'>
+<real value='2511'/>
+</field>
+<field name='item_with_decoration.sprite'>
+<sprite image='gfx/mini-game/arena/arena-1.png' x='368' y='0' clip_width='226' clip_height='198' spritepos='versus' auto_size='true' width='226' height='198' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+</field>
+</fields>
+    </item><!-- bear::decorative_item -->
 
     <item class_name='ptb::script_director' fixed='true' id='script_director-1'>
 <fields>
@@ -5492,6 +5716,9 @@
 <field name='base_bonus.type'>
 <string value='stones_stock'/>
 </field>
+<field name='counted_item.bonus_item'>
+<bool value='0'/>
+</field>
 </fields>
     </item><!-- ptb::bonus_box -->
 
@@ -5565,6 +5792,23 @@
 </fields>
     </item><!-- ptb::stone -->
 
+    <item class_name='bear::applied_forced_movement' fixed='false'>
+<fields>
+<field name='base_item.position.bottom'>
+<real value='976'/>
+</field>
+<field name='base_item.position.left'>
+<real value='2801'/>
+</field>
+<field name='forced_movement_applicator.actor'>
+<item_reference value='vs'/>
+</field>
+<field name='forced_movement_applicator.movement'>
+<item_reference value='track-vs-p2'/>
+</field>
+</fields>
+    </item><!-- bear::applied_forced_movement -->
+
     <item class_name='ptb::players_present' fixed='true'>
 <fields>
 <field name='basic_renderable_item.gap.x'>
@@ -5624,6 +5868,49 @@
 </field>
 </fields>
     </item><!-- ptb::players_present -->
+
+    <item class_name='bear::decorative_item' fixed='false' id='vs p1'>
+<fields>
+<field name='base_item.position.bottom'>
+<real value='1987'/>
+</field>
+<field name='base_item.position.depth'>
+<integer value='5000'/>
+</field>
+<field name='base_item.position.left'>
+<real value='2815'/>
+</field>
+<field name='item_with_decoration.sprite'>
+<sprite image='gfx/mini-game/arena/arena-1.png' x='189' y='0' clip_width='178' clip_height='324' spritepos='player 1' auto_size='true' width='178' height='324' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+</field>
+</fields>
+    </item><!-- bear::decorative_item -->
+
+    <item class_name='bear::forced_tracking_creator' fixed='false' id='track-vs-p2'>
+<fields>
+<field name='base_item.position.bottom'>
+<real value='1092'/>
+</field>
+<field name='base_item.position.left'>
+<real value='2839'/>
+</field>
+<field name='forced_movement_creator_with_reference.target'>
+<item_reference value='vs p2'/>
+</field>
+<field name='forced_movement_creator_with_reference.target.ratio.x'>
+<real value='0'/>
+</field>
+<field name='forced_movement_creator_with_reference.target.ratio.y'>
+<real value='0'/>
+</field>
+<field name='forced_tracking_creator.distance.x'>
+<real value='40'/>
+</field>
+<field name='forced_tracking_creator.distance.y'>
+<real value='20'/>
+</field>
+</fields>
+    </item><!-- bear::forced_tracking_creator -->
 
     <item class_name='bear::block' fixed='true'>
 <fields>
@@ -5721,6 +6008,23 @@
 </fields>
     </item><!-- ptb::stone -->
 
+    <item class_name='bear::decorative_item' fixed='false' id='vs p2'>
+<fields>
+<field name='base_item.position.bottom'>
+<real value='943'/>
+</field>
+<field name='base_item.position.depth'>
+<integer value='5000'/>
+</field>
+<field name='base_item.position.left'>
+<real value='2905'/>
+</field>
+<field name='item_with_decoration.sprite'>
+<sprite image='gfx/mini-game/arena/arena-1.png' x='0' y='0' clip_width='188' clip_height='324' spritepos='player 2' auto_size='true' width='188' height='324' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+</field>
+</fields>
+    </item><!-- bear::decorative_item -->
+
     <item class_name='ptb::bonus_box' fixed='false' id='bonus-1'>
 <fields>
 <field name='base_item.global'>
@@ -5745,13 +6049,34 @@
 <string value='air_power'/>
 <string value='fire_power'/>
 <string value='stones_big_stock'/>
-<string value='one_more_life'/>
 <string value='stones_stock'/>
 <string value='water_power'/>
 <string value='stones_stock'/>
 </field>
+<field name='counted_item.bonus_item'>
+<bool value='0'/>
+</field>
 </fields>
     </item><!-- ptb::bonus_box -->
+
+    <item class_name='bear::delayed_kill_item' fixed='false'>
+<fields>
+<field name='base_item.position.bottom'>
+<real value='1572'/>
+</field>
+<field name='base_item.position.left'>
+<real value='2926'/>
+</field>
+<field name='delayed_kill_item.duration'>
+<real value='5'/>
+</field>
+<field name='delayed_kill_item.killing_items'>
+<item_reference value='vs p1'/>
+<item_reference value='vs'/>
+<item_reference value='vs p2'/>
+</field>
+</fields>
+    </item><!-- bear::delayed_kill_item -->
 
     <item class_name='bear::force_rectangle_creator' fixed='false'>
 <fields>
@@ -5910,10 +6235,12 @@
 <string value='air_power'/>
 <string value='stones_big_stock'/>
 <string value='fire_power'/>
-<string value='one_more_life'/>
 <string value='stones_stock'/>
 <string value='water_power'/>
 <string value='stones_stock'/>
+</field>
+<field name='counted_item.bonus_item'>
+<bool value='0'/>
 </field>
 </fields>
     </item><!-- ptb::bonus_box -->
@@ -6122,6 +6449,9 @@
 </field>
 <field name='base_bonus.type'>
 <string value='stones_stock'/>
+</field>
+<field name='counted_item.bonus_item'>
+<bool value='0'/>
 </field>
 </fields>
     </item><!-- ptb::bonus_box -->
