@@ -7738,7 +7738,7 @@ sound/plee/injured.ogg
 1
 
 maintain
-0.34
+0.17
 throw
 0
 0
@@ -7847,7 +7847,7 @@ align_bottom
 1
 
 maintain_and_walk
-0.34
+0.17
 throw_and_walk
 0
 0
@@ -8042,7 +8042,7 @@ align_bottom
 1
 
 maintain_and_fall
-0.34
+0.17
 throw_and_fall
 0
 0

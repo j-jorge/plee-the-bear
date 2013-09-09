@@ -112,7 +112,7 @@ const bear::universe::time_type ptb::player::s_time_to_look_upward = 0.5;
 const bear::universe::time_type ptb::player::s_time_to_wait = 3;
 const bear::universe::time_type ptb::player::s_time_to_jump = 1;
 const bear::universe::time_type ptb::player::s_time_to_run = 2.5; // 1.2;
-const bear::universe::time_type ptb::player::s_time_to_start_throw = 0.34;
+const bear::universe::time_type ptb::player::s_time_to_start_throw = 0.17;
 const bear::universe::time_type ptb::player::s_max_time_to_cling = 0.3;
 const bear::universe::time_type ptb::player::s_max_time_to_hang = 1;
 const bear::universe::time_type ptb::player::s_max_time_air_float = 1;
@@ -697,7 +697,7 @@ bear::universe::time_type ptb::player::get_jump_time_ratio() const
 
 /*----------------------------------------------------------------------------*/
 /**
- * \brief Updtae the ratio of the preparation of throw state.
+ * \brief Update the ratio of the preparation of throw state.
  */
 void ptb::player::update_throw_time_ratio()
 {
