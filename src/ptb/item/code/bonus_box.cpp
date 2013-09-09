@@ -62,6 +62,7 @@ void ptb::bonus_box::pre_cache()
   get_level_globals().load_animation( "animation/stones/stone.canim" );
 
   get_level_globals().load_image("gfx/bonus-box-2.png");
+  get_level_globals().load_image("gfx/ui/ui-1.png");
 } // bonus_box::pre_cache()
 
 /*----------------------------------------------------------------------------*/
@@ -317,27 +318,16 @@ void ptb::bonus_box::create_honeypot_decoration()
 
   switch(get_type())
     {
-    case fire_power:
+      /*
+        case stones_stock:
       item->set_animation
-        ( get_level_globals().get_animation
-          ("animation/powerup/small_fire.canim") );
+        ( get_level_globals().auto_sprite("gfx/ui/ui-1.png","stone") );
       break;
-    case air_power:
-      item->set_animation
-        ( get_level_globals().get_animation
-          ("animation/powerup/small_air.canim") );
-      break;
-    case water_power:
-      item->set_animation
-        ( get_level_globals().get_animation
-          ("animation/powerup/small_water.canim") );
-      break;
-    case stones_stock:
     case stones_big_stock:
       item->set_animation
-        (get_level_globals().get_animation
-         ("animation/stones/stone.canim" ) );
+        ( get_level_globals().auto_sprite("gfx/ui/ui-1.png","stones") );
       break;
+      */
 
     default:
       deco = false;
@@ -346,7 +336,10 @@ void ptb::bonus_box::create_honeypot_decoration()
   if ( deco )
     {
       item->set_z_position(get_z_position()+1);
-      item->set_mass(1);
+      item->set_mass(100);
+      item->set_artificial(true);
+      item->set_phantom(false);
+      item->set_can_move_items(false);
       item->set_density
         (0.8 * get_layer().get_world().get_average_density
          (get_bounding_box()));
@@ -362,9 +355,9 @@ void ptb::bonus_box::create_honeypot_decoration()
 
       bear::decorative_effect* decoration_effect = new bear::decorative_effect;
 
-      decoration_effect->set_duration(1.5);
+      decoration_effect->set_duration(2.5);
       bear::visual::color init_color, end_color;
-      init_color.set(1,1,1,0.6);
+      init_color.set(1,1,1,1);
       end_color.set(1,1,1,0);
       decoration_effect->set_color( init_color, end_color );
       decoration_effect->set_item(item, true);

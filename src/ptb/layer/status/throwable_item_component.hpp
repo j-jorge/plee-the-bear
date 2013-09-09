@@ -15,6 +15,7 @@
 #define __PTB_THROWABLE_ITEM_COMPONENT_HPP__
 
 #include "ptb/layer/status/status_component.hpp"
+#include "ptb/layer/status/floating_bonus.hpp"
 
 #include "visual/animation.hpp"
 #include "visual/writing.hpp"
@@ -28,6 +29,14 @@ namespace ptb
   class throwable_item_component :
     public status_component
   {
+  private:
+    /** \brief The type of a list of floating corrupting_bonus. */
+    typedef std::list<floating_bonus> floating_bonus_list;
+
+    typedef
+    std::list< claw::memory::smart_ptr<boost::signals::scoped_connection> >
+    signal_connection_list;
+
   public:
     /** \brief The type of the parent class. */
     typedef status_component super;
@@ -51,6 +60,9 @@ namespace ptb
     void init_signals();
 
   private:
+    void create_floating_bonus( const std::string& name );
+    void on_power_changed( bool status, const std::string& name );
+    void on_stones_stock_changed( unsigned int stock );
     void on_throwable_item_changed(const std::string& animation);
     void on_throwable_item_stock_changed(unsigned int stock);
     void on_throwable_item_changed();      
@@ -65,6 +77,14 @@ namespace ptb
     /** \brief The current animation of throwable_item. */
     bear::visual::animation m_throwable_item_animation;
 
+    /** \brief map of floating corrupting bonus. */
+    floating_bonus_list m_floating_bonus;
+
+    /** The connections to the signals triggered when the bonus change. */
+    signal_connection_list m_bonus_signals;
+
+    /** The last stones count. */
+    unsigned int m_stones_count;
   }; // class throwable_item_component
 } // namespace ptb
 

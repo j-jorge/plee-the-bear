@@ -13,8 +13,11 @@
  */
 #include "ptb/layer/status/throwable_item_component.hpp"
 
+#include "ptb/game_variables.hpp"
 #include "ptb/throwable_item/throwable_items_container.hpp"
 #include "ptb/player_signals.hpp"
+
+#include "engine/game.hpp"
 
 #include "visual/scene_sprite.hpp"
 #include "visual/bitmap_writing.hpp"
@@ -58,6 +61,8 @@ void ptb::throwable_item_component::build()
 {
   if ( get_player() != NULL )
     {
+        m_bonus_signals.clear();
+
         std::ostringstream oss;
 	oss << get_player().get_throwable_items()
 	  .get_current_throwable_item()->get_stock();
@@ -68,6 +73,9 @@ void ptb::throwable_item_component::build()
 	  get_level_globals().get_animation
 	  ( get_player().get_throwable_items().get_current_throwable_item()
 	    ->get_animation() );
+
+        m_stones_count = 
+          game_variables::get_stones_count( get_player().get_index() );
     }
 
   super::build();
@@ -83,6 +91,22 @@ void ptb::throwable_item_component::progress
   super::progress(elapsed_time ); 
 
   m_throwable_item_animation.next(elapsed_time);
+
+  floating_bonus_list::iterator it = m_floating_bonus.begin();
+
+  while ( it != m_floating_bonus.end() )
+    {
+      it->progress(elapsed_time);
+
+      if ( it->is_finished() )
+	{
+          floating_bonus_list::iterator tmp(it);
+          ++it;
+          m_floating_bonus.erase(tmp);
+        }
+      else
+        ++it;
+    }
 } // throwable_item_component::progress()
 
 /*----------------------------------------------------------------------------*/
@@ -108,6 +132,16 @@ void ptb::throwable_item_component::render( scene_element_list& e ) const
 
   e.push_back( s1 );
   e.push_back( s2 );
+
+  floating_bonus_list::const_iterator it;
+  for ( it = m_floating_bonus.begin(); 
+	it != m_floating_bonus.end(); ++it )
+    {
+      bear::visual::scene_sprite sp2
+	( it->get_position().x, it->get_position().y, 
+          get_level_globals().auto_sprite( "gfx/ui/ui-1.png", it->get_name() ));
+      e.push_back( sp2 );
+    } 
 } // throwable_item_component::render()
 
 /*----------------------------------------------------------------------------*/
@@ -153,11 +187,90 @@ void ptb::throwable_item_component::init_signals()
     ( get_player().get_throwable_items().throwable_item_no_stock.connect
       ( boost::bind
         (&ptb::throwable_item_component::on_throwable_item_changed, this)));
+
+  add_signal
+    ( bear::engine::game::get_instance().listen_bool_variable_change
+      ( game_variables::get_air_power_variable_name(get_player().get_index()),
+        boost::bind
+        ( &throwable_item_component::on_power_changed, this, _1, "air") ) );
+
+  add_signal
+    ( bear::engine::game::get_instance().listen_bool_variable_change
+      ( game_variables::get_fire_power_variable_name(get_player().get_index()),
+        boost::bind
+        ( &throwable_item_component::on_power_changed, this, _1, "fire") ) );
+
+  add_signal
+    ( bear::engine::game::get_instance().listen_bool_variable_change
+      ( game_variables::get_water_power_variable_name(get_player().get_index()),
+        boost::bind
+        ( &throwable_item_component::on_power_changed, this, _1, "water") ) );
+
+  add_signal
+    ( bear::engine::game::get_instance().listen_uint_variable_change
+      ( game_variables::get_stones_count_variable_name
+        (get_player().get_index()),
+        boost::bind
+        ( &throwable_item_component::on_stones_stock_changed, this, _1) ) );
 } // throwable_item_component::init_signals()
 
 /*----------------------------------------------------------------------------*/
 /**
- * \brief The fonction called when .
+ * \brief The fonction called when there is a new bonus.
+ * \param animation The name of the new bonus. */
+void ptb::throwable_item_component::create_floating_bonus
+( const std::string& name )
+{
+  bear::visual::animation anim =
+    get_level_globals().auto_sprite( "gfx/ui/ui-1.png", name );
+
+  bear::visual::position_type rate(0,0);
+  if ( get_player() != NULL )
+    {
+      rate.x = 
+        ( get_player().get_left() - 
+          get_player().get_level().get_camera_center().x) /
+        get_player().get_level().get_camera()->get_width();
+      rate.y = 
+        ( get_player().get_bottom() - 
+          get_player().get_level().get_camera_center().y) /
+        get_player().get_level().get_camera()->get_height();
+    }
+
+  bear::visual::position_type pos(get_layer_size()/2);
+  pos.x += ( rate.x * get_layer_size().x);
+  pos.y += ( rate.y * get_layer_size().y);
+  
+  if ( ( pos.x <= get_layer_size().x ) && ( pos.y <= get_layer_size().y ) && 
+       ( pos.x + anim.width() >= 0 ) && 
+       ( pos.y + anim.height() >= 0 ) )
+    {
+      floating_bonus f(name);
+
+      m_floating_bonus.push_back(f);
+      m_floating_bonus.back().set_position
+        ( pos - anim.get_size()/2, 
+          get_render_position() - anim.get_size()/2);
+    }
+} // throwable_item_component::create_floating_bonus
+/*----------------------------------------------------------------------------*/
+/**
+ * \brief The fonction called when the stone's stock changes.
+ * \param stock The new stock. */
+void ptb::throwable_item_component::on_stones_stock_changed
+( unsigned int stock )
+{
+  if ( m_stones_count + 20 > stock )
+    create_floating_bonus("stones");
+  else if ( m_stones_count < stock )
+    create_floating_bonus("stone");
+
+  m_stones_count = stock;
+} // throwable_item_component::on_stones_stock_changed()
+
+/*----------------------------------------------------------------------------*/
+/**
+ * \brief The fonction called when the throwable item changes.
  * \param animation The new animation */
 void ptb::throwable_item_component::on_throwable_item_changed
 ( const std::string& animation )
@@ -166,6 +279,19 @@ void ptb::throwable_item_component::on_throwable_item_changed
   update_inactive_position();
   on_throwable_item_changed();
 } // throwable_item_component::on_throwable_item_changed()
+
+/*----------------------------------------------------------------------------*/
+/**
+ * \brief The fonction called when a power changes.
+ * \param status Indicates if the power's status. 
+ * \param name The name of the bonus.
+ */
+void ptb::throwable_item_component::on_power_changed
+( bool status, const std::string& name )
+{
+  if ( status )
+    create_floating_bonus(name);
+} // throwable_item_component::on_power_changed()
 
 /*----------------------------------------------------------------------------*/
 /**
@@ -214,5 +340,5 @@ void ptb::throwable_item_component::on_throwable_item_changed()
        ( &ptb::status_component::on_x_position_update,
 	 this, _1 ), &claw::tween::easing_back::ease_in ) );
 
-  add_tweener( tween );
+  add_tweener( tween ); 
 } // throwable_item_component::on_throwable_item_changed()
