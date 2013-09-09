@@ -313,6 +313,9 @@ void ptb::player::progress( bear::universe::time_type elapsed_time )
   m_can_throw_power[water_attack] = true;
   if ( m_throwable_items.get_current_throwable_item()->is_empty() )
     m_throwable_items.next();
+
+  m_move_right = false;
+  m_move_left = false;
 } // player::progress()
 
 /*----------------------------------------------------------------------------*/
@@ -2788,9 +2791,13 @@ bool ptb::player::is_in_floating() const
  */
 void ptb::player::update_orientation()
 {
-  if ( get_current_action_name()!= "captive" )
-    {
-      if ( get_speed().x < 0 )
+  if ( get_current_action_name() != "captive" )
+    { 
+      if ( m_move_right && ! has_bottom_contact() )
+        get_rendering_attributes().mirror(false);
+      else if ( m_move_left && ! has_bottom_contact() )
+        get_rendering_attributes().mirror(true);
+      else if ( get_speed().x < 0 )
 	{
 	  if ( ( !is_injured() ) ||
 	       ( m_injured_orientation &&
@@ -3217,8 +3224,6 @@ void ptb::player::brake()
       speed.x *= 0.9;
       set_speed(speed);
     }
-  m_move_right = false;
-  m_move_left = false;
 } // player::brake()
 
 /*----------------------------------------------------------------------------*/
