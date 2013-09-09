@@ -325,9 +325,16 @@ void ptb::frame_play_mini_game::on_ok()
         ( m_levels[m_index].get_filename(),  2, PTB_DEFAULT_EXIT_NAME );
       game_variables::set_next_level_name
         ( m_levels[m_index].get_filename() );
-      show_window
-        ( new frame_start_menu
-          (&get_layer(), true, m_levels[m_index].get_playability()) );
+
+      const playability_type::value_type playability
+        (  );
+
+      frame_start_menu* const dialog
+        ( frame_start_menu::launch
+          ( &get_layer(), true, m_levels[m_index].get_playability() ) );
+
+      if ( dialog != NULL )
+        show_window( dialog );
     }
 } // frame_play_mini_game::on_ok()
 
