@@ -1,0 +1,29 @@
+/*  */
+sprite_sheet "ui-1" 512 x 1024 margin 1
+
+icons "power-icons/power-icons.xcf.bz2"
+
+"stones" autosize * 0.5 with icons
+  "stones"
+  "background"
+  ;
+
+"stone" autosize * 0.5 with icons
+  "stone"
+  "background"
+  ;
+
+"fire" autosize * 0.5 with icons
+  "fire"
+  "background"
+  ;
+
+"air" autosize * 0.5 with icons
+  "air"
+  "background"
+  ;
+
+"water" autosize * 0.5 with icons
+  "water"
+  "background"
+  ;
