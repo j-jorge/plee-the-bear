@@ -1,10 +1,25 @@
 /*
-  Copyright (C) 2012 Stuffomatic Ltd. <contact@stuff-o-matic.com>
+  Plee the Bear
 
-  All rights reserved.
+  Copyright (C) 2005-2010 Julien Jorge, Sebastien Angibaud
 
-  See the accompanying license file for details about usage, modification and
-  distribution of this file.
+  This program is free software; you can redistribute it and/or modify it
+  under the terms of the GNU General Public License as published by the
+  Free Software Foundation; either version 2 of the License, or (at your
+  option) any later version.
+
+  This program is distributed in the hope that it will be useful, but WITHOUT
+  ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
+  FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for
+  more details.
+
+  You should have received a copy of the GNU General Public License along
+  with this program; if not, write to the Free Software Foundation, Inc.,
+  51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
+
+  contact: plee-the-bear@gamned.org
+
+  Please add the tag [PTB] in the subject of your mails.
 */
 /**
  * \file player_proxy.hpp
@@ -149,6 +164,7 @@ void do_start_throw() const;
 void get_visual( std::list<bear::engine::scene_visual>& visuals ) const;
 void give_one_up() const;
 void has_attacked(const monster& other) const;
+void lose_in_contest_mode() const;
 void on_enters_layer() const;
 void pre_cache() const;
 void progress( bear::universe::time_type elapsed_time ) const;

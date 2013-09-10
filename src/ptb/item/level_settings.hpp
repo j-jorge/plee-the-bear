@@ -48,6 +48,8 @@ namespace ptb
     void build();
 
     virtual bool set_bool_field( const std::string& name, bool value );
+    virtual bool set_string_field
+    ( const std::string& name, const std::string& value );
 
   private:
     /** \brief Indicates if the level is a main level. */

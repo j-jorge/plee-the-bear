@@ -1566,7 +1566,7 @@ void ptb::player::apply_die()
       if ( get_current_action_name() != "game_over" && 
            get_current_action_name() != "win" )
         {
-          if ( level_variables::get_game_type(get_level()) != "classic" )
+          if ( level_variables::get_game_type(get_level()) == "classic" )
             {
               // mode classic
               bear::engine::transition_effect_message<game_over_effect> msg;
@@ -1630,16 +1630,6 @@ void ptb::player::apply_game_over()
 
 /*----------------------------------------------------------------------------*/
 /**
- * \brief Win in the contest mode.
- */
-void ptb::player::win_in_contest_mode()
-{
-  start_action_model("win");
-  apply_game_over();
-} // player::win_in_contest_mode()
-
-/*----------------------------------------------------------------------------*/
-/**
  * \brief Lose in constest mode.
  */
 void ptb::player::lose_in_contest_mode()
@@ -1649,7 +1639,7 @@ void ptb::player::lose_in_contest_mode()
     util::find_player( get_level_globals(), 3 - get_index() );
 
   if( other != NULL )
-    other.win_in_contest_mode();
+      other.apply_game_over();
 
   apply_game_over();
 } // player::lose_in_contest_mode()

@@ -56,8 +56,6 @@ ptb::level_settings::set_bool_field( const std::string& name, bool value )
 
   if (name == "level_settings.friendly_fire")
     level_variables::set_friendly_fire(get_level(), value);
-  else if (name == "level_settings.game_over_allowed")
-    level_variables::allow_game_over(get_level(), value);
   else if (name == "level_settings.player_status_fixed")
     level_variables::set_player_status_fixed(get_level(), value);
   else if (name == "level_settings.is_main_level")
@@ -68,3 +66,22 @@ ptb::level_settings::set_bool_field( const std::string& name, bool value )
   return result;
 } // level_settings::set_bool_field()
 
+/*----------------------------------------------------------------------------*/
+/**
+ * \brief Set a field of type "std::string".
+ * \param name The name of the field.
+ * \param value The new value of the field.
+ * \return false if the field "name" is unknow, true otherwise.
+ */
+bool ptb::level_settings::set_string_field
+( const std::string& name, const std::string& value )
+{
+  bool result(true);
+
+  if ( name == "level_settings.game_type" )
+    level_variables::set_game_type(get_level(), value);
+  else
+    result = super::set_string_field( name, value );
+
+  return result;
+} // level_settings::set_string_field()
