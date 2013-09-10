@@ -1412,5 +1412,25 @@
 </mark_placements>
 </snapshot></snapshots>
 </action>
+<action name="win" duration="1.44" auto_next="">
+<marks>
+<mark label="body" apply_angle_to_animation="0" pause_animation_when_hidden="0">
+<animation_file path='animation/plee/idle.canim' auto_size='true' width='64' height='112' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+</mark>
+<mark label="mouth" apply_angle_to_animation="0" pause_animation_when_hidden="0">
+</mark>
+<mark label="hat" apply_angle_to_animation="1" pause_animation_when_hidden="0">
+<animation_file path='animation/plee/cap.canim' auto_size='true' width='34' height='16' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+</mark>
+</marks>
+<snapshots>
+<snapshot date="0" function="apply_game_over" width="45" height="109" x_alignment="align_left" y_alignment="align_bottom" x_alignment_value="0" y_alignment_value="0">
+<mark_placements>
+<mark_placement label="hat" function="" x="4.7033" y="21.022" width="0" height="0" z="1" angle="1.5" visible="1" x_easing="none:in" y_easing="none:in" width_easing="none:in" height_easing="none:in" angle_easing="none:in"/>
+<mark_placement label="mouth" function="" x="28" y="87" width="0" height="0" z="1" angle="0" visible="1" x_easing="none:in" y_easing="none:in" width_easing="none:in" height_easing="none:in" angle_easing="none:in"/>
+<mark_placement label="body" function="" x="25" y="56" width="0" height="0" z="0" angle="0" visible="1" x_easing="none:in" y_easing="none:in" width_easing="none:in" height_easing="none:in" angle_easing="none:in"/>
+</mark_placements>
+</snapshot></snapshots>
+</action>
 </model>
 

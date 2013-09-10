@@ -69,8 +69,9 @@ namespace ptb
     static bool get_friendly_fire(bear::engine::level& lvl);
     static void set_friendly_fire( bear::engine::level& lvl, bool v );
 
-    static bool game_over_allowed(bear::engine::level& lvl);
-    static void allow_game_over( bear::engine::level& lvl, bool v );
+    static std::string get_game_type(bear::engine::level& lvl);
+    static void set_game_type
+    ( bear::engine::level& lvl, const std::string& type );
 
     static bool is_network_game(bear::engine::level& lvl);
     static void set_network_game(bear::engine::level& lvl, bool b);

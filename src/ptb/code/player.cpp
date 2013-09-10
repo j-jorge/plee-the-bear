@@ -1546,9 +1546,10 @@ void ptb::player::apply_die()
   finish_injure();
 
   if ( ( game_variables::get_lives_count( m_index ) > 0 ) ||
-       ( !level_variables::game_over_allowed(get_level()) ) )
+       ( level_variables::get_game_type(get_level()) == "training" ) )
     {
-      if ( game_variables::get_lives_count( m_index ) > 0 )
+      if ( game_variables::get_lives_count( m_index ) > 0 && 
+           level_variables::get_game_type(get_level()) != "training" )
         game_variables::set_lives_count
           ( m_index, game_variables::get_lives_count(m_index) - 1);
 
@@ -1562,16 +1563,33 @@ void ptb::player::apply_die()
     }
   else
     {
-      if ( get_current_action_name() != "game_over" )
+      if ( get_current_action_name() != "game_over" && 
+           get_current_action_name() != "win" )
         {
-          bear::engine::transition_effect_message<game_over_effect> msg;
-          if ( has_world() )
-            msg.get_effect().set_world( &get_world() );
-
-          get_level_globals().send_message
-            ( PTB_TRANSITION_EFFECT_DEFAULT_TARGET_NAME, msg );
-          start_action_model("game_over");
-          apply_game_over();
+          if ( level_variables::get_game_type(get_level()) != "classic" )
+            {
+              // mode classic
+              bear::engine::transition_effect_message<game_over_effect> msg;
+              if ( has_world() )
+                msg.get_effect().set_world( &get_world() );
+              
+              get_level_globals().send_message
+                ( PTB_TRANSITION_EFFECT_DEFAULT_TARGET_NAME, msg );
+              start_action_model("game_over");
+              apply_game_over();
+            }
+          else
+            { 
+              // mode contest
+              bear::engine::transition_effect_message<game_over_effect> msg;
+              if ( has_world() )
+                msg.get_effect().set_world( &get_world() );
+              
+              get_level_globals().send_message
+                ( PTB_TRANSITION_EFFECT_DEFAULT_TARGET_NAME, msg );
+              start_action_model("game_over");
+              lose_in_contest_mode();
+            }
         }
     }
 } // player::apply_die()
@@ -1604,10 +1622,37 @@ void ptb::player::apply_disappear()
 void ptb::player::apply_game_over()
 {
   add_position_constraints();
+  set_artificial(true);
   m_move_force = 0;
   set_state(game_over_state);
   m_progress = &player::progress_game_over;
 } // player::apply_game_over()
+
+/*----------------------------------------------------------------------------*/
+/**
+ * \brief Win in the contest mode.
+ */
+void ptb::player::win_in_contest_mode()
+{
+  start_action_model("win");
+  apply_game_over();
+} // player::win_in_contest_mode()
+
+/*----------------------------------------------------------------------------*/
+/**
+ * \brief Lose in constest mode.
+ */
+void ptb::player::lose_in_contest_mode()
+{
+  // tell the other player that he wins.
+  player_proxy other = 
+    util::find_player( get_level_globals(), 3 - get_index() );
+
+  if( other != NULL )
+    other.win_in_contest_mode();
+
+  apply_game_over();
+} // player::lose_in_contest_mode()
 
 /*----------------------------------------------------------------------------*/
 /**
@@ -1916,7 +1961,8 @@ void ptb::player::injure
 ( const monster& attacker, bear::universe::zone::position side,
   double duration)
 {
-  if ( get_current_action_name() != "game_over" )
+  if ( get_current_action_name() != "game_over" &&
+       get_current_action_name() != "win" )
     {
       const bear::engine::base_item* item =
         dynamic_cast<const bear::engine::base_item*>(&attacker);

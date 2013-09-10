@@ -331,29 +331,29 @@ void ptb::level_variables::set_friendly_fire
     ( bear::engine::variable<bool>( "friendly_fire", v ) );
 } // game_variables::set_friendly_fire()
 
-
 /*----------------------------------------------------------------------------*/
 /**
- * \brief Tell if game over is allowed.
+ * \brief Get the type of the game.
  * \param lvl The level in which we take the variable.
  */
-bool ptb::level_variables::game_over_allowed(bear::engine::level& lvl)
+std::string ptb::level_variables::get_game_type(bear::engine::level& lvl)
 {
-  return ptb_level_variables_get_value( lvl, "game_over_allowed", true );
-} // game_variables::game_over_allowed()
+  return ptb_level_variables_get_value<std::string>
+    ( lvl, "game_type", "classic" );
+} // game_variables::get_game_type()
 
 /*----------------------------------------------------------------------------*/
 /**
- * \brief Set if game over is allowed.
+ * \brief Set the type of the game.
  * \param lvl The level in which we take the variable.
- * \param v Harm or don't.
+ * \param type The type of the game (classic, contest, practice).
  */
-void ptb::level_variables::allow_game_over
-( bear::engine::level& lvl, bool v )
+void ptb::level_variables::set_game_type
+( bear::engine::level& lvl, const std::string& type )
 {
   lvl.set_level_variable
-    ( bear::engine::variable<bool>( "game_over_allowed", v ) );
-} // game_variables::allow_game_over()
+    ( bear::engine::variable<std::string>( "game_type", type ) );
+} // game_variables::set_game_type()
 
 /*----------------------------------------------------------------------------*/
 /**

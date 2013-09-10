@@ -215,6 +215,8 @@ namespace ptb
     void apply_roar();
     void apply_disappear();
     void apply_game_over();
+    void win_in_contest_mode();
+    void lose_in_contest_mode();
     void apply_start_cling();
     void apply_cling();
     void apply_clung_jump();

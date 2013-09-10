@@ -4796,6 +4796,9 @@
 <field name='level_settings.friendly_fire'>
 <bool value='1'/>
 </field>
+<field name='level_settings.game_type'>
+<string value='contest'/>
+</field>
 <field name='level_settings.player_status_fixed'>
 <bool value='1'/>
 </field>
