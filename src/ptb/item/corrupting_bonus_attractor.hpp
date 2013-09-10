@@ -38,7 +38,6 @@ namespace ptb
 
   public:
     corrupting_bonus_attractor();
-    ~corrupting_bonus_attractor();
 
   private:
     virtual void collision
