@@ -42,3 +42,5 @@ void ptb::corrupting_bonus_attractor::collision
   if ( item != NULL )
     item->attract(*this);
 } // corrupting_bonus_attractor::collision()
+
+

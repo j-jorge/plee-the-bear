@@ -4777,7 +4777,7 @@
 <real value='2244'/>
 </field>
 <field name='applied_expression.expression'>
-<item_reference value='const_true'/>
+<item_reference value='check_class_bonus_box'/>
 </field>
 <field name='applied_expression.receiver'>
 <item_reference value='trigger-2'/>
@@ -5388,6 +5388,24 @@
 </field>
 </fields>
     </item><!-- bear::applied_forced_movement -->
+
+    <item class_name='bear::check_item_class_creator' fixed='false' id='check_class_bonus_box'>
+<fields>
+<field name='base_item.position.bottom'>
+<real value='1582'/>
+</field>
+<field name='base_item.position.left'>
+<real value='2505'/>
+</field>
+<field name='check_item_class_creator.class_name'>
+<string value='ptb::bonus_box'/>
+<string value='bear::decorative_item'/>
+</field>
+<field name='check_item_class_creator.collision_data'>
+<item_reference value='trigger-2'/>
+</field>
+</fields>
+    </item><!-- bear::check_item_class_creator -->
 
     <item class_name='bear::decorative_item' fixed='false' id='vs'>
 <fields>
@@ -6807,6 +6825,24 @@
 </fields>
     </item><!-- bear::block -->
 
+    <item class_name='bear::check_item_class_creator' fixed='false' id='check_class_bonus_box-1'>
+<fields>
+<field name='base_item.position.bottom'>
+<real value='1581'/>
+</field>
+<field name='base_item.position.left'>
+<real value='3544'/>
+</field>
+<field name='check_item_class_creator.class_name'>
+<string value='ptb::bonus_box'/>
+<string value='bear::decorative_item'/>
+</field>
+<field name='check_item_class_creator.collision_data'>
+<item_reference value='trigger-1'/>
+</field>
+</fields>
+    </item><!-- bear::check_item_class_creator -->
+
     <item class_name='bear::block' fixed='true'>
 <fields>
 <field name='item_with_friction.top_friction'>
@@ -7097,7 +7133,7 @@
 <real value='3773'/>
 </field>
 <field name='applied_expression.expression'>
-<item_reference value='const_true'/>
+<item_reference value='check_class_bonus_box-1'/>
 </field>
 <field name='applied_expression.receiver'>
 <item_reference value='trigger-1'/>
@@ -7118,20 +7154,6 @@
 </field>
 </fields>
     </item><!-- bear::killer -->
-
-    <item class_name='bear::boolean_constant_creator' fixed='false' id='const_true'>
-<fields>
-<field name='base_item.position.bottom'>
-<real value='1316'/>
-</field>
-<field name='base_item.position.left'>
-<real value='3839'/>
-</field>
-<field name='boolean_constant_creator.value'>
-<bool value='1'/>
-</field>
-</fields>
-    </item><!-- bear::boolean_constant_creator -->
 
     <item class_name='bear::block' fixed='true'>
 <fields>
