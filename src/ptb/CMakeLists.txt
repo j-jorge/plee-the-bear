@@ -248,6 +248,7 @@ set( LIBPTB_SOURCE_FILES
   throwable_item/code/stone_throwable_item.cpp
   throwable_item/code/water_honeypot_throwable_item.cpp
 
+  transition_effect/code/contest_result_effect.cpp
   transition_effect/code/game_over_effect.cpp
   transition_effect/code/invincibility_effect.cpp
   transition_effect/code/level_ending_effect.cpp

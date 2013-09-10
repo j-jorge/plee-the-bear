@@ -86,6 +86,7 @@
 #include "ptb/player_state/state_paralyze.hpp"
 
 #include "ptb/transition_effect/game_over_effect.hpp"
+#include "ptb/transition_effect/contest_result_effect.hpp"
 #include "ptb/transition_effect/invincibility_effect.hpp"
 
 #include "ptb/util/player_util.hpp"
@@ -1581,10 +1582,12 @@ void ptb::player::apply_die()
           else
             { 
               // mode contest
-              bear::engine::transition_effect_message<game_over_effect> msg;
+              bear::engine::transition_effect_message<contest_result_effect> 
+                msg;
               if ( has_world() )
                 msg.get_effect().set_world( &get_world() );
-              
+              msg.get_effect().set_loser_index( get_index() );
+
               get_level_globals().send_message
                 ( PTB_TRANSITION_EFFECT_DEFAULT_TARGET_NAME, msg );
               start_action_model("game_over");

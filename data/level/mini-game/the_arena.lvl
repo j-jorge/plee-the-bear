@@ -4422,7 +4422,7 @@
 <real value='2100'/>
 </field>
 <field name='player_settings.lives'>
-<u_integer value='2'/>
+<u_integer value='1'/>
 </field>
 <field name='player_settings.max_energy'>
 <real value='100'/>
@@ -4687,7 +4687,7 @@
 <real value='2186'/>
 </field>
 <field name='player_settings.lives'>
-<u_integer value='0'/>
+<u_integer value='1'/>
 </field>
 <field name='player_settings.max_energy'>
 <real value='100'/>
@@ -5422,7 +5422,7 @@
 <real value='2511'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/mini-game/arena/arena-1.png' x='368' y='0' clip_width='226' clip_height='198' spritepos='versus' auto_size='true' width='226' height='198' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+<sprite image='gfx/mini-game/arena/arena-1.png' x='242' y='331' clip_width='226' clip_height='198' spritepos='versus' auto_size='true' width='226' height='198' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -5902,7 +5902,7 @@
 <real value='2815'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/mini-game/arena/arena-1.png' x='189' y='0' clip_width='178' clip_height='324' spritepos='player 1' auto_size='true' width='178' height='324' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+<sprite image='gfx/mini-game/arena/arena-1.png' x='0' y='584' clip_width='178' clip_height='324' spritepos='player 1' auto_size='true' width='178' height='324' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -6041,7 +6041,7 @@
 <real value='2905'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/mini-game/arena/arena-1.png' x='0' y='0' clip_width='188' clip_height='324' spritepos='player 2' auto_size='true' width='188' height='324' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+<sprite image='gfx/mini-game/arena/arena-1.png' x='484' y='0' clip_width='188' clip_height='324' spritepos='player 2' auto_size='true' width='188' height='324' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
