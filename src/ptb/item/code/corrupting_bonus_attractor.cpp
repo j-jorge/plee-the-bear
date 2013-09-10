@@ -30,6 +30,15 @@ ptb::corrupting_bonus_attractor::corrupting_bonus_attractor()
 
 /*----------------------------------------------------------------------------*/
 /**
+ * \brief Destructor.
+ */
+ptb::corrupting_bonus_attractor::~corrupting_bonus_attractor()
+{
+  std::cout << "~corrupting_bonus_attractor()" << std::endl;
+} // corrupting_bonus_attractor::~corrupting_bonus_attractor()
+
+/*----------------------------------------------------------------------------*/
+/**
  * \brief Call collision_check_and_apply().
  * \param that The other item of the collision.
  * \param info Some informations about the collision.
@@ -42,3 +51,5 @@ void ptb::corrupting_bonus_attractor::collision
   if ( item != NULL )
     item->attract(*this);
 } // corrupting_bonus_attractor::collision()
+
+
