@@ -164,7 +164,7 @@ void ptb::status_layer::player_status::render( scene_element_list& e ) const
   if ( m_player != NULL )
     {
       component_list::const_iterator it;
-      for ( it = m_components.begin(); it != m_components.end(); it++)
+      for ( it = m_components.begin(); it != m_components.end(); ++it)
 	(*it)->render(e);
     }
 } // status_layer::player_status::::render()
