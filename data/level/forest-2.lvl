@@ -53783,6 +53783,9 @@
 <field name='slope.control_point.right.x'>
 <real value='-64'/>
 </field>
+<field name='slope.left_side_is_active'>
+<bool value='1'/>
+</field>
 <field name='slope.steepness'>
 <real value='28'/>
 </field>
@@ -56687,6 +56690,9 @@
 <field name='slope.control_point.right.y'>
 <real value='20'/>
 </field>
+<field name='slope.right_side_is_active'>
+<bool value='1'/>
+</field>
 <field name='slope.steepness'>
 <real value='-28'/>
 </field>
@@ -58200,6 +58206,12 @@
 <field name='slope.control_point.right.x'>
 <real value='-64'/>
 </field>
+<field name='slope.left_side_is_active'>
+<bool value='1'/>
+</field>
+<field name='slope.right_side_is_active'>
+<bool value='0'/>
+</field>
 <field name='slope.steepness'>
 <real value='28'/>
 </field>
@@ -59243,6 +59255,9 @@
 </field>
 <field name='slope.control_point.right.y'>
 <real value='20'/>
+</field>
+<field name='slope.right_side_is_active'>
+<bool value='1'/>
 </field>
 <field name='slope.steepness'>
 <real value='-28'/>
@@ -60773,6 +60788,9 @@
 <field name='slope.control_point.right.x'>
 <real value='-64'/>
 </field>
+<field name='slope.left_side_is_active'>
+<bool value='1'/>
+</field>
 <field name='slope.steepness'>
 <real value='28'/>
 </field>
@@ -61964,6 +61982,9 @@
 <field name='slope.control_point.right.y'>
 <real value='20'/>
 </field>
+<field name='slope.right_side_is_active'>
+<bool value='1'/>
+</field>
 <field name='slope.steepness'>
 <real value='-28'/>
 </field>
@@ -62225,6 +62246,9 @@
 <field name='slope.control_point.right.x'>
 <real value='-64'/>
 </field>
+<field name='slope.left_side_is_active'>
+<bool value='1'/>
+</field>
 <field name='slope.steepness'>
 <real value='28'/>
 </field>
@@ -62291,6 +62315,9 @@
 </field>
 <field name='slope.control_point.right.y'>
 <real value='20'/>
+</field>
+<field name='slope.right_side_is_active'>
+<bool value='1'/>
 </field>
 <field name='slope.steepness'>
 <real value='-28'/>
@@ -62692,6 +62719,9 @@
 <field name='slope.control_point.right.x'>
 <real value='-64'/>
 </field>
+<field name='slope.left_side_is_active'>
+<bool value='1'/>
+</field>
 <field name='slope.steepness'>
 <real value='28'/>
 </field>
@@ -62926,6 +62956,9 @@
 </field>
 <field name='slope.control_point.right.y'>
 <real value='20'/>
+</field>
+<field name='slope.right_side_is_active'>
+<bool value='1'/>
 </field>
 <field name='slope.steepness'>
 <real value='-28'/>
@@ -63651,6 +63684,9 @@
 <field name='slope.control_point.right.x'>
 <real value='-64'/>
 </field>
+<field name='slope.left_side_is_active'>
+<bool value='1'/>
+</field>
 <field name='slope.steepness'>
 <real value='28'/>
 </field>
@@ -63876,6 +63912,9 @@
 </field>
 <field name='slope.control_point.right.y'>
 <real value='20'/>
+</field>
+<field name='slope.right_side_is_active'>
+<bool value='1'/>
 </field>
 <field name='slope.steepness'>
 <real value='-28'/>
@@ -66922,6 +66961,9 @@
 <field name='slope.control_point.right.y'>
 <real value='20'/>
 </field>
+<field name='slope.right_side_is_active'>
+<bool value='1'/>
+</field>
 <field name='slope.steepness'>
 <real value='-28'/>
 </field>
@@ -68573,6 +68615,9 @@
 <field name='slope.control_point.right.x'>
 <real value='-64'/>
 </field>
+<field name='slope.left_side_is_active'>
+<bool value='1'/>
+</field>
 <field name='slope.steepness'>
 <real value='28'/>
 </field>
@@ -68659,6 +68704,9 @@
 </field>
 <field name='slope.control_point.right.x'>
 <real value='-64'/>
+</field>
+<field name='slope.left_side_is_active'>
+<bool value='1'/>
 </field>
 <field name='slope.steepness'>
 <real value='28'/>
@@ -70320,6 +70368,9 @@
 <field name='slope.control_point.right.x'>
 <real value='-64'/>
 </field>
+<field name='slope.left_side_is_active'>
+<bool value='1'/>
+</field>
 <field name='slope.steepness'>
 <real value='28'/>
 </field>
@@ -70589,6 +70640,9 @@
 </field>
 <field name='slope.control_point.right.x'>
 <real value='-64'/>
+</field>
+<field name='slope.left_side_is_active'>
+<bool value='1'/>
 </field>
 <field name='slope.steepness'>
 <real value='28'/>
@@ -72648,6 +72702,9 @@
 <field name='slope.control_point.right.x'>
 <real value='-64'/>
 </field>
+<field name='slope.left_side_is_active'>
+<bool value='1'/>
+</field>
 <field name='slope.steepness'>
 <real value='28'/>
 </field>
@@ -73903,6 +73960,9 @@
 <field name='slope.control_point.right.y'>
 <real value='20'/>
 </field>
+<field name='slope.right_side_is_active'>
+<bool value='1'/>
+</field>
 <field name='slope.steepness'>
 <real value='-28'/>
 </field>
@@ -74398,6 +74458,9 @@
 </field>
 <field name='slope.control_point.right.y'>
 <real value='20'/>
+</field>
+<field name='slope.right_side_is_active'>
+<bool value='1'/>
 </field>
 <field name='slope.steepness'>
 <real value='-28'/>
@@ -75167,6 +75230,9 @@
 </field>
 <field name='slope.control_point.right.x'>
 <real value='-64'/>
+</field>
+<field name='slope.left_side_is_active'>
+<bool value='1'/>
 </field>
 <field name='slope.steepness'>
 <real value='28'/>
@@ -76717,6 +76783,9 @@
 <field name='slope.control_point.right.x'>
 <real value='-64'/>
 </field>
+<field name='slope.left_side_is_active'>
+<bool value='1'/>
+</field>
 <field name='slope.steepness'>
 <real value='28'/>
 </field>
@@ -77814,6 +77883,9 @@
 <field name='slope.control_point.right.y'>
 <real value='20'/>
 </field>
+<field name='slope.right_side_is_active'>
+<bool value='1'/>
+</field>
 <field name='slope.steepness'>
 <real value='-28'/>
 </field>
@@ -78167,6 +78239,9 @@
 </field>
 <field name='slope.control_point.right.x'>
 <real value='-64'/>
+</field>
+<field name='slope.left_side_is_active'>
+<bool value='1'/>
 </field>
 <field name='slope.steepness'>
 <real value='28'/>
@@ -79620,6 +79695,9 @@
 </field>
 <field name='slope.control_point.right.y'>
 <real value='20'/>
+</field>
+<field name='slope.right_side_is_active'>
+<bool value='1'/>
 </field>
 <field name='slope.steepness'>
 <real value='-28'/>
@@ -82726,6 +82804,9 @@
 <field name='slope.control_point.right.x'>
 <real value='-64'/>
 </field>
+<field name='slope.left_side_is_active'>
+<bool value='1'/>
+</field>
 <field name='slope.steepness'>
 <real value='28'/>
 </field>
@@ -82847,6 +82928,9 @@
 </field>
 <field name='slope.control_point.right.x'>
 <real value='-64'/>
+</field>
+<field name='slope.left_side_is_active'>
+<bool value='1'/>
 </field>
 <field name='slope.steepness'>
 <real value='28'/>
@@ -85136,6 +85220,9 @@
 <field name='slope.control_point.right.x'>
 <real value='-64'/>
 </field>
+<field name='slope.left_side_is_active'>
+<bool value='1'/>
+</field>
 <field name='slope.steepness'>
 <real value='28'/>
 </field>
@@ -85595,6 +85682,9 @@
 </field>
 <field name='slope.control_point.right.y'>
 <real value='20'/>
+</field>
+<field name='slope.right_side_is_active'>
+<bool value='1'/>
 </field>
 <field name='slope.steepness'>
 <real value='-28'/>
@@ -86374,6 +86464,9 @@
 </field>
 <field name='slope.control_point.right.y'>
 <real value='20'/>
+</field>
+<field name='slope.right_side_is_active'>
+<bool value='1'/>
 </field>
 <field name='slope.steepness'>
 <real value='-28'/>
@@ -87625,6 +87718,9 @@
 <field name='slope.control_point.right.y'>
 <real value='20'/>
 </field>
+<field name='slope.right_side_is_active'>
+<bool value='1'/>
+</field>
 <field name='slope.steepness'>
 <real value='-28'/>
 </field>
@@ -88648,6 +88744,9 @@
 <field name='slope.control_point.right.x'>
 <real value='-64'/>
 </field>
+<field name='slope.left_side_is_active'>
+<bool value='1'/>
+</field>
 <field name='slope.steepness'>
 <real value='28'/>
 </field>
@@ -89431,6 +89530,9 @@
 </field>
 <field name='slope.control_point.right.y'>
 <real value='20'/>
+</field>
+<field name='slope.right_side_is_active'>
+<bool value='1'/>
 </field>
 <field name='slope.steepness'>
 <real value='-28'/>
@@ -91178,6 +91280,9 @@
 <field name='slope.control_point.right.x'>
 <real value='-64'/>
 </field>
+<field name='slope.left_side_is_active'>
+<bool value='1'/>
+</field>
 <field name='slope.steepness'>
 <real value='28'/>
 </field>
@@ -92341,6 +92446,9 @@
 <field name='slope.control_point.right.y'>
 <real value='20'/>
 </field>
+<field name='slope.right_side_is_active'>
+<bool value='1'/>
+</field>
 <field name='slope.steepness'>
 <real value='-28'/>
 </field>
@@ -92414,6 +92522,9 @@
 <field name='slope.control_point.right.y'>
 <real value='20'/>
 </field>
+<field name='slope.right_side_is_active'>
+<bool value='1'/>
+</field>
 <field name='slope.steepness'>
 <real value='-28'/>
 </field>
@@ -92483,6 +92594,9 @@
 </field>
 <field name='slope.control_point.right.y'>
 <real value='20'/>
+</field>
+<field name='slope.right_side_is_active'>
+<bool value='1'/>
 </field>
 <field name='slope.steepness'>
 <real value='-28'/>
@@ -92648,6 +92762,9 @@
 </field>
 <field name='slope.control_point.right.x'>
 <real value='-64'/>
+</field>
+<field name='slope.left_side_is_active'>
+<bool value='1'/>
 </field>
 <field name='slope.steepness'>
 <real value='28'/>
@@ -93078,6 +93195,9 @@
 </field>
 <field name='slope.control_point.right.y'>
 <real value='20'/>
+</field>
+<field name='slope.right_side_is_active'>
+<bool value='1'/>
 </field>
 <field name='slope.steepness'>
 <real value='-28'/>
@@ -93740,6 +93860,9 @@
 <field name='slope.control_point.right.x'>
 <real value='-64'/>
 </field>
+<field name='slope.left_side_is_active'>
+<bool value='1'/>
+</field>
 <field name='slope.steepness'>
 <real value='28'/>
 </field>
@@ -93815,6 +93938,9 @@
 </field>
 <field name='slope.control_point.right.x'>
 <real value='-64'/>
+</field>
+<field name='slope.left_side_is_active'>
+<bool value='1'/>
 </field>
 <field name='slope.steepness'>
 <real value='28'/>
@@ -94628,6 +94754,9 @@
 </field>
 <field name='slope.control_point.right.x'>
 <real value='-64'/>
+</field>
+<field name='slope.left_side_is_active'>
+<bool value='1'/>
 </field>
 <field name='slope.steepness'>
 <real value='28'/>
@@ -95672,6 +95801,9 @@
 <field name='slope.control_point.right.y'>
 <real value='20'/>
 </field>
+<field name='slope.right_side_is_active'>
+<bool value='1'/>
+</field>
 <field name='slope.steepness'>
 <real value='-28'/>
 </field>
@@ -96540,6 +96672,9 @@
 <field name='slope.control_point.right.y'>
 <real value='20'/>
 </field>
+<field name='slope.right_side_is_active'>
+<bool value='1'/>
+</field>
 <field name='slope.steepness'>
 <real value='-28'/>
 </field>
@@ -96699,6 +96834,9 @@
 </field>
 <field name='slope.control_point.right.x'>
 <real value='-64'/>
+</field>
+<field name='slope.left_side_is_active'>
+<bool value='1'/>
 </field>
 <field name='slope.steepness'>
 <real value='28'/>
@@ -97112,6 +97250,9 @@
 <field name='slope.control_point.right.y'>
 <real value='20'/>
 </field>
+<field name='slope.right_side_is_active'>
+<bool value='1'/>
+</field>
 <field name='slope.steepness'>
 <real value='-28'/>
 </field>
@@ -97257,6 +97398,9 @@
 </field>
 <field name='slope.control_point.right.x'>
 <real value='-64'/>
+</field>
+<field name='slope.left_side_is_active'>
+<bool value='1'/>
 </field>
 <field name='slope.steepness'>
 <real value='28'/>
