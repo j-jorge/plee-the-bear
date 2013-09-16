@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<animation loops='0' first_index='2' last_index='4' loop_back='true' auto_size='true' width='16' height='16' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'>
+<animation loops='0' first_index='2' last_index='4' loop_back='true' auto_size='true' width='19' height='19' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'>
   <frame duration='0.24'>
-    <sprite image='gfx/stone/stone.png' x='16' y='0' clip_width='16' clip_height='16' spritepos='' auto_size='true' width='16' height='16' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+    <sprite image='gfx/stone/stone.png' x='89' y='94' clip_width='19' clip_height='19' spritepos='fire stone 1' auto_size='true' width='19' height='19' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
   </frame>
   <frame duration='0.24'>
-    <sprite image='gfx/stone/stone.png' x='32' y='0' clip_width='16' clip_height='16' spritepos='' auto_size='true' width='16' height='16' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+    <sprite image='gfx/stone/stone.png' x='109' y='94' clip_width='19' clip_height='19' spritepos='fire stone 2' auto_size='true' width='19' height='19' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
   </frame>
   <frame duration='0.16'>
-    <sprite image='gfx/stone/stone.png' x='48' y='0' clip_width='16' clip_height='16' spritepos='' auto_size='true' width='16' height='16' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+    <sprite image='gfx/stone/stone.png' x='129' y='94' clip_width='19' clip_height='19' spritepos='fire stone 3' auto_size='true' width='19' height='19' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
   </frame>
   <frame duration='0.16'>
-    <sprite image='gfx/stone/stone.png' x='64' y='0' clip_width='16' clip_height='16' spritepos='' auto_size='true' width='16' height='16' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+    <sprite image='gfx/stone/stone.png' x='149' y='94' clip_width='19' clip_height='19' spritepos='fire stone 4' auto_size='true' width='19' height='19' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
   </frame>
   <frame duration='0.16'>
-    <sprite image='gfx/stone/stone.png' x='80' y='0' clip_width='16' clip_height='16' spritepos='' auto_size='true' width='16' height='16' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+    <sprite image='gfx/stone/stone.png' x='169' y='94' clip_width='19' clip_height='19' spritepos='fire stone 5' auto_size='true' width='19' height='19' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
   </frame>
 </animation>

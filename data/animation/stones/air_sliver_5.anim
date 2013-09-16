@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<animation loops='0' first_index='0' last_index='0' loop_back='false' auto_size='true' width='15' height='10' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'>
+<animation loops='0' first_index='0' last_index='0' loop_back='false' auto_size='true' width='13' height='10' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'>
   <frame duration='1'>
-    <sprite image='gfx/stone/air-stone.png' x='50' y='46' clip_width='15' clip_height='10' spritepos='air stone part 5' auto_size='true' width='15' height='10' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+    <sprite image='gfx/stone/stone.png' x='384' y='29' clip_width='13' clip_height='10' spritepos='balloon part 5' auto_size='true' width='13' height='10' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
   </frame>
 </animation>

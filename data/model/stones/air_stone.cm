@@ -1,11 +1,11 @@
 0
-7
+9
 0
 5
 content_file
 animation/stones/air_stone.canim
-32
-23
+39
+28
 0
 0
 1
@@ -26,8 +26,8 @@ animation/stones/air_blast_stone.canim
 0
 content_file
 animation/stones/air_stone_deflating.canim
-32
-23
+39
+28
 0
 0
 1
@@ -37,8 +37,8 @@ animation/stones/air_stone_deflating.canim
 0
 content_file
 animation/stones/air_stone_exploding.canim
-32
-23
+39
+28
 0
 0
 1
@@ -48,8 +48,8 @@ animation/stones/air_stone_exploding.canim
 0
 content_file
 animation/stones/air_stone_deflated.canim
-32
-23
+39
+28
 0
 0
 1

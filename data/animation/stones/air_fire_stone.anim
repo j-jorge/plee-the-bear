@@ -1,51 +1,51 @@
 <?xml version="1.0" encoding="utf-8"?>
-<animation loops='0' first_index='0' last_index='15' loop_back='false' auto_size='true' width='28' height='25' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'>
+<animation loops='0' first_index='0' last_index='15' loop_back='false' auto_size='true' width='26' height='23' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'>
   <frame duration='0.06'>
-    <sprite image='gfx/stone/stone.png' x='0' y='68' clip_width='28' clip_height='25' spritepos='air fire stone 1' auto_size='true' width='28' height='25' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+    <sprite image='gfx/stone/stone.png' x='466' y='41' clip_width='26' clip_height='23' spritepos='gas cylinder 1' auto_size='true' width='26' height='23' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
   </frame>
   <frame duration='0.06'>
-    <sprite image='gfx/stone/stone.png' x='28' y='68' clip_width='28' clip_height='25' spritepos='air fire stone 2' auto_size='true' width='28' height='25' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+    <sprite image='gfx/stone/stone.png' x='0' y='70' clip_width='26' clip_height='23' spritepos='gas cylinder 2' auto_size='true' width='26' height='23' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
   </frame>
   <frame duration='0.06'>
-    <sprite image='gfx/stone/stone.png' x='56' y='68' clip_width='28' clip_height='25' spritepos='air fire stone 3' auto_size='true' width='28' height='25' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+    <sprite image='gfx/stone/stone.png' x='27' y='70' clip_width='26' clip_height='23' spritepos='gas cylinder 3' auto_size='true' width='26' height='23' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
   </frame>
   <frame duration='0.06'>
-    <sprite image='gfx/stone/stone.png' x='84' y='68' clip_width='28' clip_height='25' spritepos='air fire stone 4' auto_size='true' width='28' height='25' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+    <sprite image='gfx/stone/stone.png' x='54' y='70' clip_width='26' clip_height='23' spritepos='gas cylinder 4' auto_size='true' width='26' height='23' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
   </frame>
   <frame duration='0.06'>
-    <sprite image='gfx/stone/stone.png' x='112' y='68' clip_width='28' clip_height='25' spritepos='air fire stone 5' auto_size='true' width='28' height='25' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+    <sprite image='gfx/stone/stone.png' x='81' y='70' clip_width='26' clip_height='23' spritepos='gas cylinder 5' auto_size='true' width='26' height='23' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
   </frame>
   <frame duration='0.06'>
-    <sprite image='gfx/stone/stone.png' x='84' y='68' clip_width='28' clip_height='25' spritepos='air fire stone 4' auto_size='true' width='28' height='25' mirror='boolean_false' flip='boolean_true' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+    <sprite image='gfx/stone/stone.png' x='54' y='70' clip_width='26' clip_height='23' spritepos='gas cylinder 4' auto_size='true' width='26' height='23' mirror='boolean_false' flip='boolean_true' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
   </frame>
   <frame duration='0.06'>
-    <sprite image='gfx/stone/stone.png' x='56' y='68' clip_width='28' clip_height='25' spritepos='air fire stone 3' auto_size='true' width='28' height='25' mirror='boolean_false' flip='boolean_true' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+    <sprite image='gfx/stone/stone.png' x='27' y='70' clip_width='26' clip_height='23' spritepos='gas cylinder 3' auto_size='true' width='26' height='23' mirror='boolean_false' flip='boolean_true' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
   </frame>
   <frame duration='0.06'>
-    <sprite image='gfx/stone/stone.png' x='28' y='68' clip_width='28' clip_height='25' spritepos='air fire stone 2' auto_size='true' width='28' height='25' mirror='boolean_false' flip='boolean_true' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+    <sprite image='gfx/stone/stone.png' x='0' y='70' clip_width='26' clip_height='23' spritepos='gas cylinder 2' auto_size='true' width='26' height='23' mirror='boolean_false' flip='boolean_true' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
   </frame>
   <frame duration='0.06'>
-    <sprite image='gfx/stone/stone.png' x='0' y='68' clip_width='28' clip_height='25' spritepos='air fire stone 1' auto_size='true' width='28' height='25' mirror='boolean_false' flip='boolean_true' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+    <sprite image='gfx/stone/stone.png' x='466' y='41' clip_width='26' clip_height='23' spritepos='gas cylinder 1' auto_size='true' width='26' height='23' mirror='boolean_false' flip='boolean_true' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
   </frame>
   <frame duration='0.06'>
-    <sprite image='gfx/stone/stone.png' x='140' y='68' clip_width='28' clip_height='25' spritepos='air fire stone 6' auto_size='true' width='28' height='25' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+    <sprite image='gfx/stone/stone.png' x='108' y='70' clip_width='26' clip_height='23' spritepos='gas cylinder 6' auto_size='true' width='26' height='23' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
   </frame>
   <frame duration='0.06'>
-    <sprite image='gfx/stone/stone.png' x='168' y='68' clip_width='28' clip_height='25' spritepos='air fire stone 7' auto_size='true' width='28' height='25' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+    <sprite image='gfx/stone/stone.png' x='135' y='70' clip_width='26' clip_height='23' spritepos='gas cylinder 7' auto_size='true' width='26' height='23' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
   </frame>
   <frame duration='0.06'>
-    <sprite image='gfx/stone/stone.png' x='196' y='68' clip_width='28' clip_height='25' spritepos='air fire stone 8' auto_size='true' width='28' height='25' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+    <sprite image='gfx/stone/stone.png' x='162' y='70' clip_width='26' clip_height='23' spritepos='gas cylinder 8' auto_size='true' width='26' height='23' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
   </frame>
   <frame duration='0.06'>
-    <sprite image='gfx/stone/stone.png' x='224' y='68' clip_width='28' clip_height='25' spritepos='air fire stone 9' auto_size='true' width='28' height='25' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+    <sprite image='gfx/stone/stone.png' x='189' y='70' clip_width='26' clip_height='23' spritepos='gas cylinder 9' auto_size='true' width='26' height='23' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
   </frame>
   <frame duration='0.06'>
-    <sprite image='gfx/stone/stone.png' x='196' y='68' clip_width='28' clip_height='25' spritepos='air fire stone 8' auto_size='true' width='28' height='25' mirror='boolean_false' flip='boolean_true' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+    <sprite image='gfx/stone/stone.png' x='162' y='70' clip_width='26' clip_height='23' spritepos='gas cylinder 8' auto_size='true' width='26' height='23' mirror='boolean_false' flip='boolean_true' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
   </frame>
   <frame duration='0.06'>
-    <sprite image='gfx/stone/stone.png' x='168' y='68' clip_width='28' clip_height='25' spritepos='air fire stone 7' auto_size='true' width='28' height='25' mirror='boolean_false' flip='boolean_true' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+    <sprite image='gfx/stone/stone.png' x='135' y='70' clip_width='26' clip_height='23' spritepos='gas cylinder 7' auto_size='true' width='26' height='23' mirror='boolean_false' flip='boolean_true' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
   </frame>
   <frame duration='0.06'>
-    <sprite image='gfx/stone/stone.png' x='140' y='68' clip_width='28' clip_height='25' spritepos='air fire stone 6' auto_size='true' width='28' height='25' mirror='boolean_false' flip='boolean_true' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+    <sprite image='gfx/stone/stone.png' x='108' y='70' clip_width='26' clip_height='23' spritepos='gas cylinder 6' auto_size='true' width='26' height='23' mirror='boolean_false' flip='boolean_true' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
   </frame>
 </animation>

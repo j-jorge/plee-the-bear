@@ -1,55 +1,65 @@
-# The format of the lines is
-# picture: x y width height
-
-default stone: 0 0 16 16
-
-fire stone 1: 24 0 24 24
-fire stone 2: 48 0 24 24
-fire stone 2: 72 0 24 24
-fire stone 3: 96 0 24 24
-fire stone 4: 120 0 24 24
-
-air fire water stone 1: 0 24 32 32
-air fire water stone 2: 32 24 32 32
-air fire water stone 3: 64 24 32 32
-air fire water stone 4: 96 24 32 32
-air fire water stone 5: 128 24 32 32
-air fire water stone 6: 160 24 32 32
-air fire water stone 7: 192 24 32 32
-air fire water stone 8: 224 24 32 32
-
-water stone 1: 0 48 20 20
-water stone 2: 20 48 20 20
-water stone 3: 40 48 20 20
-water stone 4: 60 48 20 20
-water stone 5: 80 48 20 20
-
-air water stone 1: 100 48 20 20
-
-air fire stone 1: 0 68 28 25
-air fire stone 2: 28 68 28 25
-air fire stone 3: 56 68 28 25
-air fire stone 4: 84 68 28 25
-air fire stone 5: 112 68 28 25
-air fire stone 6: 140 68 28 25
-air fire stone 7: 168 68 28 25
-air fire stone 8: 196 68 28 25
-air fire stone 9: 224 68 28 25
-
-air fire stone part 1: 96 0 12 12
-air fire stone part 2: 108 0 15 14
-air fire stone part 3: 123 0 10 11
-air fire stone part 4: 133 0 15 12
-air fire stone part 5: 148 0 16 10
-
-water fire stone 1:   0 93 22 21
-water fire stone 2:  22 93 22 21
-water fire stone 3:  44 93 22 21
-water fire stone 4:  66 93 22 21
-water fire stone 5:  88 93 22 21
-water fire stone 6: 110 93 22 21
-water fire stone 7: 132 93 22 21
-water fire stone 8: 154 93 22 21
-water fire stone 9: 176 93 22 21
-water fire stone 10: 198 93 22 21
-water fire stone 11: 220 93 22 21
+tech 1: 0 0 40 40
+tech 2: 41 0 40 40
+tech 3: 82 0 40 40
+tech 4: 123 0 40 40
+tech 5: 164 0 40 40
+tech 6: 205 0 40 40
+tech 7: 246 0 40 40
+tech 8: 287 0 40 40
+balloon 1: 328 0 39 28
+balloon 2: 368 0 39 28
+balloon 3: 408 0 39 28
+deflating balloon 1: 448 0 39 28
+deflating balloon 2: 0 41 39 28
+deflating balloon 3: 40 41 39 28
+deflating balloon 4: 80 41 39 28
+deflating balloon 5: 120 41 39 28
+deflating balloon 6: 160 41 39 28
+deflating balloon 7: 200 41 39 28
+deflating balloon 8: 240 41 39 28
+deflating balloon 9: 280 41 39 28
+big balloon 1: 320 41 39 28
+big balloon 2: 360 41 39 28
+big balloon 3: 400 41 39 28
+bubble: 440 41 25 25
+gas cylinder 1: 466 41 26 23
+gas cylinder 2: 0 70 26 23
+gas cylinder 3: 27 70 26 23
+gas cylinder 4: 54 70 26 23
+gas cylinder 5: 81 70 26 23
+gas cylinder 6: 108 70 26 23
+gas cylinder 7: 135 70 26 23
+gas cylinder 8: 162 70 26 23
+gas cylinder 9: 189 70 26 23
+water 1: 488 0 23 22
+water 2: 216 70 23 22
+water 3: 240 70 23 22
+water 4: 264 70 23 22
+water 5: 288 70 23 22
+lava 1: 312 70 22 21
+lava 2: 335 70 22 21
+lava 3: 358 70 22 21
+lava 4: 381 70 22 21
+lava 5: 404 70 22 21
+lava 6: 427 70 22 21
+lava 7: 450 70 22 21
+lava 8: 473 70 22 21
+lava 9: 0 94 22 21
+lava 10: 23 94 22 21
+lava extincted: 46 94 22 21
+stone: 69 94 19 19
+fire stone 1: 89 94 19 19
+fire stone 2: 109 94 19 19
+fire stone 3: 129 94 19 19
+fire stone 4: 149 94 19 19
+fire stone 5: 169 94 19 19
+gas cylinder part 2: 496 70 14 13
+balloon part 4: 493 41 8 13
+gas cylinder part 1: 328 29 11 11
+gas cylinder part 4: 340 29 15 11
+gas cylinder part 3: 356 29 10 10
+gas cylinder part 5: 367 29 16 10
+balloon part 5: 384 29 13 10
+balloon part 1: 493 55 15 9
+balloon part 2: 398 29 13 8
+balloon part 3: 496 84 15 7

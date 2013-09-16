@@ -1,0 +1,399 @@
+sprite_sheet "stone" 512 x 256 margin 1 order "height"
+
+stone_img "stone.xcf.bz2"
+homing_missile_name "air-fire-water-stone.xcf.bz2"
+water_name "water-stone.xcf.bz2"
+bubble "air-water-stone.xcf.bz2"
+gas_cylinder "air-fire-stone.xcf.bz2"
+gas_cylinder_parts "air-fire-stone-parts.xcf.bz2"
+lava "water-fire-stone.xcf.bz2"
+balloon "air-stone.xcf.bz2"
+balloon_parts "air-stone-parts.xcf.bz2"
+
+/*----------------------------------------------------------------------------*/
+/* Simple stone */
+"stone" image_size * 0.5 with stone_img
+  "noise"
+  "1"
+;
+
+/*----------------------------------------------------------------------------*/
+/* Fire stone */
+"fire stone 1" image_size * 0.5 with stone_img
+  "noise"
+  "Fire Shadow"
+  "black"
+  "fire 1"
+;
+
+"fire stone 2" image_size * 0.5 with stone_img
+  "noise"
+  "Fire Shadow"
+  "red"
+  "fire 1"
+;
+
+"fire stone 3" image_size * 0.5 with stone_img
+  "noise"
+  "Fire Shadow"
+  "orange"
+  "red"
+  "fire 1"
+;
+
+"fire stone 4" image_size * 0.5 with stone_img
+  "noise"
+  "Fire Shadow"
+  "yellow"
+  "orange"
+  "red"
+  "fire 1"
+;
+
+"fire stone 5" image_size * 0.5 with stone_img
+  "noise"
+  "Fire Shadow"
+  "white"
+  "yellow"
+  "orange"
+  "red"
+  "fire 1"
+;
+
+/*----------------------------------------------------------------------------*/
+/* Part of air + fire */
+"gas cylinder part 1" autosize * 0.5 with gas_cylinder_parts
+  "1"
+;
+
+"gas cylinder part 2" autosize * 0.5 with gas_cylinder_parts
+  "2"
+;
+
+"gas cylinder part 3" autosize * 0.5 with gas_cylinder_parts
+  "3"
+;
+
+"gas cylinder part 4" autosize * 0.5 with gas_cylinder_parts
+  "4"
+;
+
+"gas cylinder part 5" autosize * 0.5 with gas_cylinder_parts
+  "5"
+;
+
+/*----------------------------------------------------------------------------*/
+/* air + fire */
+"gas cylinder 1" image_size * 0.5 with gas_cylinder
+  "valve 0"
+  "red 0"
+  "base"
+;
+
+"gas cylinder 2" image_size * 0.5 with gas_cylinder
+  "valve 1"
+  "red 1"
+  "base"
+;
+
+"gas cylinder 3" image_size * 0.5 with gas_cylinder
+  "valve 2"
+  "red 2"
+  "base"
+;
+
+"gas cylinder 4" image_size * 0.5 with gas_cylinder
+  "valve 3"
+  "red 3"
+  "base"
+;
+
+"gas cylinder 5" image_size * 0.5 with gas_cylinder
+  "valve 4"
+  "red 4"
+  "base"
+;
+
+"gas cylinder 6" image_size * 0.5 with gas_cylinder
+  "back fire 1"
+  "red 1"
+  "base"
+;
+
+"gas cylinder 7" image_size * 0.5 with gas_cylinder
+  "back fire 2"
+  "red 2"
+  "base"
+;
+
+"gas cylinder 8" image_size * 0.5 with gas_cylinder
+  "back fire 3"
+  "red 3"
+  "base"
+;
+
+"gas cylinder 9" image_size * 0.5 with gas_cylinder
+  "back fire 4"
+  "red 4"
+  "base"
+;
+
+/*----------------------------------------------------------------------------*/
+/* tech */
+"tech 1" image_size * 0.5 with homing_missile_name
+  "antennas' bottom"
+  "antenna front"
+  "shadows"
+  "ball"
+
+  "antennas 0"
+;
+
+"tech 2" image_size * 0.5 with homing_missile_name
+  "antennas' bottom"
+  "antenna front"
+  "shadows"
+  "ball"
+
+  "antennas 1"
+;
+
+"tech 3" image_size * 0.5 with homing_missile_name
+  "antennas' bottom"
+  "antenna front"
+  "shadows"
+  "ball"
+
+  "antennas 2"
+;
+
+"tech 4" image_size * 0.5 with homing_missile_name
+  "antennas' bottom"
+  "antenna front"
+  "shadows"
+  "ball"
+
+  "antennas 3"
+;
+
+"tech 5" image_size * 0.5 with homing_missile_name
+  "antennas' bottom"
+  "antenna front"
+  "shadows"
+  "ball"
+
+  "antennas 4"
+;
+
+"tech 6" image_size * 0.5 with homing_missile_name
+  "antennas' bottom"
+  "antenna front"
+  "shadows"
+  "ball"
+
+  glob "antenna *"
+;
+
+"tech 7" image_size * 0.5 with homing_missile_name
+  "antennas' bottom"
+  "antenna front"
+  "shadows"
+  "ball"
+
+  glob "antenna *"
+  "halo 1"
+;
+
+"tech 8" image_size * 0.5 with homing_missile_name
+  "antennas' bottom"
+  "antenna front"
+  "shadows"
+  "ball"
+
+  glob "antenna *"
+  "halo 1"
+  "halo 0"
+;
+
+/*----------------------------------------------------------------------------*/
+/* water */
+"water 1" image_size * 0.5 with water_name
+  "base 0"
+;
+
+"water 2" image_size * 0.5 with water_name
+  "base 1"
+;
+
+"water 3" image_size * 0.5 with water_name
+  "base 2"
+;
+
+"water 4" image_size * 0.5 with water_name
+  "base 3"
+;
+
+"water 5" image_size * 0.5 with water_name
+  "base 4"
+;
+
+/*----------------------------------------------------------------------------*/
+/* bubble */
+"bubble" image_size * 0.4 with bubble
+  glob "*"
+;
+
+/*----------------------------------------------------------------------------*/
+/* lava */
+"lava 1" image_size * 0.5 with lava
+  "base"
+;
+
+"lava 2" image_size * 0.5 with lava
+  "base 2"
+;
+
+"lava 3" image_size * 0.5 with lava
+  "base 3"
+;
+
+"lava 4" image_size * 0.5 with lava
+  "base 2"
+  "bubble right 1"
+;
+
+"lava 5" image_size * 0.5 with lava
+  "base"
+  "bubble right 2"
+;
+
+"lava 6" image_size * 0.5 with lava
+  "base 2"
+  "bubble right 3"
+;
+
+"lava 7" image_size * 0.5 with lava
+  "base 3"
+  "bubble left 1"
+;
+
+"lava 8" image_size * 0.5 with lava
+  "base 2"
+  "bubble left 2"
+;
+
+"lava 9" image_size * 0.5 with lava
+  "base 2"
+  "bubble left 3"
+;
+
+"lava 10" image_size * 0.5 with lava
+  "base 2"
+  "bubble left 4"
+;
+
+"lava extincted" image_size * 0.5 with lava
+  "extincted"
+;
+
+/*----------------------------------------------------------------------------*/
+/* balloon */
+"balloon 1" image_size * 0.5 with balloon
+  "air 0"
+  "hole 0"
+  "balloon 0"
+;
+
+"balloon 2" image_size * 0.5 with balloon
+  "air 1"
+  "hole 1"
+  "balloon 0"
+;
+
+"balloon 3" image_size * 0.5 with balloon
+  "air 2"
+  "hole 2"
+  "balloon 0"
+;
+
+"deflating balloon 1" image_size * 0.5 with balloon
+  "hole 0"
+  "balloon 0"
+;
+
+"deflating balloon 2" image_size * 0.5 with balloon
+  "hole 1"
+  "balloon 0"
+;
+
+"deflating balloon 3" image_size * 0.5 with balloon
+  "hole 2"
+  "balloon 0"
+;
+
+"deflating balloon 4" image_size * 0.5 with balloon
+  "hole 0"
+  "balloon 1"
+;
+
+"deflating balloon 5" image_size * 0.5 with balloon
+  "hole 1"
+  "balloon 1"
+;
+
+"deflating balloon 6" image_size * 0.5 with balloon
+  "hole 2"
+  "balloon 1"
+;
+
+"deflating balloon 7" image_size * 0.5 with balloon
+  "hole 0"
+  "balloon 2"
+;
+
+"deflating balloon 8" image_size * 0.5 with balloon
+  "hole 1"
+  "balloon 2"
+;
+
+"deflating balloon 9" image_size * 0.5 with balloon
+  "hole 2"
+  "balloon 2"
+;
+
+"big balloon 1" image_size * 0.5 with balloon
+  "hole 0"
+  "big balloon"
+;
+
+"big balloon 2" image_size * 0.5 with balloon
+  "hole 1"
+  "big balloon"
+;
+
+"big balloon 3" image_size * 0.5 with balloon
+  "hole 2"
+  "big balloon"
+;
+
+/*----------------------------------------------------------------------------*/
+/* balloon parts */
+"balloon part 1" autosize * 0.5 with balloon_parts
+  "1"
+;
+
+"balloon part 2" autosize * 0.5 with balloon_parts
+  "2"
+;
+
+"balloon part 3" autosize * 0.5 with balloon_parts
+  "3"
+;
+
+"balloon part 4" autosize * 0.5 with balloon_parts
+  "4"
+;
+
+"balloon part 5" autosize * 0.5 with balloon_parts
+  "5"
+;
