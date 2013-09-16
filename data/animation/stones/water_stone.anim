@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<animation loops='0' first_index='0' last_index='7' loop_back='false' auto_size='true' width='20' height='20' mirror='boolean_false' flip='boolean_false' angle='0' opacity='0.5' red_intensity='1' green_intensity='1' blue_intensity='1'>
+<animation loops='0' first_index='0' last_index='7' loop_back='false' auto_size='true' width='20' height='20' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'>
   <frame duration='0.12'>
     <sprite image='gfx/stone/stone.png' x='80' y='48' clip_width='20' clip_height='20' spritepos='water stone 5' auto_size='true' width='20' height='20' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
   </frame>
