@@ -4422,7 +4422,7 @@
 <real value='2100'/>
 </field>
 <field name='player_settings.lives'>
-<u_integer value='1'/>
+<u_integer value='2'/>
 </field>
 <field name='player_settings.max_energy'>
 <real value='100'/>
@@ -4687,7 +4687,7 @@
 <real value='2186'/>
 </field>
 <field name='player_settings.lives'>
-<u_integer value='1'/>
+<u_integer value='2'/>
 </field>
 <field name='player_settings.max_energy'>
 <real value='100'/>
