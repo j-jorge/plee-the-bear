@@ -121,10 +121,6 @@ void ptb::frame_main_menu::create_controls()
     ( gettext("Mini-game"),
       bear::gui::callback_function_maker
       ( boost::bind( &frame_main_menu::on_mini_game, this ) ) );
-  push
-    ( gettext("Tutorial"),
-      bear::gui::callback_function_maker
-      ( boost::bind( &frame_main_menu::on_tutorial, this ) ) );
 
   push
     ( gettext("Story mode"),
@@ -171,22 +167,6 @@ void ptb::frame_main_menu::on_game()
 {
   show_window( new frame_profiles(&get_layer()) );
 } // frame_main_menu::on_game()
-
-/*----------------------------------------------------------------------------*/
-/**
- * \brief Action done when clicking on the "Start tutorial" entry.
- */
-void ptb::frame_main_menu::on_tutorial()
-{
-  game_variables::set_last_level_exit
-    ( "level/tutorial.cl",  1, PTB_DEFAULT_EXIT_NAME );
-  game_variables::set_last_level_exit
-    ( "level/tutorial.cl",  2, PTB_DEFAULT_EXIT_NAME );
-  game_variables::set_next_level_name( "level/tutorial.cl" );
-  show_window
-    ( new frame_start_menu
-      (&get_layer(), true, playability_type::one_or_two_players) );
-} // frame_main_menu::on_tutorial()
 
 /*----------------------------------------------------------------------------*/
 /**

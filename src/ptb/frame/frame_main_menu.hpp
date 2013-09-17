@@ -41,7 +41,6 @@ namespace ptb
     void on_focus();
     void on_configuration();
     void on_game();
-    void on_tutorial();
     void on_mini_game();
     void on_quit();
 
