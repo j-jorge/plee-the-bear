@@ -3116,29 +3116,20 @@ void ptb::player::progress_spot( bear::universe::time_type elapsed_time )
         }
     }
 
-  if ( get_speed().x > get_speed_to_run() )
+ bear::universe::coordinate_type gap =
+   std::min( 2.0, std::abs(get_speed().x) * 2.0 / get_speed_to_run());
+      
+  if ( get_speed().x > ( get_speed_to_run() / 2 ) )
     {
       set_spot_maximum(200, 220);
       balance_x = false;
-      add_spot_gap( bear::universe::position_type(3, 0) );
-    }
-  else if ( get_speed().x < -get_speed_to_run() )
-    {
-      set_spot_minimum(-200, -250);
-      balance_x = false;
-      add_spot_gap( bear::universe::position_type(-3, 0) );
-    }
-  else if ( get_speed().x > ( get_speed_to_run() / 2 ) )
-    {
-      set_spot_maximum(100, 220);
-      balance_x = false;
-      add_spot_gap( bear::universe::position_type(1, 0) );
+      add_spot_gap( bear::universe::position_type(gap, 0) );
     }
   else if ( get_speed().x < (- get_speed_to_run() / 2) )
     {
-      set_spot_minimum(-100, -250);
+      set_spot_minimum(-200, -250);
       balance_x = false;
-      add_spot_gap( bear::universe::position_type(-1, 0) );
+      add_spot_gap( bear::universe::position_type(-gap, 0) );
     }
 
   balance_spot(balance_x, balance_y);
