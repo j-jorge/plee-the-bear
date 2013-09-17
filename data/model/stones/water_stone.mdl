@@ -3,7 +3,7 @@
 <action name="attack" duration="0.54" auto_next="attack">
 <marks>
 <mark label="stone" apply_angle_to_animation="0" pause_animation_when_hidden="0">
-<animation_file path='animation/stones/water_stone.canim' auto_size='true' width='20' height='20' mirror='boolean_false' flip='boolean_false' angle='0' opacity='0.5' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+<animation_file path='animation/stones/water_stone.canim' auto_size='true' width='23' height='22' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </mark>
 </marks>
 <snapshots>
