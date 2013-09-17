@@ -30,6 +30,17 @@
 
 BASE_ITEM_EXPORT( bonus_box, ptb )
 
+
+/*----------------------------------------------------------------------------*/
+/**
+ * \brief Creates the item with the default values.
+ */
+ptb::bonus_box::bonus_box()
+{
+  set_size( 50, 80 );
+  set_gap_x(-5);
+} // bonus_box::bonus_box()
+
 /*----------------------------------------------------------------------------*/
 /**
  * \brief Load the media required by this class.
@@ -64,18 +75,6 @@ void ptb::bonus_box::pre_cache()
   get_level_globals().load_image("gfx/bonus-box-2.png");
   get_level_globals().load_image("gfx/ui/ui-1.png");
 } // bonus_box::pre_cache()
-
-/*----------------------------------------------------------------------------*/
-/**
- * \brief Initialize the item.
- */
-void ptb::bonus_box::build()
-{
-  super::build();
-  
-  set_size( 50, 80 );
-  set_gap_x(-5);
-} // bonus_box::build()
 
 /*----------------------------------------------------------------------------*/
 /**

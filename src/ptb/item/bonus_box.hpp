@@ -37,8 +37,9 @@ namespace ptb
     typedef counted_item<base_bonus> super;
 
   public:
+    bonus_box();
+
     void pre_cache();
-    void build();
 
   private:
     std::string get_picture_filename() const;
