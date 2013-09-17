@@ -1,87 +1,51 @@
-sprite_sheet "air-blast" 512 x 256 margin 1
+sprite_sheet "air-blast" 512 x 512 margin 1
 
 img "air-blast.xcf.bz2"
 
-"blast 1" autosize * 0.5 with img
+"blast 1" autosize * 0.63 with img
   "1"
   "circle 1"
   ;
 
-"blast 2" autosize * 0.5 with img
+"blast 2" autosize * 0.63 with img
+  "2"
+  "circle 2"
+  ;
+
+"blast 3" autosize * 0.63 with img
   "1"
   "circle 1"
-  "2"
-  "circle 2"
-  ;
-
-"blast 3" autosize * 0.5 with img
-  "2"
-  "circle 2"
   "3"
   "circle 3"
   ;
 
-"blast 4" autosize * 0.5 with img
+"blast 4" autosize * 0.63 with img
   "2"
   "circle 2"
-  "3"
-  "circle 3"
   "4"
   "circle 4"
   ;
 
-"blast 5" autosize * 0.5 with img
-  "2"
-  "circle 2"
+"blast 5" autosize * 0.63 with img
   "3"
   "circle 3"
-  "4"
-  "circle 4"
   "5"
   "circle 5"
   ;
 
-"blast 6" autosize * 0.5 with img
-  "2"
-  "circle 2"
-  "3"
-  "circle 3"
+"blast 6" autosize * 0.63 with img
   "4"
   "circle 4"
-  "5"
-  "circle 5"
   "6"
   "circle 6"
   ;
 
-"blast 7" autosize * 0.5 with img
-  "3"
-  "circle 3"
-  "4"
-  "circle 4"
+"blast 7" autosize * 0.63 with img
   "5"
   "circle 5"
-  "6"
-  "circle 6"
   ;
 
-"blast 8" autosize * 0.5 with img
-  "4"
-  "circle 4"
-  "5"
-  "circle 5"
-  "6"
-  "circle 6"
-  ;
-
-"blast 9" autosize * 0.5 with img
-  "5"
-  "circle 5"
-  "6"
-  "circle 6"
-  ;
-
-"blast 10" autosize * 0.5 with img
+"blast 8" autosize * 0.63 with img
   "6"
   "circle 6"
   ;
