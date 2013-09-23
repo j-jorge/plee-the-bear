@@ -5,7 +5,7 @@ The Forest act 2
 30000
 8275
 music/forest-1.ogg
-3929
+3930
 6
 70
 decoration_layer
@@ -766,7 +766,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -880,7 +880,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -918,7 +918,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -1064,7 +1064,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -1140,7 +1140,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -1178,7 +1178,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -1368,7 +1368,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -1444,7 +1444,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -1482,7 +1482,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -1660,7 +1660,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -1698,7 +1698,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -1806,7 +1806,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -1958,7 +1958,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -1996,7 +1996,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -2034,7 +2034,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -2142,7 +2142,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -2180,7 +2180,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -2218,7 +2218,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -2256,7 +2256,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -2446,7 +2446,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -2820,7 +2820,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -2858,7 +2858,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -2896,7 +2896,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -2934,7 +2934,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -2972,7 +2972,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -3194,7 +3194,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -3308,7 +3308,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -3346,7 +3346,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -3460,7 +3460,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -3498,7 +3498,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -3574,7 +3574,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -3612,7 +3612,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -3688,7 +3688,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -3802,7 +3802,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -3878,7 +3878,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -3954,7 +3954,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -4030,7 +4030,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -4068,7 +4068,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -4144,7 +4144,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -4448,7 +4448,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -4486,7 +4486,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -4524,7 +4524,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -4562,7 +4562,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -4600,7 +4600,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -4676,7 +4676,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -4714,7 +4714,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -4752,7 +4752,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -4790,7 +4790,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -4828,7 +4828,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -4942,7 +4942,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -5056,7 +5056,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -5170,7 +5170,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -5246,7 +5246,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -5322,7 +5322,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -5360,7 +5360,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -5398,7 +5398,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -5436,7 +5436,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -5474,7 +5474,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -5512,7 +5512,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -5626,7 +5626,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -5664,7 +5664,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -5740,7 +5740,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -5778,7 +5778,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -5816,7 +5816,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -5854,7 +5854,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -5968,7 +5968,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -6006,7 +6006,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -6044,7 +6044,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -6082,7 +6082,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -6120,7 +6120,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -6234,7 +6234,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -6272,7 +6272,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -6348,7 +6348,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -6424,7 +6424,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -6462,7 +6462,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -6500,7 +6500,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -6576,7 +6576,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -6652,7 +6652,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -6766,7 +6766,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -6804,7 +6804,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -6842,7 +6842,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -6880,7 +6880,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -6956,7 +6956,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -7251,7 +7251,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -7324,7 +7324,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -7362,7 +7362,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -7470,7 +7470,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -7575,7 +7575,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -7610,7 +7610,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -7645,7 +7645,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -7680,7 +7680,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -7750,7 +7750,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -7785,7 +7785,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -7820,7 +7820,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -7890,7 +7890,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -7925,7 +7925,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -7995,7 +7995,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -8030,7 +8030,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -8100,7 +8100,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -8135,7 +8135,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -8170,7 +8170,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -8205,7 +8205,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -8310,7 +8310,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -8345,7 +8345,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -8555,7 +8555,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -8625,7 +8625,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -8660,7 +8660,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -8730,7 +8730,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -8765,7 +8765,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -8800,7 +8800,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -8876,7 +8876,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -8914,7 +8914,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -8990,7 +8990,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -9142,7 +9142,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -9218,7 +9218,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -9484,7 +9484,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -9522,7 +9522,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -9598,7 +9598,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -9636,7 +9636,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -9674,7 +9674,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -9712,7 +9712,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -9826,7 +9826,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -9864,7 +9864,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -9940,7 +9940,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -10016,7 +10016,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -10168,7 +10168,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -10206,7 +10206,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -10282,7 +10282,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -10320,7 +10320,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -10396,7 +10396,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -10472,7 +10472,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -10586,7 +10586,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -10624,7 +10624,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -10662,7 +10662,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -10776,7 +10776,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -10890,7 +10890,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -10928,7 +10928,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -11004,7 +11004,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -11042,7 +11042,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -11080,7 +11080,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -11118,7 +11118,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -11156,7 +11156,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -11194,7 +11194,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -11232,7 +11232,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -11346,7 +11346,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -11685,7 +11685,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -11761,7 +11761,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -11799,7 +11799,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -11875,7 +11875,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -11951,7 +11951,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -11989,7 +11989,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -12027,7 +12027,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -12141,7 +12141,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -12217,7 +12217,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -12255,7 +12255,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -12293,7 +12293,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -12407,7 +12407,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -12754,7 +12754,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -12792,7 +12792,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -12830,7 +12830,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -12868,7 +12868,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -12982,7 +12982,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -13020,7 +13020,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -13058,7 +13058,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -13286,7 +13286,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -13324,7 +13324,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -13362,7 +13362,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -13552,7 +13552,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -13826,7 +13826,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -13940,7 +13940,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -13978,7 +13978,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -14244,7 +14244,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -14320,7 +14320,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -14358,7 +14358,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -14472,7 +14472,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -14732,7 +14732,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -14846,7 +14846,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -14884,7 +14884,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -14922,7 +14922,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -14998,7 +14998,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -15036,7 +15036,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -15147,7 +15147,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -15185,7 +15185,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -15223,7 +15223,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -15375,7 +15375,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -15489,7 +15489,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -15717,7 +15717,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -15755,7 +15755,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -15942,7 +15942,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -16056,7 +16056,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -16433,7 +16433,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -16547,7 +16547,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -16585,7 +16585,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -16661,7 +16661,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -16737,7 +16737,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -16813,7 +16813,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -16965,7 +16965,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -17041,7 +17041,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -17155,7 +17155,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -17193,7 +17193,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -17269,7 +17269,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -17304,7 +17304,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -17342,7 +17342,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -17380,7 +17380,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -17418,7 +17418,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -17646,7 +17646,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -17874,7 +17874,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -17950,7 +17950,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -18026,7 +18026,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -18102,7 +18102,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -18140,7 +18140,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -18178,7 +18178,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -18254,7 +18254,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -18292,7 +18292,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -18327,7 +18327,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -18441,7 +18441,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -18479,7 +18479,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -18517,7 +18517,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -18555,7 +18555,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -18631,7 +18631,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -18783,7 +18783,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -18859,7 +18859,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -19011,7 +19011,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -19087,7 +19087,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -19125,7 +19125,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -19163,7 +19163,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -19201,7 +19201,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -19277,7 +19277,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -19391,7 +19391,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -19429,7 +19429,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -19502,7 +19502,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -19540,7 +19540,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -19578,7 +19578,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -19616,7 +19616,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -19926,7 +19926,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -19964,7 +19964,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -20002,7 +20002,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -20078,7 +20078,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -20192,7 +20192,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -20306,7 +20306,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -20420,7 +20420,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -20458,7 +20458,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -20607,7 +20607,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -20645,7 +20645,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -20683,7 +20683,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -20721,7 +20721,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -20759,7 +20759,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -20873,7 +20873,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -20911,7 +20911,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -20987,7 +20987,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -21060,7 +21060,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -21098,7 +21098,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -21212,7 +21212,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -21250,7 +21250,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -21288,7 +21288,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -21440,7 +21440,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -21630,7 +21630,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -21706,7 +21706,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -21741,7 +21741,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -21893,7 +21893,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -21960,7 +21960,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -21998,7 +21998,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -22036,7 +22036,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -22188,7 +22188,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -22340,7 +22340,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -22492,7 +22492,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -22530,7 +22530,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -22568,7 +22568,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -22755,7 +22755,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -22793,7 +22793,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -22831,7 +22831,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -22965,7 +22965,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -23003,7 +23003,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -23234,7 +23234,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -23310,7 +23310,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -23348,7 +23348,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -23538,7 +23538,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -23576,7 +23576,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -23614,7 +23614,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -23652,7 +23652,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -23687,7 +23687,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -23725,7 +23725,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -23801,7 +23801,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -23839,7 +23839,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -23953,7 +23953,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -23991,7 +23991,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -24099,7 +24099,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -24137,7 +24137,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -24175,7 +24175,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -24251,7 +24251,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -24289,7 +24289,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -24365,7 +24365,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -24479,7 +24479,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -24555,7 +24555,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -24669,7 +24669,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -24707,7 +24707,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -24745,7 +24745,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -24859,7 +24859,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -24897,7 +24897,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -25087,7 +25087,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -25125,7 +25125,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -25163,7 +25163,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -25201,7 +25201,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -25239,7 +25239,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -25315,7 +25315,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -25353,7 +25353,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -25391,7 +25391,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -25493,7 +25493,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -25531,7 +25531,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -25607,7 +25607,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -25645,7 +25645,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -25873,7 +25873,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -25911,7 +25911,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -25987,7 +25987,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -26025,7 +26025,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -26101,7 +26101,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -26177,7 +26177,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -26212,7 +26212,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -26250,7 +26250,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -26288,7 +26288,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -26326,7 +26326,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -26364,7 +26364,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -26478,7 +26478,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -26516,7 +26516,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -26554,7 +26554,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -26592,7 +26592,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -26630,7 +26630,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -26668,7 +26668,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -26706,7 +26706,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -26820,7 +26820,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -26934,7 +26934,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -27010,7 +27010,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -27086,7 +27086,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -27235,7 +27235,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -27349,7 +27349,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -27498,7 +27498,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -27536,7 +27536,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -27612,7 +27612,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -27650,7 +27650,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -27688,7 +27688,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -27878,7 +27878,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -27954,7 +27954,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -27992,7 +27992,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -28106,7 +28106,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -28179,7 +28179,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -28217,7 +28217,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -28255,7 +28255,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -28369,7 +28369,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -28442,7 +28442,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -28518,7 +28518,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -28594,7 +28594,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -28670,7 +28670,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -28784,7 +28784,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -28822,7 +28822,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -28860,7 +28860,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -29088,7 +29088,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -29164,7 +29164,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -29275,7 +29275,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -29313,7 +29313,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -29456,7 +29456,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -29494,7 +29494,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -29570,7 +29570,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -29681,7 +29681,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -29719,7 +29719,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -29795,7 +29795,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -29833,7 +29833,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -29871,7 +29871,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -29947,7 +29947,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -30061,7 +30061,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -30096,7 +30096,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -30134,7 +30134,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -30286,7 +30286,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -30324,7 +30324,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -30362,7 +30362,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -30400,7 +30400,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -30438,7 +30438,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -30549,7 +30549,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -30625,7 +30625,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -30701,7 +30701,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -30777,7 +30777,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -30815,7 +30815,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -30929,7 +30929,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -31078,7 +31078,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -31154,7 +31154,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -31192,7 +31192,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -31230,7 +31230,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -31268,7 +31268,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -31306,7 +31306,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -31344,7 +31344,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -31496,7 +31496,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -31648,7 +31648,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -31686,7 +31686,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -31724,7 +31724,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -31876,7 +31876,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -31914,7 +31914,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -31949,7 +31949,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -32101,7 +32101,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -32139,7 +32139,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -32177,7 +32177,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -32215,7 +32215,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -32367,7 +32367,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -32405,7 +32405,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -32481,7 +32481,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -32557,7 +32557,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -32595,7 +32595,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -32633,7 +32633,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -32671,7 +32671,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -32709,7 +32709,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -32747,7 +32747,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -32785,7 +32785,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -32937,7 +32937,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -32972,7 +32972,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -33010,7 +33010,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -33086,7 +33086,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -33124,7 +33124,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -33404,7 +33404,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -33556,7 +33556,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -33594,7 +33594,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -33708,7 +33708,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -33746,7 +33746,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -33933,7 +33933,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -34009,7 +34009,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -34047,7 +34047,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -34161,7 +34161,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -34199,7 +34199,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -34313,7 +34313,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -34427,7 +34427,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -34465,7 +34465,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -34617,7 +34617,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -34728,7 +34728,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -34842,7 +34842,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -34880,7 +34880,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -34918,7 +34918,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -34956,7 +34956,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -35067,7 +35067,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -35105,7 +35105,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -35143,7 +35143,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -35371,7 +35371,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -35523,7 +35523,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -35561,7 +35561,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -35599,7 +35599,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -35672,7 +35672,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -35710,7 +35710,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -35748,7 +35748,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -35786,7 +35786,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -35824,7 +35824,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -35938,7 +35938,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -35976,7 +35976,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -36046,7 +36046,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -36122,7 +36122,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -36236,7 +36236,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -36274,7 +36274,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -36312,7 +36312,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -36388,7 +36388,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -36426,7 +36426,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -36464,7 +36464,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -36502,7 +36502,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -36540,7 +36540,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -36578,7 +36578,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -36616,7 +36616,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -36692,7 +36692,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -36765,7 +36765,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -36803,7 +36803,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -36841,7 +36841,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -36879,7 +36879,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -36949,7 +36949,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -37139,7 +37139,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -37177,7 +37177,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -37253,7 +37253,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -37329,7 +37329,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -37367,7 +37367,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -37481,7 +37481,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -37519,7 +37519,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -37554,7 +37554,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -37592,7 +37592,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -37668,7 +37668,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -37744,7 +37744,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -37972,7 +37972,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -38010,7 +38010,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -38086,7 +38086,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -38124,7 +38124,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -38314,7 +38314,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -38425,7 +38425,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -38501,7 +38501,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -38539,7 +38539,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -38577,7 +38577,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -38685,7 +38685,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -38799,7 +38799,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -38875,7 +38875,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -38951,7 +38951,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -39065,7 +39065,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -39103,7 +39103,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -39141,7 +39141,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -39179,7 +39179,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -39217,7 +39217,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -39255,7 +39255,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -39290,7 +39290,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -39328,7 +39328,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -39404,7 +39404,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -39480,7 +39480,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -39789,7 +39789,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -39827,7 +39827,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -39865,7 +39865,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -39979,7 +39979,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -40093,7 +40093,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -40207,7 +40207,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -40321,7 +40321,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -40394,7 +40394,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -40432,7 +40432,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -40470,7 +40470,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -40648,7 +40648,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -40686,7 +40686,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -40876,7 +40876,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -41028,7 +41028,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -41066,7 +41066,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -41104,7 +41104,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -41253,7 +41253,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -41291,7 +41291,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -41367,7 +41367,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -41405,7 +41405,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -41665,7 +41665,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -41741,7 +41741,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -41779,7 +41779,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -41931,7 +41931,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -42118,7 +42118,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -42194,7 +42194,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -42270,7 +42270,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -42384,7 +42384,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -42460,7 +42460,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -42609,7 +42609,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -42723,7 +42723,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -42796,7 +42796,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -42971,7 +42971,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -43009,7 +43009,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -43313,7 +43313,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -43348,7 +43348,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -43666,7 +43666,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -43701,7 +43701,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -43736,7 +43736,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -43771,7 +43771,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -43841,7 +43841,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -44208,7 +44208,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -44243,7 +44243,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -44278,7 +44278,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -44313,7 +44313,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -44348,7 +44348,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -44383,7 +44383,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -44613,7 +44613,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -44648,7 +44648,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -44753,7 +44753,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -44788,7 +44788,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -44823,7 +44823,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -45251,7 +45251,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -45391,7 +45391,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -45426,7 +45426,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -45496,7 +45496,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -45531,7 +45531,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -45601,7 +45601,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -45636,7 +45636,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -45811,7 +45811,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -45881,7 +45881,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -45983,7 +45983,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -46056,7 +46056,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -46091,7 +46091,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -46161,7 +46161,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -46196,7 +46196,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -46266,7 +46266,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -46301,7 +46301,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -46807,7 +46807,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -46845,7 +46845,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -46880,7 +46880,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -46915,7 +46915,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -46950,7 +46950,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -47020,7 +47020,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -47125,7 +47125,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -47160,7 +47160,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -47798,7 +47798,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -47836,7 +47836,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -47871,7 +47871,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -47976,7 +47976,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -48011,7 +48011,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -48046,7 +48046,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -48116,7 +48116,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -48151,7 +48151,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -48629,7 +48629,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -48667,7 +48667,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -48702,7 +48702,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -48772,7 +48772,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -48807,7 +48807,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -48912,7 +48912,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -48947,7 +48947,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -49405,7 +49405,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -49650,7 +49650,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -50221,7 +50221,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -50259,7 +50259,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -50329,7 +50329,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -50364,7 +50364,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -50399,7 +50399,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -50539,7 +50539,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -50942,7 +50942,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -51012,7 +51012,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -51047,7 +51047,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -51082,7 +51082,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -51152,7 +51152,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -51187,7 +51187,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -51563,7 +51563,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -51633,7 +51633,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -51703,7 +51703,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -51773,7 +51773,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -51907,7 +51907,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -52009,7 +52009,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -52079,7 +52079,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -52184,7 +52184,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -52557,7 +52557,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -52662,7 +52662,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -53324,7 +53324,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -53359,7 +53359,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -53656,7 +53656,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -53796,7 +53796,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -53898,7 +53898,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -53965,7 +53965,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -54070,7 +54070,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -54105,7 +54105,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -54344,7 +54344,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -54379,7 +54379,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -54618,7 +54618,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -54749,7 +54749,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -54784,7 +54784,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -54854,7 +54854,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -55343,7 +55343,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -55413,7 +55413,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -55518,7 +55518,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -55623,7 +55623,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -56084,7 +56084,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -56119,7 +56119,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -56154,7 +56154,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -56492,7 +56492,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -56562,7 +56562,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -56597,7 +56597,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -56635,7 +56635,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -57296,7 +57296,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -57334,7 +57334,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -57448,7 +57448,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -57524,7 +57524,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -57600,7 +57600,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -57635,7 +57635,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -57673,7 +57673,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -57749,7 +57749,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -57825,7 +57825,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -57863,7 +57863,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -58053,7 +58053,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -58120,7 +58120,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -58158,7 +58158,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -58234,7 +58234,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -58272,7 +58272,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -58310,7 +58310,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -58348,7 +58348,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -58386,7 +58386,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -58462,7 +58462,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -58500,7 +58500,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -58614,7 +58614,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -59471,7 +59471,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -60082,7 +60082,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -60120,7 +60120,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -60158,7 +60158,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -60519,7 +60519,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -60554,7 +60554,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -60659,7 +60659,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -60694,7 +60694,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -60895,7 +60895,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -60991,7 +60991,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -61029,7 +61029,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -61790,7 +61790,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -61936,7 +61936,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -62492,7 +62492,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -62530,7 +62530,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -62568,7 +62568,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -62603,7 +62603,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -62740,7 +62740,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -63026,7 +63026,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -63064,7 +63064,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -63102,7 +63102,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -63210,7 +63210,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -63286,7 +63286,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -63502,7 +63502,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -63540,7 +63540,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -63575,7 +63575,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -63864,7 +63864,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -63902,7 +63902,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -64272,7 +64272,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -64310,7 +64310,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -64415,7 +64415,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -64482,7 +64482,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -64631,7 +64631,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -64669,7 +64669,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -64739,7 +64739,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -64888,7 +64888,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -64926,7 +64926,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -64964,7 +64964,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -64999,7 +64999,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -65069,7 +65069,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -65107,7 +65107,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -65145,7 +65145,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -65320,7 +65320,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -65358,7 +65358,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -65396,7 +65396,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -65431,7 +65431,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -65466,7 +65466,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -65501,7 +65501,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -65539,7 +65539,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -65577,7 +65577,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -65615,7 +65615,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -65717,7 +65717,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -65755,7 +65755,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -65793,7 +65793,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -65901,7 +65901,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -65936,7 +65936,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -66044,7 +66044,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -66117,7 +66117,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -66152,7 +66152,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -66187,7 +66187,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -66225,7 +66225,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -66301,7 +66301,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -66441,7 +66441,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -66776,7 +66776,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -66986,7 +66986,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -67184,7 +67184,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -67324,7 +67324,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -67359,7 +67359,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -67557,7 +67557,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -67697,7 +67697,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -67767,7 +67767,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -67837,7 +67837,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -67942,7 +67942,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -68050,7 +68050,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -68088,7 +68088,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -68202,7 +68202,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -68275,7 +68275,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -68345,7 +68345,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -68453,7 +68453,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -68491,7 +68491,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -68529,7 +68529,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -68567,7 +68567,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -68824,7 +68824,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -68859,7 +68859,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -69002,7 +69002,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -69078,7 +69078,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -69116,7 +69116,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -69230,7 +69230,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -69268,7 +69268,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -69338,7 +69338,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -69373,7 +69373,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -69408,7 +69408,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -69443,7 +69443,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -69478,7 +69478,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -69630,7 +69630,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -69706,7 +69706,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -69849,7 +69849,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -69954,7 +69954,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -70065,7 +70065,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -70103,7 +70103,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -70179,7 +70179,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -70255,7 +70255,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -70541,7 +70541,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -70617,7 +70617,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -70655,7 +70655,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -70728,7 +70728,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -70763,7 +70763,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -70868,7 +70868,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -70938,7 +70938,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -71122,7 +71122,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -71291,7 +71291,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -71565,7 +71565,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -71778,7 +71778,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -71813,7 +71813,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -71918,7 +71918,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -72090,7 +72090,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -72268,7 +72268,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -72303,7 +72303,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -72338,7 +72338,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -72373,7 +72373,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -72577,7 +72577,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -72612,7 +72612,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -72647,7 +72647,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -72682,7 +72682,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -72752,7 +72752,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -73017,7 +73017,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -73192,7 +73192,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -73227,7 +73227,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -73297,7 +73297,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -73600,7 +73600,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -73635,7 +73635,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -73670,7 +73670,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -73705,7 +73705,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -73775,7 +73775,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -73921,7 +73921,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -73956,7 +73956,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -73991,7 +73991,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -74026,7 +74026,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -74061,7 +74061,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -74201,7 +74201,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -74422,7 +74422,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -74492,7 +74492,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -74527,7 +74527,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -74562,7 +74562,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -74597,7 +74597,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -74833,7 +74833,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -75043,7 +75043,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -75078,7 +75078,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -75148,7 +75148,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -75218,7 +75218,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -75253,7 +75253,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -75358,7 +75358,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -75393,7 +75393,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -75492,7 +75492,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -75527,7 +75527,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -75632,7 +75632,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -75705,7 +75705,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -75775,7 +75775,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -75845,7 +75845,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -76169,7 +76169,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -76204,7 +76204,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -76662,7 +76662,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -76697,7 +76697,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -77087,7 +77087,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -77157,7 +77157,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -77259,7 +77259,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -77329,7 +77329,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -77533,7 +77533,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -77638,7 +77638,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -77778,7 +77778,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -77889,7 +77889,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -77994,7 +77994,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -78029,7 +78029,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -78204,7 +78204,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -78239,7 +78239,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -78347,7 +78347,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -78417,7 +78417,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -78452,7 +78452,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -78487,7 +78487,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -78522,7 +78522,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -78557,7 +78557,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -78627,7 +78627,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -78662,7 +78662,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -78901,7 +78901,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -79006,7 +79006,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -79041,7 +79041,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -79076,7 +79076,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -79111,7 +79111,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -79146,7 +79146,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -79251,7 +79251,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -79385,7 +79385,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -79531,7 +79531,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -79636,7 +79636,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -79706,7 +79706,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -79741,7 +79741,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -79811,7 +79811,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -79846,7 +79846,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -79881,7 +79881,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -79951,7 +79951,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -79989,7 +79989,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -80097,7 +80097,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -80167,7 +80167,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -80202,7 +80202,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -80237,7 +80237,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -80272,7 +80272,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -80307,7 +80307,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -80412,7 +80412,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -80450,7 +80450,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -80488,7 +80488,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -80526,7 +80526,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -80561,7 +80561,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -80631,7 +80631,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -80666,7 +80666,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -80736,7 +80736,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -80806,7 +80806,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -80967,7 +80967,7 @@ action_layer
 8275
 
 30
-165
+167
 ptb::game_settings
 ptb::level_settings
 ptb::honeypot
@@ -81025,12 +81025,12 @@ bear::reference_item
 bear::reference_item
 ptb::wasp
 ptb::gorilla
+ptb::woodpecker
 ptb::bonus_carnage
 ptb::bonus_mini_game
 ptb::timer_kill_players
 ptb::bonus_time
 ptb::bonus_time_record
-ptb::bonus_cooperation
 bear::decorative_item
 bear::reference_item
 bear::forced_stay_around_creator
@@ -81054,6 +81054,8 @@ ptb::mini_game_unlock_item
 ptb::players_present
 bear::decorative_item
 ptb::frog
+ptb::honeypot
+ptb::honeypot
 bear::decorative_item
 bear::decorative_item
 bear::decorative_item
@@ -82125,6 +82127,17 @@ basic_renderable_item.mirror
 0
 42
 base_item.position.bottom
+4145
+42
+base_item.position.left
+2303
+43
+basic_renderable_item.mirror
+1
+31
+0
+42
+base_item.position.bottom
 5950
 42
 base_item.position.left
@@ -82132,9 +82145,10 @@ base_item.position.left
 50
 47
 bonus_all_dead.class_instances
-2
+3
 55
 56
+57
 31
 0
 42
@@ -82179,7 +82193,7 @@ base_item.position.left
 29613
 47
 bonus_time.level_timer
-59
+60
 31
 0
 42
@@ -82190,33 +82204,10 @@ base_item.position.left
 29613
 47
 bonus_time_record.level_timer
-59
+60
 42
 bonus_time_record.time_record
 80
-31
-0
-42
-base_item.position.bottom
-6060
-42
-base_item.position.left
-29616
-44
-bonus_all_dead_by_category.category
-two_players_area
-44
-bonus_points.name
-Two players cooperation
-44
-bonus_points.picture_filename
-gfx/ui/bonus-icons/bonus-icons.png
-44
-bonus_points.picture_name
-cooperation
-41
-bonus_points.points
-10000
 31
 0
 42
@@ -82240,7 +82231,7 @@ basic_renderable_item.color
 46
 item_with_decoration.animation
 content_file
-animation/forest/butterfly/butterfly-bi-2-mono.canim
+animation/forest/butterfly/butterfly-pattern.canim
 14
 12
 0
@@ -82350,7 +82341,7 @@ basic_renderable_item.color
 46
 item_with_decoration.animation
 content_file
-animation/forest/butterfly/butterfly-bi-pattern.canim
+animation/forest/butterfly/butterfly-bi-2-pattern.canim
 14
 12
 0
@@ -82465,7 +82456,7 @@ basic_renderable_item.color
 46
 item_with_decoration.animation
 content_file
-animation/forest/butterfly/butterfly-pattern.canim
+animation/forest/butterfly/butterfly-bi-2-pattern.canim
 14
 12
 0
@@ -83159,6 +83150,22 @@ frog.max_distance
 400
 31
 0
+42
+base_item.position.bottom
+5420
+42
+base_item.position.left
+16389
+31
+0
+42
+base_item.position.bottom
+6697
+42
+base_item.position.left
+28381
+31
+0
 43
 base_item.artificial
 0
@@ -83467,8 +83474,8 @@ base_item.position.left
 47
 forced_sequence_creator.movements
 2
-94
-93
+96
+95
 31
 0
 42
@@ -84443,13 +84450,13 @@ base_item.position.left
 47
 forced_sequence_creator.movements
 7
-112
-112
-112
-112
-113
-112
-112
+114
+114
+114
+114
+115
+114
+114
 31
 0
 42
@@ -84462,13 +84469,13 @@ base_item.position.left
 47
 forced_sequence_creator.movements
 7
-112
-112
-112
-113
-112
-112
-112
+114
+114
+114
+115
+114
+114
+114
 31
 0
 42
@@ -84481,13 +84488,13 @@ base_item.position.left
 47
 forced_sequence_creator.movements
 7
-112
-112
-112
-113
-112
-112
-112
+114
+114
+114
+115
+114
+114
+114
 31
 0
 42
@@ -84500,13 +84507,13 @@ base_item.position.left
 47
 forced_sequence_creator.movements
 7
-112
-112
-113
-112
-112
-112
-112
+114
+114
+115
+114
+114
+114
+114
 31
 0
 42
@@ -84519,13 +84526,13 @@ base_item.position.left
 47
 forced_sequence_creator.movements
 7
-112
-112
-113
-112
-112
-112
-112
+114
+114
+115
+114
+114
+114
+114
 31
 0
 42
@@ -84538,13 +84545,13 @@ base_item.position.left
 47
 forced_sequence_creator.movements
 7
-112
-112
-113
-112
-112
-112
-112
+114
+114
+115
+114
+114
+114
+114
 31
 0
 42
@@ -84557,13 +84564,13 @@ base_item.position.left
 47
 forced_sequence_creator.movements
 7
-112
-113
-112
-112
-112
-112
-112
+114
+115
+114
+114
+114
+114
+114
 31
 0
 42
@@ -84576,13 +84583,13 @@ base_item.position.left
 47
 forced_sequence_creator.movements
 7
-112
-113
-112
-112
-112
-112
-112
+114
+115
+114
+114
+114
+114
+114
 31
 0
 42
@@ -84595,13 +84602,13 @@ base_item.position.left
 47
 forced_sequence_creator.movements
 7
-113
-112
-112
-112
-112
-112
-112
+115
+114
+114
+114
+114
+114
+114
 31
 0
 42
@@ -84614,13 +84621,13 @@ base_item.position.left
 47
 forced_sequence_creator.movements
 7
-113
-112
-112
-112
-112
-112
-112
+115
+114
+114
+114
+114
+114
+114
 31
 0
 42
@@ -84633,13 +84640,13 @@ base_item.position.left
 47
 forced_sequence_creator.movements
 7
-112
-112
-112
-112
-112
-112
-113
+114
+114
+114
+114
+114
+114
+115
 31
 0
 42
@@ -84652,13 +84659,13 @@ base_item.position.left
 47
 forced_sequence_creator.movements
 7
-112
-112
-112
-112
-112
-112
-113
+114
+114
+114
+114
+114
+114
+115
 31
 0
 42
@@ -84671,13 +84678,13 @@ base_item.position.left
 47
 forced_sequence_creator.movements
 7
-112
-112
-112
-112
-112
-113
-112
+114
+114
+114
+114
+114
+115
+114
 31
 0
 42
@@ -84690,13 +84697,13 @@ base_item.position.left
 47
 forced_sequence_creator.movements
 7
-112
-112
-112
-112
-112
-113
-112
+114
+114
+114
+114
+114
+115
+114
 31
 0
 42
@@ -84709,13 +84716,13 @@ base_item.position.left
 47
 forced_sequence_creator.movements
 7
-112
-112
-112
-112
-113
-112
-112
+114
+114
+114
+114
+115
+114
+114
 31
 0
 42
@@ -84728,13 +84735,13 @@ base_item.position.left
 47
 forced_sequence_creator.movements
 7
-112
-112
-112
-112
-113
-112
-112
+114
+114
+114
+114
+115
+114
+114
 31
 1
 42
@@ -85023,8 +85030,8 @@ base_item.position.left
 47
 forced_sequence_creator.movements
 2
-138
-137
+140
+139
 31
 0
 42
@@ -85134,7 +85141,7 @@ base_item.position.left
 21307
 47
 forced_movement_creator_with_reference.target
-136
+138
 42
 forced_tracking_creator.distance.x
 -70
@@ -85151,7 +85158,7 @@ base_item.position.left
 21746
 47
 forced_movement_creator_with_reference.target
-136
+138
 42
 forced_tracking_creator.distance.x
 64
@@ -85265,8 +85272,8 @@ base_item.position.left
 47
 forced_sequence_creator.movements
 2
-146
-145
+148
+147
 31
 0
 42
@@ -85376,7 +85383,7 @@ base_item.position.left
 4117
 47
 forced_movement_creator_with_reference.target
-144
+146
 42
 forced_tracking_creator.distance.x
 -70
@@ -85393,7 +85400,7 @@ base_item.position.left
 4117
 47
 forced_movement_creator_with_reference.target
-144
+146
 42
 forced_tracking_creator.distance.x
 64
@@ -85594,7 +85601,7 @@ base_item.size.width
 47
 players_present.toggles
 1
-157
+159
 31
 0
 43
@@ -85813,6 +85820,279 @@ bear::block
 1
 42
 base_item.position.bottom
+6734
+40
+base_item.position.depth
+8000
+42
+base_item.position.left
+28175
+42
+base_item.size.height
+128
+42
+base_item.size.width
+128
+43
+item_with_activable_sides.right_side_is_active
+1
+45
+item_with_decoration.sprite
+gfx/forest/forest-2.png
+545
+801
+128
+128
+0
+0
+0
+0
+128
+128
+1
+0
+1
+1
+1
+1
+0
+40
+item_with_z_shift.z_shift
+-10
+32
+bear::block
+1
+42
+base_item.position.bottom
+6862
+40
+base_item.position.depth
+8000
+42
+base_item.position.left
+28175
+42
+base_item.size.height
+128
+42
+base_item.size.width
+256
+43
+item_with_activable_sides.bottom_side_is_active
+1
+45
+item_with_decoration.sprite
+gfx/forest/forest-2.png
+514
+654
+256
+128
+0
+0
+0
+0
+256
+128
+1
+0
+1
+1
+1
+1
+0
+40
+item_with_z_shift.z_shift
+-10
+32
+bear::block
+1
+42
+base_item.position.bottom
+6606
+42
+base_item.position.left
+28175
+42
+base_item.size.height
+128
+42
+base_item.size.width
+128
+43
+item_with_activable_sides.right_side_is_active
+1
+45
+item_with_decoration.sprite
+gfx/forest/forest-2.png
+416
+801
+128
+128
+0
+0
+0
+0
+128
+128
+1
+0
+1
+1
+1
+1
+0
+40
+item_with_z_shift.z_shift
+-10
+32
+bear::slope
+1
+42
+base_item.position.bottom
+6478
+42
+base_item.position.left
+28431
+42
+base_item.size.height
+128
+42
+base_item.size.width
+128
+45
+item_with_decoration.sprite
+gfx/forest/forest-2.png
+278
+801
+137
+140
+0
+0
+0
+0
+137
+140
+1
+0
+1
+1
+1
+1
+0
+42
+item_with_friction.top_friction
+0.95
+40
+item_with_z_shift.z_shift
+-10
+42
+slope.control_point.left.x
+64
+42
+slope.control_point.right.x
+-10
+42
+slope.control_point.right.y
+20
+43
+slope.right_side_is_active
+1
+42
+slope.steepness
+-28
+32
+bear::straight_slope
+1
+42
+base_item.position.bottom
+6478
+42
+base_item.position.left
+28175
+42
+base_item.size.height
+128
+42
+base_item.size.width
+256
+45
+item_with_decoration.sprite
+gfx/forest/forest-2.png
+0
+654
+256
+146
+0
+0
+0
+0
+256
+146
+1
+0
+1
+1
+1
+1
+0
+42
+item_with_friction.top_friction
+0.95
+40
+item_with_z_shift.z_shift
+-10
+43
+straight_slope.top_side_is_active
+1
+32
+bear::block
+1
+42
+base_item.position.bottom
+6862
+42
+base_item.position.left
+28431
+42
+base_item.size.height
+128
+42
+base_item.size.width
+128
+43
+item_with_activable_sides.bottom_side_is_active
+1
+43
+item_with_activable_sides.right_side_is_active
+1
+45
+item_with_decoration.sprite
+gfx/forest/wall-corner.png
+128
+128
+128
+128
+0
+0
+0
+0
+128
+128
+1
+0
+1
+1
+1
+1
+0
+40
+item_with_z_shift.z_shift
+-10
+32
+bear::block
+1
+42
+base_item.position.bottom
 3198
 42
 base_item.position.left
@@ -85888,7 +86168,7 @@ kicker.applied_force
 600000
 47
 kicker.decorative_item
-91
+93
 32
 bear::block
 1
@@ -86002,7 +86282,7 @@ kicker.applied_force
 400000
 47
 kicker.decorative_item
-89
+91
 32
 bear::block
 1
@@ -86237,20 +86517,6 @@ basic_renderable_item.gap.y
 47
 item_with_decoration.item_to_mimic
 84
-32
-ptb::bonus_box
-0
-50
-44
-base_bonus.type
-1
-stones_stock
-42
-base_item.position.bottom
-5630
-42
-base_item.position.left
-15759
 32
 bear::block
 1
@@ -88914,30 +89180,6 @@ ptb::corrupting_bonus
 0
 42
 base_item.position.bottom
-6587
-42
-base_item.position.left
-28861
-42
-base_item.size.height
-46
-42
-base_item.size.width
-46
-40
-basic_renderable_item.gap.x
--9
-40
-basic_renderable_item.gap.y
--9
-47
-item_with_decoration.item_to_mimic
-84
-32
-ptb::corrupting_bonus
-0
-42
-base_item.position.bottom
 6039
 42
 base_item.position.left
@@ -89225,94 +89467,6 @@ bear::block
 42
 base_item.position.bottom
 6990
-40
-base_item.position.depth
-8000
-42
-base_item.position.left
-28431
-42
-base_item.size.height
-256
-42
-base_item.size.width
-128
-43
-item_with_activable_sides.right_side_is_active
-1
-45
-item_with_decoration.sprite
-gfx/forest/wall-corner.png
-0
-0
-128
-256
-0
-0
-0
-0
-128
-256
-1
-0
-1
-1
-1
-1
-0
-40
-item_with_z_shift.z_shift
--10
-32
-bear::block
-1
-42
-base_item.position.bottom
-6734
-40
-base_item.position.depth
-8000
-42
-base_item.position.left
-28431
-42
-base_item.size.height
-256
-42
-base_item.size.width
-128
-43
-item_with_activable_sides.right_side_is_active
-1
-45
-item_with_decoration.sprite
-gfx/forest/wall-corner.png
-0
-0
-128
-256
-0
-0
-0
-0
-128
-256
-1
-0
-1
-1
-1
-1
-0
-40
-item_with_z_shift.z_shift
--10
-32
-bear::block
-1
-42
-base_item.position.bottom
-6478
 40
 base_item.position.depth
 8000
@@ -90053,7 +90207,7 @@ players_present.check_all_players
 47
 players_present.toggles
 1
-158
+160
 32
 bear::block
 1
@@ -91954,10 +92108,10 @@ base_item.position.left
 47
 forced_movement_applicator.actor
 1
-160
+162
 47
 forced_movement_applicator.movement
-156
+158
 32
 bear::block
 1
@@ -92018,10 +92172,10 @@ base_item.position.left
 47
 forced_movement_applicator.actor
 1
-163
+165
 47
 forced_movement_applicator.movement
-155
+157
 32
 bear::block
 1
@@ -92080,7 +92234,7 @@ base_item.position.left
 23673
 47
 base_link_visual.end_item
-163
+165
 47
 base_link_visual.start_item
 54
@@ -93133,10 +93287,10 @@ base_item.position.left
 47
 forced_movement_applicator.actor
 1
-141
+143
 47
 forced_movement_applicator.movement
-143
+145
 32
 bear::applied_forced_movement
 0
@@ -93150,10 +93304,10 @@ base_item.position.left
 47
 forced_movement_applicator.actor
 1
-136
+138
 47
 forced_movement_applicator.movement
-139
+141
 32
 bear::straight_slope
 1
@@ -93417,10 +93571,10 @@ base_item.position.left
 47
 forced_movement_applicator.actor
 1
-140
+142
 47
 forced_movement_applicator.movement
-142
+144
 32
 bear::slope
 1
@@ -94561,7 +94715,7 @@ kicker.applied_force
 600000
 47
 kicker.decorative_item
-88
+90
 32
 ptb::corrupting_bonus
 0
@@ -101290,7 +101444,7 @@ base_item.size.width
 47
 on_players_activator.item
 1
-130
+132
 32
 bear::straight_slope
 1
@@ -106372,7 +106526,7 @@ forced_movement_applicator.actor
 78
 47
 forced_movement_applicator.movement
-135
+137
 32
 bear::straight_slope
 1
@@ -109174,7 +109328,7 @@ kicker.applied_force
 450000
 47
 kicker.decorative_item
-87
+89
 43
 kicker.left_fixed
 1
@@ -109438,7 +109592,7 @@ kicker.applied_force
 500000
 47
 kicker.decorative_item
-86
+88
 43
 kicker.left_fixed
 1
@@ -111083,7 +111237,7 @@ basic_renderable_item.color
 1
 47
 item_with_decoration.item_to_mimic
-164
+166
 32
 bear::decorative_item
 1
@@ -111110,7 +111264,7 @@ basic_renderable_item.color
 1
 47
 item_with_decoration.item_to_mimic
-164
+166
 32
 bear::decorative_item
 1
@@ -111137,7 +111291,7 @@ basic_renderable_item.color
 1
 47
 item_with_decoration.item_to_mimic
-164
+166
 32
 bear::decorative_item
 1
@@ -111164,7 +111318,7 @@ basic_renderable_item.color
 1
 47
 item_with_decoration.item_to_mimic
-164
+166
 32
 bear::decorative_item
 1
@@ -111191,7 +111345,7 @@ basic_renderable_item.color
 1
 47
 item_with_decoration.item_to_mimic
-164
+166
 32
 bear::decorative_item
 1
@@ -111218,7 +111372,7 @@ basic_renderable_item.color
 1
 47
 item_with_decoration.item_to_mimic
-164
+166
 32
 bear::decorative_item
 1
@@ -111245,7 +111399,7 @@ basic_renderable_item.color
 1
 47
 item_with_decoration.item_to_mimic
-164
+166
 32
 bear::decorative_item
 1
@@ -111272,7 +111426,7 @@ basic_renderable_item.color
 1
 47
 item_with_decoration.item_to_mimic
-164
+166
 32
 ptb::clingable
 1
@@ -111773,7 +111927,7 @@ basic_renderable_item.color
 1
 47
 item_with_decoration.item_to_mimic
-164
+166
 32
 bear::decorative_item
 1
@@ -111800,7 +111954,7 @@ basic_renderable_item.color
 1
 47
 item_with_decoration.item_to_mimic
-164
+166
 32
 bear::decorative_item
 1
@@ -111827,7 +111981,7 @@ basic_renderable_item.color
 1
 47
 item_with_decoration.item_to_mimic
-164
+166
 32
 bear::decorative_item
 1
@@ -111854,7 +112008,7 @@ basic_renderable_item.color
 1
 47
 item_with_decoration.item_to_mimic
-164
+166
 32
 bear::decorative_item
 1
@@ -111881,7 +112035,7 @@ basic_renderable_item.color
 1
 47
 item_with_decoration.item_to_mimic
-164
+166
 32
 bear::decorative_item
 1
@@ -111908,7 +112062,7 @@ basic_renderable_item.color
 1
 47
 item_with_decoration.item_to_mimic
-164
+166
 32
 bear::decorative_item
 1
@@ -111935,7 +112089,7 @@ basic_renderable_item.color
 1
 47
 item_with_decoration.item_to_mimic
-164
+166
 32
 bear::decorative_item
 1
@@ -111962,7 +112116,7 @@ basic_renderable_item.color
 1
 47
 item_with_decoration.item_to_mimic
-164
+166
 32
 bear::decorative_item
 1
@@ -111989,7 +112143,7 @@ basic_renderable_item.color
 1
 47
 item_with_decoration.item_to_mimic
-164
+166
 32
 bear::straight_slope
 1
@@ -112812,10 +112966,10 @@ base_item.position.left
 47
 forced_movement_applicator.actor
 1
-103
+105
 47
 forced_movement_applicator.movement
-121
+123
 32
 bear::applied_forced_movement
 0
@@ -112829,10 +112983,10 @@ base_item.position.left
 47
 forced_movement_applicator.actor
 1
-105
+107
 47
 forced_movement_applicator.movement
-123
+125
 32
 bear::applied_forced_movement
 0
@@ -112846,10 +113000,10 @@ base_item.position.left
 47
 forced_movement_applicator.actor
 1
-102
+104
 47
 forced_movement_applicator.movement
-120
+122
 32
 bear::applied_forced_movement
 0
@@ -112863,10 +113017,10 @@ base_item.position.left
 47
 forced_movement_applicator.actor
 1
-104
+106
 47
 forced_movement_applicator.movement
-122
+124
 32
 ptb::rabbit
 0
@@ -113033,10 +113187,10 @@ base_item.position.left
 47
 forced_movement_applicator.actor
 1
-98
+100
 47
 forced_movement_applicator.movement
-116
+118
 32
 bear::applied_forced_movement
 0
@@ -113050,10 +113204,10 @@ base_item.position.left
 47
 forced_movement_applicator.actor
 1
-100
+102
 47
 forced_movement_applicator.movement
-118
+120
 32
 bear::applied_forced_movement
 0
@@ -113067,10 +113221,10 @@ base_item.position.left
 47
 forced_movement_applicator.actor
 1
-101
+103
 47
 forced_movement_applicator.movement
-119
+121
 32
 bear::block
 1
@@ -113128,10 +113282,10 @@ base_item.position.left
 47
 forced_movement_applicator.actor
 1
-97
+99
 47
 forced_movement_applicator.movement
-115
+117
 32
 bear::applied_forced_movement
 0
@@ -113145,10 +113299,10 @@ base_item.position.left
 47
 forced_movement_applicator.actor
 1
-99
+101
 47
 forced_movement_applicator.movement
-117
+119
 32
 ptb::hazelnut
 0
@@ -113312,10 +113466,10 @@ base_item.position.left
 47
 forced_movement_applicator.actor
 1
-92
+94
 47
 forced_movement_applicator.movement
-95
+97
 32
 bear::block
 1
@@ -113373,23 +113527,6 @@ base_item.position.left
 47
 forced_movement_applicator.actor
 1
-106
-47
-forced_movement_applicator.movement
-124
-32
-bear::applied_forced_movement
-0
-42
-base_item.position.bottom
-3153
-42
-base_item.position.left
-11876
-50
-47
-forced_movement_applicator.actor
-1
 108
 47
 forced_movement_applicator.movement
@@ -113399,7 +113536,7 @@ bear::applied_forced_movement
 0
 42
 base_item.position.bottom
-3019
+3153
 42
 base_item.position.left
 11876
@@ -113416,6 +113553,23 @@ bear::applied_forced_movement
 0
 42
 base_item.position.bottom
+3019
+42
+base_item.position.left
+11876
+50
+47
+forced_movement_applicator.actor
+1
+112
+47
+forced_movement_applicator.movement
+130
+32
+bear::applied_forced_movement
+0
+42
+base_item.position.bottom
 2874
 42
 base_item.position.left
@@ -113424,33 +113578,16 @@ base_item.position.left
 47
 forced_movement_applicator.actor
 1
-96
+98
 47
 forced_movement_applicator.movement
-114
+116
 32
 bear::applied_forced_movement
 0
 42
 base_item.position.bottom
 3233
-42
-base_item.position.left
-11874
-50
-47
-forced_movement_applicator.actor
-1
-107
-47
-forced_movement_applicator.movement
-125
-32
-bear::applied_forced_movement
-0
-42
-base_item.position.bottom
-3099
 42
 base_item.position.left
 11874
@@ -113467,7 +113604,7 @@ bear::applied_forced_movement
 0
 42
 base_item.position.bottom
-2954
+3099
 42
 base_item.position.left
 11874
@@ -113479,6 +113616,23 @@ forced_movement_applicator.actor
 47
 forced_movement_applicator.movement
 129
+32
+bear::applied_forced_movement
+0
+42
+base_item.position.bottom
+2954
+42
+base_item.position.left
+11874
+50
+47
+forced_movement_applicator.actor
+1
+113
+47
+forced_movement_applicator.movement
+131
 32
 ptb::corrupting_bonus
 0
@@ -115264,7 +115418,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -119702,10 +119856,10 @@ base_item.position.left
 47
 forced_movement_applicator.actor
 1
-161
+163
 47
 forced_movement_applicator.movement
-153
+155
 32
 bear::block
 1
@@ -119763,10 +119917,10 @@ base_item.position.left
 47
 forced_movement_applicator.actor
 1
-162
+164
 47
 forced_movement_applicator.movement
-154
+156
 32
 bear::block
 1
@@ -119893,7 +120047,7 @@ base_item.position.left
 8639
 47
 base_link_visual.end_item
-162
+164
 47
 base_link_visual.start_item
 53
@@ -120918,7 +121072,7 @@ base_item.position.left
 7262
 47
 base_link_visual.end_item
-131
+133
 44
 base_link_visual.end_origin.x
 right
@@ -120965,7 +121119,7 @@ link_creator.length.maximal
 50
 47
 link_creator.second_item
-131
+133
 42
 link_creator.strength
 600000
@@ -121086,7 +121240,7 @@ base_item.position.left
 6992
 47
 base_link_visual.end_item
-132
+134
 44
 base_link_visual.end_origin.x
 right
@@ -121133,7 +121287,7 @@ link_creator.length.maximal
 50
 47
 link_creator.second_item
-132
+134
 42
 link_creator.strength
 600000
@@ -121210,7 +121364,7 @@ base_item.position.left
 7097
 47
 base_link_visual.end_item
-131
+133
 44
 base_link_visual.end_origin.x
 left
@@ -121251,7 +121405,7 @@ base_item.position.left
 6725
 47
 base_link_visual.end_item
-133
+135
 44
 base_link_visual.end_origin.x
 right
@@ -121298,7 +121452,7 @@ link_creator.length.maximal
 50
 47
 link_creator.second_item
-133
+135
 42
 link_creator.strength
 600000
@@ -121375,7 +121529,7 @@ base_item.position.left
 6827
 47
 base_link_visual.end_item
-132
+134
 44
 base_link_visual.end_origin.x
 left
@@ -121596,7 +121750,7 @@ base_item.position.left
 6296
 47
 base_link_visual.end_item
-134
+136
 44
 base_link_visual.end_origin.x
 left
@@ -121702,7 +121856,7 @@ base_item.position.left
 6461
 47
 base_link_visual.end_item
-134
+136
 44
 base_link_visual.end_origin.x
 right
@@ -121781,7 +121935,7 @@ base_item.position.left
 6561
 47
 base_link_visual.end_item
-133
+135
 44
 base_link_visual.end_origin.x
 left
@@ -121828,7 +121982,7 @@ link_creator.length.maximal
 50
 47
 link_creator.second_item
-134
+136
 42
 link_creator.strength
 600000
@@ -125960,10 +126114,10 @@ base_item.position.left
 47
 forced_movement_applicator.actor
 1
-149
+151
 47
 forced_movement_applicator.movement
-151
+153
 32
 bear::applied_forced_movement
 0
@@ -125977,10 +126131,10 @@ base_item.position.left
 47
 forced_movement_applicator.actor
 1
-148
+150
 47
 forced_movement_applicator.movement
-150
+152
 32
 bear::block
 1
@@ -126038,10 +126192,10 @@ base_item.position.left
 47
 forced_movement_applicator.actor
 1
-144
+146
 47
 forced_movement_applicator.movement
-147
+149
 32
 bear::straight_slope
 1
@@ -126835,18 +126989,6 @@ item_with_friction.top_friction
 40
 item_with_z_shift.z_shift
 -10
-32
-ptb::woodpecker
-0
-42
-base_item.position.bottom
-4145
-42
-base_item.position.left
-2303
-43
-basic_renderable_item.mirror
-1
 32
 bear::block
 1
@@ -127834,7 +127976,7 @@ animation/forest/corrupting-carrot.canim
 0
 47
 add_ingame_layers.status_layer.timer
-59
+60
 42
 base_item.position.bottom
 337
@@ -128462,7 +128604,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -128496,7 +128638,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -128598,7 +128740,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -128848,7 +128990,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -128922,7 +129064,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -129400,7 +129542,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -129437,7 +129579,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -129508,7 +129650,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -129942,7 +130084,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -130003,45 +130145,7 @@ bear::decorative_item
 1
 42
 base_item.position.bottom
-6734
-40
-base_item.position.depth
--100
-42
-base_item.position.left
-28175
-42
-base_item.size.height
-256
-42
-base_item.size.width
-256
-45
-item_with_decoration.sprite
-gfx/forest/wall-fill.png
-0
-0
-256
-256
-0
-0
-0
-0
-256
-256
-0
-0
-1
-1
-1
-1
-0
-32
-bear::decorative_item
-1
-42
-base_item.position.bottom
-6478
+6222
 40
 base_item.position.depth
 -100
@@ -130079,44 +130183,6 @@ bear::decorative_item
 1
 42
 base_item.position.bottom
-6222
-40
-base_item.position.depth
--100
-42
-base_item.position.left
-28175
-42
-base_item.size.height
-256
-42
-base_item.size.width
-256
-45
-item_with_decoration.sprite
-gfx/forest/wall-fill.png
-0
-0
-256
-256
-0
-0
-0
-0
-256
-256
-0
-0
-1
-1
-1
-1
-0
-32
-bear::decorative_item
-1
-42
-base_item.position.bottom
 5966
 40
 base_item.position.depth
@@ -130132,7 +130198,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -130208,7 +130274,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -130246,7 +130312,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -130284,7 +130350,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -130398,7 +130464,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -130588,7 +130654,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -130950,7 +131016,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -131064,7 +131130,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -131140,7 +131206,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -131441,7 +131507,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -131479,7 +131545,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -131517,7 +131583,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -131593,7 +131659,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -131631,7 +131697,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -131669,7 +131735,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -131707,7 +131773,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -131745,7 +131811,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -131783,7 +131849,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -131821,7 +131887,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -131859,7 +131925,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -131897,7 +131963,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -131935,7 +132001,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -132011,7 +132077,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -132163,7 +132229,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -132201,7 +132267,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -132277,7 +132343,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -132315,7 +132381,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -132353,7 +132419,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -132391,7 +132457,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -132429,7 +132495,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -132467,7 +132533,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -132505,7 +132571,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -132619,7 +132685,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -132657,7 +132723,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -132771,7 +132837,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -132847,7 +132913,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -132885,7 +132951,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -132961,7 +133027,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -132999,7 +133065,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -133037,7 +133103,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -133075,7 +133141,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -133151,7 +133217,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -133189,7 +133255,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -133265,7 +133331,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -133341,7 +133407,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -133493,7 +133559,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -133569,7 +133635,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -133683,7 +133749,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -133759,7 +133825,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -133797,7 +133863,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -133873,7 +133939,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -133911,7 +133977,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -133949,7 +134015,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -134025,7 +134091,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -134063,7 +134129,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -134139,7 +134205,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -134405,7 +134471,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -134443,7 +134509,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -134481,7 +134547,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -134667,7 +134733,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -134819,7 +134885,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -134895,7 +134961,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -135478,7 +135544,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -135726,7 +135792,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -136841,7 +136907,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -136879,7 +136945,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -137069,7 +137135,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -137183,7 +137249,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -137361,7 +137427,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -137399,7 +137465,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -137475,7 +137541,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -137513,7 +137579,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -137586,7 +137652,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -137621,7 +137687,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -137656,7 +137722,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -137691,7 +137757,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -137907,7 +137973,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -137945,7 +138011,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -137983,7 +138049,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -138091,7 +138157,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -138161,7 +138227,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -138523,7 +138589,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -138608,7 +138674,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -138643,7 +138709,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -139002,7 +139068,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -140143,7 +140209,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -141089,7 +141155,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -141197,7 +141263,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -141928,7 +141994,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -141962,7 +142028,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -142132,7 +142198,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -142166,7 +142232,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -142305,7 +142371,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -142339,7 +142405,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256
@@ -142441,7 +142507,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill-2.png
+gfx/forest/wall-fill.png
 0
 0
 256
@@ -142475,7 +142541,7 @@ base_item.size.width
 256
 45
 item_with_decoration.sprite
-gfx/forest/wall-fill.png
+gfx/forest/wall-fill-2.png
 0
 0
 256

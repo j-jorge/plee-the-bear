@@ -75,6 +75,9 @@ namespace ptb
 
     /** \brief The identifier of the fading effect. */
     std::size_t m_effect_id;
+
+    /** \brief Indicates if we have already pop the level. */
+    bool m_pop_doing;
   }; // class level_popper
 } // namespace ptb
 

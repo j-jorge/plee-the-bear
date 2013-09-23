@@ -30,7 +30,7 @@ BASE_ITEM_EXPORT( level_popper, ptb )
  */
 ptb::level_popper::level_popper()
   : m_players_count(0), m_applied(false), m_fade_duration(1), m_time(0),
-    m_effect_id(bear::engine::transition_layer::not_an_id)
+  m_effect_id(bear::engine::transition_layer::not_an_id), m_pop_doing(false)
 {
   set_phantom(true);
   set_can_move_items(false);
@@ -63,7 +63,13 @@ void ptb::level_popper::progress
     m_time += elapsed_time;
 
   if ( m_time >= m_fade_duration )
-    bear::engine::game::get_instance().pop_level();
+    {
+      if ( ! m_pop_doing )
+        {
+          m_pop_doing = true;
+          bear::engine::game::get_instance().pop_level();
+        }
+    }
 
   m_players_count = 0;
 } // level_popper::progress()
