@@ -41,7 +41,7 @@ unlocked = true
 #-------------------------------------------------
 [Bears on Fire]
 level_file = level/mini-game/bears_on_fire.cl
-locked_informations = In the First Act of the forest, fall from a high distance near a waterfall to find the owl. Then, do well to unlock this mini-game.
+locked_informations = In the First Act of the forest, fall with the water to find the owl. Then, do well to unlock this mini-game.
 unlocked_informations = Play along with the game's soundtrack by pressing the right buttons! A gold medal is rewarded for a perfect score.
 playability = one_or_two_players
 score_format = %p got %v%% of the notes.
