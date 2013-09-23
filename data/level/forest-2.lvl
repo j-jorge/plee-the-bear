@@ -80471,7 +80471,7 @@
 </fields>
     </item><!-- bear::descending_ceiling -->
 
-    <item class_name='bear::block' fixed='true'>
+    <item class_name='bear::straight_slope' fixed='true'>
 <fields>
 <field name='item_with_friction.top_friction'>
 <real value='0.95'/>
@@ -80494,11 +80494,11 @@
 <field name='base_item.size.width'>
 <real value='256'/>
 </field>
-<field name='item_with_activable_sides.top_side_is_active'>
+<field name='straight_slope.top_side_is_active'>
 <bool value='1'/>
 </field>
 </fields>
-    </item><!-- bear::block -->
+    </item><!-- bear::straight_slope -->
 
     <item class_name='bear::block' fixed='true'>
 <fields>
@@ -80696,7 +80696,7 @@
 </fields>
     </item><!-- bear::descending_ceiling -->
 
-    <item class_name='bear::block' fixed='true'>
+    <item class_name='bear::straight_slope' fixed='true'>
 <fields>
 <field name='item_with_friction.top_friction'>
 <real value='0.95'/>
@@ -80719,11 +80719,11 @@
 <field name='base_item.size.width'>
 <real value='256'/>
 </field>
-<field name='item_with_activable_sides.top_side_is_active'>
+<field name='straight_slope.top_side_is_active'>
 <bool value='1'/>
 </field>
 </fields>
-    </item><!-- bear::block -->
+    </item><!-- bear::straight_slope -->
 
     <item class_name='bear::block' fixed='true'>
 <fields>

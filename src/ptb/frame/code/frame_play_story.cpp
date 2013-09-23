@@ -646,6 +646,8 @@ void ptb::frame_play_story::on_ok()
       if (pos != std::string::npos)
         level = level.replace(pos, 5, "-intro.cl");
 
+      game_variables::load_player_variables();
+
       game_variables::set_next_level_name( level );
       game_variables::set_corrupting_bonus_count
         ( game_variables::get_last_corrupting_bonus_count( level_filename ) );
