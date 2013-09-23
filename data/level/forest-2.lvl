@@ -1555,7 +1555,7 @@
     <item class_name='bear::decorative_item' fixed='false'>
 <fields>
 <field name='base_item.position.bottom'>
-<real value='3904'/>
+<real value='3906'/>
 </field>
 <field name='base_item.position.depth'>
 <integer value='-2000'/>
