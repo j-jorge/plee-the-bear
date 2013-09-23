@@ -66337,7 +66337,7 @@
 <real value='13990'/>
 </field>
 <field name='base_bonus.type'>
-<string value='air_power'/>
+<string value='stones_big_stock'/>
 </field>
 </fields>
     </item><!-- ptb::bonus_box -->
@@ -67009,7 +67009,7 @@
 <bool value='1'/>
 </field>
 <field name='hidden_block.opacity.active'>
-<real value='0.6'/>
+<real value='0.9'/>
 </field>
 <field name='hidden_block.opacity.passive'>
 <real value='0.2'/>
@@ -67137,7 +67137,7 @@
 <bool value='1'/>
 </field>
 <field name='hidden_block.opacity.active'>
-<real value='0.6'/>
+<real value='0.9'/>
 </field>
 <field name='hidden_block.opacity.passive'>
 <real value='0.2'/>
@@ -67397,7 +67397,7 @@
 <bool value='1'/>
 </field>
 <field name='hidden_block.opacity.active'>
-<real value='0.6'/>
+<real value='0.9'/>
 </field>
 <field name='hidden_block.opacity.passive'>
 <real value='0.2'/>
@@ -67623,7 +67623,7 @@
 <bool value='1'/>
 </field>
 <field name='hidden_block.opacity.active'>
-<real value='0.6'/>
+<real value='0.9'/>
 </field>
 <field name='hidden_block.opacity.passive'>
 <real value='0.2'/>
@@ -67661,7 +67661,7 @@
 <bool value='1'/>
 </field>
 <field name='hidden_block.opacity.active'>
-<real value='0.6'/>
+<real value='0.9'/>
 </field>
 <field name='hidden_block.opacity.passive'>
 <real value='0.2'/>
@@ -67792,7 +67792,7 @@
 <bool value='1'/>
 </field>
 <field name='hidden_block.opacity.active'>
-<real value='0.6'/>
+<real value='0.9'/>
 </field>
 <field name='hidden_block.opacity.passive'>
 <real value='0.2'/>
@@ -67917,7 +67917,7 @@
 <bool value='1'/>
 </field>
 <field name='hidden_block.opacity.active'>
-<real value='0.6'/>
+<real value='0.9'/>
 </field>
 <field name='hidden_block.opacity.passive'>
 <real value='0.2'/>
@@ -68150,7 +68150,7 @@
 <bool value='1'/>
 </field>
 <field name='hidden_block.opacity.active'>
-<real value='0.6'/>
+<real value='0.9'/>
 </field>
 <field name='hidden_block.opacity.passive'>
 <real value='0.2'/>
@@ -68188,7 +68188,7 @@
 <bool value='1'/>
 </field>
 <field name='hidden_block.opacity.active'>
-<real value='0.6'/>
+<real value='0.9'/>
 </field>
 <field name='hidden_block.opacity.passive'>
 <real value='0.2'/>
@@ -68226,7 +68226,7 @@
 <bool value='1'/>
 </field>
 <field name='hidden_block.opacity.active'>
-<real value='0.6'/>
+<real value='0.9'/>
 </field>
 <field name='hidden_block.opacity.passive'>
 <real value='0.2'/>
@@ -68401,7 +68401,7 @@
 <bool value='1'/>
 </field>
 <field name='hidden_block.opacity.active'>
-<real value='0.6'/>
+<real value='0.9'/>
 </field>
 <field name='hidden_block.opacity.passive'>
 <real value='0.2'/>
@@ -68593,7 +68593,7 @@
 <bool value='1'/>
 </field>
 <field name='hidden_block.opacity.active'>
-<real value='0.6'/>
+<real value='0.9'/>
 </field>
 <field name='hidden_block.opacity.passive'>
 <real value='0.2'/>
@@ -68674,7 +68674,7 @@
 <bool value='1'/>
 </field>
 <field name='hidden_block.opacity.active'>
-<real value='0.6'/>
+<real value='0.9'/>
 </field>
 <field name='hidden_block.opacity.passive'>
 <real value='0.2'/>
@@ -68744,7 +68744,7 @@
 <bool value='1'/>
 </field>
 <field name='hidden_block.opacity.active'>
-<real value='0.6'/>
+<real value='0.9'/>
 </field>
 <field name='hidden_block.opacity.passive'>
 <real value='0.2'/>
@@ -68926,7 +68926,7 @@
 <bool value='1'/>
 </field>
 <field name='hidden_block.opacity.active'>
-<real value='0.6'/>
+<real value='0.9'/>
 </field>
 <field name='hidden_block.opacity.passive'>
 <real value='0.2'/>
@@ -69121,7 +69121,7 @@
 <bool value='1'/>
 </field>
 <field name='hidden_block.opacity.active'>
-<real value='0.6'/>
+<real value='0.9'/>
 </field>
 <field name='hidden_block.opacity.passive'>
 <real value='0.2'/>
@@ -69202,7 +69202,7 @@
 <bool value='1'/>
 </field>
 <field name='hidden_block.opacity.active'>
-<real value='0.6'/>
+<real value='0.9'/>
 </field>
 <field name='hidden_block.opacity.passive'>
 <real value='0.2'/>
@@ -69292,7 +69292,7 @@
 <bool value='1'/>
 </field>
 <field name='hidden_block.opacity.active'>
-<real value='0.6'/>
+<real value='0.9'/>
 </field>
 <field name='hidden_block.opacity.passive'>
 <real value='0.2'/>
@@ -69367,7 +69367,7 @@
 <bool value='1'/>
 </field>
 <field name='hidden_block.opacity.active'>
-<real value='0.6'/>
+<real value='0.9'/>
 </field>
 <field name='hidden_block.opacity.passive'>
 <real value='0.2'/>
@@ -69707,7 +69707,7 @@
 <bool value='1'/>
 </field>
 <field name='hidden_block.opacity.active'>
-<real value='0.6'/>
+<real value='0.9'/>
 </field>
 <field name='hidden_block.opacity.passive'>
 <real value='0.2'/>
@@ -69745,7 +69745,7 @@
 <bool value='1'/>
 </field>
 <field name='hidden_block.opacity.active'>
-<real value='0.6'/>
+<real value='0.9'/>
 </field>
 <field name='hidden_block.opacity.passive'>
 <real value='0.2'/>
@@ -69809,7 +69809,7 @@
 <bool value='1'/>
 </field>
 <field name='hidden_block.opacity.active'>
-<real value='0.6'/>
+<real value='0.9'/>
 </field>
 <field name='hidden_block.opacity.passive'>
 <real value='0.2'/>
@@ -69899,7 +69899,7 @@
 <bool value='1'/>
 </field>
 <field name='hidden_block.opacity.active'>
-<real value='0.6'/>
+<real value='0.9'/>
 </field>
 <field name='hidden_block.opacity.passive'>
 <real value='0.2'/>
@@ -70114,7 +70114,7 @@
 <bool value='1'/>
 </field>
 <field name='hidden_block.opacity.active'>
-<real value='0.6'/>
+<real value='0.9'/>
 </field>
 <field name='hidden_block.opacity.passive'>
 <real value='0.2'/>
@@ -70169,7 +70169,7 @@
 <bool value='1'/>
 </field>
 <field name='hidden_block.opacity.active'>
-<real value='0.6'/>
+<real value='0.9'/>
 </field>
 <field name='hidden_block.opacity.passive'>
 <real value='0.2'/>
@@ -70207,7 +70207,7 @@
 <bool value='1'/>
 </field>
 <field name='hidden_block.opacity.active'>
-<real value='0.6'/>
+<real value='0.9'/>
 </field>
 <field name='hidden_block.opacity.passive'>
 <real value='0.2'/>
@@ -70376,7 +70376,7 @@
 <bool value='1'/>
 </field>
 <field name='hidden_block.opacity.active'>
-<real value='0.6'/>
+<real value='0.9'/>
 </field>
 <field name='hidden_block.opacity.passive'>
 <real value='0.2'/>
@@ -70545,7 +70545,7 @@
 <bool value='1'/>
 </field>
 <field name='hidden_block.opacity.active'>
-<real value='0.6'/>
+<real value='0.9'/>
 </field>
 <field name='hidden_block.opacity.passive'>
 <real value='0.2'/>
@@ -70583,7 +70583,7 @@
 <bool value='1'/>
 </field>
 <field name='hidden_block.opacity.active'>
-<real value='0.6'/>
+<real value='0.9'/>
 </field>
 <field name='hidden_block.opacity.passive'>
 <real value='0.2'/>
@@ -70621,7 +70621,7 @@
 <bool value='1'/>
 </field>
 <field name='hidden_block.opacity.active'>
-<real value='0.6'/>
+<real value='0.9'/>
 </field>
 <field name='hidden_block.opacity.passive'>
 <real value='0.2'/>
@@ -70729,7 +70729,7 @@
 <bool value='1'/>
 </field>
 <field name='hidden_block.opacity.active'>
-<real value='0.6'/>
+<real value='0.9'/>
 </field>
 <field name='hidden_block.opacity.passive'>
 <real value='0.2'/>
@@ -70901,7 +70901,7 @@
 <bool value='1'/>
 </field>
 <field name='hidden_block.opacity.active'>
-<real value='0.6'/>
+<real value='0.9'/>
 </field>
 <field name='hidden_block.opacity.passive'>
 <real value='0.2'/>
@@ -70939,7 +70939,7 @@
 <bool value='1'/>
 </field>
 <field name='hidden_block.opacity.active'>
-<real value='0.6'/>
+<real value='0.9'/>
 </field>
 <field name='hidden_block.opacity.passive'>
 <real value='0.2'/>
@@ -70977,7 +70977,7 @@
 <bool value='1'/>
 </field>
 <field name='hidden_block.opacity.active'>
-<real value='0.6'/>
+<real value='0.9'/>
 </field>
 <field name='hidden_block.opacity.passive'>
 <real value='0.2'/>
@@ -71114,7 +71114,7 @@
 <bool value='1'/>
 </field>
 <field name='hidden_block.opacity.active'>
-<real value='0.6'/>
+<real value='0.9'/>
 </field>
 <field name='hidden_block.opacity.passive'>
 <real value='0.2'/>
@@ -71300,7 +71300,7 @@
 <bool value='1'/>
 </field>
 <field name='hidden_block.opacity.active'>
-<real value='0.6'/>
+<real value='0.9'/>
 </field>
 <field name='hidden_block.opacity.passive'>
 <real value='0.2'/>
@@ -71352,7 +71352,7 @@
 <bool value='1'/>
 </field>
 <field name='hidden_block.opacity.active'>
-<real value='0.6'/>
+<real value='0.9'/>
 </field>
 <field name='hidden_block.opacity.passive'>
 <real value='0.2'/>
