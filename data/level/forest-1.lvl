@@ -75127,9 +75127,6 @@
 <field name='base_item.size.width'>
 <real value='136'/>
 </field>
-<field name='level_exit.exit_name'>
-<string value='bottom_exit'/>
-</field>
 <field name='level_exit.level'>
 <string value='level/forest-2.cl'/>
 </field>
