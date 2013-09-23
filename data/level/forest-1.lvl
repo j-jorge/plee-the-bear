@@ -68766,9 +68766,6 @@
 <field name='item_with_decoration.animation'>
 <animation_file path='animation/forest/platform.canim' auto_size='true' width='152' height='64' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </field>
-<field name='item_with_restricted_z_collision.min_z_for_collision'>
-<integer value='2000'/>
-</field>
 <field name='base_item.mass'>
 <real value='50'/>
 </field>
