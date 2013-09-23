@@ -42297,7 +42297,7 @@
 <real value='1926'/>
 </field>
 <field name='base_item.position.depth'>
-<integer value='1'/>
+<integer value='-100'/>
 </field>
 <field name='base_item.position.left'>
 <real value='3831'/>
@@ -42421,7 +42421,7 @@
 <real value='2013'/>
 </field>
 <field name='base_item.position.depth'>
-<integer value='1'/>
+<integer value='-100'/>
 </field>
 <field name='base_item.position.left'>
 <real value='4187'/>
@@ -43464,7 +43464,7 @@
 <real value='3352'/>
 </field>
 <field name='base_item.position.depth'>
-<integer value='5'/>
+<integer value='-100'/>
 </field>
 <field name='base_item.position.left'>
 <real value='5323'/>
@@ -45076,6 +45076,9 @@
 <field name='base_item.position.bottom'>
 <real value='2328'/>
 </field>
+<field name='base_item.position.depth'>
+<integer value='-100'/>
+</field>
 <field name='base_item.position.left'>
 <real value='7577'/>
 </field>
@@ -45089,6 +45092,9 @@
 <fields>
 <field name='base_item.position.bottom'>
 <real value='2328'/>
+</field>
+<field name='base_item.position.depth'>
+<integer value='-100'/>
 </field>
 <field name='base_item.position.left'>
 <real value='7645'/>
@@ -47880,7 +47886,7 @@
 <real value='1626'/>
 </field>
 <field name='base_item.position.depth'>
-<integer value='6'/>
+<integer value='-100'/>
 </field>
 <field name='base_item.position.left'>
 <real value='11518'/>
@@ -54968,6 +54974,9 @@
 <field name='base_item.position.bottom'>
 <real value='6045'/>
 </field>
+<field name='base_item.position.depth'>
+<integer value='-100'/>
+</field>
 <field name='base_item.position.left'>
 <real value='16054'/>
 </field>
@@ -56201,6 +56210,9 @@
 <field name='base_item.position.bottom'>
 <real value='2932'/>
 </field>
+<field name='base_item.position.depth'>
+<integer value='-100'/>
+</field>
 <field name='base_item.position.left'>
 <real value='17081'/>
 </field>
@@ -56348,6 +56360,9 @@
 <field name='base_item.position.bottom'>
 <real value='5534'/>
 </field>
+<field name='base_item.position.depth'>
+<integer value='-100'/>
+</field>
 <field name='base_item.position.left'>
 <real value='17195'/>
 </field>
@@ -56462,6 +56477,9 @@
 <fields>
 <field name='base_item.position.bottom'>
 <real value='5534'/>
+</field>
+<field name='base_item.position.depth'>
+<integer value='-100'/>
 </field>
 <field name='base_item.position.left'>
 <real value='17256'/>
@@ -57695,6 +57713,9 @@
 <fields>
 <field name='base_item.position.bottom'>
 <real value='4256'/>
+</field>
+<field name='base_item.position.depth'>
+<integer value='-100'/>
 </field>
 <field name='base_item.position.left'>
 <real value='18204'/>
@@ -59195,6 +59216,9 @@
 <fields>
 <field name='base_item.position.bottom'>
 <real value='5277'/>
+</field>
+<field name='base_item.position.depth'>
+<integer value='-100'/>
 </field>
 <field name='base_item.position.left'>
 <real value='19560'/>
@@ -67840,6 +67864,9 @@
 <field name='base_item.position.bottom'>
 <real value='2206'/>
 </field>
+<field name='base_item.position.depth'>
+<integer value='-100'/>
+</field>
 <field name='base_item.position.left'>
 <real value='24448'/>
 </field>
@@ -67911,6 +67938,9 @@
 <fields>
 <field name='base_item.position.bottom'>
 <real value='2206'/>
+</field>
+<field name='base_item.position.depth'>
+<integer value='-100'/>
 </field>
 <field name='base_item.position.left'>
 <real value='24563'/>
@@ -68201,6 +68231,9 @@
 <field name='base_item.position.bottom'>
 <real value='2206'/>
 </field>
+<field name='base_item.position.depth'>
+<integer value='-100'/>
+</field>
 <field name='base_item.position.left'>
 <real value='24678'/>
 </field>
@@ -68304,6 +68337,9 @@
 <fields>
 <field name='base_item.position.bottom'>
 <real value='2206'/>
+</field>
+<field name='base_item.position.depth'>
+<integer value='-100'/>
 </field>
 <field name='base_item.position.left'>
 <real value='24793'/>
@@ -68602,6 +68638,9 @@
 <fields>
 <field name='base_item.position.bottom'>
 <real value='2206'/>
+</field>
+<field name='base_item.position.depth'>
+<integer value='-100'/>
 </field>
 <field name='base_item.position.left'>
 <real value='24908'/>
