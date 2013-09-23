@@ -16,6 +16,7 @@
 #define __PTB_RABBIT_HPP__
 
 #include "ptb/player_proxy.hpp"
+#include "ptb/item_brick/vulnerable.hpp"
 #include "ptb/item_brick/sniffable.hpp"
 #include "ptb/item_brick/item_with_attack_point.hpp"
 #include "ptb/item_brick/counted_item.hpp"
@@ -41,7 +42,8 @@ namespace ptb
   class rabbit:
     public item_with_attack_point
     < bear::engine::model< counted_item < bear::engine::base_item>  > >,
-    public sniffable
+    public sniffable,
+    public vulnerable
   {
     DECLARE_BASE_ITEM(rabbit);
 
@@ -69,11 +71,12 @@ namespace ptb
 
     void enters_active_region();
 
-  protected:
-    void collision
-    ( bear::engine::base_item& that, bear::universe::collision_info& info );
+    bool receive_an_attack
+    ( bear::engine::base_item& attacker, bear::universe::zone::position side );
 
   private:
+    void receive_player_attack( unsigned int player_index );
+
     std::string get_picture_filename() const;
     std::string get_picture_name() const;
     std::string get_notification_text() const;

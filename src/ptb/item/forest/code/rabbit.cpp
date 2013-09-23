@@ -146,57 +146,50 @@ void ptb::rabbit::enters_active_region()
 
 /*----------------------------------------------------------------------------*/
 /**
- * \brief Process a collision with an other item.
- * \param that The other item of the collision.
- * \param info Some informations about the collision.
+ * \brief Processes an attack sent by another item.
+ * \param attacker The item who's attacking us.
+ * \param side The side on which he is attacking.
  */
-void ptb::rabbit::collision
-( bear::engine::base_item& that, bear::universe::collision_info& info )
+bool ptb::rabbit::receive_an_attack
+( bear::engine::base_item& attacker, bear::universe::zone::position side )
 {
-  default_collision(info);
-
   if ( m_injured || (get_current_action_name() == "in_burrow") )
-    return;
+    return false;
 
-  player_proxy p(&that);
+  player_proxy p(&attacker);
 
   if ( (p != NULL) && (p.get_index() <= 2) )
     {
-      if ( is_attacked_by(p) )
-        {
-          count_me(p.get_index());
-          create_floating_score(p.get_index());
-	  on_found(p.get_index());
-          start_model_action("injured");
-        }
-      else if ( ( game_variables::get_corrupting_bonus_count() > 0 )
-                && ( get_current_action_name() != "eat" ) && !m_has_carrot )
-        {
-          game_variables::set_corrupting_bonus_count
-            (game_variables::get_corrupting_bonus_count() - 1);
-          m_has_carrot = true;
-        }
+      receive_player_attack(p.get_index());
+      return true;
     }
-  else
+
+  stone* s = dynamic_cast<stone*>(&attacker);
+
+  if ( ( s != NULL ) && ( s->get_monster_type() == monster::stone_monster )
+       && ( ( s->get_monster_index() == 1 )
+            || ( s->get_monster_index() == 2 ) ) )
     {
-      stone* s = dynamic_cast<stone*>(&that);
-
-      if ( s != NULL )
-        {
-          if ( ( s->get_monster_type() == monster::stone_monster ) &&
-               ( ( s->get_monster_index() == 1 ) ||
-                 ( s->get_monster_index() == 2 ) ) )
-          {
-             count_me(s->get_monster_index());
-             create_floating_score(s->get_monster_index());
-	     s->has_attacked();
-	     on_found(s->get_monster_index());
-          }
-
-          start_model_action("injured");
-        }
+      receive_player_attack(s->get_monster_index());
+      s->has_attacked();
+      return true;
     }
-} // rabbit::collision()
+
+  return false;
+} // rabbit::receive_an_attack()
+
+/*----------------------------------------------------------------------------*/
+/**
+ * \brief Processes an attack of a player.
+ * \param player_index The index of the player who's attacking us.
+ */
+void ptb::rabbit::receive_player_attack( unsigned int player_index )
+{
+  count_me( player_index );
+  create_floating_score( player_index );
+  on_found( player_index );
+  start_model_action( "injured" );
+} // rabbit::receive_player_attack()
 
 /*----------------------------------------------------------------------------*/
 /**
