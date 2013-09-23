@@ -41,6 +41,8 @@ namespace ptb
 
     void pre_cache();
 
+    void give_to_player( player_proxy p );
+
   private:
     std::string get_picture_filename() const;
     std::string get_picture_name() const;

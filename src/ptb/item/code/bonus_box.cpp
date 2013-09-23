@@ -78,6 +78,45 @@ void ptb::bonus_box::pre_cache()
 
 /*----------------------------------------------------------------------------*/
 /**
+ * \brief Give the bonus to a player.
+ * \param p The player who wants the bonus.
+ * \param info Some information about the collision.
+ *
+ * If a player index is assigned to the bonus box, the function gives the bonus
+ * to this player and creates a thief notification for p if he's not the
+ * legitimate receiver. Otherwise the function gives the bonus to p.
+ */
+void ptb::bonus_box::give_to_player( player_proxy p )
+{
+  if ( p == NULL || get_bonus_given() )
+    return;
+
+  player_proxy legitimate_receiver;
+
+  if ( get_player_index() != 0 ) 
+    legitimate_receiver =
+      util::find_player( get_level_globals(), get_player_index() );
+  else
+    legitimate_receiver = p;
+
+  if ( legitimate_receiver != NULL )
+    {
+      count_me( legitimate_receiver.get_index() );
+
+      give_bonus( legitimate_receiver );
+
+      create_broken_bonus_box();
+      create_broken_glass(p.get_rendering_attributes().is_mirrored());
+      create_honeypot_decoration();
+	  
+      if ( ( ( p.get_index() == 1) && ( get_player_index() == 2 ) ) ||
+           ( ( p.get_index() == 2) && ( get_player_index() == 1 ) ) )
+        send_thief_notification(p.get_index());
+    }
+} // bonus_box::give_to_player()
+
+/*----------------------------------------------------------------------------*/
+/**
  * \brief Get picture filename for counted item class.
  */
 std::string ptb::bonus_box::get_picture_filename() const
@@ -125,32 +164,13 @@ void ptb::bonus_box::collision_check_and_apply
 
   if ( p != NULL )
     {
-      if ( !get_bonus_given()
+      if ( !get_bonus_given() && p.is_in_offensive_phase()
            && ( ( info.get_collision_side()
-                  == bear::universe::zone::middle_left_zone ) ||
-                ( info.get_collision_side()
-                  == bear::universe::zone::middle_right_zone ) )
-           && p.is_in_offensive_phase() )
-        {
-	  player_proxy pl;
-	  if ( get_player_index() != 0 ) 
-	    pl = util::find_player( get_level_globals(), get_player_index() );
-	  else
-	    pl = p;
-
-	  if ( pl != NULL )
-	    {
-	      count_me(pl.get_index());
-	      give_bonus(pl);
-	      create_broken_bonus_box();
-	      create_broken_glass(p.get_rendering_attributes().is_mirrored());
-	      create_honeypot_decoration();
-	  
-	      if ( ( ( p.get_index() == 1) && ( get_player_index() == 2 ) ) ||
-		   ( ( p.get_index() == 2) && ( get_player_index() == 1 ) ) )
-		send_thief_notification(p.get_index());
-	    }	  
-        }
+                  == bear::universe::zone::middle_left_zone )
+                || ( info.get_collision_side()
+                     == bear::universe::zone::middle_right_zone ) )
+           )
+        give_to_player( p );
       else
         default_collision(info);
     }

@@ -39,7 +39,7 @@ namespace ptb
    * \author Julien Jorge
    */
   class rabbit:
-    public  item_with_attack_point
+    public item_with_attack_point
     < bear::engine::model< counted_item < bear::engine::base_item>  > >,
     public sniffable
   {
@@ -79,7 +79,7 @@ namespace ptb
     std::string get_notification_text() const;
     unsigned int get_points() const;
 
-    bool is_attacked(const player_proxy& p);
+    bool is_attacked_by(const player_proxy& p);
     void progress_idle( bear::universe::time_type elapsed_time );
     void progress_jump( bear::universe::time_type elapsed_time );
     void progress_fall( bear::universe::time_type elapsed_time );
