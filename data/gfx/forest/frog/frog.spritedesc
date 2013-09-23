@@ -1,0 +1,116 @@
+sprite_sheet "frog" 512 x 512 margin 1
+
+fall "fall.xcf.bz2"
+idle "idle.xcf.bz2"
+jump "jump.xcf.bz2"
+spatter "spatter.xcf.bz2"
+
+"idle 1" image_size * 0.66 with idle
+  "idle 1"
+;
+
+"idle 2" image_size * 0.66 with idle
+  "idle 1"
+  "idle 2+"
+;
+
+"idle 3" image_size * 0.66 with idle
+  "idle 1"
+  "idle 3+"
+;
+
+"spatter 1" image_size * 0.66 with spatter
+  "0"
+;
+
+"spatter 2" image_size * 0.66 with spatter
+  "1"
+  "spatter 1"
+;
+
+"spatter 3" image_size * 0.66 with spatter
+  "2"
+  "spatter 2"
+;
+
+"spatter 4" image_size * 0.66 with spatter
+  "3"
+  "spatter 3"
+  "eye"
+;
+
+"spatter 5" image_size * 0.66 with spatter
+  "3"
+  "spatter 4"
+  "eye 1"
+;
+
+"spatter 6" image_size * 0.66 with spatter
+  "3"
+  "spatter 5"
+  "eye 2"
+;
+
+"spatter 7" image_size * 0.66 with spatter
+  "3"
+  "spatter 6"
+  "eye 3"
+;
+
+"spatter 8" image_size * 0.66 with spatter
+  "3"
+  "spatter 6"
+  "eye 4"
+;
+
+"spatter 9" image_size * 0.66 with spatter
+  "3"
+  "spatter 6"
+  "eye 5"
+;
+
+"spatter 10" image_size * 0.66 with spatter
+  "3"
+  "spatter 6"
+  "eye 6"
+;
+
+"spatter 11" image_size * 0.66 with spatter
+  "3"
+  "spatter 6"
+  "eye 7"
+;
+
+"spatter 12" image_size * 0.66 with spatter
+  "3"
+  "spatter 6"
+  "eye 8"
+;
+
+"spatter 13" image_size * 0.66 with spatter
+  "3"
+  "spatter 6"
+  "eye 9"
+;
+
+"spatter 14" image_size * 0.66 with spatter
+  "3"
+  "spatter 6"
+  "eye 10"
+;
+
+"fall 1" image_size * 0.66 with fall
+  "1"
+;
+
+"jump 1" image_size * 0.66 with jump
+  "0"
+;
+
+"jump 2" image_size * 0.66 with jump
+  "1"
+;
+
+"jump 3" image_size * 0.66 with jump
+  "2"
+;

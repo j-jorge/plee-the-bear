@@ -1,45 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
-<animation loops='1' first_index='0' last_index='13' loop_back='false' auto_size='true' width='64' height='16' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'>
+<animation loops='1' first_index='0' last_index='13' loop_back='false' auto_size='true' width='84' height='21' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'>
   <frame duration='0.06'>
-    <sprite image='gfx/forest/frog/frog-1.png' x='0' y='16' clip_width='64' clip_height='16' spritepos='spatter 1' auto_size='true' width='64' height='16' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+    <sprite image='gfx/forest/frog/frog.png' x='0' y='0' clip_width='84' clip_height='21' spritepos='spatter 1' auto_size='true' width='84' height='21' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
   </frame>
   <frame duration='0.06'>
-    <sprite image='gfx/forest/frog/frog-1.png' x='64' y='16' clip_width='64' clip_height='16' spritepos='spatter 2' auto_size='true' width='64' height='16' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+    <sprite image='gfx/forest/frog/frog.png' x='85' y='0' clip_width='84' clip_height='21' spritepos='spatter 2' auto_size='true' width='84' height='21' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
   </frame>
   <frame duration='0.06'>
-    <sprite image='gfx/forest/frog/frog-1.png' x='0' y='32' clip_width='64' clip_height='16' spritepos='spatter 3' auto_size='true' width='64' height='16' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+    <sprite image='gfx/forest/frog/frog.png' x='170' y='0' clip_width='84' clip_height='21' spritepos='spatter 3' auto_size='true' width='84' height='21' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
   </frame>
   <frame duration='0.06'>
-    <sprite image='gfx/forest/frog/frog-1.png' x='64' y='32' clip_width='64' clip_height='16' spritepos='spatter 4' auto_size='true' width='64' height='16' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+    <sprite image='gfx/forest/frog/frog.png' x='255' y='0' clip_width='84' clip_height='21' spritepos='spatter 4' auto_size='true' width='84' height='21' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
   </frame>
   <frame duration='0.06'>
-    <sprite image='gfx/forest/frog/frog-1.png' x='0' y='48' clip_width='64' clip_height='16' spritepos='spatter 5' auto_size='true' width='64' height='16' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+    <sprite image='gfx/forest/frog/frog.png' x='340' y='0' clip_width='84' clip_height='21' spritepos='spatter 5' auto_size='true' width='84' height='21' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
   </frame>
   <frame duration='0.06'>
-    <sprite image='gfx/forest/frog/frog-1.png' x='64' y='48' clip_width='64' clip_height='16' spritepos='spatter 6' auto_size='true' width='64' height='16' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+    <sprite image='gfx/forest/frog/frog.png' x='425' y='0' clip_width='84' clip_height='21' spritepos='spatter 6' auto_size='true' width='84' height='21' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
   </frame>
   <frame duration='0.06'>
-    <sprite image='gfx/forest/frog/frog-1.png' x='0' y='64' clip_width='64' clip_height='16' spritepos='spatter 7' auto_size='true' width='64' height='16' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+    <sprite image='gfx/forest/frog/frog.png' x='0' y='22' clip_width='84' clip_height='21' spritepos='spatter 7' auto_size='true' width='84' height='21' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
   </frame>
   <frame duration='0.06'>
-    <sprite image='gfx/forest/frog/frog-1.png' x='64' y='64' clip_width='64' clip_height='16' spritepos='spatter 8' auto_size='true' width='64' height='16' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+    <sprite image='gfx/forest/frog/frog.png' x='85' y='22' clip_width='84' clip_height='21' spritepos='spatter 8' auto_size='true' width='84' height='21' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
   </frame>
   <frame duration='0.06'>
-    <sprite image='gfx/forest/frog/frog-1.png' x='0' y='80' clip_width='64' clip_height='16' spritepos='spatter 9' auto_size='true' width='64' height='16' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+    <sprite image='gfx/forest/frog/frog.png' x='170' y='22' clip_width='84' clip_height='21' spritepos='spatter 9' auto_size='true' width='84' height='21' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
   </frame>
   <frame duration='0.06'>
-    <sprite image='gfx/forest/frog/frog-1.png' x='64' y='80' clip_width='64' clip_height='16' spritepos='spatter 10' auto_size='true' width='64' height='16' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+    <sprite image='gfx/forest/frog/frog.png' x='255' y='22' clip_width='84' clip_height='21' spritepos='spatter 10' auto_size='true' width='84' height='21' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
   </frame>
   <frame duration='0.06'>
-    <sprite image='gfx/forest/frog/frog-1.png' x='0' y='96' clip_width='64' clip_height='16' spritepos='spatter 11' auto_size='true' width='64' height='16' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+    <sprite image='gfx/forest/frog/frog.png' x='340' y='22' clip_width='84' clip_height='21' spritepos='spatter 11' auto_size='true' width='84' height='21' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
   </frame>
   <frame duration='0.06'>
-    <sprite image='gfx/forest/frog/frog-1.png' x='64' y='96' clip_width='64' clip_height='16' spritepos='spatter 12' auto_size='true' width='64' height='16' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+    <sprite image='gfx/forest/frog/frog.png' x='425' y='22' clip_width='84' clip_height='21' spritepos='spatter 12' auto_size='true' width='84' height='21' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
   </frame>
   <frame duration='0.06'>
-    <sprite image='gfx/forest/frog/frog-1.png' x='0' y='112' clip_width='64' clip_height='16' spritepos='spatter 13' auto_size='true' width='64' height='16' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+    <sprite image='gfx/forest/frog/frog.png' x='0' y='44' clip_width='84' clip_height='21' spritepos='spatter 13' auto_size='true' width='84' height='21' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
   </frame>
   <frame duration='0.06'>
-    <sprite image='gfx/forest/frog/frog-1.png' x='64' y='112' clip_width='64' clip_height='16' spritepos='spatter 14' auto_size='true' width='64' height='16' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+    <sprite image='gfx/forest/frog/frog.png' x='85' y='44' clip_width='84' clip_height='21' spritepos='spatter 14' auto_size='true' width='84' height='21' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
   </frame>
 </animation>
