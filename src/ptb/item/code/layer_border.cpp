@@ -78,11 +78,9 @@ void ptb::layer_border::create_margins()
   const claw::math::coordinate_2d<unsigned int> screen_size
     ( bear::engine::game::get_instance().get_screen_size() );
 
-  create_vertical_margin( screen_size.y, 0,
-                          "item_with_activable_sides.right_side_is_active" );
+  create_vertical_margin( screen_size.y, 0, "right" );
   create_vertical_margin
-    ( screen_size.y, get_layer().get_size().x - m_block_width,
-      "item_with_activable_sides.left_side_is_active" );
+    ( screen_size.y, get_layer().get_size().x - m_block_width, "left" );
 
   create_top_margin( screen_size );
   create_bottom_margin( screen_size );
@@ -103,12 +101,10 @@ void ptb::layer_border::create_top_margin
   bear::universe::coordinate_type x = 0;
 
   for ( ; x < max_x - width; x += width )
-    new_align_block( x, y, width, m_block_width,
-                     "item_with_activable_sides.bottom_side_is_active" );
+    new_align_block( x, y, width, m_block_width, "bottom" );
 
   if ( max_x != x )
-    new_align_block( x, y, max_x - x, m_block_width,
-                     "item_with_activable_sides.bottom_side_is_active" );
+    new_align_block( x, y, max_x - x, m_block_width, "bottom" );
 } // layer_border::create_top_margin()
 
 /*----------------------------------------------------------------------------*/
@@ -159,7 +155,7 @@ void ptb::layer_border::create_vertical_margin
  * \param y Y-coordinate of the block.
  * \param width The width of the block.
  * \param height The height of the block.
- * \param solid_side The field name to set.
+ * \param solid_side The solid side.
  */
 void ptb::layer_border::new_align_block
 ( bear::universe::size_type x, bear::universe::coordinate_type y,
@@ -168,6 +164,13 @@ void ptb::layer_border::new_align_block
 {
   player_stop_block* block = new player_stop_block;
   block->set_bool_field(solid_side, true);
+  if ( solid_side == "right" )
+    block->set_right_side_activation(true);
+  else if ( solid_side == "left" )
+    block->set_left_side_activation(true); 
+  else if ( solid_side == "bottom" )
+    block->set_bottom_side_activation(true);
+
   new_margin_block( x, y, width, height, *block );
 } // layer_border::new_align_block()
 

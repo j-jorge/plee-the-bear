@@ -18,6 +18,7 @@
 #include "universe/forced_movement/forced_join.hpp"
 #include "universe/forced_movement/forced_goto.hpp"
 #include "universe/forced_movement/forced_sequence.hpp"
+#include "universe/forced_movement/forced_tracking.hpp"
 #include "universe/forced_movement/forced_stay_around.hpp"
 #include "engine/export.hpp"
 #include <claw/assert.hpp>
@@ -323,7 +324,7 @@ void ptb::woodpecker::progress_peck( bear::universe::time_type elapsed_time )
 void ptb::woodpecker::progress_attack( bear::universe::time_type elapsed_time )
 {
   super::progress(elapsed_time);
-
+  
   if ( get_forced_movement().is_finished() )
     {
       join_origin();
@@ -407,10 +408,10 @@ void ptb::woodpecker::start_peck()
   set_center_of_mass(m_origin_item->get_center_of_mass());
   m_progress = &woodpecker::progress_peck;
 
-  bear::universe::forced_join mvt
+  bear::universe::forced_tracking mvt
     (std::numeric_limits<bear::universe::time_type>::infinity());
   mvt.set_reference_point_on_center(*m_origin_item);
-  mvt.set_item(*this);
+  mvt.set_distance(bear::universe::position_type(0,0));
 
   set_forced_movement(mvt);
 } // woodpecker::start_peck()
@@ -572,7 +573,6 @@ void ptb::woodpecker::join_origin()
 {
   bear::universe::forced_join mvt(1);
   mvt.set_reference_point_on_center(*m_origin_item);
-  mvt.set_item(*this);
 
   set_forced_movement(mvt);
 } // woodpecker::join_origin()
