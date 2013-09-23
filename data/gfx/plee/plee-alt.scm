@@ -63,10 +63,45 @@
     ) ; lambda
   ) ; define apply-to
 
-(apply-to "plee-1.png" "plee-alt-1.png" '(190 135 19) 90 '(84 75 10))
-(apply-to "plee-2.png" "plee-alt-2.png" '(190 135 19) 90 '(84 75 10))
-(apply-to "plee-3.png" "plee-alt-3.png" '(190 135 19) 90 '(84 75 10))
-(apply-to "plee-4.png" "plee-alt-4.png" '(190 135 19) 90 '(84 75 10))
+
+(define apply-body-to
+  (lambda (src_name dest_name)
+
+    (let ( (dest_image (car (gimp-file-load 1 src_name src_name)))
+	   )
+      (let ( (layer (car (gimp-image-get-active-drawable dest_image)))
+	     )
+
+	(gimp-by-color-select layer '(176 118 15) 100 2 1 0 0 1)
+					; 100 is the threshold
+					; 2 is CHANEL-OP-REPLACE
+					; 1 is antialiasing = true
+					; 0 is feather = false
+					; 0 is the feather radius
+					; 1 tells to use the composite image
+
+	(gimp-hue-saturation layer 0 -3 -30 70)
+					; 0 is ALL-HUES
+                                        ; -3 is the hue offset
+                                        ; -30 is the lightness
+                                        ; 70 is the saturation
+
+	(gimp-by-color-select layer '(217 212 202) 90 2 1 0 0 1)
+        (plug-in-vinvert 1 dest_image layer)
+                                        ; 1 is RUN-NONINTERACTIVE
+
+	(save-frames dest_name dest_image)
+
+	) ; let
+      ) ; let
+    ) ; lambda
+  ) ; define apply-to
+
+(apply-body-to "plee.png" "plee-alt.png")
+(apply-body-to "plee-1.png" "plee-alt-1.png")
+(apply-body-to "plee-2.png" "plee-alt-2.png")
+(apply-body-to "plee-3.png" "plee-alt-3.png")
+(apply-body-to "plee-4.png" "plee-alt-4.png")
 (apply-to "cap.png" "cap-alt.png" '(154 133 142) 63 '(97 37 37))
 
 (gimp-quit 1)
