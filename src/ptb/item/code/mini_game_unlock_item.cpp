@@ -104,7 +104,7 @@ void ptb::mini_game_unlock_item::get_visual
       bear::visual::scene_element e2
         (bear::visual::scene_polygon(get_left(), get_bottom(),
                                      claw::graphic::black_pixel, points ));
-      e2.get_rendering_attributes().set_opacity(0.3);
+      e2.get_rendering_attributes().set_opacity(0.6);
 
       add_visual( e, visuals );
       visuals.push_front(e1);

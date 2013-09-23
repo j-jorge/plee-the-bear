@@ -60974,32 +60974,6 @@
 </fields>
     </item><!-- ptb::corrupting_bonus -->
 
-    <item class_name='ptb::corrupting_bonus' fixed='false'>
-<fields>
-<field name='base_item.position.bottom'>
-<real value='2532'/>
-</field>
-<field name='base_item.position.left'>
-<real value='11883'/>
-</field>
-<field name='base_item.size.height'>
-<real value='46'/>
-</field>
-<field name='base_item.size.width'>
-<real value='46'/>
-</field>
-<field name='item_with_decoration.item_to_mimic'>
-<item_reference value='corrupting_bonus'/>
-</field>
-<field name='basic_renderable_item.gap.x'>
-<integer value='-9'/>
-</field>
-<field name='basic_renderable_item.gap.y'>
-<integer value='-9'/>
-</field>
-</fields>
-    </item><!-- ptb::corrupting_bonus -->
-
     <item class_name='bear::block' fixed='true'>
 <fields>
 <field name='item_with_z_shift.z_shift'>
@@ -61493,32 +61467,6 @@
 </field>
 </fields>
     </item><!-- bear::train -->
-
-    <item class_name='ptb::corrupting_bonus' fixed='false'>
-<fields>
-<field name='base_item.position.bottom'>
-<real value='2587'/>
-</field>
-<field name='base_item.position.left'>
-<real value='12067'/>
-</field>
-<field name='base_item.size.height'>
-<real value='46'/>
-</field>
-<field name='base_item.size.width'>
-<real value='46'/>
-</field>
-<field name='item_with_decoration.item_to_mimic'>
-<item_reference value='corrupting_bonus'/>
-</field>
-<field name='basic_renderable_item.gap.x'>
-<integer value='-9'/>
-</field>
-<field name='basic_renderable_item.gap.y'>
-<integer value='-9'/>
-</field>
-</fields>
-    </item><!-- ptb::corrupting_bonus -->
 
     <item class_name='ptb::corrupting_bonus' fixed='false'>
 <fields>
@@ -62150,32 +62098,6 @@
 </field>
 </fields>
     </item><!-- ptb::rabbit -->
-
-    <item class_name='ptb::corrupting_bonus' fixed='false'>
-<fields>
-<field name='base_item.position.bottom'>
-<real value='2528'/>
-</field>
-<field name='base_item.position.left'>
-<real value='12252'/>
-</field>
-<field name='base_item.size.height'>
-<real value='46'/>
-</field>
-<field name='base_item.size.width'>
-<real value='46'/>
-</field>
-<field name='item_with_decoration.item_to_mimic'>
-<item_reference value='corrupting_bonus'/>
-</field>
-<field name='basic_renderable_item.gap.x'>
-<integer value='-9'/>
-</field>
-<field name='basic_renderable_item.gap.y'>
-<integer value='-9'/>
-</field>
-</fields>
-    </item><!-- ptb::corrupting_bonus -->
 
     <item class_name='bear::applied_forced_movement' fixed='false'>
 <fields>
