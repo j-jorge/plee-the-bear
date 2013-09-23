@@ -14,8 +14,10 @@
 #ifndef __PTB_MONSTER_ITEM_HPP__
 #define __PTB_MONSTER_ITEM_HPP__
 
-#include "ptb/item_brick/monster.hpp"
 #include "ptb/item_brick/item_with_attack_point.hpp"
+#include "ptb/item_brick/monster.hpp"
+#include "ptb/item_brick/vulnerable.hpp"
+
 #include "engine/base_item.hpp"
 #include "universe/collision_info.hpp"
 

@@ -248,15 +248,13 @@ bool ptb::monster_item<Base>::attack
 
   if ( is_in_offensive_phase() || m_invincible )
     {
-      monster* other = dynamic_cast<monster*>(&that);
+      vulnerable* const other( dynamic_cast<vulnerable*>(&that) );
 
       if (other != NULL)
-        {
-          result = other->receive_an_attack(*this, side);
+        result = other->receive_an_attack(*this, side);
 
-          if( result )
-            create_hit_star( that );
-        }
+      if( result )
+        create_hit_star( that );
     }
 
   return result;

@@ -14,18 +14,22 @@
 #ifndef __PTB_MONSTER_HPP__
 #define __PTB_MONSTER_HPP__
 
-#include <vector>
-#include <string>
+#include "ptb/item_brick/vulnerable.hpp"
+
 #include "universe/types.hpp"
 #include "universe/collision_info.hpp"
 #include "engine/base_item.hpp"
+
+#include <vector>
+#include <string>
 
 namespace ptb
 {
   /**
    * \brief The different type of monster.
    */
-  class monster
+  class monster:
+    public vulnerable
   {
   public:
      /** \brief The different categories of monster. */
@@ -63,7 +67,7 @@ namespace ptb
 
     virtual bool attack( bear::engine::base_item& that ) = 0;
     bool receive_an_attack
-    ( monster& attacker, bear::universe::zone::position side );
+    ( bear::engine::base_item& attacker, bear::universe::zone::position side );
 
     // The full namespace is used for the return type to ease the automatic
     // generation of the player_proxy class
@@ -107,6 +111,9 @@ namespace ptb
   private:
     bool player_is_vulnerable( monster& attacker) const;
     bool stone_is_vulnerable( monster& attacker) const;
+
+    bool receive_an_attack
+    ( monster& attacker, bear::universe::zone::position side );
 
   protected:
     /** \brief Force of attack. */

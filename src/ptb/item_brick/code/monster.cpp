@@ -89,45 +89,19 @@ bool ptb::monster::get_offensive_phase() const
 
 /*----------------------------------------------------------------------------*/
 /**
- * \brief The item receive an attack.
- *
- * \param attacker The monster attacking me.
- * \param side The size of the collision on the attacker.
+ * \brief Processes an attack sent by another item.
+ * \param attacker The item who's attacking us.
+ * \param side The side on which he is attacking.
  */
 bool ptb::monster::receive_an_attack
-( monster& attacker, bear::universe::zone::position side )
+( bear::engine::base_item& attacker, bear::universe::zone::position side )
 {
-  bool result = false;
+  monster* const m( dynamic_cast<monster*>( &attacker ) );
 
-  if( !m_invincible && !m_is_injured && is_vulnerable(attacker)
-      && (get_energy() != 0) )
-    {
-      double energy = m_energy;
-
-      if ( !attacker.is_invincible()
-           || (attacker.get_monster_type() == stone_monster) )
-        {
-          energy = 0;
-
-          for( unsigned int i=0; i!=m_defensive_powers.size(); ++i )
-            if ( !get_defensive_power_by_side
-                (i, attacker, bear::universe::zone::opposite_of(side)) )
-              energy += attacker.get_offensive_coefficient(i, *this, side);
-
-          energy *= attacker.m_offensive_force;
-        }
-
-      if ( energy > 0 )
-        {
-          result = true;
-          injure( attacker, bear::universe::zone::opposite_of(side),
-                  s_injured_duration );
-          remove_energy(attacker, energy);
-          attacker.has_attacked(*this);
-        }
-    }
-
-  return result;
+  if ( m != NULL )
+    return receive_an_attack( *m, side );
+  else
+    return false;
 } // monster::receive_an_attack()
 
 /*----------------------------------------------------------------------------*/
@@ -529,3 +503,45 @@ bool ptb::monster::stone_is_vulnerable( monster& attacker) const
   return result;
 } // monster::stone_is_vulnerable()
 
+/*----------------------------------------------------------------------------*/
+/**
+ * \brief The item receive an attack.
+ *
+ * \param attacker The monster attacking me.
+ * \param side The size of the collision on the attacker.
+ */
+bool ptb::monster::receive_an_attack
+( monster& attacker, bear::universe::zone::position side )
+{
+  bool result = false;
+
+  if( !m_invincible && !m_is_injured && is_vulnerable(attacker)
+      && (get_energy() != 0) )
+    {
+      double energy = m_energy;
+
+      if ( !attacker.is_invincible()
+           || (attacker.get_monster_type() == stone_monster) )
+        {
+          energy = 0;
+
+          for( unsigned int i=0; i!=m_defensive_powers.size(); ++i )
+            if ( !get_defensive_power_by_side
+                (i, attacker, bear::universe::zone::opposite_of(side)) )
+              energy += attacker.get_offensive_coefficient(i, *this, side);
+
+          energy *= attacker.m_offensive_force;
+        }
+
+      if ( energy > 0 )
+        {
+          result = true;
+          injure( attacker, bear::universe::zone::opposite_of(side),
+                  s_injured_duration );
+          remove_energy(attacker, energy);
+          attacker.has_attacked(*this);
+        }
+    }
+
+  return result;
+} // monster::receive_an_attack()

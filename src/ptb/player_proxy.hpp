@@ -89,7 +89,7 @@ bool is_invincible() const;
 bool is_stone_vulnerable() const;
 bool is_valid() const;
 bool is_vulnerable( monster& attacker ) const;
-bool receive_an_attack( monster& attacker, bear::universe::zone::position side ) const;
+bool receive_an_attack( bear::engine::base_item& attacker, bear::universe::zone::position side ) const;
 bool set_u_integer_field( const std::string& name, unsigned int value ) const;
 bool want_clung_jump() const;
 const ptb::gauge& get_cold_gauge() const;

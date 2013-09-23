@@ -33,8 +33,7 @@ namespace ptb
    * \author Sébastien Angibaud
    */
   class frog:
-    public bear::engine::model
-    < counted_item < bear::engine::base_item > >,
+    public bear::engine::model< counted_item < bear::engine::base_item > >,
     public sniffable
   {
     DECLARE_BASE_ITEM(frog);
