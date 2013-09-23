@@ -37,8 +37,6 @@ void ptb::level_settings::build()
   if ( m_is_main_level )
     game_variables::set_main_level_name(get_level().get_filename());
 
-  game_variables::load_player_variables();
-
   kill();
 } // level_settings::build()
 
