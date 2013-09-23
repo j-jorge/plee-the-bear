@@ -12,6 +12,7 @@
  * \author Sebastien Angibaud
  */
 #include "ptb/player.hpp"
+
 #include <sstream>
 
 #include "engine/game.hpp"
@@ -42,6 +43,7 @@
 #include "ptb/throwable_item/water_honeypot_throwable_item.hpp"
 
 #include "ptb/item/air_bubble.hpp"
+#include "ptb/item/bonus_box.hpp"
 #include "ptb/item/floating_score.hpp"
 #include "ptb/item/power_effect.hpp"
 #include "ptb/item/shared_camera.hpp"
@@ -3733,6 +3735,25 @@ void ptb::player::remove_corrupting_item()
 
 /*----------------------------------------------------------------------------*/
 /**
+ * \brief Processes a collision with the hand during a slap.
+ * \param mark The mark on which the collision occurred.
+ * \param that The other item of the collision.
+ * \param info Some informations about the collision.
+ */
+void ptb::player::on_slap_collision
+( bear::engine::base_item& mark, bear::engine::base_item& that,
+  bear::universe::collision_info& info )
+{
+  bonus_box* const bonus( dynamic_cast<bonus_box*>(&that) );
+
+  if ( bonus != NULL )
+    bonus->give_to_player( player_proxy(this) );
+  else
+    attack( that );
+} // player::on_propeller_collision()
+
+/*----------------------------------------------------------------------------*/
+/**
  * \brief Export the methods of the class.
  */
 void ptb::player::init_exported_methods()
@@ -3782,6 +3803,10 @@ void ptb::player::init_exported_methods()
   TEXT_INTERFACE_CONNECT_METHOD_3
     ( player, add_corrupting_item, void, double, double, const std::string& );
   TEXT_INTERFACE_CONNECT_METHOD_0( player, remove_corrupting_item, void );
+
+  TEXT_INTERFACE_CONNECT_METHOD_3
+    ( player, on_slap_collision, void,bear::engine::base_item&,
+      bear::engine::base_item&, bear::universe::collision_info& );
 } // player::init_exported_methods()
 
 /*----------------------------------------------------------------------------*/

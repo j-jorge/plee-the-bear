@@ -162,7 +162,7 @@ void ptb::rabbit::collision
 
   if ( (p != NULL) && (p.get_index() <= 2) )
     {
-      if ( is_attacked(p) )
+      if ( is_attacked_by(p) )
         {
           count_me(p.get_index());
           create_floating_score(p.get_index());
@@ -239,7 +239,7 @@ unsigned int ptb::rabbit::get_points() const
  * \brief Test if a given player attack the rabbit.
  * \param p A pointer on the player.
  */
-bool ptb::rabbit::is_attacked(const player_proxy& p)
+bool ptb::rabbit::is_attacked_by(const player_proxy& p)
 {
   bool result(false);
 
@@ -259,7 +259,7 @@ bool ptb::rabbit::is_attacked(const player_proxy& p)
     }
 
   return result;
-} // rabbit::is_attacked()
+} // rabbit::is_attacked_by()
 
 /*----------------------------------------------------------------------------*/
 /**

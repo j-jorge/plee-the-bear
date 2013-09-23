@@ -355,6 +355,10 @@ namespace ptb
     ( double amount, double coeff, const std::string& anim );
     void remove_corrupting_item();
 
+    void on_slap_collision
+    ( bear::engine::base_item& mark, bear::engine::base_item& that,
+      bear::universe::collision_info& info );
+
     static void init_exported_methods();
 
   private:

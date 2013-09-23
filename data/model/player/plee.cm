@@ -2910,7 +2910,7 @@ align_bottom
 8
 1
 1
-
+on_slap_collision
 3
 71.3953
 8
@@ -3015,7 +3015,7 @@ align_bottom
 8
 1
 1
-
+on_slap_collision
 3
 68.7791
 8
@@ -3120,7 +3120,7 @@ align_bottom
 8
 1
 1
-
+on_slap_collision
 3
 49.8837
 8
@@ -3568,7 +3568,7 @@ align_bottom
 8
 1
 1
-
+on_slap_collision
 3
 66.5465
 8
@@ -3673,7 +3673,7 @@ align_bottom
 8
 1
 1
-
+on_slap_collision
 3
 65.3837
 8
@@ -3778,7 +3778,7 @@ align_bottom
 8
 1
 1
-
+on_slap_collision
 3
 45.907
 8
