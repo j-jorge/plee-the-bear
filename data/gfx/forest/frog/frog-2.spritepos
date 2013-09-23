@@ -1,8 +1,0 @@
-# The format of the lines is
-# picture: x y width height
-
-fall 1: 0 0 25 21
-
-jump 1: 25 0 25 29
-jump 2: 50 0 25 29
-jump 3: 75 0 25 29
