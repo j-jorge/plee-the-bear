@@ -46,6 +46,7 @@ export FIGNORE=".lvl"
 FILE_EXISTS="FALSE"
 
 LEVEL_QUESTION=
+
 #-------------------------------------------------------------------------------
 # End of the variable declaration
 
@@ -120,7 +121,7 @@ print_exits()
     echo
     echo -e "\E[;32mAvailable exit names for player #$1 : \E[;0m"
     grep -A 1 'player_start_position.\(exit_name\|player_index\)' \
-        ../data/level/$LEVEL_FILE \
+        data/level/$LEVEL_FILE \
         | grep -v '^player_start_position.\(exit_name\|player_index\)' \
         | grep -v -- -- \
         | tr '\n' ' ' \
@@ -170,7 +171,7 @@ if [ -f "$VARS_FILE" ];then
 fi
 
 # Ask for the not determined variables
-cd ../data/
+cd data/
 echo -e "\E[;32mAvailable levels : \E[;0m"
 find ./ -name *.cl| awk '
 {
@@ -186,7 +187,7 @@ fi
 
 echo -e $LEVEL_QUESTION
 cd -> /dev/null
-cd ../data/level/
+cd data/level/
 while [ "$FILE_EXISTS" == "FALSE" ];do
     read -e ANSWER
     if [ "$ANSWER" == "" ];then
