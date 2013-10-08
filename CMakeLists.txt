@@ -33,10 +33,19 @@ endif( NOT PTB_INSTALL_EXECUTABLE_DIR )
 
 # where the game libraries (the items) are installed
 if( NOT PTB_INSTALL_CUSTOM_LIBRARY_DIR )
-  set( PTB_INSTALL_CUSTOM_LIBRARY_DIR lib )
+  if( WIN32 )
+    set( PTB_INSTALL_CUSTOM_LIBRARY_DIR
+      "${PTB_INSTALL_EXECUTABLE_DIR}"
+      )
+  else( WIN32 )
+    set( PTB_INSTALL_CUSTOM_LIBRARY_DIR lib )
+  endif( WIN32 )
 endif( NOT PTB_INSTALL_CUSTOM_LIBRARY_DIR )
 
 # Directories where the executable and libraries are built
+set( PTB_EXECUTABLE_OUTPUT_PATH "${CMAKE_CURRENT_BINARY_DIR}/bin" )
+set( PTB_LIBRARY_OUTPUT_PATH "${PTB_EXECUTABLE_OUTPUT_PATH}" )
+
 set( EXECUTABLE_OUTPUT_PATH "${CMAKE_CURRENT_BINARY_DIR}/bin" )
 set( LIBRARY_OUTPUT_PATH "${EXECUTABLE_OUTPUT_PATH}" )
 
@@ -100,7 +109,7 @@ find_package( Boost 1.46 REQUIRED COMPONENTS signals)
 
 if( NOT Boost_FOUND )
   message( FATAL_ERROR 
-    "You must have boost::filesystem and boost::thread libraries installed (at least 1.46)" )
+    "You must have boost::signals library installed (at least 1.46)" )
 endif( NOT Boost_FOUND )
 
 #-------------------------------------------------------------------------------
@@ -131,20 +140,13 @@ link_directories(
   )
 
 #-------------------------------------------------------------------------------
-if( BEAR_ENGINE_INCLUDE_DIRECTORY )
-  include_directories( "${BEAR_ENGINE_INCLUDE_DIRECTORY}" )
-else( BEAR_ENGINE_INCLUDE_DIRECTORY )
-  include_directories( ${BEAR_ROOT_DIRECTORY}/bear-engine/core/src )
-endif( BEAR_ENGINE_INCLUDE_DIRECTORY )
-
-if( BEAR_ITEMS_INCLUDE_DIRECTORY )
-  include_directories( "${BEAR_ITEMS_INCLUDE_DIRECTORY}" )
-else( BEAR_ITEMS_INCLUDE_DIRECTORY )
-  include_directories( ${BEAR_ROOT_DIRECTORY}/bear-engine/lib/src )
-endif( BEAR_ITEMS_INCLUDE_DIRECTORY )
+if( RP_TAG )
+  add_definitions( "-DRP_TAG=${RP_TAG}" )
+endif()
 
 #-------------------------------------------------------------------------------
 subdirs(
+  launcher
   src
   data
   desktop
@@ -159,7 +161,6 @@ install(
   DIRECTORY_PERMISSIONS OWNER_READ OWNER_WRITE OWNER_EXECUTE
   GROUP_READ GROUP_EXECUTE
   WORLD_READ WORLD_EXECUTE
-  PATTERN ".svn" EXCLUDE
   PATTERN "*~" EXCLUDE
 )
 
@@ -171,15 +172,4 @@ if(UNIX)
     SET(DYLIB_EXTENSION "so")
   ENDIF(APPLE)
   
-  configure_file(
-    "${CMAKE_CURRENT_SOURCE_DIR}/release/plee-the-bear.in"
-    "${CMAKE_CURRENT_BINARY_DIR}/release/plee-the-bear"
-    IMMEDIATE @ONLY
-    )
-
-  install( FILES "${CMAKE_CURRENT_BINARY_DIR}/release/plee-the-bear"
-    DESTINATION ${PTB_INSTALL_EXECUTABLE_DIR}
-    PERMISSIONS OWNER_READ OWNER_WRITE OWNER_EXECUTE
-      GROUP_READ GROUP_EXECUTE
-      WORLD_READ WORLD_EXECUTE )
 endif(UNIX)

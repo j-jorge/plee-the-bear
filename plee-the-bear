@@ -1,0 +1,64 @@
+#!/bin/bash
+
+RUNNING_BEAR=./bin/plee-the-bear
+
+MODE="$1"
+ARGS="--log-level=verbose --log-file=log.txt"
+
+export LD_LIBRARY_PATH="./bin:../bear/bear-engine/bin:$LD_LIBRARY_PATH"
+
+rm -f *.timelog
+
+if [ "$MODE" == "gdb" ]
+then
+  shift 1
+  gdb --args $RUNNING_BEAR $ARGS "$@"
+elif [ "$MODE" == "valgrind" ]
+then
+  shift 1
+  echo $ARGS "$MODE" "$@" \
+      | xargs valgrind --leak-check=full --show-reachable=yes --error-limit=no \
+      --track-origins=yes $RUNNING_BEAR 2>&1
+else
+  echo $ARGS "$MODE" "$@" | xargs $RUNNING_BEAR
+
+  echo "The program emitted the following error messages:"
+  grep '\(erreur\)\|\(avertissement\)' log.txt | uniq -c
+fi
+
+if which transcode >/dev/null \
+   && ls ~/.plee_the_bear/*.seq >/dev/null 2>/dev/null
+then
+  for SEQ in ~/.plee_the_bear/*.seq
+  do
+    BASE=$(echo $SEQ | sed 's/\.seq$//')
+    FPS=60 #$(cat $SEQ | cut -d' ' -f1)
+
+    echo "$BASE" "$FPS"
+
+# Lossless Mov
+    TMP=$(mktemp)
+    find ~/.plee_the_bear/ -name "$(basename $BASE)-*.bmp" | sort > $TMP
+    transcode -i $TMP -x imlist,null -g 1280x720 --export_fps 60 -y mov,null \
+        -F yuv2 -f 1 -H 0 -V rgb24 -o $BASE.mov
+
+    rm "$TMP"
+  done
+fi
+
+rm -f $HOME/.plee_the_bear/s-*.bmp
+rm -f $HOME/.plee_the_bear/*.seq
+
+if ls *.timelog >/dev/null 2>/dev/null && which gnuplot >/dev/null
+then
+  ( echo 'set term svg'
+    echo 'set output "timelog.svg'
+    echo -n "plot "
+    for f in *.timelog
+    do
+      echo '"'$f'" title "'$(basename $f .timelog)'" with lines, \'
+    done
+    echo "0 notitle with points 0"
+
+  ) | gnuplot 2>/dev/null
+fi
