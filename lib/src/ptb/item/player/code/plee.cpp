@@ -27,20 +27,22 @@ const bear::universe::coordinate_type
 ptb::plee::s_move_force_in_vertical_jump = 50000;
 
 const bear::universe::coordinate_type
-ptb::plee::s_move_force_in_run = 350000; //450000;
+ptb::plee::s_move_force_in_run = 300000;
 
 const bear::universe::coordinate_type
 ptb::plee::s_move_force_in_swimming = 80000;
 
 const bear::universe::coordinate_type
-ptb::plee::s_move_force_min_in_walk = 50000; // 50000
+ptb::plee::s_move_force_min_in_walk = 70000;
 
 const bear::universe::coordinate_type
 ptb::plee::s_move_force_max_in_walk = 300000;
 
 const bear::universe::coordinate_type ptb::plee::s_jump_force = 2600000;
+
 const bear::universe::coordinate_type
 ptb::plee::s_jump_force_in_float = 11500000;
+
 const bear::universe::coordinate_type
 ptb::plee::s_vertical_jump_force = 8500000;
 
@@ -177,10 +179,12 @@ ptb::plee::get_move_force_in_swimming() const
 bear::universe::coordinate_type
 ptb::plee::get_move_force_in_walk() const
 {
-  return s_move_force_min_in_walk +
-    std::min(m_run_time, s_time_to_run)*
-    (s_move_force_max_in_walk - s_move_force_min_in_walk)
-    / s_time_to_run;
+  const bear::universe::coordinate_type speed_x
+    ( std::abs( get_speed().dot_product(get_x_axis()) ) );
+
+  return s_move_force_min_in_walk
+    +  std::min(1.0, speed_x / s_speed_to_run)
+    * (s_move_force_max_in_walk - s_move_force_min_in_walk);
 } // plee::get_move_force_in_walk()
 
 /*---------------------------------------------------------------------------*/

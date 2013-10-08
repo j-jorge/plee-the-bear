@@ -114,7 +114,7 @@ const bear::universe::time_type ptb::player::s_time_to_crouch = 0.5;
 const bear::universe::time_type ptb::player::s_time_to_look_upward = 0.5;
 const bear::universe::time_type ptb::player::s_time_to_wait = 3;
 const bear::universe::time_type ptb::player::s_time_to_jump = 1;
-const bear::universe::time_type ptb::player::s_time_to_run = 2.5; // 1.2;
+const bear::universe::time_type ptb::player::s_time_to_run = 2.5;
 const bear::universe::time_type ptb::player::s_time_to_start_throw = 0.17;
 const bear::universe::time_type ptb::player::s_max_time_to_cling = 0.3;
 const bear::universe::time_type ptb::player::s_max_time_to_hang = 1;
@@ -2115,10 +2115,7 @@ void ptb::player::progress_walk( bear::universe::time_type elapsed_time )
             speed.dot_product(get_x_axis());
 
           if( std::abs(speed_x) >= get_speed_to_run() )
-            {
-              if ( m_run_time >= s_time_to_run )
-                start_action_model("run");
-            }
+            start_action_model("run");
           else if ( speed_x == 0 )
             choose_idle_state();
           else
@@ -3117,10 +3114,10 @@ void ptb::player::progress_spot( bear::universe::time_type elapsed_time )
           add_spot_gap( bear::universe::position_type(0, -5) );
         }
     }
-
- bear::universe::coordinate_type gap =
-   std::min( 2.0, std::abs(get_speed().x) * 2.0 / get_speed_to_run());
-      
+  
+  bear::universe::coordinate_type gap =
+    std::min( 2.0, std::abs(get_speed().x) * 2.0 / get_speed_to_run());
+  
   if ( get_speed().x > ( get_speed_to_run() / 2 ) )
     {
       set_spot_maximum(200, 220);
