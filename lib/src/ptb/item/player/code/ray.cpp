@@ -16,35 +16,7 @@
 BASE_ITEM_EXPORT( ray, ptb )
 
 /*----------------------------------------------------------------------------*/
-const bear::universe::coordinate_type
-ptb::ray::s_move_force_in_idle = 160000;
-
-const bear::universe::coordinate_type
-ptb::ray::s_move_force_in_jump = 64000;
-
-const bear::universe::coordinate_type
-ptb::ray::s_move_force_in_vertical_jump = 32000;
-
-const bear::universe::coordinate_type
-ptb::ray::s_move_force_in_run = 81000;
-
-const bear::universe::coordinate_type
-ptb::ray::s_move_force_in_swimming = 64000;
-
-const bear::universe::coordinate_type
-ptb::ray::s_move_force_min_in_walk = 24000;
-
-const bear::universe::coordinate_type
-ptb::ray::s_move_force_max_in_walk = 81000;
-
-const bear::universe::coordinate_type ptb::ray::s_jump_force = 1500000;
-const bear::universe::coordinate_type
-ptb::ray::s_jump_force_in_float = 9200000;
-const bear::universe::coordinate_type
-ptb::ray::s_vertical_jump_force = 5000000;
-
-// while run animation is available
-const bear::universe::coordinate_type ptb::ray::s_speed_to_run = 1000; //170;
+const bear::universe::coordinate_type ptb::ray::s_vertical_jump_force = 5000000;
 
 const double ptb::ray::s_mass = 80;
 const double ptb::ray::s_density = 1.5;
@@ -54,7 +26,7 @@ const double ptb::ray::s_density = 1.5;
  * \brief Constructor.
  */
 ptb::ray::ray()
-  : m_cry(false)
+  : super( get_physics() ), m_cry(false)
 {
   set_mass(s_mass);
   set_density(s_density);
@@ -188,96 +160,6 @@ ptb::ray::get_vertical_jump_force() const
   return s_vertical_jump_force;
 } // ray::get_vertical_jump_force()
 
-/*---------------------------------------------------------------------------*/
-/**
- * \brief Get the right force in idle state.
- */
-bear::universe::coordinate_type ptb::ray::get_move_force_in_idle() const
-{
-  return s_move_force_in_idle;
-} // ray::get_move_force_in_idle()
-
-/*---------------------------------------------------------------------------*/
-/**
- * \brief Get the right force in jump state.
- */
-bear::universe::coordinate_type ptb::ray::get_move_force_in_jump() const
-{
-  return s_move_force_in_jump;
-} // ray::get_move_force_in_jump()
-
-/*---------------------------------------------------------------------------*/
-/**
- * \brief Get the right force in vertical jump state.
- */
-bear::universe::coordinate_type
-ptb::ray::get_move_force_in_vertical_jump() const
-{
-  return s_move_force_in_vertical_jump;
-} // ray::get_move_force_in_vertical_jump()
-
-/*---------------------------------------------------------------------------*/
-/**
- * \brief Get the right force in run state.
- */
-bear::universe::coordinate_type ptb::ray::get_move_force_in_run() const
-{
-  return s_move_force_in_run;
-} // ray::get_move_force_in_run()
-
-/*---------------------------------------------------------------------------*/
-/**
- * \brief Get the right force in swimming state.
- */
-bear::universe::coordinate_type
-ptb::ray::get_move_force_in_swimming() const
-{
-  return s_move_force_in_swimming;
-} // ray::get_move_force_in_swimming()
-
-/*---------------------------------------------------------------------------*/
-/**
- * \brief Get the right force in walk state.
- */
-bear::universe::coordinate_type
-ptb::ray::get_move_force_in_walk() const
-{
-  return s_move_force_min_in_walk +
-    std::min(m_run_time, s_time_to_run)*
-    (s_move_force_max_in_walk - s_move_force_min_in_walk)
-    / s_time_to_run;
-} // ray::get_move_force_in_walk()
-
-/*---------------------------------------------------------------------------*/
-/**
- * \brief Get the impulse force when ray jumps.
- */
-bear::universe::coordinate_type
-ptb::ray::get_jump_force() const
-{
-  return s_jump_force;
-} // ray::get_jump_force()
-
-/*---------------------------------------------------------------------------*/
-/**
- * \brief Get the impulse force when ray jumps in float state.
- */
-bear::universe::coordinate_type
-ptb::ray::get_jump_force_in_float() const
-{
-  return s_jump_force_in_float;
-} // ray::get_jump_force_in_float()
-
-/*---------------------------------------------------------------------------*/
-/**
- * \brief Get the speed over which Ray is running.
- */
-bear::universe::coordinate_type
-ptb::ray::get_speed_to_run() const
-{
-  return s_speed_to_run;
-} // ray::get_speed_to_run()
-
 /*----------------------------------------------------------------------------*/
 /**
  * \brief Give a string representation of the item.
@@ -322,6 +204,28 @@ void ptb::ray::update_cry_action()
   else if ( m_current_state == player::walk_state )
     choose_walk_state();
 } // ray::update_cry_action()
+
+/*----------------------------------------------------------------------------*/
+/**
+ * \brief Gets the physics constants defining the behavior of this player.
+ */
+ptb::player_physics ptb::ray::get_physics() const
+{
+  player_physics result;
+
+  result.move_force_in_idle = 160000;
+  result.move_force_in_jump = 64000;
+  result.move_force_in_vertical_jump = 32000;
+  result.move_force_in_run = 81000;
+  result.move_force_in_swimming = 64000;
+  result.min_move_force_in_walk = 24000;
+  result.max_move_force_in_walk = 81000;
+  result.jump_force = 3000000;
+  result.jump_force_in_float = 9200000;
+  result.speed_to_run = 1000;
+  
+  return result;
+} // ray::get_physics()
 
 /*----------------------------------------------------------------------------*/
 /**

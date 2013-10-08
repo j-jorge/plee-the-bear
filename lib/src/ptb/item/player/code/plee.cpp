@@ -18,35 +18,7 @@ BASE_ITEM_EXPORT( plee, ptb )
 
 /*----------------------------------------------------------------------------*/
 const bear::universe::coordinate_type
-ptb::plee::s_move_force_in_idle = 200000;
-
-const bear::universe::coordinate_type
-ptb::plee::s_move_force_in_jump = 100000;
-
-const bear::universe::coordinate_type
-ptb::plee::s_move_force_in_vertical_jump = 50000;
-
-const bear::universe::coordinate_type
-ptb::plee::s_move_force_in_run = 300000;
-
-const bear::universe::coordinate_type
-ptb::plee::s_move_force_in_swimming = 80000;
-
-const bear::universe::coordinate_type
-ptb::plee::s_move_force_min_in_walk = 70000;
-
-const bear::universe::coordinate_type
-ptb::plee::s_move_force_max_in_walk = 300000;
-
-const bear::universe::coordinate_type ptb::plee::s_jump_force = 2600000;
-
-const bear::universe::coordinate_type
-ptb::plee::s_jump_force_in_float = 11500000;
-
-const bear::universe::coordinate_type
 ptb::plee::s_vertical_jump_force = 8500000;
-
-const bear::universe::coordinate_type ptb::plee::s_speed_to_run = 580;
 
 const double ptb::plee::s_mass = 100;
 const double ptb::plee::s_density = 1.5;
@@ -56,6 +28,7 @@ const double ptb::plee::s_density = 1.5;
  * \brief Constructor.
  */
 ptb::plee::plee()
+  : super( get_physics() )
 {
   set_mass(s_mass);
   set_density(s_density);
@@ -124,98 +97,6 @@ void ptb::plee::progress_in_water(bear::universe::time_type elapsed_time)
   if ( m_has_main_hat )
     take_out_hat();
 } // plee::progress_in_water()
-
-/*---------------------------------------------------------------------------*/
-/**
- * \brief Get the right force in idle state.
- */
-bear::universe::coordinate_type ptb::plee::get_move_force_in_idle() const
-{
-  return s_move_force_in_idle;
-} // plee::get_move_force_in_idle()
-
-/*---------------------------------------------------------------------------*/
-/**
- * \brief Get the right force in jump state.
- */
-bear::universe::coordinate_type ptb::plee::get_move_force_in_jump() const
-{
-  return s_move_force_in_jump;
-} // plee::get_move_force_in_jump()
-
-/*---------------------------------------------------------------------------*/
-/**
- * \brief Get the right force in vertical jump state.
- */
-bear::universe::coordinate_type
-ptb::plee::get_move_force_in_vertical_jump() const
-{
-  return s_move_force_in_vertical_jump;
-} // plee::get_move_force_in_vertical_jump()
-
-/*---------------------------------------------------------------------------*/
-/**
- * \brief Get the right force in run state.
- */
-bear::universe::coordinate_type ptb::plee::get_move_force_in_run() const
-{
-  return s_move_force_in_run;
-} // plee::get_move_force_in_run()
-
-/*---------------------------------------------------------------------------*/
-/**
- * \brief Get the right force in swimming state.
- */
-bear::universe::coordinate_type
-ptb::plee::get_move_force_in_swimming() const
-{
-  return s_move_force_in_swimming;
-} // plee::get_move_force_in_swimming()
-
-/*---------------------------------------------------------------------------*/
-/**
- * \brief Get the right force in walk state.
- */
-bear::universe::coordinate_type
-ptb::plee::get_move_force_in_walk() const
-{
-  const bear::universe::coordinate_type speed_x
-    ( std::abs( get_speed().dot_product(get_x_axis()) ) );
-
-  return s_move_force_min_in_walk
-    +  std::min(1.0, speed_x / s_speed_to_run)
-    * (s_move_force_max_in_walk - s_move_force_min_in_walk);
-} // plee::get_move_force_in_walk()
-
-/*---------------------------------------------------------------------------*/
-/**
- * \brief Get the impulse force when ray jumps.
- */
-bear::universe::coordinate_type
-ptb::plee::get_jump_force() const
-{
-  return s_jump_force;
-} // plee::get_jump_force()
-
-/*---------------------------------------------------------------------------*/
-/**
- * \brief Get the impulse force when ray jumps in float state.
- */
-bear::universe::coordinate_type
-ptb::plee::get_jump_force_in_float() const
-{
-  return s_jump_force_in_float;
-} // plee::get_jump_force_in_float()
-
-/*---------------------------------------------------------------------------*/
-/**
- * \brief Get the speed over which Plee is running.
- */
-bear::universe::coordinate_type
-ptb::plee::get_speed_to_run() const
-{
-  return s_speed_to_run;
-} // plee::get_speed_to_run()
 
 /*---------------------------------------------------------------------------*/
 /**
@@ -346,6 +227,28 @@ void ptb::plee::take_out_hat()
         ("hat", new bear::visual::animation() );
     }
 } // plee::take_out_hat()
+
+/*----------------------------------------------------------------------------*/
+/**
+ * \brief Gets the physics constants defining the behavior of this player.
+ */
+ptb::player_physics ptb::plee::get_physics() const
+{
+  player_physics result;
+
+  result.move_force_in_idle = 200000;
+  result.move_force_in_jump = 100000;
+  result.move_force_in_vertical_jump = 50000;
+  result.move_force_in_run = 300000;
+  result.move_force_in_swimming = 80000;
+  result.min_move_force_in_walk = 70000;
+  result.max_move_force_in_walk = 300000;
+  result.jump_force = 5200000;
+  result.jump_force_in_float = 11500000;
+  result.speed_to_run = 580;
+  
+  return result;
+} // plee::get_physics()
 
 /*----------------------------------------------------------------------------*/
 /**

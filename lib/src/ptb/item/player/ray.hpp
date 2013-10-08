@@ -52,62 +52,19 @@ namespace ptb
     bear::universe::coordinate_type get_vertical_jump_force() const;
 
   protected:
-    bear::universe::coordinate_type get_move_force_in_idle() const;
-    bear::universe::coordinate_type get_move_force_in_jump() const;
-    bear::universe::coordinate_type
-    get_move_force_in_vertical_jump() const;
-    bear::universe::coordinate_type get_move_force_in_run() const;
-    bear::universe::coordinate_type get_move_force_in_swimming() const;
-    bear::universe::coordinate_type get_move_force_in_walk() const;
-    bear::universe::coordinate_type get_jump_force() const;
-    bear::universe::coordinate_type get_jump_force_in_float() const;
-    bear::universe::coordinate_type get_speed_to_run() const;
-
     void to_string( std::string& str ) const;
 
   private:
     bear::visual::sprite get_soul_sprite() const;
     void update_cry_action();
 
+    player_physics get_physics() const;
+
     static void init_exported_methods();
 
   private:
-    /** \brief The right force of Ray in idle state. */
-    static const bear::universe::coordinate_type s_move_force_in_idle;
-
-    /** \brief The right force of Ray in jump state. */
-    static const bear::universe::coordinate_type s_move_force_in_jump;
-
-    /** \brief The right force of Ray in vertical jump state. */
-    static const bear::universe::coordinate_type
-    s_move_force_in_vertical_jump;
-
-    /** \brief The right force of Ray in run state. */
-    static const bear::universe::coordinate_type s_move_force_in_run;
-
-    /** \brief The right force of Ray in swim state. */
-    static const bear::universe::coordinate_type
-    s_move_force_in_swimming;
-
-    /** \brief The minimum right force of Ray in walk state. */
-    static const bear::universe::coordinate_type
-    s_move_force_min_in_walk;
-
-    /** \brief The maximum right force of Ray in walk state. */
-    static const bear::universe::coordinate_type
-    s_move_force_max_in_walk;
-
-    /** \brief The impulse force given when Ray jumps. */
-    static const bear::universe::coordinate_type s_jump_force;
-
-    /** \brief The impulse force given when Ray jumps in float state. */
-    static const bear::universe::coordinate_type s_jump_force_in_float;
-
     /** \brief The impulse force given for vertical jumps. */
     static const bear::universe::coordinate_type s_vertical_jump_force;
-
-    /** \brief The speed over which Ray is running. */
-    static const bear::universe::coordinate_type s_speed_to_run;
 
     /** \brief The mass of Ray. */
     static const double s_mass;

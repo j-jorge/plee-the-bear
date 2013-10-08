@@ -114,19 +114,21 @@ const bear::universe::time_type ptb::player::s_time_to_crouch = 0.5;
 const bear::universe::time_type ptb::player::s_time_to_look_upward = 0.5;
 const bear::universe::time_type ptb::player::s_time_to_wait = 3;
 const bear::universe::time_type ptb::player::s_time_to_jump = 1;
-const bear::universe::time_type ptb::player::s_time_to_run = 2.5;
 const bear::universe::time_type ptb::player::s_time_to_start_throw = 0.17;
 const bear::universe::time_type ptb::player::s_max_time_to_cling = 0.3;
 const bear::universe::time_type ptb::player::s_max_time_to_hang = 1;
 const bear::universe::time_type ptb::player::s_max_time_air_float = 1;
-const bear::universe::time_type ptb::player::s_max_time_continue_jump = 0.28; //0.26;
+const bear::universe::time_type ptb::player::s_max_time_continue_jump = 0.28;
 
 /*----------------------------------------------------------------------------*/
 /**
  * \brief Constructor.
+ * \param physics The physics constants defining the behavior of the player.
  */
-ptb::player::player()
-  : m_current_state(roar_state), m_last_visual_time(0),
+ptb::player::player( const player_physics& physics )
+  : m_current_state(roar_state),
+    m_physics( physics ),
+    m_last_visual_time(0),
     m_oxygen_gauge(s_max_oxygen_gauge), m_cold_gauge(s_max_cold_gauge),
     m_heat_gauge(s_max_heat_gauge), m_status_look_upward(false),
     m_status_crouch(false), m_can_cling(false),
@@ -153,7 +155,9 @@ ptb::player::player()
  */
 ptb::player::player( const player& p )
   : super(p),
-    m_current_state(p.roar_state), m_last_visual_time(0),
+    m_current_state(p.roar_state),
+    m_physics( p.m_physics ),
+    m_last_visual_time(0),
     m_oxygen_gauge(s_max_oxygen_gauge), m_cold_gauge(s_max_cold_gauge),
     m_heat_gauge(s_max_heat_gauge),
     m_status_look_upward(p. m_status_look_upward),
@@ -201,7 +205,6 @@ void ptb::player::init()
   m_monster_type = monster::player_monster;
 
   m_invincible_time = 0;
-  m_run_time = 0;
 
   m_states.resize(27);
   m_states[walk_state] = new state_walk(this);
@@ -269,7 +272,6 @@ void ptb::player::progress( bear::universe::time_type elapsed_time )
   super::progress(elapsed_time);
 
   m_state_time += elapsed_time;
-  m_run_time += elapsed_time;
   m_jump_time += elapsed_time;
 
   progress_corrupting_bonus_attractor(elapsed_time);
@@ -1266,13 +1268,14 @@ void ptb::player::apply_impulse_jump()
   if ( m_current_state == float_state )
     {
       add_internal_force
-        ( bear::universe::force_type(0, get_jump_force_in_float()) );
+        ( bear::universe::force_type(0, m_physics.jump_force_in_float) );
       start_action_model("jump");
     }
   else
     {
       m_jump_time = 0;
-      add_external_force( bear::universe::force_type(0, 2*get_jump_force() ) );
+      add_external_force
+        ( bear::universe::force_type(0, m_physics.jump_force ) );
     }
 } // player::apply_impulse_jump()
 
@@ -1282,7 +1285,7 @@ void ptb::player::apply_impulse_jump()
  */
 void ptb::player::apply_jump()
 {
-  m_move_force = get_move_force_in_jump();
+  m_move_force = m_physics.move_force_in_jump;
   set_state(player::jump_state);
   m_progress = &player::progress_jump;
 } // player::apply_jump()
@@ -1315,8 +1318,7 @@ void ptb::player::apply_start_jump()
  */
 void ptb::player::apply_vertical_jump()
 {
-  m_move_force = get_move_force_in_vertical_jump();
-  m_run_time = 0;
+  m_move_force = m_physics.move_force_in_vertical_jump;
 
   if ( m_state_time >= s_time_to_jump )
     m_jump_time_ratio = 1;
@@ -1334,7 +1336,7 @@ void ptb::player::apply_vertical_jump()
  */
 void ptb::player::apply_fall()
 {
-  m_move_force = get_move_force_in_jump();
+  m_move_force = m_physics.move_force_in_jump;
   set_state(player::fall_state);
   m_progress = &player::progress_fall;
 } // player::apply_fall()
@@ -1346,7 +1348,7 @@ void ptb::player::apply_fall()
  */
 void ptb::player::apply_idle()
 {
-  m_move_force = get_move_force_in_idle();
+  m_move_force = m_physics.move_force_in_idle;
   set_state(player::idle_state);
   m_progress = &player::progress_idle;
 } // player::apply_idle()
@@ -1358,7 +1360,7 @@ void ptb::player::apply_idle()
  */
 void ptb::player::apply_walk()
 {
-  m_move_force = get_move_force_in_idle();
+  m_move_force = m_physics.move_force_in_idle;
   set_state(player::walk_state);
   m_progress = &player::progress_walk;
 } // player::apply_walk()
@@ -1369,7 +1371,7 @@ void ptb::player::apply_walk()
  */
 void ptb::player::apply_run()
 {
-  m_move_force = get_move_force_in_run();
+  m_move_force = m_physics.move_force_in_run;
   set_state(player::run_state);
   m_progress = &player::progress_run;
 } // player::apply_run()
@@ -1380,7 +1382,7 @@ void ptb::player::apply_run()
  */
 void ptb::player::apply_slap()
 {
-  m_move_force = get_move_force_in_idle();
+  m_move_force = m_physics.move_force_in_idle;
   set_state(player::slap_state);
   m_progress = &player::progress_slap;
   apply_attack();
@@ -1426,9 +1428,9 @@ void ptb::player::apply_release()
 void ptb::player::apply_throw()
 {
   if ( get_current_action_name() == "throw_and_fall" )
-    m_move_force = get_move_force_in_jump();
+    m_move_force = m_physics.move_force_in_jump;
   else
-    m_move_force = get_move_force_in_idle();
+    m_move_force = m_physics.move_force_in_idle;
 
   set_state(player::throw_state);
   m_progress = &player::progress_throw;
@@ -1442,9 +1444,9 @@ void ptb::player::apply_throw()
 void ptb::player::apply_maintain()
 {
   if ( get_current_action_name() == "maintain_and_fall" )
-    m_move_force = get_move_force_in_jump();
+    m_move_force = m_physics.move_force_in_jump;
   else
-    m_move_force = get_move_force_in_idle();
+    m_move_force = m_physics.move_force_in_idle;
 
   m_throw_time_ratio = 0;
   set_state(player::maintain_state);
@@ -1523,7 +1525,7 @@ void ptb::player::apply_wait()
  */
 void ptb::player::apply_crouch()
 {
-  m_move_force = get_move_force_in_idle();
+  m_move_force = m_physics.move_force_in_idle;
   set_state(player::crouch_state);
   m_progress = &player::progress_crouch;
 } // player::apply_crouch()
@@ -1535,7 +1537,7 @@ void ptb::player::apply_crouch()
  */
 void ptb::player::apply_look_upward()
 {
-  m_move_force = get_move_force_in_idle();
+  m_move_force = m_physics.move_force_in_idle;
   set_state(player::look_upward_state);
   m_progress = &player::progress_look_upward;
 } // player::apply_look_upward()
@@ -1665,7 +1667,6 @@ void ptb::player::apply_start_cling()
  */
 void ptb::player::apply_cling()
 {
-  m_run_time = 0;
   set_state(cling_state);
   m_progress = &player::progress_cling;
 } // player::apply_cling()
@@ -1710,7 +1711,7 @@ void ptb::player::apply_hang()
  */
 void ptb::player::apply_swimming()
 {
-  m_move_force = get_move_force_in_swimming();
+  m_move_force = m_physics.move_force_in_swimming;
   set_state(swimming_state);
   m_progress = &player::progress_swimming;
 } // player::apply_swimming()
@@ -1743,7 +1744,7 @@ void ptb::player::apply_swim_up_in_float()
  */
 void ptb::player::apply_sink()
 {
-  m_move_force = get_move_force_in_swimming();
+  m_move_force = m_physics.move_force_in_swimming;
   set_state(sink_state);
   m_progress = &player::progress_sink;
 } // player::apply_swimming()
@@ -1808,7 +1809,7 @@ void ptb::player::apply_swim_jump()
  */
 void ptb::player::apply_float()
 {
-  m_move_force = get_move_force_in_swimming();
+  m_move_force = m_physics.move_force_in_swimming;
   set_state(float_state);
   m_progress = &player::progress_float;
 } // player::apply_float()
@@ -2031,6 +2032,20 @@ void ptb::player::progress_in_water(bear::universe::time_type elapsed_time)
   create_bubble();
 } // player::progress_in_water()
 
+/*---------------------------------------------------------------------------*/
+/**
+ * \brief Get the right force in walk state.
+ */
+bear::universe::coordinate_type ptb::player::get_move_force_in_walk() const
+{
+  const bear::universe::coordinate_type speed_x
+    ( std::abs( get_speed().dot_product(get_x_axis()) ) );
+
+  return m_physics.min_move_force_in_walk
+    +  std::min(1.0, speed_x / m_physics.speed_to_run)
+    * (m_physics.max_move_force_in_walk - m_physics.min_move_force_in_walk);
+} // player::get_move_force_in_walk()
+
 /*----------------------------------------------------------------------------*/
 /**
  * \brief Give a string representation of the item.
@@ -2114,7 +2129,7 @@ void ptb::player::progress_walk( bear::universe::time_type elapsed_time )
           bear::universe::coordinate_type speed_x =
             speed.dot_product(get_x_axis());
 
-          if( std::abs(speed_x) >= get_speed_to_run() )
+          if( std::abs(speed_x) >= m_physics.speed_to_run )
             start_action_model("run");
           else if ( speed_x == 0 )
             choose_idle_state();
@@ -2137,8 +2152,6 @@ void ptb::player::progress_idle( bear::universe::time_type elapsed_time )
 
   if ( has_bottom_contact() )
     {
-      m_run_time = 0;
-
       if ( ( m_state_time >= s_time_to_wait ) &&
            ( m_wait_state_number != 0 ) &&
            ( !is_a_marionette() ) &&
@@ -2247,7 +2260,7 @@ void ptb::player::progress_run( bear::universe::time_type elapsed_time )
       bear::universe::coordinate_type speed_x =
         speed.dot_product(get_x_axis());
 
-      if( std::abs(speed_x) < get_speed_to_run() )
+      if( std::abs(speed_x) < m_physics.speed_to_run )
         {
           if( speed_x == 0 )
             choose_idle_state();
@@ -2689,7 +2702,7 @@ void ptb::player::progress_injured( bear::universe::time_type elapsed_time )
               bear::universe::coordinate_type speed_x =
                 speed.dot_product(get_x_axis());
 
-              if( std::abs(speed_x) >= get_speed_to_run() )
+              if( std::abs(speed_x) >= m_physics.speed_to_run )
                 start_action_model("run");
               else if ( speed_x == 0 )
                 choose_idle_state();
@@ -2749,7 +2762,6 @@ void ptb::player::regenerate()
     }
   m_last_visual_time = 0;
   m_last_visuals.clear();
-  m_run_time = 0;
   m_can_cling = false;
   set_air_float(false);
   m_lazy = false;
@@ -3116,15 +3128,15 @@ void ptb::player::progress_spot( bear::universe::time_type elapsed_time )
     }
   
   bear::universe::coordinate_type gap =
-    std::min( 2.0, std::abs(get_speed().x) * 2.0 / get_speed_to_run());
+    std::min( 2.0, std::abs(get_speed().x) * 2.0 / m_physics.speed_to_run);
   
-  if ( get_speed().x > ( get_speed_to_run() / 2 ) )
+  if ( get_speed().x > ( m_physics.speed_to_run / 2 ) )
     {
       set_spot_maximum(200, 220);
       balance_x = false;
       add_spot_gap( bear::universe::position_type(gap, 0) );
     }
-  else if ( get_speed().x < (- get_speed_to_run() / 2) )
+  else if ( get_speed().x < (- m_physics.speed_to_run / 2) )
     {
       set_spot_minimum(-200, -250);
       balance_x = false;
@@ -3164,7 +3176,7 @@ bool ptb::player::test_walk()
       bear::universe::coordinate_type speed_x =
         speed.dot_product(get_x_axis());
 
-      if( std::abs(speed_x) >= get_speed_to_run() )
+      if( std::abs(speed_x) >= m_physics.speed_to_run )
         {
           result = true;
           start_action_model("run");
@@ -3198,7 +3210,7 @@ bool ptb::player::test_bottom_contact()
       bear::universe::coordinate_type speed_x =
         speed.dot_product(get_x_axis());
 
-      if( std::abs(speed_x) >= get_speed_to_run() )
+      if( std::abs(speed_x) >= m_physics.speed_to_run )
         start_action_model("run");
       else if( speed_x != 0 )
         choose_walk_state();

@@ -15,10 +15,12 @@
 #define __PTB_PLAYER_HPP__
 
 #include "ptb/gauge.hpp"
-#include "ptb/item_brick/monster_item.hpp"
+#include "ptb/player_physics.hpp"
 #include "ptb/player_signals.hpp"
+
 #include "ptb/item_brick/item_with_single_player_action_reader.hpp"
 #include "ptb/item_brick/item_that_speaks.hpp"
+#include "ptb/item_brick/monster_item.hpp"
 #include "ptb/throwable_item/throwable_items_container.hpp"
 
 #include "engine/messageable_item.hpp"
@@ -96,7 +98,7 @@ namespace ptb
     typedef void (player::*progress_function_type)(bear::universe::time_type);
 
   public:
-    player();
+    explicit player( const player_physics& physics );
     player(const player& p);
     void init();
     virtual ~player();
@@ -248,22 +250,7 @@ namespace ptb
       bear::universe::zone::position side ) const;
     virtual void progress_in_water(bear::universe::time_type elapsed_time);
 
-    virtual bear::universe::coordinate_type
-    get_move_force_in_idle() const = 0;
-    virtual bear::universe::coordinate_type
-    get_move_force_in_jump() const = 0;
-    virtual bear::universe::coordinate_type
-    get_move_force_in_vertical_jump() const = 0;
-    virtual bear::universe::coordinate_type
-    get_move_force_in_run() const = 0;
-    virtual bear::universe::coordinate_type
-    get_move_force_in_swimming() const = 0;
-    virtual bear::universe::coordinate_type
-    get_move_force_in_walk() const = 0;
-    virtual bear::universe::coordinate_type get_jump_force() const = 0;
-    virtual bear::universe::coordinate_type
-    get_jump_force_in_float() const = 0;
-    virtual bear::universe::coordinate_type get_speed_to_run() const = 0;
+    bear::universe::coordinate_type get_move_force_in_walk() const;
 
     void to_string( std::string& str ) const;
 
@@ -378,14 +365,11 @@ namespace ptb
     /** \brief The current state. */
     player_state_name m_current_state;
 
-    /** \brief Indicates the time since player want to run. */
-    bear::universe::time_type m_run_time;
-
-    /** \brief The time over which Player can run. */
-    static const bear::universe::time_type s_time_to_run;
-
   private:
-     /** \brief What Player is doing. */
+    /** \brief The physics constants applied to this player. */
+    const player_physics m_physics;
+
+    /** \brief What Player is doing. */
     player_action::value_type m_current_action;
 
     /** \brief Last saved position of the center of mass. */
