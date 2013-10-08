@@ -147,13 +147,13 @@ endif()
 #-------------------------------------------------------------------------------
 subdirs(
   launcher
-  src
+  lib
   data
   desktop
   )
 
 install(
-  DIRECTORY "item-description"
+  DIRECTORY "lib/item-description"
   DESTINATION "share/bear-factory/plee-the-bear"
   FILE_PERMISSIONS OWNER_READ OWNER_WRITE
   GROUP_READ
