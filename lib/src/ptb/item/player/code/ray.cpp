@@ -213,13 +213,11 @@ ptb::player_physics ptb::ray::get_physics() const
 {
   player_physics result;
 
-  result.move_force_in_idle = 160000;
   result.move_force_in_jump = 64000;
   result.move_force_in_vertical_jump = 32000;
   result.move_force_in_run = 81000;
   result.move_force_in_swimming = 64000;
-  result.min_move_force_in_walk = 24000;
-  result.max_move_force_in_walk = 81000;
+  result.move_force_in_walk = 24000;
   result.jump_force = 3000000;
   result.jump_force_in_float = 9200000;
   result.speed_to_run = 1000;

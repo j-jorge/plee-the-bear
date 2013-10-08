@@ -25,9 +25,6 @@ namespace ptb
    */
   struct player_physics
   {
-    /** \brief The right force of the player in idle state. */
-    bear::universe::coordinate_type move_force_in_idle;
-    
     /** \brief The right force of the player in jump state. */
     bear::universe::coordinate_type move_force_in_jump;
     
@@ -40,12 +37,9 @@ namespace ptb
     /** \brief The right force of the player in swim state. */
     bear::universe::coordinate_type move_force_in_swimming;
     
-    /** \brief The minimum force of the player in walk state. */
-    bear::universe::coordinate_type min_move_force_in_walk;
+    /** \brief The force of the player in walk state. */
+    bear::universe::coordinate_type move_force_in_walk;
 
-    /** \brief The maximum force of the player in walk state. */
-    bear::universe::coordinate_type max_move_force_in_walk;
-    
     /** \brief The impulse force given when the player jumps. */
     bear::universe::coordinate_type jump_force;
     

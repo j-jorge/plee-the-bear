@@ -250,11 +250,13 @@ namespace ptb
       bear::universe::zone::position side ) const;
     virtual void progress_in_water(bear::universe::time_type elapsed_time);
 
-    bear::universe::coordinate_type get_move_force_in_walk() const;
-
     void to_string( std::string& str ) const;
 
   private:
+    bear::universe::coordinate_type get_move_force_in_walk() const;
+    bear::universe::coordinate_type
+    scale_ground_force( bear::universe::coordinate_type f ) const;
+
     void progress_walk( bear::universe::time_type elapsed_time );
     void progress_idle( bear::universe::time_type elapsed_time );
     virtual void progress_continue_idle
