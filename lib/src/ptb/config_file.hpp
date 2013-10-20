@@ -47,6 +47,9 @@ namespace ptb
     /** \brief Tell if we use the fullscreen mode. */
     bool m_fullscreen;
 
+    /** \brief Tells if we use the dumb rendering mode. */
+    bool m_dumb_rendering;
+
     /** \brief Tell if we turn on the sounds. */
     bool m_sound_on;
 

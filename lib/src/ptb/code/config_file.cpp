@@ -26,7 +26,8 @@
  * \brief Constructor.
  */
 ptb::config_file::config_file()
-  : m_fullscreen(false), m_sound_on(true), m_music_on(true), m_sound_volume(1),
+  : m_fullscreen(false), m_dumb_rendering(true),
+    m_sound_on(true), m_music_on(true), m_sound_volume(1),
     m_music_volume(1), m_friendly_fire(true), m_config_name("config")
 {
   const bear::engine::game& g( bear::engine::game::get_instance() );
@@ -40,10 +41,13 @@ ptb::config_file::config_file()
       claw::configuration_file config(f);
 
       str_to_bool( m_fullscreen, config("Video", "fullscreen") );
+      str_to_bool( m_dumb_rendering, config("Video", "dumb_rendering") );
+
       str_to_bool( m_sound_on, config("Audio", "sound_on") );
       str_to_bool( m_music_on, config("Audio", "music_on") );
       str_to_double( m_sound_volume, config("Audio", "sound_volume") );
       str_to_double( m_music_volume, config("Audio", "music_volume") );
+
       str_to_bool( m_friendly_fire, config("Gameplay", "friendly_fire") );
     }
 } // config_file::config_file
@@ -55,6 +59,7 @@ ptb::config_file::config_file()
 void ptb::config_file::apply() const
 {
   bear::engine::game::get_instance().set_fullscreen( m_fullscreen );
+  bear::engine::game::get_instance().set_dumb_rendering( m_dumb_rendering );
   bear::engine::game::get_instance().set_sound_muted( !m_sound_on );
   bear::engine::game::get_instance().set_music_muted( !m_music_on );
   bear::engine::game::get_instance().set_sound_volume( m_sound_volume );
@@ -79,6 +84,9 @@ void ptb::config_file::save() const
     << "[Video]\n"
     << "# Do we use the fullscreen?\n"
     << "fullscreen = " << bool_to_str(m_fullscreen) << '\n'
+    << "# Do we use the dumb but visually better procedure to render the "
+    "elements?\n"
+    << "dumb_rendering = " << bool_to_str(m_dumb_rendering) << '\n'
     << '\n'
     << "# Configuration of the sound system.\n"
     << "[Audio]\n"
