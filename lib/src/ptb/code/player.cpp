@@ -2137,10 +2137,15 @@ bear::universe::coordinate_type ptb::player::get_move_force_in_walk() const
   const bear::universe::coordinate_type speed_x
     ( std::abs( get_speed().dot_product(get_x_axis()) ) );
 
+  const bear::universe::coordinate_type min_force
+    ( ( get_system_angle() == 0 )
+      ? m_physics.move_force_in_walk
+      : 1.75 * m_physics.move_force_in_walk );
+
   const bear::universe::coordinate_type raw_force
-    ( m_physics.move_force_in_walk
+    ( min_force
       + std::min(m_physics.speed_to_run, speed_x)
-      * (m_physics.move_force_in_run - m_physics.move_force_in_walk)
+      * (m_physics.move_force_in_run - min_force)
       / m_physics.speed_to_run );
 
   return raw_force;
