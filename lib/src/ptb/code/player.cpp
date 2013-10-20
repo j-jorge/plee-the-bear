@@ -263,13 +263,12 @@ ptb::player::~player()
  */
 void ptb::player::progress( bear::universe::time_type elapsed_time )
 {
-  // THIS CONDITION MUST BE CHECKED FIRST
+  super::progress(elapsed_time);
+
   if ( !is_a_marionette() )
     progress_input_actions(elapsed_time);
   else
     dummy_progress_input_actions(elapsed_time);
-
-  super::progress(elapsed_time);
 
   m_state_time += elapsed_time;
   m_jump_time += elapsed_time;
