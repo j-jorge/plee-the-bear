@@ -2155,12 +2155,8 @@ bear::universe::coordinate_type ptb::player::get_move_force_in_walk() const
 bear::universe::coordinate_type
 ptb::player::scale_ground_force( bear::universe::coordinate_type f ) const
 {
-  const bear::universe::coordinate_type speed_x( get_speed().x );
-  const double angle( get_system_angle() );
-
-  const bool going_up( !( (speed_x > 0) ^ (angle > 0) ) );
-
-  const bear::universe::coordinate_type scale_factor( going_up ? 1.5 : 0.7 );
+  const double angle( m_move_right ? get_system_angle() : -get_system_angle() );
+  const bear::universe::coordinate_type scale_factor( (angle > 0) ? 1.5 : 0.7 );
 
   const bear::universe::coordinate_type result
     ( f * ( 1 + scale_factor * std::sin( angle ) ) );
