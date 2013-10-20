@@ -134,7 +134,7 @@ ptb::player::player( const player_physics& physics )
     m_status_crouch(false), m_can_cling(false),
     m_cling_orientation(false), m_halo_animation(NULL),
     m_halo_hand_animation(NULL), m_move_right(false), m_move_left(false),
-    m_move_force(0), m_index(0), m_nb_bottom_contact(0),
+    m_index(0), m_nb_bottom_contact(0),
     m_controller_number(0),
     m_air_float(false), m_injured_orientation(true),
     m_hot_spot_position(0, 0),
@@ -164,7 +164,7 @@ ptb::player::player( const player& p )
     m_status_crouch(p.m_status_crouch), m_can_cling(p. m_can_cling),
     m_cling_orientation(p.m_cling_orientation),
     m_halo_animation(NULL), m_halo_hand_animation(NULL),
-    m_move_right(p. m_move_right), m_move_left(p.m_move_left), m_move_force(0),
+    m_move_right(p. m_move_right), m_move_left(p.m_move_left),
     m_index(0), m_nb_bottom_contact(0), m_controller_number(0),
     m_injured_orientation(true),
     m_hot_spot_position(0, 0),
@@ -1242,7 +1242,7 @@ void ptb::player::apply_move_right()
   if ( m_authorized_action[player_action::move_right]  )
     {
       m_move_right = true;
-      add_internal_force( bear::universe::force_type(m_move_force, 0) );
+      add_internal_force( bear::universe::force_type( get_move_force(), 0 ) );
     }
 } // player::apply_move_right()
 
@@ -1255,7 +1255,7 @@ void ptb::player::apply_move_left()
   if ( m_authorized_action[player_action::move_left]  )
     {
       m_move_left = true;
-      add_internal_force( bear::universe::force_type(-m_move_force, 0) );
+      add_internal_force( bear::universe::force_type( -get_move_force(), 0 ) );
     }
 } // player::apply_move_left()
 
@@ -1285,7 +1285,6 @@ void ptb::player::apply_impulse_jump()
  */
 void ptb::player::apply_jump()
 {
-  m_move_force = m_physics.move_force_in_jump;
   set_state(player::jump_state);
   m_progress = &player::progress_jump;
 } // player::apply_jump()
@@ -1318,8 +1317,6 @@ void ptb::player::apply_start_jump()
  */
 void ptb::player::apply_vertical_jump()
 {
-  m_move_force = m_physics.move_force_in_vertical_jump;
-
   if ( m_state_time >= s_time_to_jump )
     m_jump_time_ratio = 1;
   else
@@ -1336,7 +1333,6 @@ void ptb::player::apply_vertical_jump()
  */
 void ptb::player::apply_fall()
 {
-  m_move_force = m_physics.move_force_in_jump;
   set_state(player::fall_state);
   m_progress = &player::progress_fall;
 } // player::apply_fall()
@@ -1348,7 +1344,6 @@ void ptb::player::apply_fall()
  */
 void ptb::player::apply_idle()
 {
-  m_move_force = scale_ground_force(m_physics.move_force_in_walk);
   set_state(player::idle_state);
   m_progress = &player::progress_idle;
 } // player::apply_idle()
@@ -1360,7 +1355,6 @@ void ptb::player::apply_idle()
  */
 void ptb::player::apply_walk()
 {
-  m_move_force = get_move_force_in_walk();
   set_state(player::walk_state);
   m_progress = &player::progress_walk;
 } // player::apply_walk()
@@ -1371,7 +1365,6 @@ void ptb::player::apply_walk()
  */
 void ptb::player::apply_run()
 {
-  m_move_force = scale_ground_force( m_physics.move_force_in_run );
   set_state(player::run_state);
   m_progress = &player::progress_run;
 } // player::apply_run()
@@ -1382,7 +1375,6 @@ void ptb::player::apply_run()
  */
 void ptb::player::apply_slap()
 {
-  m_move_force = m_physics.move_force_in_walk;
   set_state(player::slap_state);
   m_progress = &player::progress_slap;
   apply_attack();
@@ -1427,11 +1419,6 @@ void ptb::player::apply_release()
  */
 void ptb::player::apply_throw()
 {
-  if ( get_current_action_name() == "throw_and_fall" )
-    m_move_force = m_physics.move_force_in_jump;
-  else
-    m_move_force = m_physics.move_force_in_walk;
-
   set_state(player::throw_state);
   m_progress = &player::progress_throw;
 } // player::apply_throw()
@@ -1443,11 +1430,6 @@ void ptb::player::apply_throw()
  */
 void ptb::player::apply_maintain()
 {
-  if ( get_current_action_name() == "maintain_and_fall" )
-    m_move_force = m_physics.move_force_in_jump;
-  else
-    m_move_force = m_physics.move_force_in_walk;
-
   m_throw_time_ratio = 0;
   set_state(player::maintain_state);
   m_progress = &player::progress_maintain;
@@ -1525,7 +1507,6 @@ void ptb::player::apply_wait()
  */
 void ptb::player::apply_crouch()
 {
-  m_move_force = m_physics.move_force_in_walk;
   set_state(player::crouch_state);
   m_progress = &player::progress_crouch;
 } // player::apply_crouch()
@@ -1537,7 +1518,6 @@ void ptb::player::apply_crouch()
  */
 void ptb::player::apply_look_upward()
 {
-  m_move_force = m_physics.move_force_in_walk;
   set_state(player::look_upward_state);
   m_progress = &player::progress_look_upward;
 } // player::apply_look_upward()
@@ -1630,7 +1610,6 @@ void ptb::player::apply_game_over()
 {
   add_position_constraints();
   set_artificial(true);
-  m_move_force = 0;
   set_state(game_over_state);
   m_progress = &player::progress_game_over;
 } // player::apply_game_over()
@@ -1711,7 +1690,6 @@ void ptb::player::apply_hang()
  */
 void ptb::player::apply_swimming()
 {
-  m_move_force = m_physics.move_force_in_swimming;
   set_state(swimming_state);
   m_progress = &player::progress_swimming;
 } // player::apply_swimming()
@@ -1744,7 +1722,6 @@ void ptb::player::apply_swim_up_in_float()
  */
 void ptb::player::apply_sink()
 {
-  m_move_force = m_physics.move_force_in_swimming;
   set_state(sink_state);
   m_progress = &player::progress_sink;
 } // player::apply_swimming()
@@ -1809,7 +1786,6 @@ void ptb::player::apply_swim_jump()
  */
 void ptb::player::apply_float()
 {
-  m_move_force = m_physics.move_force_in_swimming;
   set_state(float_state);
   m_progress = &player::progress_float;
 } // player::apply_float()
@@ -1830,7 +1806,6 @@ void ptb::player::apply_dive()
  */
 void ptb::player::apply_injured()
 {
-  m_move_force = 0;
   m_nb_bottom_contact = 0;
   set_state(player::injured_state);
   m_progress = &player::progress_injured;
@@ -2097,7 +2072,66 @@ void ptb::player::to_string( std::string& str ) const
 
 /*---------------------------------------------------------------------------*/
 /**
- * \brief Get the right force in walk state.
+ * \brief Returns the intensity of the force to apply to the player to move him
+ *        forward.
+ */
+bear::universe::coordinate_type ptb::player::get_move_force() const
+{
+  bear::universe::coordinate_type result;
+
+  switch ( m_current_state )
+    {
+    case crouch_state:
+    case idle_state:
+    case look_upward_state:
+    case slap_state:
+      result = m_physics.move_force_in_walk;
+      break;
+
+    case fall_state:
+    case jump_state:
+      result = m_physics.move_force_in_jump;
+      break;
+
+    case float_state:
+    case sink_state:
+    case swimming_state:
+      result = m_physics.move_force_in_swimming;
+      break;
+
+    case maintain_state:
+    case throw_state:
+      if ( has_bottom_contact() )
+        result = m_physics.move_force_in_walk;
+      else
+        result = m_physics.move_force_in_jump;
+      break;
+
+    case run_state:
+      result = m_physics.move_force_in_run;
+      break;
+
+    case vertical_jump_state:
+      result = m_physics.move_force_in_vertical_jump;
+      break;
+
+    case walk_state:
+      result = get_move_force_in_walk();
+      break;
+
+    default:
+      result = 0;
+    }
+  
+  if ( has_bottom_contact() )
+    return scale_ground_force( result );
+  else
+    return result;
+} // player::get_move_force()
+
+/*---------------------------------------------------------------------------*/
+/**
+ * \brief Returns the force to apply in the walk state on a straight ground.
  */
 bear::universe::coordinate_type ptb::player::get_move_force_in_walk() const
 {
@@ -2110,7 +2144,7 @@ bear::universe::coordinate_type ptb::player::get_move_force_in_walk() const
       * (m_physics.move_force_in_run - m_physics.move_force_in_walk)
       / m_physics.speed_to_run );
 
-  return scale_ground_force( raw_force );
+  return raw_force;
 } // player::get_move_force_in_walk()
 
 /*---------------------------------------------------------------------------*/
@@ -2159,8 +2193,6 @@ void ptb::player::progress_walk( bear::universe::time_type elapsed_time )
             start_action_model("run");
           else if ( speed_x == 0 )
             choose_idle_state();
-          else
-            m_move_force = get_move_force_in_walk();
         }
     }
   else
@@ -2293,8 +2325,6 @@ void ptb::player::progress_run( bear::universe::time_type elapsed_time )
           else
             choose_walk_state();
         }
-      else
-        m_move_force = scale_ground_force( m_physics.move_force_in_run );
     }
   else
     test_in_sky_or_swimm();

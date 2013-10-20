@@ -253,6 +253,7 @@ namespace ptb
     void to_string( std::string& str ) const;
 
   private:
+    bear::universe::coordinate_type get_move_force() const;
     bear::universe::coordinate_type get_move_force_in_walk() const;
     bear::universe::coordinate_type
     scale_ground_force( bear::universe::coordinate_type f ) const;
@@ -472,9 +473,6 @@ namespace ptb
 
     /** \brief Indicates if Player wants to move to the left. */
     bool m_move_left;
-
-    /** \brief The current force in x axis when Player moves. */
-    bear::universe::coordinate_type m_move_force;
 
     /** \brief The current force in y axis when Player jumps. */
     bear::universe::coordinate_type m_jump_force;
