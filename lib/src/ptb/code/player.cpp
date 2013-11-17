@@ -270,6 +270,8 @@ void ptb::player::progress( bear::universe::time_type elapsed_time )
   else
     progress_input_actions(elapsed_time);
 
+  counter_slope_reaction();
+
   m_state_time += elapsed_time;
   m_jump_time += elapsed_time;
 
@@ -315,6 +317,7 @@ void ptb::player::progress( bear::universe::time_type elapsed_time )
   m_can_throw_power[air_attack] = true;
   m_can_throw_power[fire_attack] = true;
   m_can_throw_power[water_attack] = true;
+
   if ( m_throwable_items.get_current_throwable_item()->is_empty() )
     m_throwable_items.next();
 
@@ -2071,6 +2074,23 @@ void ptb::player::to_string( std::string& str ) const
 
 /*---------------------------------------------------------------------------*/
 /**
+ * \brief Adjusts the speed and the forces of the player in order to stay
+ *        motionless when idling on a slope.
+ */
+void ptb::player::counter_slope_reaction()
+{
+  if ( ( m_current_state == idle_state )
+       && ( get_system_angle() != 0 )
+       && ( has_bottom_contact() )
+       && !( m_move_left || m_move_right ) )
+    {
+      add_internal_force( -get_internal_force() );
+      set_speed( bear::universe::speed_type(0, 0) );
+    }
+} // player::counter_slope_reaction()
+
+/*---------------------------------------------------------------------------*/
+/**
  * \brief Returns the intensity of the force to apply to the player to move him
  *        forward.
  */
@@ -2084,7 +2104,7 @@ bear::universe::coordinate_type ptb::player::get_move_force() const
     case idle_state:
     case look_upward_state:
     case slap_state:
-      result = m_physics.move_force_in_walk;
+      result = get_move_force_in_walk();
       break;
 
     case fall_state:
@@ -2101,7 +2121,7 @@ bear::universe::coordinate_type ptb::player::get_move_force() const
     case maintain_state:
     case throw_state:
       if ( has_bottom_contact() )
-        result = m_physics.move_force_in_walk;
+        result = get_move_force_in_walk();
       else
         result = m_physics.move_force_in_jump;
       break;
@@ -3315,9 +3335,13 @@ void ptb::player::brake()
 {
   if ( !m_move_right && !m_move_left )
     {
-      bear::universe::speed_type speed = get_speed();
-      speed.x *= 0.9;
-      set_speed(speed);
+      const bear::universe::speed_type speed( get_speed() );
+      const bear::universe::vector_type current_direction
+        ( speed.x > 0 ? get_x_axis() : -get_x_axis() );
+
+      add_internal_force
+        ( speed.dot_product( current_direction ) * get_mass()
+          * -current_direction );
     }
 } // player::brake()
 

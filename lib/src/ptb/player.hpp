@@ -253,6 +253,8 @@ namespace ptb
     void to_string( std::string& str ) const;
 
   private:
+    void counter_slope_reaction();
+
     bear::universe::coordinate_type get_move_force() const;
     bear::universe::coordinate_type get_move_force_in_walk() const;
     bear::universe::coordinate_type
