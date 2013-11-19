@@ -2929,7 +2929,12 @@ void ptb::player::update_orientation()
     return;
 
   if ( !has_bottom_contact() )
-    get_rendering_attributes().mirror( m_move_right && m_move_left );
+    {
+      if ( m_move_right )
+        get_rendering_attributes().mirror(false);
+      else if ( m_move_left )
+        get_rendering_attributes().mirror(true);
+    }
   else
     {
       const bear::universe::position_type dir
