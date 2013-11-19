@@ -1886,6 +1886,10 @@ void ptb::player::choose_wait_state()
  */
 void ptb::player::choose_idle_state()
 {
+  if ( ( m_move_left && !has_left_contact() )
+       || ( m_move_right && !has_right_contact() ) )
+    return;
+
   if ( get_bottom_contact().get_max() < 0.6 )
     {
       if ( get_rendering_attributes().is_mirrored() ) 
@@ -1910,7 +1914,7 @@ void ptb::player::choose_idle_state()
  */
 void ptb::player::choose_walk_state()
 {
-  start_action_model("walk");
+  test_walk();
 } // player::choose_walk_state()
 
 /*----------------------------------------------------------------------------*/
@@ -2915,30 +2919,34 @@ bool ptb::player::is_in_floating() const
  */
 void ptb::player::update_orientation()
 {
-  if ( get_current_action_name() != "captive" )
-    { 
-      if ( m_move_right && ! has_bottom_contact() )
-          get_rendering_attributes().mirror(false);
-      else if ( m_move_left && ! has_bottom_contact() )
-          get_rendering_attributes().mirror(true);
-      else if ( get_speed().x < -1 )
-	{
-	  if ( ( !is_injured() ) ||
-	       ( m_injured_orientation &&
-		 ( get_current_action_name()!= "injured" ) ) )
-	    get_rendering_attributes().mirror(true);
-	  else
-	    get_rendering_attributes().mirror(false);
-	}
-      else if ( get_speed().x > 1 )
-	{
-	  if ( ( !is_injured() ) ||
-	       ( m_injured_orientation &&
-		 ( get_current_action_name()!= "injured" ) ) )
-	    get_rendering_attributes().mirror(false);
-	  else
-	    get_rendering_attributes().mirror(true);
-	}
+  if ( get_current_action_name() == "captive" )
+    return;
+
+  if ( !has_bottom_contact() )
+    get_rendering_attributes().mirror( m_move_right && m_move_left );
+  else
+    {
+      const bear::universe::position_type dir
+        ( get_bottom_left() - m_last_bottom_left );
+
+      if ( dir.x < -1 )
+        {
+          if ( !is_injured()
+               || ( m_injured_orientation
+                    && ( get_current_action_name()!= "injured" ) ) )
+            get_rendering_attributes().mirror(true);
+          else
+            get_rendering_attributes().mirror(false);
+        }
+      else if ( dir.x > 0 )
+        {
+          if ( !is_injured()
+               || ( m_injured_orientation
+                    && ( get_current_action_name()!= "injured" ) ) )
+            get_rendering_attributes().mirror(false);
+          else
+            get_rendering_attributes().mirror(true);
+        }
     }
 } // player::update_orientation()
 
@@ -3259,11 +3267,11 @@ bool ptb::player::test_walk()
           result = true;
           start_action_model("run");
         }
-      else if ( ( speed_x != 0 ) &&
-                ( get_bottom_left() != m_last_bottom_left ) )
+      else if ( ( speed_x != 0 )
+                || ( get_bottom_left() != m_last_bottom_left ) )
         {
           result = true;
-          choose_walk_state();
+          start_action_model("walk");
         }
     }
 
