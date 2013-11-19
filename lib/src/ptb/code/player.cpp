@@ -2083,13 +2083,10 @@ void ptb::player::to_string( std::string& str ) const
  */
 void ptb::player::counter_slope_reaction()
 {
-  if ( ( ( m_current_state == idle_state ) || 
-         ( m_current_state == wait_state ) || 
-         ( m_current_state == crouch_state ) || 
-         ( m_current_state == look_upward_state ) )
-       && ( get_system_angle() != 0 )
-       && ( has_bottom_contact() )
-       && !( m_move_left || m_move_right ) )
+  if ( !( m_move_left || m_move_right ) && 
+       has_bottom_contact() && 
+       ( get_system_angle() != 0 ) &&
+       get_speed().length() < 30 )
     {
       add_internal_force( -get_internal_force() );
       set_speed( bear::universe::speed_type(0, 0) );
@@ -2187,11 +2184,17 @@ bear::universe::coordinate_type ptb::player::get_move_force_in_walk() const
 bear::universe::coordinate_type
 ptb::player::scale_ground_force( bear::universe::coordinate_type f ) const
 {
-  const double angle( m_move_right ? get_system_angle() : -get_system_angle() );
-  const bear::universe::coordinate_type scale_factor( (angle > 0) ? 1.5 : 0.7 );
+  bear::universe::coordinate_type result = f;
 
-  const bear::universe::coordinate_type result
-    ( f * ( 1 + scale_factor * std::sin( angle ) ) );
+  if ( m_move_left || m_move_right )
+    {
+      const double angle
+        ( m_move_right ? get_system_angle() : -get_system_angle() );
+      const bear::universe::coordinate_type scale_factor
+        ( (angle > 0) ? 1.5 : 0.7 );
+
+      result = f * ( 1 + scale_factor * std::sin( angle ) );
+    }
 
   return result;
 } // player::scale_ground_force()
@@ -3347,12 +3350,19 @@ void ptb::player::brake()
   if ( !m_move_right && !m_move_left )
     {
       const bear::universe::speed_type speed( get_speed() );
-      const bear::universe::vector_type current_direction
-        ( speed.x > 0 ? get_x_axis() : -get_x_axis() );
+      
+      double angle(0);
+      if ( speed.x > 0 )
+        angle = get_system_angle();
+      else if ( speed.x < 0 )
+        angle = -get_system_angle();
 
-      add_internal_force
-        ( speed.dot_product( current_direction ) * get_mass()
-          * -current_direction );
+      // The player go down if angle is negative.
+      if ( has_bottom_contact() && angle < 0 && get_speed().length() < 100 ) 
+        {
+          add_internal_force( -get_internal_force() );
+          set_speed( bear::universe::speed_type(0, 0) );
+        }
     }
 } // player::brake()
 
