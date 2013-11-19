@@ -2083,7 +2083,10 @@ void ptb::player::to_string( std::string& str ) const
  */
 void ptb::player::counter_slope_reaction()
 {
-  if ( ( m_current_state == idle_state )
+  if ( ( ( m_current_state == idle_state ) || 
+         ( m_current_state == wait_state ) || 
+         ( m_current_state == crouch_state ) || 
+         ( m_current_state == look_upward_state ) )
        && ( get_system_angle() != 0 )
        && ( has_bottom_contact() )
        && !( m_move_left || m_move_right ) )
