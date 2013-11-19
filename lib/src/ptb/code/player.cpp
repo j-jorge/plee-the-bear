@@ -2940,7 +2940,7 @@ void ptb::player::update_orientation()
       const bear::universe::position_type dir
         ( get_bottom_left() - m_last_bottom_left );
 
-      if ( dir.x < -1 )
+      if ( dir.x < 0 )
         {
           if ( !is_injured()
                || ( m_injured_orientation
