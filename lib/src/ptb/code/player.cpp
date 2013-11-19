@@ -2937,8 +2937,12 @@ void ptb::player::update_orientation()
     }
   else
     {
-      const bear::universe::position_type dir
-        ( get_bottom_left() - m_last_bottom_left );
+      bear::universe::position_type dir;
+
+      if ( get_system_angle() != 0 )
+        dir = get_bottom_left() - m_last_bottom_left;
+      else
+        dir = get_speed();
 
       if ( dir.x < 0 )
         {
