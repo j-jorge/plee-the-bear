@@ -2108,6 +2108,7 @@ bear::universe::coordinate_type ptb::player::get_move_force() const
     case idle_state:
     case look_upward_state:
     case slap_state:
+    case wait_state:
       result = get_move_force_in_walk();
       break;
 
@@ -3267,27 +3268,27 @@ void ptb::player::stop()
  */
 bool ptb::player::test_walk()
 {
+  if ( !has_bottom_contact() )
+    return false;
+
   bool result = false;
 
-  if ( has_bottom_contact() )
-    {
-      bear::universe::speed_type speed;
-      speed = get_speed();
-      // calculate the speed in the intern axis
-      bear::universe::coordinate_type speed_x =
-        speed.dot_product(get_x_axis());
+  const bear::universe::speed_type speed( get_speed() );
 
-      if( std::abs(speed_x) >= m_physics.speed_to_run )
-        {
-          result = true;
-          start_action_model("run");
-        }
-      else if ( ( speed_x != 0 )
-                || ( get_bottom_left() != m_last_bottom_left ) )
-        {
-          result = true;
-          start_action_model("walk");
-        }
+  // calculate the speed in the intern axis
+  const bear::universe::coordinate_type speed_x
+    ( speed.dot_product( get_x_axis() ) );
+
+  if( std::abs(speed_x) >= m_physics.speed_to_run )
+    {
+      result = true;
+      start_action_model("run");
+    }
+  else if ( ( speed_x != 0 )
+            || ( get_bottom_left() != m_last_bottom_left ) )
+    {
+      result = true;
+      start_action_model("walk");
     }
 
   return result;
