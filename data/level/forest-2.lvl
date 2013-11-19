@@ -76164,6 +76164,9 @@
 <field name='slope.control_point.right.x'>
 <real value='-64'/>
 </field>
+<field name='slope.left_side_is_active'>
+<bool value='1'/>
+</field>
 <field name='slope.steepness'>
 <real value='28'/>
 </field>
@@ -76236,6 +76239,35 @@
 
     <item class_name='bear::block' fixed='true'>
 <fields>
+<field name='item_with_z_shift.force_z_position'>
+<bool value='1'/>
+</field>
+<field name='item_with_z_shift.z_shift'>
+<integer value='-10'/>
+</field>
+<field name='base_item.position.bottom'>
+<real value='3596'/>
+</field>
+<field name='base_item.position.depth'>
+<integer value='8000'/>
+</field>
+<field name='base_item.position.left'>
+<real value='19494'/>
+</field>
+<field name='base_item.size.height'>
+<real value='128'/>
+</field>
+<field name='base_item.size.width'>
+<real value='128'/>
+</field>
+<field name='item_with_activable_sides.left_side_is_active'>
+<bool value='1'/>
+</field>
+</fields>
+    </item><!-- bear::block -->
+
+    <item class_name='bear::block' fixed='true'>
+<fields>
 <field name='item_with_z_shift.z_shift'>
 <integer value='-10'/>
 </field>
@@ -76262,35 +76294,6 @@
 </field>
 <field name='item_with_activable_sides.bottom_side_is_active'>
 <bool value='1'/>
-</field>
-<field name='item_with_activable_sides.left_side_is_active'>
-<bool value='1'/>
-</field>
-</fields>
-    </item><!-- bear::block -->
-
-    <item class_name='bear::block' fixed='true'>
-<fields>
-<field name='item_with_z_shift.force_z_position'>
-<bool value='1'/>
-</field>
-<field name='item_with_z_shift.z_shift'>
-<integer value='-10'/>
-</field>
-<field name='base_item.position.bottom'>
-<real value='3596'/>
-</field>
-<field name='base_item.position.depth'>
-<integer value='8000'/>
-</field>
-<field name='base_item.position.left'>
-<real value='19494'/>
-</field>
-<field name='base_item.size.height'>
-<real value='128'/>
-</field>
-<field name='base_item.size.width'>
-<real value='128'/>
 </field>
 <field name='item_with_activable_sides.left_side_is_active'>
 <bool value='1'/>

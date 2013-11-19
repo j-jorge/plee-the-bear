@@ -1660,10 +1660,13 @@ void ptb::player::apply_clung_jump()
 {
   if ( get_rendering_attributes().is_mirrored() )
     add_internal_force
-      ( get_mass() * bear::universe::force_type(50000, 100000) );
+        ( get_mass() * bear::universe::force_type(50000, 100000) );
   else
     add_internal_force
       ( get_mass() * bear::universe::force_type(-50000, 100000) );
+
+  get_rendering_attributes().mirror
+    ( ! get_rendering_attributes().is_mirrored() );
 } // player::apply_clung_jump()
 
 /*----------------------------------------------------------------------------*/
@@ -3355,7 +3358,13 @@ void ptb::player::brake()
   if ( !m_move_right && !m_move_left )
     {
       const bear::universe::speed_type speed( get_speed() );
-      
+
+      const bear::universe::vector_type current_direction
+        ( speed.x > 0 ? get_x_axis() : -get_x_axis() );
+      add_internal_force
+        ( speed.dot_product( current_direction ) * get_mass()
+          * -current_direction );
+
       double angle(0);
       if ( speed.x > 0 )
         angle = get_system_angle();
@@ -3363,7 +3372,7 @@ void ptb::player::brake()
         angle = -get_system_angle();
 
       // The player go down if angle is negative.
-      if ( has_bottom_contact() && angle < 0 && get_speed().length() < 100 ) 
+      if ( has_bottom_contact() && angle < 0 && get_speed().length() < 150 ) 
         {
           add_internal_force( -get_internal_force() );
           set_speed( bear::universe::speed_type(0, 0) );
