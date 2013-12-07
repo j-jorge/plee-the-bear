@@ -3,10 +3,22 @@ sprite_sheet "forest-3" 1024 x 1024 margin 1
 
 little_slope "slope/little-slope-wall.xcf.bz2"
 
+sin_slope "slope/sin-slope.xcf.bz2"
+
 /*----------------------------------------------------------------------------*/
 /* -- Little Slope -- */
 /* ---------------------------------------------------------------------------*/
 
 "little slope" image_size * 0.5 with little_slope
   glob "*"
+  ;
+
+/*----------------------------------------------------------------------------*/
+/* -- Sin Slope -- */
+/* ---------------------------------------------------------------------------*/
+
+"sin slope continuous" "2" * 0.5 with sin_slope
+  "ground"
+  "back"
+  mask "2"
   ;
