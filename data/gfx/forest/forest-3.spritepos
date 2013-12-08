@@ -1,2 +1,8 @@
 sin slope continuous: 0 0 256 530
-little slope: 257 0 276 265
+smooth slope 4 (continuous): 257 0 256 390
+smooth slope 2: 514 0 256 376
+smooth slope 5: 0 531 256 267
+little slope: 257 531 276 265
+smooth slope 3 (continuous): 534 531 256 260
+smooth slope 6: 0 799 256 151
+smooth slope 1: 257 799 256 140

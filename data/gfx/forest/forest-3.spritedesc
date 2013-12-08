@@ -1,9 +1,10 @@
 /*----------------------------------------------------------------------------*/
-sprite_sheet "forest-3" 1024 x 1024 margin 1
+sprite_sheet "forest-3" 1024 x 1024 margin 1 order "height"
 
 little_slope "slope/little-slope-wall.xcf.bz2"
 
 sin_slope "slope/sin-slope.xcf.bz2"
+smooth_slope "slope/smooth-slope.xcf.bz2"
 
 /*----------------------------------------------------------------------------*/
 /* -- Little Slope -- */
@@ -21,4 +22,44 @@ sin_slope "slope/sin-slope.xcf.bz2"
   "ground"
   "back"
   mask "2"
+  ;
+
+/*----------------------------------------------------------------------------*/
+/* -- Smooth Slope -- */
+/* ---------------------------------------------------------------------------*/
+
+"smooth slope 1" "1" * 0.5 with smooth_slope
+  "ground"
+  "back"
+  mask "1"
+  ;
+
+"smooth slope 2" "2" * 0.5 with smooth_slope
+  "ground"
+  "back"
+  mask "2"
+  ;
+
+"smooth slope 3 (continuous)" "3" * 0.5 with smooth_slope
+  "ground"
+  "back"
+  mask "3"
+  ;
+
+"smooth slope 4 (continuous)" "4" * 0.5 with smooth_slope
+  "ground"
+  "back"
+  mask "4"
+  ;
+
+"smooth slope 5" "5" * 0.5 with smooth_slope
+  "ground"
+  "back"
+  mask "5"
+  ;
+
+"smooth slope 6" "6" * 0.5 with smooth_slope
+  "ground"
+  "back"
+  mask "6"
   ;
