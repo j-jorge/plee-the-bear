@@ -2,12 +2,12 @@
 <model>
 <action name="captive" duration="1" auto_next="captive">
 <marks>
-<mark label="body" apply_angle_to_animation="0" pause_animation_when_hidden="0">
+<mark label="body" apply_angle_to_animation="0" pause_animation_when_hidden="0" reset_animation_with_action="1">
 <animation_file path='animation/plee/captive.canim' auto_size='true' width='64' height='112' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </mark>
-<mark label="mouth" apply_angle_to_animation="0" pause_animation_when_hidden="0">
+<mark label="mouth" apply_angle_to_animation="0" pause_animation_when_hidden="0" reset_animation_with_action="1">
 </mark>
-<mark label="hat" apply_angle_to_animation="1" pause_animation_when_hidden="0">
+<mark label="hat" apply_angle_to_animation="1" pause_animation_when_hidden="0" reset_animation_with_action="1">
 <animation_file path='animation/plee/cap.canim' auto_size='true' width='34' height='16' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </mark>
 </marks>
@@ -22,15 +22,15 @@
 </action>
 <action name="paralyze" duration="1" auto_next="paralyze">
 <marks>
-<mark label="body" apply_angle_to_animation="0" pause_animation_when_hidden="0">
+<mark label="body" apply_angle_to_animation="0" pause_animation_when_hidden="0" reset_animation_with_action="1">
 <animation_file path='animation/plee/sleep.canim' auto_size='true' width='63' height='108' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </mark>
-<mark label="mouth" apply_angle_to_animation="0" pause_animation_when_hidden="0">
+<mark label="mouth" apply_angle_to_animation="0" pause_animation_when_hidden="0" reset_animation_with_action="1">
 </mark>
-<mark label="hat" apply_angle_to_animation="1" pause_animation_when_hidden="0">
+<mark label="hat" apply_angle_to_animation="1" pause_animation_when_hidden="0" reset_animation_with_action="1">
 <animation_file path='animation/plee/cap.canim' auto_size='true' width='34' height='16' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </mark>
-<mark label="stars" apply_angle_to_animation="1" pause_animation_when_hidden="0">
+<mark label="stars" apply_angle_to_animation="1" pause_animation_when_hidden="0" reset_animation_with_action="1">
 <animation_file path='animation/stars.canim' auto_size='true' width='48' height='13' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </mark>
 </marks>
@@ -60,12 +60,12 @@
 </action>
 <action name="crouch" duration="1" auto_next="crouch">
 <marks>
-<mark label="body" apply_angle_to_animation="0" pause_animation_when_hidden="0">
+<mark label="body" apply_angle_to_animation="0" pause_animation_when_hidden="0" reset_animation_with_action="1">
 <animation_file path='animation/plee/crouch.canim' auto_size='true' width='75' height='103' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </mark>
-<mark label="mouth" apply_angle_to_animation="0" pause_animation_when_hidden="0">
+<mark label="mouth" apply_angle_to_animation="0" pause_animation_when_hidden="0" reset_animation_with_action="1">
 </mark>
-<mark label="hat" apply_angle_to_animation="1" pause_animation_when_hidden="0">
+<mark label="hat" apply_angle_to_animation="1" pause_animation_when_hidden="0" reset_animation_with_action="1">
 <animation_file path='animation/plee/cap.canim' auto_size='true' width='34' height='16' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </mark>
 </marks>
@@ -86,12 +86,12 @@
 </action>
 <action name="fall" duration="0.93" auto_next="fall">
 <marks>
-<mark label="body" apply_angle_to_animation="0" pause_animation_when_hidden="0">
+<mark label="body" apply_angle_to_animation="0" pause_animation_when_hidden="0" reset_animation_with_action="1">
 <animation_file path='animation/plee/fall.canim' auto_size='true' width='70' height='115' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </mark>
-<mark label="mouth" apply_angle_to_animation="0" pause_animation_when_hidden="0">
+<mark label="mouth" apply_angle_to_animation="0" pause_animation_when_hidden="0" reset_animation_with_action="1">
 </mark>
-<mark label="hat" apply_angle_to_animation="1" pause_animation_when_hidden="0">
+<mark label="hat" apply_angle_to_animation="1" pause_animation_when_hidden="0" reset_animation_with_action="1">
 <animation_file path='animation/plee/cap.canim' auto_size='true' width='34' height='16' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </mark>
 </marks>
@@ -148,12 +148,12 @@
 </action>
 <action name="float" duration="0.85" auto_next="float">
 <marks>
-<mark label="body" apply_angle_to_animation="0" pause_animation_when_hidden="0">
+<mark label="body" apply_angle_to_animation="0" pause_animation_when_hidden="0" reset_animation_with_action="1">
 <animation_file path='animation/plee/float.canim' auto_size='true' width='61' height='125' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </mark>
-<mark label="mouth" apply_angle_to_animation="0" pause_animation_when_hidden="0">
+<mark label="mouth" apply_angle_to_animation="0" pause_animation_when_hidden="0" reset_animation_with_action="1">
 </mark>
-<mark label="hat" apply_angle_to_animation="1" pause_animation_when_hidden="0">
+<mark label="hat" apply_angle_to_animation="1" pause_animation_when_hidden="0" reset_animation_with_action="1">
 <animation_file path='animation/plee/cap.canim' auto_size='true' width='34' height='16' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </mark>
 </marks>
@@ -186,12 +186,12 @@
 </action>
 <action name="idle" duration="1" auto_next="idle">
 <marks>
-<mark label="body" apply_angle_to_animation="0" pause_animation_when_hidden="0">
+<mark label="body" apply_angle_to_animation="0" pause_animation_when_hidden="0" reset_animation_with_action="1">
 <animation_file path='animation/plee/idle.canim' auto_size='true' width='64' height='112' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </mark>
-<mark label="mouth" apply_angle_to_animation="0" pause_animation_when_hidden="0">
+<mark label="mouth" apply_angle_to_animation="0" pause_animation_when_hidden="0" reset_animation_with_action="1">
 </mark>
-<mark label="hat" apply_angle_to_animation="1" pause_animation_when_hidden="0">
+<mark label="hat" apply_angle_to_animation="1" pause_animation_when_hidden="0" reset_animation_with_action="1">
 <animation_file path='animation/plee/cap.canim' auto_size='true' width='34' height='16' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </mark>
 </marks>
@@ -206,12 +206,12 @@
 </action>
 <action name="jump" duration="0.255" auto_next="">
 <marks>
-<mark label="body" apply_angle_to_animation="0" pause_animation_when_hidden="0">
+<mark label="body" apply_angle_to_animation="0" pause_animation_when_hidden="0" reset_animation_with_action="1">
 <animation_file path='animation/plee/jump.canim' auto_size='true' width='66' height='130' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </mark>
-<mark label="mouth" apply_angle_to_animation="0" pause_animation_when_hidden="0">
+<mark label="mouth" apply_angle_to_animation="0" pause_animation_when_hidden="0" reset_animation_with_action="1">
 </mark>
-<mark label="hat" apply_angle_to_animation="1" pause_animation_when_hidden="0">
+<mark label="hat" apply_angle_to_animation="1" pause_animation_when_hidden="0" reset_animation_with_action="1">
 <animation_file path='animation/plee/cap.canim' auto_size='true' width='34' height='16' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </mark>
 </marks>
@@ -241,12 +241,12 @@
 </action>
 <action name="look_upward" duration="1" auto_next="look_upward">
 <marks>
-<mark label="body" apply_angle_to_animation="0" pause_animation_when_hidden="0">
+<mark label="body" apply_angle_to_animation="0" pause_animation_when_hidden="0" reset_animation_with_action="1">
 <animation_file path='animation/plee/look_upward.canim' auto_size='true' width='46' height='117' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </mark>
-<mark label="mouth" apply_angle_to_animation="0" pause_animation_when_hidden="0">
+<mark label="mouth" apply_angle_to_animation="0" pause_animation_when_hidden="0" reset_animation_with_action="1">
 </mark>
-<mark label="hat" apply_angle_to_animation="1" pause_animation_when_hidden="0">
+<mark label="hat" apply_angle_to_animation="1" pause_animation_when_hidden="0" reset_animation_with_action="1">
 <animation_file path='animation/plee/cap.canim' auto_size='true' width='34' height='16' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </mark>
 </marks>
@@ -259,52 +259,106 @@
 </mark_placements>
 </snapshot></snapshots>
 </action>
-<action name="run" duration="0.42" auto_next="run">
+<action name="run" duration="0.76" auto_next="run">
 <marks>
-<mark label="body" apply_angle_to_animation="0" pause_animation_when_hidden="0">
-<animation_file path='animation/plee/run.canim' auto_size='true' width='72' height='107' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+<mark label="body" apply_angle_to_animation="0" pause_animation_when_hidden="0" reset_animation_with_action="1">
+<animation_file path='animation/plee/run.canim' auto_size='true' width='75' height='112' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </mark>
-<mark label="mouth" apply_angle_to_animation="0" pause_animation_when_hidden="0">
+<mark label="mouth" apply_angle_to_animation="0" pause_animation_when_hidden="0" reset_animation_with_action="1">
 </mark>
-<mark label="hat" apply_angle_to_animation="1" pause_animation_when_hidden="0">
+<mark label="hat" apply_angle_to_animation="1" pause_animation_when_hidden="0" reset_animation_with_action="1">
 <animation_file path='animation/plee/cap.canim' auto_size='true' width='34' height='16' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </mark>
 </marks>
 <snapshots>
 <snapshot date="0" function="apply_run" width="40" height="110" x_alignment="align_left" y_alignment="align_bottom" x_alignment_value="0" y_alignment_value="0">
 <mark_placements>
-<mark_placement label="hat" function="" x="29" y="103" width="0" height="0" z="1" angle="0.2" visible="1" x_easing="none:in" y_easing="none:in" width_easing="none:in" height_easing="none:in" angle_easing="none:in"/>
+<mark_placement label="hat" function="" x="28" y="101" width="0" height="0" z="1" angle="0.2" visible="1" x_easing="none:in" y_easing="none:in" width_easing="none:in" height_easing="none:in" angle_easing="none:in"/>
 <mark_placement label="mouth" function="" x="40" y="80" width="0" height="0" z="1" angle="0" visible="1" x_easing="none:in" y_easing="none:in" width_easing="none:in" height_easing="none:in" angle_easing="none:in"/>
 <mark_placement label="body" function="" x="25" y="52" width="0" height="0" z="0" angle="0" visible="1" x_easing="none:in" y_easing="none:in" width_easing="none:in" height_easing="none:in" angle_easing="none:in"/>
 </mark_placements>
-</snapshot><snapshot date="0.12" width="40" height="110" x_alignment="align_left" y_alignment="align_bottom" x_alignment_value="0" y_alignment_value="0">
+</snapshot><snapshot date="0.076" function="apply_run" width="40" height="110" x_alignment="align_left" y_alignment="align_bottom" x_alignment_value="0" y_alignment_value="0">
 <mark_placements>
-<mark_placement label="hat" function="" x="31" y="103" width="0" height="0" z="1" angle="0.2" visible="1" x_easing="none:in" y_easing="none:in" width_easing="none:in" height_easing="none:in" angle_easing="none:in"/>
-<mark_placement label="mouth" function="" x="41" y="81" width="0" height="0" z="1" angle="0" visible="1" x_easing="none:in" y_easing="none:in" width_easing="none:in" height_easing="none:in" angle_easing="none:in"/>
+<mark_placement label="hat" function="" x="29" y="102" width="0" height="0" z="1" angle="0.2" visible="1" x_easing="none:in" y_easing="none:in" width_easing="none:in" height_easing="none:in" angle_easing="none:in"/>
+<mark_placement label="mouth" function="" x="40" y="80" width="0" height="0" z="1" angle="0" visible="1" x_easing="none:in" y_easing="none:in" width_easing="none:in" height_easing="none:in" angle_easing="none:in"/>
 <mark_placement label="body" function="" x="25" y="52" width="0" height="0" z="0" angle="0" visible="1" x_easing="none:in" y_easing="none:in" width_easing="none:in" height_easing="none:in" angle_easing="none:in"/>
 </mark_placements>
-</snapshot><snapshot date="0.21" width="40" height="110" x_alignment="align_left" y_alignment="align_bottom" x_alignment_value="0" y_alignment_value="0">
+</snapshot><snapshot date="0.114" function="apply_run" width="40" height="110" x_alignment="align_left" y_alignment="align_bottom" x_alignment_value="0" y_alignment_value="0">
 <mark_placements>
-<mark_placement label="hat" function="" x="34" y="101" width="0" height="0" z="1" angle="0.2" visible="1" x_easing="none:in" y_easing="none:in" width_easing="none:in" height_easing="none:in" angle_easing="none:in"/>
-<mark_placement label="mouth" function="" x="45" y="80" width="0" height="0" z="1" angle="0" visible="1" x_easing="none:in" y_easing="none:in" width_easing="none:in" height_easing="none:in" angle_easing="none:in"/>
-<mark_placement label="body" function="" x="23" y="52" width="0" height="0" z="0" angle="0" visible="1" x_easing="none:in" y_easing="none:in" width_easing="none:in" height_easing="none:in" angle_easing="none:in"/>
+<mark_placement label="hat" function="" x="32" y="105" width="0" height="0" z="1" angle="0.2" visible="1" x_easing="none:in" y_easing="none:in" width_easing="none:in" height_easing="none:in" angle_easing="none:in"/>
+<mark_placement label="mouth" function="" x="41" y="82" width="0" height="0" z="1" angle="0" visible="1" x_easing="none:in" y_easing="none:in" width_easing="none:in" height_easing="none:in" angle_easing="none:in"/>
+<mark_placement label="body" function="" x="25" y="52" width="0" height="0" z="0" angle="0" visible="1" x_easing="none:in" y_easing="none:in" width_easing="none:in" height_easing="none:in" angle_easing="none:in"/>
 </mark_placements>
-</snapshot><snapshot date="0.33" width="40" height="110" x_alignment="align_left" y_alignment="align_bottom" x_alignment_value="0" y_alignment_value="0">
+</snapshot><snapshot date="0.152" function="apply_run" width="40" height="110" x_alignment="align_left" y_alignment="align_bottom" x_alignment_value="0" y_alignment_value="0">
 <mark_placements>
-<mark_placement label="hat" function="" x="31" y="103" width="0" height="0" z="1" angle="0.2" visible="1" x_easing="none:in" y_easing="none:in" width_easing="none:in" height_easing="none:in" angle_easing="none:in"/>
+<mark_placement label="hat" function="" x="32" y="106" width="0" height="0" z="1" angle="0.2" visible="1" x_easing="none:in" y_easing="none:in" width_easing="none:in" height_easing="none:in" angle_easing="none:in"/>
+<mark_placement label="mouth" function="" x="42" y="84" width="0" height="0" z="1" angle="0" visible="1" x_easing="none:in" y_easing="none:in" width_easing="none:in" height_easing="none:in" angle_easing="none:in"/>
+<mark_placement label="body" function="" x="25" y="52" width="0" height="0" z="0" angle="0" visible="1" x_easing="none:in" y_easing="none:in" width_easing="none:in" height_easing="none:in" angle_easing="none:in"/>
+</mark_placements>
+</snapshot><snapshot date="0.228" function="apply_run" width="40" height="110" x_alignment="align_left" y_alignment="align_bottom" x_alignment_value="0" y_alignment_value="0">
+<mark_placements>
+<mark_placement label="hat" function="" x="32" y="105" width="0" height="0" z="1" angle="0.2" visible="1" x_easing="none:in" y_easing="none:in" width_easing="none:in" height_easing="none:in" angle_easing="none:in"/>
+<mark_placement label="mouth" function="" x="42" y="83" width="0" height="0" z="1" angle="0" visible="1" x_easing="none:in" y_easing="none:in" width_easing="none:in" height_easing="none:in" angle_easing="none:in"/>
+<mark_placement label="body" function="" x="25" y="52" width="0" height="0" z="0" angle="0" visible="1" x_easing="none:in" y_easing="none:in" width_easing="none:in" height_easing="none:in" angle_easing="none:in"/>
+</mark_placements>
+</snapshot><snapshot date="0.266" function="apply_run" width="40" height="110" x_alignment="align_left" y_alignment="align_bottom" x_alignment_value="0" y_alignment_value="0">
+<mark_placements>
+<mark_placement label="hat" function="" x="29" y="102" width="0" height="0" z="1" angle="0.2" visible="1" x_easing="none:in" y_easing="none:in" width_easing="none:in" height_easing="none:in" angle_easing="none:in"/>
 <mark_placement label="mouth" function="" x="41" y="80" width="0" height="0" z="1" angle="0" visible="1" x_easing="none:in" y_easing="none:in" width_easing="none:in" height_easing="none:in" angle_easing="none:in"/>
+<mark_placement label="body" function="" x="25" y="52" width="0" height="0" z="0" angle="0" visible="1" x_easing="none:in" y_easing="none:in" width_easing="none:in" height_easing="none:in" angle_easing="none:in"/>
+</mark_placements>
+</snapshot><snapshot date="0.304" function="apply_run" width="40" height="110" x_alignment="align_left" y_alignment="align_bottom" x_alignment_value="0" y_alignment_value="0">
+<mark_placements>
+<mark_placement label="hat" function="" x="28" y="101" width="0" height="0" z="1" angle="0.2" visible="1" x_easing="none:in" y_easing="none:in" width_easing="none:in" height_easing="none:in" angle_easing="none:in"/>
+<mark_placement label="mouth" function="" x="41" y="79" width="0" height="0" z="1" angle="0" visible="1" x_easing="none:in" y_easing="none:in" width_easing="none:in" height_easing="none:in" angle_easing="none:in"/>
+<mark_placement label="body" function="" x="25" y="52" width="0" height="0" z="0" angle="0" visible="1" x_easing="none:in" y_easing="none:in" width_easing="none:in" height_easing="none:in" angle_easing="none:in"/>
+</mark_placements>
+</snapshot><snapshot date="0.456" function="apply_run" width="40" height="110" x_alignment="align_left" y_alignment="align_bottom" x_alignment_value="0" y_alignment_value="0">
+<mark_placements>
+<mark_placement label="hat" function="" x="29" y="102" width="0" height="0" z="1" angle="0.2" visible="1" x_easing="none:in" y_easing="none:in" width_easing="none:in" height_easing="none:in" angle_easing="none:in"/>
+<mark_placement label="mouth" function="" x="41" y="79" width="0" height="0" z="1" angle="0" visible="1" x_easing="none:in" y_easing="none:in" width_easing="none:in" height_easing="none:in" angle_easing="none:in"/>
+<mark_placement label="body" function="" x="25" y="52" width="0" height="0" z="0" angle="0" visible="1" x_easing="none:in" y_easing="none:in" width_easing="none:in" height_easing="none:in" angle_easing="none:in"/>
+</mark_placements>
+</snapshot><snapshot date="0.494" function="apply_run" width="40" height="110" x_alignment="align_left" y_alignment="align_bottom" x_alignment_value="0" y_alignment_value="0">
+<mark_placements>
+<mark_placement label="hat" function="" x="32" y="105" width="0" height="0" z="1" angle="0.2" visible="1" x_easing="none:in" y_easing="none:in" width_easing="none:in" height_easing="none:in" angle_easing="none:in"/>
+<mark_placement label="mouth" function="" x="42" y="82" width="0" height="0" z="1" angle="0" visible="1" x_easing="none:in" y_easing="none:in" width_easing="none:in" height_easing="none:in" angle_easing="none:in"/>
+<mark_placement label="body" function="" x="25" y="52" width="0" height="0" z="0" angle="0" visible="1" x_easing="none:in" y_easing="none:in" width_easing="none:in" height_easing="none:in" angle_easing="none:in"/>
+</mark_placements>
+</snapshot><snapshot date="0.532" function="apply_run" width="40" height="110" x_alignment="align_left" y_alignment="align_bottom" x_alignment_value="0" y_alignment_value="0">
+<mark_placements>
+<mark_placement label="hat" function="" x="32" y="106" width="0" height="0" z="1" angle="0.2" visible="1" x_easing="none:in" y_easing="none:in" width_easing="none:in" height_easing="none:in" angle_easing="none:in"/>
+<mark_placement label="mouth" function="" x="42" y="83" width="0" height="0" z="1" angle="0" visible="1" x_easing="none:in" y_easing="none:in" width_easing="none:in" height_easing="none:in" angle_easing="none:in"/>
+<mark_placement label="body" function="" x="25" y="52" width="0" height="0" z="0" angle="0" visible="1" x_easing="none:in" y_easing="none:in" width_easing="none:in" height_easing="none:in" angle_easing="none:in"/>
+</mark_placements>
+</snapshot><snapshot date="0.608" function="apply_run" width="40" height="110" x_alignment="align_left" y_alignment="align_bottom" x_alignment_value="0" y_alignment_value="0">
+<mark_placements>
+<mark_placement label="hat" function="" x="32" y="105" width="0" height="0" z="1" angle="0.2" visible="1" x_easing="none:in" y_easing="none:in" width_easing="none:in" height_easing="none:in" angle_easing="none:in"/>
+<mark_placement label="mouth" function="" x="42" y="82" width="0" height="0" z="1" angle="0" visible="1" x_easing="none:in" y_easing="none:in" width_easing="none:in" height_easing="none:in" angle_easing="none:in"/>
+<mark_placement label="body" function="" x="25" y="52" width="0" height="0" z="0" angle="0" visible="1" x_easing="none:in" y_easing="none:in" width_easing="none:in" height_easing="none:in" angle_easing="none:in"/>
+</mark_placements>
+</snapshot><snapshot date="0.646" function="apply_run" width="40" height="110" x_alignment="align_left" y_alignment="align_bottom" x_alignment_value="0" y_alignment_value="0">
+<mark_placements>
+<mark_placement label="hat" function="" x="29" y="102" width="0" height="0" z="1" angle="0.2" visible="1" x_easing="none:in" y_easing="none:in" width_easing="none:in" height_easing="none:in" angle_easing="none:in"/>
+<mark_placement label="mouth" function="" x="39" y="80" width="0" height="0" z="1" angle="0" visible="1" x_easing="none:in" y_easing="none:in" width_easing="none:in" height_easing="none:in" angle_easing="none:in"/>
+<mark_placement label="body" function="" x="25" y="52" width="0" height="0" z="0" angle="0" visible="1" x_easing="none:in" y_easing="none:in" width_easing="none:in" height_easing="none:in" angle_easing="none:in"/>
+</mark_placements>
+</snapshot><snapshot date="0.684" function="apply_run" width="40" height="110" x_alignment="align_left" y_alignment="align_bottom" x_alignment_value="0" y_alignment_value="0">
+<mark_placements>
+<mark_placement label="hat" function="" x="28" y="101" width="0" height="0" z="1" angle="0.2" visible="1" x_easing="none:in" y_easing="none:in" width_easing="none:in" height_easing="none:in" angle_easing="none:in"/>
+<mark_placement label="mouth" function="" x="39" y="79" width="0" height="0" z="1" angle="0" visible="1" x_easing="none:in" y_easing="none:in" width_easing="none:in" height_easing="none:in" angle_easing="none:in"/>
 <mark_placement label="body" function="" x="25" y="52" width="0" height="0" z="0" angle="0" visible="1" x_easing="none:in" y_easing="none:in" width_easing="none:in" height_easing="none:in" angle_easing="none:in"/>
 </mark_placements>
 </snapshot></snapshots>
 </action>
 <action name="sink" duration="0.85" auto_next="">
 <marks>
-<mark label="body" apply_angle_to_animation="0" pause_animation_when_hidden="0">
+<mark label="body" apply_angle_to_animation="0" pause_animation_when_hidden="0" reset_animation_with_action="1">
 <animation_file path='animation/plee/sink.canim' auto_size='true' width='61' height='125' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </mark>
-<mark label="mouth" apply_angle_to_animation="0" pause_animation_when_hidden="0">
+<mark label="mouth" apply_angle_to_animation="0" pause_animation_when_hidden="0" reset_animation_with_action="1">
 </mark>
-<mark label="hat" apply_angle_to_animation="1" pause_animation_when_hidden="0">
+<mark label="hat" apply_angle_to_animation="1" pause_animation_when_hidden="0" reset_animation_with_action="1">
 <animation_file path='animation/plee/cap.canim' auto_size='true' width='34' height='16' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </mark>
 </marks>
@@ -319,17 +373,17 @@
 </action>
 <action name="slap" duration="0.45" auto_next="idle">
 <marks>
-<mark label="body" apply_angle_to_animation="0" pause_animation_when_hidden="0">
+<mark label="body" apply_angle_to_animation="0" pause_animation_when_hidden="0" reset_animation_with_action="1">
 <animation_file path='animation/plee/slap.canim' auto_size='true' width='84' height='112' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </mark>
-<mark label="mouth" apply_angle_to_animation="0" pause_animation_when_hidden="0">
+<mark label="mouth" apply_angle_to_animation="0" pause_animation_when_hidden="0" reset_animation_with_action="1">
 </mark>
-<mark label="hat" apply_angle_to_animation="1" pause_animation_when_hidden="0">
+<mark label="hat" apply_angle_to_animation="1" pause_animation_when_hidden="0" reset_animation_with_action="1">
 <animation_file path='animation/plee/cap.canim' auto_size='true' width='34' height='16' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </mark>
-<mark label="hand" apply_angle_to_animation="0" pause_animation_when_hidden="0">
+<mark label="hand" apply_angle_to_animation="0" pause_animation_when_hidden="0" reset_animation_with_action="1">
 </mark>
-<mark label="attack_point" apply_angle_to_animation="0" pause_animation_when_hidden="0">
+<mark label="attack_point" apply_angle_to_animation="0" pause_animation_when_hidden="0" reset_animation_with_action="1">
 </mark>
 </marks>
 <snapshots>
@@ -388,17 +442,17 @@
 </action>
 <action name="slap_and_walk" duration="0.45" auto_next="idle">
 <marks>
-<mark label="body" apply_angle_to_animation="0" pause_animation_when_hidden="0">
+<mark label="body" apply_angle_to_animation="0" pause_animation_when_hidden="0" reset_animation_with_action="1">
 <animation_file path='animation/plee/slap_and_walk.canim' auto_size='true' width='89' height='112' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </mark>
-<mark label="mouth" apply_angle_to_animation="0" pause_animation_when_hidden="0">
+<mark label="mouth" apply_angle_to_animation="0" pause_animation_when_hidden="0" reset_animation_with_action="1">
 </mark>
-<mark label="hat" apply_angle_to_animation="1" pause_animation_when_hidden="0">
+<mark label="hat" apply_angle_to_animation="1" pause_animation_when_hidden="0" reset_animation_with_action="1">
 <animation_file path='animation/plee/cap.canim' auto_size='true' width='34' height='16' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </mark>
-<mark label="hand" apply_angle_to_animation="0" pause_animation_when_hidden="0">
+<mark label="hand" apply_angle_to_animation="0" pause_animation_when_hidden="0" reset_animation_with_action="1">
 </mark>
-<mark label="attack_point" apply_angle_to_animation="0" pause_animation_when_hidden="0">
+<mark label="attack_point" apply_angle_to_animation="0" pause_animation_when_hidden="0" reset_animation_with_action="1">
 </mark>
 </marks>
 <snapshots>
@@ -457,17 +511,17 @@
 </action>
 <action name="start_cling" duration="0.36" auto_next="idle">
 <marks>
-<mark label="body" apply_angle_to_animation="0" pause_animation_when_hidden="0">
+<mark label="body" apply_angle_to_animation="0" pause_animation_when_hidden="0" reset_animation_with_action="1">
 <animation_file path='animation/plee/start_cling.canim' auto_size='true' width='71' height='125' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </mark>
-<mark label="mouth" apply_angle_to_animation="0" pause_animation_when_hidden="0">
+<mark label="mouth" apply_angle_to_animation="0" pause_animation_when_hidden="0" reset_animation_with_action="1">
 </mark>
-<mark label="hat" apply_angle_to_animation="1" pause_animation_when_hidden="0">
+<mark label="hat" apply_angle_to_animation="1" pause_animation_when_hidden="0" reset_animation_with_action="1">
 <animation_file path='animation/plee/cap.canim' auto_size='true' width='34' height='16' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </mark>
-<mark label="hand" apply_angle_to_animation="0" pause_animation_when_hidden="0">
+<mark label="hand" apply_angle_to_animation="0" pause_animation_when_hidden="0" reset_animation_with_action="1">
 </mark>
-<mark label="attack_point" apply_angle_to_animation="0" pause_animation_when_hidden="0">
+<mark label="attack_point" apply_angle_to_animation="0" pause_animation_when_hidden="0" reset_animation_with_action="1">
 </mark>
 </marks>
 <snapshots>
@@ -502,12 +556,12 @@
 </action>
 <action name="cling" duration="0.09" auto_next="">
 <marks>
-<mark label="body" apply_angle_to_animation="0" pause_animation_when_hidden="0">
+<mark label="body" apply_angle_to_animation="0" pause_animation_when_hidden="0" reset_animation_with_action="1">
 <animation_file path='animation/plee/cling.canim' auto_size='true' width='64' height='102' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </mark>
-<mark label="mouth" apply_angle_to_animation="0" pause_animation_when_hidden="0">
+<mark label="mouth" apply_angle_to_animation="0" pause_animation_when_hidden="0" reset_animation_with_action="1">
 </mark>
-<mark label="hat" apply_angle_to_animation="1" pause_animation_when_hidden="0">
+<mark label="hat" apply_angle_to_animation="1" pause_animation_when_hidden="0" reset_animation_with_action="1">
 <animation_file path='animation/plee/cap.canim' auto_size='true' width='34' height='16' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </mark>
 </marks>
@@ -525,10 +579,10 @@
 </action>
 <action name="start_hang" duration="0.3" auto_next="idle">
 <marks>
-<mark label="body" apply_angle_to_animation="0" pause_animation_when_hidden="0">
+<mark label="body" apply_angle_to_animation="0" pause_animation_when_hidden="0" reset_animation_with_action="1">
 <animation_file path='animation/plee/start_hang.canim' auto_size='true' width='64' height='112' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </mark>
-<mark label="mouth" apply_angle_to_animation="0" pause_animation_when_hidden="0">
+<mark label="mouth" apply_angle_to_animation="0" pause_animation_when_hidden="0" reset_animation_with_action="1">
 </mark>
 </marks>
 <snapshots>
@@ -541,17 +595,17 @@
 </action>
 <action name="throw" duration="0.3" auto_next="idle">
 <marks>
-<mark label="body" apply_angle_to_animation="0" pause_animation_when_hidden="0">
+<mark label="body" apply_angle_to_animation="0" pause_animation_when_hidden="0" reset_animation_with_action="1">
 <animation_file path='animation/plee/throw.canim' auto_size='true' width='83' height='112' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </mark>
-<mark label="mouth" apply_angle_to_animation="0" pause_animation_when_hidden="0">
+<mark label="mouth" apply_angle_to_animation="0" pause_animation_when_hidden="0" reset_animation_with_action="1">
 </mark>
-<mark label="hat" apply_angle_to_animation="1" pause_animation_when_hidden="0">
+<mark label="hat" apply_angle_to_animation="1" pause_animation_when_hidden="0" reset_animation_with_action="1">
 <animation_file path='animation/plee/cap.canim' auto_size='true' width='34' height='16' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </mark>
-<mark label="hand" apply_angle_to_animation="0" pause_animation_when_hidden="0">
+<mark label="hand" apply_angle_to_animation="0" pause_animation_when_hidden="0" reset_animation_with_action="1">
 </mark>
-<mark label="hand_over" apply_angle_to_animation="1" pause_animation_when_hidden="0">
+<mark label="hand_over" apply_angle_to_animation="1" pause_animation_when_hidden="0" reset_animation_with_action="1">
 </mark>
 </marks>
 <snapshots>
@@ -610,17 +664,17 @@
 </action>
 <action name="throw_and_walk" duration="0.32" auto_next="walk">
 <marks>
-<mark label="body" apply_angle_to_animation="0" pause_animation_when_hidden="0">
+<mark label="body" apply_angle_to_animation="0" pause_animation_when_hidden="0" reset_animation_with_action="1">
 <animation_file path='animation/plee/throw_and_walk.canim' auto_size='true' width='87' height='112' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </mark>
-<mark label="mouth" apply_angle_to_animation="0" pause_animation_when_hidden="0">
+<mark label="mouth" apply_angle_to_animation="0" pause_animation_when_hidden="0" reset_animation_with_action="1">
 </mark>
-<mark label="hat" apply_angle_to_animation="1" pause_animation_when_hidden="0">
+<mark label="hat" apply_angle_to_animation="1" pause_animation_when_hidden="0" reset_animation_with_action="1">
 <animation_file path='animation/plee/cap.canim' auto_size='true' width='34' height='16' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </mark>
-<mark label="hand" apply_angle_to_animation="0" pause_animation_when_hidden="0">
+<mark label="hand" apply_angle_to_animation="0" pause_animation_when_hidden="0" reset_animation_with_action="1">
 </mark>
-<mark label="hand_over" apply_angle_to_animation="1" pause_animation_when_hidden="0">
+<mark label="hand_over" apply_angle_to_animation="1" pause_animation_when_hidden="0" reset_animation_with_action="1">
 </mark>
 </marks>
 <snapshots>
@@ -674,12 +728,12 @@
 <file path="sound/plee/start-power-jump.ogg"/>
 </sound>
 <marks>
-<mark label="body" apply_angle_to_animation="0" pause_animation_when_hidden="0">
+<mark label="body" apply_angle_to_animation="0" pause_animation_when_hidden="0" reset_animation_with_action="1">
 <animation_file path='animation/plee/start_vertical_jump.canim' auto_size='true' width='61' height='111' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </mark>
-<mark label="mouth" apply_angle_to_animation="0" pause_animation_when_hidden="0">
+<mark label="mouth" apply_angle_to_animation="0" pause_animation_when_hidden="0" reset_animation_with_action="1">
 </mark>
-<mark label="hat" apply_angle_to_animation="1" pause_animation_when_hidden="0">
+<mark label="hat" apply_angle_to_animation="1" pause_animation_when_hidden="0" reset_animation_with_action="1">
 <animation_file path='animation/plee/cap.canim' auto_size='true' width='34' height='16' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </mark>
 </marks>
@@ -694,17 +748,17 @@
 </action>
 <action name="throw_and_fall" duration="0.2" auto_next="idle">
 <marks>
-<mark label="body" apply_angle_to_animation="0" pause_animation_when_hidden="0">
+<mark label="body" apply_angle_to_animation="0" pause_animation_when_hidden="0" reset_animation_with_action="1">
 <animation_file path='animation/plee/throw_and_fall.canim' auto_size='true' width='76' height='114' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </mark>
-<mark label="mouth" apply_angle_to_animation="0" pause_animation_when_hidden="0">
+<mark label="mouth" apply_angle_to_animation="0" pause_animation_when_hidden="0" reset_animation_with_action="1">
 </mark>
-<mark label="hat" apply_angle_to_animation="1" pause_animation_when_hidden="0">
+<mark label="hat" apply_angle_to_animation="1" pause_animation_when_hidden="0" reset_animation_with_action="1">
 <animation_file path='animation/plee/cap.canim' auto_size='true' width='34' height='16' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </mark>
-<mark label="hand" apply_angle_to_animation="0" pause_animation_when_hidden="0">
+<mark label="hand" apply_angle_to_animation="0" pause_animation_when_hidden="0" reset_animation_with_action="1">
 </mark>
-<mark label="hand_over" apply_angle_to_animation="1" pause_animation_when_hidden="0">
+<mark label="hand_over" apply_angle_to_animation="1" pause_animation_when_hidden="0" reset_animation_with_action="1">
 </mark>
 </marks>
 <snapshots>
@@ -747,12 +801,12 @@
 </action>
 <action name="swimming" duration="0.6" auto_next="sink">
 <marks>
-<mark label="body" apply_angle_to_animation="0" pause_animation_when_hidden="0">
+<mark label="body" apply_angle_to_animation="0" pause_animation_when_hidden="0" reset_animation_with_action="1">
 <animation_file path='animation/plee/swimming.canim' auto_size='true' width='92' height='125' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </mark>
-<mark label="mouth" apply_angle_to_animation="0" pause_animation_when_hidden="0">
+<mark label="mouth" apply_angle_to_animation="0" pause_animation_when_hidden="0" reset_animation_with_action="1">
 </mark>
-<mark label="hat" apply_angle_to_animation="1" pause_animation_when_hidden="0">
+<mark label="hat" apply_angle_to_animation="1" pause_animation_when_hidden="0" reset_animation_with_action="1">
 <animation_file path='animation/plee/cap.canim' auto_size='true' width='34' height='16' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </mark>
 </marks>
@@ -815,12 +869,12 @@
 </action>
 <action name="vertical_jump" duration="2" auto_next="fall">
 <marks>
-<mark label="body" apply_angle_to_animation="0" pause_animation_when_hidden="0">
+<mark label="body" apply_angle_to_animation="0" pause_animation_when_hidden="0" reset_animation_with_action="1">
 <animation_file path='animation/plee/vertical_jump.canim' auto_size='true' width='61' height='134' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </mark>
-<mark label="mouth" apply_angle_to_animation="0" pause_animation_when_hidden="0">
+<mark label="mouth" apply_angle_to_animation="0" pause_animation_when_hidden="0" reset_animation_with_action="1">
 </mark>
-<mark label="hat" apply_angle_to_animation="1" pause_animation_when_hidden="0">
+<mark label="hat" apply_angle_to_animation="1" pause_animation_when_hidden="0" reset_animation_with_action="1">
 <animation_file path='animation/plee/cap.canim' auto_size='true' width='34' height='16' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </mark>
 </marks>
@@ -850,12 +904,12 @@
 </action>
 <action name="wait1" duration="0.2" auto_next="wait1">
 <marks>
-<mark label="body" apply_angle_to_animation="0" pause_animation_when_hidden="0">
+<mark label="body" apply_angle_to_animation="0" pause_animation_when_hidden="0" reset_animation_with_action="1">
 <animation_file path='animation/plee/wait1.canim' auto_size='true' width='64' height='112' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </mark>
-<mark label="mouth" apply_angle_to_animation="0" pause_animation_when_hidden="0">
+<mark label="mouth" apply_angle_to_animation="0" pause_animation_when_hidden="0" reset_animation_with_action="1">
 </mark>
-<mark label="hat" apply_angle_to_animation="1" pause_animation_when_hidden="0">
+<mark label="hat" apply_angle_to_animation="1" pause_animation_when_hidden="0" reset_animation_with_action="1">
 <animation_file path='animation/plee/cap.canim' auto_size='true' width='34' height='16' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </mark>
 </marks>
@@ -870,12 +924,12 @@
 </action>
 <action name="wait2" duration="0.4" auto_next="wait2">
 <marks>
-<mark label="body" apply_angle_to_animation="0" pause_animation_when_hidden="0">
+<mark label="body" apply_angle_to_animation="0" pause_animation_when_hidden="0" reset_animation_with_action="1">
 <animation_file path='animation/plee/wait2.canim' auto_size='true' width='64' height='112' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </mark>
-<mark label="mouth" apply_angle_to_animation="0" pause_animation_when_hidden="0">
+<mark label="mouth" apply_angle_to_animation="0" pause_animation_when_hidden="0" reset_animation_with_action="1">
 </mark>
-<mark label="hat" apply_angle_to_animation="1" pause_animation_when_hidden="0">
+<mark label="hat" apply_angle_to_animation="1" pause_animation_when_hidden="0" reset_animation_with_action="1">
 <animation_file path='animation/plee/cap.canim' auto_size='true' width='34' height='16' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </mark>
 </marks>
@@ -890,12 +944,12 @@
 </action>
 <action name="walk" duration="0.96" auto_next="walk">
 <marks>
-<mark label="body" apply_angle_to_animation="0" pause_animation_when_hidden="0">
+<mark label="body" apply_angle_to_animation="0" pause_animation_when_hidden="0" reset_animation_with_action="1">
 <animation_file path='animation/plee/walk.canim' auto_size='true' width='64' height='112' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </mark>
-<mark label="mouth" apply_angle_to_animation="0" pause_animation_when_hidden="0">
+<mark label="mouth" apply_angle_to_animation="0" pause_animation_when_hidden="0" reset_animation_with_action="1">
 </mark>
-<mark label="hat" apply_angle_to_animation="1" pause_animation_when_hidden="0">
+<mark label="hat" apply_angle_to_animation="1" pause_animation_when_hidden="0" reset_animation_with_action="1">
 <animation_file path='animation/plee/cap.canim' auto_size='true' width='34' height='16' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </mark>
 </marks>
@@ -985,16 +1039,16 @@
 <file path="sound/plee/snore.ogg"/>
 </sound>
 <marks>
-<mark label="body" apply_angle_to_animation="0" pause_animation_when_hidden="0">
+<mark label="body" apply_angle_to_animation="0" pause_animation_when_hidden="0" reset_animation_with_action="1">
 <animation_file path='animation/plee/sleep.canim' auto_size='true' width='63' height='108' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </mark>
-<mark label="hat" apply_angle_to_animation="1" pause_animation_when_hidden="0">
+<mark label="hat" apply_angle_to_animation="1" pause_animation_when_hidden="0" reset_animation_with_action="1">
 <animation_file path='animation/plee/cap.canim' auto_size='true' width='34' height='16' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </mark>
-<mark label="balloon" apply_angle_to_animation="0" pause_animation_when_hidden="0">
+<mark label="balloon" apply_angle_to_animation="0" pause_animation_when_hidden="0" reset_animation_with_action="1">
 <animation_file path='animation/plee/dream.canim' auto_size='true' width='83' height='52' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </mark>
-<mark label="mouth" apply_angle_to_animation="0" pause_animation_when_hidden="0">
+<mark label="mouth" apply_angle_to_animation="0" pause_animation_when_hidden="0" reset_animation_with_action="1">
 </mark>
 </marks>
 <snapshots>
@@ -1030,12 +1084,12 @@
 </action>
 <action name="roar" duration="1.53" auto_next="idle">
 <marks>
-<mark label="body" apply_angle_to_animation="0" pause_animation_when_hidden="0">
+<mark label="body" apply_angle_to_animation="0" pause_animation_when_hidden="0" reset_animation_with_action="1">
 <animation_file path='animation/plee/roar.canim' auto_size='true' width='71' height='112' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </mark>
-<mark label="mouth" apply_angle_to_animation="0" pause_animation_when_hidden="0">
+<mark label="mouth" apply_angle_to_animation="0" pause_animation_when_hidden="0" reset_animation_with_action="1">
 </mark>
-<mark label="hat" apply_angle_to_animation="1" pause_animation_when_hidden="0">
+<mark label="hat" apply_angle_to_animation="1" pause_animation_when_hidden="0" reset_animation_with_action="1">
 <animation_file path='animation/plee/cap.canim' auto_size='true' width='34' height='16' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </mark>
 </marks>
@@ -1077,12 +1131,12 @@
 </action>
 <action name="injured" duration="1" auto_next="">
 <marks>
-<mark label="body" apply_angle_to_animation="0" pause_animation_when_hidden="0">
+<mark label="body" apply_angle_to_animation="0" pause_animation_when_hidden="0" reset_animation_with_action="1">
 <animation_file path='animation/plee/injured.canim' auto_size='true' width='68' height='101' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </mark>
-<mark label="mouth" apply_angle_to_animation="0" pause_animation_when_hidden="0">
+<mark label="mouth" apply_angle_to_animation="0" pause_animation_when_hidden="0" reset_animation_with_action="1">
 </mark>
-<mark label="hat" apply_angle_to_animation="1" pause_animation_when_hidden="0">
+<mark label="hat" apply_angle_to_animation="1" pause_animation_when_hidden="0" reset_animation_with_action="1">
 <animation_file path='animation/plee/cap.canim' auto_size='true' width='34' height='16' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </mark>
 </marks>
@@ -1100,15 +1154,15 @@
 </action>
 <action name="maintain" duration="0.17" auto_next="throw">
 <marks>
-<mark label="body" apply_angle_to_animation="0" pause_animation_when_hidden="0">
+<mark label="body" apply_angle_to_animation="0" pause_animation_when_hidden="0" reset_animation_with_action="1">
 <animation_file path='animation/plee/maintain.canim' auto_size='true' width='83' height='112' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </mark>
-<mark label="mouth" apply_angle_to_animation="0" pause_animation_when_hidden="0">
+<mark label="mouth" apply_angle_to_animation="0" pause_animation_when_hidden="0" reset_animation_with_action="1">
 </mark>
-<mark label="hat" apply_angle_to_animation="1" pause_animation_when_hidden="0">
+<mark label="hat" apply_angle_to_animation="1" pause_animation_when_hidden="0" reset_animation_with_action="1">
 <animation_file path='animation/plee/cap.canim' auto_size='true' width='34' height='16' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </mark>
-<mark label="hand_over" apply_angle_to_animation="1" pause_animation_when_hidden="0">
+<mark label="hand_over" apply_angle_to_animation="1" pause_animation_when_hidden="0" reset_animation_with_action="1">
 </mark>
 </marks>
 <snapshots>
@@ -1123,15 +1177,15 @@
 </action>
 <action name="maintain_and_walk" duration="0.17" auto_next="throw_and_walk">
 <marks>
-<mark label="body" apply_angle_to_animation="0" pause_animation_when_hidden="0">
+<mark label="body" apply_angle_to_animation="0" pause_animation_when_hidden="0" reset_animation_with_action="1">
 <animation_file path='animation/plee/maintain_and_walk.canim' auto_size='true' width='87' height='112' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </mark>
-<mark label="mouth" apply_angle_to_animation="0" pause_animation_when_hidden="0">
+<mark label="mouth" apply_angle_to_animation="0" pause_animation_when_hidden="0" reset_animation_with_action="1">
 </mark>
-<mark label="hat" apply_angle_to_animation="1" pause_animation_when_hidden="0">
+<mark label="hat" apply_angle_to_animation="1" pause_animation_when_hidden="0" reset_animation_with_action="1">
 <animation_file path='animation/plee/cap.canim' auto_size='true' width='34' height='16' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </mark>
-<mark label="hand_over" apply_angle_to_animation="1" pause_animation_when_hidden="0">
+<mark label="hand_over" apply_angle_to_animation="1" pause_animation_when_hidden="0" reset_animation_with_action="1">
 </mark>
 </marks>
 <snapshots>
@@ -1153,15 +1207,15 @@
 </action>
 <action name="maintain_and_fall" duration="0.17" auto_next="throw_and_fall">
 <marks>
-<mark label="body" apply_angle_to_animation="0" pause_animation_when_hidden="0">
+<mark label="body" apply_angle_to_animation="0" pause_animation_when_hidden="0" reset_animation_with_action="1">
 <animation_file path='animation/plee/maintain_and_fall.canim' auto_size='true' width='76' height='114' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </mark>
-<mark label="mouth" apply_angle_to_animation="0" pause_animation_when_hidden="0">
+<mark label="mouth" apply_angle_to_animation="0" pause_animation_when_hidden="0" reset_animation_with_action="1">
 </mark>
-<mark label="hat" apply_angle_to_animation="1" pause_animation_when_hidden="0">
+<mark label="hat" apply_angle_to_animation="1" pause_animation_when_hidden="0" reset_animation_with_action="1">
 <animation_file path='animation/plee/cap.canim' auto_size='true' width='34' height='16' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </mark>
-<mark label="hand_over" apply_angle_to_animation="1" pause_animation_when_hidden="0">
+<mark label="hand_over" apply_angle_to_animation="1" pause_animation_when_hidden="0" reset_animation_with_action="1">
 </mark>
 </marks>
 <snapshots>
@@ -1176,12 +1230,12 @@
 </action>
 <action name="game_over" duration="1.44" auto_next="">
 <marks>
-<mark label="body" apply_angle_to_animation="0" pause_animation_when_hidden="0">
+<mark label="body" apply_angle_to_animation="0" pause_animation_when_hidden="0" reset_animation_with_action="1">
 <animation_file path='animation/plee/idle.canim' auto_size='true' width='64' height='112' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </mark>
-<mark label="mouth" apply_angle_to_animation="0" pause_animation_when_hidden="0">
+<mark label="mouth" apply_angle_to_animation="0" pause_animation_when_hidden="0" reset_animation_with_action="1">
 </mark>
-<mark label="hat" apply_angle_to_animation="1" pause_animation_when_hidden="0">
+<mark label="hat" apply_angle_to_animation="1" pause_animation_when_hidden="0" reset_animation_with_action="1">
 <animation_file path='animation/plee/cap.canim' auto_size='true' width='34' height='16' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </mark>
 </marks>
@@ -1196,12 +1250,12 @@
 </action>
 <action name="float_and_swim" duration="0.6" auto_next="float">
 <marks>
-<mark label="body" apply_angle_to_animation="0" pause_animation_when_hidden="0">
+<mark label="body" apply_angle_to_animation="0" pause_animation_when_hidden="0" reset_animation_with_action="1">
 <animation_file path='animation/plee/float_and_swim.canim' auto_size='true' width='92' height='125' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </mark>
-<mark label="mouth" apply_angle_to_animation="0" pause_animation_when_hidden="0">
+<mark label="mouth" apply_angle_to_animation="0" pause_animation_when_hidden="0" reset_animation_with_action="1">
 </mark>
-<mark label="hat" apply_angle_to_animation="1" pause_animation_when_hidden="0">
+<mark label="hat" apply_angle_to_animation="1" pause_animation_when_hidden="0" reset_animation_with_action="1">
 <animation_file path='animation/plee/cap.canim' auto_size='true' width='34' height='16' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </mark>
 </marks>
@@ -1276,24 +1330,24 @@
 </action>
 <action name="take_hat" duration="0.62" auto_next="idle">
 <marks>
-<mark label="body" apply_angle_to_animation="0" pause_animation_when_hidden="0">
+<mark label="body" apply_angle_to_animation="0" pause_animation_when_hidden="0" reset_animation_with_action="1">
 <animation_file path='animation/plee/take_hat.canim' auto_size='true' width='68' height='120' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </mark>
-<mark label="hat" apply_angle_to_animation="1" pause_animation_when_hidden="0">
+<mark label="hat" apply_angle_to_animation="1" pause_animation_when_hidden="0" reset_animation_with_action="1">
 <animation_file path='animation/plee/cap.canim' auto_size='true' width='34' height='16' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </mark>
-<mark label="mouth" apply_angle_to_animation="0" pause_animation_when_hidden="0">
+<mark label="mouth" apply_angle_to_animation="0" pause_animation_when_hidden="0" reset_animation_with_action="1">
 </mark>
-<mark label="hand" apply_angle_to_animation="1" pause_animation_when_hidden="0">
+<mark label="hand" apply_angle_to_animation="1" pause_animation_when_hidden="0" reset_animation_with_action="1">
 </mark>
-<mark label="arm" apply_angle_to_animation="1" pause_animation_when_hidden="0">
+<mark label="arm" apply_angle_to_animation="1" pause_animation_when_hidden="0" reset_animation_with_action="1">
 <animation loops='0' first_index='0' last_index='0' loop_back='false' auto_size='true' width='19' height='30' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'>
   <frame duration='1'>
     <sprite image='gfx/plee/plee-4.png' x='493' y='8' clip_width='19' clip_height='30' spritepos='changing hat 7 floating arm' auto_size='true' width='19' height='30' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
   </frame>
 </animation>
 </mark>
-<mark label="new_hat" apply_angle_to_animation="0" pause_animation_when_hidden="0">
+<mark label="new_hat" apply_angle_to_animation="0" pause_animation_when_hidden="0" reset_animation_with_action="1">
 <animation_file path='animation/plee/cap.canim' auto_size='true' width='34' height='16' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </mark>
 </marks>
@@ -1374,12 +1428,12 @@
 </action>
 <action name="unstable_ahead" duration="1" auto_next="unstable_ahead">
 <marks>
-<mark label="body" apply_angle_to_animation="0" pause_animation_when_hidden="0">
+<mark label="body" apply_angle_to_animation="0" pause_animation_when_hidden="0" reset_animation_with_action="1">
 <animation_file path='animation/plee/idle.canim' auto_size='true' width='64' height='112' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </mark>
-<mark label="mouth" apply_angle_to_animation="0" pause_animation_when_hidden="0">
+<mark label="mouth" apply_angle_to_animation="0" pause_animation_when_hidden="0" reset_animation_with_action="1">
 </mark>
-<mark label="hat" apply_angle_to_animation="1" pause_animation_when_hidden="0">
+<mark label="hat" apply_angle_to_animation="1" pause_animation_when_hidden="0" reset_animation_with_action="1">
 <animation_file path='animation/plee/cap.canim' auto_size='true' width='34' height='16' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </mark>
 </marks>
@@ -1394,12 +1448,12 @@
 </action>
 <action name="unstable_backwards" duration="1" auto_next="unstable_backwards">
 <marks>
-<mark label="body" apply_angle_to_animation="0" pause_animation_when_hidden="0">
+<mark label="body" apply_angle_to_animation="0" pause_animation_when_hidden="0" reset_animation_with_action="1">
 <animation_file path='animation/plee/idle.canim' auto_size='true' width='64' height='112' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </mark>
-<mark label="mouth" apply_angle_to_animation="0" pause_animation_when_hidden="0">
+<mark label="mouth" apply_angle_to_animation="0" pause_animation_when_hidden="0" reset_animation_with_action="1">
 </mark>
-<mark label="hat" apply_angle_to_animation="1" pause_animation_when_hidden="0">
+<mark label="hat" apply_angle_to_animation="1" pause_animation_when_hidden="0" reset_animation_with_action="1">
 <animation_file path='animation/plee/cap.canim' auto_size='true' width='34' height='16' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </mark>
 </marks>
