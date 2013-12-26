@@ -1,19 +1,17 @@
 sin slope up: 0 0 256 396
-slope up: 257 0 256 396
+sin slope down: 257 0 256 274
 center 1: 514 0 256 256
 center 2: 0 397 256 256
-sin slope down: 257 397 256 256
-slope down: 514 397 256 256
-ground corner: 0 654 256 146
-top: 257 654 256 140
+ground corner: 257 397 256 146
+top: 514 397 256 140
 left: 771 0 128 256
-bottom: 514 257 256 128
-ceiling corner: 514 654 256 128
-left branch: 771 257 244 123
-ground corner curved step: 771 397 137 147
-ground corner step: 0 801 139 140
-top-left: 140 801 137 140
-curved top-left: 278 801 137 140
-bottom-left: 771 654 128 128
-ground corner wall: 416 801 128 128
-ceiling corner wall: 545 801 128 128
+bottom: 0 654 256 128
+ceiling corner: 257 654 256 128
+left branch: 771 397 244 123
+ground corner curved step: 0 783 137 147
+ground corner step: 138 783 139 140
+top-left: 278 783 137 140
+curved top-left: 416 783 137 140
+bottom-left: 514 654 128 128
+ground corner wall: 643 654 128 128
+ceiling corner wall: 772 654 128 128
