@@ -42019,38 +42019,6 @@
 </fields>
     </item><!-- ptb::ray -->
 
-    <item class_name='bear::block' fixed='true'>
-<fields>
-<field name='basic_renderable_item.gap.y'>
-<integer value='15'/>
-</field>
-<field name='item_with_friction.top_friction'>
-<real value='0.95'/>
-</field>
-<field name='item_with_z_shift.z_shift'>
-<integer value='-10'/>
-</field>
-<field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/bridge.png' x='0' y='0' clip_width='256' clip_height='46' spritepos='default bridge' auto_size='true' width='256' height='46' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
-</field>
-<field name='base_item.position.bottom'>
-<real value='3529'/>
-</field>
-<field name='base_item.position.left'>
-<real value='896'/>
-</field>
-<field name='base_item.size.height'>
-<real value='50'/>
-</field>
-<field name='base_item.size.width'>
-<real value='256'/>
-</field>
-<field name='item_with_activable_sides.top_side_is_active'>
-<bool value='1'/>
-</field>
-</fields>
-    </item><!-- bear::block -->
-
     <item class_name='bear::bool_game_variable_getter_creator' fixed='false' id='demo-script-game-var-value-1'>
 <fields>
 <field name='base_item.position.bottom'>
@@ -42269,67 +42237,6 @@
 
     <item class_name='bear::block' fixed='true'>
 <fields>
-<field name='basic_renderable_item.gap.y'>
-<integer value='15'/>
-</field>
-<field name='item_with_friction.top_friction'>
-<real value='0.95'/>
-</field>
-<field name='item_with_z_shift.z_shift'>
-<integer value='-10'/>
-</field>
-<field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/bridge.png' x='0' y='46' clip_width='256' clip_height='46' spritepos='missing plank' auto_size='true' width='256' height='46' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
-</field>
-<field name='base_item.position.bottom'>
-<real value='3529'/>
-</field>
-<field name='base_item.position.depth'>
-<integer value='50'/>
-</field>
-<field name='base_item.position.left'>
-<real value='1152'/>
-</field>
-<field name='base_item.size.height'>
-<real value='50'/>
-</field>
-<field name='base_item.size.width'>
-<real value='121'/>
-</field>
-<field name='item_with_activable_sides.top_side_is_active'>
-<bool value='1'/>
-</field>
-</fields>
-    </item><!-- bear::block -->
-
-    <item class_name='bear::trigger' fixed='true' id='script-plank-trigger'>
-<fields>
-<field name='item_with_trigger.check_on_collision'>
-<bool value='1'/>
-</field>
-<field name='item_with_trigger.check_on_progress'>
-<bool value='0'/>
-</field>
-<field name='base_item.position.bottom'>
-<real value='3518'/>
-</field>
-<field name='base_item.position.left'>
-<real value='1273'/>
-</field>
-<field name='base_item.size.height'>
-<real value='70'/>
-</field>
-<field name='base_item.size.width'>
-<real value='102'/>
-</field>
-<field name='trigger.toggle'>
-<item_reference value='script-bridge-plank'/>
-</field>
-</fields>
-    </item><!-- bear::trigger -->
-
-    <item class_name='bear::block' fixed='true'>
-<fields>
 <field name='item_with_friction.top_friction'>
 <real value='0.95'/>
 </field>
@@ -42356,52 +42263,6 @@
 </field>
 </fields>
     </item><!-- bear::block -->
-
-    <item class_name='bear::decorative_toggle' fixed='true' id='script-bridge-plank'>
-<fields>
-<field name='base_item.position.bottom'>
-<real value='3565'/>
-</field>
-<field name='base_item.position.depth'>
-<integer value='10'/>
-</field>
-<field name='base_item.position.left'>
-<real value='1285'/>
-</field>
-<field name='base_item.size.height'>
-<real value='22'/>
-</field>
-<field name='base_item.size.width'>
-<real value='64'/>
-</field>
-<field name='basic_renderable_item.angle'>
-<real value='-0.1'/>
-</field>
-<field name='basic_renderable_item.color'>
-<color opacity='1' red_intensity='0.75' green_intensity='0.8' blue_intensity='0.75'/>
-</field>
-<field name='decorated_item_with_toggle.visual_off'>
-<animation_file path='animation/forest/bridge-plank.canim' auto_size='true' width='64' height='22' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
-</field>
-</fields>
-    </item><!-- bear::decorative_toggle -->
-
-    <item class_name='bear::applied_boolean_expression' fixed='false'>
-<fields>
-<field name='base_item.position.bottom'>
-<real value='3688'/>
-</field>
-<field name='base_item.position.left'>
-<real value='1307'/>
-</field>
-<field name='applied_expression.expression'>
-<item_reference value='script-plank-condition'/>
-</field>
-<field name='applied_expression.receiver'>
-<item_reference value='script-plank-trigger'/>
-</field>
-</fields>
-    </item><!-- bear::applied_boolean_expression -->
 
     <item class_name='ptb::save_player_position' fixed='true'>
 <fields>
@@ -42439,55 +42300,6 @@
 </field>
 </fields>
     </item><!-- ptb::save_player_position -->
-
-    <item class_name='bear::block' fixed='true'>
-<fields>
-<field name='basic_renderable_item.gap.y'>
-<integer value='15'/>
-</field>
-<field name='item_with_friction.top_friction'>
-<real value='0.95'/>
-</field>
-<field name='item_with_z_shift.z_shift'>
-<integer value='-10'/>
-</field>
-<field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/bridge.png' x='0' y='0' clip_width='256' clip_height='46' spritepos='default bridge' auto_size='true' width='256' height='46' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
-</field>
-<field name='base_item.position.bottom'>
-<real value='3529'/>
-</field>
-<field name='base_item.position.left'>
-<real value='1408'/>
-</field>
-<field name='base_item.size.height'>
-<real value='50'/>
-</field>
-<field name='base_item.size.width'>
-<real value='256'/>
-</field>
-<field name='item_with_activable_sides.top_side_is_active'>
-<bool value='1'/>
-</field>
-</fields>
-    </item><!-- bear::block -->
-
-    <item class_name='bear::check_item_class_creator' fixed='false' id='script-plank-condition'>
-<fields>
-<field name='base_item.position.bottom'>
-<real value='3679'/>
-</field>
-<field name='base_item.position.left'>
-<real value='1408'/>
-</field>
-<field name='check_item_class_creator.class_name'>
-<string value='ptb::plee'/>
-</field>
-<field name='check_item_class_creator.collision_data'>
-<item_reference value='script-plank-trigger'/>
-</field>
-</fields>
-    </item><!-- bear::check_item_class_creator -->
 
     <item class_name='bear::block' fixed='true'>
 <fields>
@@ -42543,38 +42355,6 @@
 
     <item class_name='bear::block' fixed='true'>
 <fields>
-<field name='basic_renderable_item.gap.y'>
-<integer value='15'/>
-</field>
-<field name='item_with_friction.top_friction'>
-<real value='0.95'/>
-</field>
-<field name='item_with_z_shift.z_shift'>
-<integer value='-10'/>
-</field>
-<field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/bridge.png' x='0' y='0' clip_width='256' clip_height='46' spritepos='default bridge' auto_size='true' width='256' height='46' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
-</field>
-<field name='base_item.position.bottom'>
-<real value='3529'/>
-</field>
-<field name='base_item.position.left'>
-<real value='1664'/>
-</field>
-<field name='base_item.size.height'>
-<real value='50'/>
-</field>
-<field name='base_item.size.width'>
-<real value='256'/>
-</field>
-<field name='item_with_activable_sides.top_side_is_active'>
-<bool value='1'/>
-</field>
-</fields>
-    </item><!-- bear::block -->
-
-    <item class_name='bear::block' fixed='true'>
-<fields>
 <field name='item_with_friction.top_friction'>
 <real value='0.95'/>
 </field>
@@ -42592,41 +42372,6 @@
 </field>
 <field name='base_item.size.height'>
 <real value='128'/>
-</field>
-<field name='base_item.size.width'>
-<real value='256'/>
-</field>
-<field name='item_with_activable_sides.top_side_is_active'>
-<bool value='1'/>
-</field>
-</fields>
-    </item><!-- bear::block -->
-
-    <item class_name='bear::block' fixed='true'>
-<fields>
-<field name='basic_renderable_item.gap.y'>
-<integer value='15'/>
-</field>
-<field name='item_with_friction.top_friction'>
-<real value='0.95'/>
-</field>
-<field name='item_with_z_shift.z_shift'>
-<integer value='-10'/>
-</field>
-<field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/bridge.png' x='0' y='0' clip_width='256' clip_height='46' spritepos='default bridge' auto_size='true' width='256' height='46' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
-</field>
-<field name='base_item.position.bottom'>
-<real value='3529'/>
-</field>
-<field name='base_item.position.depth'>
-<integer value='1000'/>
-</field>
-<field name='base_item.position.left'>
-<real value='1920'/>
-</field>
-<field name='base_item.size.height'>
-<real value='50'/>
 </field>
 <field name='base_item.size.width'>
 <real value='256'/>

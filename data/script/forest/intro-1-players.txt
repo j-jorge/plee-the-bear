@@ -9,47 +9,31 @@
   player_2.do_action(move_right, 1.46);
 }
 
-+1.212 {
++0.712 {
   player_2.do_action(jump, 0.38);
 }
 
-+0.140 {
++0.040 {
   player_1.do_action(jump, 0.30);
 }
 
-+0.385 {
++0.340 {
   player_2.do_action(move_right, 1.325);
 }
 
-+0.19 {
-  player_2.do_action(jump, 0.16);
-}
-
-+0.005 {
++0.195 {
   player_1.do_action(move_right,0.68);
 }
 
-+0.225 {
++0.200 {
+  player_2.do_action(jump, 0.16);
+}
+
++0.025 {
   player_1.do_action(jump,0.15);
 }
 
-+0.375 {
-  player_1.do_action(move_right,0.35);
-}
-
-+0.255 {
-  player_1.do_action(move_right,0.09);
-}
-
-+0.225 {
-  player_1.do_action(move_right,0.06);
-}
-
-+0.019 {
-  player_2.do_action(move_left,0.18);
-}
-
-+1.365 {
++2.065 {
   player_1.do_action(roar,0.165);
 }
 
