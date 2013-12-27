@@ -3,6 +3,7 @@ sprite_sheet "plee" 1024 x 1024 margin 1
 walking "plee-walking.xcf.bz2"
 running "plee-running.xcf.bz2"
 falling "plee-falling.xcf.bz2"
+slap_and_run "plee-running-slapping.xcf.bz2"
 
 "idle" image_size * 0.38 with walking
   "right arm 0"
@@ -549,6 +550,185 @@ falling "plee-falling.xcf.bz2"
   "left leg back 5"
 
   "body 4"
+  "lights"
+  "left leg shadow"
+  ;
+
+/*----------------------------------------------------------------------------*/
+"slap and run 1" image_size * 0.38 with slap_and_run
+  "right arm 1"
+
+  "right leg middle"
+  "left leg 1"
+
+  "body 1"
+  "lights"
+  "left leg shadow"
+  ;
+
+"slap and run 2" image_size * 0.38 with slap_and_run
+  "right arm 2"
+
+  "right leg back 1"
+  "left leg 2"
+
+  "body 2"
+  "lights"
+  "left leg shadow"
+  ;
+
+"slap and run 3" image_size * 0.38 with slap_and_run
+  "right arm 3"
+
+  "right effect 1"
+
+  "left arm color"
+  "left arm 1"
+
+  "right leg back 2"
+  "left leg 3"
+
+  "body 3"
+  "lights"
+  "left leg shadow"
+  ;
+
+"slap and run 4" image_size * 0.38 with slap_and_run
+  "right arm 4"
+
+  "right effect 2"
+
+  "left arm color"
+  "left arm 2"
+
+  "right leg back 3"
+  "left leg 4"
+
+  "body 4"
+  "lights"
+  "left leg shadow"
+  ;
+
+"slap and run 5" image_size * 0.38 with slap_and_run
+  "right arm 5"
+
+  "right effect 3"
+
+  "left arm color"
+  "left arm 3"
+  "left effect color"
+  "left effect 1"
+
+  "right leg back 4"
+  "left leg 5"
+
+  "body 5"
+  "lights"
+  "left leg shadow"
+  ;
+
+"slap and run 6" image_size * 0.38 with slap_and_run
+  "right arm 6"
+
+  "right effect 4"
+
+  "left arm color"
+  "left arm 4"
+  "left effect color"
+  "left effect 2"
+
+  "right leg back 5"
+  "left leg front"
+
+  "body 5"
+  "lights"
+  "left leg shadow"
+  ;
+
+"slap and run 7" image_size * 0.38 with slap_and_run
+  "right arm 7"
+
+  "right effect 5"
+
+  "left arm color"
+  "left arm 5"
+  "left effect color"
+  "left effect 3"
+
+  "right leg back"
+  "left leg front"
+
+  "body 4"
+  "lights"
+  "left leg shadow"
+  ;
+
+"slap and run 8" image_size * 0.38 with slap_and_run
+  "right arm 8"
+
+  "right effect 6"
+
+  "left arm color"
+  "left arm 6"
+  "left effect color"
+  "left effect 4"
+
+  "right leg forward 1"
+  "left leg front 1"
+
+  "body 3"
+  "lights"
+  "left leg shadow"
+  ;
+
+"slap and run 9" image_size * 0.38 with slap_and_run
+  "right arm 9"
+
+  "right effect 7"
+
+  "left arm color"
+  "left arm 7"
+  "left effect color"
+  "left effect 5"
+
+  "right leg forward 2"
+  "left leg front 2"
+
+  "body 2"
+  "lights"
+  "left leg shadow"
+  ;
+
+"slap and run 10" image_size * 0.38 with slap_and_run
+  "right arm 10"
+
+  "right effect 8"
+
+  "left arm color"
+  "left arm 8"
+  "left effect color"
+  "left effect 6"
+
+  "right leg forward 3"
+  "left leg front 3"
+
+  "body 1"
+  "lights"
+  "left leg shadow"
+  ;
+
+"slap and run 11" image_size * 0.38 with slap_and_run
+  "right arm 11"
+
+  "left arm color"
+  "left arm 9"
+  "left effect color"
+  "left effect 7"
+
+  "right leg middle"
+  "left leg 1"
+
+  "body 1"
   "lights"
   "left leg shadow"
   ;
