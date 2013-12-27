@@ -47964,6 +47964,26 @@
 </fields>
     </item><!-- bear::block -->
 
+    <item class_name='ptb::wasp' fixed='false'>
+<fields>
+<field name='base_item.position.bottom'>
+<real value='4087'/>
+</field>
+<field name='base_item.position.left'>
+<real value='1298'/>
+</field>
+<field name='wasp.fly_duration'>
+<real value='1'/>
+</field>
+<field name='wasp.translation.x'>
+<real value='0'/>
+</field>
+<field name='wasp.translation.y'>
+<real value='100'/>
+</field>
+</fields>
+    </item><!-- ptb::wasp -->
+
     <item class_name='bear::block' fixed='true'>
 <fields>
 <field name='item_with_friction.top_friction'>
@@ -48021,6 +48041,40 @@
 </field>
 </fields>
     </item><!-- bear::block -->
+
+    <item class_name='ptb::wasp' fixed='false' id='wasp-intro'>
+<fields>
+<field name='base_item.position.bottom'>
+<real value='3891'/>
+</field>
+<field name='base_item.position.left'>
+<real value='1610'/>
+</field>
+<field name='wasp.fly_duration'>
+<real value='5'/>
+</field>
+<field name='wasp.translation.x'>
+<real value='0'/>
+</field>
+<field name='wasp.translation.y'>
+<real value='100'/>
+</field>
+</fields>
+    </item><!-- ptb::wasp -->
+
+    <item class_name='ptb::two_players_only' fixed='false'>
+<fields>
+<field name='base_item.position.bottom'>
+<real value='4002'/>
+</field>
+<field name='base_item.position.left'>
+<real value='1658'/>
+</field>
+<field name='two_players_only.items_killed_with_one_player'>
+<item_reference value='wasp-intro'/>
+</field>
+</fields>
+    </item><!-- ptb::two_players_only -->
 
     <item class_name='bear::block' fixed='true'>
 <fields>
