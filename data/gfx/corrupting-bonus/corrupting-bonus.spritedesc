@@ -1,0 +1,178 @@
+sprite_sheet "corrupting-bonus" 1024 x 1024 margin 0
+
+img "corrupting-bonus.xcf.bz2"
+
+"frame 1" image_size * 0.5 with img
+  "fg"
+  "tear"
+
+  "1"
+  ;
+
+"frame 2" image_size * 0.5 with img
+  "fg"
+  "tear"
+
+  "2"
+  ;
+
+"frame 3" image_size * 0.5 with img
+  "fg"
+  "tear"
+
+  "3"
+  ;
+
+"frame 4" image_size * 0.5 with img
+  "fg"
+  "tear"
+
+  "4"
+  ;
+
+"frame 5" image_size * 0.5 with img
+  "fg"
+  "tear"
+
+  "5"
+  ;
+
+"frame 6" image_size * 0.5 with img
+  "fg"
+  "tear"
+
+  "6"
+  ;
+
+"frame 7" image_size * 0.5 with img
+  "fg"
+  "tear"
+
+  "7"
+  ;
+
+"frame 8" image_size * 0.5 with img
+  "fg"
+  "tear"
+
+  "8"
+  ;
+
+"frame 9" image_size * 0.5 with img
+  "fg"
+  "tear"
+
+  "9"
+  ;
+
+"frame 10" image_size * 0.5 with img
+  "fg"
+  "tear"
+
+  "10"
+  ;
+
+"frame 11" image_size * 0.5 with img
+  "fg"
+  "tear"
+
+  "11"
+  ;
+
+"frame 12" image_size * 0.5 with img
+  "fg"
+  "tear"
+
+  "12"
+  ;
+
+"frame 13" image_size * 0.5 with img
+  "fg"
+  "tear"
+
+  "13"
+  ;
+
+"frame 14" image_size * 0.5 with img
+  "fg"
+  "tear"
+
+  "14"
+  ;
+
+"frame 15" image_size * 0.5 with img
+  "fg"
+  "tear"
+
+  "15"
+  ;
+
+"frame 16" image_size * 0.5 with img
+  "fg"
+  "tear"
+
+  "16"
+  ;
+
+"frame 17" image_size * 0.5 with img
+  "fg"
+  "tear"
+
+  "17"
+  ;
+
+"frame 18" image_size * 0.5 with img
+  "fg"
+  "tear"
+
+  "18"
+  ;
+
+"frame 19" image_size * 0.5 with img
+  "fg"
+  "tear"
+
+  "19"
+  ;
+
+"frame 20" image_size * 0.5 with img
+  "fg"
+  "tear"
+
+  "20"
+  ;
+
+"frame 21" image_size * 0.5 with img
+  "fg"
+  "tear"
+
+  "21"
+  ;
+
+"frame 22" image_size * 0.5 with img
+  "fg"
+  "tear"
+
+  "22"
+  ;
+
+"frame 23" image_size * 0.5 with img
+  "fg"
+  "tear"
+
+  "23"
+  ;
+
+"frame 24" image_size * 0.5 with img
+  "fg"
+  "tear"
+
+  "24"
+  ;
+
+"frame 25" image_size * 0.5 with img
+  "fg"
+  "tear"
+
+  "25"
+  ;

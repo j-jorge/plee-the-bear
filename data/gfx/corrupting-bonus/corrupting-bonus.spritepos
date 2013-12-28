@@ -1,11 +1,25 @@
-# The format of the lines is
-# picture: x y width height
-
-bonus 1:   0 0 64 64
-bonus 2:  64 0 64 64
-bonus 3: 128 0 64 64
-bonus 4: 192 0 64 64
-bonus 5:   0 64 64 64
-bonus 6:  64 64 64 64
-bonus 7: 128 64 64 64
-bonus 8: 192 64 64 64
+frame 1: 0 0 64 64
+frame 2: 64 0 64 64
+frame 3: 128 0 64 64
+frame 4: 192 0 64 64
+frame 5: 256 0 64 64
+frame 6: 320 0 64 64
+frame 7: 384 0 64 64
+frame 8: 448 0 64 64
+frame 9: 512 0 64 64
+frame 10: 576 0 64 64
+frame 11: 640 0 64 64
+frame 12: 704 0 64 64
+frame 13: 768 0 64 64
+frame 14: 832 0 64 64
+frame 15: 896 0 64 64
+frame 16: 960 0 64 64
+frame 17: 0 64 64 64
+frame 18: 64 64 64 64
+frame 19: 128 64 64 64
+frame 20: 192 64 64 64
+frame 21: 256 64 64 64
+frame 22: 320 64 64 64
+frame 23: 384 64 64 64
+frame 24: 448 64 64 64
+frame 25: 512 64 64 64
