@@ -655,7 +655,10 @@ void ptb::big_rabbit::create_snout_carrot()
       bear::engine::base_item* new_carrot = create_carrot(i);
 
       const bear::universe::position_type pos
-        ( new_carrot->get_center_of_mass() );
+        ( new_carrot->get_center_of_mass()
+          + bear::universe::position_type( 0, 5 ) );
+      new_carrot->set_center_of_mass( pos );
+
       const bear::universe::position_type ref
         ( m_clingable->get_center_of_mass() );
 
