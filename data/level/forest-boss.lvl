@@ -3108,10 +3108,10 @@
     <item class_name='ptb::god' fixed='false' id='god'>
 <fields>
 <field name='base_item.position.bottom'>
-<real value='638'/>
+<real value='640'/>
 </field>
 <field name='base_item.position.depth'>
-<integer value='30'/>
+<integer value='-100'/>
 </field>
 <field name='base_item.position.left'>
 <real value='1914'/>
@@ -3136,6 +3136,29 @@
 </fields>
     </item><!-- bear::add_script_actor -->
 
+    <item class_name='bear::forced_tracking_creator' fixed='false' id='gossip-movement'>
+<fields>
+<field name='base_item.position.bottom'>
+<real value='708'/>
+</field>
+<field name='base_item.position.left'>
+<real value='1987'/>
+</field>
+<field name='forced_movement_creator_with_reference.target'>
+<item_reference value='god'/>
+</field>
+<field name='forced_tracking_creator.distance.x'>
+<real value='125'/>
+</field>
+<field name='forced_tracking_creator.distance.y'>
+<real value='150'/>
+</field>
+<field name='forced_tracking_creator.duration'>
+<real value='10'/>
+</field>
+</fields>
+    </item><!-- bear::forced_tracking_creator -->
+
     <item class_name='bear::applied_forced_movement' fixed='false' id='god-mvt'>
 <fields>
 <field name='base_item.position.bottom'>
@@ -3151,12 +3174,29 @@
 <bool value='1'/>
 </field>
 <field name='forced_movement_applicator.movement'>
-<item_reference value='translation x=650'/>
+<item_reference value='god-stork-forward'/>
 </field>
 </fields>
     </item><!-- bear::applied_forced_movement -->
 
-    <item class_name='bear::forced_translation_creator' fixed='false' id='translation x=650'>
+    <item class_name='bear::applied_forced_movement' fixed='false'>
+<fields>
+<field name='base_item.position.bottom'>
+<real value='680'/>
+</field>
+<field name='base_item.position.left'>
+<real value='2032'/>
+</field>
+<field name='forced_movement_applicator.actor'>
+<item_reference value='gossip'/>
+</field>
+<field name='forced_movement_applicator.movement'>
+<item_reference value='gossip-movement'/>
+</field>
+</fields>
+    </item><!-- bear::applied_forced_movement -->
+
+    <item class_name='bear::forced_goto_creator' fixed='false' id='god-stork-forward'>
 <fields>
 <field name='base_item.position.bottom'>
 <real value='796'/>
@@ -3164,14 +3204,20 @@
 <field name='base_item.position.left'>
 <real value='2036'/>
 </field>
-<field name='forced_translation_creator.duration'>
-<real value='7.7'/>
+<field name='forced_goto_creator.acceleration_time'>
+<real value='0'/>
 </field>
-<field name='forced_translation_creator.speed.x'>
-<real value='550'/>
+<field name='forced_goto_creator.duration'>
+<real value='9.32'/>
+</field>
+<field name='forced_goto_creator.length.x'>
+<real value='4500'/>
+</field>
+<field name='forced_goto_creator.length.y'>
+<real value='0'/>
 </field>
 </fields>
-    </item><!-- bear::forced_translation_creator -->
+    </item><!-- bear::forced_goto_creator -->
 
     <item class_name='bear::block' fixed='true'>
 <fields>
@@ -3405,7 +3451,7 @@
 </fields>
     </item><!-- bear::block -->
 
-    <item class_name='ptb::gossipy_item' fixed='true' id='gossip'>
+    <item class_name='ptb::gossipy_item' fixed='false' id='gossip'>
 <fields>
 <field name='item_that_speaks.persistent_balloon'>
 <bool value='1'/>
@@ -3694,7 +3740,7 @@
     <item class_name='bear::reference_item' fixed='true' id='carrot_positions-1'>
 <fields>
 <field name='base_item.position.bottom'>
-<real value='623'/>
+<real value='628'/>
 </field>
 <field name='base_item.position.left'>
 <real value='5266'/>
@@ -3705,7 +3751,7 @@
     <item class_name='bear::reference_item' fixed='true' id='carrot_positions-2'>
 <fields>
 <field name='base_item.position.bottom'>
-<real value='623'/>
+<real value='628'/>
 </field>
 <field name='base_item.position.left'>
 <real value='5326'/>
@@ -3789,7 +3835,7 @@
     <item class_name='bear::reference_item' fixed='true' id='carrot_positions-3'>
 <fields>
 <field name='base_item.position.bottom'>
-<real value='623'/>
+<real value='628'/>
 </field>
 <field name='base_item.position.left'>
 <real value='5386'/>
@@ -3800,7 +3846,7 @@
     <item class_name='bear::reference_item' fixed='true' id='carrot_positions-4'>
 <fields>
 <field name='base_item.position.bottom'>
-<real value='623'/>
+<real value='628'/>
 </field>
 <field name='base_item.position.left'>
 <real value='5446'/>
@@ -3831,7 +3877,7 @@
     <item class_name='bear::reference_item' fixed='true' id='carrot_positions-5'>
 <fields>
 <field name='base_item.position.bottom'>
-<real value='623'/>
+<real value='628'/>
 </field>
 <field name='base_item.position.left'>
 <real value='5506'/>
@@ -3842,7 +3888,7 @@
     <item class_name='bear::reference_item' fixed='true' id='carrot_positions-6'>
 <fields>
 <field name='base_item.position.bottom'>
-<real value='623'/>
+<real value='628'/>
 </field>
 <field name='base_item.position.left'>
 <real value='5566'/>
@@ -3853,7 +3899,10 @@
     <item class_name='ptb::god' fixed='false' id='god-2'>
 <fields>
 <field name='base_item.position.bottom'>
-<real value='638'/>
+<real value='640'/>
+</field>
+<field name='base_item.position.depth'>
+<integer value='-10'/>
 </field>
 <field name='base_item.position.left'>
 <real value='5612'/>
@@ -3864,7 +3913,7 @@
     <item class_name='bear::reference_item' fixed='true' id='carrot_positions-7'>
 <fields>
 <field name='base_item.position.bottom'>
-<real value='623'/>
+<real value='628'/>
 </field>
 <field name='base_item.position.left'>
 <real value='5626'/>
@@ -3904,7 +3953,7 @@
     <item class_name='bear::reference_item' fixed='true' id='carrot_positions-8'>
 <fields>
 <field name='base_item.position.bottom'>
-<real value='623'/>
+<real value='628'/>
 </field>
 <field name='base_item.position.left'>
 <real value='5686'/>
@@ -3915,7 +3964,7 @@
     <item class_name='bear::reference_item' fixed='true' id='carrot_positions-9'>
 <fields>
 <field name='base_item.position.bottom'>
-<real value='623'/>
+<real value='628'/>
 </field>
 <field name='base_item.position.left'>
 <real value='5746'/>
@@ -3926,7 +3975,7 @@
     <item class_name='bear::reference_item' fixed='true' id='carrot_positions-10'>
 <fields>
 <field name='base_item.position.bottom'>
-<real value='623'/>
+<real value='628'/>
 </field>
 <field name='base_item.position.left'>
 <real value='5806'/>
@@ -3937,7 +3986,7 @@
     <item class_name='bear::reference_item' fixed='true' id='carrot_positions-11'>
 <fields>
 <field name='base_item.position.bottom'>
-<real value='623'/>
+<real value='628'/>
 </field>
 <field name='base_item.position.left'>
 <real value='5866'/>
@@ -3977,7 +4026,7 @@
     <item class_name='bear::reference_item' fixed='true' id='carrot_positions-12'>
 <fields>
 <field name='base_item.position.bottom'>
-<real value='623'/>
+<real value='628'/>
 </field>
 <field name='base_item.position.left'>
 <real value='5926'/>
@@ -3988,7 +4037,7 @@
     <item class_name='bear::reference_item' fixed='true' id='carrot_positions-13'>
 <fields>
 <field name='base_item.position.bottom'>
-<real value='623'/>
+<real value='628'/>
 </field>
 <field name='base_item.position.left'>
 <real value='5986'/>
@@ -3999,7 +4048,7 @@
     <item class_name='bear::reference_item' fixed='true' id='carrot_positions-14'>
 <fields>
 <field name='base_item.position.bottom'>
-<real value='623'/>
+<real value='628'/>
 </field>
 <field name='base_item.position.left'>
 <real value='6046'/>
@@ -4010,7 +4059,7 @@
     <item class_name='bear::reference_item' fixed='true' id='carrot_positions-15'>
 <fields>
 <field name='base_item.position.bottom'>
-<real value='623'/>
+<real value='628'/>
 </field>
 <field name='base_item.position.left'>
 <real value='6106'/>
@@ -4050,7 +4099,7 @@
     <item class_name='bear::reference_item' fixed='true' id='carrot_positions-16'>
 <fields>
 <field name='base_item.position.bottom'>
-<real value='623'/>
+<real value='628'/>
 </field>
 <field name='base_item.position.left'>
 <real value='6166'/>
@@ -4072,7 +4121,7 @@
     <item class_name='bear::reference_item' fixed='true' id='carrot_positions-17'>
 <fields>
 <field name='base_item.position.bottom'>
-<real value='623'/>
+<real value='628'/>
 </field>
 <field name='base_item.position.left'>
 <real value='6226'/>
@@ -4083,7 +4132,7 @@
     <item class_name='bear::reference_item' fixed='true' id='carrot_positions-18'>
 <fields>
 <field name='base_item.position.bottom'>
-<real value='623'/>
+<real value='628'/>
 </field>
 <field name='base_item.position.left'>
 <real value='6286'/>
@@ -4108,7 +4157,7 @@
     <item class_name='bear::reference_item' fixed='true' id='carrot_positions-19'>
 <fields>
 <field name='base_item.position.bottom'>
-<real value='623'/>
+<real value='628'/>
 </field>
 <field name='base_item.position.left'>
 <real value='6346'/>
@@ -4165,7 +4214,7 @@
     <item class_name='bear::reference_item' fixed='true' id='carrot_positions-20'>
 <fields>
 <field name='base_item.position.bottom'>
-<real value='623'/>
+<real value='628'/>
 </field>
 <field name='base_item.position.left'>
 <real value='6406'/>
@@ -4176,7 +4225,7 @@
     <item class_name='bear::reference_item' fixed='true' id='carrot_positions-21'>
 <fields>
 <field name='base_item.position.bottom'>
-<real value='623'/>
+<real value='628'/>
 </field>
 <field name='base_item.position.left'>
 <real value='6466'/>
@@ -4205,7 +4254,7 @@
     <item class_name='bear::reference_item' fixed='true' id='carrot_positions-22'>
 <fields>
 <field name='base_item.position.bottom'>
-<real value='623'/>
+<real value='628'/>
 </field>
 <field name='base_item.position.left'>
 <real value='6526'/>
@@ -4237,7 +4286,7 @@
     <item class_name='bear::reference_item' fixed='true' id='carrot_positions-23'>
 <fields>
 <field name='base_item.position.bottom'>
-<real value='623'/>
+<real value='628'/>
 </field>
 <field name='base_item.position.left'>
 <real value='6586'/>
@@ -4302,7 +4351,7 @@
     <item class_name='bear::reference_item' fixed='true' id='carrot_positions-24'>
 <fields>
 <field name='base_item.position.bottom'>
-<real value='623'/>
+<real value='628'/>
 </field>
 <field name='base_item.position.left'>
 <real value='6646'/>
@@ -4342,7 +4391,7 @@
     <item class_name='bear::reference_item' fixed='true' id='carrot_positions-25'>
 <fields>
 <field name='base_item.position.bottom'>
-<real value='623'/>
+<real value='628'/>
 </field>
 <field name='base_item.position.left'>
 <real value='6706'/>
@@ -4353,7 +4402,7 @@
     <item class_name='bear::reference_item' fixed='true' id='carrot_positions-26'>
 <fields>
 <field name='base_item.position.bottom'>
-<real value='623'/>
+<real value='628'/>
 </field>
 <field name='base_item.position.left'>
 <real value='6766'/>
