@@ -107,9 +107,9 @@
   god_2.talk("/Throw him the tears you've collected!");
 
   player_1_instance.add_corrupting_item
-    (90, 0.5, "animation/forest/boss/corruption.canim");
+    (90, 0.5, "animation/corrupting-bonus.canim");
   player_2_instance.add_corrupting_item
-    (90, 0.5, "animation/forest/boss/corruption.canim");
+    (90, 0.5, "animation/corrupting-bonus.canim");
   
   player_1_instance.disable_all_actions();
   player_2_instance.disable_all_actions();
