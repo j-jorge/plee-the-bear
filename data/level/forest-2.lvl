@@ -42935,7 +42935,7 @@
 <real value='5378'/>
 </field>
 <field name='base_item.position.depth'>
-<integer value='-100'/>
+<integer value='-200'/>
 </field>
 <field name='base_item.position.left'>
 <real value='27901'/>
