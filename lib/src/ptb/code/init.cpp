@@ -78,10 +78,6 @@ void load_mini_game()
  */
 void init_plee_the_bear()
 {
-  bindtextdomain( "plee-the-bear", "/usr/share/locale" );
-  bind_textdomain_codeset( "plee-the-bear", "ISO-8859-15" );
-  textdomain( "plee-the-bear" );
-
   bear::engine::game::get_instance().set_translator
     ( bear::engine::gettext_translator( "plee-the-bear" ) );
 
