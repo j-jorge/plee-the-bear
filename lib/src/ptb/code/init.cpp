@@ -18,6 +18,7 @@
 #include "ptb/controller_config.hpp"
 #include "ptb/game_variables.hpp"
 #include "engine/game.hpp"
+#include "engine/game_initializer.hpp"
 #include "engine/system/game_filesystem.hpp"
 #include "engine/variable/variable.hpp"
 #include "engine/resource_pool.hpp"
@@ -30,6 +31,8 @@
 #include <claw/configuration_file.hpp>
 #include <sstream>
 #include <boost/preprocessor/stringize.hpp>
+
+BEAR_ENGINE_GAME_INIT_FUNCTION( init_plee_the_bear )
 
 /*----------------------------------------------------------------------------*/
 /**

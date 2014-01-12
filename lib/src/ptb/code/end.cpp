@@ -12,9 +12,12 @@
  * \author Sébastien Angibaud
  */
 #include "ptb/end.hpp"
+
 #include "ptb/defines.hpp"
 #include "ptb/game_variables.hpp"
+
 #include "engine/game.hpp"
+#include "engine/game_initializer.hpp"
 #include "engine/system/game_filesystem.hpp"
 #include "engine/resource_pool.hpp"
 #include "engine/variable/variable.hpp"
@@ -25,6 +28,7 @@
 #include <claw/configuration_file.hpp>
 #include <sstream>
 
+BEAR_ENGINE_GAME_END_FUNCTION( end_plee_the_bear )
 
 /*----------------------------------------------------------------------------*/
 /**
