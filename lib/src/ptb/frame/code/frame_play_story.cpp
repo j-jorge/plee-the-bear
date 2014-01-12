@@ -306,15 +306,15 @@ void ptb::frame_play_story::create_player_component(player_status& p)
   p.component->insert( p.energy );
 
   p.score_text = new bear::gui::static_text(get_font());
-  p.score_text->set_auto_size(false);
+  p.score_text->set_auto_size(true);
   p.component->insert( p.score_text );
 
   p.lives_text = new bear::gui::static_text(get_font());
-  p.lives_text->set_auto_size(false);
+  p.lives_text->set_auto_size(true);
   p.component->insert( p.lives_text );
 
   p.stone_text = new bear::gui::static_text(get_font());
-  p.stone_text->set_auto_size(false);
+  p.stone_text->set_auto_size(true);
   p.component->insert( p.stone_text );
 
   bear::visual::sprite spr
