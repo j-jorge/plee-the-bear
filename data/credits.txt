@@ -10,50 +10,64 @@
 #
 # where each component take its value in [0,1].
 # 
-#font font/fixed-10x20.fnt 12
+#font font/comic.ttf 32
 #color 1 0 0.25
 Plee the Bear
 (demo)
 
+#font font/comic.ttf 32
 #color 1 0.75 0
 A game by
+#font font/AndikaBasic.ttf 20
 #color 1 0.5 0
 Sébastien Angibaud
 Julien Jorge
 
+#font font/comic.ttf 32
 #color 1 0.75 0
 Programming
+#font font/AndikaBasic.ttf 20
 #color 1 0.5 0
 Sébastien Angibaud
 Julien Jorge
 
+#font font/comic.ttf 32
 #color 1 0.75 0
 Graphism
+#font font/AndikaBasic.ttf 20
 #color 1 0.5 0
 Raphaël Giudici
 Julien Jorge
 Julien Lassalle
 
+#font font/comic.ttf 32
 #color 1 0.75 0
 Music
+#font font/AndikaBasic.ttf 20
 #color 1 0.5 0
 Julien Jorge
 Florian Massuyeau
 
+#font font/comic.ttf 32
 #color 1 0.75 0
 Sound
+#font font/AndikaBasic.ttf 20
 #color 1 0.5 0
 Sébastien Angibaud
 Philip Bradbury
 Julien Jorge
 
+#font font/comic.ttf 32
 #color 1 0.75 0
 English Language Editor
+#font font/AndikaBasic.ttf 20
 #color 1 0.5 0
 Kiera Whalen
 
+#font font/comic.ttf 32
 #color 1 0.75 0
 Translations
+#font font/AndikaBasic.ttf 20
 #color 1 0.5 0
 Sébastien Angibaud
 Julien Jorge
@@ -62,6 +76,7 @@ Karl Ove Hufthammer
 
 
 
+#font font/comic.ttf 32
 #color 1 1 0.75
 Thank you for playing!
 

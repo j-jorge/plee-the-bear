@@ -1,15 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<level name='End' width='800' height='600' music='music/quick-end.ogg'>
-  <layer class_name='action_layer' name='' width='800' height='600' fit_level='1'>
+<level name='End' width='1280' height='720' music='music/quick-end.ogg'>
+  <layer class_name='action_layer' name='' width='1280' height='720' fit_level='1' tag=''>
 
 <items>
     <item class_name='bear::camera' fixed='false'>
 <fields>
+<field name='base_item.position.left'>
+<real value='0'/>
+</field>
 <field name='base_item.size.height'>
-<real value='600'/>
+<real value='720'/>
 </field>
 <field name='base_item.size.width'>
-<real value='800'/>
+<real value='1280'/>
 </field>
 </fields>
     </item><!-- bear::camera -->
@@ -29,7 +32,7 @@
 <real value='23'/>
 </field>
 <field name='base_item.size.width'>
-<real value='779'/>
+<real value='1252'/>
 </field>
 <field name='item_with_activable_sides.top_side_is_active'>
 <bool value='1'/>
@@ -60,16 +63,16 @@
     <item class_name='bear::rolling_credits' fixed='true'>
 <fields>
 <field name='base_item.position.bottom'>
-<real value='100'/>
+<real value='64'/>
 </field>
 <field name='base_item.position.left'>
-<real value='100'/>
+<real value='345.5'/>
 </field>
 <field name='base_item.size.height'>
-<real value='400'/>
+<real value='626'/>
 </field>
 <field name='base_item.size.width'>
-<real value='600'/>
+<real value='589'/>
 </field>
 <field name='rolling_credits.credits'>
 <string value='credits.txt'/>
@@ -89,7 +92,7 @@
 <real value='27'/>
 </field>
 <field name='base_item.position.left'>
-<real value='485'/>
+<real value='1041'/>
 </field>
 <field name='basic_renderable_item.mirror'>
 <bool value='1'/>
