@@ -86,7 +86,7 @@ void ptb::on_players_activator::on_all_players
  * \param d (out) A list to which are added such items.
  */
 void ptb::on_players_activator::get_dependent_items
-( std::list<bear::universe::physical_item*>& d ) const
+( bear::universe::physical_item::item_list& d ) const
 {
   super::get_dependent_items(d);
 

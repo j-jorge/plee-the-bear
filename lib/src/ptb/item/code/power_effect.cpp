@@ -98,7 +98,7 @@ void ptb::power_effect::set_player_index( unsigned int i )
  * \param d (out) The items.
  */
 void ptb::power_effect::get_dependent_items
-( std::list<bear::universe::physical_item*>& d ) const
+( bear::universe::physical_item::item_list& d ) const
 {
   if ( m_air != NULL )
     d.push_back(m_air);

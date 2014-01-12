@@ -131,15 +131,16 @@ void ptb::clingable::collision
  * \brief Get the items concerned by a progress/move of this one.
  * \param d (out) A list to which are added such items.
  */
-void ptb::clingable::get_dependent_items( std::list<physical_item*>& d ) const
+void ptb::clingable::get_dependent_items
+( bear::universe::physical_item::item_list& d ) const
 {
   item_list::const_iterator it;
 
   for( it=m_list_items.begin(); it!=m_list_items.end(); ++it )
     if ( *it != NULL )
-      d.push_front( it->get() );
+      d.push_back( it->get() );
 
   for( it=m_old_items.begin(); it!=m_old_items.end(); ++it )
     if ( *it != NULL )
-      d.push_front( it->get() );
+      d.push_back( it->get() );
 } // clingable::get_dependent_items()

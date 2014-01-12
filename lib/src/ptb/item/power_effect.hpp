@@ -54,7 +54,7 @@ namespace ptb
     void set_player_index( unsigned int i );
 
     virtual void get_dependent_items
-    ( std::list<bear::universe::physical_item*>& d ) const;
+    ( bear::universe::physical_item::item_list& d ) const;
 
   private:
     void connect( const boost::signals::connection& c );

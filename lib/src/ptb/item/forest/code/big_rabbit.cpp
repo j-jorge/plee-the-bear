@@ -179,10 +179,11 @@ void ptb::big_rabbit::collision
  * \brief Get the items concerned by a progress/move of this one.
  * \param d (out) A list to which are added such items.
  */
-void ptb::big_rabbit::get_dependent_items( std::list<physical_item*>& d ) const
+void ptb::big_rabbit::get_dependent_items
+( bear::universe::physical_item::item_list& d ) const
 {
   super::get_dependent_items(d);
-  d.push_front(m_clingable);
+  d.push_back(m_clingable);
 } // big_rabbit::get_dependent_items()
 
 /*----------------------------------------------------------------------------*/

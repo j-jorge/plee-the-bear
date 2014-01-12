@@ -103,12 +103,13 @@ unsigned int ptb::catapult::get_state() const
  * \brief Get the items concerned by a progress/move of this one.
  * \param d (out) A list to which are added such items.
  */
-void ptb::catapult::get_dependent_items( std::list<physical_item*>& d ) const
+void ptb::catapult::get_dependent_items
+( bear::universe::physical_item::item_list& d ) const
 {
   super::get_dependent_items(d);
   
   if ( m_player != NULL ) 
-    d.push_front
+    d.push_back
       ((bear::universe::physical_item*)m_player.get_player_instance());
 } // catapult::get_dependent_items()
 

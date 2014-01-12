@@ -97,7 +97,8 @@ namespace ptb
 
   private:
     void search_player();
-    void get_dependent_items( std::list<physical_item*>& d ) const;
+    void get_dependent_items
+    ( bear::universe::physical_item::item_list& d ) const;
 
     static void init_exported_methods();
 

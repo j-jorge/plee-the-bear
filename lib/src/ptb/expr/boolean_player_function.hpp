@@ -45,6 +45,8 @@ namespace ptb
     base_boolean_expression* clone() const;
     bool evaluate() const;
 
+    std::string formatted_string() const;
+
     void set_function( FunctionType m );
     void set_player_index( unsigned int i );
     void set_level_globals( const bear::engine::level_globals* g );

@@ -13,6 +13,9 @@
  */
 #include "ptb/util/player_util.hpp"
 
+#include <typeinfo>
+#include <sstream>
+
 /*----------------------------------------------------------------------------*/
 /**
  * \brief Constructor.
@@ -74,6 +77,20 @@ bool ptb::boolean_player_function<FunctionType>::evaluate() const
       return false;
     }
 } // boolean_player_function::evaluate()
+
+/*----------------------------------------------------------------------------*/
+/**
+ * \brief Gets a formatted and human readable representation of this expression.
+ */
+template<typename FunctionType>
+std::string ptb::boolean_player_function<FunctionType>::formatted_string() const
+{
+  std::ostringstream oss;
+  oss << typeid(m_function).name()
+      << "( player#" << m_player_index << " )";
+
+  return oss.str();
+} // boolean_player_function::formatted_string()
 
 /*----------------------------------------------------------------------------*/
 /**

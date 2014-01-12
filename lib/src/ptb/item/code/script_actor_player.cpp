@@ -308,12 +308,12 @@ void ptb::script_actor_player::search_player()
  * \param d (out) A list to which are added such items.
  */
 void ptb::script_actor_player::get_dependent_items
-( std::list<physical_item*>& d ) const
+( bear::universe::physical_item::item_list& d ) const
 {
   super::get_dependent_items(d);
 
   if ( m_player != (player*)NULL )
-    d.push_front( m_player.get() );
+    d.push_back( m_player.get() );
 } // script_actor_player::get_dependent_items()
 
 /*----------------------------------------------------------------------------*/

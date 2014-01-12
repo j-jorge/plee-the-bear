@@ -71,7 +71,8 @@ namespace ptb
     unsigned int get_state() const;
 
   protected:
-    void get_dependent_items( std::list<physical_item*>& d ) const;
+    void get_dependent_items
+    ( bear::universe::physical_item::item_list& d ) const;
 
   private:
     void progress_idle( bear::universe::time_type elapsed_time );

@@ -60,7 +60,7 @@ namespace ptb
 
   private:
     void get_dependent_items
-    ( std::list<bear::universe::physical_item*>& d ) const;
+    ( bear::universe::physical_item::item_list& d ) const;
 
   private:
     /** \brief The items to activate. */

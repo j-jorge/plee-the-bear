@@ -79,7 +79,8 @@ namespace ptb
     void collision
     ( bear::engine::base_item& that, bear::universe::collision_info& info );
 
-    void get_dependent_items( std::list<physical_item*>& d ) const;
+    void get_dependent_items
+    ( bear::universe::physical_item::item_list& d ) const;
 
     virtual void inform_no_energy(const monster& attacker);
     virtual std::string get_bonus_picture_filename() const;

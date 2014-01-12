@@ -55,7 +55,8 @@ namespace ptb
     void collision
     ( bear::engine::base_item& that, bear::universe::collision_info& info );
 
-    void get_dependent_items( std::list<physical_item*>& d ) const;
+    void get_dependent_items
+    ( bear::universe::physical_item::item_list& d ) const;
 
   private:
     /** \brief The list of items that are clung. */
