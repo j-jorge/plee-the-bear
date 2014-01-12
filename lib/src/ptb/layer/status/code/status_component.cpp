@@ -193,20 +193,16 @@ void ptb::status_component::update_inactive_position()
   
   if ( m_auto_disappear )
     {
+      const double margin(5);
+
       if ( m_side == bear::universe::zone::middle_left_zone ) 
-        {
-          m_inactive_position.x = 0;
-          m_inactive_position.x -= width();
-        }
+          m_inactive_position.x = -width() - margin;
       else if ( m_side == bear::universe::zone::middle_right_zone )
-        m_inactive_position.x = get_layer_size().x + width();
+        m_inactive_position.x = get_layer_size().x + width() + margin;
       else if ( m_side == bear::universe::zone::bottom_zone )
-        {
-          m_inactive_position.y = 0;
-          m_inactive_position.y -= height();
-        }
+          m_inactive_position.y = -height() - margin;
       else if ( m_side == bear::universe::zone::top_zone )
-        m_inactive_position.y = get_layer_size().y + height();
+        m_inactive_position.y = get_layer_size().y + height() + margin;
     }
 } // status_component::update_inactive_position()
 
