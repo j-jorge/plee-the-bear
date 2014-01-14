@@ -476,6 +476,12 @@ namespace ptb
     /** \brief Indicates if Player wants to move to the left. */
     bool m_move_left;
 
+    /** \brief Indicates that we must force right orientation. */
+    bool m_force_orientation_right;
+
+    /** \brief Indicates that we must force left orientation. */
+    bool m_force_orientation_left;
+
     /** \brief The current force in y axis when Player jumps. */
     bear::universe::coordinate_type m_jump_force;
 

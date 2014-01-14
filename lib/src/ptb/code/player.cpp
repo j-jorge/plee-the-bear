@@ -133,7 +133,8 @@ ptb::player::player( const player_physics& physics )
     m_heat_gauge(s_max_heat_gauge), m_status_look_upward(false),
     m_status_crouch(false), m_can_cling(false),
     m_cling_orientation(false), m_halo_animation(NULL),
-    m_halo_hand_animation(NULL), m_move_right(false), m_move_left(false),
+    m_halo_hand_animation(NULL), m_move_right(false), m_move_left(false), 
+    m_force_orientation_right(false), m_force_orientation_left(false),
     m_index(0), m_nb_bottom_contact(0),
     m_controller_number(0),
     m_air_float(false), m_injured_orientation(true),
@@ -165,6 +166,8 @@ ptb::player::player( const player& p )
     m_cling_orientation(p.m_cling_orientation),
     m_halo_animation(NULL), m_halo_hand_animation(NULL),
     m_move_right(p. m_move_right), m_move_left(p.m_move_left),
+    m_force_orientation_right(p. m_force_orientation_right), 
+    m_force_orientation_left(p.m_force_orientation_left),
     m_index(0), m_nb_bottom_contact(0), m_controller_number(0),
     m_injured_orientation(true),
     m_hot_spot_position(0, 0),
@@ -323,6 +326,8 @@ void ptb::player::progress( bear::universe::time_type elapsed_time )
 
   m_move_right = false;
   m_move_left = false;
+  m_force_orientation_right = false;
+  m_force_orientation_left = false;
 } // player::progress()
 
 /*----------------------------------------------------------------------------*/
@@ -1246,6 +1251,8 @@ void ptb::player::apply_move_right()
       m_move_right = true;
       add_internal_force( bear::universe::force_type( get_move_force(), 0 ) );
     }
+  else
+    m_force_orientation_right = true;
 } // player::apply_move_right()
 
 /*----------------------------------------------------------------------------*/
@@ -1259,6 +1266,8 @@ void ptb::player::apply_move_left()
       m_move_left = true;
       add_internal_force( bear::universe::force_type( -get_move_force(), 0 ) );
     }
+  else
+    m_force_orientation_left = true;
 } // player::apply_move_left()
 
 /*----------------------------------------------------------------------------*/
@@ -2932,7 +2941,11 @@ void ptb::player::update_orientation()
   if ( get_current_action_name() == "captive" )
     return;
 
-  if ( !has_bottom_contact() )
+  if ( m_force_orientation_right )
+    get_rendering_attributes().mirror(false);
+  else if ( m_force_orientation_left )
+    get_rendering_attributes().mirror(true);
+  else  if ( !has_bottom_contact() )
     {
       if ( m_move_right )
         get_rendering_attributes().mirror(false);
