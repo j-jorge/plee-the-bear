@@ -1,21 +1,52 @@
-0 player_1.control_player();
-0 player_1.authorize_action(jump);
-0 player_1.authorize_action(move_right);
-0 player_1.authorize_action(move_left);
-0 player_1.refuse_action(change_object);
-0.1 player_1.do_action(move_right,1);
-0.95 player_1.do_action(jump,0.1);
-1.5 player_1.do_action(move_right,0.6);
-2.1 player_1.do_action(slap,0.2);
-3 player_1.do_action(move_left,0.4);
-3.35 player_1.do_action(slap,0.2);
-4 player_1.talk("/The stones will bounces of surfaces with the water power.");
-4 player_1.do_action(move_left,0.23);
-4.3 player_1.do_action(jump,0.4);
-4.6 player_1.do_action(move_right,0.1);
-4.7 player_1.do_action(roar,0.1);
-4.8 player_1.refuse_action(jump);
-4.8 player_1.refuse_action(move_right);
-4.8 player_1.refuse_action(move_left);
-4.8 player_1.release_player();
-4.8 script.end();
+0 {
+	player_1.control_player();
+	player_1.authorize_action(jump);
+	player_1.authorize_action(move_right);
+	player_1.authorize_action(move_left);
+	player_1.refuse_action(change_object);
+}
+
++0.1 {
+	player_1.do_action(move_right,0.8);
+}
+
++0.2 {
+	player_1.do_action(jump,0.1);
+}
+
++0.8 {
+	player_1.do_action(slap,0.2);
+}
+
++0.9 {
+	player_1.do_action(move_left,0.4);
+}
+
++0.35 {
+	player_1.do_action(slap,0.2);
+}
+
++0.65 {
+	player_1.talk("/The stones will bounces of surfaces with the water power.");
+	player_1.do_action(move_left,0.23);
+}
+
++1.2 {
+	player_1.do_action(jump,0.4);
+}
+
++0.3 {
+	player_1.do_action(move_right,0.1);
+}
+
++0.1 {
+	player_1.do_action(roar,0.1);
+}
+
++0.1 {
+	player_1.refuse_action(jump);
+	player_1.refuse_action(move_right);
+	player_1.refuse_action(move_left);
+	player_1.release_player();
+	script.end();
+}

@@ -1,18 +1,52 @@
-0 player_1.control_player();
-0 player_1.authorize_action(jump);
-0 player_1.authorize_action(move_right);
-0 player_1.authorize_action(move_left);
-0.1 player_1.do_action(move_right,0.6);
-0.8 player_1.do_action(jump,0.1);
-0.9 player_1.do_action(move_right,2.4);
-1.8 player_1.do_action(slap,0.2);
-2.3 player_1.do_action(move_right,0.4);
-2.9 player_1.do_action(move_right,0.33);
-3.6 player_1.do_action(move_left,0.32);
-7.2 player_1.do_action(jump,0.4);
-7.8 player_1.do_action(roar,0.1);
-7.9 player_1.refuse_action(jump);
-7.9 player_1.refuse_action(move_right);
-7.9 player_1.refuse_action(move_left);
-7.9 player_1.release_player();
-7.9 script.end();
+0 {
+	player_1.control_player();
+	player_1.authorize_action(jump);
+	player_1.authorize_action(move_right);
+	player_1.authorize_action(move_left);
+}
+
++0.1 {
+	player_1.do_action(move_right,0.6);
+}
+
++0.7 {
+	player_1.do_action(jump,0.1);
+}
+
++0.1 {
+	player_1.do_action(move_right,1.2);
+}
+
++0.9 {
+	player_1.do_action(slap,0.2);
+}
+
++0.5 {
+	player_1.do_action(move_right,0.4);
+	player_1.do_action(slap,0.2);
+}
+
++0.6 {
+	player_1.do_action(move_right,0.33);
+	player_1.do_action(slap,0.2);
+}
+
++0.7 {
+	player_1.do_action(move_left,0.32);
+}
+
++2.9 {
+	player_1.do_action(jump,0.4);
+}
+
++0.6 {
+	player_1.do_action(roar,0.1);
+}
+
++0.1 {
+	player_1.refuse_action(jump);
+	player_1.refuse_action(move_right);
+	player_1.refuse_action(move_left);
+	player_1.release_player();
+	script.end();
+}
