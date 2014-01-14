@@ -10151,6 +10151,9 @@
 <field name='base_item.position.bottom'>
 <real value='1938'/>
 </field>
+<field name='base_item.position.depth'>
+<integer value='-1'/>
+</field>
 <field name='base_item.position.left'>
 <real value='394'/>
 </field>
@@ -10507,6 +10510,9 @@
 <fields>
 <field name='base_item.position.bottom'>
 <real value='1938'/>
+</field>
+<field name='base_item.position.depth'>
+<integer value='-1'/>
 </field>
 <field name='base_item.position.left'>
 <real value='1162'/>
