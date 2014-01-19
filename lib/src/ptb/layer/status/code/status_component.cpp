@@ -38,7 +38,8 @@ ptb::status_component::status_component
   bool auto_disappear)
   : m_level_globals(glob), m_player(p), m_side(side),
     m_x_placement(x_p), m_y_placement(y_p),
-    m_layer_size(layer_size), m_active_position(active_position),
+    m_layer_size(layer_size), m_position(active_position),
+    m_active_position(active_position),
     m_auto_disappear(auto_disappear)
 {
   
@@ -60,8 +61,10 @@ ptb::status_component::~status_component()
  */
 void ptb::status_component::build()
 {
-  init_signals();
   update_inactive_position();
+
+  init_signals();
+
   on_x_position_update(m_inactive_position.x);
   on_y_position_update(m_inactive_position.y);
 } // status_component::build()
@@ -196,11 +199,11 @@ void ptb::status_component::update_inactive_position()
       const double margin(5);
 
       if ( m_side == bear::universe::zone::middle_left_zone ) 
-          m_inactive_position.x = -width() - margin;
+        m_inactive_position.x = -(double)width() - margin;
       else if ( m_side == bear::universe::zone::middle_right_zone )
         m_inactive_position.x = get_layer_size().x + width() + margin;
       else if ( m_side == bear::universe::zone::bottom_zone )
-          m_inactive_position.y = -height() - margin;
+          m_inactive_position.y = -(double)height() - margin;
       else if ( m_side == bear::universe::zone::top_zone )
         m_inactive_position.y = get_layer_size().y + height() + margin;
     }
