@@ -9,6 +9,8 @@ ceiling_corner "wall/right-corner-ceiling.xcf.bz2"
 
 sin_slope "slope/sin-slope.xcf.bz2"
 
+flower "flower/flower.xcf.bz2"
+
 "left branch" autosize * 0.5 with tree
   "left"
   ;
@@ -108,3 +110,9 @@ sin_slope "slope/sin-slope.xcf.bz2"
   "back"
   mask "3"
   ;
+
+"pink flower 1" autosize * 0.390625 with flower
+  "flower head 3"
+  "flower bottom"
+  "1-2"
+;
