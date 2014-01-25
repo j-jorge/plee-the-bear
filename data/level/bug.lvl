@@ -2556,7 +2556,7 @@
 <integer value='64'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/stake.png' x='0' y='0' clip_width='256' clip_height='128' spritepos='' auto_size='true' width='256' height='128' mirror='boolean_false' flip='boolean_false' angle='1.57' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+<sprite image='gfx/forest/forest-3.png' x='0' y='0' clip_width='256' clip_height='128' spritepos='stakes' auto_size='true' width='256' height='128' mirror='boolean_false' flip='boolean_false' angle='1.57' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </field>
 <field name='base_item.phantom'>
 <bool value='1'/>
@@ -6803,7 +6803,7 @@
 <u_integer value='10'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/stake.png' x='0' y='0' clip_width='256' clip_height='128' spritepos='' auto_size='true' width='256' height='128' mirror='boolean_false' flip='boolean_true' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+<sprite image='gfx/forest/forest-3.png' x='0' y='0' clip_width='256' clip_height='128' spritepos='stakes' auto_size='true' width='256' height='128' mirror='boolean_false' flip='boolean_true' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </field>
 <field name='base_item.phantom'>
 <bool value='1'/>
@@ -7156,7 +7156,7 @@
 <u_integer value='10'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/stake.png' x='0' y='0' clip_width='256' clip_height='128' spritepos='' auto_size='true' width='256' height='128' mirror='boolean_false' flip='boolean_true' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+<sprite image='gfx/forest/forest-3.png' x='0' y='0' clip_width='256' clip_height='128' spritepos='stakes' auto_size='true' width='256' height='128' mirror='boolean_false' flip='boolean_true' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </field>
 <field name='base_item.phantom'>
 <bool value='1'/>
@@ -7269,7 +7269,7 @@
 <integer value='50'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/stake.png' x='0' y='0' clip_width='256' clip_height='80' spritepos='' auto_size='true' width='256' height='80' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+<sprite image='gfx/forest/forest-3.png' x='0' y='0' clip_width='256' clip_height='80' spritepos='stakes' auto_size='true' width='256' height='80' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </field>
 <field name='base_item.global'>
 <bool value='1'/>
@@ -17394,7 +17394,7 @@
 <real value='0.95'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/stake.png' x='0' y='0' clip_width='256' clip_height='128' spritepos='' auto_size='true' width='256' height='128' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+<sprite image='gfx/forest/forest-3.png' x='0' y='0' clip_width='256' clip_height='128' spritepos='stakes' auto_size='true' width='256' height='128' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </field>
 <field name='base_item.phantom'>
 <bool value='1'/>
@@ -17660,7 +17660,7 @@
 <real value='0.95'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/stake.png' x='0' y='0' clip_width='256' clip_height='128' spritepos='' auto_size='true' width='256' height='128' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+<sprite image='gfx/forest/forest-3.png' x='0' y='0' clip_width='256' clip_height='128' spritepos='stakes' auto_size='true' width='256' height='128' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </field>
 <field name='base_item.phantom'>
 <bool value='1'/>
@@ -18112,7 +18112,7 @@
 <real value='0.95'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/stake.png' x='0' y='0' clip_width='256' clip_height='128' spritepos='' auto_size='true' width='256' height='128' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+<sprite image='gfx/forest/forest-3.png' x='0' y='0' clip_width='256' clip_height='128' spritepos='stakes' auto_size='true' width='256' height='128' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </field>
 <field name='base_item.phantom'>
 <bool value='1'/>
@@ -18396,7 +18396,7 @@
 <real value='0.95'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/stake.png' x='0' y='0' clip_width='256' clip_height='128' spritepos='' auto_size='true' width='256' height='128' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+<sprite image='gfx/forest/forest-3.png' x='0' y='0' clip_width='256' clip_height='128' spritepos='stakes' auto_size='true' width='256' height='128' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </field>
 <field name='base_item.phantom'>
 <bool value='1'/>
@@ -18727,7 +18727,7 @@
 <real value='0.95'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/stake.png' x='0' y='0' clip_width='256' clip_height='128' spritepos='' auto_size='true' width='256' height='128' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+<sprite image='gfx/forest/forest-3.png' x='0' y='0' clip_width='256' clip_height='128' spritepos='stakes' auto_size='true' width='256' height='128' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </field>
 <field name='base_item.phantom'>
 <bool value='1'/>
@@ -30809,7 +30809,7 @@
 <real value='0.95'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/stake.png' x='0' y='0' clip_width='256' clip_height='128' spritepos='' auto_size='true' width='256' height='128' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+<sprite image='gfx/forest/forest-3.png' x='0' y='0' clip_width='256' clip_height='128' spritepos='stakes' auto_size='true' width='256' height='128' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </field>
 <field name='base_item.phantom'>
 <bool value='1'/>
@@ -31162,7 +31162,7 @@
 <real value='0.95'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/stake.png' x='0' y='0' clip_width='256' clip_height='128' spritepos='' auto_size='true' width='256' height='128' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+<sprite image='gfx/forest/forest-3.png' x='0' y='0' clip_width='256' clip_height='128' spritepos='stakes' auto_size='true' width='256' height='128' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </field>
 <field name='base_item.phantom'>
 <bool value='1'/>
@@ -31500,7 +31500,7 @@
 <real value='0.95'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/stake.png' x='0' y='0' clip_width='256' clip_height='128' spritepos='' auto_size='true' width='256' height='128' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+<sprite image='gfx/forest/forest-3.png' x='0' y='0' clip_width='256' clip_height='128' spritepos='stakes' auto_size='true' width='256' height='128' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </field>
 <field name='base_item.phantom'>
 <bool value='1'/>
@@ -31940,7 +31940,7 @@
 <real value='0.95'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/stake.png' x='0' y='0' clip_width='256' clip_height='128' spritepos='' auto_size='true' width='256' height='128' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+<sprite image='gfx/forest/forest-3.png' x='0' y='0' clip_width='256' clip_height='128' spritepos='stakes' auto_size='true' width='256' height='128' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </field>
 <field name='base_item.phantom'>
 <bool value='1'/>
@@ -32126,7 +32126,7 @@
 <real value='0.95'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/stake.png' x='0' y='0' clip_width='256' clip_height='128' spritepos='' auto_size='true' width='256' height='128' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+<sprite image='gfx/forest/forest-3.png' x='0' y='0' clip_width='256' clip_height='128' spritepos='stakes' auto_size='true' width='256' height='128' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </field>
 <field name='base_item.phantom'>
 <bool value='1'/>
