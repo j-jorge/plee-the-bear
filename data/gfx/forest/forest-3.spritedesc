@@ -6,6 +6,14 @@ little_slope "slope/little-slope-wall.xcf.bz2"
 sin_slope "slope/sin-slope.xcf.bz2"
 smooth_slope "slope/smooth-slope.xcf.bz2"
 
+bramble_img "plants/bramble.xcf.bz2"
+daisies_img "plants/daisies.xcf.bz2"
+grass_img "plants/grass.xcf.bz2"
+mushroom_img "plants/mushroom.xcf.bz2"
+shrub_img "plants/shrub.xcf.bz2"
+stakes_img "plants/stakes.xcf.bz2"
+wall_plant_img "plants/wall-plant.xcf.bz2"
+
 /*----------------------------------------------------------------------------*/
 /* -- Little Slope -- */
 /* ---------------------------------------------------------------------------*/
@@ -62,4 +70,58 @@ smooth_slope "slope/smooth-slope.xcf.bz2"
   "ground"
   "back"
   mask "6"
+  ;
+
+/*----------------------------------------------------------------------------*/
+/* Plants */
+/*----------------------------------------------------------------------------*/
+
+"bramble" autosize * 0.666 with bramble_img
+  glob "*"
+  exclude "1"
+  ;
+
+"daisies" autosize * 1 with daisies_img
+  glob "*"
+  ;
+
+"grass" autosize * 0.25 with grass_img
+  glob "*"
+  ;
+
+"mushroom" autosize * 0.33 with mushroom_img
+  glob "*"
+  ;
+
+"shrub" autosize * 0.5 with shrub_img
+  glob "*"
+  ;
+
+
+"stakes" image_size * 0.5 with stakes_img
+  "sprite"
+  ;
+
+"ivy (left)" "left end" * 0.5 with stakes_img
+  "stakes"
+  glob "ivy*back"
+  glob "*wood*"
+  mask "left end"
+  ;
+
+"ivy (right)" "right end" * 0.5 with stakes_img
+  "stakes"
+  glob "ivy*back"
+  glob "*wood*"
+  mask "right end"
+  ;
+
+"wall-plant" image_size * 0.5 with wall_plant_img
+  glob "*"
+  exclude "fissure"
+  exclude "shadow"
+  ;
+
+"plant" image_size * 0.5 with wall_plant_img
+  glob "*"
   ;

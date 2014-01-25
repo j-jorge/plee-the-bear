@@ -1,5 +1,5 @@
 0
-8
+10
 0
 
 800
@@ -11,6 +11,7 @@
 action_layer
 800
 600
+
 32
 bear::delayed_level_loading
 1

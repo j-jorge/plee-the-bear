@@ -1,5 +1,5 @@
 0
-8
+10
 0
 
 800
@@ -11,6 +11,7 @@
 decoration_layer
 800
 600
+
 32
 bear::decorative_item
 0
@@ -44,6 +45,7 @@ gfx/gamned.png
 action_layer
 800
 600
+
 30
 1
 bear::camera
@@ -55,21 +57,6 @@ base_item.size.height
 42
 base_item.size.width
 800
-32
-bear::camera_toggle
-1
-42
-base_item.position.bottom
-122
-42
-base_item.position.left
-256
-47
-camera_toggle.camera
-0
-43
-item_with_toggle.initial_state
-1
 32
 bear::delayed_level_loading
 1
@@ -85,4 +72,19 @@ delayed_level_loading.delay
 44
 delayed_level_loading.level
 level/title_screen.cl
+32
+bear::camera_toggle
+1
+42
+base_item.position.bottom
+122
+42
+base_item.position.left
+256
+47
+camera_toggle.camera
+0
+43
+item_with_toggle.initial_state
+1
 0
