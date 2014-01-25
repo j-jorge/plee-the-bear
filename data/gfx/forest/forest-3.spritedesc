@@ -76,7 +76,7 @@ wall_plant_img "plants/wall-plant.xcf.bz2"
 /* Plants */
 /*----------------------------------------------------------------------------*/
 
-"bramble" autosize * 0.666 with bramble_img
+"bramble" autosize * 0.5 with bramble_img
   glob "*"
   exclude "1"
   ;

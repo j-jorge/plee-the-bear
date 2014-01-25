@@ -4,15 +4,15 @@ smooth slope 2: 514 0 256 376
 smooth slope 5: 0 531 256 267
 little slope: 257 531 276 265
 smooth slope 3 (continuous): 534 531 256 260
-bramble: 0 799 333 159
-smooth slope 6: 334 799 256 151
-smooth slope 1: 591 799 256 140
-stakes: 257 391 256 128
-ivy (left): 848 799 50 128
-ivy (right): 899 799 35 128
-shrub: 791 531 99 118
-wall-plant: 935 799 86 103
-plant: 891 531 86 103
-mushroom: 791 650 64 69
-grass: 856 650 55 54
-daisies: 912 650 64 32
+smooth slope 6: 0 799 256 151
+smooth slope 1: 257 799 256 140
+stakes: 514 799 256 128
+ivy (left): 771 799 50 128
+ivy (right): 822 799 35 128
+bramble: 771 0 250 120
+shrub: 858 799 99 118
+wall-plant: 791 531 86 103
+plant: 878 531 86 103
+mushroom: 958 799 64 69
+grass: 965 531 55 54
+daisies: 958 869 64 32
