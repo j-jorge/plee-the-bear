@@ -3859,6 +3859,26 @@
 <real value='-153'/>
 </field>
 <field name='base_item.size.height'>
+<real value='256'/>
+</field>
+<field name='base_item.size.width'>
+<real value='256'/>
+</field>
+<field name='item_with_decoration.sprite'>
+<sprite image='gfx/forest/wall-fill*.png' x='0' y='0' clip_width='256' clip_height='256' spritepos='wall-fill' auto_size='true' width='256' height='256' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.3' green_intensity='0.25' blue_intensity='0.3'/>
+</field>
+</fields>
+    </item><!-- bear::decorative_item -->
+
+    <item class_name='bear::decorative_item' fixed='true'>
+<fields>
+<field name='base_item.position.bottom'>
+<real value='1536'/>
+</field>
+<field name='base_item.position.left'>
+<real value='-153'/>
+</field>
+<field name='base_item.size.height'>
 <real value='128'/>
 </field>
 <field name='base_item.size.width'>
@@ -41522,38 +41542,6 @@
 </fields>
     </item><!-- bear::decorative_item -->
 
-    <item class_name='bear::slope' fixed='true'>
-<fields>
-<field name='item_with_friction.top_friction'>
-<real value='0.95'/>
-</field>
-<field name='item_with_z_shift.z_shift'>
-<integer value='-10'/>
-</field>
-<field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/slope-26s-right.png' x='128' y='0' clip_width='128' clip_height='256' spritepos='' auto_size='true' width='128' height='256' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.3' green_intensity='0.25' blue_intensity='0.3'/>
-</field>
-<field name='base_item.position.bottom'>
-<real value='1408'/>
-</field>
-<field name='base_item.position.left'>
-<real value='-25'/>
-</field>
-<field name='base_item.size.height'>
-<real value='254'/>
-</field>
-<field name='base_item.size.width'>
-<real value='128'/>
-</field>
-<field name='slope.margin'>
-<real value='10'/>
-</field>
-<field name='slope.steepness'>
-<real value='38'/>
-</field>
-</fields>
-    </item><!-- bear::slope -->
-
     <item class_name='bear::block' fixed='true'>
 <fields>
 <field name='item_with_friction.top_friction'>
@@ -43494,13 +43482,13 @@
 <integer value='-10'/>
 </field>
 <field name='base_item.position.bottom'>
-<real value='1865'/>
+<real value='1648'/>
 </field>
 <field name='base_item.position.left'>
 <real value='1024'/>
 </field>
 <field name='base_item.size.height'>
-<real value='811'/>
+<real value='1028'/>
 </field>
 <field name='base_item.size.width'>
 <real value='128'/>
@@ -43514,13 +43502,13 @@
     <item class_name='ptb::clingable' fixed='true'>
 <fields>
 <field name='base_item.position.bottom'>
-<real value='1928'/>
+<real value='1697'/>
 </field>
 <field name='base_item.position.left'>
 <real value='1101'/>
 </field>
 <field name='base_item.size.height'>
-<real value='742'/>
+<real value='973'/>
 </field>
 <field name='base_item.size.width'>
 <real value='56'/>
