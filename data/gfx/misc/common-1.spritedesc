@@ -3,13 +3,46 @@ sprite_sheet "common-1" 512 x 1024 margin 1 order "height"
 spring "spring.xcf.bz2"
 
 "red spring 1" image_size * 0.5 with spring
-  "1"
+  "red 1"
+  "common 1"
   ;
 
 "red spring 2" image_size * 0.5 with spring
-  "2"
+  "red 2"
+  "common 2"
   ;
 
 "red spring 3" image_size * 0.5 with spring
-  "3"
+  "red 3"
+  "common 3"
+  ;
+
+"orange spring 1" image_size * 0.5 with spring
+  "orange 1"
+  "common 1"
+  ;
+
+"orange spring 2" image_size * 0.5 with spring
+  "orange 2"
+  "common 2"
+  ;
+
+"orange spring 3" image_size * 0.5 with spring
+  "orange 3"
+  "common 3"
+  ;
+
+"yellow spring 1" image_size * 0.5 with spring
+  "yellow 1"
+  "common 1"
+  ;
+
+"yellow spring 2" image_size * 0.5 with spring
+  "yellow 2"
+  "common 2"
+  ;
+
+"yellow spring 3" image_size * 0.5 with spring
+  "yellow 3"
+  "common 3"
   ;
