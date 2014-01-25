@@ -11737,7 +11737,7 @@
 <real value='1453'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='180' y='234' clip_width='9' clip_height='10' spritepos='leaf' auto_size='true' width='9' height='10' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+<sprite image='gfx/forest/forest-3.png' x='180' y='234' clip_width='9' clip_height='10' spritepos='leaf' auto_size='true' width='9' height='10' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->

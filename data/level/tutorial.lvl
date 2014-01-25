@@ -481,7 +481,7 @@
 <real value='95'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='180' y='0' clip_width='189' clip_height='130' spritepos='branch' auto_size='false' width='95' height='65' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
+<sprite image='gfx/forest/forest-3.png' x='180' y='0' clip_width='189' clip_height='130' spritepos='branch' auto_size='false' width='95' height='65' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -495,7 +495,7 @@
 <real value='2725'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='0' y='0' clip_width='180' clip_height='256' spritepos='trunk' auto_size='false' width='90' height='128' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
+<sprite image='gfx/forest/forest-3.png' x='0' y='0' clip_width='180' clip_height='256' spritepos='trunk' auto_size='false' width='90' height='128' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -509,7 +509,7 @@
 <real value='2725'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='0' y='0' clip_width='180' clip_height='256' spritepos='trunk' auto_size='false' width='90' height='128' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
+<sprite image='gfx/forest/forest-3.png' x='0' y='0' clip_width='180' clip_height='256' spritepos='trunk' auto_size='false' width='90' height='128' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -523,7 +523,7 @@
 <real value='2725'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='0' y='0' clip_width='180' clip_height='256' spritepos='trunk' auto_size='false' width='90' height='128' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
+<sprite image='gfx/forest/forest-3.png' x='0' y='0' clip_width='180' clip_height='256' spritepos='trunk' auto_size='false' width='90' height='128' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -620,7 +620,7 @@
 <real value='2828'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='180' y='184' clip_width='50' clip_height='48' spritepos='grass' auto_size='false' width='25' height='24' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
+<sprite image='gfx/forest/forest-3.png' x='180' y='184' clip_width='50' clip_height='48' spritepos='grass' auto_size='false' width='25' height='24' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -651,7 +651,7 @@
 <real value='2849'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='180' y='184' clip_width='50' clip_height='48' spritepos='grass' auto_size='false' width='25' height='24' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
+<sprite image='gfx/forest/forest-3.png' x='180' y='184' clip_width='50' clip_height='48' spritepos='grass' auto_size='false' width='25' height='24' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -708,7 +708,7 @@
 <real value='2928'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='230' y='130' clip_width='100' clip_height='119' spritepos='shrub' auto_size='false' width='50' height='60' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
+<sprite image='gfx/forest/forest-3.png' x='230' y='130' clip_width='100' clip_height='119' spritepos='shrub' auto_size='false' width='50' height='60' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -797,7 +797,7 @@
 <real value='2990'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='180' y='130' clip_width='50' clip_height='54' spritepos='mushroom' auto_size='false' width='25' height='27' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
+<sprite image='gfx/forest/forest-3.png' x='180' y='130' clip_width='50' clip_height='54' spritepos='mushroom' auto_size='false' width='25' height='27' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -828,7 +828,7 @@
 <real value='3024'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='0' y='0' clip_width='180' clip_height='256' spritepos='trunk' auto_size='false' width='90' height='128' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
+<sprite image='gfx/forest/forest-3.png' x='0' y='0' clip_width='180' clip_height='256' spritepos='trunk' auto_size='false' width='90' height='128' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -842,7 +842,7 @@
 <real value='3024'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='0' y='0' clip_width='180' clip_height='256' spritepos='trunk' auto_size='false' width='90' height='128' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
+<sprite image='gfx/forest/forest-3.png' x='0' y='0' clip_width='180' clip_height='256' spritepos='trunk' auto_size='false' width='90' height='128' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -856,7 +856,7 @@
 <real value='3024'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='0' y='0' clip_width='180' clip_height='256' spritepos='trunk' auto_size='false' width='90' height='128' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
+<sprite image='gfx/forest/forest-3.png' x='0' y='0' clip_width='180' clip_height='256' spritepos='trunk' auto_size='false' width='90' height='128' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -870,7 +870,7 @@
 <real value='3024'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='0' y='0' clip_width='180' clip_height='256' spritepos='trunk' auto_size='false' width='90' height='128' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
+<sprite image='gfx/forest/forest-3.png' x='0' y='0' clip_width='180' clip_height='256' spritepos='trunk' auto_size='false' width='90' height='128' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -1004,7 +1004,7 @@
 <real value='3155'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='180' y='184' clip_width='50' clip_height='48' spritepos='grass' auto_size='false' width='25' height='24' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
+<sprite image='gfx/forest/forest-3.png' x='180' y='184' clip_width='50' clip_height='48' spritepos='grass' auto_size='false' width='25' height='24' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -1430,7 +1430,7 @@
 <real value='95'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='180' y='0' clip_width='189' clip_height='130' spritepos='branch' auto_size='false' width='95' height='65' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
+<sprite image='gfx/forest/forest-3.png' x='180' y='0' clip_width='189' clip_height='130' spritepos='branch' auto_size='false' width='95' height='65' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -1444,7 +1444,7 @@
 <real value='4133'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='0' y='0' clip_width='180' clip_height='256' spritepos='trunk' auto_size='false' width='90' height='128' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
+<sprite image='gfx/forest/forest-3.png' x='0' y='0' clip_width='180' clip_height='256' spritepos='trunk' auto_size='false' width='90' height='128' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -1458,7 +1458,7 @@
 <real value='4133'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='0' y='0' clip_width='180' clip_height='256' spritepos='trunk' auto_size='false' width='90' height='128' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
+<sprite image='gfx/forest/forest-3.png' x='0' y='0' clip_width='180' clip_height='256' spritepos='trunk' auto_size='false' width='90' height='128' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -1472,7 +1472,7 @@
 <real value='4133'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='0' y='0' clip_width='180' clip_height='256' spritepos='trunk' auto_size='false' width='90' height='128' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
+<sprite image='gfx/forest/forest-3.png' x='0' y='0' clip_width='180' clip_height='256' spritepos='trunk' auto_size='false' width='90' height='128' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -1569,7 +1569,7 @@
 <real value='4236'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='180' y='184' clip_width='50' clip_height='48' spritepos='grass' auto_size='false' width='25' height='24' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
+<sprite image='gfx/forest/forest-3.png' x='180' y='184' clip_width='50' clip_height='48' spritepos='grass' auto_size='false' width='25' height='24' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -1600,7 +1600,7 @@
 <real value='4257'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='180' y='184' clip_width='50' clip_height='48' spritepos='grass' auto_size='false' width='25' height='24' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
+<sprite image='gfx/forest/forest-3.png' x='180' y='184' clip_width='50' clip_height='48' spritepos='grass' auto_size='false' width='25' height='24' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -1657,7 +1657,7 @@
 <real value='4336'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='230' y='130' clip_width='100' clip_height='119' spritepos='shrub' auto_size='false' width='50' height='60' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
+<sprite image='gfx/forest/forest-3.png' x='230' y='130' clip_width='100' clip_height='119' spritepos='shrub' auto_size='false' width='50' height='60' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -1746,7 +1746,7 @@
 <real value='4398'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='180' y='130' clip_width='50' clip_height='54' spritepos='mushroom' auto_size='false' width='25' height='27' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
+<sprite image='gfx/forest/forest-3.png' x='180' y='130' clip_width='50' clip_height='54' spritepos='mushroom' auto_size='false' width='25' height='27' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -1777,7 +1777,7 @@
 <real value='4432'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='0' y='0' clip_width='180' clip_height='256' spritepos='trunk' auto_size='false' width='90' height='128' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
+<sprite image='gfx/forest/forest-3.png' x='0' y='0' clip_width='180' clip_height='256' spritepos='trunk' auto_size='false' width='90' height='128' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -1791,7 +1791,7 @@
 <real value='4432'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='0' y='0' clip_width='180' clip_height='256' spritepos='trunk' auto_size='false' width='90' height='128' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
+<sprite image='gfx/forest/forest-3.png' x='0' y='0' clip_width='180' clip_height='256' spritepos='trunk' auto_size='false' width='90' height='128' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -1805,7 +1805,7 @@
 <real value='4432'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='0' y='0' clip_width='180' clip_height='256' spritepos='trunk' auto_size='false' width='90' height='128' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
+<sprite image='gfx/forest/forest-3.png' x='0' y='0' clip_width='180' clip_height='256' spritepos='trunk' auto_size='false' width='90' height='128' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -1819,7 +1819,7 @@
 <real value='4432'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='0' y='0' clip_width='180' clip_height='256' spritepos='trunk' auto_size='false' width='90' height='128' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
+<sprite image='gfx/forest/forest-3.png' x='0' y='0' clip_width='180' clip_height='256' spritepos='trunk' auto_size='false' width='90' height='128' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -1973,7 +1973,7 @@
 <real value='4563'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='180' y='184' clip_width='50' clip_height='48' spritepos='grass' auto_size='false' width='25' height='24' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
+<sprite image='gfx/forest/forest-3.png' x='180' y='184' clip_width='50' clip_height='48' spritepos='grass' auto_size='false' width='25' height='24' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -2316,7 +2316,7 @@
 <real value='95'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='180' y='0' clip_width='189' clip_height='130' spritepos='branch' auto_size='false' width='95' height='65' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
+<sprite image='gfx/forest/forest-3.png' x='180' y='0' clip_width='189' clip_height='130' spritepos='branch' auto_size='false' width='95' height='65' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -2330,7 +2330,7 @@
 <real value='4879'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='0' y='0' clip_width='180' clip_height='256' spritepos='trunk' auto_size='false' width='90' height='128' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
+<sprite image='gfx/forest/forest-3.png' x='0' y='0' clip_width='180' clip_height='256' spritepos='trunk' auto_size='false' width='90' height='128' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -2344,7 +2344,7 @@
 <real value='4879'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='0' y='0' clip_width='180' clip_height='256' spritepos='trunk' auto_size='false' width='90' height='128' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
+<sprite image='gfx/forest/forest-3.png' x='0' y='0' clip_width='180' clip_height='256' spritepos='trunk' auto_size='false' width='90' height='128' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -2358,7 +2358,7 @@
 <real value='4879'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='0' y='0' clip_width='180' clip_height='256' spritepos='trunk' auto_size='false' width='90' height='128' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
+<sprite image='gfx/forest/forest-3.png' x='0' y='0' clip_width='180' clip_height='256' spritepos='trunk' auto_size='false' width='90' height='128' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -2495,7 +2495,7 @@
 <real value='4997'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='230' y='130' clip_width='100' clip_height='119' spritepos='shrub' auto_size='false' width='50' height='60' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
+<sprite image='gfx/forest/forest-3.png' x='230' y='130' clip_width='100' clip_height='119' spritepos='shrub' auto_size='false' width='50' height='60' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -2806,7 +2806,7 @@
 <real value='5630'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='180' y='184' clip_width='50' clip_height='48' spritepos='grass' auto_size='false' width='25' height='24' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
+<sprite image='gfx/forest/forest-3.png' x='180' y='184' clip_width='50' clip_height='48' spritepos='grass' auto_size='false' width='25' height='24' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -2846,7 +2846,7 @@
 <real value='5655'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='180' y='184' clip_width='50' clip_height='48' spritepos='grass' auto_size='false' width='25' height='24' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
+<sprite image='gfx/forest/forest-3.png' x='180' y='184' clip_width='50' clip_height='48' spritepos='grass' auto_size='false' width='25' height='24' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -2909,7 +2909,7 @@
 <real value='95'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='180' y='0' clip_width='189' clip_height='130' spritepos='branch' auto_size='false' width='95' height='65' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
+<sprite image='gfx/forest/forest-3.png' x='180' y='0' clip_width='189' clip_height='130' spritepos='branch' auto_size='false' width='95' height='65' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -2923,7 +2923,7 @@
 <real value='5727'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='0' y='0' clip_width='180' clip_height='256' spritepos='trunk' auto_size='false' width='90' height='128' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
+<sprite image='gfx/forest/forest-3.png' x='0' y='0' clip_width='180' clip_height='256' spritepos='trunk' auto_size='false' width='90' height='128' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -2937,7 +2937,7 @@
 <real value='5727'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='0' y='0' clip_width='180' clip_height='256' spritepos='trunk' auto_size='false' width='90' height='128' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
+<sprite image='gfx/forest/forest-3.png' x='0' y='0' clip_width='180' clip_height='256' spritepos='trunk' auto_size='false' width='90' height='128' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -2951,7 +2951,7 @@
 <real value='5727'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='0' y='0' clip_width='180' clip_height='256' spritepos='trunk' auto_size='false' width='90' height='128' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
+<sprite image='gfx/forest/forest-3.png' x='0' y='0' clip_width='180' clip_height='256' spritepos='trunk' auto_size='false' width='90' height='128' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -3477,7 +3477,7 @@
 <real value='95'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='180' y='0' clip_width='189' clip_height='130' spritepos='branch' auto_size='false' width='95' height='65' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
+<sprite image='gfx/forest/forest-3.png' x='180' y='0' clip_width='189' clip_height='130' spritepos='branch' auto_size='false' width='95' height='65' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -3491,7 +3491,7 @@
 <real value='6897'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='0' y='0' clip_width='180' clip_height='256' spritepos='trunk' auto_size='false' width='90' height='128' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
+<sprite image='gfx/forest/forest-3.png' x='0' y='0' clip_width='180' clip_height='256' spritepos='trunk' auto_size='false' width='90' height='128' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -3505,7 +3505,7 @@
 <real value='6897'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='0' y='0' clip_width='180' clip_height='256' spritepos='trunk' auto_size='false' width='90' height='128' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
+<sprite image='gfx/forest/forest-3.png' x='0' y='0' clip_width='180' clip_height='256' spritepos='trunk' auto_size='false' width='90' height='128' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -3519,7 +3519,7 @@
 <real value='6897'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='0' y='0' clip_width='180' clip_height='256' spritepos='trunk' auto_size='false' width='90' height='128' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
+<sprite image='gfx/forest/forest-3.png' x='0' y='0' clip_width='180' clip_height='256' spritepos='trunk' auto_size='false' width='90' height='128' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -3636,7 +3636,7 @@
 <real value='7000'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='180' y='184' clip_width='50' clip_height='48' spritepos='grass' auto_size='false' width='25' height='24' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
+<sprite image='gfx/forest/forest-3.png' x='180' y='184' clip_width='50' clip_height='48' spritepos='grass' auto_size='false' width='25' height='24' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -3667,7 +3667,7 @@
 <real value='7021'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='180' y='184' clip_width='50' clip_height='48' spritepos='grass' auto_size='false' width='25' height='24' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
+<sprite image='gfx/forest/forest-3.png' x='180' y='184' clip_width='50' clip_height='48' spritepos='grass' auto_size='false' width='25' height='24' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -3744,7 +3744,7 @@
 <real value='7100'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='230' y='130' clip_width='100' clip_height='119' spritepos='shrub' auto_size='false' width='50' height='60' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
+<sprite image='gfx/forest/forest-3.png' x='230' y='130' clip_width='100' clip_height='119' spritepos='shrub' auto_size='false' width='50' height='60' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -3833,7 +3833,7 @@
 <real value='7162'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='180' y='130' clip_width='50' clip_height='54' spritepos='mushroom' auto_size='false' width='25' height='27' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
+<sprite image='gfx/forest/forest-3.png' x='180' y='130' clip_width='50' clip_height='54' spritepos='mushroom' auto_size='false' width='25' height='27' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -3864,7 +3864,7 @@
 <real value='7196'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='0' y='0' clip_width='180' clip_height='256' spritepos='trunk' auto_size='false' width='90' height='128' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
+<sprite image='gfx/forest/forest-3.png' x='0' y='0' clip_width='180' clip_height='256' spritepos='trunk' auto_size='false' width='90' height='128' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -3878,7 +3878,7 @@
 <real value='7196'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='0' y='0' clip_width='180' clip_height='256' spritepos='trunk' auto_size='false' width='90' height='128' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
+<sprite image='gfx/forest/forest-3.png' x='0' y='0' clip_width='180' clip_height='256' spritepos='trunk' auto_size='false' width='90' height='128' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -3892,7 +3892,7 @@
 <real value='7196'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='0' y='0' clip_width='180' clip_height='256' spritepos='trunk' auto_size='false' width='90' height='128' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
+<sprite image='gfx/forest/forest-3.png' x='0' y='0' clip_width='180' clip_height='256' spritepos='trunk' auto_size='false' width='90' height='128' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -3906,7 +3906,7 @@
 <real value='7196'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='0' y='0' clip_width='180' clip_height='256' spritepos='trunk' auto_size='false' width='90' height='128' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
+<sprite image='gfx/forest/forest-3.png' x='0' y='0' clip_width='180' clip_height='256' spritepos='trunk' auto_size='false' width='90' height='128' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -4060,7 +4060,7 @@
 <real value='7327'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='180' y='184' clip_width='50' clip_height='48' spritepos='grass' auto_size='false' width='25' height='24' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
+<sprite image='gfx/forest/forest-3.png' x='180' y='184' clip_width='50' clip_height='48' spritepos='grass' auto_size='false' width='25' height='24' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -4403,7 +4403,7 @@
 <real value='95'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='180' y='0' clip_width='189' clip_height='130' spritepos='branch' auto_size='false' width='95' height='65' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
+<sprite image='gfx/forest/forest-3.png' x='180' y='0' clip_width='189' clip_height='130' spritepos='branch' auto_size='false' width='95' height='65' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -4417,7 +4417,7 @@
 <real value='7643'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='0' y='0' clip_width='180' clip_height='256' spritepos='trunk' auto_size='false' width='90' height='128' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
+<sprite image='gfx/forest/forest-3.png' x='0' y='0' clip_width='180' clip_height='256' spritepos='trunk' auto_size='false' width='90' height='128' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -4431,7 +4431,7 @@
 <real value='7643'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='0' y='0' clip_width='180' clip_height='256' spritepos='trunk' auto_size='false' width='90' height='128' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
+<sprite image='gfx/forest/forest-3.png' x='0' y='0' clip_width='180' clip_height='256' spritepos='trunk' auto_size='false' width='90' height='128' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -4445,7 +4445,7 @@
 <real value='7643'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='0' y='0' clip_width='180' clip_height='256' spritepos='trunk' auto_size='false' width='90' height='128' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
+<sprite image='gfx/forest/forest-3.png' x='0' y='0' clip_width='180' clip_height='256' spritepos='trunk' auto_size='false' width='90' height='128' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -4602,7 +4602,7 @@
 <real value='7761'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='230' y='130' clip_width='100' clip_height='119' spritepos='shrub' auto_size='false' width='50' height='60' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
+<sprite image='gfx/forest/forest-3.png' x='230' y='130' clip_width='100' clip_height='119' spritepos='shrub' auto_size='false' width='50' height='60' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -5036,7 +5036,7 @@
 <real value='8394'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='180' y='184' clip_width='50' clip_height='48' spritepos='grass' auto_size='false' width='25' height='24' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
+<sprite image='gfx/forest/forest-3.png' x='180' y='184' clip_width='50' clip_height='48' spritepos='grass' auto_size='false' width='25' height='24' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -5076,7 +5076,7 @@
 <real value='8419'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='180' y='184' clip_width='50' clip_height='48' spritepos='grass' auto_size='false' width='25' height='24' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
+<sprite image='gfx/forest/forest-3.png' x='180' y='184' clip_width='50' clip_height='48' spritepos='grass' auto_size='false' width='25' height='24' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -5139,7 +5139,7 @@
 <real value='95'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='180' y='0' clip_width='189' clip_height='130' spritepos='branch' auto_size='false' width='95' height='65' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
+<sprite image='gfx/forest/forest-3.png' x='180' y='0' clip_width='189' clip_height='130' spritepos='branch' auto_size='false' width='95' height='65' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -5153,7 +5153,7 @@
 <real value='8491'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='0' y='0' clip_width='180' clip_height='256' spritepos='trunk' auto_size='false' width='90' height='128' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
+<sprite image='gfx/forest/forest-3.png' x='0' y='0' clip_width='180' clip_height='256' spritepos='trunk' auto_size='false' width='90' height='128' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -5167,7 +5167,7 @@
 <real value='8491'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='0' y='0' clip_width='180' clip_height='256' spritepos='trunk' auto_size='false' width='90' height='128' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
+<sprite image='gfx/forest/forest-3.png' x='0' y='0' clip_width='180' clip_height='256' spritepos='trunk' auto_size='false' width='90' height='128' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -5181,7 +5181,7 @@
 <real value='8491'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='0' y='0' clip_width='180' clip_height='256' spritepos='trunk' auto_size='false' width='90' height='128' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
+<sprite image='gfx/forest/forest-3.png' x='0' y='0' clip_width='180' clip_height='256' spritepos='trunk' auto_size='false' width='90' height='128' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -5321,7 +5321,7 @@
 <real value='8597'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='230' y='130' clip_width='100' clip_height='119' spritepos='shrub' auto_size='false' width='50' height='60' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
+<sprite image='gfx/forest/forest-3.png' x='230' y='130' clip_width='100' clip_height='119' spritepos='shrub' auto_size='false' width='50' height='60' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -5781,7 +5781,7 @@
 <real value='9163'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='180' y='184' clip_width='50' clip_height='48' spritepos='grass' auto_size='false' width='25' height='24' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
+<sprite image='gfx/forest/forest-3.png' x='180' y='184' clip_width='50' clip_height='48' spritepos='grass' auto_size='false' width='25' height='24' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -5821,7 +5821,7 @@
 <real value='9195'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='180' y='184' clip_width='50' clip_height='48' spritepos='grass' auto_size='false' width='25' height='24' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
+<sprite image='gfx/forest/forest-3.png' x='180' y='184' clip_width='50' clip_height='48' spritepos='grass' auto_size='false' width='25' height='24' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -5918,7 +5918,7 @@
 <real value='9275'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='230' y='130' clip_width='100' clip_height='119' spritepos='shrub' auto_size='false' width='50' height='60' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
+<sprite image='gfx/forest/forest-3.png' x='230' y='130' clip_width='100' clip_height='119' spritepos='shrub' auto_size='false' width='50' height='60' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -6029,7 +6029,7 @@
 <real value='9432'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='180' y='184' clip_width='50' clip_height='48' spritepos='grass' auto_size='false' width='25' height='24' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
+<sprite image='gfx/forest/forest-3.png' x='180' y='184' clip_width='50' clip_height='48' spritepos='grass' auto_size='false' width='25' height='24' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -6069,7 +6069,7 @@
 <real value='9443'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='180' y='184' clip_width='50' clip_height='48' spritepos='grass' auto_size='false' width='25' height='24' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
+<sprite image='gfx/forest/forest-3.png' x='180' y='184' clip_width='50' clip_height='48' spritepos='grass' auto_size='false' width='25' height='24' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -6132,7 +6132,7 @@
 <real value='95'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='180' y='0' clip_width='189' clip_height='130' spritepos='branch' auto_size='false' width='95' height='65' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
+<sprite image='gfx/forest/forest-3.png' x='180' y='0' clip_width='189' clip_height='130' spritepos='branch' auto_size='false' width='95' height='65' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -6146,7 +6146,7 @@
 <real value='9515'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='0' y='0' clip_width='180' clip_height='256' spritepos='trunk' auto_size='false' width='90' height='128' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
+<sprite image='gfx/forest/forest-3.png' x='0' y='0' clip_width='180' clip_height='256' spritepos='trunk' auto_size='false' width='90' height='128' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -6160,7 +6160,7 @@
 <real value='9515'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='0' y='0' clip_width='180' clip_height='256' spritepos='trunk' auto_size='false' width='90' height='128' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
+<sprite image='gfx/forest/forest-3.png' x='0' y='0' clip_width='180' clip_height='256' spritepos='trunk' auto_size='false' width='90' height='128' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -6174,7 +6174,7 @@
 <real value='9515'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='0' y='0' clip_width='180' clip_height='256' spritepos='trunk' auto_size='false' width='90' height='128' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
+<sprite image='gfx/forest/forest-3.png' x='0' y='0' clip_width='180' clip_height='256' spritepos='trunk' auto_size='false' width='90' height='128' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -6314,7 +6314,7 @@
 <real value='9621'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='230' y='130' clip_width='100' clip_height='119' spritepos='shrub' auto_size='false' width='50' height='60' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
+<sprite image='gfx/forest/forest-3.png' x='230' y='130' clip_width='100' clip_height='119' spritepos='shrub' auto_size='false' width='50' height='60' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -6774,7 +6774,7 @@
 <real value='10187'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='180' y='184' clip_width='50' clip_height='48' spritepos='grass' auto_size='false' width='25' height='24' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
+<sprite image='gfx/forest/forest-3.png' x='180' y='184' clip_width='50' clip_height='48' spritepos='grass' auto_size='false' width='25' height='24' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -6814,7 +6814,7 @@
 <real value='10219'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='180' y='184' clip_width='50' clip_height='48' spritepos='grass' auto_size='false' width='25' height='24' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
+<sprite image='gfx/forest/forest-3.png' x='180' y='184' clip_width='50' clip_height='48' spritepos='grass' auto_size='false' width='25' height='24' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -6911,7 +6911,7 @@
 <real value='10299'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='230' y='130' clip_width='100' clip_height='119' spritepos='shrub' auto_size='false' width='50' height='60' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
+<sprite image='gfx/forest/forest-3.png' x='230' y='130' clip_width='100' clip_height='119' spritepos='shrub' auto_size='false' width='50' height='60' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -7151,7 +7151,7 @@
 <real value='95'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='180' y='0' clip_width='189' clip_height='130' spritepos='branch' auto_size='false' width='95' height='65' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
+<sprite image='gfx/forest/forest-3.png' x='180' y='0' clip_width='189' clip_height='130' spritepos='branch' auto_size='false' width='95' height='65' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -7165,7 +7165,7 @@
 <real value='10662'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='0' y='0' clip_width='180' clip_height='256' spritepos='trunk' auto_size='false' width='90' height='128' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
+<sprite image='gfx/forest/forest-3.png' x='0' y='0' clip_width='180' clip_height='256' spritepos='trunk' auto_size='false' width='90' height='128' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -7179,7 +7179,7 @@
 <real value='10662'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='0' y='0' clip_width='180' clip_height='256' spritepos='trunk' auto_size='false' width='90' height='128' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
+<sprite image='gfx/forest/forest-3.png' x='0' y='0' clip_width='180' clip_height='256' spritepos='trunk' auto_size='false' width='90' height='128' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -7193,7 +7193,7 @@
 <real value='10662'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='0' y='0' clip_width='180' clip_height='256' spritepos='trunk' auto_size='false' width='90' height='128' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
+<sprite image='gfx/forest/forest-3.png' x='0' y='0' clip_width='180' clip_height='256' spritepos='trunk' auto_size='false' width='90' height='128' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -7593,7 +7593,7 @@
 <real value='95'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='180' y='0' clip_width='189' clip_height='130' spritepos='branch' auto_size='false' width='95' height='65' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
+<sprite image='gfx/forest/forest-3.png' x='180' y='0' clip_width='189' clip_height='130' spritepos='branch' auto_size='false' width='95' height='65' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -7607,7 +7607,7 @@
 <real value='11621'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='0' y='0' clip_width='180' clip_height='256' spritepos='trunk' auto_size='false' width='90' height='128' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
+<sprite image='gfx/forest/forest-3.png' x='0' y='0' clip_width='180' clip_height='256' spritepos='trunk' auto_size='false' width='90' height='128' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -7621,7 +7621,7 @@
 <real value='11621'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='0' y='0' clip_width='180' clip_height='256' spritepos='trunk' auto_size='false' width='90' height='128' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
+<sprite image='gfx/forest/forest-3.png' x='0' y='0' clip_width='180' clip_height='256' spritepos='trunk' auto_size='false' width='90' height='128' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -7635,7 +7635,7 @@
 <real value='11621'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='0' y='0' clip_width='180' clip_height='256' spritepos='trunk' auto_size='false' width='90' height='128' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
+<sprite image='gfx/forest/forest-3.png' x='0' y='0' clip_width='180' clip_height='256' spritepos='trunk' auto_size='false' width='90' height='128' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -7732,7 +7732,7 @@
 <real value='11724'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='180' y='184' clip_width='50' clip_height='48' spritepos='grass' auto_size='false' width='25' height='24' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
+<sprite image='gfx/forest/forest-3.png' x='180' y='184' clip_width='50' clip_height='48' spritepos='grass' auto_size='false' width='25' height='24' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -7763,7 +7763,7 @@
 <real value='11745'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='180' y='184' clip_width='50' clip_height='48' spritepos='grass' auto_size='false' width='25' height='24' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
+<sprite image='gfx/forest/forest-3.png' x='180' y='184' clip_width='50' clip_height='48' spritepos='grass' auto_size='false' width='25' height='24' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -7820,7 +7820,7 @@
 <real value='11824'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='230' y='130' clip_width='100' clip_height='119' spritepos='shrub' auto_size='false' width='50' height='60' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
+<sprite image='gfx/forest/forest-3.png' x='230' y='130' clip_width='100' clip_height='119' spritepos='shrub' auto_size='false' width='50' height='60' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -7900,7 +7900,7 @@
 <real value='11886'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='180' y='130' clip_width='50' clip_height='54' spritepos='mushroom' auto_size='false' width='25' height='27' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
+<sprite image='gfx/forest/forest-3.png' x='180' y='130' clip_width='50' clip_height='54' spritepos='mushroom' auto_size='false' width='25' height='27' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -7931,7 +7931,7 @@
 <real value='11920'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='0' y='0' clip_width='180' clip_height='256' spritepos='trunk' auto_size='false' width='90' height='128' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
+<sprite image='gfx/forest/forest-3.png' x='0' y='0' clip_width='180' clip_height='256' spritepos='trunk' auto_size='false' width='90' height='128' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -7945,7 +7945,7 @@
 <real value='11920'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='0' y='0' clip_width='180' clip_height='256' spritepos='trunk' auto_size='false' width='90' height='128' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
+<sprite image='gfx/forest/forest-3.png' x='0' y='0' clip_width='180' clip_height='256' spritepos='trunk' auto_size='false' width='90' height='128' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -7959,7 +7959,7 @@
 <real value='11920'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='0' y='0' clip_width='180' clip_height='256' spritepos='trunk' auto_size='false' width='90' height='128' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
+<sprite image='gfx/forest/forest-3.png' x='0' y='0' clip_width='180' clip_height='256' spritepos='trunk' auto_size='false' width='90' height='128' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -7973,7 +7973,7 @@
 <real value='11920'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='0' y='0' clip_width='180' clip_height='256' spritepos='trunk' auto_size='false' width='90' height='128' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
+<sprite image='gfx/forest/forest-3.png' x='0' y='0' clip_width='180' clip_height='256' spritepos='trunk' auto_size='false' width='90' height='128' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -8107,7 +8107,7 @@
 <real value='12051'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='180' y='184' clip_width='50' clip_height='48' spritepos='grass' auto_size='false' width='25' height='24' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
+<sprite image='gfx/forest/forest-3.png' x='180' y='184' clip_width='50' clip_height='48' spritepos='grass' auto_size='false' width='25' height='24' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -8321,7 +8321,7 @@
 <real value='12915'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='180' y='184' clip_width='50' clip_height='48' spritepos='grass' auto_size='false' width='25' height='24' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
+<sprite image='gfx/forest/forest-3.png' x='180' y='184' clip_width='50' clip_height='48' spritepos='grass' auto_size='false' width='25' height='24' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -8361,7 +8361,7 @@
 <real value='12940'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='180' y='184' clip_width='50' clip_height='48' spritepos='grass' auto_size='false' width='25' height='24' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
+<sprite image='gfx/forest/forest-3.png' x='180' y='184' clip_width='50' clip_height='48' spritepos='grass' auto_size='false' width='25' height='24' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -8424,7 +8424,7 @@
 <real value='95'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='180' y='0' clip_width='189' clip_height='130' spritepos='branch' auto_size='false' width='95' height='65' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
+<sprite image='gfx/forest/forest-3.png' x='180' y='0' clip_width='189' clip_height='130' spritepos='branch' auto_size='false' width='95' height='65' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -8438,7 +8438,7 @@
 <real value='13012'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='0' y='0' clip_width='180' clip_height='256' spritepos='trunk' auto_size='false' width='90' height='128' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
+<sprite image='gfx/forest/forest-3.png' x='0' y='0' clip_width='180' clip_height='256' spritepos='trunk' auto_size='false' width='90' height='128' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -8452,7 +8452,7 @@
 <real value='13012'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='0' y='0' clip_width='180' clip_height='256' spritepos='trunk' auto_size='false' width='90' height='128' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
+<sprite image='gfx/forest/forest-3.png' x='0' y='0' clip_width='180' clip_height='256' spritepos='trunk' auto_size='false' width='90' height='128' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -8466,7 +8466,7 @@
 <real value='13012'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='0' y='0' clip_width='180' clip_height='256' spritepos='trunk' auto_size='false' width='90' height='128' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
+<sprite image='gfx/forest/forest-3.png' x='0' y='0' clip_width='180' clip_height='256' spritepos='trunk' auto_size='false' width='90' height='128' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -8944,7 +8944,7 @@
 <real value='95'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='180' y='0' clip_width='189' clip_height='130' spritepos='branch' auto_size='false' width='95' height='65' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
+<sprite image='gfx/forest/forest-3.png' x='180' y='0' clip_width='189' clip_height='130' spritepos='branch' auto_size='false' width='95' height='65' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -8958,7 +8958,7 @@
 <real value='13914'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='0' y='0' clip_width='180' clip_height='256' spritepos='trunk' auto_size='false' width='90' height='128' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
+<sprite image='gfx/forest/forest-3.png' x='0' y='0' clip_width='180' clip_height='256' spritepos='trunk' auto_size='false' width='90' height='128' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -8972,7 +8972,7 @@
 <real value='13914'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='0' y='0' clip_width='180' clip_height='256' spritepos='trunk' auto_size='false' width='90' height='128' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
+<sprite image='gfx/forest/forest-3.png' x='0' y='0' clip_width='180' clip_height='256' spritepos='trunk' auto_size='false' width='90' height='128' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -8986,7 +8986,7 @@
 <real value='13914'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='0' y='0' clip_width='180' clip_height='256' spritepos='trunk' auto_size='false' width='90' height='128' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
+<sprite image='gfx/forest/forest-3.png' x='0' y='0' clip_width='180' clip_height='256' spritepos='trunk' auto_size='false' width='90' height='128' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -9083,7 +9083,7 @@
 <real value='14017'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='180' y='184' clip_width='50' clip_height='48' spritepos='grass' auto_size='false' width='25' height='24' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
+<sprite image='gfx/forest/forest-3.png' x='180' y='184' clip_width='50' clip_height='48' spritepos='grass' auto_size='false' width='25' height='24' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.5' green_intensity='0.5' blue_intensity='0.5'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -9195,7 +9195,7 @@
 <real value='1354'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='180' y='184' clip_width='50' clip_height='48' spritepos='grass' auto_size='true' width='50' height='48' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+<sprite image='gfx/forest/forest-3.png' x='180' y='184' clip_width='50' clip_height='48' spritepos='grass' auto_size='true' width='50' height='48' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -9268,7 +9268,7 @@
 <real value='1742'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='180' y='184' clip_width='50' clip_height='48' spritepos='grass' auto_size='true' width='50' height='48' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+<sprite image='gfx/forest/forest-3.png' x='180' y='184' clip_width='50' clip_height='48' spritepos='grass' auto_size='true' width='50' height='48' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -9285,7 +9285,7 @@
 <real value='1769'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='180' y='184' clip_width='50' clip_height='48' spritepos='grass' auto_size='true' width='50' height='48' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+<sprite image='gfx/forest/forest-3.png' x='180' y='184' clip_width='50' clip_height='48' spritepos='grass' auto_size='true' width='50' height='48' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -9302,7 +9302,7 @@
 <real value='2536'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='230' y='130' clip_width='100' clip_height='119' spritepos='shrub' auto_size='true' width='100' height='119' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+<sprite image='gfx/forest/forest-3.png' x='230' y='130' clip_width='100' clip_height='119' spritepos='shrub' auto_size='true' width='100' height='119' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -9319,7 +9319,7 @@
 <real value='3208'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='180' y='184' clip_width='50' clip_height='48' spritepos='grass' auto_size='true' width='50' height='48' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+<sprite image='gfx/forest/forest-3.png' x='180' y='184' clip_width='50' clip_height='48' spritepos='grass' auto_size='true' width='50' height='48' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -9434,7 +9434,7 @@
 <real value='3977'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='0' y='0' clip_width='180' clip_height='256' spritepos='trunk' auto_size='true' width='180' height='256' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+<sprite image='gfx/forest/forest-3.png' x='0' y='0' clip_width='180' clip_height='256' spritepos='trunk' auto_size='true' width='180' height='256' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -9448,7 +9448,7 @@
 <real value='3977'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='0' y='0' clip_width='180' clip_height='256' spritepos='trunk' auto_size='true' width='180' height='256' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+<sprite image='gfx/forest/forest-3.png' x='0' y='0' clip_width='180' clip_height='256' spritepos='trunk' auto_size='true' width='180' height='256' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -9524,7 +9524,7 @@
 <real value='5310'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='180' y='184' clip_width='50' clip_height='48' spritepos='grass' auto_size='true' width='50' height='48' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+<sprite image='gfx/forest/forest-3.png' x='180' y='184' clip_width='50' clip_height='48' spritepos='grass' auto_size='true' width='50' height='48' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -9634,7 +9634,7 @@
 <real value='5667'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='230' y='130' clip_width='100' clip_height='119' spritepos='shrub' auto_size='true' width='100' height='119' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+<sprite image='gfx/forest/forest-3.png' x='230' y='130' clip_width='100' clip_height='119' spritepos='shrub' auto_size='true' width='100' height='119' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -9682,7 +9682,7 @@
 <real value='7199'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='180' y='184' clip_width='50' clip_height='48' spritepos='grass' auto_size='true' width='50' height='48' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+<sprite image='gfx/forest/forest-3.png' x='180' y='184' clip_width='50' clip_height='48' spritepos='grass' auto_size='true' width='50' height='48' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -9859,7 +9859,7 @@
 <real value='8860'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='230' y='130' clip_width='100' clip_height='119' spritepos='shrub' auto_size='true' width='100' height='119' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+<sprite image='gfx/forest/forest-3.png' x='230' y='130' clip_width='100' clip_height='119' spritepos='shrub' auto_size='true' width='100' height='119' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -9893,7 +9893,7 @@
 <real value='9001'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='0' y='0' clip_width='180' clip_height='256' spritepos='trunk' auto_size='true' width='180' height='256' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.75' green_intensity='0.75' blue_intensity='0.65'/>
+<sprite image='gfx/forest/forest-3.png' x='0' y='0' clip_width='180' clip_height='256' spritepos='trunk' auto_size='true' width='180' height='256' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.75' green_intensity='0.75' blue_intensity='0.65'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -9924,7 +9924,7 @@
 <real value='9027'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='180' y='184' clip_width='50' clip_height='48' spritepos='grass' auto_size='true' width='50' height='48' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+<sprite image='gfx/forest/forest-3.png' x='180' y='184' clip_width='50' clip_height='48' spritepos='grass' auto_size='true' width='50' height='48' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -10034,7 +10034,7 @@
 <real value='9153'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='180' y='184' clip_width='50' clip_height='48' spritepos='grass' auto_size='true' width='50' height='48' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+<sprite image='gfx/forest/forest-3.png' x='180' y='184' clip_width='50' clip_height='48' spritepos='grass' auto_size='true' width='50' height='48' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -10065,7 +10065,7 @@
 <real value='9189'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='180' y='184' clip_width='50' clip_height='48' spritepos='grass' auto_size='true' width='50' height='48' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+<sprite image='gfx/forest/forest-3.png' x='180' y='184' clip_width='50' clip_height='48' spritepos='grass' auto_size='true' width='50' height='48' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -10096,7 +10096,7 @@
 <real value='9274'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='180' y='184' clip_width='50' clip_height='48' spritepos='grass' auto_size='true' width='50' height='48' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+<sprite image='gfx/forest/forest-3.png' x='180' y='184' clip_width='50' clip_height='48' spritepos='grass' auto_size='true' width='50' height='48' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -10130,7 +10130,7 @@
 <real value='9482'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='0' y='0' clip_width='180' clip_height='256' spritepos='trunk' auto_size='true' width='180' height='256' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.75' green_intensity='0.75' blue_intensity='0.65'/>
+<sprite image='gfx/forest/forest-3.png' x='0' y='0' clip_width='180' clip_height='256' spritepos='trunk' auto_size='true' width='180' height='256' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.75' green_intensity='0.75' blue_intensity='0.65'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -10147,7 +10147,7 @@
 <real value='9482'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='0' y='0' clip_width='180' clip_height='256' spritepos='trunk' auto_size='true' width='180' height='256' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.75' green_intensity='0.75' blue_intensity='0.65'/>
+<sprite image='gfx/forest/forest-3.png' x='0' y='0' clip_width='180' clip_height='256' spritepos='trunk' auto_size='true' width='180' height='256' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.75' green_intensity='0.75' blue_intensity='0.65'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -10321,7 +10321,7 @@
 <real value='9985'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='375' y='0' clip_width='64' clip_height='240' spritepos='background of the hollow trunk (left)' auto_size='true' width='64' height='240' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+<sprite image='gfx/forest/forest-3.png' x='375' y='0' clip_width='64' clip_height='240' spritepos='background of the hollow trunk (left)' auto_size='true' width='64' height='240' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -10355,7 +10355,7 @@
 <real value='61'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='400' y='128' clip_width='112' clip_height='128' spritepos='' auto_size='true' width='112' height='128' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+<sprite image='gfx/forest/forest-3.png' x='400' y='128' clip_width='112' clip_height='128' spritepos='' auto_size='true' width='112' height='128' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -10425,7 +10425,7 @@
 <real value='10400'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='442' y='0' clip_width='70' clip_height='240' spritepos='background of the hollow trunk (right)' auto_size='true' width='70' height='240' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+<sprite image='gfx/forest/forest-3.png' x='442' y='0' clip_width='70' clip_height='240' spritepos='background of the hollow trunk (right)' auto_size='true' width='70' height='240' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -10459,7 +10459,7 @@
 <real value='10465'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='180' y='130' clip_width='50' clip_height='54' spritepos='mushroom' auto_size='true' width='50' height='54' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+<sprite image='gfx/forest/forest-3.png' x='180' y='130' clip_width='50' clip_height='54' spritepos='mushroom' auto_size='true' width='50' height='54' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -10493,7 +10493,7 @@
 <real value='10762'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='0' y='0' clip_width='180' clip_height='256' spritepos='trunk' auto_size='true' width='180' height='256' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.75' green_intensity='0.75' blue_intensity='0.65'/>
+<sprite image='gfx/forest/forest-3.png' x='0' y='0' clip_width='180' clip_height='256' spritepos='trunk' auto_size='true' width='180' height='256' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.75' green_intensity='0.75' blue_intensity='0.65'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -10510,7 +10510,7 @@
 <real value='10783'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='180' y='184' clip_width='50' clip_height='48' spritepos='grass' auto_size='true' width='50' height='48' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+<sprite image='gfx/forest/forest-3.png' x='180' y='184' clip_width='50' clip_height='48' spritepos='grass' auto_size='true' width='50' height='48' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -10527,7 +10527,7 @@
 <real value='10812'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='180' y='184' clip_width='50' clip_height='48' spritepos='grass' auto_size='true' width='50' height='48' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+<sprite image='gfx/forest/forest-3.png' x='180' y='184' clip_width='50' clip_height='48' spritepos='grass' auto_size='true' width='50' height='48' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -10544,7 +10544,7 @@
 <real value='10898'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='180' y='184' clip_width='50' clip_height='48' spritepos='grass' auto_size='true' width='50' height='48' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+<sprite image='gfx/forest/forest-3.png' x='180' y='184' clip_width='50' clip_height='48' spritepos='grass' auto_size='true' width='50' height='48' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -10620,7 +10620,7 @@
 <real value='11076'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='180' y='184' clip_width='50' clip_height='48' spritepos='grass' auto_size='true' width='50' height='48' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+<sprite image='gfx/forest/forest-3.png' x='180' y='184' clip_width='50' clip_height='48' spritepos='grass' auto_size='true' width='50' height='48' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -10821,7 +10821,7 @@
 <real value='13141'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='180' y='184' clip_width='50' clip_height='48' spritepos='grass' auto_size='true' width='50' height='48' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+<sprite image='gfx/forest/forest-3.png' x='180' y='184' clip_width='50' clip_height='48' spritepos='grass' auto_size='true' width='50' height='48' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -10852,7 +10852,7 @@
 <real value='13162'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='0' y='0' clip_width='180' clip_height='256' spritepos='trunk' auto_size='true' width='180' height='256' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+<sprite image='gfx/forest/forest-3.png' x='0' y='0' clip_width='180' clip_height='256' spritepos='trunk' auto_size='true' width='180' height='256' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -10866,7 +10866,7 @@
 <real value='13162'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='0' y='0' clip_width='180' clip_height='256' spritepos='trunk' auto_size='true' width='180' height='256' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+<sprite image='gfx/forest/forest-3.png' x='0' y='0' clip_width='180' clip_height='256' spritepos='trunk' auto_size='true' width='180' height='256' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -10883,7 +10883,7 @@
 <real value='13262'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='180' y='184' clip_width='50' clip_height='48' spritepos='grass' auto_size='true' width='50' height='48' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+<sprite image='gfx/forest/forest-3.png' x='180' y='184' clip_width='50' clip_height='48' spritepos='grass' auto_size='true' width='50' height='48' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -10965,7 +10965,7 @@
 <real value='13716'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='230' y='130' clip_width='100' clip_height='119' spritepos='shrub' auto_size='true' width='100' height='119' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+<sprite image='gfx/forest/forest-3.png' x='230' y='130' clip_width='100' clip_height='119' spritepos='shrub' auto_size='true' width='100' height='119' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -11103,7 +11103,7 @@
 <real value='14511'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='180' y='184' clip_width='50' clip_height='48' spritepos='grass' auto_size='true' width='50' height='48' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+<sprite image='gfx/forest/forest-3.png' x='180' y='184' clip_width='50' clip_height='48' spritepos='grass' auto_size='true' width='50' height='48' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -11162,7 +11162,7 @@
 <real value='14762'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='180' y='184' clip_width='50' clip_height='48' spritepos='grass' auto_size='true' width='50' height='48' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+<sprite image='gfx/forest/forest-3.png' x='180' y='184' clip_width='50' clip_height='48' spritepos='grass' auto_size='true' width='50' height='48' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -11179,7 +11179,7 @@
 <real value='14812'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='180' y='130' clip_width='50' clip_height='54' spritepos='mushroom' auto_size='true' width='50' height='54' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+<sprite image='gfx/forest/forest-3.png' x='180' y='130' clip_width='50' clip_height='54' spritepos='mushroom' auto_size='true' width='50' height='54' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -11233,7 +11233,7 @@
 <real value='15789'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='180' y='184' clip_width='50' clip_height='48' spritepos='grass' auto_size='true' width='50' height='48' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+<sprite image='gfx/forest/forest-3.png' x='180' y='184' clip_width='50' clip_height='48' spritepos='grass' auto_size='true' width='50' height='48' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -11340,7 +11340,7 @@
 <real value='16380'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='0' y='0' clip_width='180' clip_height='256' spritepos='trunk' auto_size='true' width='180' height='256' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.75' green_intensity='0.75' blue_intensity='0.65'/>
+<sprite image='gfx/forest/forest-3.png' x='0' y='0' clip_width='180' clip_height='256' spritepos='trunk' auto_size='true' width='180' height='256' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.75' green_intensity='0.75' blue_intensity='0.65'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -11388,7 +11388,7 @@
 <real value='16790'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='0' y='0' clip_width='180' clip_height='256' spritepos='trunk' auto_size='true' width='180' height='256' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.75' green_intensity='0.75' blue_intensity='0.65'/>
+<sprite image='gfx/forest/forest-3.png' x='0' y='0' clip_width='180' clip_height='256' spritepos='trunk' auto_size='true' width='180' height='256' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.75' green_intensity='0.75' blue_intensity='0.65'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -11422,7 +11422,7 @@
 <real value='17020'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='230' y='130' clip_width='100' clip_height='119' spritepos='shrub' auto_size='true' width='100' height='119' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+<sprite image='gfx/forest/forest-3.png' x='230' y='130' clip_width='100' clip_height='119' spritepos='shrub' auto_size='true' width='100' height='119' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -11473,7 +11473,7 @@
 <real value='17583'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='0' y='0' clip_width='180' clip_height='256' spritepos='trunk' auto_size='true' width='180' height='256' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.75' green_intensity='0.75' blue_intensity='0.65'/>
+<sprite image='gfx/forest/forest-3.png' x='0' y='0' clip_width='180' clip_height='256' spritepos='trunk' auto_size='true' width='180' height='256' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.75' green_intensity='0.75' blue_intensity='0.65'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -11708,7 +11708,7 @@
 <real value='18302'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='180' y='184' clip_width='50' clip_height='48' spritepos='grass' auto_size='true' width='50' height='48' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+<sprite image='gfx/forest/forest-3.png' x='180' y='184' clip_width='50' clip_height='48' spritepos='grass' auto_size='true' width='50' height='48' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -11843,7 +11843,7 @@
 <real value='18741'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='230' y='130' clip_width='100' clip_height='119' spritepos='shrub' auto_size='true' width='100' height='119' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+<sprite image='gfx/forest/forest-3.png' x='230' y='130' clip_width='100' clip_height='119' spritepos='shrub' auto_size='true' width='100' height='119' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -11860,7 +11860,7 @@
 <real value='18748'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='0' y='0' clip_width='180' clip_height='256' spritepos='trunk' auto_size='true' width='180' height='256' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.75' green_intensity='0.75' blue_intensity='0.65'/>
+<sprite image='gfx/forest/forest-3.png' x='0' y='0' clip_width='180' clip_height='256' spritepos='trunk' auto_size='true' width='180' height='256' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.75' green_intensity='0.75' blue_intensity='0.65'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -11891,7 +11891,7 @@
 <real value='18827'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='180' y='184' clip_width='50' clip_height='48' spritepos='grass' auto_size='true' width='50' height='48' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+<sprite image='gfx/forest/forest-3.png' x='180' y='184' clip_width='50' clip_height='48' spritepos='grass' auto_size='true' width='50' height='48' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -12026,7 +12026,7 @@
 <real value='20171'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='0' y='0' clip_width='180' clip_height='256' spritepos='trunk' auto_size='true' width='180' height='256' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+<sprite image='gfx/forest/forest-3.png' x='0' y='0' clip_width='180' clip_height='256' spritepos='trunk' auto_size='true' width='180' height='256' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -12040,7 +12040,7 @@
 <real value='20171'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='0' y='0' clip_width='180' clip_height='256' spritepos='trunk' auto_size='true' width='180' height='256' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+<sprite image='gfx/forest/forest-3.png' x='0' y='0' clip_width='180' clip_height='256' spritepos='trunk' auto_size='true' width='180' height='256' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -12144,7 +12144,7 @@
 <real value='20343'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='0' y='0' clip_width='180' clip_height='256' spritepos='trunk' auto_size='true' width='180' height='256' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.75' green_intensity='0.75' blue_intensity='0.65'/>
+<sprite image='gfx/forest/forest-3.png' x='0' y='0' clip_width='180' clip_height='256' spritepos='trunk' auto_size='true' width='180' height='256' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.75' green_intensity='0.75' blue_intensity='0.65'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -12263,7 +12263,7 @@
 <real value='20665'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='180' y='130' clip_width='50' clip_height='54' spritepos='mushroom' auto_size='true' width='50' height='54' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+<sprite image='gfx/forest/forest-3.png' x='180' y='130' clip_width='50' clip_height='54' spritepos='mushroom' auto_size='true' width='50' height='54' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -12308,7 +12308,7 @@
 <real value='20769'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='0' y='0' clip_width='180' clip_height='256' spritepos='trunk' auto_size='true' width='180' height='256' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.8' green_intensity='0.8' blue_intensity='0.8'/>
+<sprite image='gfx/forest/forest-3.png' x='0' y='0' clip_width='180' clip_height='256' spritepos='trunk' auto_size='true' width='180' height='256' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.8' green_intensity='0.8' blue_intensity='0.8'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -12322,7 +12322,7 @@
 <real value='20769'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='0' y='0' clip_width='180' clip_height='256' spritepos='trunk' auto_size='true' width='180' height='256' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.8' green_intensity='0.8' blue_intensity='0.8'/>
+<sprite image='gfx/forest/forest-3.png' x='0' y='0' clip_width='180' clip_height='256' spritepos='trunk' auto_size='true' width='180' height='256' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.8' green_intensity='0.8' blue_intensity='0.8'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -12336,7 +12336,7 @@
 <real value='20769'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='0' y='0' clip_width='180' clip_height='256' spritepos='trunk' auto_size='true' width='180' height='256' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.8' green_intensity='0.8' blue_intensity='0.8'/>
+<sprite image='gfx/forest/forest-3.png' x='0' y='0' clip_width='180' clip_height='256' spritepos='trunk' auto_size='true' width='180' height='256' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.8' green_intensity='0.8' blue_intensity='0.8'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -12480,7 +12480,7 @@
 <real value='21530'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='0' y='0' clip_width='180' clip_height='256' spritepos='trunk' auto_size='true' width='180' height='256' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.75' green_intensity='0.75' blue_intensity='0.65'/>
+<sprite image='gfx/forest/forest-3.png' x='0' y='0' clip_width='180' clip_height='256' spritepos='trunk' auto_size='true' width='180' height='256' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.75' green_intensity='0.75' blue_intensity='0.65'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -12724,7 +12724,7 @@
 <real value='22202'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='180' y='184' clip_width='50' clip_height='48' spritepos='grass' auto_size='true' width='50' height='48' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='0.6' blue_intensity='0'/>
+<sprite image='gfx/forest/forest-3.png' x='180' y='184' clip_width='50' clip_height='48' spritepos='grass' auto_size='true' width='50' height='48' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='0.6' blue_intensity='0'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -12797,7 +12797,7 @@
 <real value='22266'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='180' y='184' clip_width='50' clip_height='48' spritepos='grass' auto_size='true' width='50' height='48' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='0.6' blue_intensity='0'/>
+<sprite image='gfx/forest/forest-3.png' x='180' y='184' clip_width='50' clip_height='48' spritepos='grass' auto_size='true' width='50' height='48' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='0.6' blue_intensity='0'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -12958,7 +12958,7 @@
 <real value='22570'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='230' y='130' clip_width='100' clip_height='119' spritepos='shrub' auto_size='true' width='100' height='119' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+<sprite image='gfx/forest/forest-3.png' x='230' y='130' clip_width='100' clip_height='119' spritepos='shrub' auto_size='true' width='100' height='119' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -13096,7 +13096,7 @@
 <real value='22737'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='180' y='184' clip_width='50' clip_height='48' spritepos='grass' auto_size='true' width='50' height='48' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+<sprite image='gfx/forest/forest-3.png' x='180' y='184' clip_width='50' clip_height='48' spritepos='grass' auto_size='true' width='50' height='48' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -13113,7 +13113,7 @@
 <real value='22737'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='180' y='184' clip_width='50' clip_height='48' spritepos='grass' auto_size='true' width='50' height='48' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='0.6' blue_intensity='0'/>
+<sprite image='gfx/forest/forest-3.png' x='180' y='184' clip_width='50' clip_height='48' spritepos='grass' auto_size='true' width='50' height='48' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='0.6' blue_intensity='0'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -13190,7 +13190,7 @@
 <real value='22801'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='180' y='184' clip_width='50' clip_height='48' spritepos='grass' auto_size='true' width='50' height='48' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='0.6' blue_intensity='0'/>
+<sprite image='gfx/forest/forest-3.png' x='180' y='184' clip_width='50' clip_height='48' spritepos='grass' auto_size='true' width='50' height='48' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='0.6' blue_intensity='0'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -13708,7 +13708,7 @@
 <real value='24068'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='0' y='0' clip_width='180' clip_height='256' spritepos='trunk' auto_size='true' width='180' height='256' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.75' green_intensity='0.75' blue_intensity='0.65'/>
+<sprite image='gfx/forest/forest-3.png' x='0' y='0' clip_width='180' clip_height='256' spritepos='trunk' auto_size='true' width='180' height='256' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.75' green_intensity='0.75' blue_intensity='0.65'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -13759,7 +13759,7 @@
 <real value='24472'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='180' y='184' clip_width='50' clip_height='48' spritepos='grass' auto_size='true' width='50' height='48' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+<sprite image='gfx/forest/forest-3.png' x='180' y='184' clip_width='50' clip_height='48' spritepos='grass' auto_size='true' width='50' height='48' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -13776,7 +13776,7 @@
 <real value='24561'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='180' y='184' clip_width='50' clip_height='48' spritepos='grass' auto_size='true' width='50' height='48' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+<sprite image='gfx/forest/forest-3.png' x='180' y='184' clip_width='50' clip_height='48' spritepos='grass' auto_size='true' width='50' height='48' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -13793,7 +13793,7 @@
 <real value='24593'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='180' y='130' clip_width='50' clip_height='54' spritepos='mushroom' auto_size='true' width='50' height='54' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+<sprite image='gfx/forest/forest-3.png' x='180' y='130' clip_width='50' clip_height='54' spritepos='mushroom' auto_size='true' width='50' height='54' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -13810,7 +13810,7 @@
 <real value='24625'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='180' y='184' clip_width='50' clip_height='48' spritepos='grass' auto_size='true' width='50' height='48' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+<sprite image='gfx/forest/forest-3.png' x='180' y='184' clip_width='50' clip_height='48' spritepos='grass' auto_size='true' width='50' height='48' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -13841,7 +13841,7 @@
 <real value='25089'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='180' y='130' clip_width='50' clip_height='54' spritepos='mushroom' auto_size='true' width='50' height='54' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+<sprite image='gfx/forest/forest-3.png' x='180' y='130' clip_width='50' clip_height='54' spritepos='mushroom' auto_size='true' width='50' height='54' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -14836,7 +14836,7 @@
 <real value='27513'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='230' y='130' clip_width='100' clip_height='119' spritepos='shrub' auto_size='true' width='100' height='119' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+<sprite image='gfx/forest/forest-3.png' x='230' y='130' clip_width='100' clip_height='119' spritepos='shrub' auto_size='true' width='100' height='119' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -14991,7 +14991,7 @@
 <real value='27680'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='180' y='184' clip_width='50' clip_height='48' spritepos='grass' auto_size='true' width='50' height='48' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+<sprite image='gfx/forest/forest-3.png' x='180' y='184' clip_width='50' clip_height='48' spritepos='grass' auto_size='true' width='50' height='48' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -15269,7 +15269,7 @@
 <real value='28457'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='180' y='130' clip_width='50' clip_height='54' spritepos='mushroom' auto_size='true' width='50' height='54' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+<sprite image='gfx/forest/forest-3.png' x='180' y='130' clip_width='50' clip_height='54' spritepos='mushroom' auto_size='true' width='50' height='54' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -15297,7 +15297,7 @@
 <real value='28561'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='0' y='0' clip_width='180' clip_height='256' spritepos='trunk' auto_size='true' width='180' height='256' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.8' green_intensity='0.8' blue_intensity='0.8'/>
+<sprite image='gfx/forest/forest-3.png' x='0' y='0' clip_width='180' clip_height='256' spritepos='trunk' auto_size='true' width='180' height='256' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.8' green_intensity='0.8' blue_intensity='0.8'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -15311,7 +15311,7 @@
 <real value='28561'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='0' y='0' clip_width='180' clip_height='256' spritepos='trunk' auto_size='true' width='180' height='256' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.8' green_intensity='0.8' blue_intensity='0.8'/>
+<sprite image='gfx/forest/forest-3.png' x='0' y='0' clip_width='180' clip_height='256' spritepos='trunk' auto_size='true' width='180' height='256' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.8' green_intensity='0.8' blue_intensity='0.8'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -15325,7 +15325,7 @@
 <real value='28561'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='0' y='0' clip_width='180' clip_height='256' spritepos='trunk' auto_size='true' width='180' height='256' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.8' green_intensity='0.8' blue_intensity='0.8'/>
+<sprite image='gfx/forest/forest-3.png' x='0' y='0' clip_width='180' clip_height='256' spritepos='trunk' auto_size='true' width='180' height='256' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.8' green_intensity='0.8' blue_intensity='0.8'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -15339,7 +15339,7 @@
 <real value='28561'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='0' y='0' clip_width='180' clip_height='256' spritepos='trunk' auto_size='true' width='180' height='256' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.8' green_intensity='0.8' blue_intensity='0.8'/>
+<sprite image='gfx/forest/forest-3.png' x='0' y='0' clip_width='180' clip_height='256' spritepos='trunk' auto_size='true' width='180' height='256' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.8' green_intensity='0.8' blue_intensity='0.8'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -15404,7 +15404,7 @@
 <real value='28771'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='0' y='0' clip_width='180' clip_height='256' spritepos='trunk' auto_size='true' width='180' height='256' mirror='boolean_true' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+<sprite image='gfx/forest/forest-3.png' x='0' y='0' clip_width='180' clip_height='256' spritepos='trunk' auto_size='true' width='180' height='256' mirror='boolean_true' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -15421,7 +15421,7 @@
 <real value='28771'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='0' y='0' clip_width='180' clip_height='256' spritepos='trunk' auto_size='true' width='180' height='256' mirror='boolean_true' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+<sprite image='gfx/forest/forest-3.png' x='0' y='0' clip_width='180' clip_height='256' spritepos='trunk' auto_size='true' width='180' height='256' mirror='boolean_true' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -15438,7 +15438,7 @@
 <real value='28771'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='0' y='0' clip_width='180' clip_height='256' spritepos='trunk' auto_size='true' width='180' height='256' mirror='boolean_true' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+<sprite image='gfx/forest/forest-3.png' x='0' y='0' clip_width='180' clip_height='256' spritepos='trunk' auto_size='true' width='180' height='256' mirror='boolean_true' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -15939,7 +15939,7 @@
 <real value='31033'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='0' y='0' clip_width='180' clip_height='256' spritepos='trunk' auto_size='true' width='180' height='256' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.75' green_intensity='0.75' blue_intensity='0.65'/>
+<sprite image='gfx/forest/forest-3.png' x='0' y='0' clip_width='180' clip_height='256' spritepos='trunk' auto_size='true' width='180' height='256' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='0.75' green_intensity='0.75' blue_intensity='0.65'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -16716,7 +16716,7 @@
 <real value='34589'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='180' y='184' clip_width='50' clip_height='48' spritepos='grass' auto_size='true' width='50' height='48' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+<sprite image='gfx/forest/forest-3.png' x='180' y='184' clip_width='50' clip_height='48' spritepos='grass' auto_size='true' width='50' height='48' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -16778,7 +16778,7 @@
 <real value='35028'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='230' y='130' clip_width='100' clip_height='119' spritepos='shrub' auto_size='true' width='100' height='119' mirror='boolean_true' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+<sprite image='gfx/forest/forest-3.png' x='230' y='130' clip_width='100' clip_height='119' spritepos='shrub' auto_size='true' width='100' height='119' mirror='boolean_true' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -16812,7 +16812,7 @@
 <real value='35074'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='230' y='130' clip_width='100' clip_height='119' spritepos='shrub' auto_size='true' width='100' height='119' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+<sprite image='gfx/forest/forest-3.png' x='230' y='130' clip_width='100' clip_height='119' spritepos='shrub' auto_size='true' width='100' height='119' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -16829,7 +16829,7 @@
 <real value='35163'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='230' y='130' clip_width='100' clip_height='119' spritepos='shrub' auto_size='true' width='100' height='119' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+<sprite image='gfx/forest/forest-3.png' x='230' y='130' clip_width='100' clip_height='119' spritepos='shrub' auto_size='true' width='100' height='119' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -17940,7 +17940,7 @@
 <real value='1786'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='0' y='0' clip_width='180' clip_height='256' spritepos='trunk' auto_size='true' width='180' height='256' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+<sprite image='gfx/forest/forest-3.png' x='0' y='0' clip_width='180' clip_height='256' spritepos='trunk' auto_size='true' width='180' height='256' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -17957,7 +17957,7 @@
 <real value='1786'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='0' y='0' clip_width='180' clip_height='256' spritepos='trunk' auto_size='true' width='180' height='256' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+<sprite image='gfx/forest/forest-3.png' x='0' y='0' clip_width='180' clip_height='256' spritepos='trunk' auto_size='true' width='180' height='256' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -18959,7 +18959,7 @@
 <integer value='10'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='180' y='0' clip_width='189' clip_height='130' spritepos='branch' auto_size='true' width='189' height='130' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+<sprite image='gfx/forest/forest-3.png' x='180' y='0' clip_width='189' clip_height='130' spritepos='branch' auto_size='true' width='189' height='130' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </field>
 <field name='base_item.position.bottom'>
 <real value='1268'/>
@@ -22585,7 +22585,7 @@
 <integer value='10'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='180' y='0' clip_width='189' clip_height='130' spritepos='branch' auto_size='true' width='189' height='130' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+<sprite image='gfx/forest/forest-3.png' x='180' y='0' clip_width='189' clip_height='130' spritepos='branch' auto_size='true' width='189' height='130' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </field>
 <field name='base_item.position.bottom'>
 <real value='2662'/>
@@ -28535,7 +28535,7 @@
 <real value='19869'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='180' y='234' clip_width='9' clip_height='10' spritepos='leaf' auto_size='true' width='9' height='10' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+<sprite image='gfx/forest/forest-3.png' x='180' y='234' clip_width='9' clip_height='10' spritepos='leaf' auto_size='true' width='9' height='10' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -28558,7 +28558,7 @@
 <real value='19876'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='180' y='234' clip_width='9' clip_height='10' spritepos='leaf' auto_size='true' width='9' height='10' mirror='boolean_true' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+<sprite image='gfx/forest/forest-3.png' x='180' y='234' clip_width='9' clip_height='10' spritepos='leaf' auto_size='true' width='9' height='10' mirror='boolean_true' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -35192,7 +35192,7 @@
 <integer value='10'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='180' y='0' clip_width='189' clip_height='130' spritepos='branch' auto_size='true' width='189' height='130' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+<sprite image='gfx/forest/forest-3.png' x='180' y='0' clip_width='189' clip_height='130' spritepos='branch' auto_size='true' width='189' height='130' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </field>
 <field name='base_item.position.bottom'>
 <real value='1036'/>
@@ -35392,7 +35392,7 @@
 <integer value='10'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='180' y='0' clip_width='189' clip_height='130' spritepos='branch' auto_size='true' width='189' height='130' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+<sprite image='gfx/forest/forest-3.png' x='180' y='0' clip_width='189' clip_height='130' spritepos='branch' auto_size='true' width='189' height='130' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </field>
 <field name='base_item.position.bottom'>
 <real value='820'/>
@@ -37645,7 +37645,7 @@
 <real value='33048'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='180' y='184' clip_width='50' clip_height='48' spritepos='grass' auto_size='true' width='50' height='48' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+<sprite image='gfx/forest/forest-3.png' x='180' y='184' clip_width='50' clip_height='48' spritepos='grass' auto_size='true' width='50' height='48' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -39148,7 +39148,7 @@
 <real value='22228'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='180' y='184' clip_width='50' clip_height='48' spritepos='grass' auto_size='true' width='50' height='48' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='0.7' blue_intensity='0.2'/>
+<sprite image='gfx/forest/forest-3.png' x='180' y='184' clip_width='50' clip_height='48' spritepos='grass' auto_size='true' width='50' height='48' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='0.7' blue_intensity='0.2'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -39165,7 +39165,7 @@
 <real value='22247'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='180' y='184' clip_width='50' clip_height='48' spritepos='grass' auto_size='true' width='50' height='48' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='0.7' blue_intensity='0.2'/>
+<sprite image='gfx/forest/forest-3.png' x='180' y='184' clip_width='50' clip_height='48' spritepos='grass' auto_size='true' width='50' height='48' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='0.7' blue_intensity='0.2'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -39755,7 +39755,7 @@
 <real value='1258'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='230' y='130' clip_width='100' clip_height='119' spritepos='shrub' auto_size='true' width='100' height='119' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+<sprite image='gfx/forest/forest-3.png' x='230' y='130' clip_width='100' clip_height='119' spritepos='shrub' auto_size='true' width='100' height='119' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -39862,7 +39862,7 @@
 <real value='1719'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='180' y='184' clip_width='50' clip_height='48' spritepos='grass' auto_size='true' width='50' height='48' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+<sprite image='gfx/forest/forest-3.png' x='180' y='184' clip_width='50' clip_height='48' spritepos='grass' auto_size='true' width='50' height='48' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -40075,7 +40075,7 @@
 <real value='2542'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='180' y='184' clip_width='50' clip_height='48' spritepos='grass' auto_size='true' width='50' height='48' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+<sprite image='gfx/forest/forest-3.png' x='180' y='184' clip_width='50' clip_height='48' spritepos='grass' auto_size='true' width='50' height='48' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -40182,7 +40182,7 @@
 <real value='2935'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='180' y='184' clip_width='50' clip_height='48' spritepos='grass' auto_size='true' width='50' height='48' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+<sprite image='gfx/forest/forest-3.png' x='180' y='184' clip_width='50' clip_height='48' spritepos='grass' auto_size='true' width='50' height='48' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -40261,7 +40261,7 @@
 <real value='3549'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='180' y='130' clip_width='50' clip_height='54' spritepos='mushroom' auto_size='true' width='50' height='54' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+<sprite image='gfx/forest/forest-3.png' x='180' y='130' clip_width='50' clip_height='54' spritepos='mushroom' auto_size='true' width='50' height='54' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -40523,7 +40523,7 @@
 <real value='4358'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='180' y='184' clip_width='50' clip_height='48' spritepos='grass' auto_size='true' width='50' height='48' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+<sprite image='gfx/forest/forest-3.png' x='180' y='184' clip_width='50' clip_height='48' spritepos='grass' auto_size='true' width='50' height='48' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -41428,7 +41428,7 @@
 <real value='7417'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='180' y='184' clip_width='50' clip_height='48' spritepos='grass' auto_size='true' width='50' height='48' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+<sprite image='gfx/forest/forest-3.png' x='180' y='184' clip_width='50' clip_height='48' spritepos='grass' auto_size='true' width='50' height='48' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -41855,7 +41855,7 @@
 <real value='8684'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='180' y='184' clip_width='50' clip_height='48' spritepos='grass' auto_size='true' width='50' height='48' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+<sprite image='gfx/forest/forest-3.png' x='180' y='184' clip_width='50' clip_height='48' spritepos='grass' auto_size='true' width='50' height='48' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -42101,7 +42101,7 @@
 <real value='8980'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='180' y='184' clip_width='50' clip_height='48' spritepos='grass' auto_size='true' width='50' height='48' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+<sprite image='gfx/forest/forest-3.png' x='180' y='184' clip_width='50' clip_height='48' spritepos='grass' auto_size='true' width='50' height='48' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -42118,7 +42118,7 @@
 <real value='9013'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='180' y='184' clip_width='50' clip_height='48' spritepos='grass' auto_size='true' width='50' height='48' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+<sprite image='gfx/forest/forest-3.png' x='180' y='184' clip_width='50' clip_height='48' spritepos='grass' auto_size='true' width='50' height='48' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -42217,7 +42217,7 @@
 <real value='9344'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='180' y='184' clip_width='50' clip_height='48' spritepos='grass' auto_size='true' width='50' height='48' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+<sprite image='gfx/forest/forest-3.png' x='180' y='184' clip_width='50' clip_height='48' spritepos='grass' auto_size='true' width='50' height='48' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -42234,7 +42234,7 @@
 <real value='9410'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='180' y='184' clip_width='50' clip_height='48' spritepos='grass' auto_size='true' width='50' height='48' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+<sprite image='gfx/forest/forest-3.png' x='180' y='184' clip_width='50' clip_height='48' spritepos='grass' auto_size='true' width='50' height='48' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -42347,7 +42347,7 @@
 <real value='9617'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='180' y='184' clip_width='50' clip_height='48' spritepos='grass' auto_size='true' width='50' height='48' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+<sprite image='gfx/forest/forest-3.png' x='180' y='184' clip_width='50' clip_height='48' spritepos='grass' auto_size='true' width='50' height='48' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -42785,7 +42785,7 @@
 <real value='10722'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='180' y='184' clip_width='50' clip_height='48' spritepos='grass' auto_size='true' width='50' height='48' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+<sprite image='gfx/forest/forest-3.png' x='180' y='184' clip_width='50' clip_height='48' spritepos='grass' auto_size='true' width='50' height='48' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -42875,7 +42875,7 @@
 <real value='10751'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='180' y='184' clip_width='50' clip_height='48' spritepos='grass' auto_size='true' width='50' height='48' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+<sprite image='gfx/forest/forest-3.png' x='180' y='184' clip_width='50' clip_height='48' spritepos='grass' auto_size='true' width='50' height='48' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -43620,7 +43620,7 @@
 <real value='13429'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='180' y='184' clip_width='50' clip_height='48' spritepos='grass' auto_size='true' width='50' height='48' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+<sprite image='gfx/forest/forest-3.png' x='180' y='184' clip_width='50' clip_height='48' spritepos='grass' auto_size='true' width='50' height='48' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -43773,7 +43773,7 @@
 <real value='13724'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='180' y='184' clip_width='50' clip_height='48' spritepos='grass' auto_size='true' width='50' height='48' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+<sprite image='gfx/forest/forest-3.png' x='180' y='184' clip_width='50' clip_height='48' spritepos='grass' auto_size='true' width='50' height='48' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -43849,7 +43849,7 @@
 <real value='13888'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='180' y='184' clip_width='50' clip_height='48' spritepos='grass' auto_size='true' width='50' height='48' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+<sprite image='gfx/forest/forest-3.png' x='180' y='184' clip_width='50' clip_height='48' spritepos='grass' auto_size='true' width='50' height='48' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -45059,7 +45059,7 @@
 <real value='18802'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='180' y='184' clip_width='50' clip_height='48' spritepos='grass' auto_size='true' width='50' height='48' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+<sprite image='gfx/forest/forest-3.png' x='180' y='184' clip_width='50' clip_height='48' spritepos='grass' auto_size='true' width='50' height='48' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -45090,7 +45090,7 @@
 <real value='19016'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='180' y='184' clip_width='50' clip_height='48' spritepos='grass' auto_size='true' width='50' height='48' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+<sprite image='gfx/forest/forest-3.png' x='180' y='184' clip_width='50' clip_height='48' spritepos='grass' auto_size='true' width='50' height='48' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -45454,7 +45454,7 @@
 <real value='20522'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='230' y='130' clip_width='100' clip_height='119' spritepos='shrub' auto_size='true' width='100' height='119' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+<sprite image='gfx/forest/forest-3.png' x='230' y='130' clip_width='100' clip_height='119' spritepos='shrub' auto_size='true' width='100' height='119' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -47214,7 +47214,7 @@
 <real value='23438'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='0' y='0' clip_width='180' clip_height='256' spritepos='trunk' auto_size='true' width='180' height='256' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+<sprite image='gfx/forest/forest-3.png' x='0' y='0' clip_width='180' clip_height='256' spritepos='trunk' auto_size='true' width='180' height='256' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -47769,7 +47769,7 @@
 <real value='24506'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='180' y='184' clip_width='50' clip_height='48' spritepos='grass' auto_size='true' width='50' height='48' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+<sprite image='gfx/forest/forest-3.png' x='180' y='184' clip_width='50' clip_height='48' spritepos='grass' auto_size='true' width='50' height='48' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -47786,7 +47786,7 @@
 <real value='24535'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='180' y='184' clip_width='50' clip_height='48' spritepos='grass' auto_size='true' width='50' height='48' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+<sprite image='gfx/forest/forest-3.png' x='180' y='184' clip_width='50' clip_height='48' spritepos='grass' auto_size='true' width='50' height='48' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -49552,7 +49552,7 @@
 <real value='28943'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='230' y='130' clip_width='100' clip_height='119' spritepos='shrub' auto_size='true' width='100' height='119' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+<sprite image='gfx/forest/forest-3.png' x='230' y='130' clip_width='100' clip_height='119' spritepos='shrub' auto_size='true' width='100' height='119' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -50346,7 +50346,7 @@
 <real value='31862'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='230' y='130' clip_width='100' clip_height='119' spritepos='shrub' auto_size='true' width='100' height='119' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+<sprite image='gfx/forest/forest-3.png' x='230' y='130' clip_width='100' clip_height='119' spritepos='shrub' auto_size='true' width='100' height='119' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -50795,7 +50795,7 @@
 <real value='34176'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='230' y='130' clip_width='100' clip_height='119' spritepos='shrub' auto_size='true' width='100' height='119' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+<sprite image='gfx/forest/forest-3.png' x='230' y='130' clip_width='100' clip_height='119' spritepos='shrub' auto_size='true' width='100' height='119' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
@@ -50914,7 +50914,7 @@
 <real value='35122'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_4.png' x='230' y='130' clip_width='100' clip_height='119' spritepos='shrub' auto_size='true' width='100' height='119' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+<sprite image='gfx/forest/forest-3.png' x='230' y='130' clip_width='100' clip_height='119' spritepos='shrub' auto_size='true' width='100' height='119' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
