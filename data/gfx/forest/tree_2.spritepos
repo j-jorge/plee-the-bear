@@ -1,9 +1,0 @@
-# The format of the lines is
-# picture: x y width height
-
-wall-plant: 361 138 86 103
-daisy: 360 263 64 32
-tree (right): 0 0 351 488
-ivy (left): 354 6 50 124
-ivy (right): 409 6 35 124
-

@@ -2512,7 +2512,7 @@
 <integer value='-62'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_2.png' x='354' y='6' clip_width='50' clip_height='124' spritepos='ivy (left)' auto_size='true' width='50' height='124' mirror='boolean_false' flip='boolean_false' angle='1.57' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+<sprite image='gfx/forest/forest-3.png' x='354' y='6' clip_width='50' clip_height='124' spritepos='ivy (left)' auto_size='true' width='50' height='124' mirror='boolean_false' flip='boolean_false' angle='1.57' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </field>
 <field name='base_item.phantom'>
 <bool value='1'/>
@@ -2594,7 +2594,7 @@
 <integer value='-45'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_2.png' x='409' y='6' clip_width='35' clip_height='124' spritepos='ivy (right)' auto_size='true' width='35' height='124' mirror='boolean_false' flip='boolean_false' angle='1.57' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+<sprite image='gfx/forest/forest-3.png' x='409' y='6' clip_width='35' clip_height='124' spritepos='ivy (right)' auto_size='true' width='35' height='124' mirror='boolean_false' flip='boolean_false' angle='1.57' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </field>
 <field name='base_item.phantom'>
 <bool value='1'/>
@@ -6765,7 +6765,7 @@
 <integer value='-25'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_2.png' x='354' y='6' clip_width='50' clip_height='124' spritepos='ivy (left)' auto_size='true' width='50' height='124' mirror='boolean_false' flip='boolean_true' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+<sprite image='gfx/forest/forest-3.png' x='354' y='6' clip_width='50' clip_height='124' spritepos='ivy (left)' auto_size='true' width='50' height='124' mirror='boolean_false' flip='boolean_true' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </field>
 <field name='base_item.phantom'>
 <bool value='1'/>
@@ -7203,7 +7203,7 @@
 <integer value='50'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_2.png' x='354' y='6' clip_width='50' clip_height='80' spritepos='' auto_size='true' width='50' height='80' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+<sprite image='gfx/forest/forest-3.png' x='354' y='6' clip_width='50' clip_height='80' spritepos='' auto_size='true' width='50' height='80' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </field>
 <field name='base_item.global'>
 <bool value='1'/>
@@ -7478,7 +7478,7 @@
 <u_integer value='10'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_2.png' x='409' y='6' clip_width='35' clip_height='124' spritepos='ivy (right)' auto_size='true' width='35' height='124' mirror='boolean_false' flip='boolean_true' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+<sprite image='gfx/forest/forest-3.png' x='409' y='6' clip_width='35' clip_height='124' spritepos='ivy (right)' auto_size='true' width='35' height='124' mirror='boolean_false' flip='boolean_true' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </field>
 <field name='base_item.phantom'>
 <bool value='1'/>
@@ -7519,7 +7519,7 @@
 <integer value='50'/>
 </field>
 <field name='item_with_decoration.sprite'>
-<sprite image='gfx/forest/tree_2.png' x='409' y='6' clip_width='35' clip_height='80' spritepos='' auto_size='true' width='35' height='80' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+<sprite image='gfx/forest/forest-3.png' x='409' y='6' clip_width='35' clip_height='80' spritepos='' auto_size='true' width='35' height='80' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
 </field>
 <field name='base_item.global'>
 <bool value='1'/>
