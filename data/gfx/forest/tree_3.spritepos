@@ -1,7 +1,0 @@
-# The format of the lines is
-# picture: x y width height
-
-bottom of the tree: 0 0 495 250
-left branch: 2 259 220 150
-right branch: 260 258 233 152
-
