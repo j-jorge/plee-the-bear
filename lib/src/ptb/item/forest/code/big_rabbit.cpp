@@ -988,27 +988,28 @@ void ptb::big_rabbit::on_snout_collision
 ( bear::engine::base_item& mark, bear::engine::base_item& that,
   bear::universe::collision_info& info )
 {
-  if ( info.get_collision_side() == bear::universe::zone::middle_zone )
+  if ( ( info.get_collision_side() == bear::universe::zone::middle_zone )
+       || m_dead )
     return;
 
   mark.default_collision(info);
 
-  bool a = true;
-
   player_proxy p(&that);
-  if ( (p != NULL) && p.is_in_offensive_phase() && !m_dead )
+
+  if ( (p != NULL) && p.is_in_offensive_phase() )
+    start_model_action("self_attack");
+  else
     {
-      start_model_action("self_attack");
-      a = false;
+      monster* other = dynamic_cast<monster*>(&that);
+
+      if ( other != NULL )
+        {
+          other->attack(*this);
+          start_model_action("self_attack");
+        }
+      else
+        attack(that);
     }
-
-  monster* other = dynamic_cast<monster*>(&that);
-
-  if ( other != NULL )
-    other->attack(*this);
-
-  if ( a )
-    attack(that);
 } // big_rabbit::on_snout_collision()
 
 /*----------------------------------------------------------------------------*/
