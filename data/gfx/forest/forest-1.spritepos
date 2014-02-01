@@ -10,5 +10,8 @@ leaves 2: 726 299 288 178
 blue flower 1: 893 550 113 164
 leaves 1: 0 758 264 160
 top: 265 758 497 140
-right branch: 763 758 235 138
-middle branch: 799 0 212 126
+right branch: 763 758 187 125
+left leaves: 799 0 195 102
+middle branch: 951 758 60 99
+right leaves: 799 103 196 97
+middle leaves: 0 919 212 93

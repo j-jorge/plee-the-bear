@@ -21,11 +21,23 @@ flower "flower/flower.xcf.bz2"
   ;
 
 "right branch" autosize * 0.5 with tree
-  "right"
+  "right branch"
+  ;
+
+"right leaves" autosize * 0.5 with tree
+  "right leaves"
+  ;
+
+"left leaves" autosize * 0.5 with tree
+  "left leaves"
   ;
 
 "middle branch" autosize * 0.5 with tree
-  "middle"
+  "middle branch"
+  ;
+
+"middle leaves" autosize * 0.5 with tree
+  "middle leaves"
   ;
 
 "leaves 1" "leaves 1" * 0.5 with tree
