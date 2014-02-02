@@ -1,8 +1,6 @@
 /*----------------------------------------------------------------------------*/
 sprite_sheet "forest-2" 1024 x 1024 margin 1
 
-tree "tree/tree.xcf.bz2"
-
 base_block "wall/base-block.xcf.bz2"
 ground_corner "wall/right-corner.xcf.bz2"
 ceiling_corner "wall/right-corner-ceiling.xcf.bz2"
@@ -10,10 +8,6 @@ ceiling_corner "wall/right-corner-ceiling.xcf.bz2"
 sin_slope "slope/sin-slope.xcf.bz2"
 
 flower "flower/flower.xcf.bz2"
-
-"left branch" autosize * 0.5 with tree
-  "left"
-  ;
 
 /*----------------------------------------------------------------------------*/
 /* -- Ground, walls, blocks -- */

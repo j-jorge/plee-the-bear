@@ -32,6 +32,10 @@ flower "flower/flower.xcf.bz2"
   "left leaves"
   ;
 
+"left branch" autosize * 0.5 with tree
+  "left branch"
+  ;
+
 "middle branch" autosize * 0.5 with tree
   "middle branch"
   ;
