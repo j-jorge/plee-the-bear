@@ -1,0 +1,29 @@
+/*----------------------------------------------------------------------------*/
+sprite_sheet "forest-4" 1024 x 1024 margin 1 order "height"
+
+ceiling_slope_down "ceiling/ceiling-slope-down.xcf.bz2"
+ceiling_slope_up "ceiling/ceiling-slope-up.xcf.bz2"
+
+/*----------------------------------------------------------------------------*/
+/* -- Ceiling -- */
+/* ---------------------------------------------------------------------------*/
+
+"ceiling slope corner" "corner" * 0.5 with ceiling_slope_down
+  "corner"
+  ;
+
+"ceiling slope down 1" "left part mask" * 0.5 with ceiling_slope_down
+  "fill"
+  ;
+
+"ceiling slope down 2" "right part mask" * 0.5 with ceiling_slope_down
+  "fill"
+  ;
+
+"ceiling slope up 1" "left part mask" * 0.5 with ceiling_slope_up
+  "fill"
+  ;
+
+"ceiling slope up 2" "right part mask" * 0.5 with ceiling_slope_up
+  "fill"
+  ;

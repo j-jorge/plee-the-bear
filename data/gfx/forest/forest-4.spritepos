@@ -1,0 +1,5 @@
+ceiling slope down 2: 0 0 256 384
+ceiling slope up 2: 257 0 256 384
+ceiling slope down 1: 514 0 256 256
+ceiling slope up 1: 0 385 256 256
+ceiling slope corner: 771 0 128 128
