@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <level name='The Castle Act 1' width='31000' height='8000' music='music/castle.ogg'>
-  <layer class_name='decoration_layer' name='' width='1600' height='1200' fit_level='0'>
+  <layer class_name='decoration_layer' name='' width='1600' height='1200' fit_level='0' tag=''>
 
 <items>
     <item class_name='bear::decorative_item' fixed='true'>
@@ -263,7 +263,7 @@
 
   </layer><!-- decoration_layer -->
 
-  <layer class_name='decoration_layer' name='Background walls' width='31000' height='8000' fit_level='1'>
+  <layer class_name='decoration_layer' name='Background walls' width='31000' height='8000' fit_level='1' tag=''>
 
 <items>
     <item class_name='bear::decorative_item' fixed='true'>
@@ -11753,7 +11753,7 @@
 
   </layer><!-- decoration_layer -->
 
-  <layer class_name='decoration_layer' name='Far background wall' width='31100' height='8000' fit_level='0'>
+  <layer class_name='decoration_layer' name='Far background wall' width='31100' height='8000' fit_level='0' tag=''>
 
 <items>
     <item class_name='bear::decorative_item' fixed='true'>
@@ -15611,7 +15611,7 @@
 
   </layer><!-- decoration_layer -->
 
-  <layer class_name='decoration_layer' name='Wall fill and decorations' width='31000' height='8000' fit_level='1'>
+  <layer class_name='decoration_layer' name='Wall fill and decorations' width='31000' height='8000' fit_level='1' tag=''>
 
 <items>
     <item class_name='bear::decorative_item' fixed='true'>
@@ -31696,7 +31696,7 @@
 
   </layer><!-- decoration_layer -->
 
-  <layer class_name='action_layer' name='' width='31000' height='8000' fit_level='1'>
+  <layer class_name='action_layer' name='' width='31000' height='8000' fit_level='1' tag=''>
 
 <items>
     <item class_name='bear::block' fixed='true'>
@@ -34266,30 +34266,30 @@
 <integer value='-30'/>
 </field>
 <field name='item_waiting_for_players.animation_for_all'>
-<animation loops='0' first_index='0' last_index='0' loop_back='false' auto_size='true' width='142' height='128' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'>
+<animation loops='0' first_index='0' last_index='0' loop_back='false' auto_size='true' width='141' height='128' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'>
   <frame duration='1'>
-    <sprite image='gfx/coop/totem.png' x='142' y='256' clip_width='142' clip_height='128' spritepos='brown green' auto_size='true' width='142' height='128' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+    <sprite image='gfx/coop/totem.png' x='284' y='258' clip_width='141' clip_height='128' spritepos='brown green' auto_size='true' width='141' height='128' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
   </frame>
 </animation>
 </field>
 <field name='item_waiting_for_players.animation_for_single_one'>
-<animation loops='0' first_index='0' last_index='0' loop_back='false' auto_size='true' width='142' height='128' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'>
+<animation loops='0' first_index='0' last_index='0' loop_back='false' auto_size='true' width='141' height='128' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'>
   <frame duration='1'>
-    <sprite image='gfx/coop/totem.png' x='284' y='128' clip_width='142' clip_height='128' spritepos='brown left' auto_size='true' width='142' height='128' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+    <sprite image='gfx/coop/totem.png' x='0' y='258' clip_width='141' clip_height='128' spritepos='brown left' auto_size='true' width='141' height='128' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
   </frame>
 </animation>
 </field>
 <field name='item_waiting_for_players.animation_for_single_two'>
-<animation loops='0' first_index='0' last_index='0' loop_back='false' auto_size='true' width='142' height='128' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'>
+<animation loops='0' first_index='0' last_index='0' loop_back='false' auto_size='true' width='141' height='128' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'>
   <frame duration='1'>
-    <sprite image='gfx/coop/totem.png' x='0' y='256' clip_width='142' clip_height='128' spritepos='brown right' auto_size='true' width='142' height='128' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+    <sprite image='gfx/coop/totem.png' x='142' y='258' clip_width='141' clip_height='128' spritepos='brown right' auto_size='true' width='141' height='128' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
   </frame>
 </animation>
 </field>
 <field name='item_waiting_for_players.animation_off'>
-<animation loops='0' first_index='0' last_index='0' loop_back='false' auto_size='true' width='142' height='128' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'>
+<animation loops='0' first_index='0' last_index='0' loop_back='false' auto_size='true' width='141' height='128' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'>
   <frame duration='1'>
-    <sprite image='gfx/coop/totem.png' x='142' y='128' clip_width='142' clip_height='128' spritepos='brown off' auto_size='true' width='142' height='128' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+    <sprite image='gfx/coop/totem.png' x='284' y='129' clip_width='141' clip_height='128' spritepos='brown off' auto_size='true' width='141' height='128' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
   </frame>
 </animation>
 </field>
@@ -59198,11 +59198,8 @@
 <field name='base_item.size.width'>
 <real value='136'/>
 </field>
-<field name='level_exit.exit_name'>
-<string value='bottom_exit'/>
-</field>
 <field name='level_exit.level'>
-<string value='level/forest-2.cl'/>
+<string value='level/castle-2.cl'/>
 </field>
 </fields>
     </item><!-- ptb::level_exit -->
@@ -59220,7 +59217,7 @@
 
   </layer><!-- action_layer -->
 
-  <layer class_name='decoration_layer' name='' width='31000' height='8000' fit_level='1'>
+  <layer class_name='decoration_layer' name='' width='31000' height='8000' fit_level='1' tag=''>
 
 <items>
     <item class_name='bear::decorative_item' fixed='true'>
