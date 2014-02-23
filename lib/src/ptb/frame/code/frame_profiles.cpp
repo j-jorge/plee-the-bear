@@ -92,7 +92,7 @@ void ptb::frame_profiles::create_controls()
   bear::gui::visual_component* cancel_button = create_back_button( font );
   bear::gui::visual_component* remove_button = create_remove_button( font );
 
-  ok_button->set_top( m_profiles->bottom());
+  ok_button->set_top( m_profiles->bottom() - get_margin() );
 
   cancel_button->set_top( ok_button->top() );
   cancel_button->set_left( ok_button->right() + get_margin() );
@@ -114,8 +114,10 @@ void ptb::frame_profiles::create_controls()
 bear::gui::radio_group*
 ptb::frame_profiles::create_profiles_radio_buttons( bear::visual::font f )
 {
-  bear::gui::radio_group* radio_group = new bear::gui::radio_group();
-  get_content().insert( radio_group );
+  bear::gui::radio_group* const radio_group( new bear::gui::radio_group );
+  radio_group->set_size
+    ( std::numeric_limits<bear::gui::size_type>::max(),
+      std::numeric_limits<bear::gui::size_type>::max() );
 
   m_profile_radio_buttons.resize(PTB_NUMBER_OF_PROFILES);
 
@@ -123,14 +125,16 @@ ptb::frame_profiles::create_profiles_radio_buttons( bear::visual::font f )
     {
       m_profile_radio_buttons[i] =
         new bear::gui::radio_button( get_radio_off(), get_radio_on(), f );
+      m_profile_radio_buttons[i]->set_text( "Width fill placeholder" );
 
-      insert_control(*m_profile_radio_buttons[i]);
+      allow_focus(*m_profile_radio_buttons[i]);
       radio_group->add_button(m_profile_radio_buttons[i], get_margin());
     }
 
-  m_profile_radio_buttons.back()->check();
+  radio_group->fit();
+  get_content().insert( radio_group );
 
-  set_borders_up(*radio_group);
+  m_profile_radio_buttons.back()->check();
 
   return radio_group;
 } // frame_profiles::create_profiles_radio_buttons()

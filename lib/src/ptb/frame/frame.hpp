@@ -60,6 +60,7 @@ namespace ptb
     void close_window() const;
 
     void insert_control( bear::gui::visual_component& c );
+    void allow_focus( bear::gui::visual_component& c );
 
     bool process_key_press( const bear::input::key_info& key );
     bool process_button_press( bear::input::joystick::joy_code button,

@@ -219,11 +219,21 @@ void ptb::frame::insert_control( bear::gui::visual_component& c )
 {
   get_content().insert(&c);
 
+  allow_focus( c );
+} // frame::insert_control()
+
+/*----------------------------------------------------------------------------*/
+/**
+ * \brief Insert a control in the list of activable controls.
+ * \param c The control to insert in the list.
+ */
+void ptb::frame::allow_focus( bear::gui::visual_component& c )
+{
   m_controls.push_back(&c);
 
   if ( m_controls.size() == 1 )
     switch_to_control(0);
-} // frame::insert_control()
+} // frame::allow_focus()
 
 /*----------------------------------------------------------------------------*/
 /**
