@@ -129,10 +129,6 @@ namespace ptb
     ( scene_element_list& e, const player_status* data,
       double take_width, double orientation ) const;
     
-    void set_visual_shadows
-    ( scene_element_list& visuals, bear::visual::coordinate_type x,
-      bear::visual::coordinate_type y ) const;
-
     void search_players();
     void create_components();
     void create_persistent_components();

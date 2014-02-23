@@ -30,6 +30,7 @@
 #include "ptb/level_variables.hpp"
 
 #include "visual/bitmap_writing.hpp"
+#include "visual/scene_element_sequence.hpp"
 
 #include <boost/bind.hpp>
 
@@ -349,6 +350,8 @@ void ptb::status_layer::render( scene_element_list& e ) const
 {
   bool player_on(false);
 
+  scene_element_list result;
+
   // render first player status
   if ( m_data_1 != NULL) 
     {
@@ -356,10 +359,7 @@ void ptb::status_layer::render( scene_element_list& e ) const
   
       if ( !m_data_1->get_player().is_a_marionette() )
 	{
-          scene_element_list visuals;
-	  m_data_1->render(visuals);
-          set_visual_shadows( visuals, 3, -3 );
-          e.insert( e.end(), visuals.begin(), visuals.end() );
+	  m_data_1->render( result );
       	  player_on = true;
 	}
     }
@@ -371,10 +371,7 @@ void ptb::status_layer::render( scene_element_list& e ) const
       
       if ( ! m_data_2->get_player().is_a_marionette() )
 	{
-          scene_element_list visuals;
-	  m_data_2->render(visuals);
-          set_visual_shadows( visuals, 3, -3 );
-          e.insert( e.end(), visuals.begin(), visuals.end() );
+	  m_data_2->render(result);
       	  player_on = true;
 	}
     }
@@ -383,13 +380,19 @@ void ptb::status_layer::render( scene_element_list& e ) const
     {
       component_list::const_iterator it;
       for ( it = m_components.begin(); it != m_components.end(); ++it)
-	(*it)->render( e ); 
+	(*it)->render( result ); 
     }
   
   component_map::const_iterator it;
   for ( it = m_persistent_components.begin(); 
 	it != m_persistent_components.end(); ++it)
-    it->second->render( e );
+    it->second->render( result );
+
+  bear::visual::scene_element_sequence sequence( result.begin(), result.end() );
+  sequence.set_shadow( 3, -3 );
+  sequence.set_shadow_opacity( 0.75 );
+    
+  e.push_back( sequence );
 } // status_layer::render()
 
 /*----------------------------------------------------------------------------*/
@@ -466,25 +469,6 @@ void ptb::status_layer::render_notification
   
   data->notification.render(e, pos);
 } // status_layer::render_notification
-
-/*----------------------------------------------------------------------------*/
-/**
- * \brief Adds a shadow to some visuals.
- * \param visuals The visuals.
- * \param x The shadow's distance on the x-axis.
- * \param y The shadow's distance on the y-axis.
- */
-void ptb::status_layer::set_visual_shadows
-( scene_element_list& visuals, bear::visual::coordinate_type x,
-  bear::visual::coordinate_type y ) const
-{
-  for ( scene_element_list::iterator it( visuals.begin() );
-        it != visuals.end(); ++it )
-    {
-      it->set_shadow( x, y );
-      it->set_shadow_opacity( 0.75 );
-    }
-} // status_layer::set_visual_shadows()
 
 /*----------------------------------------------------------------------------*/
 /**

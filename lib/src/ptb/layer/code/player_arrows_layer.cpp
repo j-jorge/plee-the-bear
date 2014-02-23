@@ -180,7 +180,7 @@ void ptb::player_arrows_layer::player_data::adjust_distance
   unsigned int dist = (unsigned int)vect.length() / 100;
 
   const bear::universe::rectangle_type box = m_player.get_bounding_box();
-  bear::visual::font f = glob.get_font("font/bouncy.fnt", 30);
+  bear::visual::font f = glob.get_font("font/Fava-black.ttf", 30);
   if ( box.intersects( visible_area ) )
     m_distance.create(f, "");
   else
@@ -274,7 +274,7 @@ void ptb::player_arrows_layer::search_players( )
           ( get_size(), p,
             get_level_globals().auto_sprite
             ("gfx/ui/status/status.png", "arrow 1"),
-            get_level_globals().get_font("font/bouncy.fnt", 30) );
+            get_level_globals().get_font("font/Fava-black.ttf", 30) );
     }
 
   if ( game_variables::get_players_count() == 2 )
@@ -287,6 +287,6 @@ void ptb::player_arrows_layer::search_players( )
             ( get_size(), p,
               get_level_globals().auto_sprite
               ("gfx/ui/status/status.png", "arrow 2"),
-              get_level_globals().get_font("font/bouncy.fnt", 30) );
+              get_level_globals().get_font("font/Fava-black.ttf", 30) );
       }
 } // player_arrows_layer::search_players( )

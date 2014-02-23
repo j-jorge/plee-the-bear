@@ -48,7 +48,7 @@ void ptb::floating_score::pre_cache()
 {
   super::pre_cache();
 
-  get_level_globals().load_font("font/bouncy.fnt");
+  get_level_globals().load_font("font/lobster.otf");
 } // floating_score::pre_cache()
 
 /*----------------------------------------------------------------------------*/
@@ -59,7 +59,7 @@ void ptb::floating_score::build()
 {
   super::build();
 
-  set_font( get_level_globals().get_font("font/bouncy.fnt", 30) );
+  set_font( get_level_globals().get_font("font/lobster.otf", 30) );
 } // floating_score::build()
 
 /*----------------------------------------------------------------------------*/

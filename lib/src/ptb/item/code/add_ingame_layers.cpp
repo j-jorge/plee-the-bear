@@ -53,11 +53,13 @@ ptb::add_ingame_layers::add_ingame_layers()
  */
 void ptb::add_ingame_layers::pre_cache()
 {
-  get_level_globals().load_font("font/bouncy.fnt");
+  get_level_globals().load_font("font/Fava-black.ttf");
+  get_level_globals().load_font("font/lobster.otf");
   get_level_globals().load_font("font/fixed_white-7x12.fnt");
   get_level_globals().load_font("font/fixed_yellow-10x20.fnt");
   get_level_globals().load_font("font/level_name-42x50.fnt");
   get_level_globals().load_image("gfx/ui/frame.png");
+  get_level_globals().load_image("gfx/ui/ui-1.png");
   get_level_globals().load_image("gfx/ui/status/status.png");
 } // add_ingame_layers::pre_cache()
 
