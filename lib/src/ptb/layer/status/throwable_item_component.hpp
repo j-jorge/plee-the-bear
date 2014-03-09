@@ -34,7 +34,7 @@ namespace ptb
     typedef std::list<floating_bonus> floating_bonus_list;
 
     typedef
-    std::list< claw::memory::smart_ptr<boost::signals::scoped_connection> >
+    std::list< claw::memory::smart_ptr<boost::signals2::scoped_connection> >
     signal_connection_list;
 
   public:

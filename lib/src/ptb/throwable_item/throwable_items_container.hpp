@@ -17,7 +17,7 @@
 #include "ptb/throwable_item/throwable_item.hpp"
 #include "universe/types.hpp"
 
-#include <boost/signal.hpp>
+#include <boost/signals2.hpp>
 #include <map>
 
 namespace ptb
@@ -65,13 +65,13 @@ namespace ptb
 
   public:
     /** \brief The signal when the selected throwable item changes. */
-    boost::signal<void (const std::string&)> throwable_item_changed;
+    boost::signals2::signal<void (const std::string&)> throwable_item_changed;
 
     /** \brief The signal when stock of current throwable item changes. */
-    boost::signal<void (unsigned int)> throwable_item_stock_changed;
+    boost::signals2::signal<void (unsigned int)> throwable_item_stock_changed;
 
     /** \brief The signal when there is no stock. */
-    boost::signal<void (void)> throwable_item_no_stock;
+    boost::signals2::signal<void (void)> throwable_item_no_stock;
   }; // class throwable_items_container
 } // namespace ptb
 

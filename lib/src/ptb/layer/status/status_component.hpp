@@ -22,7 +22,7 @@
 #include "engine/level_globals.hpp"
 #include "engine/layer/gui_layer.hpp"
 
-#include <boost/signals.hpp>
+#include <boost/signals2.hpp>
 #include <claw/tween/tweener_group.hpp>
 
 namespace ptb
@@ -67,7 +67,7 @@ namespace ptb
     virtual void progress( bear::universe::time_type elapsed_time );
     virtual void render( scene_element_list& e ) const;
 
-    void add_signal(const boost::signals::connection& s);
+    void add_signal(const boost::signals2::connection& s);
     void add_tweener( const claw::tween::tweener& t);
     const bear::visual::position_type& get_position() const;
     const bear::visual::position_type& get_render_position() const;
@@ -130,7 +130,7 @@ namespace ptb
     bear::visual::position_type m_inactive_position;
     
     /** \brief The connections to various signals. */
-    std::list<boost::signals::connection> m_signals;
+    std::list<boost::signals2::connection> m_signals;
 
     /** \brief Indicates if the component disappear automatically. */
     bool m_auto_disappear;

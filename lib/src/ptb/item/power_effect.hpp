@@ -20,7 +20,7 @@
 #include "universe/forced_movement/forced_rotation.hpp"
 
 #include <claw/smart_ptr.hpp>
-#include <boost/signals.hpp>
+#include <boost/signals2.hpp>
 
 namespace ptb
 {
@@ -44,7 +44,7 @@ namespace ptb
 
   private:
     typedef
-    std::list< claw::memory::smart_ptr<boost::signals::scoped_connection> >
+    std::list< claw::memory::smart_ptr<boost::signals2::scoped_connection> >
     signal_connection_list;
 
   public:
@@ -57,7 +57,7 @@ namespace ptb
     ( bear::universe::physical_item::item_list& d ) const;
 
   private:
-    void connect( const boost::signals::connection& c );
+    void connect( const boost::signals2::connection& c );
 
     std::size_t get_powers_count() const;
 

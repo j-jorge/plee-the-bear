@@ -115,9 +115,9 @@ void ptb::power_effect::get_dependent_items
  * \brief Add a connection to a boost::signals instance.
  * \param c The connection to follow.
  */
-void ptb::power_effect::connect( const boost::signals::connection& c )
+void ptb::power_effect::connect( const boost::signals2::connection& c )
 {
-  m_signals.push_back( new boost::signals::scoped_connection(c) );
+  m_signals.push_back( new boost::signals2::scoped_connection(c) );
 } // power_effect::connect()
 
 /*----------------------------------------------------------------------------*/
