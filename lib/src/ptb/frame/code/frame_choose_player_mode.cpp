@@ -83,7 +83,8 @@ void ptb::frame_choose_player_mode::start_game( unsigned int p ) const
   if ( vars.begin<std::string>() != vars.end<std::string>() )
     show_window( new frame_play_story(&get_layer()) );
   else
-    bear::engine::game::get_instance().set_waiting_level( "level/init.cl" );
+    bear::engine::game::get_instance().set_waiting_level
+      ( "level/forest-intro.cl" );
 } // frame_choose_player_mode::start_game()
 
 /*----------------------------------------------------------------------------*/
