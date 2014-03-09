@@ -25,10 +25,10 @@ xpath_wrapper()
 (
     echo "Searching strings in source code." 1>&2
     xgettext --output=- --c++ --trigraphs --sort-output \
-	$(find ../../../src/ptb -name "*.[tch]pp") \
+	$(find ../../../lib/src/ptb -name "*.[tch]pp") \
       | sed 's/charset=CHARSET/charset=UTF-8/'
 
-    grep '".*break;' ../../../src/ptb/code/player_action.cpp \
+    grep '".*break;' ../../../lib/src/ptb/code/player_action.cpp \
 	| cut -d'"' -f2 \
 	| tr '_' ' ' \
 	| awk '{ print toupper(substr($0, 1, 1)) substr($0, 2); }' \
