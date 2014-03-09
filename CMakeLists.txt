@@ -105,11 +105,11 @@ link_directories(
 # Boost
 include(FindBoost)
 
-find_package( Boost 1.46 REQUIRED COMPONENTS signals)
+find_package( Boost 1.46 REQUIRED )
 
 if( NOT Boost_FOUND )
   message( FATAL_ERROR 
-    "You must have boost::signals library installed (at least 1.46)" )
+    "You must have Boost library installed (at least 1.46)" )
 endif( NOT Boost_FOUND )
 
 #-------------------------------------------------------------------------------

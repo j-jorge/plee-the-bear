@@ -293,7 +293,6 @@ set(
   bear_generic_items
   bear_gui
   ${CLAW_CONFIGURATION_FILE_LIBRARIES}
-  ${Boost_SIGNALS_LIBRARY}
   )
 
 if(WIN32 OR APPLE)
