@@ -168,7 +168,7 @@ void ptb::launcher::create_game( int& argc, char** &argv )
       "--stats-destination="
       "http://www.stuff-o-matic.com/plee-the-bear/stats/save.php",
 
-      "--start-level=level/title_screen.cl",
+      "--start-level=level/start.cl",
       NULL
     };
 

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<level name='' width='1280' height='768' music=''>
+  <layer class_name='action_layer' name='' width='1280' height='768' fit_level='1' tag=''>
+
+<items>
+    <item class_name='bear::camera' fixed='false'>
+<fields>
+<field name='base_item.size.height'>
+<real value='720'/>
+</field>
+<field name='base_item.size.width'>
+<real value='1280'/>
+</field>
+<field name='camera.active'>
+<bool value='1'/>
+</field>
+</fields>
+    </item><!-- bear::camera -->
+
+    <item class_name='bear::delayed_level_loading' fixed='true'>
+<fields>
+<field name='base_item.position.bottom'>
+<real value='84'/>
+</field>
+<field name='base_item.position.left'>
+<real value='225'/>
+</field>
+<field name='delayed_level_loading.delay'>
+<real value='2'/>
+</field>
+<field name='delayed_level_loading.level'>
+<string value='level/title_screen.cl'/>
+</field>
+</fields>
+    </item><!-- bear::delayed_level_loading -->
+
+    <item class_name='bear::decorative_item' fixed='true' id='logo'>
+<fields>
+<field name='base_item.position.bottom'>
+<real value='207.5'/>
+</field>
+<field name='base_item.position.left'>
+<real value='458'/>
+</field>
+<field name='item_with_decoration.sprite'>
+<sprite image='gfx/stuffomatic/stuffomatic.png' x='0' y='0' clip_width='364' clip_height='353' spritepos='' auto_size='true' width='364' height='353' mirror='boolean_false' flip='boolean_false' angle='0' opacity='1' red_intensity='1' green_intensity='1' blue_intensity='1'/>
+</field>
+</fields>
+    </item><!-- bear::decorative_item -->
+
+    <item class_name='bear::decorative_item' fixed='true' id='loading'>
+<fields>
+<field name='base_item.position.bottom'>
+<real value='165'/>
+</field>
+<field name='base_item.position.left'>
+<real value='525.5'/>
+</field>
+<field name='base_item.size.height'>
+<real value='26'/>
+</field>
+<field name='base_item.size.width'>
+<real value='229'/>
+</field>
+<field name='item_with_text.font'>
+<font path='font/lobster.otf' size='24'/>
+</field>
+<field name='item_with_text.horizontal_align'>
+<string value='align_center'/>
+</field>
+<field name='item_with_text.text'>
+<string value='Loading...'/>
+</field>
+<field name='item_with_text.text_inside'>
+<bool value='1'/>
+</field>
+<field name='item_with_text.vertical_align'>
+<string value='align_middle'/>
+</field>
+</fields>
+    </item><!-- bear::decorative_item -->
+
+</items>
+
+<priority>
+</priority>
+
+  </layer><!-- action_layer -->
+
+</level>

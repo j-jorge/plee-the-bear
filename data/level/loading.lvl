@@ -8,9 +8,6 @@
 <field name='base_item.position.bottom'>
 <real value='113'/>
 </field>
-<field name='base_item.position.left'>
-<real value='0'/>
-</field>
 <field name='base_item.size.height'>
 <real value='100'/>
 </field>
@@ -35,19 +32,34 @@
 </fields>
     </item><!-- bear::decorative_item -->
 
-    <item class_name='bear::decorative_item' fixed='true'>
+    <item class_name='bear::decorative_item' fixed='true' id='loading'>
 <fields>
 <field name='base_item.position.bottom'>
-<real value='20'/>
+<real value='16'/>
 </field>
 <field name='base_item.position.left'>
-<real value='20'/>
+<real value='16'/>
+</field>
+<field name='base_item.size.height'>
+<real value='26'/>
+</field>
+<field name='base_item.size.width'>
+<real value='229'/>
 </field>
 <field name='item_with_text.font'>
-<font path='font/fixed-10x20.fnt' size='20'/>
+<font path='font/lobster.otf' size='24'/>
+</field>
+<field name='item_with_text.horizontal_align'>
+<string value='align_left'/>
 </field>
 <field name='item_with_text.text'>
-<string value='...'/>
+<string value='Loading...'/>
+</field>
+<field name='item_with_text.text_inside'>
+<bool value='1'/>
+</field>
+<field name='item_with_text.vertical_align'>
+<string value='align_bottom'/>
 </field>
 </fields>
     </item><!-- bear::decorative_item -->
