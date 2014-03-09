@@ -36,6 +36,10 @@ ptb::launcher::launcher( int& argc, char** &argv )
 #ifdef WIN32
   bindtextdomain( "bear-engine", "..\\share\\locale\\" );
 
+#elif defined PTB_STATIC
+
+  bindtextdomain( "bear-engine", "share/locale/" );
+
 #elif defined BEAR_TEXT_DOMAIN_PATH
   bindtextdomain( "bear-engine", BOOST_PP_STRINGIZE(BEAR_TEXT_DOMAIN_PATH) );
 #endif
