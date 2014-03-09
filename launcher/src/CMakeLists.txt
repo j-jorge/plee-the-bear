@@ -6,12 +6,30 @@ set( PTB_LAUNCHER_TARGET_NAME plee-the-bear )
 include_directories( . ${BEAR_ENGINE_INCLUDE_DIRECTORY} )
 
 #-------------------------------------------------------------------------------
+# This sets up the exe icon for windows under mingw.
+
+set( PTB_RESOURCES "" )
+
+if(MINGW)
+  set( PTB_RESOURCES "resources.rc")
+  set(CMAKE_RC_COMPILER_INIT windres)
+  ENABLE_LANGUAGE(RC)
+  SET(
+    CMAKE_RC_COMPILE_OBJECT
+    "<CMAKE_RC_COMPILER> <FLAGS> -O coff <DEFINES> -i <SOURCE> -o <OBJECT>"
+  )
+endif()
+
+#-------------------------------------------------------------------------------
 set( PTB_LAUNCHER_SOURCE_FILES
   code/launcher.cpp
   code/main.cpp
   )
 
-add_executable( ${PTB_LAUNCHER_TARGET_NAME} ${PTB_LAUNCHER_SOURCE_FILES} )
+add_executable(
+  ${PTB_LAUNCHER_TARGET_NAME}
+  ${PTB_LAUNCHER_SOURCE_FILES}
+  ${PTB_RESOURCES} )
 
 set_target_properties(
   ${PTB_LAUNCHER_TARGET_NAME}

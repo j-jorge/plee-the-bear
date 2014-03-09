@@ -33,7 +33,10 @@
 ptb::launcher::launcher( int& argc, char** &argv )
   : claw::application(argc, argv), m_game(NULL)
 {
-#ifdef BEAR_TEXT_DOMAIN_PATH
+#ifdef WIN32
+  bindtextdomain( "bear-engine", "..\\share\\locale\\" );
+
+#elif defined BEAR_TEXT_DOMAIN_PATH
   bindtextdomain( "bear-engine", BOOST_PP_STRINGIZE(BEAR_TEXT_DOMAIN_PATH) );
 #endif
 
@@ -121,7 +124,9 @@ void ptb::launcher::init_internationalization() const
                  << "Could not set the text domain directory to '"
                  << text_domain_dir << "'." << std::endl;
 
-  bind_textdomain_codeset( "plee-the-bear", "ISO-8859-15" );
+  claw::logger << claw::log_verbose << "Text domain codeset is "
+	       << bind_textdomain_codeset( "plee-the-bear", "ISO-8859-15" )
+	       << std::endl;
 } // launcher::init_internationalization()
 
 /*----------------------------------------------------------------------------*/
@@ -216,7 +221,7 @@ std::string ptb::launcher::get_application_path() const
   std::string::size_type pos;
 
 #ifdef _WIN32
-  pos = p.find_last_of("\\'");
+  pos = p.find_last_of("\\'/");
 #else
   pos = p.find_last_of('/');
 #endif
