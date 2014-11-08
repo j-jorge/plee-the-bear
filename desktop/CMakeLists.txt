@@ -1,4 +1,4 @@
-install( DIRECTORY "applications" "icons" "pixmaps"
+install( DIRECTORY "appdata" "applications" "icons" "pixmaps"
   DESTINATION "${CMAKE_INSTALL_PREFIX}/share/"
   FILE_PERMISSIONS
   OWNER_READ OWNER_WRITE
@@ -6,8 +6,7 @@ install( DIRECTORY "applications" "icons" "pixmaps"
   WORLD_READ 
   DIRECTORY_PERMISSIONS  OWNER_READ OWNER_WRITE OWNER_EXECUTE
   GROUP_READ GROUP_EXECUTE
-  WORLD_READ WORLD_EXECUTE
-  PATTERN ".svn" EXCLUDE )
+  WORLD_READ WORLD_EXECUTE )
 
 subdirs(locale man)
 
