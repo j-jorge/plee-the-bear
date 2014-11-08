@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 2.6)
-project(rp-launcher)
+project(ptb-launcher)
 
 set( PTB_LAUNCHER_TARGET_NAME plee-the-bear )
 
@@ -125,7 +125,7 @@ if(WIN32)
   set(
     PTB_LAUNCHER_LINK_LIBRARIES
     ${PTB_LAUNCHER_LINK_LIBRARIES}
-    ${SDL_LIBRARY}
+    ${SDL2_LIBRARY}
     intl )
 endif(WIN32)
 
@@ -134,8 +134,8 @@ if(APPLE)
   set(
     PTB_LAUNCHER_LINK_LIBRARIES
     ${PTB_LAUNCHER_LINK_LIBRARIES}
-    ${SDL_LIBRARY}
-    SDLmain
+    ${SDL2_LIBRARY}
+    SDL2main
     intl )
 endif(APPLE)
 

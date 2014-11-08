@@ -53,32 +53,18 @@ set( LIBRARY_OUTPUT_PATH "${EXECUTABLE_OUTPUT_PATH}" )
 set( CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS}" )
 
 #-------------------------------------------------------------------------------
-# check SDL
-include( FindSDL )
+# check SDL2
+include( FindSDL2 )
 
-if( NOT SDL_FOUND )
-  message( FATAL_ERROR "SDL lbrary must be installed." )
-else( NOT SDL_FOUND )
+if( NOT SDL2_FOUND )
+  message( FATAL_ERROR "SDL2 lbrary must be installed." )
+else( NOT SDL2_FOUND )
   #-----------------------------------------------------------------------------
-  # Include directories for SDL
+  # Include directories for SDL2
   include_directories(
-    ${SDL_INCLUDE_DIR}
+    ${SDL2_INCLUDE_DIR}
     )
-endif( NOT SDL_FOUND )
-
-#-------------------------------------------------------------------------------
-# check SDL::mixer
-include( FindSDL_mixer )
-
-if( NOT SDLMIXER_FOUND )
-  message( FATAL_ERROR "SDL_mixer lbrary must be installed." )
-else( NOT SDLMIXER_FOUND )
-  #-----------------------------------------------------------------------------
-  # Include directories for all these libraries
-  include_directories(
-    ${SDLMIXER_INCLUDE_DIR}
-    )
-endif( NOT SDLMIXER_FOUND )
+endif( NOT SDL2_FOUND )
 
 #-------------------------------------------------------------------------------
 # various libraries
