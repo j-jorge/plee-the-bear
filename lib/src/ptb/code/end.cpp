@@ -53,7 +53,7 @@ void save_mini_game()
       bear::engine::resource_pool::get_instance().get_file
         (PTB_MINI_GAME_INFORMATIONS, f);
 
-      CLAW_PRECOND( f );
+      CLAW_PRECOND( !!f );
 
       if (f)
         {

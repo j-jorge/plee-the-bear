@@ -600,7 +600,7 @@ bool ptb::sequencer::load_track_file( const std::string& file_name )
         if ( line[0] != '#' )
           {
             std::istringstream iss(line);
-            result = ( iss >> t.duration >> t.width );
+            result = bool( iss >> t.duration >> t.width );
           }
 
       ++n;
