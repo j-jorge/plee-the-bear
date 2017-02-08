@@ -15,6 +15,8 @@
 #ifndef __PTB_SCORE_MESSAGE_HPP__
 #define __PTB_SCORE_MESSAGE_HPP__
 
+#include "ptb/layer/windows_layer.hpp"
+
 #include "communication/typed_message.hpp"
 
 #include <string>

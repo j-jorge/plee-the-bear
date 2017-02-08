@@ -14,6 +14,8 @@
 #ifndef __PTB_GET_PLAYER_INSTANCE_HPP__
 #define __PTB_GET_PLAYER_INSTANCE_HPP__
 
+#include "ptb/player.hpp"
+
 #include "communication/typed_message.hpp"
 
 #include "ptb/player.hpp" // must be included, not predeclared.

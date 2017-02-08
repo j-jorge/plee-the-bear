@@ -14,6 +14,8 @@
 #ifndef __PTB_STATUS_LAYER_BOSS_MESSAGE_HPP__
 #define __PTB_STATUS_LAYER_BOSS_MESSAGE_HPP__
 
+#include "ptb/layer/status_layer.hpp"
+
 #include "communication/typed_message.hpp"
 
 namespace ptb
