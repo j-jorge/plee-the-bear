@@ -79,17 +79,20 @@ void ptb::power_effect::set_player_index( unsigned int i )
   connect
     ( bear::engine::game::get_instance().listen_bool_variable_change
       ( game_variables::get_air_power_variable_name(i),
-        boost::bind( &power_effect::on_air_power_changed, this, _1) ) );
+        boost::bind( &power_effect::on_air_power_changed, this,
+                     boost::placeholders::_1) ) );
 
   connect
     ( bear::engine::game::get_instance().listen_bool_variable_change
       ( game_variables::get_fire_power_variable_name(i),
-        boost::bind( &power_effect::on_fire_power_changed, this, _1) ) );
+        boost::bind( &power_effect::on_fire_power_changed, this,
+                     boost::placeholders::_1) ) );
 
   connect
     ( bear::engine::game::get_instance().listen_bool_variable_change
       ( game_variables::get_water_power_variable_name(i),
-        boost::bind( &power_effect::on_water_power_changed, this, _1) ) );
+        boost::bind( &power_effect::on_water_power_changed, this,
+                     boost::placeholders::_1) ) );
 } // power_effect::set_player_index()
 
 /*----------------------------------------------------------------------------*/

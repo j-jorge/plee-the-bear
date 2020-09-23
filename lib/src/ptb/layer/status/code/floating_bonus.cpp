@@ -110,7 +110,7 @@ void ptb::floating_bonus::set_position
     ( init_position.x, end_position.x, 1.0,
       boost::bind
       (&floating_bonus::on_x_position_update,
-       this, _1 ), &claw::tween::easing_back::ease_in );
+       this, boost::placeholders::_1 ), &claw::tween::easing_back::ease_in );
   
   m_tweeners.insert(tween_x);
 
@@ -118,7 +118,7 @@ void ptb::floating_bonus::set_position
     ( init_position.y, end_position.y, 1.0,
       boost::bind
       (&floating_bonus::on_y_position_update,
-       this, _1 ), &claw::tween::easing_back::ease_in );
+       this, boost::placeholders::_1 ), &claw::tween::easing_back::ease_in );
   
   m_tweeners.insert(tween_y);
 } // floating_bonus::set_position()

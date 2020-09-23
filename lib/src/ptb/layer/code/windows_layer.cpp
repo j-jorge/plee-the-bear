@@ -390,7 +390,7 @@ void ptb::windows_layer::apply_show_effect( window_item wnd )
 
   const claw::tween::single_tweener t
     ( get_size().y, m_ref_bottom[wnd], s_effect_duration,
-      boost::bind( &frame::set_bottom, wnd, _1 ),
+      boost::bind( &frame::set_bottom, wnd, boost::placeholders::_1 ),
       &claw::tween::easing_back::ease_out );
 
   m_tweener.insert(t);
@@ -415,7 +415,8 @@ void ptb::windows_layer::apply_hide_effect( window_item wnd, bool d )
   // updating the position of the window once it was deleted by the end of the
   // hide effect.
   claw::tween::single_tweener t
-    ( wnd->top(), 0, s_effect_duration, boost::bind( &frame::set_top, wnd, _1 ),
+    ( wnd->top(), 0, s_effect_duration, boost::bind( &frame::set_top, wnd,
+                                                     boost::placeholders::_1 ),
       &claw::tween::easing_quad::ease_out );
 
   if ( d )

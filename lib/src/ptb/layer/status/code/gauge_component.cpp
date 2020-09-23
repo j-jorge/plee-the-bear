@@ -102,7 +102,8 @@ void ptb::gauge_component::on_enters_zone()
       (get_position().x, get_active_position().x, 1,
        boost::bind
        ( &ptb::gauge_component::on_x_position_update,
-	 this, _1 ), &claw::tween::easing_elastic::ease_out ) );
+         this, boost::placeholders::_1 ),
+       &claw::tween::easing_elastic::ease_out ) );
 } // gauge_component::on_enters_zone()
 
 /*----------------------------------------------------------------------------*/
@@ -116,13 +117,15 @@ void ptb::gauge_component::on_leaves_zone()
       (get_position().x, get_position().x, 0.5,
        boost::bind
        ( &ptb::gauge_component::on_x_position_update,
-	 this, _1 ), &claw::tween::easing_linear::ease_in_out ) );
+         this, boost::placeholders::_1 ),
+       &claw::tween::easing_linear::ease_in_out ) );
 
   tween.insert( claw::tween::single_tweener
       (get_position().x, get_inactive_position().x, 1,
        boost::bind
        ( &ptb::gauge_component::on_x_position_update,
-	 this, _1 ), &claw::tween::easing_linear::ease_in_out ) );
+         this, boost::placeholders::_1 ),
+       &claw::tween::easing_linear::ease_in_out ) );
 
   add_tweener( tween );
 } // gauge_component::on_leaves_zone()

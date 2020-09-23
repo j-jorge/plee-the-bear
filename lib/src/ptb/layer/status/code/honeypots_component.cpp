@@ -127,21 +127,22 @@ void ptb::honeypots_component::on_count_change()
       (get_position().y, get_active_position().y, 0.5,
        boost::bind
        ( &ptb::status_component::on_y_position_update,
-         this, _1 ), &claw::tween::easing_back::ease_out ) );
+         this, boost::placeholders::_1 ),
+       &claw::tween::easing_back::ease_out ) );
 
   tween.insert
     ( claw::tween::single_tweener
       (get_active_position().y, get_active_position().y, 2,
        boost::bind
        ( &ptb::status_component::on_y_position_update,
-	 this, _1 ), &claw::tween::easing_back::ease_in ) );
+	 this, boost::placeholders::_1 ), &claw::tween::easing_back::ease_in ) );
   
   tween.insert
     ( claw::tween::single_tweener
       (get_active_position().y, get_inactive_position().y, 0.5,
        boost::bind
        ( &ptb::status_component::on_y_position_update,
-	 this, _1 ), &claw::tween::easing_back::ease_in ) );
+	 this, boost::placeholders::_1 ), &claw::tween::easing_back::ease_in ) );
   
   add_tweener( tween );
 } // honeypots_component::on_count_change()

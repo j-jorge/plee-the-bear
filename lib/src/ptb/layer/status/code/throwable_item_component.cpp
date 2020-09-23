@@ -175,13 +175,13 @@ void ptb::throwable_item_component::init_signals()
     ( get_player().get_throwable_items().throwable_item_changed.connect
       ( boost::bind
         (&ptb::throwable_item_component::on_throwable_item_changed,
-         this, _1) ) );
+         this, boost::placeholders::_1) ) );
   
   add_signal
     ( get_player().get_throwable_items().throwable_item_stock_changed.connect
       ( boost::bind
         (&ptb::throwable_item_component::on_throwable_item_stock_changed,
-         this, _1) ) );
+         this, boost::placeholders::_1) ) );
 
   add_signal
     ( get_player().get_throwable_items().throwable_item_no_stock.connect
@@ -192,26 +192,30 @@ void ptb::throwable_item_component::init_signals()
     ( bear::engine::game::get_instance().listen_bool_variable_change
       ( game_variables::get_air_power_variable_name(get_player().get_index()),
         boost::bind
-        ( &throwable_item_component::on_power_changed, this, _1, "air") ) );
+        ( &throwable_item_component::on_power_changed, this,
+          boost::placeholders::_1, "air") ) );
 
   add_signal
     ( bear::engine::game::get_instance().listen_bool_variable_change
       ( game_variables::get_fire_power_variable_name(get_player().get_index()),
         boost::bind
-        ( &throwable_item_component::on_power_changed, this, _1, "fire") ) );
+        ( &throwable_item_component::on_power_changed, this,
+          boost::placeholders::_1, "fire") ) );
 
   add_signal
     ( bear::engine::game::get_instance().listen_bool_variable_change
       ( game_variables::get_water_power_variable_name(get_player().get_index()),
         boost::bind
-        ( &throwable_item_component::on_power_changed, this, _1, "water") ) );
+        ( &throwable_item_component::on_power_changed, this,
+          boost::placeholders::_1, "water") ) );
 
   add_signal
     ( bear::engine::game::get_instance().listen_uint_variable_change
       ( game_variables::get_stones_count_variable_name
         (get_player().get_index()),
         boost::bind
-        ( &throwable_item_component::on_stones_stock_changed, this, _1) ) );
+        ( &throwable_item_component::on_stones_stock_changed, this,
+          boost::placeholders::_1) ) );
 } // throwable_item_component::init_signals()
 
 /*----------------------------------------------------------------------------*/
@@ -324,21 +328,22 @@ void ptb::throwable_item_component::on_throwable_item_changed()
       (get_position().x, get_active_position().x, 0.3,
        boost::bind
        ( &ptb::status_component::on_x_position_update,
-         this, _1 ), &claw::tween::easing_back::ease_out ) );
+         this, boost::placeholders::_1 ),
+       &claw::tween::easing_back::ease_out ) );
 
   tween.insert
     ( claw::tween::single_tweener
       (get_active_position().x, get_active_position().x, 1,
        boost::bind
        ( &ptb::status_component::on_x_position_update,
-	 this, _1 ), &claw::tween::easing_back::ease_in ) );
+	 this, boost::placeholders::_1 ), &claw::tween::easing_back::ease_in ) );
   
   tween.insert
     ( claw::tween::single_tweener
       (get_active_position().x, get_inactive_position().x, 0.5,
        boost::bind
        ( &ptb::status_component::on_x_position_update,
-	 this, _1 ), &claw::tween::easing_back::ease_in ) );
+	 this, boost::placeholders::_1 ), &claw::tween::easing_back::ease_in ) );
 
   add_tweener( tween ); 
 } // throwable_item_component::on_throwable_item_changed()

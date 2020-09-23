@@ -175,7 +175,7 @@ void ptb::corrupting_bonus_component::init_signals()
       ( game_variables::get_corrupting_bonus_count_variable_name(),
         boost::bind
         (&ptb::corrupting_bonus_component::on_corrupting_bonus_updated,
-         this, _1) ) );
+         this, boost::placeholders::_1) ) );
 } // corrupting_bonus_component::init_signals()
 
 /*----------------------------------------------------------------------------*/
@@ -239,21 +239,24 @@ void ptb::corrupting_bonus_component::move()
       (get_position().y, get_active_position().y, 0.3,
        boost::bind
        ( &ptb::status_component::on_y_position_update,
-         this, _1 ), &claw::tween::easing_back::ease_out ) );
+         this, boost::placeholders::_1 ),
+       &claw::tween::easing_back::ease_out ) );
   
   tween.insert
 	( claw::tween::single_tweener
 	  (get_active_position().y, get_active_position().y, 1,
 	   boost::bind
 	   ( &ptb::status_component::on_y_position_update,
-	     this, _1 ), &claw::tween::easing_back::ease_in ) );
+	     this, boost::placeholders::_1 ),
+       &claw::tween::easing_back::ease_in ) );
       
   tween.insert
     ( claw::tween::single_tweener
       (get_active_position().y, get_inactive_position().y, 0.5,
        boost::bind
        ( &ptb::status_component::on_y_position_update,
-	 this, _1 ), &claw::tween::easing_back::ease_in ) );
+         this, boost::placeholders::_1 ),
+       &claw::tween::easing_back::ease_in ) );
 
   add_tweener( tween );
 } // corrupting_bonus_component::move()
@@ -271,21 +274,24 @@ void ptb::corrupting_bonus_component::change_scale()
       (1, 1, 0.3,
        boost::bind
        (&ptb::corrupting_bonus_component::on_corrupting_bonus_scale_update,
-	this, _1 ), &claw::tween::easing_back::ease_out ) );
+        this, boost::placeholders::_1 ),
+       &claw::tween::easing_back::ease_out ) );
   
   tween.insert
     ( claw::tween::single_tweener
       (1, 1.5, 0.3,
        boost::bind
        (&ptb::corrupting_bonus_component::on_corrupting_bonus_scale_update,
-	this, _1 ), &claw::tween::easing_back::ease_out ) );
+        this, boost::placeholders::_1 ),
+       &claw::tween::easing_back::ease_out ) );
   
   tween.insert
     ( claw::tween::single_tweener
       (1.5, 1, 0.3,
        boost::bind
        (&ptb::corrupting_bonus_component::on_corrupting_bonus_scale_update,
-	this, _1 ), &claw::tween::easing_back::ease_in ) );
+        this, boost::placeholders::_1 ),
+       &claw::tween::easing_back::ease_in ) );
   
   add_tweener( tween );
 } // corrupting_bonus_component::change_scale()

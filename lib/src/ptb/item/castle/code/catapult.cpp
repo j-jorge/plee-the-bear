@@ -253,7 +253,8 @@ void ptb::catapult::start_throw()
      (m_arm_angle, -1.57+m_stop_angle, 0.1,
        boost::bind
        ( &catapult::on_arm_angle_update,
-	 this, _1 ), &claw::tween::easing_linear::ease_out ) );
+         this, boost::placeholders::_1 ),
+       &claw::tween::easing_linear::ease_out ) );
   m_arm_angle_tweener.insert
     (claw::tween::single_tweener
      (m_arm_angle, 0, 0.5,
@@ -282,7 +283,8 @@ void ptb::catapult::cancel()
      (m_arm_angle, m_arm_angle-0.2, 0.05,
        boost::bind
        ( &catapult::on_arm_angle_update,
-	 this, _1 ), &claw::tween::easing_linear::ease_out ) );
+         this, boost::placeholders::_1 ),
+       &claw::tween::easing_linear::ease_out ) );
   m_arm_angle_tweener.insert
     (claw::tween::single_tweener
      (m_arm_angle, 0, 0.5,
@@ -351,25 +353,29 @@ void ptb::catapult::create_stop_angle_tweener()
      (0, -s_initial_stop_angle, 0.3,
        boost::bind
        ( &catapult::on_stop_angle_update,
-	 this, _1 ), &claw::tween::easing_cubic::ease_in ) );
+         this, boost::placeholders::_1 ),
+       &claw::tween::easing_cubic::ease_in ) );
   m_stop_angle_tweener.insert
     (claw::tween::single_tweener
      (-s_initial_stop_angle, 0, 0.3,
        boost::bind
        ( &catapult::on_stop_angle_update,
-	 this, _1 ), &claw::tween::easing_cubic::ease_out ) );
+         this, boost::placeholders::_1 ),
+       &claw::tween::easing_cubic::ease_out ) );
   m_stop_angle_tweener.insert
     (claw::tween::single_tweener
      (0, s_initial_stop_angle, 0.3,
        boost::bind
        ( &catapult::on_stop_angle_update,
-	 this, _1 ), &claw::tween::easing_cubic::ease_in ) );
+         this, boost::placeholders::_1 ),
+       &claw::tween::easing_cubic::ease_in ) );
   m_stop_angle_tweener.insert
     (claw::tween::single_tweener
      (s_initial_stop_angle, 0, 0.3,
        boost::bind
        ( &catapult::on_stop_angle_update,
-	 this, _1 ), &claw::tween::easing_cubic::ease_out ) ); 
+	     this, boost::placeholders::_1 ),
+       &claw::tween::easing_cubic::ease_out ) );
 } // catapult::create_stop_angle_tweener()
 
 /*----------------------------------------------------------------------------*/
@@ -384,13 +390,15 @@ void ptb::catapult::create_arm_angle_tweener()
      (m_arm_angle, s_minimal_arm_angle, 1,
        boost::bind
        ( &catapult::on_arm_angle_update,
-	 this, _1 ), &claw::tween::easing_cubic::ease_in ) );
+         this, boost::placeholders::_1 ),
+       &claw::tween::easing_cubic::ease_in ) );
   m_arm_angle_tweener.insert
     (claw::tween::single_tweener
      (s_minimal_arm_angle, s_maximal_arm_angle, 1,
        boost::bind
        ( &catapult::on_arm_angle_update,
-	 this, _1 ), &claw::tween::easing_cubic::ease_out ) );
+         this, boost::placeholders::_1 ),
+       &claw::tween::easing_cubic::ease_out ) );
 } // catapult::create_arm_angle_tweener()
 
 /*----------------------------------------------------------------------------*/
@@ -405,13 +413,14 @@ void ptb::catapult::init_angle()
      (m_arm_angle, s_maximal_arm_angle, 0.5,
        boost::bind
        ( &catapult::on_arm_angle_update,
-	 this, _1 ), &claw::tween::easing_linear::ease_in ) );
+         this, boost::placeholders::_1 ),
+       &claw::tween::easing_linear::ease_in ) );
    m_arm_angle_tweener.insert
     (claw::tween::single_tweener
      (m_arm_angle, s_initial_arm_angle, 1,
        boost::bind
        ( &catapult::start_idle,
-	 this ), &claw::tween::easing_linear::ease_in ) );
+         this ), &claw::tween::easing_linear::ease_in ) );
 
   m_stop_angle_tweener.clear();
   m_stop_angle_tweener.insert
@@ -419,7 +428,8 @@ void ptb::catapult::init_angle()
      (m_stop_angle, 0, 0.5,
        boost::bind
        ( &catapult::on_stop_angle_update,
-	 this, _1 ), &claw::tween::easing_linear::ease_in ) );
+         this, boost::placeholders::_1 ),
+       &claw::tween::easing_linear::ease_in ) );
 } // catapult::init_angle()
 
 /*----------------------------------------------------------------------------*/
