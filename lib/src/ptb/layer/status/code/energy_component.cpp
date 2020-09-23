@@ -118,19 +118,21 @@ void ptb::energy_component::init_signals()
   add_signal
     ( get_player().get_signals().energy_added.connect
       ( boost::bind
-        (&ptb::energy_component::on_energy_added, this, _1) ) );
+        (&ptb::energy_component::on_energy_added, this,
+         boost::placeholders::_1) ) );
   
   add_signal
     ( get_player().get_signals().energy_removed.connect
       ( boost::bind
-        (&ptb::energy_component::on_energy_removed, this, _1) ) );
+        (&ptb::energy_component::on_energy_removed, this,
+         boost::placeholders::_1) ) );
 
   add_signal
     ( bear::engine::game::get_instance().listen_double_variable_change
       ( game_variables::get_max_energy_variable_name(get_player().get_index()),
         boost::bind
         (&ptb::energy_component::on_max_energy_added,
-         this, _1) ) );
+         this, boost::placeholders::_1) ) );
 } // energy_component::init_signals()
 
 /*----------------------------------------------------------------------------*/
@@ -146,7 +148,8 @@ void ptb::energy_component::on_energy_changed()
       (get_position().y, get_active_position().y, 0.3,
        boost::bind
        ( &ptb::status_component::on_y_position_update,
-         this, _1 ), &claw::tween::easing_back::ease_out ) );
+         this, boost::placeholders::_1 ),
+       &claw::tween::easing_back::ease_out ) );
 
   if ( ! m_energy.is_critical() )
     {
@@ -155,14 +158,16 @@ void ptb::energy_component::on_energy_changed()
 	  (get_active_position().y, get_active_position().y, 1,
 	   boost::bind
 	   ( &ptb::status_component::on_y_position_update,
-	     this, _1 ), &claw::tween::easing_back::ease_in ) );
+	     this, boost::placeholders::_1 ),
+       &claw::tween::easing_back::ease_in ) );
       
       tween.insert
 	( claw::tween::single_tweener
 	  (get_active_position().y, get_inactive_position().y, 0.5,
 	   boost::bind
 	   ( &ptb::status_component::on_y_position_update,
-	     this, _1 ), &claw::tween::easing_back::ease_in ) );
+	     this, boost::placeholders::_1 ),
+       &claw::tween::easing_back::ease_in ) );
     }
 
   add_tweener( tween );
@@ -203,7 +208,8 @@ void ptb::energy_component::on_max_energy_added(double e)
       (m_energy.length(), e, 1,
        boost::bind
        ( &ptb::energy_component::on_max_energy_length_update,
-         this, _1 ), &claw::tween::easing_elastic::ease_out ) );
+         this, boost::placeholders::_1 ),
+       &claw::tween::easing_elastic::ease_out ) );
 } // energy_component::on_max_energy_added()
 
 /*----------------------------------------------------------------------------*/

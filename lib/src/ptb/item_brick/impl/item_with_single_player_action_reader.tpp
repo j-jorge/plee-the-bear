@@ -52,7 +52,7 @@ void ptb::item_with_single_player_action_reader<Base>::on_enters_layer()
       m_client_observer.subscribe<player_action_message>
 	( boost::bind
 	  ( &item_with_single_player_action_reader<Base>::on_message,
-	    this, _1 ) );
+	    this, boost::placeholders::_1 ) );
     }
 } // item_with_single_player_action_reader::on_enters_layer()
 

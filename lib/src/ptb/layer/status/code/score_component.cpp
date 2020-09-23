@@ -109,7 +109,7 @@ void ptb::score_component::init_signals()
       ( game_variables::get_score_variable_name(get_player().get_index()),
         boost::bind
         (&ptb::score_component::on_score_changed,
-         this, _1) ) );
+         this, boost::placeholders::_1) ) );
 } // score_component::init_signals()
 
 /*----------------------------------------------------------------------------*/
@@ -133,21 +133,22 @@ void ptb::score_component::on_score_changed(unsigned int s)
       (get_position().x, get_active_position().x, 0.3,
        boost::bind
        ( &ptb::status_component::on_x_position_update,
-         this, _1 ), &claw::tween::easing_back::ease_out ) );
+         this, boost::placeholders::_1 ),
+       &claw::tween::easing_back::ease_out ) );
 
   tween.insert
     ( claw::tween::single_tweener
       (get_active_position().x, get_active_position().x, 1,
        boost::bind
        ( &ptb::status_component::on_x_position_update,
-	 this, _1 ), &claw::tween::easing_back::ease_in ) );
+	 this, boost::placeholders::_1 ), &claw::tween::easing_back::ease_in ) );
   
   tween.insert
     ( claw::tween::single_tweener
       (get_active_position().x, get_inactive_position().x, 0.5,
        boost::bind
        ( &ptb::status_component::on_x_position_update,
-	 this, _1 ), &claw::tween::easing_back::ease_in ) );
+	 this, boost::placeholders::_1 ), &claw::tween::easing_back::ease_in ) );
   
   add_tweener( tween );
 } // score_component::on_score_changed()

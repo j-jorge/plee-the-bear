@@ -209,7 +209,8 @@ void ptb::status_layer::player_status::progress_notification
              (notification.height()+s_margin, -1, 0.5,
               boost::bind
               ( &player_status::on_notification_position_update,
-                this, _1 ), &claw::tween::easing_back::ease_in ) );
+                this, boost::placeholders::_1 ),
+              &claw::tween::easing_back::ease_in ) );
       }
     }
 } // player_status::progress_notification
@@ -234,14 +235,16 @@ void ptb::status_layer::player_status::create_notification()
        (0, notification.height()+s_margin, 0.5,
         boost::bind
         (&player_status::on_notification_position_update,
-         this, _1 ), &claw::tween::easing_back::ease_out ) );
+         this, boost::placeholders::_1 ),
+        &claw::tween::easing_back::ease_out ) );
       
    m_notification_tweener.insert
       (claw::tween::single_tweener
        (notification.height()+s_margin, notification.height()+s_margin,1,
         boost::bind
         (&player_status::on_notification_position_update,
-         this, _1 ), &claw::tween::easing_linear::ease_out ) );     
+         this, boost::placeholders::_1 ),
+        &claw::tween::easing_linear::ease_out ) );
 } // player_status::create_notification()
 
 /*----------------------------------------------------------------------------*/

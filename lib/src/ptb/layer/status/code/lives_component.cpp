@@ -120,7 +120,8 @@ void ptb::lives_component::init_signals()
       ( game_variables::get_lives_count_variable_name
 	(get_player().get_index()),
         boost::bind
-        (&ptb::lives_component::on_lives_changed,this, _1) ) );
+        (&ptb::lives_component::on_lives_changed,this,
+         boost::placeholders::_1) ) );
 } // lives_component::init_signals()
 
 /*----------------------------------------------------------------------------*/
@@ -159,19 +160,22 @@ void ptb::lives_component::on_lives_changed(unsigned int s)
       (1, 1, 0.5,
        boost::bind
        ( &ptb::lives_component::on_lives_scale_update,
-         this, _1 ), &claw::tween::easing_back::ease_out ) );
+         this, boost::placeholders::_1 ),
+       &claw::tween::easing_back::ease_out ) );
   tween.insert
     ( claw::tween::single_tweener
       (1, 1.5, 0.5,
        boost::bind
        ( &ptb::lives_component::on_lives_scale_update,
-         this, _1 ), &claw::tween::easing_back::ease_out ) );
+         this, boost::placeholders::_1 ),
+       &claw::tween::easing_back::ease_out ) );
   tween.insert
     ( claw::tween::single_tweener
       (1.5, 1, 0.5,
        boost::bind
        ( &ptb::lives_component::on_lives_scale_update,
-         this, _1 ), &claw::tween::easing_back::ease_in ) );
+         this, boost::placeholders::_1 ),
+       &claw::tween::easing_back::ease_in ) );
 
   add_tweener( tween );
 
@@ -182,21 +186,22 @@ void ptb::lives_component::on_lives_changed(unsigned int s)
       (get_position().x, get_active_position().x, 0.3,
        boost::bind
        ( &ptb::status_component::on_x_position_update,
-         this, _1 ), &claw::tween::easing_back::ease_out ) );
+         this, boost::placeholders::_1 ),
+       &claw::tween::easing_back::ease_out ) );
 
   tween2.insert
     ( claw::tween::single_tweener
       (get_active_position().x, get_active_position().x, 2,
        boost::bind
        ( &ptb::status_component::on_x_position_update,
-	 this, _1 ), &claw::tween::easing_back::ease_in ) );
+	 this, boost::placeholders::_1 ), &claw::tween::easing_back::ease_in ) );
   
   tween2.insert
     ( claw::tween::single_tweener
       (get_active_position().x, get_inactive_position().x, 0.5,
        boost::bind
        ( &ptb::status_component::on_x_position_update,
-	 this, _1 ), &claw::tween::easing_back::ease_in ) );
+	 this, boost::placeholders::_1 ), &claw::tween::easing_back::ease_in ) );
   
   add_tweener( tween2 );
 } // lives_component::on_lives_changed()

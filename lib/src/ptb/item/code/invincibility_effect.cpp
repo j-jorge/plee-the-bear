@@ -74,7 +74,7 @@ void ptb::invincibility_effect::create_star()
     ( 1, 0, 0.4,
       boost::bind
       ( &bear::visual::bitmap_rendering_attributes::set_opacity,
-        &(s->get_rendering_attributes()), _1 ), 
+        &(s->get_rendering_attributes()), boost::placeholders::_1 ),
       &claw::tween::easing_linear::ease_in );
 
   bear::tweener_item* t = new bear::tweener_item(tweener, s, true);
